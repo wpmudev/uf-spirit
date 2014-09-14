@@ -1,0 +1,18 @@
+#page .footer-search input.search-field {
+   color: #414042; 
+   font: italic 14px Open Sans, Arial;
+   padding: 8px 10px;
+   border-radius: 2px;
+   border: 1px solid #4f7e7d;
+   width: 170px;
+}
+#page .footer-search i.icon-search {
+    margin-left: 160px;
+    position: relative;
+    background: url(../wp-content/themes/Spirit/images/sprite.png) left -200px no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+    float: left;
+    margin-top: -30px;
+}

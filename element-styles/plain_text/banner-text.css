@@ -1,0 +1,8 @@
+#page .banner-text p {
+font: 300 22px/50px 'Open Sans', Arial;
+text-transform: uppercase;
+}
+#page .banner-text .aligncenter {
+ text-align: center;
+ width: auto;
+}

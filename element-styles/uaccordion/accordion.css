@@ -1,0 +1,10 @@
+#page .accordion .accordion-panel-title {
+ color: #FFF;   
+ padding: 15px;
+ font: 600 26px Open Sans, Arial;
+ text-align: center;
+ margin-top: 2px;
+}
+#page .accordion .accordion-panel-active .accordion-panel-title, #page .accordion .accordion-panel-title:hover {
+  background: #97d8d6;
+}
