@@ -1,7 +1,84 @@
 /*
-Theme Name:Spirit for Upfront
+Theme Name:Spirit
 Template: upfront
-Author: WPMUdev
-Author URI: http://premium.wpmudev.org
+Author: wpmudev
+Author URI: https://premium.wpmudev.org/
 */
 @import url(../upfront/style.css);
+
+html {
+	-webkit-transition: all 0.3s; 
+  transition: all 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0 auto;
+}
+
+a,
+.accordion-header {
+	-webkit-transition: background-color 0.3s; 
+  transition: background-color 0.3s;
+}
+
+.right-arrow a, 
+.right-arrow a:after, 
+input,
+#page .inline-gallery .ugallery_item a:hover img.ugallery-image {
+	-webkit-transition: all 0.3s; 
+  transition: all 0.3s;	
+}
+
+a {
+	color: #25b5ed;
+	text-decoration: none;
+	letter-spacing: -0.5px;
+}
+
+a:hover {
+	color: #1aa3d8;
+	text-decoration: underline;
+}
+
+.upfront-output-object {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.upfront-plain_txt p {
+	line-height: 30px;
+}
+
+.upfront-edit-theme .accordion-content { 
+	display: block;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+
+#page.upfront-layout-view .accordion-content { display: block !important; }
+
+@media (max-width: 990px) {
+	.upfront-output-object h1 { font-size: 98px; }	
+}
+@media (max-width: 810px) {
+	.upfront-output-object h1 { font-size: 94px; }	
+}
+@media (max-width: 720px) {
+	.upfront-output-object h1 { font-size: 88px; }	
+}
+@media (max-width: 630px) {
+	.upfront-output-object h1 { font-size: 78px; }	
+}
+@media (max-width: 570px) {
+	.upfront-output-object h1 { font-size: 70px; }	
+}
+@media (max-width: 450px) {
+	.upfront-output-object h1 { font-size: 40px; }	
+}
+
+.fixed_menu {
+	position: fixed !important;
+	top: 0px;
+	width: 100%;
+}

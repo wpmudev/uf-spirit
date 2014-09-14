@@ -1,0 +1,7 @@
+#page .small-logo .upfront-image-container {
+    line-height: 60px;
+    height: 60px;
+}
+#page .small-logo .upfront-image-container img {
+    vertical-align: middle;
+}

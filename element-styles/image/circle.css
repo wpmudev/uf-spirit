@@ -1,0 +1,8 @@
+#page .circle .upfront-image-container {
+ padding: 4px;
+ border: 1px solid #a89084;   
+ border-radius: 100%;
+}
+#page .circle img {
+ border-radius: 100%;
+}

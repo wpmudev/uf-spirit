@@ -1,0 +1,35 @@
+#page .inline-gallery {
+	text-align: center;
+}
+#page .inline-gallery .ugallery_item {
+  margin-left: 6px !important;
+  margin-right: 6px !important;
+}
+#page .inline-gallery .ugallery_item a {
+  overflow: hidden;
+  display: block;
+}
+#page .inline-gallery .ugallery_item a:hover img.ugallery-image {
+    -webkit-filter: blur(2px); 
+    -moz-filter: blur(2px); 
+    -o-filter: blur(2px); 
+    -ms-filter: blur(2px); 
+    filter: blur(2px); 
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=2);
+}
+#page .inline-gallery .ugallery_item a:hover:before, #page .inline-gallery .ugallery_item a:hover:after {
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 180px;
+ height: 180px;
+ display: block;
+}
+#page .inline-gallery .ugallery_item a:hover:before {
+ content: " ";
+ background: rgba(48,48,48,0.4);
+}
+#page .inline-gallery .ugallery_item a:hover:after {
+ content: " " ;   
+ background: url(../wp-content/themes/Spirit/images/sprite.png) center -285px;
+}

@@ -1,0 +1,12 @@
+.post_title a {
+	font: 600 26px/1.1em Open Sans, Arial;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+
+.post_title a:hover {
+	color: #548685;
+	text-decoration: none;
+}

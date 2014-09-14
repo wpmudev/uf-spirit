@@ -1,0 +1,13 @@
+#page .big-button a {
+    background:#69a8a6;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border-bottom:3px solid #4f7e7d;
+    padding: 8px 25px;
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+}
+#page .big-button a:hover {
+    background: #4f7e7d;
+}

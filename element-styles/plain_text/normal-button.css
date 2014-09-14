@@ -1,0 +1,13 @@
+#page .normal-button a {
+ background-color: #69a8a6;   
+ color: #FFFFFF;
+ border-radius: 4px;
+ font: italic 16px/16px 'Open Sans', Arial;
+ text-align: center;
+ padding: 8px 25px;
+ display: inline-block; 
+ text-decoration: none;
+}
+#page .normal-button a:hover {
+ background-color: #4f7e7d;
+}

@@ -1,0 +1,8 @@
+#page .breadcrumbs p {
+     margin-top: 15px;
+     font: 13px Oswald, Arial;
+     color: #a89084;
+}
+#page .breadcrumbs p a {
+    color: #434343;
+}
