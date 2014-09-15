@@ -47,6 +47,13 @@ $region_3 = upfront_create_region(
 	"custom-1408718098456" => array(
 		"edited" => true, 
 		"row" => 94
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => true, 
+		"row" => 94
 		)
 	)
 )
@@ -56,7 +63,7 @@ $region_3->add_element("PlainTxt", array(
 "columns" => "22", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "11", 
+"margin_top" => "35", 
 "margin_bottom" => "0", 
 "id" => "module-1408525024897-1934", 
 "rows" => 16, 
@@ -72,6 +79,7 @@ $region_3->add_element("PlainTxt", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1408525051645-1279", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -94,14 +102,26 @@ $region_3->add_element("PlainTxt", array(
 		"col" => 14
 		), 
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"top" => 11
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 10
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
+		), 
+	"mobile" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 7, 
+		"top" => 14
 		)
 	)
 ));
@@ -110,7 +130,7 @@ $region_3->add_element("Code", array(
 "columns" => "8", 
 "margin_left" => "8", 
 "margin_right" => "0", 
-"margin_top" => "6", 
+"margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1408622871360-1289", 
 "rows" => 32, 
@@ -237,6 +257,7 @@ $region_3->add_element("Code", array(
 	"row" => 26
 	), 
 "wrapper_id" => "wrapper-1408622963086-1817", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -267,6 +288,16 @@ $region_3->add_element("Code", array(
 		"edited" => false, 
 		"left" => 1, 
 		"col" => 8
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 5, 
+		"col" => 8
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));

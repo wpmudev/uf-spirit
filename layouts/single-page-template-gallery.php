@@ -1,41 +1,4 @@
 <?php
-$header_nav = upfront_create_region(
-			array(
-"name" => "header_nav", 
-"title" => "Header Nav", 
-"type" => "wide", 
-"scope" => "global", 
-"container" => "header", 
-"sub" => "top", 
-"position" => 1, 
-"allow_sidebar" => true
-),
-			array(
-"breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => false
-		), 
-	"custom-1408717918354" => array(
-		"edited" => false
-		), 
-	"custom-1408717978058" => array(
-		"edited" => false
-		), 
-	"custom-1408718022181" => array(
-		"edited" => false
-		), 
-	"tablet" => array(
-		"edited" => false
-		), 
-	"custom-1408718098456" => array(
-		"edited" => false
-		)
-	)
-)
-			);
-
-$regions->add($header_nav);
-
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $region_3 = upfront_create_region(
@@ -68,6 +31,12 @@ $region_3 = upfront_create_region(
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
 		)
 	)
 )
@@ -77,7 +46,7 @@ $region_3->add_element("PlainTxt", array(
 "columns" => "22", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "16", 
+"margin_top" => "28", 
 "margin_bottom" => "0", 
 "id" => "module-1408528105336-1414", 
 "rows" => 10, 
@@ -93,6 +62,7 @@ $region_3->add_element("PlainTxt", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1408528213095-1209", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -115,14 +85,27 @@ $region_3->add_element("PlainTxt", array(
 		"col" => 14
 		), 
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"top" => 15
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 10
+		), 
+	"mobile" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 7, 
+		"top" => 19
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 18, 
+		"top" => 12
 		)
 	)
 ));
@@ -185,6 +168,7 @@ $region_3->add_element("Uimage", array(
 	"row" => 2
 	), 
 "wrapper_id" => "wrapper-1408528326968-1084", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -214,6 +198,16 @@ $region_3->add_element("Uimage", array(
 	"custom-1408718098456" => array(
 		"edited" => false, 
 		"left" => 3, 
+		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
 		"col" => 4
 		)
 	)
@@ -245,6 +239,7 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408525441545-1325", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -275,6 +270,16 @@ $region_3->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 10
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -311,6 +316,12 @@ $region_4 = upfront_create_region(
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
 		)
 	)
 )
@@ -332,56 +343,57 @@ $region_4->add_element("Ugallery", array(
 	"id_slug" => "ugallery", 
 	"status" => "ok", 
 	"images" => array(array(
-			"id" => "100", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1 (1).jpg", 
+			"id" => "126", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1.jpg", 
 			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1 (1)-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1 (1).jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1 (1).jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1 (1).jpg", 180, 180, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1.jpg", 180, 180, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1.jpg", 180, 180, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1.jpg", 180, 180, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1 (1)-140x140-9117.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1 (1).jpg", 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1-160x160-9740.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1.jpg", 
 					"full" => array(
 						"width" => 180, 
 						"height" => 180
 						), 
 					"crop" => array(
-						"width" => 140, 
-						"height" => 140
+						"width" => 160, 
+						"height" => 160
 						), 
 					"editdata" => array(
 						"rotate" => 0, 
 						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
+							"width" => "160", 
+							"height" => "160", 
 							"left" => 0, 
 							"top" => 0
 							), 
 						"resize" => array(
-							"width" => 140, 
-							"height" => 140
+							"width" => 160, 
+							"height" => 160
 							), 
-						"id" => 100
+						"id" => 126, 
+						"element_id" => "ugallery-object-1408533534917-1262"
 						)
 					)
 				), 
 			"size" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 155, 
+				"height" => 155
 				), 
 			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
+				"width" => 160, 
+				"height" => 160
 				), 
 			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
+				"width" => "160", 
+				"height" => "160", 
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1 (1)-180x180-4342.jpg", 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-gallery/photo1-155x155-4800.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1408533534917-1262", 
@@ -1373,12 +1385,12 @@ $region_4->add_element("Ugallery", array(
 		), 
 	"labelFilters" => array(), 
 	"thumbProportions" => "1", 
-	"thumbWidth" => "180", 
-	"thumbHeight" => 180, 
+	"thumbWidth" => "155", 
+	"thumbHeight" => 155, 
 	"captionPosition" => "below", 
 	"captionColor" => "#ffffff", 
-	"captionUseBackground" => 0, 
-	"captionBackground" => "#000000", 
+	"captionUseBackground" => true, 
+	"captionBackground" => "rgb(134, 184, 183)", 
 	"captionWhen" => "never", 
 	"linkTo" => "image", 
 	"element_id" => "ugallery-object-1408533534917-1262", 
@@ -1417,6 +1429,16 @@ $region_4->add_element("Ugallery", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 10
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -1453,6 +1475,12 @@ $region_5 = upfront_create_region(
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
 		)
 	)
 )
@@ -1481,7 +1509,12 @@ $region_5->add_element("PlainTxt", array(
 	"border_color" => "", 
 	"bg_color" => "", 
 	"theme_style" => "divider", 
-	"anchor" => ""
+	"anchor" => "", 
+	"breakpoint" => array(
+		"custom-1410783042947" => array(
+			"row" => 4
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1408533969724-1331", 
 "breakpoint" => array(
@@ -1514,6 +1547,18 @@ $region_5->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 10
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 2, 
+		"col" => 14, 
+		"row" => 10, 
+		"top" => 11
 		)
 	)
 ));
@@ -1592,6 +1637,16 @@ $region_5->add_element("Code", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 10
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -1645,6 +1700,16 @@ $region_5->add_element("PlainTxt", array(
 	"custom-1408718098456" => array(
 		"edited" => false, 
 		"left" => 3, 
+		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
 		"col" => 4
 		)
 	)
@@ -1738,6 +1803,16 @@ $region_5->add_element("Uimage", array(
 		"edited" => false, 
 		"left" => 3, 
 		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4
 		)
 	)
 ));
@@ -1798,6 +1873,16 @@ $region_5->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 10
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -1833,6 +1918,13 @@ $region_7 = upfront_create_region(
 		"edited" => false
 		), 
 	"custom-1408718098456" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => true, 
+		"row" => 159
+		), 
+	"custom-1410783042947" => array(
 		"edited" => false
 		)
 	)
@@ -1874,7 +1966,27 @@ $region_7->add_element("Uaccordion", array(
 	"row" => 39, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1410423443065-1968"
+"wrapper_id" => "wrapper-1410423443065-1968", 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 12, 
+		"top" => 0
+		), 
+	"mobile" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 7, 
+		"top" => 0
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 18, 
+		"top" => 0
+		)
+	)
 ));
 
 $regions->add($region_7);

@@ -34,6 +34,12 @@ $footer = upfront_create_region(
 		), 
 	"mobile" => array(
 		"edited" => false
+		), 
+	"custom-1410780542364" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
 		)
 	)
 )
@@ -78,6 +84,9 @@ $footer->add_element("PlainTxt", array(
 			), 
 		"custom-1408718098456" => array(
 			"row" => 5
+			), 
+		"custom-1410783042947" => array(
+			"row" => 4
 			)
 		)
 	), 
@@ -134,6 +143,18 @@ $footer->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 2, 
 		"col" => 3
+		), 
+	"custom-1410780542364" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 3
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 1, 
+		"col" => 16, 
+		"row" => 10, 
+		"top" => 5
 		)
 	)
 ));
@@ -226,6 +247,10 @@ $footer->add_element("Unewnavigation", array(
 		"custom-1408718098456" => array(
 			"row" => 4, 
 			"width" => 450
+			), 
+		"custom-1410783042947" => array(
+			"row" => 4, 
+			"width" => 810
 			)
 		)
 	), 
@@ -283,6 +308,18 @@ $footer->add_element("Unewnavigation", array(
 		"left" => 1, 
 		"col" => 5, 
 		"top" => 0
+		), 
+	"custom-1410780542364" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 5, 
+		"col" => 8, 
+		"top" => 0, 
+		"row" => 10
 		)
 	)
 ));
@@ -375,6 +412,18 @@ $footer->add_element("PlainTxt", array(
 		"left" => 0, 
 		"col" => 7, 
 		"hide" => 1
+		), 
+	"custom-1410780542364" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 8
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 5, 
+		"col" => 8, 
+		"hide" => 1, 
+		"top" => 0
 		)
 	)
 ));
@@ -455,6 +504,18 @@ $footer->add_element("Usearch", array(
 		"left" => 1, 
 		"col" => 5, 
 		"hide" => 1
+		), 
+	"custom-1410780542364" => array(
+		"edited" => false, 
+		"left" => 6, 
+		"col" => 6
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 6, 
+		"col" => 5, 
+		"hide" => 1, 
+		"top" => 0
 		)
 	)
 ));
@@ -543,6 +604,16 @@ $(window).scroll(function(){
 		"left" => 0, 
 		"col" => 7, 
 		"row" => 18
+		), 
+	"custom-1410780542364" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));

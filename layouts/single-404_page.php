@@ -29,6 +29,9 @@ $header_nav = upfront_create_region(
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
 		)
 	)
 )
