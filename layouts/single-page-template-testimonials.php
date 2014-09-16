@@ -42,19 +42,19 @@ $region_5 = upfront_create_region(
 		), 
 	"tablet" => array(
 		"edited" => true, 
-		"row" => 29
+		"row" => 39
 		), 
 	"custom-1408718098456" => array(
 		"edited" => true, 
 		"row" => 19, 
 		"hide" => 1
 		), 
-	"mobile" => array(
-		"edited" => true, 
-		"row" => 29
-		), 
 	"custom-1410783042947" => array(
 		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => true, 
+		"row" => 34
 		)
 	)
 )
@@ -64,7 +64,7 @@ $region_5->add_element("PlainTxt", array(
 "columns" => "22", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "18", 
+"margin_top" => "24", 
 "margin_bottom" => "0", 
 "id" => "module-1408525024897-1934", 
 "rows" => 16, 
@@ -109,7 +109,7 @@ $region_5->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"top" => 6, 
+		"top" => 17, 
 		"col" => 12
 		), 
 	"custom-1408718098456" => array(
@@ -117,16 +117,17 @@ $region_5->add_element("PlainTxt", array(
 		"left" => 0, 
 		"col" => 10
 		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 18, 
+		"top" => 29
+		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"top" => 10
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 18
+		"top" => 18
 		)
 	)
 ));

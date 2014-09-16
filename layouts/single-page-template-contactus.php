@@ -105,7 +105,7 @@ $region_2->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 12, 
-		"top" => 9
+		"top" => 18
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -116,7 +116,7 @@ $region_2->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"top" => 9
+		"top" => 22
 		), 
 	"custom-1410783042947" => array(
 		"edited" => true, 
