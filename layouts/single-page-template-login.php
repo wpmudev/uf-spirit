@@ -42,7 +42,7 @@ $region_3 = upfront_create_region(
 		), 
 	"tablet" => array(
 		"edited" => true, 
-		"row" => 94
+		"row" => 109
 		), 
 	"custom-1408718098456" => array(
 		"edited" => true, 
@@ -53,7 +53,7 @@ $region_3 = upfront_create_region(
 		), 
 	"mobile" => array(
 		"edited" => true, 
-		"row" => 94
+		"row" => 117
 		)
 	)
 )
@@ -105,7 +105,7 @@ $region_3->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 12, 
-		"top" => 11
+		"top" => 19
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -121,7 +121,7 @@ $region_3->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"top" => 14
+		"top" => 22
 		)
 	)
 ));

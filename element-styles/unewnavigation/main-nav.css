@@ -14,7 +14,7 @@
 #page .main-nav ul.menu li a:after {
 	display: none;
 }
-#page .main-nav ul.menu li:hover a {
+#page .main-nav ul.menu li:hover a, #page .main-nav ul.menu li.current-menu-item a, #page .main-nav ul.menu li.current-menu-ancestor a {
    background: #4f7e7d;
 }
 #page .main-nav ul.menu li ul.sub-menu {
@@ -23,7 +23,6 @@
 #page .main-nav ul.menu li ul.sub-menu a {
 	padding: 20px 12px;
 }
-
 #page .main-nav ul.menu li:hover > ul.sub-menu {
 	display: block;
 	left: 0;
@@ -33,19 +32,16 @@
 	top: 0;
 	left: 100%;
 }
-
 #page .main-nav ul.menu li:hover > ul.sub-menu a {
 	color: #FFF;
 	background: #4f7e7d;
 	border: 0px;
 	text-align: left;
 }
-
 #page .main-nav ul.menu li:hover > ul.sub-menu a:hover {
 	background: #FFF;
 	color: #4f7e7d;
 }
-
 #page .main-nav .responsive_nav_toggler {
   border: 0px;
   padding: 20px 10px;
@@ -56,41 +52,34 @@
    background: #FFF;
    margin-bottom: 5px
 }
-#page div.main-nav div[data-style="burger"] ul.menu {
+#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu {
 	margin-top: 60px !important;
 	background: #4f7e7d;
 }
-
-#page div.main-nav div[data-style="burger"] ul.menu li ul.sub-menu,
-#page div.main-nav div[data-style="burger"] ul.menu li:hover ul.sub-menu {
+#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li ul.sub-menu, #page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li:hover ul.sub-menu {
 	display: block;
 	left: 0;
 }
-
-#page div.main-nav div[data-style="burger"] ul.menu li a {
+#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li a {
 	color: #FFF;
 	background: #4f7e7d;
 	border: 0px;
 	text-align: left;
 	padding: 15px;
 }
-
-#page div.main-nav div[data-style="burger"] ul.menu li ul.sub-menu a {
+#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li ul.sub-menu a {
 	padding-left: 30px;
 }
-#page div.main-nav div[data-style="burger"] ul.menu li ul.sub-menu li ul.sub-menu a {
+#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li ul.sub-menu li ul.sub-menu a {
 	padding-left: 60px;
 }
-
-#page div.main-nav div[data-style="burger"] ul.menu li a:hover {
+#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li a:hover {
 	color: #4f7e7d;
-	background: #FFF;	
+	background: #FFF;
 }
-
-#page div.main-nav div[data-style="burger"][ data-burger_alignment="full"] ul.menu {
+#page .main-nav #page div.main-nav div[data-style="burger"][ data-burger_alignment="full"] ul.menu {
 	top: auto;
 }
-
-#page div.main-nav div[data-style="burger"] ul.menu li {
+#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li {
 	display: block;
 }

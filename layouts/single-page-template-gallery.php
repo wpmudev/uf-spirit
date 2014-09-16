@@ -87,8 +87,7 @@ $region_3->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"col" => 12, 
-		"top" => 15
+		"col" => 12
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -98,14 +97,12 @@ $region_3->add_element("PlainTxt", array(
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"col" => 7, 
-		"top" => 19
+		"col" => 7
 		), 
 	"custom-1410783042947" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"col" => 18, 
-		"top" => 12
+		"col" => 18
 		)
 	)
 ));
@@ -1588,12 +1585,13 @@ $region_5->add_element("Code", array(
 	"row" => 24, 
 	"style" => ".right-arrow a {
  color: #000000;   
+ font-size: 17px;
 }
 .right-arrow a:after {
  content: \" \";   
  width: 20px;
  height: 20px;
- background: url(/wp-content/themes/Spirit/images/sprite.png) right -97px;
+ background: url(/Upfront/wp-content/themes/Spirit/images/sprite.png) right -97px;
  display: inline-block;
  margin: 0px 0px -4px 8px;
 }

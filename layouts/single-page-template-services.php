@@ -42,7 +42,7 @@ $region_10 = upfront_create_region(
 		), 
 	"tablet" => array(
 		"edited" => true, 
-		"row" => 29
+		"row" => 39
 		), 
 	"custom-1408718098456" => array(
 		"edited" => true, 
@@ -54,7 +54,7 @@ $region_10 = upfront_create_region(
 		), 
 	"mobile" => array(
 		"edited" => true, 
-		"row" => 29
+		"row" => 34
 		)
 	)
 )
@@ -109,7 +109,7 @@ $region_10->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"top" => 3, 
+		"top" => 17, 
 		"col" => 12
 		), 
 	"custom-1408718098456" => array(
@@ -121,13 +121,13 @@ $region_10->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 18, 
-		"top" => 20
+		"top" => 29
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"top" => 10
+		"top" => 18
 		)
 	)
 ));
@@ -569,6 +569,9 @@ $region_4->add_element("PlainTxt", array(
 			), 
 		"custom-1410783042947" => array(
 			"row" => 12
+			), 
+		"mobile" => array(
+			"row" => 34
 			)
 		)
 	), 
@@ -629,9 +632,11 @@ $region_4->add_element("PlainTxt", array(
 		"row" => 18
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 1, 
-		"col" => 5
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 7, 
+		"row" => 40, 
+		"top" => 3
 		)
 	)
 ));
@@ -666,6 +671,9 @@ $region_4->add_element("PlainTxt", array(
 			), 
 		"custom-1410783042947" => array(
 			"row" => 11
+			), 
+		"mobile" => array(
+			"row" => 12
 			)
 		)
 	), 
@@ -721,9 +729,11 @@ $region_4->add_element("PlainTxt", array(
 		"row" => 17
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 1, 
-		"col" => 5
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 7, 
+		"row" => 18, 
+		"top" => 2
 		)
 	)
 ));
@@ -758,6 +768,9 @@ $region_4->add_element("PlainTxt", array(
 			), 
 		"custom-1410783042947" => array(
 			"row" => 12
+			), 
+		"mobile" => array(
+			"row" => 13
 			)
 		)
 	), 
@@ -810,9 +823,11 @@ $region_4->add_element("PlainTxt", array(
 		"row" => 18
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 1, 
-		"col" => 5
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 7, 
+		"row" => 19, 
+		"top" => -1
 		)
 	)
 ));

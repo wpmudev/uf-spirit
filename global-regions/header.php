@@ -244,6 +244,16 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-object-id" => "113", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 6
+			), array(
+			"menu-item-db-id" => 129, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "post_type", 
+			"menu-item-title" => "Page", 
+			"menu-item-url" => "http://www.wpfw.net/Upfront/default-page/", 
+			"menu-item-object" => "page", 
+			"menu-item-object-id" => "127", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 7
 			)), 
 	"menu_style" => "vertical", 
 	"menu_alignment" => "left", 
