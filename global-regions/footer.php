@@ -6,7 +6,7 @@ $footer = upfront_create_region(
 "type" => "wide", 
 "scope" => "global", 
 "container" => "footer", 
-"position" => 20, 
+"position" => 1, 
 "allow_sidebar" => true
 ),
 			array(

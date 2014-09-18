@@ -40,32 +40,12 @@ $region_3 = upfront_create_region(
 
 $region_3->add_group(array(
 "columns" => "8", 
-"margin_top" => "35", 
+"margin_top" => "21", 
 "margin_left" => "2", 
-"id" => "module-group-1410879041126-1715", 
+"id" => "module-group-1411024470437-1633", 
 "rows" => 10, 
 "wrapper_id" => "wrapper-1410879041131-1605", 
-"new_line" => "true", 
-"breakpoint" => array(
-	"custom-1410783042947" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 8, 
-		"top" => 25
-		), 
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 2, 
-		"col" => 8, 
-		"top" => 15
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 21
-		)
-	)
+"new_line" => "true"
 ));
 
 $region_3->add_element("Uimage", array(
@@ -77,7 +57,7 @@ $region_3->add_element("Uimage", array(
 "id" => "module-1408618043051-1621", 
 "rows" => 21, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/single-404_page/404-Icon-151x62-8514.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-404_page/404-Icon-151x62-1753.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-404_page/404-Icon.png", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-404_page/404-Icon.png", 
 	"image_title" => "", 
@@ -105,7 +85,7 @@ $region_3->add_element("Uimage", array(
 	"marginTop" => 0, 
 	"element_size" => array(
 		"width" => 330, 
-		"height" => 75
+		"height" => 62
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
@@ -114,7 +94,7 @@ $region_3->add_element("Uimage", array(
 	"image_id" => "130", 
 	"align" => "center", 
 	"stretch" => false, 
-	"vstretch" => false, 
+	"vstretch" => true, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
 	"type" => "UimageModel", 
@@ -126,7 +106,7 @@ $region_3->add_element("Uimage", array(
 	"row" => 15, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1410879041173-1423", 
+"wrapper_id" => "wrapper-1411024470478-1584", 
 "new_line" => "true", 
 "breakpoint" => array(
 	"custom-1410783042947" => array(
@@ -145,7 +125,7 @@ $region_3->add_element("Uimage", array(
 		"col" => 7
 		)
 	), 
-"group" => "module-group-1410879041126-1715"
+"group" => "module-group-1411024470437-1633"
 ));
 
 $region_3->add_element("PlainTxt", array(
@@ -173,7 +153,7 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "huge-text", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1410879041178-1997", 
+"wrapper_id" => "wrapper-1411024470478-1584", 
 "new_line" => "true", 
 "breakpoint" => array(
 	"custom-1410783042947" => array(
@@ -192,7 +172,7 @@ $region_3->add_element("PlainTxt", array(
 		"col" => 7
 		)
 	), 
-"group" => "module-group-1410879041126-1715"
+"group" => "module-group-1411024470437-1633"
 ));
 
 $region_3->add_element("PlainTxt", array(
@@ -220,7 +200,7 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "medium-text", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1410879041182-1725", 
+"wrapper_id" => "wrapper-1411024470478-1584", 
 "new_line" => "true", 
 "breakpoint" => array(
 	"custom-1410783042947" => array(
@@ -239,7 +219,7 @@ $region_3->add_element("PlainTxt", array(
 		"col" => 7
 		)
 	), 
-"group" => "module-group-1410879041126-1715"
+"group" => "module-group-1411024470437-1633"
 ));
 
 $region_3->add_element("PlainTxt", array(
@@ -267,7 +247,7 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "huge-text", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1410879041184-1014", 
+"wrapper_id" => "wrapper-1411024470478-1584", 
 "new_line" => "true", 
 "breakpoint" => array(
 	"custom-1410783042947" => array(
@@ -286,13 +266,15 @@ $region_3->add_element("PlainTxt", array(
 		"col" => 7
 		)
 	), 
-"group" => "module-group-1410879041126-1715"
+"group" => "module-group-1411024470437-1633"
 ));
 
 $region_3->add_group(array(
 "columns" => "12", 
-"margin_top" => "60", 
 "margin_left" => "1", 
+"margin_right" => "0", 
+"margin_top" => "60", 
+"margin_bottom" => "0", 
 "id" => "module-group-1410879123419-1613", 
 "rows" => 10, 
 "wrapper_id" => "wrapper-1410879068397-1666", 

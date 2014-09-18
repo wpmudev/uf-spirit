@@ -70,9 +70,9 @@ $region_15->add_element("Uimage", array(
 "id" => "module-1408439677474-1148", 
 "rows" => 49, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (1)-355x215-5764.png", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (1).png", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (1).png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (2)-355x215-6171.png", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (2).png", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (2).png", 
 	"image_title" => "", 
 	"alternative_text" => "Meg Campbell", 
 	"when_clicked" => "entry", 
@@ -104,7 +104,7 @@ $region_15->add_element("Uimage", array(
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "203", 
+	"image_id" => "132", 
 	"align" => "left", 
 	"stretch" => false, 
 	"vstretch" => true, 
@@ -207,9 +207,9 @@ $region_15->add_element("PlainTxt", array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plaintxt", 
 	"has_settings" => 1, 
-	"content" => "<p style=\"text-align:center;\" class=\"\">Personal Trainer</p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-11\" style=\"width: 30px;\">
+	"content" => "<p style=\"text-align:center;\" class=\"\">Personal Trainer</p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-3\" style=\"width: 30px;\">
 	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 30px; height: 1px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/archive-home/line.png\"></span>
-</div><p style=\"text-align:center;\" class=\"\">Wellness Coach</p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-12\" style=\"width: 30px;\">
+</div><p style=\"text-align:center;\" class=\"\">Wellness Coach</p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-4\" style=\"width: 30px;\">
 	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 30px; height: 1px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/archive-home/line.png\"></span>
 </div><p style=\"text-align:center;\" class=\"\">High Performance Specialist</p>", 
 	"class" => "c24 upfront-plain_txt", 
@@ -221,7 +221,8 @@ $region_15->add_element("PlainTxt", array(
 	"border_color" => "", 
 	"bg_color" => "", 
 	"theme_style" => "banner-text", 
-	"anchor" => ""
+	"anchor" => "", 
+	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1408626622170-1221", 
 "new_line" => "true", 
@@ -302,14 +303,14 @@ $region_15->add_element("Code", array(
  display: block;
  width: 60px;
  height: 60px;
- background: url(wp-content/themes/Spirit/images/sprite.png) left top no-repeat;   
+ background: url(" . get_stylesheet_directory_uri() . "/images/archive-home/sprite.png) left top no-repeat;   
  margin: 0 auto;
 }
 
 .banner-anchor:hover {
  background-position: right top;    
 }", 
-	"script" => "", 
+	"script" => "/* Your code here */", 
 	"row" => 11
 	), 
 "wrapper_id" => "wrapper-1408627222905-1682", 
@@ -456,6 +457,7 @@ $main->add_element("PlainTxt", array(
 	"row" => 2
 	), 
 "wrapper_id" => "wrapper-1408440541662-1463", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -514,7 +516,7 @@ $main->add_element("Uimage", array(
 "id" => "module-1408440367621-1532", 
 "rows" => 9, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line-92x4-2777.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line-92x4-5941.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line.png", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line.png", 
 	"image_title" => "", 
@@ -536,19 +538,19 @@ $main->add_element("Uimage", array(
 		"height" => 4
 		), 
 	"position" => array(
-		"top" => 0, 
+		"top" => -0.5, 
 		"left" => -29
 		), 
-	"marginTop" => 0, 
+	"marginTop" => 0.5, 
 	"element_size" => array(
 		"width" => 150, 
-		"height" => 15
+		"height" => 5
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "53", 
+	"image_id" => "134", 
 	"align" => "center", 
 	"stretch" => false, 
 	"vstretch" => false, 
@@ -565,6 +567,7 @@ $main->add_element("Uimage", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408440918694-1971", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -641,6 +644,7 @@ $main->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408440704324-1222", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -716,6 +720,7 @@ $main->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408441148046-1003", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -785,7 +790,7 @@ $region_14 = upfront_create_region(
 "background_style" => "full", 
 "background_position_y" => "50", 
 "background_position_x" => "50", 
-"background_image" => "" . get_stylesheet_directory_uri() . "/images/archive-home/Homepage-About-Bg.jpg", 
+"background_image" => "" . get_stylesheet_directory_uri() . "/images/archive-home/Homepage-About-Bg (1).jpg", 
 "background_image_ratio" => 0.47, 
 "expand_lock" => false, 
 "breakpoint" => array(
@@ -947,7 +952,7 @@ $region_4->add_element("Uimage", array(
 "id" => "module-1408442639295-1956", 
 "rows" => 7, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line-92x4-7853.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line-92x4-4108.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line.png", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line.png", 
 	"image_title" => "", 
@@ -969,10 +974,10 @@ $region_4->add_element("Uimage", array(
 		"height" => 4
 		), 
 	"position" => array(
-		"top" => 0, 
+		"top" => -0.5, 
 		"left" => -29
 		), 
-	"marginTop" => 0, 
+	"marginTop" => 0.5, 
 	"element_size" => array(
 		"width" => 150, 
 		"height" => 5
@@ -981,7 +986,7 @@ $region_4->add_element("Uimage", array(
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "53", 
+	"image_id" => "134", 
 	"align" => "center", 
 	"stretch" => false, 
 	"vstretch" => false, 
@@ -2438,7 +2443,7 @@ $region_8->add_element("Uimage", array(
 "id" => "module-1408445106531-1600", 
 "rows" => 7, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line-92x4-6483.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line-92x4-2924.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line.png", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line.png", 
 	"image_title" => "", 
@@ -2460,10 +2465,10 @@ $region_8->add_element("Uimage", array(
 		"height" => 4
 		), 
 	"position" => array(
-		"top" => 0, 
+		"top" => -0.5, 
 		"left" => -29
 		), 
-	"marginTop" => 0, 
+	"marginTop" => 0.5, 
 	"element_size" => array(
 		"width" => 150, 
 		"height" => 5
@@ -2472,7 +2477,7 @@ $region_8->add_element("Uimage", array(
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "53", 
+	"image_id" => "134", 
 	"align" => "center", 
 	"stretch" => false, 
 	"vstretch" => false, 
@@ -2597,9 +2602,9 @@ $region_11->add_element("Uimage", array(
 "margin_top" => "4", 
 "margin_bottom" => "0", 
 "id" => "module-1408445992395-1679", 
-"rows" => 34, 
+"rows" => 12, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial1-140x140-1179.jpg", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial1-140x140-6550.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial1.jpg", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial1.jpg", 
 	"image_title" => "", 
@@ -2627,16 +2632,16 @@ $region_11->add_element("Uimage", array(
 	"marginTop" => 0, 
 	"element_size" => array(
 		"width" => 150, 
-		"height" => 140
+		"height" => 150
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "59", 
+	"image_id" => "140", 
 	"align" => "center", 
 	"stretch" => false, 
-	"vstretch" => true, 
+	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
 	"type" => "UimageModel", 
@@ -2645,7 +2650,7 @@ $region_11->add_element("Uimage", array(
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "object-1408445992396-1972", 
-	"row" => 28, 
+	"row" => 6, 
 	"theme_style" => "circle", 
 	"anchor" => "", 
 	"breakpoint" => array(
@@ -2796,9 +2801,9 @@ $region_11->add_element("Uimage", array(
 "margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1408443405836-1728", 
-"rows" => 34, 
+"rows" => 12, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial2-140x140-2078.jpg", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial2-140x140-9571.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial2.jpg", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial2.jpg", 
 	"image_title" => "", 
@@ -2826,16 +2831,16 @@ $region_11->add_element("Uimage", array(
 	"marginTop" => 0, 
 	"element_size" => array(
 		"width" => 150, 
-		"height" => 140
+		"height" => 150
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "62", 
+	"image_id" => "141", 
 	"align" => "center", 
 	"stretch" => false, 
-	"vstretch" => true, 
+	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
 	"type" => "UimageModel", 
@@ -2844,7 +2849,7 @@ $region_11->add_element("Uimage", array(
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1408443405821-1824", 
-	"row" => 28, 
+	"row" => 6, 
 	"theme_style" => "circle", 
 	"anchor" => "", 
 	"breakpoint" => array(
@@ -2996,9 +3001,9 @@ $region_11->add_element("Uimage", array(
 "margin_top" => "9", 
 "margin_bottom" => "0", 
 "id" => "module-1408445976214-1402", 
-"rows" => 34, 
+"rows" => 12, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial3-140x140-4053.jpg", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial3-140x140-2594.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial3.jpg", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial3.jpg", 
 	"image_title" => "", 
@@ -3026,16 +3031,16 @@ $region_11->add_element("Uimage", array(
 	"marginTop" => 0, 
 	"element_size" => array(
 		"width" => 150, 
-		"height" => 140
+		"height" => 150
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "63", 
+	"image_id" => "142", 
 	"align" => "center", 
 	"stretch" => false, 
-	"vstretch" => true, 
+	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
 	"type" => "UimageModel", 
@@ -3044,7 +3049,7 @@ $region_11->add_element("Uimage", array(
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "object-1408445976214-1423", 
-	"row" => 28, 
+	"row" => 6, 
 	"theme_style" => "circle", 
 	"anchor" => ""
 	), 
@@ -3317,7 +3322,7 @@ $region_9->add_element("Uimage", array(
 "id" => "module-1408447780441-1670", 
 "rows" => 8, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/icon-nwl-90x90-1034.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/icon-nwl-90x90-7383.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/icon-nwl.png", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/icon-nwl.png", 
 	"image_title" => "", 
@@ -3351,7 +3356,7 @@ $region_9->add_element("Uimage", array(
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "78", 
+	"image_id" => "143", 
 	"align" => "center", 
 	"stretch" => false, 
 	"vstretch" => true, 
@@ -3385,6 +3390,7 @@ $region_9->add_element("Uimage", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408448267411-1829", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -3465,6 +3471,7 @@ $region_9->add_element("PlainTxt", array(
 	"row" => 2
 	), 
 "wrapper_id" => "wrapper-1408446496888-1432", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -3539,6 +3546,7 @@ $region_9->add_element("PlainTxt", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1408446525502-1263", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -3704,6 +3712,7 @@ $region_9->add_element("Code", array(
 	"row" => 5
 	), 
 "wrapper_id" => "wrapper-1408629844073-1942", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
