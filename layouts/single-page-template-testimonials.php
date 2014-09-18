@@ -379,9 +379,9 @@ $region_4->add_element("Uimage", array(
 "margin_top" => "4", 
 "margin_bottom" => "0", 
 "id" => "module-1408445992395-1679", 
-"rows" => 34, 
+"rows" => 12, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial1-140x140-1179.jpg", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial1-140x140-7971.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial1.jpg", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial1.jpg", 
 	"image_title" => "", 
@@ -409,16 +409,16 @@ $region_4->add_element("Uimage", array(
 	"marginTop" => 0, 
 	"element_size" => array(
 		"width" => 150, 
-		"height" => 140
+		"height" => 150
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "59", 
+	"image_id" => "140", 
 	"align" => "center", 
 	"stretch" => false, 
-	"vstretch" => true, 
+	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
 	"type" => "UimageModel", 
@@ -427,7 +427,7 @@ $region_4->add_element("Uimage", array(
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "object-1408445992396-1972", 
-	"row" => 28, 
+	"row" => 6, 
 	"theme_style" => "circle", 
 	"anchor" => "", 
 	"breakpoint" => array(
@@ -440,6 +440,7 @@ $region_4->add_element("Uimage", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408454821816-1092", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -602,7 +603,7 @@ $region_4->add_element("Uimage", array(
 "id" => "module-1408532655407-1054", 
 "rows" => 12, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial2-140x140-4662.jpg", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial2-140x140-5404.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial2.jpg", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial2.jpg", 
 	"image_title" => "", 
@@ -636,7 +637,7 @@ $region_4->add_element("Uimage", array(
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "62", 
+	"image_id" => "141", 
 	"align" => "center", 
 	"stretch" => false, 
 	"vstretch" => false, 
@@ -661,6 +662,7 @@ $region_4->add_element("Uimage", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408532699086-1371", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -824,7 +826,7 @@ $region_4->add_element("Uimage", array(
 "id" => "module-1408532743173-1630", 
 "rows" => 12, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial3-140x140-5722.jpg", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial3-140x140-1930.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial3.jpg", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-testimonials/testimonial3.jpg", 
 	"image_title" => "", 
@@ -858,7 +860,7 @@ $region_4->add_element("Uimage", array(
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "63", 
+	"image_id" => "142", 
 	"align" => "center", 
 	"stretch" => false, 
 	"vstretch" => false, 
@@ -883,6 +885,7 @@ $region_4->add_element("Uimage", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408532792463-1234", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 

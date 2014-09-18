@@ -19,7 +19,7 @@ $region_8 = upfront_create_region(
 "background_style" => "full", 
 "background_position_y" => "0", 
 "background_position_x" => "50", 
-"background_image" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Bg.jpg", 
+"background_image" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Bg (1).jpg", 
 "background_image_ratio" => 0.56, 
 "background_repeat" => "no-repeat", 
 "background_position" => "50% 0%", 
@@ -729,9 +729,9 @@ $region_5->add_element("Uimage", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1408526102009-1923", 
-"rows" => 80, 
+"rows" => 27, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Photo-690x370-1954.jpg", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Photo-690x371-8026.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Photo.jpg", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Photo.jpg", 
 	"image_title" => "", 
@@ -759,16 +759,16 @@ $region_5->add_element("Uimage", array(
 	"marginTop" => 0, 
 	"element_size" => array(
 		"width" => 690, 
-		"height" => 370
+		"height" => 375
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "90", 
-	"align" => "center", 
+	"image_id" => "145", 
+	"align" => "left", 
 	"stretch" => true, 
-	"vstretch" => true, 
+	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
 	"type" => "UimageModel", 
@@ -777,7 +777,7 @@ $region_5->add_element("Uimage", array(
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1408526101993-1058", 
-	"row" => 74, 
+	"row" => 21, 
 	"theme_style" => "_default", 
 	"anchor" => "", 
 	"breakpoint" => array(
@@ -1211,9 +1211,9 @@ $region_7->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-7\" style=\"width: 96px;\">
+	"content" => "<div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-5\" style=\"width: 96px;\">
 	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 96px; height: 50px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/single-page-template-about/logo1.jpg\"></span>
-</div><p class=\"\" style=\"font-size: medium; text-align: justify;\"><br>Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.&nbsp;<br></p><p class=\"\" style=\"font-size: medium; text-align: justify;\">Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.</p>", 
+</div><p class=\"\" style=\"font-size: medium; text-align: justify;\"><br>Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.&nbsp;</p><p class=\"\" style=\"font-size: medium; text-align: justify;\">Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1408527009607-1358", 
 	"class" => "c24 upfront-plain_txt", 
