@@ -55,13 +55,13 @@ $header->add_element("Uimage", array(
 "id" => "image", 
 "rows" => 5, 
 "options" => array(
-	"src" => "http://www.wpfw.net/Upfront/wp-content/uploads/2014/09/logo-nav-105x42-2536.png", 
-	"srcFull" => "http://www.wpfw.net/Upfront/wp-content/uploads/2014/09/logo-nav.png", 
-	"srcOriginal" => "http://www.wpfw.net/Upfront/wp-content/uploads/2014/09/logo-nav.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1)-105x42-7144.png", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1).png", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1).png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => "external", 
-	"image_link" => "http://www.wpfw.net/Upfront/", 
+	"image_link" => "" . get_site_url() . "/", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
 	"caption_position" => "below_image", 
@@ -89,7 +89,7 @@ $header->add_element("Uimage", array(
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "124", 
+	"image_id" => "133", 
 	"align" => "left", 
 	"stretch" => true, 
 	"vstretch" => false, 
@@ -189,7 +189,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "post_type", 
 			"menu-item-title" => "About", 
-			"menu-item-url" => "http://www.wpfw.net/Upfront/template-about/", 
+			"menu-item-url" => "" . get_site_url() . "/template-about/", 
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "109", 
 			"menu-item-target" => "", 
@@ -199,7 +199,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "post_type", 
 			"menu-item-title" => "Services", 
-			"menu-item-url" => "http://www.wpfw.net/Upfront/template-services/", 
+			"menu-item-url" => "" . get_site_url() . "/template-services/", 
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "110", 
 			"menu-item-target" => "", 
@@ -209,7 +209,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "post_type", 
 			"menu-item-title" => "Testimonials", 
-			"menu-item-url" => "http://www.wpfw.net/Upfront/template-testimonials/", 
+			"menu-item-url" => "" . get_site_url() . "/template-testimonials/", 
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "111", 
 			"menu-item-target" => "", 
@@ -219,7 +219,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "post_type", 
 			"menu-item-title" => "Gallery", 
-			"menu-item-url" => "http://www.wpfw.net/Upfront/template-gallery/", 
+			"menu-item-url" => "" . get_site_url() . "/template-gallery/", 
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "112", 
 			"menu-item-target" => "", 
@@ -229,7 +229,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "post_type", 
 			"menu-item-title" => "Contactus", 
-			"menu-item-url" => "http://www.wpfw.net/Upfront/template-contactus/", 
+			"menu-item-url" => "" . get_site_url() . "/template-contactus/", 
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "108", 
 			"menu-item-target" => "", 
@@ -239,7 +239,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "post_type", 
 			"menu-item-title" => "Login", 
-			"menu-item-url" => "http://www.wpfw.net/Upfront/template-login/", 
+			"menu-item-url" => "" . get_site_url() . "/template-login/", 
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "113", 
 			"menu-item-target" => "", 
@@ -249,7 +249,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "post_type", 
 			"menu-item-title" => "Page", 
-			"menu-item-url" => "http://www.wpfw.net/Upfront/default-page/", 
+			"menu-item-url" => "" . get_site_url() . "/default-page/", 
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "127", 
 			"menu-item-target" => "", 
@@ -266,7 +266,7 @@ $header->add_element("Unewnavigation", array(
 	"burger_menu" => array(), 
 	"burger_alignment" => "left", 
 	"burger_over" => "over", 
-	"is_floating" => array("yes"), 
+	"is_floating" => array(), 
 	"theme_style" => "main-nav", 
 	"anchor" => "", 
 	"breakpoint" => array(
@@ -436,7 +436,7 @@ $header->add_element("Code", array(
     display: inline-block;
 }
 .socials li a {
-    background: url(/Upfront/wp-content/themes/Spirit/images/sprite.png) left top;   
+    background: url(\"" . get_stylesheet_directory_uri() . "/images/global-regions/header/sprite.png\") left top;   
     display: block;
     width: 35px;
     height: 34px;

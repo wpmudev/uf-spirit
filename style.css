@@ -68,14 +68,3 @@ a:hover {
 @media (max-width: 570px) {
 	.upfront-output-object h1 { font-size: 35px; }	
 }
-
-
-.fixed_menu {
-	position: fixed !important;
-	top: 0px;
-	width: 100%;
-}
-
-[data-already_floating="yes"] {
-	top: auto !important;
-}
