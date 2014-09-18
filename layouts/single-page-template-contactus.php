@@ -1,44 +1,4 @@
 <?php
-$header_nav = upfront_create_region(
-			array(
-"name" => "header_nav", 
-"title" => "Header Nav", 
-"type" => "wide", 
-"scope" => "global", 
-"container" => "header", 
-"sub" => "top", 
-"position" => 1, 
-"allow_sidebar" => true
-),
-			array(
-"breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => false
-		), 
-	"custom-1408717918354" => array(
-		"edited" => false
-		), 
-	"custom-1408717978058" => array(
-		"edited" => false
-		), 
-	"custom-1408718022181" => array(
-		"edited" => false
-		), 
-	"tablet" => array(
-		"edited" => false
-		), 
-	"custom-1408718098456" => array(
-		"edited" => false
-		), 
-	"mobile" => array(
-		"edited" => false
-		)
-	)
-)
-			);
-
-$regions->add($header_nav);
-
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $region_2 = upfront_create_region(
@@ -89,6 +49,10 @@ $region_2 = upfront_create_region(
 		"row" => 94
 		), 
 	"mobile" => array(
+		"edited" => true, 
+		"row" => 115
+		), 
+	"custom-1410783042947" => array(
 		"edited" => false
 		)
 	)
@@ -138,9 +102,10 @@ $region_2->add_element("PlainTxt", array(
 		"col" => 14
 		), 
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"top" => 18
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -148,9 +113,16 @@ $region_2->add_element("PlainTxt", array(
 		"col" => 10
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 22
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 18, 
+		"top" => 16
 		)
 	)
 ));
@@ -173,8 +145,8 @@ $region_2->add_element("Ucontact", array(
 	"form_subject_label" => "Your subject:", 
 	"form_default_subject" => "Sent from the website", 
 	"form_message_label" => "Your message:", 
-	"form_button_text" => "Send", 
-	"form_validate_when" => "submit", 
+	"form_button_text" => "Send Message", 
+	"form_validate_when" => "field", 
 	"form_label_position" => "over", 
 	"type" => "UcontactModel", 
 	"view_class" => "UcontactView", 
@@ -223,6 +195,11 @@ $region_2->add_element("Ucontact", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 2, 
+		"col" => 14
 		)
 	)
 ));
@@ -283,6 +260,11 @@ $region_2->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 4, 
+		"col" => 10
 		)
 	)
 ));

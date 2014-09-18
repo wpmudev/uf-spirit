@@ -1,44 +1,4 @@
 <?php
-$header_nav = upfront_create_region(
-			array(
-"name" => "header_nav", 
-"title" => "Header Nav", 
-"type" => "wide", 
-"scope" => "global", 
-"container" => "header", 
-"sub" => "top", 
-"position" => 1, 
-"allow_sidebar" => true
-),
-			array(
-"breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => false
-		), 
-	"custom-1408717918354" => array(
-		"edited" => false
-		), 
-	"custom-1408717978058" => array(
-		"edited" => false
-		), 
-	"custom-1408718022181" => array(
-		"edited" => false
-		), 
-	"tablet" => array(
-		"edited" => false
-		), 
-	"custom-1408718098456" => array(
-		"edited" => false
-		), 
-	"mobile" => array(
-		"edited" => false
-		)
-	)
-)
-			);
-
-$regions->add($header_nav);
-
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $region_8 = upfront_create_region(
@@ -56,7 +16,7 @@ $region_8 = upfront_create_region(
 "background_type" => "image", 
 "nav_region" => "", 
 "background_color" => "#ffffff", 
-"background_style" => "fixed", 
+"background_style" => "full", 
 "background_position_y" => "0", 
 "background_position_x" => "50", 
 "background_image" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Bg.jpg", 
@@ -90,7 +50,12 @@ $region_8 = upfront_create_region(
 		"hide" => 1
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 39
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"row" => 120
 		)
 	)
 )
@@ -145,7 +110,7 @@ $region_8->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"top" => 27, 
+		"top" => 35, 
 		"col" => 12
 		), 
 	"custom-1408718098456" => array(
@@ -157,7 +122,13 @@ $region_8->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"top" => 28
+		"top" => 20
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 18, 
+		"top" => 51
 		)
 	)
 ));
@@ -196,6 +167,9 @@ $region_3 = upfront_create_region(
 		"edited" => false
 		), 
 	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
 		"edited" => false
 		)
 	)
@@ -263,6 +237,11 @@ $region_3->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -328,6 +307,11 @@ $region_3->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -345,7 +329,7 @@ $region_4 = upfront_create_region(
 "allow_sidebar" => true
 ),
 			array(
-"row" => 142, 
+"row" => 148, 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false
@@ -360,12 +344,17 @@ $region_4 = upfront_create_region(
 		"edited" => false
 		), 
 	"tablet" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 197
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false
 		), 
 	"mobile" => array(
+		"edited" => true, 
+		"row" => 317
+		), 
+	"custom-1410783042947" => array(
 		"edited" => false
 		)
 	)
@@ -467,6 +456,12 @@ $region_4->add_element("PlainTxt", array(
 		"col" => 7, 
 		"row" => 61, 
 		"top" => 3
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 5, 
+		"top" => 3
 		)
 	)
 ));
@@ -509,7 +504,10 @@ $region_4->add_element("PlainTxt", array(
 			"row" => 89
 			), 
 		"tablet" => array(
-			"row" => 105
+			"row" => 112
+			), 
+		"custom-1410783042947" => array(
+			"row" => 144
 			)
 		)
 	), 
@@ -548,8 +546,8 @@ $region_4->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 12, 
-		"top" => 0, 
-		"row" => 111
+		"top" => 2, 
+		"row" => 118
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -560,6 +558,13 @@ $region_4->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 8, 
+		"top" => 3, 
+		"row" => 150
 		)
 	)
 ));
@@ -599,13 +604,16 @@ $region_4->add_element("PlainTxt", array(
 			"row" => 22
 			), 
 		"tablet" => array(
-			"row" => 20
+			"row" => 17
 			), 
 		"custom-1408718098456" => array(
 			"row" => 29
 			), 
 		"mobile" => array(
 			"row" => 40
+			), 
+		"custom-1410783042947" => array(
+			"row" => 84
 			)
 		)
 	), 
@@ -644,7 +652,7 @@ $region_4->add_element("PlainTxt", array(
 		"left" => 0, 
 		"col" => 12, 
 		"top" => 0, 
-		"row" => 26
+		"row" => 23
 		), 
 	"custom-1408718098456" => array(
 		"edited" => true, 
@@ -659,6 +667,13 @@ $region_4->add_element("PlainTxt", array(
 		"col" => 7, 
 		"row" => 46, 
 		"top" => 2
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 5, 
+		"row" => 90, 
+		"top" => 3
 		)
 	)
 ));
@@ -697,6 +712,10 @@ $region_5 = upfront_create_region(
 		"edited" => false
 		), 
 	"mobile" => array(
+		"edited" => true, 
+		"row" => 46
+		), 
+	"custom-1410783042947" => array(
 		"edited" => false
 		)
 	)
@@ -766,13 +785,13 @@ $region_5->add_element("Uimage", array(
 			"row" => 65
 			), 
 		"tablet" => array(
-			"row" => 55
+			"row" => 56
 			), 
 		"custom-1408718098456" => array(
 			"row" => 41
 			), 
 		"mobile" => array(
-			"row" => 32
+			"row" => 33
 			)
 		)
 	), 
@@ -805,7 +824,7 @@ $region_5->add_element("Uimage", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 12, 
-		"row" => 61, 
+		"row" => 62, 
 		"top" => 1
 		), 
 	"custom-1408718098456" => array(
@@ -818,8 +837,13 @@ $region_5->add_element("Uimage", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"row" => 38, 
+		"row" => 39, 
 		"top" => 1
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 16
 		)
 	)
 ));
@@ -904,6 +928,12 @@ $region_5->add_element("PlainTxt", array(
 		"left" => 0, 
 		"col" => 7, 
 		"hide" => 1
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 6, 
+		"col" => 6, 
+		"hide" => 1
 		)
 	)
 ));
@@ -942,6 +972,9 @@ $region_6 = upfront_create_region(
 		"edited" => false
 		), 
 	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
 		"edited" => false
 		)
 	)
@@ -1003,6 +1036,11 @@ $region_6->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -1100,6 +1138,11 @@ $region_6->add_element("Uimage", array(
 		"edited" => false, 
 		"left" => 1, 
 		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4
 		)
 	)
 ));
@@ -1143,7 +1186,12 @@ $region_7 = upfront_create_region(
 		"row" => 202
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 281
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"row" => 134
 		)
 	), 
 "background_type" => "color", 
@@ -1181,6 +1229,9 @@ $region_7->add_element("PlainTxt", array(
 			), 
 		"custom-1408718022181" => array(
 			"row" => 69
+			), 
+		"custom-1410783042947" => array(
+			"row" => 88
 			)
 		)
 	), 
@@ -1227,6 +1278,13 @@ $region_7->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 8, 
+		"top" => 0, 
+		"row" => 94
 		)
 	)
 ));
@@ -1266,6 +1324,9 @@ $region_7->add_element("PlainTxt", array(
 			), 
 		"custom-1408718098456" => array(
 			"row" => 85
+			), 
+		"custom-1410783042947" => array(
+			"row" => 84
 			)
 		)
 	), 
@@ -1317,6 +1378,13 @@ $region_7->add_element("PlainTxt", array(
 		"left" => 0, 
 		"col" => 7, 
 		"top" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 2, 
+		"col" => 8, 
+		"top" => 0, 
+		"row" => 90
 		)
 	)
 ));

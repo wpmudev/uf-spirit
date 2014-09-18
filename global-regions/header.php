@@ -35,6 +35,12 @@ $header = upfront_create_region(
 		), 
 	"mobile" => array(
 		"edited" => false
+		), 
+	"custom-1410780542364" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
 		)
 	)
 )
@@ -148,6 +154,18 @@ $header->add_element("Uimage", array(
 		"left" => 0, 
 		"col" => 3, 
 		"top" => 0
+		), 
+	"custom-1410780542364" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 4, 
+		"top" => 0
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 4, 
+		"top" => 0
 		)
 	)
 ));
@@ -226,6 +244,16 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-object-id" => "113", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 6
+			), array(
+			"menu-item-db-id" => 129, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "post_type", 
+			"menu-item-title" => "Page", 
+			"menu-item-url" => "http://www.wpfw.net/Upfront/default-page/", 
+			"menu-item-object" => "page", 
+			"menu-item-object-id" => "127", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 7
 			)), 
 	"menu_style" => "vertical", 
 	"menu_alignment" => "left", 
@@ -290,6 +318,20 @@ $header->add_element("Unewnavigation", array(
 		"custom-1410530020105" => array(
 			"burger_menu" => "yes", 
 			"width" => 240
+			), 
+		"custom-1410780542364" => array(
+			"row" => 9, 
+			"width" => 810, 
+			"burger_menu" => "yes", 
+			"burger_alignment" => "whole", 
+			"burger_over" => "over"
+			), 
+		"custom-1410783042947" => array(
+			"row" => 6, 
+			"width" => 810, 
+			"burger_menu" => "yes", 
+			"burger_alignment" => "whole", 
+			"burger_over" => "over"
 			)
 		), 
 	"element_id" => "unewnavigation-object"
@@ -341,6 +383,20 @@ $header->add_element("Unewnavigation", array(
 		"col" => 2, 
 		"row" => 11, 
 		"top" => 0
+		), 
+	"custom-1410780542364" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 2, 
+		"row" => 15, 
+		"top" => 0
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 2, 
+		"row" => 12, 
+		"top" => 0
 		)
 	)
 ));
@@ -380,7 +436,7 @@ $header->add_element("Code", array(
     display: inline-block;
 }
 .socials li a {
-    background: url(wp-content/themes/Spirit/images/sprite.png) left top;   
+    background: url(/Upfront/wp-content/themes/Spirit/images/sprite.png) left top;   
     display: block;
     width: 35px;
     height: 34px;
@@ -447,6 +503,18 @@ $header->add_element("Code", array(
 		"left" => 1, 
 		"col" => 5, 
 		"hide" => 1
+		), 
+	"custom-1410780542364" => array(
+		"edited" => true, 
+		"left" => 8, 
+		"col" => 4, 
+		"top" => 0
+		), 
+	"custom-1410783042947" => array(
+		"edited" => true, 
+		"left" => 8, 
+		"col" => 4, 
+		"top" => 0
 		)
 	)
 ));
