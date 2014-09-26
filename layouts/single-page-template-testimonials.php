@@ -64,7 +64,7 @@ $region_5->add_element("PlainTxt", array(
 "columns" => "22", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "24", 
+"margin_top" => "17", 
 "margin_bottom" => "0", 
 "id" => "module-1408525024897-1934", 
 "rows" => 16, 
@@ -77,7 +77,13 @@ $region_5->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 10, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "", 
+	"theme_style" => "remove-space"
 	), 
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
@@ -109,7 +115,7 @@ $region_5->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"top" => 17, 
+		"top" => 11, 
 		"col" => 12
 		), 
 	"custom-1408718098456" => array(
@@ -121,13 +127,13 @@ $region_5->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 18, 
-		"top" => 29
+		"top" => 23
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"top" => 18
+		"top" => 12
 		)
 	)
 ));
@@ -421,6 +427,7 @@ $region_4->add_element("Uimage", array(
 	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
@@ -643,6 +650,7 @@ $region_4->add_element("Uimage", array(
 	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
@@ -866,6 +874,7 @@ $region_4->add_element("Uimage", array(
 	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 

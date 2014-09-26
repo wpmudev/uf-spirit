@@ -46,10 +46,10 @@ $region_3->add_element("PlainTxt", array(
 "columns" => "22", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "28", 
+"margin_top" => "14", 
 "margin_bottom" => "0", 
 "id" => "module-1408528105336-1414", 
-"rows" => 10, 
+"rows" => 9, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -58,8 +58,14 @@ $region_3->add_element("PlainTxt", array(
 	"element_id" => "text-object-1408528105334-1955", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 6, 
-	"is_edited" => true
+	"row" => 3, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "", 
+	"theme_style" => "remove-bottom-space"
 	), 
 "wrapper_id" => "wrapper-1408528213095-1209", 
 "new_line" => "true", 
@@ -156,13 +162,16 @@ $region_3->add_element("Uimage", array(
 	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "object-1408528311776-1623", 
-	"row" => 2
+	"row" => 2, 
+	"anchor" => "", 
+	"theme_style" => "waved-line"
 	), 
 "wrapper_id" => "wrapper-1408528326968-1084", 
 "new_line" => "true", 
@@ -294,7 +303,7 @@ $region_4 = upfront_create_region(
 "allow_sidebar" => true
 ),
 			array(
-"row" => 60, 
+"row" => 118, 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false
@@ -331,7 +340,7 @@ $region_4->add_element("Ugallery", array(
 "margin_top" => "9", 
 "margin_bottom" => "0", 
 "id" => "module-1408533534920-1963", 
-"rows" => 131, 
+"rows" => 108, 
 "options" => array(
 	"type" => "UgalleryModel", 
 	"view_class" => "UgalleryView", 
@@ -1330,11 +1339,12 @@ $region_4->add_element("Ugallery", array(
 	"captionWhen" => "never", 
 	"linkTo" => "image", 
 	"element_id" => "ugallery-object-1408533534917-1262", 
-	"row" => 125, 
+	"row" => 102, 
 	"theme_style" => "inline-gallery", 
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408533565481-1188", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1429,7 +1439,7 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "10", 
 "margin_bottom" => "0", 
 "id" => "module-1408533892461-1013", 
-"rows" => 12, 
+"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1438,7 +1448,7 @@ $region_5->add_element("PlainTxt", array(
 	"element_id" => "text-object-1408533892460-1619", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 6, 
+	"row" => 4, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
@@ -1453,6 +1463,7 @@ $region_5->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408533969724-1331", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1544,6 +1555,7 @@ $region_5->add_element("Code", array(
 	"script" => "/* Your code here */"
 	), 
 "wrapper_id" => "wrapper-1408709267794-1635", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1595,7 +1607,7 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408534159652-1018", 
-"rows" => 12, 
+"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1604,10 +1616,17 @@ $region_5->add_element("PlainTxt", array(
 	"element_id" => "object-1408534159652-1526", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 6, 
-	"is_edited" => true
+	"row" => 4, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "remove-bottom-space"
 	), 
 "wrapper_id" => "wrapper-1408534167485-1350", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1701,15 +1720,19 @@ $region_5->add_element("Uimage", array(
 	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "object-1408534172550-1349", 
-	"row" => 2
+	"row" => 2, 
+	"anchor" => "", 
+	"theme_style" => "waved-line"
 	), 
 "wrapper_id" => "wrapper-1408709176542-1170", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1780,6 +1803,7 @@ $region_5->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408534232358-1258", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1872,7 +1896,7 @@ $region_7->add_element("Uaccordion", array(
 "columns" => "20", 
 "margin_left" => "2", 
 "margin_right" => "0", 
-"margin_top" => "16", 
+"margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1410423203222-1688", 
 "rows" => 45, 
@@ -1904,6 +1928,7 @@ $region_7->add_element("Uaccordion", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1410423443065-1968", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => true, 

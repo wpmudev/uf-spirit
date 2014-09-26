@@ -34,7 +34,8 @@ $header = upfront_create_region(
 		"edited" => false
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 8
 		), 
 	"custom-1410780542364" => array(
 		"edited" => false
@@ -50,12 +51,12 @@ $header->add_element("Uimage", array(
 "columns" => "3", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "image", 
 "rows" => 5, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1)-105x42-7144.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1)-105x42-8597.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1).png", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1).png", 
 	"image_title" => "", 
@@ -95,6 +96,7 @@ $header->add_element("Uimage", array(
 	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
@@ -107,6 +109,9 @@ $header->add_element("Uimage", array(
 	"breakpoint" => array(
 		"custom-1408718098456" => array(
 			"row" => 10
+			), 
+		"custom-1410783042947" => array(
+			"row" => 2
 			)
 		)
 	), 
@@ -141,7 +146,7 @@ $header->add_element("Uimage", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 3, 
-		"top" => 0
+		"top" => 2
 		), 
 	"custom-1408718098456" => array(
 		"edited" => true, 
@@ -153,7 +158,7 @@ $header->add_element("Uimage", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 3, 
-		"top" => 0
+		"top" => 2
 		), 
 	"custom-1410780542364" => array(
 		"edited" => true, 
@@ -164,8 +169,9 @@ $header->add_element("Uimage", array(
 	"custom-1410783042947" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"col" => 4, 
-		"top" => 0
+		"col" => 3, 
+		"top" => 2, 
+		"row" => 8
 		)
 	)
 ));
@@ -177,7 +183,7 @@ $header->add_element("Unewnavigation", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "unewnavigation", 
-"rows" => 4, 
+"rows" => 11, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
@@ -213,7 +219,28 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "111", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 3
+			"menu-item-position" => 3, 
+			"sub" => array(array(
+					"menu-item-db-id" => 173, 
+					"menu-item-parent-id" => "117", 
+					"menu-item-type" => "custom", 
+					"menu-item-title" => "Link Name", 
+					"menu-item-url" => "http://test", 
+					"menu-item-object" => "custom", 
+					"menu-item-object-id" => "173", 
+					"menu-item-target" => "", 
+					"menu-item-position" => 4
+					), array(
+					"menu-item-db-id" => 185, 
+					"menu-item-parent-id" => "117", 
+					"menu-item-type" => "custom", 
+					"menu-item-title" => "testing 123", 
+					"menu-item-url" => "http://ererewre", 
+					"menu-item-object" => "custom", 
+					"menu-item-object-id" => "185", 
+					"menu-item-target" => "", 
+					"menu-item-position" => 9
+					))
 			), array(
 			"menu-item-db-id" => 116, 
 			"menu-item-parent-id" => "0", 
@@ -223,7 +250,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "112", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 4
+			"menu-item-position" => 5
 			), array(
 			"menu-item-db-id" => 120, 
 			"menu-item-parent-id" => "0", 
@@ -233,7 +260,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "108", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 5
+			"menu-item-position" => 6
 			), array(
 			"menu-item-db-id" => 115, 
 			"menu-item-parent-id" => "0", 
@@ -243,7 +270,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "113", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 6
+			"menu-item-position" => 7
 			), array(
 			"menu-item-db-id" => 129, 
 			"menu-item-parent-id" => "0", 
@@ -253,7 +280,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "127", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 7
+			"menu-item-position" => 8
 			)), 
 	"menu_style" => "vertical", 
 	"menu_alignment" => "left", 
@@ -262,7 +289,7 @@ $header->add_element("Unewnavigation", array(
 	"initialized" => false, 
 	"menu_id" => false, 
 	"menu_slug" => "main-menu", 
-	"row" => -2, 
+	"row" => 5, 
 	"burger_menu" => array(), 
 	"burger_alignment" => "left", 
 	"burger_over" => "over", 
@@ -430,7 +457,7 @@ $header->add_element("Code", array(
 	"style" => ".socials {
     list-style: none;
     padding: 0px;
-    margin: 13px 0px;
+    margin: -3px 0px;
 }
 .socials li {
     display: inline-block;
@@ -512,7 +539,7 @@ $header->add_element("Code", array(
 		), 
 	"custom-1410783042947" => array(
 		"edited" => true, 
-		"left" => 8, 
+		"left" => 9, 
 		"col" => 4, 
 		"top" => 0
 		)

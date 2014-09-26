@@ -1,4 +1,5 @@
 #page .image-caption {
+  margin-top: 15px;
   border-top: 1px solid #000000;
 }
 #page .image-caption p {
