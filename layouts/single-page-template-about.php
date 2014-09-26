@@ -78,7 +78,13 @@ $region_8->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 10, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "remove-space"
 	), 
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
@@ -202,6 +208,7 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408529977772-1644", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -272,6 +279,7 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408525441545-1325", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -407,6 +415,7 @@ $region_4->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408525530814-1418", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -473,7 +482,7 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1408525556951-1881", 
-"rows" => 121, 
+"rows" => 133, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -482,7 +491,7 @@ $region_4->add_element("PlainTxt", array(
 	"element_id" => "text-object-1408525556950-1003", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 115, 
+	"row" => 127, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
@@ -771,6 +780,7 @@ $region_5->add_element("Uimage", array(
 	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
@@ -868,8 +878,8 @@ $region_5->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
 	"theme_style" => "image-caption", 
 	"anchor" => "", 
 	"breakpoint" => array(
@@ -988,7 +998,7 @@ $region_6->add_element("PlainTxt", array(
 "margin_top" => "10", 
 "margin_bottom" => "0", 
 "id" => "module-1408526265806-1251", 
-"rows" => 13, 
+"rows" => 9, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -997,10 +1007,17 @@ $region_6->add_element("PlainTxt", array(
 	"element_id" => "text-object-1408526265803-1956", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 7, 
-	"is_edited" => true
+	"row" => 3, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "", 
+	"theme_style" => "remove-bottom-space"
 	), 
 "wrapper_id" => "wrapper-1408526402494-1175", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1094,15 +1111,19 @@ $region_6->add_element("Uimage", array(
 	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1408526143438-1263", 
-	"row" => 2
+	"row" => 2, 
+	"anchor" => "", 
+	"theme_style" => "waved-line"
 	), 
 "wrapper_id" => "wrapper-1408526465194-1338", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 

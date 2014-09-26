@@ -9,7 +9,7 @@
 #page .footer-search i.icon-search {
     margin-left: 160px;
     position: relative;
-    background: url(http://www.wpfw.net/Upfront/wp-content/themes/Spirit/images/sprite.png) left -200px no-repeat;
+    background: url(/Upfront/wp-content/themes/Spirit/images/sprite.png) left -200px no-repeat;
     width: 22px;
     height: 22px;
     display: block;

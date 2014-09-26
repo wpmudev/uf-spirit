@@ -1,4 +1,6 @@
 #page .main-nav {
+ padding-top: 0px !important;   
+ padding-bottom: 0px !important;
  color: #FFFFFF;
  font: 300 16px/16px Oswald, Arial;
  text-transform: uppercase;
@@ -18,27 +20,29 @@
    background: #4f7e7d;
 }
 #page .main-nav ul.menu li ul.sub-menu {
- display: none;
+ /*display: none;*/
 }
 #page .main-nav ul.menu li ul.sub-menu a {
 	padding: 20px 12px;
 }
-#page .main-nav ul.menu li:hover > ul.sub-menu {
-	display: block;
-	left: 0;
+#page .main-nav ul.menu li > ul.sub-menu {
+    left: 0;
 	top: auto;
 }
-#page .main-nav ul.menu li:hover > ul.sub-menu li > ul.sub-menu {
-	top: 0;
+#page .main-nav ul.menu li > ul.sub-menu li > ul.sub-menu {
+    top: 0;
 	left: 100%;
 }
-#page .main-nav ul.menu li:hover > ul.sub-menu a {
+#page .main-nav ul.menu li:hover > ul.sub-menu {
+	/*display: block;*/
+}
+#page .main-nav ul.menu li > ul.sub-menu a {
 	color: #FFF;
 	background: #4f7e7d;
 	border: 0px;
 	text-align: left;
 }
-#page .main-nav ul.menu li:hover > ul.sub-menu a:hover {
+#page .main-nav ul.menu li > ul.sub-menu a:hover {
 	background: #FFF;
 	color: #4f7e7d;
 }
@@ -52,34 +56,34 @@
    background: #FFF;
    margin-bottom: 5px
 }
-#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu {
+#page .main-nav div[data-style="burger"] ul.menu {
 	margin-top: 60px !important;
 	background: #4f7e7d;
 }
-#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li ul.sub-menu, #page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li:hover ul.sub-menu {
+#page .main-nav div[data-style="burger"] ul.menu li ul.sub-menu, #page .main-nav div[data-style="burger"] ul.menu li:hover ul.sub-menu {
 	display: block;
 	left: 0;
 }
-#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li a {
+#page .main-nav div[data-style="burger"] ul.menu li a {
 	color: #FFF;
 	background: #4f7e7d;
 	border: 0px;
 	text-align: left;
 	padding: 15px;
 }
-#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li ul.sub-menu a {
+#page .main-nav div[data-style="burger"] ul.menu li ul.sub-menu a {
 	padding-left: 30px;
 }
-#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li ul.sub-menu li ul.sub-menu a {
+#page .main-nav div[data-style="burger"] ul.menu li ul.sub-menu li ul.sub-menu a {
 	padding-left: 60px;
 }
-#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li a:hover {
+#page .main-nav div[data-style="burger"] ul.menu li a:hover {
 	color: #4f7e7d;
 	background: #FFF;
 }
-#page .main-nav #page div.main-nav div[data-style="burger"][ data-burger_alignment="full"] ul.menu {
+#page .main-nav div[data-style="burger"][ data-burger_alignment="full"] ul.menu {
 	top: auto;
 }
-#page .main-nav #page div.main-nav div[data-style="burger"] ul.menu li {
+#page .main-nav div[data-style="burger"] ul.menu li {
 	display: block;
 }

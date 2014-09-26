@@ -64,7 +64,7 @@ $region_10->add_element("PlainTxt", array(
 "columns" => "22", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "24", 
+"margin_top" => "17", 
 "margin_bottom" => "0", 
 "id" => "module-1408525024897-1934", 
 "rows" => 16, 
@@ -77,7 +77,13 @@ $region_10->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 10, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "", 
+	"theme_style" => "remove-space"
 	), 
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
@@ -109,7 +115,7 @@ $region_10->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"top" => 17, 
+		"top" => 11, 
 		"col" => 12
 		), 
 	"custom-1408718098456" => array(
@@ -121,13 +127,13 @@ $region_10->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 18, 
-		"top" => 29
+		"top" => 24
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"top" => 18
+		"top" => 12
 		)
 	)
 ));
@@ -201,6 +207,7 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408529977772-1644", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -252,7 +259,7 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1408528105336-1414", 
-"rows" => 12, 
+"rows" => 7, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -261,10 +268,17 @@ $region_3->add_element("PlainTxt", array(
 	"element_id" => "text-object-1408528105334-1955", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 6, 
-	"is_edited" => true
+	"row" => 1, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "", 
+	"theme_style" => "remove-bottom-space"
 	), 
 "wrapper_id" => "wrapper-1408528213095-1209", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -358,15 +372,19 @@ $region_3->add_element("Uimage", array(
 	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "object-1408528311776-1623", 
-	"row" => 2
+	"row" => 2, 
+	"anchor" => "", 
+	"theme_style" => "waved-line"
 	), 
 "wrapper_id" => "wrapper-1408528326968-1084", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -437,6 +455,7 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408525441545-1325", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1452,6 +1471,7 @@ $region_6->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408529843963-1101", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1503,7 +1523,7 @@ $region_6->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408526265806-1251", 
-"rows" => 13, 
+"rows" => 9, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1512,10 +1532,17 @@ $region_6->add_element("PlainTxt", array(
 	"element_id" => "text-object-1408526265803-1956", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 7, 
-	"is_edited" => true
+	"row" => 3, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "", 
+	"theme_style" => "remove-bottom-space"
 	), 
 "wrapper_id" => "wrapper-1408526402494-1175", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1609,15 +1636,19 @@ $region_6->add_element("Uimage", array(
 	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1408526143438-1263", 
-	"row" => 2
+	"row" => 2, 
+	"anchor" => "", 
+	"theme_style" => "waved-line"
 	), 
 "wrapper_id" => "wrapper-1408526465194-1338", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1812,9 +1843,9 @@ $region_11->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "_default", 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"theme_style" => "remove-top-space", 
 	"anchor" => "", 
 	"breakpoint" => array(
 		"custom-1410783042947" => array(
@@ -2089,9 +2120,9 @@ $region_7->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "_default", 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"theme_style" => "remove-top-space", 
 	"anchor" => "", 
 	"breakpoint" => array(
 		"custom-1410783042947" => array(
@@ -2367,9 +2398,9 @@ $region_8->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "_default", 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"theme_style" => "remove-top-space", 
 	"anchor" => "", 
 	"breakpoint" => array(
 		"custom-1410783042947" => array(
