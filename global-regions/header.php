@@ -117,6 +117,17 @@ $header->add_element("Uimage", array(
 	), 
 "wrapper_id" => "image-wrapper", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 3
+		), 
+	"mobile" => array(
+		"col" => 3
+		), 
+	"custom-1410783042947" => array(
+		"col" => 3
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -255,7 +266,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-db-id" => 120, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "post_type", 
-			"menu-item-title" => "Contactus", 
+			"menu-item-title" => "Contact us", 
 			"menu-item-url" => "" . get_site_url() . "/template-contactus/", 
 			"menu-item-object" => "page", 
 			"menu-item-object-id" => "108", 
@@ -364,6 +375,17 @@ $header->add_element("Unewnavigation", array(
 	"element_id" => "unewnavigation-object"
 	), 
 "wrapper_id" => "unewnavigation-wrapper", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 2
+		), 
+	"mobile" => array(
+		"col" => 4
+		), 
+	"custom-1410783042947" => array(
+		"col" => 2
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -450,9 +472,9 @@ $header->add_element("Code", array(
 	"element_id" => "upfront-code_element-object-1408627223294-1046", 
 	"code_selection_type" => "Create", 
 	"markup" => "<ul class=\"socials\">
-  <li class=\"youtube\"><a href=\"http://youtube.com\"></a></li>
-  <li class=\"facebook\"><a href=\"http://facebook.com\"></a></li>
-  <li class=\"twitter\"><a href=\"http://twitter.com\"></a></li>
+  <li><a class=\"icon youtube\" href=\"http://youtube.com\"></a></li>
+  <li><a class=\"icon facebook\" href=\"http://facebook.com\"></a></li>
+  <li><a class=\"icon twitter\" href=\"http://twitter.com\"></a></li>
 </ul>", 
 	"style" => ".socials {
     list-style: none;
@@ -463,21 +485,12 @@ $header->add_element("Code", array(
     display: inline-block;
 }
 .socials li a {
-    background: url(\"" . get_stylesheet_directory_uri() . "/images/global-regions/header/sprite.png\") left top;   
     display: block;
     width: 35px;
     height: 34px;
     margin: 0 5px;
 }
-
-.socials li.youtube a { background-position: 0px -90px; }
-.socials li.youtube a:hover { background-position: 0px -139px; }
-
-.socials li.facebook a { background-position: -46px -90px; }
-.socials li.facebook a:hover { background-position: -46px -139px; }
-
-.socials li.twitter a { background-position: -91px -90px; }
-.socials li.twitter a:hover { background-position: -91px -139px; }", 
+", 
 	"script" => "/* Your code here */", 
 	"row" => 5, 
 	"breakpoint" => array(
@@ -487,6 +500,17 @@ $header->add_element("Code", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408627457712-1308", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 7
+		), 
+	"mobile" => array(
+		"col" => 6
+		), 
+	"custom-1410783042947" => array(
+		"col" => 13
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 

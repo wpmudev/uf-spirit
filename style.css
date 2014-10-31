@@ -7,6 +7,21 @@ Author URI: https://premium.wpmudev.org/
 */
 @import url(../upfront/style.css);
 
+ .icon {
+  position: relative;
+}
+ .icon:before {
+  content: '';
+  background: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.png);
+  background-image: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.svg), none;
+  /* If it supports multiple backgrounds supports svg */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+
 html {
 	-webkit-transition: all 0.3s; 
   transition: all 0.3s;
@@ -58,6 +73,165 @@ a:hover {
 .alignright { float: right; }
 
 #page.upfront-layout-view .accordion-content { display: block !important; }
+
+
+ .icon {
+  position: relative;
+}
+ .icon:before,  .icon-search:before {
+  content: '';
+  background: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.png);
+  background-image: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.svg), none;
+  /* If it supports multiple backgrounds supports svg */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+ .tree:before {
+ width: 105px;
+ height: 105px;
+ display: block;
+ position: relative;
+ background-position: -188px -668px;
+}
+ .screen:before {
+ width: 105px;
+ height: 105px;
+ display: block;
+ position: relative;
+ background-position: -188px -828px;
+}
+ .weight:before {
+ width: 105px;
+ height: 105px;
+ display: block;
+ position: relative;
+ background-position: -28px -828px;
+}
+ .pig:before {
+ width: 105px;
+ height: 105px;
+ display: block;
+ position: relative;
+ background-position: -348px -28px;
+}
+ .bulb:before {
+ width: 105px;
+ height: 105px;
+ display: block;
+ position: relative;
+ background-position: -348px -188px;
+}
+ .handshake:before {
+ width: 105px;
+ height: 105px;
+ display: block;
+ position: relative;
+ background-position: -348px -348px;
+}
+ .yngyang:before {
+ width: 105px;
+ height: 105px;
+ display: block;
+ position: relative;
+ background-position: -348px -508px;
+}
+ .gift:before {
+ width: 90px;
+ height: 90px;
+ display: block;
+ position: relative;
+ background-position: -355px -675px;
+}
+ .youtube:before { 
+ width: 35px;
+ height: 35px;    
+ display: block;
+ position: relative; 
+ background-position: -63px -222px;
+}
+ .youtube:hover:before,  .youtube.dark { background-position: -223px -222px;
+}
+ .facebook:before { 
+ width: 35px;
+ height: 35px;    
+ display: block;
+ position: relative; 
+ background-position: -63px -383px;
+}
+ .facebook:hover:before,  .facebook.dark { background-position: -223px -383px;
+}
+ .twitter:before { 
+ width: 35px;
+ height: 35px;    
+ display: block;
+ position: relative; 
+ background-position: -63px -543px;
+}
+ .twitter:hover:before,  .twitter.dark { background-position: -223px -543px;
+}
+ .anchor-arrow:before {
+  width: 60px;
+  height: 60px;
+  display: block;
+  position: relative;
+  background-position: -50px -50px;
+}
+ .anchor-arrow:hover:before,  .anchor-arrow.dark {
+ background-position: -210px -50px;
+}
+ .search:before {
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: relative;
+    background-position: -389px -869px;
+}
+ .icon-search:before,  .search.dark:before {
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: relative;
+    background-position: -538px -867px;
+}
+ .arrow-left:before {
+    width: 9px;
+    height: 9px;
+    display: block;
+    position: relative;
+    background-position: -556px -386px;
+}
+ .arrow-right:before {
+    width: 9px;
+    height: 9px;
+    display: block;
+    position: relative;
+    background-position: -556px -76px;
+}
+ .arrow-bottom:before {
+    width: 9px;
+    height: 9px;
+    display: block;
+    position: relative;
+    background-position: -556px -237px;
+}
+
+@font-face {
+    font-family: "Meg";
+	src:url("http://www.wpfw.net/Upfront/wp-content/themes/spirit/fonts/Meg.eot?-ycuzpz");
+	src:url("http://www.wpfw.net/Upfront/wp-content/themes/spirit/fonts/Meg.eot?#iefix-ycuzpz") format("embedded-opentype"),
+		url("http://www.wpfw.net/Upfront/wp-content/themes/spirit/fonts/Meg.woff?-ycuzpz") format("woff"),
+		url("http://www.wpfw.net/Upfront/wp-content/themes/spirit/fonts/Meg.ttf?-ycuzpz") format("truetype"),
+		url("http://www.wpfw.net/Upfront/wp-content/themes/spirit/fonts/Meg.svg?-ycuzpz#Meg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.uf_font_icon {
+ font-family: Meg;   
+}
 
 @media (max-width: 1080px) {
 	.upfront-output-object h1 { font-size: 80px; }	

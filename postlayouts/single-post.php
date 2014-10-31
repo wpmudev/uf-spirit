@@ -50,18 +50,19 @@
 		)), 
 "partOptions" => array(
 	"featured_image" => array(
-		"height" => 38
+		"height" => "38", 
+		"anchor" => ""
 		), 
 	"title" => array(
 		"theme_style" => "_default", 
 		"anchor" => ""
 		), 
 	"date" => array(
-		"format" => "j M",
-		"height" => 10
-		),
+		"format" => "j M", 
+		"height" => "10"
+		), 
 	"plain_text" => array(
-		"content" => "<a href='#'></a>"
-	)
+		"content" => "<a href=\\'#\\'></a>"
+		)
 	)
 );

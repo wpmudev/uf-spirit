@@ -79,8 +79,8 @@ $region_15->add_element("Uimage", array(
 	"image_link" => "" . get_site_url() . "/services/", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
-	"caption_position" => "below_image", 
-	"caption_alignment" => "top", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
 	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
@@ -137,6 +137,17 @@ $region_15->add_element("Uimage", array(
 	), 
 "wrapper_id" => "wrapper-1408439682498-1955", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 10
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 13
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -227,6 +238,17 @@ $region_15->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408626622170-1221", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 14
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -298,24 +320,31 @@ $region_15->add_element("Code", array(
 		), 
 	"element_id" => "upfront-code_element-object-1408626869472-1809", 
 	"code_selection_type" => "Create", 
-	"markup" => "<a class=\"banner-anchor\" href=\"#About\"></a>", 
+	"markup" => "<a class=\"banner-anchor anchor-arrow icon\" href=\"#About\"></a>", 
 	"style" => "/* Your styles here */
 .banner-anchor {
  display: block;
  width: 60px;
  height: 60px;
- background: url(" . get_stylesheet_directory_uri() . "/images/archive-home/sprite.png) left top no-repeat;   
  margin: 0 auto;
 }
-
-.banner-anchor:hover {
- background-position: right top;    
-}", 
+", 
 	"script" => "/* Your code here */", 
 	"row" => 11
 	), 
 "wrapper_id" => "wrapper-1408627222905-1682", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -459,6 +488,17 @@ $main->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408440541662-1463", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -570,6 +610,17 @@ $main->add_element("Uimage", array(
 	), 
 "wrapper_id" => "wrapper-1408440918694-1971", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 8
+		), 
+	"mobile" => array(
+		"col" => 6
+		), 
+	"custom-1410783042947" => array(
+		"col" => 11
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -647,6 +698,17 @@ $main->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408440704324-1222", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -723,6 +785,17 @@ $main->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408441148046-1003", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -897,6 +970,17 @@ $region_4->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408442634872-1479", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1008,6 +1092,17 @@ $region_4->add_element("Uimage", array(
 	), 
 "wrapper_id" => "wrapper-1408442646888-1897", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 8
+		), 
+	"mobile" => array(
+		"col" => 6
+		), 
+	"custom-1410783042947" => array(
+		"col" => 11
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1084,6 +1179,17 @@ $region_4->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408442660597-1917", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1222,6 +1328,17 @@ $region_12->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408455458788-1517", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 17
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -1305,6 +1422,17 @@ $region_12->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408455466093-1167", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 17
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -1356,79 +1484,39 @@ $region_12->add_element("PlainTxt", array(
 	)
 ));
 
-$region_12->add_element("PlainTxt", array(
+$region_12->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "19", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1408442764270-1809", 
-"rows" => 10, 
+"id" => "module-1414742339023-1095", 
+"rows" => 4, 
 "options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\"><a href=\"" . get_site_url() . "/services/\" rel=\"entry\">Find Out More</a></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1408442764267-1939", 
-	"class" => "c24 upfront-plain_txt", 
+	"content" => "Click here", 
+	"href" => "", 
+	"align" => "center", 
+	"type" => "ButtonModel", 
+	"view_class" => "ButtonView", 
+	"element_id" => "object-1414742339024-1983", 
+	"class" => "c24 upfront-button", 
 	"has_settings" => 1, 
-	"is_edited" => true, 
+	"id_slug" => "button", 
+	"currentpreset" => "small-button", 
 	"row" => 4, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "normal-button", 
-	"anchor" => ""
+	"theme_style" => "small-button-style"
 	), 
-"wrapper_id" => "wrapper-1408455488812-1678", 
+"wrapper_id" => "wrapper-1414742352573-1383", 
 "new_line" => "true", 
-"breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => true, 
-		"left" => 17, 
-		"col" => 5
-		), 
-	"custom-1408717918354" => array(
-		"edited" => true, 
-		"left" => 13, 
-		"col" => 5
-		), 
-	"custom-1408717978058" => array(
-		"edited" => true, 
-		"left" => 11, 
-		"col" => 4
-		), 
-	"custom-1408718022181" => array(
-		"edited" => true, 
-		"left" => 9, 
-		"col" => 4
-		), 
+"wrapper_breakpoint" => array(
 	"tablet" => array(
-		"edited" => true, 
-		"left" => 8, 
-		"col" => 4
-		), 
-	"custom-1408718098456" => array(
-		"edited" => true, 
-		"left" => 5, 
-		"col" => 4
+		"col" => 23
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 1, 
-		"col" => 5
-		), 
-	"custom-1410780542364" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 4
+		"col" => 23
 		), 
 	"custom-1410783042947" => array(
-		"edited" => true, 
-		"left" => 13, 
-		"col" => 4, 
-		"top" => 0
+		"col" => 23
 		)
 	)
 ));
@@ -1521,6 +1609,17 @@ $region_5->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408443818900-1429", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 9
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 13
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -1604,6 +1703,17 @@ $region_5->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408443842377-1925", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 9
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 12
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -1655,78 +1765,39 @@ $region_5->add_element("PlainTxt", array(
 	)
 ));
 
-$region_5->add_element("PlainTxt", array(
+$region_5->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "11", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1408443847987-1211", 
-"rows" => 10, 
+"id" => "module-1414742319108-1080", 
+"rows" => 4, 
 "options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\"><a href=\"" . get_site_url() . "/services/\" rel=\"entry\">Find Out More</a></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1408443847988-1491", 
-	"class" => "c24 upfront-plain_txt", 
+	"content" => "Click here", 
+	"href" => "", 
+	"align" => "center", 
+	"type" => "ButtonModel", 
+	"view_class" => "ButtonView", 
+	"element_id" => "object-1414742319108-1718", 
+	"class" => "c24 upfront-button", 
 	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 7, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "normal-button", 
-	"anchor" => ""
+	"id_slug" => "button", 
+	"currentpreset" => "small-button", 
+	"row" => 4, 
+	"theme_style" => "small-button-style"
 	), 
-"wrapper_id" => "wrapper-1408443852480-1266", 
+"wrapper_id" => "wrapper-1414742327761-1696", 
 "new_line" => "true", 
-"breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => true, 
-		"left" => 10, 
-		"col" => 5
-		), 
-	"custom-1408717918354" => array(
-		"edited" => true, 
-		"left" => 8, 
-		"col" => 5
-		), 
-	"custom-1408717978058" => array(
-		"edited" => true, 
-		"left" => 6, 
-		"col" => 4
-		), 
-	"custom-1408718022181" => array(
-		"edited" => true, 
-		"left" => 5, 
-		"col" => 4
-		), 
+"wrapper_breakpoint" => array(
 	"tablet" => array(
-		"edited" => true, 
-		"left" => 4, 
-		"col" => 4
-		), 
-	"custom-1408718098456" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 4
+		"col" => 15
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 1, 
-		"col" => 5
-		), 
-	"custom-1410780542364" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 4
+		"col" => 15
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 4
+		"col" => 15
 		)
 	)
 ));
@@ -1819,6 +1890,17 @@ $region_6->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408443912379-1151", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 17
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -1902,6 +1984,17 @@ $region_6->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408443951249-1806", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 17
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -1953,79 +2046,39 @@ $region_6->add_element("PlainTxt", array(
 	)
 ));
 
-$region_6->add_element("PlainTxt", array(
+$region_6->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "19", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1408443962151-1643", 
-"rows" => 10, 
+"id" => "module-1414741597516-1928", 
+"rows" => 4, 
 "options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\"><a href=\"" . get_site_url() . "/services/\" rel=\"entry\">Find Out More</a></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1408443962151-1399", 
-	"class" => "c24 upfront-plain_txt", 
+	"content" => "Click here", 
+	"href" => "", 
+	"align" => "center", 
+	"type" => "ButtonModel", 
+	"view_class" => "ButtonView", 
+	"element_id" => "button-object-1414741597515-1773", 
+	"class" => "c24 upfront-button", 
 	"has_settings" => 1, 
-	"is_edited" => true, 
+	"id_slug" => "button", 
+	"currentpreset" => "small-button", 
 	"row" => 4, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "normal-button", 
-	"anchor" => ""
+	"theme_style" => "small-button-style"
 	), 
-"wrapper_id" => "wrapper-1408443970544-1121", 
+"wrapper_id" => "wrapper-1414741715898-1347", 
 "new_line" => "true", 
-"breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => true, 
-		"left" => 17, 
-		"col" => 5
-		), 
-	"custom-1408717918354" => array(
-		"edited" => true, 
-		"left" => 13, 
-		"col" => 5
-		), 
-	"custom-1408717978058" => array(
-		"edited" => true, 
-		"left" => 11, 
-		"col" => 4
-		), 
-	"custom-1408718022181" => array(
-		"edited" => true, 
-		"left" => 9, 
-		"col" => 4
-		), 
+"wrapper_breakpoint" => array(
 	"tablet" => array(
-		"edited" => true, 
-		"left" => 8, 
-		"col" => 4
-		), 
-	"custom-1408718098456" => array(
-		"edited" => true, 
-		"left" => 5, 
-		"col" => 4
+		"col" => 23
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 1, 
-		"col" => 5
-		), 
-	"custom-1410780542364" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 4
+		"col" => 23
 		), 
 	"custom-1410783042947" => array(
-		"edited" => true, 
-		"left" => 13, 
-		"col" => 4, 
-		"top" => 0
+		"col" => 23
 		)
 	)
 ));
@@ -2117,6 +2170,18 @@ $region_7->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408444393256-1825", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 13
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -2199,6 +2264,18 @@ $region_7->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408444399086-1919", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 10
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 13
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -2250,77 +2327,39 @@ $region_7->add_element("PlainTxt", array(
 	)
 ));
 
-$region_7->add_element("PlainTxt", array(
+$region_7->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "11", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1408444401924-1912", 
-"rows" => 10, 
+"id" => "module-1414742258248-1117", 
+"rows" => 4, 
 "options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\"><a href=\"" . get_site_url() . "/services/\" rel=\"entry\">Find Out More</a></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1408444401924-1303", 
-	"class" => "c24 upfront-plain_txt", 
+	"content" => "Click here", 
+	"href" => "", 
+	"align" => "center", 
+	"type" => "ButtonModel", 
+	"view_class" => "ButtonView", 
+	"element_id" => "object-1414742258248-1492", 
+	"class" => "c24 upfront-button", 
 	"has_settings" => 1, 
-	"is_edited" => true, 
+	"id_slug" => "button", 
+	"currentpreset" => "small-button", 
 	"row" => 4, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "normal-button", 
-	"anchor" => ""
+	"theme_style" => "small-button-style"
 	), 
-"wrapper_id" => "wrapper-1408444405608-1579", 
-"breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => true, 
-		"left" => 10, 
-		"col" => 5
-		), 
-	"custom-1408717918354" => array(
-		"edited" => true, 
-		"left" => 8, 
-		"col" => 5
-		), 
-	"custom-1408717978058" => array(
-		"edited" => true, 
-		"left" => 6, 
-		"col" => 4
-		), 
-	"custom-1408718022181" => array(
-		"edited" => true, 
-		"left" => 5, 
-		"col" => 4
-		), 
+"wrapper_id" => "wrapper-1414742265543-1752", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
 	"tablet" => array(
-		"edited" => true, 
-		"left" => 4, 
-		"col" => 4
-		), 
-	"custom-1408718098456" => array(
-		"edited" => true, 
-		"left" => 4, 
-		"col" => 4
+		"col" => 15
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 1, 
-		"col" => 5
-		), 
-	"custom-1410780542364" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 4
+		"col" => 15
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 4
+		"col" => 15
 		)
 	)
 ));
@@ -2400,6 +2439,17 @@ $region_8->add_element("PlainTxt", array(
 	"row" => 2
 	), 
 "wrapper_id" => "wrapper-1408445074273-1042", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -2510,6 +2560,17 @@ $region_8->add_element("Uimage", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1409145408474-1078", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 8
+		), 
+	"mobile" => array(
+		"col" => 6
+		), 
+	"custom-1410783042947" => array(
+		"col" => 11
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -2629,8 +2690,8 @@ $region_11->add_element("Uimage", array(
 	"image_link" => "", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
-	"caption_position" => "below_image", 
-	"caption_alignment" => "top", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
 	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
@@ -2681,6 +2742,17 @@ $region_11->add_element("Uimage", array(
 	), 
 "wrapper_id" => "wrapper-1408454821816-1092", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 3
+		), 
+	"mobile" => array(
+		"col" => 6
+		), 
+	"custom-1410783042947" => array(
+		"col" => 4
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -2760,6 +2832,17 @@ $region_11->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1409146803749-1559", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 9
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 14
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -2829,8 +2912,8 @@ $region_11->add_element("Uimage", array(
 	"image_link" => "", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
-	"caption_position" => "below_image", 
-	"caption_alignment" => "top", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
 	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
@@ -2881,6 +2964,17 @@ $region_11->add_element("Uimage", array(
 	), 
 "wrapper_id" => "wrapper-1408454829770-1114", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 3
+		), 
+	"mobile" => array(
+		"col" => 6
+		), 
+	"custom-1410783042947" => array(
+		"col" => 4
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -2960,6 +3054,17 @@ $region_11->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1409146821339-1451", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 9
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 14
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -3030,8 +3135,8 @@ $region_11->add_element("Uimage", array(
 	"image_link" => "", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
-	"caption_position" => "below_image", 
-	"caption_alignment" => "top", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
 	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
@@ -3074,6 +3179,17 @@ $region_11->add_element("Uimage", array(
 	), 
 "wrapper_id" => "wrapper-1408454836978-1393", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 3
+		), 
+	"mobile" => array(
+		"col" => 6
+		), 
+	"custom-1410783042947" => array(
+		"col" => 4
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -3150,6 +3266,17 @@ $region_11->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1409146903808-1116", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 9
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 14
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -3220,6 +3347,17 @@ $region_11->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408454949110-1697", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -3332,135 +3470,47 @@ $region_9 = upfront_create_region(
 )
 			);
 
-$region_9->add_element("Uimage", array(
-"columns" => "3", 
-"margin_left" => "10", 
+$region_9->add_element("Code", array(
+"columns" => "22", 
+"margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1408447780441-1670", 
-"rows" => 8, 
+"id" => "module-1414741597476-1792", 
+"rows" => 14, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/icon-nwl-90x90-7383.png", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/icon-nwl.png", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/icon-nwl.png", 
-	"image_title" => "", 
-	"alternative_text" => "gift image", 
-	"when_clicked" => false, 
-	"image_link" => "", 
-	"include_image_caption" => false, 
-	"image_caption" => "My awesome image caption", 
-	"caption_position" => "below_image", 
-	"caption_alignment" => "top", 
-	"caption_trigger" => "always_show", 
-	"image_status" => "ok", 
-	"size" => array(
-		"width" => 90, 
-		"height" => 90
+	"type" => "CodeModel", 
+	"view_class" => "CodeView", 
+	"class" => "c24 upfront-code_element-object", 
+	"has_settings" => 0, 
+	"id_slug" => "upfront-code_element", 
+	"fallbacks" => array(
+		"markup" => "<b>Enter your markup here...</b>", 
+		"style" => "/* Your styles here */", 
+		"script" => "/* Your code here */"
 		), 
-	"fullSize" => array(
-		"width" => 90, 
-		"height" => 90
-		), 
-	"position" => array(
-		"top" => 0, 
-		"left" => -7.5
-		), 
-	"marginTop" => 0, 
-	"element_size" => array(
-		"width" => 105, 
-		"height" => 90
-		), 
-	"rotation" => 0, 
-	"color" => "#ffffff", 
-	"background" => "#000000", 
-	"captionBackground" => "0", 
-	"image_id" => "143", 
-	"align" => "center", 
-	"stretch" => false, 
-	"vstretch" => true, 
-	"quick_swap" => false, 
-	"gifImage" => 0, 
-	"placeholder_class" => "", 
-	"type" => "UimageModel", 
-	"view_class" => "UimageView", 
-	"has_settings" => 1, 
-	"class" => "c24 upfront-image", 
-	"id_slug" => "image", 
-	"element_id" => "image-1408447780419-1629", 
-	"row" => 2, 
-	"theme_style" => "section-icon", 
-	"anchor" => "", 
-	"breakpoint" => array(
-		"custom-1408717728290" => array(
-			"row" => 9
-			), 
-		"custom-1408717918354" => array(
-			"row" => 3
-			), 
-		"custom-1408717978058" => array(
-			"row" => 0
-			), 
-		"custom-1408718022181" => array(
-			"row" => -1
-			), 
-		"tablet" => array(
-			"row" => -1
-			)
-		)
+	"element_id" => "upfront-code_element-object-1414741597474-1891", 
+	"code_selection_type" => "Create", 
+	"markup" => "<div class=\"nwlicon icon gift\"></div>", 
+	"style" => ".nwlicon:before {
+ margin: 0 auto;
+ position: relative;
+ margin-top: -60px;
+}", 
+	"script" => "/* Your code here */", 
+	"row" => 14
 	), 
-"wrapper_id" => "wrapper-1408448267411-1829", 
+"wrapper_id" => "wrapper-1414742754166-1680", 
 "new_line" => "true", 
-"breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => true, 
-		"left" => 8, 
-		"col" => 4, 
-		"top" => 0
-		), 
-	"custom-1408717918354" => array(
-		"edited" => true, 
-		"left" => 7, 
-		"col" => 4, 
-		"top" => 0
-		), 
-	"custom-1408717978058" => array(
-		"edited" => true, 
-		"left" => 6, 
-		"col" => 4, 
-		"top" => 0
-		), 
-	"custom-1408718022181" => array(
-		"edited" => true, 
-		"left" => 5, 
-		"col" => 4, 
-		"top" => 0
-		), 
+"wrapper_breakpoint" => array(
 	"tablet" => array(
-		"edited" => true, 
-		"left" => 4, 
-		"col" => 4, 
-		"top" => 0
-		), 
-	"custom-1408718098456" => array(
-		"edited" => false, 
-		"left" => 3, 
-		"col" => 4
+		"col" => 23
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 3
-		), 
-	"custom-1410780542364" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 4
+		"col" => 23
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 4
+		"col" => 23
 		)
 	)
 ));
@@ -3469,7 +3519,7 @@ $region_9->add_element("PlainTxt", array(
 "columns" => "20", 
 "margin_left" => "2", 
 "margin_right" => "0", 
-"margin_top" => "2", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408446486399-1979", 
 "rows" => 7, 
@@ -3492,6 +3542,17 @@ $region_9->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408446496888-1432", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -3573,6 +3634,17 @@ $region_9->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408446525502-1263", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -3742,6 +3814,17 @@ $region_9->add_element("Code", array(
 	), 
 "wrapper_id" => "wrapper-1408629844073-1942", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -3840,77 +3923,39 @@ $region_10 = upfront_create_region(
 )
 			);
 
-$region_10->add_element("PlainTxt", array(
+$region_10->add_element("Button", array(
 "columns" => "6", 
 "margin_left" => "9", 
 "margin_right" => "0", 
-"margin_top" => "16", 
+"margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1408446525777-1779", 
-"rows" => 14, 
+"id" => "module-1414662746939-1431", 
+"rows" => 16, 
 "options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: center;\"><a href=\"" . get_site_url() . "/contact/\" rel=\"entry\">Get in Touch</a></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1408446525776-1455", 
-	"class" => "c24 upfront-plain_txt", 
+	"content" => "Click here", 
+	"href" => "", 
+	"align" => "center", 
+	"type" => "ButtonModel", 
+	"view_class" => "ButtonView", 
+	"element_id" => "button-object-1414662746938-1077", 
+	"class" => "c24 upfront-button", 
 	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "big-button", 
-	"anchor" => "", 
-	"row" => 8
+	"id_slug" => "button", 
+	"row" => 16, 
+	"currentpreset" => "medium-button", 
+	"theme_style" => "button-style"
 	), 
-"wrapper_id" => "wrapper-1408446673518-1424", 
-"breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => false, 
-		"left" => 8, 
-		"col" => 6
-		), 
-	"custom-1408717918354" => array(
-		"edited" => false, 
-		"left" => 6, 
-		"col" => 6
-		), 
-	"custom-1408717978058" => array(
-		"edited" => false, 
-		"left" => 5, 
-		"col" => 6
-		), 
-	"custom-1408718022181" => array(
-		"edited" => false, 
-		"left" => 4, 
-		"col" => 6
-		), 
+"wrapper_id" => "wrapper-1414665328724-1008", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 3, 
-		"col" => 6
-		), 
-	"custom-1408718098456" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 6
+		"col" => 15
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
-		), 
-	"custom-1410780542364" => array(
-		"edited" => false, 
-		"left" => 6, 
-		"col" => 6
+		"col" => 15
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 6, 
-		"col" => 6
+		"col" => 15
 		)
 	)
 ));
@@ -3935,6 +3980,18 @@ $region_10->add_element("PlainTxt", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1408446764358-1048", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 15
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
