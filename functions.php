@@ -39,7 +39,7 @@ class Spirit extends Upfront_ChildTheme {
     }
 
     public function augment_regions ($regions) {
-        if ($this->_slider_imported) return $regions;
+        if (isset( $this->_slider_imported ) && $this->_slider_imported) return $regions;
 
         if (empty($regions) || !is_array($regions)) return $regions;
         foreach ($regions as $idx => $region) {
