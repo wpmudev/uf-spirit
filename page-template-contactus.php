@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template Contactus Page template
+ * Template Name: Contactus Page Template
  *
  * @package WordPress
  * @subpackage template-contactus

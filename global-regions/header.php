@@ -117,17 +117,6 @@ $header->add_element("Uimage", array(
 	), 
 "wrapper_id" => "image-wrapper", 
 "new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 3
-		), 
-	"mobile" => array(
-		"col" => 3
-		), 
-	"custom-1410783042947" => array(
-		"col" => 3
-		)
-	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -375,17 +364,6 @@ $header->add_element("Unewnavigation", array(
 	"element_id" => "unewnavigation-object"
 	), 
 "wrapper_id" => "unewnavigation-wrapper", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 2
-		), 
-	"mobile" => array(
-		"col" => 4
-		), 
-	"custom-1410783042947" => array(
-		"col" => 2
-		)
-	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -500,17 +478,6 @@ $header->add_element("Code", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408627457712-1308", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 7
-		), 
-	"mobile" => array(
-		"col" => 6
-		), 
-	"custom-1410783042947" => array(
-		"col" => 13
-		)
-	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 

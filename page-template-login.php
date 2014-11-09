@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template Login Page template
+ * Template Name: Login Page Template
  *
  * @package WordPress
  * @subpackage template-login

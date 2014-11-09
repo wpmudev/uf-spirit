@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template Services Page template
+ * Template Name: Services Page Template
  *
  * @package WordPress
  * @subpackage template-services

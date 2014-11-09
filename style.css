@@ -220,11 +220,11 @@ a:hover {
 
 @font-face {
     font-family: "Meg";
-	src:url("http://www.wpfw.net/Upfront/wp-content/themes/spirit/fonts/Meg.eot?-ycuzpz");
-	src:url("http://www.wpfw.net/Upfront/wp-content/themes/spirit/fonts/Meg.eot?#iefix-ycuzpz") format("embedded-opentype"),
-		url("http://www.wpfw.net/Upfront/wp-content/themes/spirit/fonts/Meg.woff?-ycuzpz") format("woff"),
-		url("http://www.wpfw.net/Upfront/wp-content/themes/spirit/fonts/Meg.ttf?-ycuzpz") format("truetype"),
-		url("http://www.wpfw.net/Upfront/wp-content/themes/spirit/fonts/Meg.svg?-ycuzpz#Meg") format("svg");
+	src:url("fonts/Meg.eot?-ycuzpz");
+	src:url("fonts/Meg.eot?#iefix-ycuzpz") format("embedded-opentype"),
+		url("fonts/Meg.woff?-ycuzpz") format("woff"),
+		url("fonts/Meg.ttf?-ycuzpz") format("truetype"),
+		url("fonts/Meg.svg?-ycuzpz#Meg") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }

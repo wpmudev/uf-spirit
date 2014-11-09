@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template Testimonials Page template
+ * Template Name: Testimonials Page Template
  *
  * @package WordPress
  * @subpackage template-testimonials

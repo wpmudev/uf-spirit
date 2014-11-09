@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template Gallery Page template
+ * Template Name: Gallery Page Template
  *
  * @package WordPress
  * @subpackage template-gallery

@@ -199,7 +199,10 @@ $region_4->add_element("Uposts", array(
 		), 
 	"element_id" => "uposts-object-1408714915751-1703", 
 	"row" => 42, 
-	"theme_style" => "blog-page-feed"
+	"theme_style" => "blog-page-feed", 
+	"order" => "", 
+	"direction" => "", 
+	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408714949691-1226"
 ));

@@ -7,61 +7,82 @@
 		"classes" => "c2 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c22 ml0 mt1", 
+				"classes" => "post-part 24 c16 ml0 mt1", 
 				"slug" => "title"
 				)), 
-		"classes" => "c22 "
+		"classes" => "c16"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c22 ml2 mt1", 
+				"classes" => "post-part 24 c16 ml2 mt0", 
 				"slug" => "categories"
 				)), 
-		"classes" => "c22 "
+		"classes" => "c18  clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c20 ml2 mt5", 
+				"classes" => "post-part 24 c11 ml2 mt0", 
 				"slug" => "author"
 				)), 
-		"classes" => "c20 "
+		"classes" => "c13 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c4 ml0 mt5", 
+				"classes" => "post-part 24 c5 ml0 mt0", 
 				"slug" => "comments_count"
 				)), 
-		"classes" => "c4 "
+		"classes" => "c5"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c24 ml2 mt8", 
+				"classes" => "post-part 24 c16 ml2 mt0", 
 				"slug" => "featured_image"
 				)), 
-		"classes" => "c24 "
+		"classes" => "c18  clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c24 ml2 mt8", 
-				"slug" => "contents"
+				"classes" => "c16 post-part ml2 mt0", 
+				"slug" => "excerpt"
 				)), 
-		"classes" => "c24 "
+		"classes" => "c18 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml0 mt1", 
+				"classes" => "post-part 24 c16 ml0 mt0", 
 				"slug" => "plain_text"
 				)), 
-		"classes" => "c16 "
+		"classes" => "c16  clr"
 		)), 
 "partOptions" => array(
 	"featured_image" => array(
-		"height" => 38
+		"height" => "40", 
+		"anchor" => "", 
+		"attributes" => array(
+			"style" => "max-height: 40px"
+			)
 		), 
 	"title" => array(
 		"theme_style" => "_default", 
 		"anchor" => ""
 		), 
 	"date" => array(
-		"format" => "j M",
-		"height" => 10
-		),
+		"format" => "j M", 
+		"height" => "10"
+		), 
 	"plain_text" => array(
-		"content" => "<a href='#'></a>"
-	)
+		"content" => "<a href=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'></a>"
+		), 
+	"author" => array(
+		"anchor" => ""
+		), 
+	"comments_count" => array(
+		"anchor" => ""
+		), 
+	"categories" => array(
+		"anchor" => ""
+		), 
+	"contents" => array(
+		"padding_left" => "", 
+		"padding_right" => ""
+		), 
+	"colSize" => "45", 
+	"excerpt" => array(
+		"anchor" => ""
+		)
 	)
 );
