@@ -7,51 +7,48 @@
 		"classes" => "c2 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c22 ml0 mt1", 
+				"classes" => "post-part 24 c16 ml0 mt0", 
 				"slug" => "title"
 				)), 
-		"classes" => "c22 "
+		"classes" => "c16"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c22 ml2 mt1", 
+				"classes" => "post-part 24 c16 ml2 mt8", 
 				"slug" => "categories"
 				)), 
-		"classes" => "c22 "
+		"classes" => "c18  clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c20 ml2 mt5", 
+				"classes" => "post-part 24 c12 ml2 mt5", 
 				"slug" => "author"
 				)), 
-		"classes" => "c20 "
+		"classes" => "c14  clr"
 		), array(
 		"objects" => array(array(
 				"classes" => "post-part 24 c4 ml0 mt5", 
 				"slug" => "comments_count"
 				)), 
-		"classes" => "c4 "
+		"classes" => "c4"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c24 ml2 mt1", 
+				"classes" => "post-part 24 c16 ml2 mt6", 
 				"slug" => "contents"
 				)), 
-		"classes" => "c24 "
+		"classes" => "c18  clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c24 ml2 mt8", 
-				"slug" => "featured_image"
-				)), 
-		"classes" => "c24 "
-		), array(
-		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml0 mt1", 
+				"classes" => "post-part 24 c16 ml0 mt8", 
 				"slug" => "plain_text"
 				)), 
-		"classes" => "c16 "
+		"classes" => "c16  clr"
 		)), 
 "partOptions" => array(
 	"featured_image" => array(
-		"height" => "38", 
-		"anchor" => ""
+		"height" => "95", 
+		"anchor" => "", 
+		"attributes" => array(
+			"style" => "max-height: 95px"
+			)
 		), 
 	"title" => array(
 		"theme_style" => "_default", 
@@ -62,7 +59,7 @@
 		"height" => "10"
 		), 
 	"plain_text" => array(
-		"content" => "<a href=\\\\\\'#\\\\\\'></a>"
+		"content" => "<a href=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'></a>"
 		)
 	)
 );
