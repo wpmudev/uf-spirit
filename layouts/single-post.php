@@ -1,50 +1,6 @@
 <?php
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
-$region_4 = upfront_create_region(
-			array(
-"name" => "region-4", 
-"title" => "Region 4", 
-"type" => "wide", 
-"scope" => "local", 
-"container" => "region-4", 
-"position" => 10, 
-"allow_sidebar" => true
-),
-			array(
-"row" => 36, 
-"background_type" => "featured", 
-"nav_region" => "", 
-"background_color" => "#ffffff", 
-"background_style" => "full", 
-"background_position_y" => "50", 
-"background_position_x" => "50"
-)
-			);
-
-$region_4->add_element("PlainTxt", array(
-"columns" => "22", 
-"margin_left" => "1", 
-"margin_top" => "3", 
-"id" => "module-1416389582145-1796", 
-"rows" => 16, 
-"options" => array(
-	"content" => "<h1 class=\"\" style=\"text-align: center;\">BLOG</h1>", 
-	"type" => "PlainTxtModel", 
-	"view_class" => "PlainTxtView", 
-	"element_id" => "text-object-1416389582145-1910", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"id_slug" => "plain_text", 
-	"row" => 16, 
-	"is_edited" => true
-	), 
-"wrapper_id" => "wrapper-1416389609322-1762", 
-"new_line" => "true"
-));
-
-$regions->add($region_4);
-
 $region_3 = upfront_create_region(
 			array(
 "name" => "region-3", 
