@@ -1,12 +1,6 @@
 <?php return array(
 "postLayout" => array(array(
 		"objects" => array(array(
-				"classes" => "c18 post-part ml0 mt0", 
-				"slug" => "featured_image"
-				)), 
-		"classes" => "c18 clr"
-		), array(
-		"objects" => array(array(
 				"classes" => "post_date post-part c2 ml0 mt7", 
 				"slug" => "date"
 				)), 
@@ -65,7 +59,7 @@
 		"height" => "10"
 		), 
 	"plain_text" => array(
-		"content" => "<a href=\\'#\\'></a>"
+		"content" => "<a href=\\\\\\'#\\\\\\'></a>"
 		)
 	)
 );
