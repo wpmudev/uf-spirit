@@ -212,6 +212,51 @@ $region_2->add_element("SocialMedia", array(
 			"meta" => array(), 
 			"name" => "Google +", 
 			"url" => "https://plus.google.com/+wpmuorg/posts"
+			)), 
+	"button_services" => array(array(
+			"id" => "facebook", 
+			"active" => false, 
+			"meta" => array(), 
+			"name" => "Facebook", 
+			"url" => ""
+			), array(
+			"id" => "twitter", 
+			"active" => false, 
+			"meta" => array(array(
+					"id" => "consumer_key", 
+					"name" => "Consumer Key", 
+					"value" => ""
+					), array(
+					"id" => "consumer_secret", 
+					"name" => "Consumer Secret", 
+					"value" => ""
+					)), 
+			"name" => "Twitter", 
+			"url" => ""
+			), array(
+			"id" => "google", 
+			"active" => false, 
+			"meta" => array(), 
+			"name" => "Google +", 
+			"url" => ""
+			), array(
+			"id" => "linked-in", 
+			"name" => "Linked in", 
+			"active" => false, 
+			"url" => "", 
+			"meta" => array()
+			), array(
+			"id" => "pinterest", 
+			"name" => "Pinterest", 
+			"active" => false, 
+			"url" => "", 
+			"meta" => array()
+			), array(
+			"id" => "youtube", 
+			"name" => "Youtube", 
+			"active" => false, 
+			"url" => "", 
+			"meta" => array()
 			))
 	), 
 "wrapper_id" => "wrapper-1409048266228-1807", 
