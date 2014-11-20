@@ -117,6 +117,17 @@ $header->add_element("Uimage", array(
 	), 
 "wrapper_id" => "image-wrapper", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 3
+		), 
+	"mobile" => array(
+		"col" => 3
+		), 
+	"custom-1410783042947" => array(
+		"col" => 3
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -191,94 +202,94 @@ $header->add_element("Unewnavigation", array(
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
-			"menu-item-db-id" => 119, 
+			"menu-item-db-id" => 154, 
 			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "post_type", 
+			"menu-item-type" => "custom", 
 			"menu-item-title" => "About", 
 			"menu-item-url" => "" . get_site_url() . "/template-about/", 
-			"menu-item-object" => "page", 
-			"menu-item-object-id" => "109", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "154", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 1
 			), array(
-			"menu-item-db-id" => 118, 
+			"menu-item-db-id" => 155, 
 			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "post_type", 
+			"menu-item-type" => "custom", 
 			"menu-item-title" => "Services", 
 			"menu-item-url" => "" . get_site_url() . "/template-services/", 
-			"menu-item-object" => "page", 
-			"menu-item-object-id" => "110", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "155", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 2
 			), array(
-			"menu-item-db-id" => 117, 
+			"menu-item-db-id" => 156, 
 			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "post_type", 
+			"menu-item-type" => "custom", 
 			"menu-item-title" => "Testimonials", 
 			"menu-item-url" => "" . get_site_url() . "/template-testimonials/", 
-			"menu-item-object" => "page", 
-			"menu-item-object-id" => "111", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "156", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 3, 
 			"sub" => array(array(
-					"menu-item-db-id" => 173, 
-					"menu-item-parent-id" => "117", 
+					"menu-item-db-id" => 157, 
+					"menu-item-parent-id" => "156", 
 					"menu-item-type" => "custom", 
 					"menu-item-title" => "Link Name", 
 					"menu-item-url" => "http://test", 
 					"menu-item-object" => "custom", 
-					"menu-item-object-id" => "173", 
+					"menu-item-object-id" => "157", 
 					"menu-item-target" => "", 
 					"menu-item-position" => 4
 					), array(
-					"menu-item-db-id" => 185, 
-					"menu-item-parent-id" => "117", 
+					"menu-item-db-id" => 158, 
+					"menu-item-parent-id" => "156", 
 					"menu-item-type" => "custom", 
 					"menu-item-title" => "testing 123", 
 					"menu-item-url" => "http://ererewre", 
 					"menu-item-object" => "custom", 
-					"menu-item-object-id" => "185", 
+					"menu-item-object-id" => "158", 
 					"menu-item-target" => "", 
 					"menu-item-position" => 9
 					))
 			), array(
-			"menu-item-db-id" => 116, 
+			"menu-item-db-id" => 159, 
 			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "post_type", 
+			"menu-item-type" => "custom", 
 			"menu-item-title" => "Gallery", 
 			"menu-item-url" => "" . get_site_url() . "/template-gallery/", 
-			"menu-item-object" => "page", 
-			"menu-item-object-id" => "112", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "159", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 5
 			), array(
-			"menu-item-db-id" => 120, 
+			"menu-item-db-id" => 160, 
 			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "post_type", 
-			"menu-item-title" => "Contact us", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "Contactus", 
 			"menu-item-url" => "" . get_site_url() . "/template-contactus/", 
-			"menu-item-object" => "page", 
-			"menu-item-object-id" => "108", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "160", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 6
 			), array(
-			"menu-item-db-id" => 115, 
+			"menu-item-db-id" => 161, 
 			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "post_type", 
+			"menu-item-type" => "custom", 
 			"menu-item-title" => "Login", 
 			"menu-item-url" => "" . get_site_url() . "/template-login/", 
-			"menu-item-object" => "page", 
-			"menu-item-object-id" => "113", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "161", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 7
 			), array(
-			"menu-item-db-id" => 129, 
+			"menu-item-db-id" => 162, 
 			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "post_type", 
+			"menu-item-type" => "custom", 
 			"menu-item-title" => "Page", 
 			"menu-item-url" => "" . get_site_url() . "/default-page/", 
-			"menu-item-object" => "page", 
-			"menu-item-object-id" => "127", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "162", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 8
 			)), 
@@ -364,6 +375,17 @@ $header->add_element("Unewnavigation", array(
 	"element_id" => "unewnavigation-object"
 	), 
 "wrapper_id" => "unewnavigation-wrapper", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 2
+		), 
+	"mobile" => array(
+		"col" => 4
+		), 
+	"custom-1410783042947" => array(
+		"col" => 2
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -478,6 +500,17 @@ $header->add_element("Code", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408627457712-1308", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 7
+		), 
+	"mobile" => array(
+		"col" => 6
+		), 
+	"custom-1410783042947" => array(
+		"col" => 13
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 

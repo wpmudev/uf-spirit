@@ -45,7 +45,18 @@ $region_5->add_element("PlainTxt", array(
 	"row" => 10, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1408525051645-1279"
+"wrapper_id" => "wrapper-1408525051645-1279", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 23
+		), 
+	"mobile" => array(
+		"col" => 23
+		), 
+	"custom-1410783042947" => array(
+		"col" => 23
+		)
+	)
 ));
 
 $regions->add($region_5);
@@ -88,7 +99,18 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "breadcrumbs", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408529977772-1644"
+"wrapper_id" => "wrapper-1408529977772-1644", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 23
+		), 
+	"mobile" => array(
+		"col" => 23
+		), 
+	"custom-1410783042947" => array(
+		"col" => 23
+		)
+	)
 ));
 
 $regions->add($region_3);
@@ -204,7 +226,18 @@ $region_4->add_element("Uposts", array(
 	"direction" => "", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408714949691-1226"
+"wrapper_id" => "wrapper-1408714949691-1226", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 20
+		), 
+	"mobile" => array(
+		"col" => 20
+		), 
+	"custom-1410783042947" => array(
+		"col" => 20
+		)
+	)
 ));
 
 $regions->add($region_4);

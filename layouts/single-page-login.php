@@ -19,7 +19,7 @@ $region_3 = upfront_create_region(
 "background_style" => "fixed", 
 "background_position_y" => "0", 
 "background_position_x" => "50", 
-"background_image" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-login/Login-Bg.jpg", 
+"background_image" => "" . get_stylesheet_directory_uri() . "/images/single-page-login/Login-Bg.jpg", 
 "background_image_ratio" => 0.56, 
 "background_repeat" => "no-repeat", 
 "background_position" => "50% 0%", 
@@ -86,6 +86,17 @@ $region_3->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -264,6 +275,17 @@ $region_3->add_element("Code", array(
 	), 
 "wrapper_id" => "wrapper-1408622963086-1817", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 10
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 13
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 

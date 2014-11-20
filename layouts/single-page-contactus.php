@@ -19,7 +19,7 @@ $region_2 = upfront_create_region(
 "background_style" => "fixed", 
 "background_position_y" => "0", 
 "background_position_x" => "50", 
-"background_image" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-contactus/Contact-Bg.jpg", 
+"background_image" => "" . get_stylesheet_directory_uri() . "/images/single-page-contactus/Contact-Bg.jpg", 
 "background_image_ratio" => 0.56, 
 "background_repeat" => "no-repeat", 
 "background_position" => "50% 0%", 
@@ -86,6 +86,17 @@ $region_2->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -166,6 +177,17 @@ $region_2->add_element("Ucontact", array(
 	), 
 "wrapper_id" => "wrapper-1408536680933-1250", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 16
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -231,6 +253,17 @@ $region_2->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408537660269-1178", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 14
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 

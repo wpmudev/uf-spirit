@@ -65,7 +65,7 @@
 		"height" => "10"
 		), 
 	"plain_text" => array(
-		"content" => "<a href='#'></a>"
+		"content" => "<a href=\\'#\\'></a>"
 		)
 	)
 );

@@ -40,12 +40,25 @@ $region_3 = upfront_create_region(
 
 $region_3->add_group(array(
 "columns" => "8", 
-"margin_top" => "21", 
 "margin_left" => "2", 
+"margin_right" => "0", 
+"margin_top" => "21", 
+"margin_bottom" => "0", 
 "id" => "module-group-1411024470437-1633", 
 "rows" => 10, 
 "wrapper_id" => "wrapper-1410879041131-1605", 
-"new_line" => "true"
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 10
+		), 
+	"mobile" => array(
+		"col" => 10
+		), 
+	"custom-1410783042947" => array(
+		"col" => 10
+		)
+	)
 ));
 
 $region_3->add_element("Uimage", array(
@@ -97,6 +110,7 @@ $region_3->add_element("Uimage", array(
 	"vstretch" => true, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
@@ -108,6 +122,17 @@ $region_3->add_element("Uimage", array(
 	), 
 "wrapper_id" => "wrapper-1411024470478-1584", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 7
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 7
+		)
+	), 
 "breakpoint" => array(
 	"custom-1410783042947" => array(
 		"edited" => false, 
@@ -278,6 +303,17 @@ $region_3->add_group(array(
 "id" => "module-group-1410879123419-1613", 
 "rows" => 10, 
 "wrapper_id" => "wrapper-1410879068397-1666", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 10
+		)
+	), 
 "breakpoint" => array(
 	"custom-1410783042947" => array(
 		"edited" => true, 
@@ -320,6 +356,17 @@ $region_3->add_element("PlainTxt", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1410879123464-1829", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 10
+		)
+	), 
 "breakpoint" => array(
 	"custom-1410783042947" => array(
 		"edited" => false, 
