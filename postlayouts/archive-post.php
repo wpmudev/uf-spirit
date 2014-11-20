@@ -16,7 +16,7 @@
 		"classes" => "c15"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c11 ml2 mt11", 
+				"classes" => "post-part 24 c11 ml2 mt0", 
 				"slug" => "author"
 				)), 
 		"classes" => "c13 clr"
@@ -25,25 +25,25 @@
 				"classes" => "post-part 24 c5 ml0 mt0", 
 				"slug" => "comments_count"
 				)), 
-		"classes" => "c5 clr"
+		"classes" => "c5"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml2 mt0", 
+				"classes" => "post-part 24 c16 ml2 mt2", 
 				"slug" => "featured_image"
 				)), 
 		"classes" => "c18  clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "c16 post-part ml2 mt0", 
+				"classes" => "post-part 24 c16 ml2 mt0", 
+				"slug" => "plain_text"
+				)), 
+		"classes" => "c18  clr"
+		), array(
+		"objects" => array(array(
+				"classes" => "c16 post-part ml2 mt0 mt1.5", 
 				"slug" => "excerpt"
 				)), 
 		"classes" => "c18 clr"
-		), array(
-		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml0 mt0", 
-				"slug" => "plain_text"
-				)), 
-		"classes" => "c16  clr"
 		)), 
 "partOptions" => array(
 	"featured_image" => array(
@@ -65,7 +65,7 @@
 			)
 		), 
 	"plain_text" => array(
-		"content" => "<a href=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'></a>"
+		"content" => "<a href=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'></a>"
 		), 
 	"author" => array(
 		"anchor" => ""

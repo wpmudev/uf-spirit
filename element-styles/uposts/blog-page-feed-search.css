@@ -14,6 +14,7 @@ time {
 	text-decoration: none;
 	display: block;
 	min-height: 55px;
+	text-align: left;
 }
 #page .blog-page-feed-search .post_title a:hover {
 	color: #548685;
@@ -53,6 +54,9 @@ time {
 	display: none;
 }
 #page .blog-page-feed-search .upfront-postpart-contents {
+	display: none;
+}
+#page .blog-page-feed-search .upfront-postpart-excerpt {
 	display: none;
 }
 #page .blog-page-feed-search .uposts-pagination {
