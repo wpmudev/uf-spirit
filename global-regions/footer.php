@@ -184,37 +184,7 @@ $footer->add_element("Unewnavigation", array(
 	"class" => "c24 upfront-navigation", 
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
-	"menu_items" => array(array(
-			"menu-item-db-id" => 163, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Archive", 
-			"menu-item-url" => "#", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "163", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 1
-			), array(
-			"menu-item-db-id" => 164, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Terms", 
-			"menu-item-url" => "#", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "164", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 2
-			), array(
-			"menu-item-db-id" => 165, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Privacy", 
-			"menu-item-url" => "#", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "165", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 3
-			)), 
+	"menu_items" => false, 
 	"menu_style" => "horizontal", 
 	"menu_alignment" => "center", 
 	"allow_sub_nav" => array("no"), 
