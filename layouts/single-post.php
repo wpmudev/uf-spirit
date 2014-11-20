@@ -332,7 +332,8 @@ $region_2->add_element("Ucomment", array(
 	"class" => "c24 upfront-comment", 
 	"has_settings" => 0, 
 	"prepend_form" => false, 
-	"element_id" => "default-comment-object"
+	"element_id" => "default-comment-object",
+    "theme_style" => "blog-page-feed"
 	), 
 "wrapper_id" => "default-comment-wrapper", 
 "wrapper_breakpoint" => array(
