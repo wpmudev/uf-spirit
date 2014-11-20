@@ -19,7 +19,7 @@ $region_8 = upfront_create_region(
 "background_style" => "full", 
 "background_position_y" => "0", 
 "background_position_x" => "50", 
-"background_image" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Bg (1).jpg", 
+"background_image" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/About-Bg (1).jpg", 
 "background_image_ratio" => 0.56, 
 "background_repeat" => "no-repeat", 
 "background_position" => "50% 0%", 
@@ -88,6 +88,17 @@ $region_8->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -209,6 +220,17 @@ $region_3->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408529977772-1644", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -280,6 +302,17 @@ $region_3->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408525441545-1325", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -416,6 +449,17 @@ $region_4->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408525530814-1418", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 5
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -521,6 +565,17 @@ $region_4->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408525591417-1195", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 8
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -627,6 +682,17 @@ $region_4->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408525556875-1692", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 5
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -740,14 +806,14 @@ $region_5->add_element("Uimage", array(
 "id" => "module-1408526102009-1923", 
 "rows" => 27, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Photo-690x371-8026.jpg", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Photo.jpg", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/About-Photo.jpg", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/About-Photo-690x371-8026.jpg", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/About-Photo.jpg", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/About-Photo.jpg", 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => false, 
 	"image_link" => "", 
-	"include_image_caption" => false, 
+	"include_image_caption" => true, 
 	"image_caption" => "My awesome image caption", 
 	"caption_position" => "below_image", 
 	"caption_alignment" => "top", 
@@ -807,6 +873,17 @@ $region_5->add_element("Uimage", array(
 	), 
 "wrapper_id" => "wrapper-1408526143362-1205", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 17
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -892,6 +969,17 @@ $region_5->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408526265567-1343", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 9
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 12
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -1018,6 +1106,17 @@ $region_6->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1408526402494-1175", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 12
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 18
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1071,9 +1170,9 @@ $region_6->add_element("Uimage", array(
 "id" => "module-1408526143443-1609", 
 "rows" => 8, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/wave-line-92x4-2112.png", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/wave-line.png", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-template-about/wave-line.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/wave-line-92x4-2112.png", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/wave-line.png", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/wave-line.png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => false, 
@@ -1124,6 +1223,17 @@ $region_6->add_element("Uimage", array(
 	), 
 "wrapper_id" => "wrapper-1408526465194-1338", 
 "new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 8
+		), 
+	"mobile" => array(
+		"col" => 6
+		), 
+	"custom-1410783042947" => array(
+		"col" => 11
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false, 
@@ -1233,7 +1343,7 @@ $region_7->add_element("PlainTxt", array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-5\" style=\"width: 96px;\">
-	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 96px; height: 50px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/single-page-template-about/logo1.jpg\"></span>
+	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 96px; height: 50px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/single-page-about/logo1.jpg\"></span>
 </div><p class=\"\" style=\"font-size: medium; text-align: justify;\"><br>Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.&nbsp;</p><p class=\"\" style=\"font-size: medium; text-align: justify;\">Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1408527009607-1358", 
@@ -1257,6 +1367,17 @@ $region_7->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1410365735039-1402", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 8
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -1322,7 +1443,7 @@ $region_7->add_element("PlainTxt", array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-8\" style=\"width: 208px;\">
-	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 208px; height: 51px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/single-page-template-about/logo2.jpg\"></span>
+	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 208px; height: 51px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/single-page-about/logo2.jpg\"></span>
 </div><p class=\"\" style=\"text-align: justify;\"></p><p class=\"\" style=\"text-align: justify;\">Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.&nbsp;<br></p><p class=\"\" style=\"text-align: justify;\">Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1408526402549-1604", 
@@ -1352,6 +1473,17 @@ $region_7->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1410365750241-1268", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11
+		), 
+	"mobile" => array(
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"col" => 10
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
