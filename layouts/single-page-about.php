@@ -813,7 +813,7 @@ $region_5->add_element("Uimage", array(
 	"alternative_text" => "", 
 	"when_clicked" => false, 
 	"image_link" => "", 
-	"include_image_caption" => true, 
+	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
 	"caption_position" => false, 
 	"caption_alignment" => false, 
