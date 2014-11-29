@@ -566,8 +566,8 @@ $main->add_element("Uimage", array(
 	"image_link" => "", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
-	"caption_position" => "below_image", 
-	"caption_alignment" => "top", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
 	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
@@ -1048,8 +1048,8 @@ $region_4->add_element("Uimage", array(
 	"image_link" => "", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
-	"caption_position" => "below_image", 
-	"caption_alignment" => "top", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
 	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
@@ -2517,8 +2517,8 @@ $region_8->add_element("Uimage", array(
 	"image_link" => "", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
-	"caption_position" => "below_image", 
-	"caption_alignment" => "top", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
 	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
