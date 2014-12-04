@@ -705,108 +705,108 @@ $region_2->add_element("ThisPost", array(
 	)
 ));
 
-$region_2->add_element("SocialMedia", array(
-"columns" => "18", 
-"margin_left" => "2", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1409046990936-1993", 
-"rows" => 12, 
-"options" => array(
-	"social_type" => "likes", 
-	"like_social_media_services" => array("facebook", "twitter", "google"), 
-	"count_social_media_services" => array(), 
-	"button_size" => "medium", 
-	"button_style" => "button-style-2", 
-	"call_social_media_services" => array(), 
-	"id_slug" => "SocialMedia", 
-	"type" => "SocialMediaModel", 
-	"view_class" => "SocialMediaView", 
-	"class" => "c24 upfront-Social-Media", 
-	"has_settings" => 1, 
-	"counter_options" => "horizontal", 
-	"counter_style" => "horizontal", 
-	"element_id" => "SocialMedia-object-1409046990934-1531", 
-	"after_content" => "yes", 
-	"after_content_align" => "right", 
-	"services" => array(array(
-			"id" => "facebook", 
-			"active" => 1, 
-			"meta" => array(), 
-			"name" => "Facebook", 
-			"url" => "https://www.facebook.com/wpmudev"
-			), array(
-			"id" => "twitter", 
-			"active" => 1, 
-			"meta" => array(), 
-			"name" => "Twitter", 
-			"url" => "https://twitter.com/wpmudev"
-			), array(
-			"id" => "google", 
-			"active" => 1, 
-			"meta" => array(), 
-			"name" => "Google +", 
-			"url" => "https://plus.google.com/+wpmuorg/posts"
-			)), 
-	"button_services" => array(array(
-			"id" => "facebook", 
-			"active" => false, 
-			"meta" => array(), 
-			"name" => "Facebook", 
-			"url" => ""
-			), array(
-			"id" => "twitter", 
-			"active" => false, 
-			"meta" => array(array(
-					"id" => "consumer_key", 
-					"name" => "Consumer Key", 
-					"value" => ""
-					), array(
-					"id" => "consumer_secret", 
-					"name" => "Consumer Secret", 
-					"value" => ""
-					)), 
-			"name" => "Twitter", 
-			"url" => ""
-			), array(
-			"id" => "google", 
-			"active" => false, 
-			"meta" => array(), 
-			"name" => "Google +", 
-			"url" => ""
-			), array(
-			"id" => "linked-in", 
-			"name" => "Linked in", 
-			"active" => false, 
-			"url" => "", 
-			"meta" => array()
-			), array(
-			"id" => "pinterest", 
-			"name" => "Pinterest", 
-			"active" => false, 
-			"url" => "", 
-			"meta" => array()
-			), array(
-			"id" => "youtube", 
-			"name" => "Youtube", 
-			"active" => false, 
-			"url" => "", 
-			"meta" => array()
-			))
-	), 
-"wrapper_id" => "wrapper-1409048266228-1807", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 20
-		), 
-	"mobile" => array(
-		"col" => 20
-		), 
-	"custom-1410783042947" => array(
-		"col" => 20
-		)
-	)
+//$region_2->add_element("SocialMedia", array(
+//"columns" => "18",
+//"margin_left" => "2",
+//"margin_right" => "0",
+//"margin_top" => "0",
+//"margin_bottom" => "0",
+//"id" => "module-1409046990936-1993",
+//"rows" => 12,
+//"options" => array(
+//	"social_type" => "likes",
+//	"like_social_media_services" => array("facebook", "twitter", "google"),
+//	"count_social_media_services" => array(),
+//	"button_size" => "medium",
+//	"button_style" => "button-style-2",
+//	"call_social_media_services" => array(),
+//	"id_slug" => "SocialMedia",
+//	"type" => "SocialMediaModel",
+//	"view_class" => "SocialMediaView",
+//	"class" => "c24 upfront-Social-Media",
+//	"has_settings" => 1,
+//	"counter_options" => "horizontal",
+//	"counter_style" => "horizontal",
+//	"element_id" => "SocialMedia-object-1409046990934-1531",
+//	"after_content" => "yes",
+//	"after_content_align" => "right",
+//	"services" => array(array(
+//			"id" => "facebook",
+//			"active" => 1,
+//			"meta" => array(),
+//			"name" => "Facebook",
+//			"url" => "https://www.facebook.com/wpmudev"
+//			), array(
+//			"id" => "twitter",
+//			"active" => 1,
+//			"meta" => array(),
+//			"name" => "Twitter",
+//			"url" => "https://twitter.com/wpmudev"
+//			), array(
+//			"id" => "google",
+//			"active" => 1,
+//			"meta" => array(),
+//			"name" => "Google +",
+//			"url" => "https://plus.google.com/+wpmuorg/posts"
+//			)),
+//	"button_services" => array(array(
+//			"id" => "facebook",
+//			"active" => false,
+//			"meta" => array(),
+//			"name" => "Facebook",
+//			"url" => ""
+//			), array(
+//			"id" => "twitter",
+//			"active" => false,
+//			"meta" => array(array(
+//					"id" => "consumer_key",
+//					"name" => "Consumer Key",
+//					"value" => ""
+//					), array(
+//					"id" => "consumer_secret",
+//					"name" => "Consumer Secret",
+//					"value" => ""
+//					)),
+//			"name" => "Twitter",
+//			"url" => ""
+//			), array(
+//			"id" => "google",
+//			"active" => false,
+//			"meta" => array(),
+//			"name" => "Google +",
+//			"url" => ""
+//			), array(
+//			"id" => "linked-in",
+//			"name" => "Linked in",
+//			"active" => false,
+//			"url" => "",
+//			"meta" => array()
+//			), array(
+//			"id" => "pinterest",
+//			"name" => "Pinterest",
+//			"active" => false,
+//			"url" => "",
+//			"meta" => array()
+//			), array(
+//			"id" => "youtube",
+//			"name" => "Youtube",
+//			"active" => false,
+//			"url" => "",
+//			"meta" => array()
+//			))
+//	),
+//"wrapper_id" => "wrapper-1409048266228-1807",
+//"wrapper_breakpoint" => array(
+//	"tablet" => array(
+//		"col" => 20
+//		),
+//	"mobile" => array(
+//		"col" => 20
+//		),
+//	"custom-1410783042947" => array(
+//		"col" => 20
+//		)
+//	)
 ));
 
 $region_2->add_element("Ucomment", array(
