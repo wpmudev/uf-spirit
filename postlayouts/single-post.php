@@ -9,12 +9,17 @@
 		"objects" => array(array(
 				"classes" => "post-part 24 c16 ml0 mt6", 
 				"slug" => "title"
-				), array(
-				"classes" => "post-part 24 c16 ml0 mt1", 
-				"slug" => "categories"
-				)), 
+				)),
 		"classes" => "c16 "
-		), array(
+		),
+		array(
+			"objects" => array(array(
+				"classes" => "post-part 24 c16 ml2 mt1",
+				"slug" => "categories"
+			)),
+			"classes" => "c16 "
+		),
+		array(
 		"objects" => array(array(
 				"classes" => "post-part 24 c12 ml2 mt4", 
 				"slug" => "author"

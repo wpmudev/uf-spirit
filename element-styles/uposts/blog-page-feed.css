@@ -22,7 +22,7 @@
 	text-decoration: none;
 }
 #page .blog-page-feed .post_categories {
-    margin: -20px 0px 20px;
+    margin: 0;
 }
 #page .blog-page-feed .post_categories ul {
 	list-style: none;
