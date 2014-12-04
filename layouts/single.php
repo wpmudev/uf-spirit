@@ -807,7 +807,7 @@ $region_2->add_element("ThisPost", array(
 //		"col" => 20
 //		)
 //	)
-));
+//));
 
 $region_2->add_element("Ucomment", array(
 "columns" => "18", 
