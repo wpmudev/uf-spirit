@@ -158,7 +158,7 @@ SEARCH</h5>",
 	)
 ));
 
-$region_4->add_element("Uposts", array(
+$region_4->add_element("Posts", array(
 "columns" => "17", 
 "margin_left" => "0", 
 "margin_right" => "0", 
@@ -167,51 +167,24 @@ $region_4->add_element("Uposts", array(
 "id" => "module-1415778973694-1534", 
 "rows" => 52, 
 "options" => array(
-	"type" => "UpostsModel", 
-	"view_class" => "UpostsView", 
+	"type" => "PostsModel", 
+	"view_class" => "PostsView", 
 	"has_settings" => 1, 
 	"class" => "c24 uposts-object", 
-	"id_slug" => "uposts", 
-	"post_type" => "post", 
+	"id_slug" => "posts", 
+	"display_type" => "list", 
+	"list_type" => "generic", 
+	"offset" => 1, 
 	"taxonomy" => "", 
 	"term" => "", 
-	"limit" => "10", 
-	"content_type" => "excerpt", 
-	"featured_image" => 1, 
+	"content" => "excerpt", 
+	"limit" => 10, 
 	"pagination" => "numeric", 
-	"prev" => "Next Page »", 
-	"next" => "", 
-	"post_data" => array("author", "date", "comments_count", "featured_image"), 
-	"postLayout" => array(array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "title", 
-					"classes" => "post-part 24"
-					))
-			), array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "date", 
-					"classes" => " post-part c24"
-					))
-			), array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "contents", 
-					"classes" => " post-part c24"
-					))
-			)), 
-	"partOptions" => array(
-		"featured_image" => array(
-			"height" => 100
-			)
-		), 
-	"element_id" => "uposts-object-1415778973691-1096", 
-	"row" => 52, 
-	"order" => "date", 
-	"direction" => "DESC", 
-	"anchor" => "", 
-	"theme_style" => "blog-page-feed-search"
+	"posts_list" => "", 
+	"post_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
+	"enabled_post_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
+	"default_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
+	"element_id" => "posts-object-1417752626112-1080"
 	), 
 "wrapper_id" => "wrapper-1415781319760-1983", 
 "new_line" => "true", 

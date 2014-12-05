@@ -139,92 +139,24 @@ $region_4->add_element("Uposts", array(
 "id" => "module-1408714915754-1518", 
 "rows" => 48, 
 "options" => array(
-	"type" => "UpostsModel", 
-	"view_class" => "UpostsView", 
+	"type" => "PostsModel", 
+	"view_class" => "PostsView", 
 	"has_settings" => 1, 
 	"class" => "c24 uposts-object", 
-	"id_slug" => "uposts", 
-	"post_type" => "post", 
+	"id_slug" => "posts", 
+	"display_type" => "list", 
+	"list_type" => "generic", 
+	"offset" => 1, 
 	"taxonomy" => "", 
 	"term" => "", 
-	"limit" => 2, 
-	"content_type" => "excerpt", 
-	"featured_image" => 1, 
-	"pagination" => 1, 
-	"prev" => "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Previous", 
-	"next" => "Next&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", 
-	"post_data" => array("author", "date", "comments_count", "featured_image"), 
-	"postLayout" => array(array(
-			"objects" => array(array(
-					"classes" => "post_date post-part c2 ml0 mt1", 
-					"slug" => "date"
-					)), 
-			"classes" => "c2 clr"
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c22 ml0 mt1", 
-					"slug" => "title"
-					)), 
-			"classes" => "c22 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c22 ml2 mt1", 
-					"slug" => "categories"
-					)), 
-			"classes" => "c22 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c20 ml2 mt5", 
-					"slug" => "author"
-					)), 
-			"classes" => "c20 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c4 ml0 mt5", 
-					"slug" => "comments_count"
-					)), 
-			"classes" => "c4 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c24 ml2 mt8", 
-					"slug" => "featured_image"
-					)), 
-			"classes" => "c24 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c24 ml2 mt8", 
-					"slug" => "contents"
-					)), 
-			"classes" => "c24 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c16 ml0 mt1", 
-					"slug" => "plain_text"
-					)), 
-			"classes" => "c16 "
-			)), 
-	"partOptions" => array(
-		"featured_image" => array(
-			"height" => 38
-			), 
-		"title" => array(
-			"theme_style" => "_default", 
-			"anchor" => ""
-			), 
-		"date" => array(
-			"format" => "j M", 
-			"height" => 10
-			), 
-		"plain_text" => array(
-			"content" => "<a href='#'></a>"
-			)
-		), 
-	"element_id" => "uposts-object-1408714915751-1703", 
-	"row" => 42, 
-	"theme_style" => "blog-page-feed", 
-	"order" => "", 
-	"direction" => "", 
-	"anchor" => ""
+	"content" => "excerpt", 
+	"limit" => 10, 
+	"pagination" => "numeric", 
+	"posts_list" => "", 
+	"post_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
+	"enabled_post_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
+	"default_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
+	"element_id" => "posts-object-1417752626112-1080"
 	), 
 "wrapper_id" => "wrapper-1408714949691-1226", 
 "wrapper_breakpoint" => array(
@@ -239,7 +171,6 @@ $region_4->add_element("Uposts", array(
 		)
 	)
 ));
-
 $regions->add($region_4);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
