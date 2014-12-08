@@ -1,0 +1,25 @@
+#page .single-post-style time.post_date {
+    font: 300 30px/26px 'Open Sans', Arial;
+    text-transform: uppercase;
+    text-align: center;
+    color: #69a8a6;
+    width: 62px;
+    font-style: italic;
+}
+#page .single-post-style time.post_date span {
+    display: block;
+}
+#page .single-post-style time.post_date span.date_part_1 {
+    font-size: 24px;
+}
+#page .single-post-style h1.post_title a {
+    font: 600 26px/26px 'Open Sans', Arial;
+    text-transform: uppercase;
+    color: #548685 !important;
+    text-align: left;
+}
+#page .single-post-style div.post_categories {
+    font: 300 18px 'Open Sans', Arial;
+    text-transform: uppercase;
+    color:#a89084;
+}

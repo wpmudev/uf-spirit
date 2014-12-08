@@ -7,33 +7,28 @@
 		"classes" => "c2 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml0 mt6", 
+				"classes" => "post-part 24 c16 ml0 mt7", 
 				"slug" => "title"
-				)),
-		"classes" => "c16 "
-		),
-		array(
-			"objects" => array(array(
-				"classes" => "post-part 24 c16 ml2 mt1",
+				), array(
+				"classes" => "post-part 24 c14 ml0 mt0", 
 				"slug" => "categories"
-			)),
-			"classes" => "c16 "
-		),
-		array(
+				)), 
+		"classes" => "c16 "
+		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c12 ml2 mt4", 
+				"classes" => "post-part 24 c15 ml2 mt3", 
 				"slug" => "author"
 				)), 
-		"classes" => "c14 clr"
+		"classes" => "c17 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c4 ml0 mt4", 
+				"classes" => "post-part 24 c4 ml14 mt2", 
 				"slug" => "comments_count"
 				)), 
-		"classes" => "c4 "
+		"classes" => "c18 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml2 mt1", 
+				"classes" => "post-part 24 c16 ml2 mt4", 
 				"slug" => "contents"
 				)), 
 		"classes" => "c18  clr"
@@ -64,7 +59,13 @@
 			)
 		), 
 	"plain_text" => array(
-		"content" => "<a href=\\\\\\'#\\\\\\'></a>"
+		"content" => "<a href=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'></a>"
+		), 
+	"categories" => array(
+		"anchor" => ""
+		), 
+	"author" => array(
+		"anchor" => ""
 		)
 	)
 );

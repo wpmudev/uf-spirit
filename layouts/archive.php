@@ -22,7 +22,18 @@ $region_5 = upfront_create_region(
 "background_image" => "" . get_stylesheet_directory_uri() . "/images/archive/Blog-Bg.jpg", 
 "background_image_ratio" => 0.25, 
 "background_repeat" => "no-repeat", 
-"background_position" => "50% 0%"
+"background_position" => "50% 0%", 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
+		)
+	)
 )
 			);
 
@@ -48,13 +59,30 @@ $region_5->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 23
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 23
+		"col" => 7
 		), 
 	"custom-1410783042947" => array(
-		"col" => 23
+		"col" => 18
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -71,7 +99,19 @@ $region_3 = upfront_create_region(
 "position" => 1, 
 "allow_sidebar" => true
 ),
-			array()
+			array(
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
+		)
+	)
+)
 			);
 
 $region_3->add_element("PlainTxt", array(
@@ -102,13 +142,30 @@ $region_3->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1408529977772-1644", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 23
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 23
+		"col" => 7
 		), 
 	"custom-1410783042947" => array(
-		"col" => 23
+		"col" => 18
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -126,15 +183,26 @@ $region_4 = upfront_create_region(
 "allow_sidebar" => true
 ),
 			array(
-"row" => 60
+"row" => 60, 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
+		)
+	)
 )
 			);
 
-$region_4->add_element("Uposts", array(
+$region_4->add_element("Posts", array(
 "columns" => "18", 
-"margin_left" => "2", 
+"margin_left" => "3", 
 "margin_right" => "0", 
-"margin_top" => "5", 
+"margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1408714915754-1518", 
 "rows" => 48, 
@@ -153,24 +221,46 @@ $region_4->add_element("Uposts", array(
 	"limit" => 10, 
 	"pagination" => "numeric", 
 	"posts_list" => "", 
-	"post_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
-	"enabled_post_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
+	"post_parts" => array("date_posted", "title", "categories", "author", "comment_count", "featured_image", "content", "read_more"), 
+	"enabled_post_parts" => array("date_posted", "author", "comment_count", "featured_image", "title", "content", "read_more", "categories"), 
 	"default_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
-	"element_id" => "posts-object-1417752626112-1080"
+	"element_id" => "posts-object-1417752626112-1080", 
+	"anchor" => "", 
+	"resize_featured" => "1", 
+	"theme_style" => "blog-archive"
 	), 
 "wrapper_id" => "wrapper-1408714949691-1226", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 20
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 20
+		"col" => 7
 		), 
 	"custom-1410783042947" => array(
-		"col" => 20
+		"col" => 18
+		)
+	), 
+"new_line" => "true", 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
+
 $regions->add($region_4);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
