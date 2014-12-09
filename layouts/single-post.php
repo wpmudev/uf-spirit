@@ -8,7 +8,7 @@ $region_4 = upfront_create_region(
 "type" => "wide", 
 "scope" => "local", 
 "container" => "region-4", 
-"position" => 1, 
+"position" => 10, 
 "allow_sidebar" => true
 ),
 			array(
@@ -18,70 +18,29 @@ $region_4 = upfront_create_region(
 "background_color" => "#fafafa", 
 "background_style" => "full", 
 "background_position_y" => "50", 
-"background_position_x" => "50", 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false
-		), 
-	"mobile" => array(
-		"edited" => false
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false
-		)
-	)
+"background_position_x" => "50"
 )
 			);
 
 $region_4->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
-"margin_right" => "0", 
 "margin_top" => "11", 
-"margin_bottom" => "0", 
 "id" => "module-1416474833168-1788", 
 "rows" => 33, 
 "options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
 	"content" => "<h1 class=\"\" style=\"text-align: center;\">BLOG</h1>", 
 	"type" => "PlainTxtModel", 
+	"view_class" => "PlainTxtView", 
 	"element_id" => "text-object-1416474833167-1271", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
+	"id_slug" => "plain_text", 
 	"is_edited" => true, 
 	"row" => 33
 	), 
 "wrapper_id" => "wrapper-1416475121461-1671", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 12
-		), 
-	"mobile" => array(
-		"col" => 7
-		), 
-	"custom-1410783042947" => array(
-		"col" => 18
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 18
-		)
-	)
+"new_line" => "true"
 ));
 
 $regions->add($region_4);
@@ -96,19 +55,7 @@ $region_3 = upfront_create_region(
 "position" => 1, 
 "allow_sidebar" => true
 ),
-			array(
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false
-		), 
-	"mobile" => array(
-		"edited" => false
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false
-		)
-	)
-)
+			array()
 			);
 
 $region_3->add_element("PlainTxt", array(
@@ -139,30 +86,13 @@ $region_3->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1408529977772-1644", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 23
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 23
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 18
+		"col" => 23
 		)
 	)
 ));
@@ -180,18 +110,7 @@ $region_2 = upfront_create_region(
 "allow_sidebar" => true
 ),
 			array(
-"row" => 60, 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false
-		), 
-	"mobile" => array(
-		"edited" => false
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false
-		)
-	)
+"row" => 60
 )
 			);
 
@@ -277,39 +196,126 @@ $region_2->add_element("ThisPost", array(
 			)
 		), 
 	"element_id" => "default-post-object", 
-	"theme_style" => "single-post-style", 
+	"theme_style" => "blog-page-feed", 
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408977742068-1128", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 20
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 20
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 18
+		"col" => 20
 		)
 	)
 ));
+
+//$region_2->add_element("SocialMedia", array(
+//"columns" => "18",
+//"margin_left" => "2",
+//"margin_right" => "0",
+//"margin_top" => "0",
+//"margin_bottom" => "0",
+//"id" => "module-1409046990936-1993",
+//"rows" => 12,
+//"options" => array(
+//	"social_type" => "likes",
+//	"like_social_media_services" => array("facebook", "twitter", "google"),
+//	"count_social_media_services" => array(),
+//	"button_size" => "medium",
+//	"button_style" => "button-style-2",
+//	"call_social_media_services" => array(),
+//	"id_slug" => "SocialMedia",
+//	"type" => "SocialMediaModel",
+//	"view_class" => "SocialMediaView",
+//	"class" => "c24 upfront-Social-Media",
+//	"has_settings" => 1,
+//	"counter_options" => "horizontal",
+//	"counter_style" => "horizontal",
+//	"element_id" => "SocialMedia-object-1409046990934-1531",
+//	"after_content" => "yes",
+//	"after_content_align" => "right",
+//	"services" => array(array(
+//			"id" => "facebook",
+//			"active" => 1,
+//			"meta" => array(),
+//			"name" => "Facebook",
+//			"url" => "https://www.facebook.com/wpmudev"
+//			), array(
+//			"id" => "twitter",
+//			"active" => 1,
+//			"meta" => array(),
+//			"name" => "Twitter",
+//			"url" => "https://twitter.com/wpmudev"
+//			), array(
+//			"id" => "google",
+//			"active" => 1,
+//			"meta" => array(),
+//			"name" => "Google +",
+//			"url" => "https://plus.google.com/+wpmuorg/posts"
+//			)),
+//	"button_services" => array(array(
+//			"id" => "facebook",
+//			"active" => false,
+//			"meta" => array(),
+//			"name" => "Facebook",
+//			"url" => ""
+//			), array(
+//			"id" => "twitter",
+//			"active" => false,
+//			"meta" => array(array(
+//					"id" => "consumer_key",
+//					"name" => "Consumer Key",
+//					"value" => ""
+//					), array(
+//					"id" => "consumer_secret",
+//					"name" => "Consumer Secret",
+//					"value" => ""
+//					)),
+//			"name" => "Twitter",
+//			"url" => ""
+//			), array(
+//			"id" => "google",
+//			"active" => false,
+//			"meta" => array(),
+//			"name" => "Google +",
+//			"url" => ""
+//			), array(
+//			"id" => "linked-in",
+//			"name" => "Linked in",
+//			"active" => false,
+//			"url" => "",
+//			"meta" => array()
+//			), array(
+//			"id" => "pinterest",
+//			"name" => "Pinterest",
+//			"active" => false,
+//			"url" => "",
+//			"meta" => array()
+//			), array(
+//			"id" => "youtube",
+//			"name" => "Youtube",
+//			"active" => false,
+//			"url" => "",
+//			"meta" => array()
+//			))
+//	),
+//"wrapper_id" => "wrapper-1409048266228-1807",
+//"wrapper_breakpoint" => array(
+//	"tablet" => array(
+//		"col" => 20
+//		),
+//	"mobile" => array(
+//		"col" => 20
+//		),
+//	"custom-1410783042947" => array(
+//		"col" => 20
+//		)
+//	)
+//));
 
 $region_2->add_element("Ucomment", array(
 "columns" => "18", 
@@ -326,36 +332,19 @@ $region_2->add_element("Ucomment", array(
 	"class" => "c24 upfront-comment", 
 	"has_settings" => 0, 
 	"prepend_form" => false, 
-	"element_id" => "default-comment-object", 
-	"theme_style" => "blog-page-feed"
+	"element_id" => "default-comment-object",
+    "theme_style" => "blog-page-feed"
 	), 
 "wrapper_id" => "default-comment-wrapper", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 20
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 20
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 18
+		"col" => 20
 		)
 	)
 ));
