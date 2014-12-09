@@ -1,0 +1,95 @@
+#page .blog-page-feed-search/* date */
+time {
+	color: #69a8a6;
+	font: italic 24px/25px Open Sans, Arial;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+#page .blog-page-feed-search/* title */
+.post_title a {
+	font: 600 26px/1.1em Open Sans, Arial;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	min-height: 55px;
+	text-align: left;
+}
+#page .blog-page-feed-search .post_title a:hover {
+	color: #548685;
+	text-decoration: none;
+}
+#page .blog-page-feed-search/* categories */
+.post_categories ul {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: -25px;
+}
+#page .blog-page-feed-search .post_categories ul li {
+	display: inline-block;
+}
+#page .blog-page-feed-search .post_categories ul li a {
+	font: 18px Open Sans, Arial;
+	text-transform: uppercase;
+	color: #a89084;
+	text-decoration: none;
+}
+#page .blog-page-feed-search .post_categories ul li a:hover {
+	color: #4b362c;
+}
+#page .blog-page-feed-search .post_categories ul li a:before {
+	content: ", ";
+}
+#page .blog-page-feed-search .post_categories ul li:first-child a:before {
+	content: "";
+}
+#page .blog-page-feed-search .upfront-postpart-author {
+    display: none;
+}
+#page .blog-page-feed-search .upfront-postpart-comments_count {
+	display: none;
+}
+#page .blog-page-feed-search .upfront-postpart-featured_image {
+	display: none;
+}
+#page .blog-page-feed-search .upfront-postpart-contents {
+	display: none;
+}
+#page .blog-page-feed-search .upfront-postpart-excerpt {
+	display: none;
+}
+#page .blog-page-feed-search .uposts-pagination {
+    clear: both;
+	border-top: 1px solid #d0d0d0;
+	margin: 60px 0px 60px 80px;
+	padding: 25px 0px;
+	text-align: center;
+}
+#page .blog-page-feed-search .uposts-pagination .page-numbers {
+	display: inline-block;
+	padding: 15px;
+	border: 1px solid #FFF;
+	font: 300 18px Open Sans, Arial;
+	color: #000;
+	text-decoration: none;
+	border-radius: 30px;
+	width: 25px;
+	height: 25px;
+}
+#page .blog-page-feed-search .uposts-pagination .page-numbers:hover, #page .blog-page-feed-search .uposts-pagination .page-numbers.current {
+	border: 1px solid #69a8a6;
+	color: #69a8a6;
+}
+#page .blog-page-feed-search .uposts-pagination .page-numbers.next {
+	width: auto;
+	float: right;
+	font-size: 14px;
+	line-height: 25px;
+}
+#page .blog-page-feed-search .uposts-pagination .page-numbers.prev {
+	width: auto;
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+}

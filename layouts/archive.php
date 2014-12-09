@@ -22,7 +22,18 @@ $region_5 = upfront_create_region(
 "background_image" => "" . get_stylesheet_directory_uri() . "/images/archive/Blog-Bg.jpg", 
 "background_image_ratio" => 0.25, 
 "background_repeat" => "no-repeat", 
-"background_position" => "50% 0%"
+"background_position" => "50% 0%", 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
+		)
+	)
 )
 			);
 
@@ -48,13 +59,30 @@ $region_5->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 23
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 23
+		"col" => 7
 		), 
 	"custom-1410783042947" => array(
-		"col" => 23
+		"col" => 18
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -71,7 +99,19 @@ $region_3 = upfront_create_region(
 "position" => 1, 
 "allow_sidebar" => true
 ),
-			array()
+			array(
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
+		)
+	)
+)
 			);
 
 $region_3->add_element("PlainTxt", array(
@@ -102,13 +142,30 @@ $region_3->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1408529977772-1644", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 23
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 23
+		"col" => 7
 		), 
 	"custom-1410783042947" => array(
-		"col" => 23
+		"col" => 18
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -126,116 +183,80 @@ $region_4 = upfront_create_region(
 "allow_sidebar" => true
 ),
 			array(
-"row" => 60
+"row" => 60, 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false
+		)
+	)
 )
 			);
 
-$region_4->add_element("Uposts", array(
+$region_4->add_element("Posts", array(
 "columns" => "18", 
-"margin_left" => "2", 
+"margin_left" => "3", 
 "margin_right" => "0", 
-"margin_top" => "5", 
+"margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1408714915754-1518", 
 "rows" => 48, 
 "options" => array(
-	"type" => "UpostsModel", 
-	"view_class" => "UpostsView", 
+	"type" => "PostsModel", 
+	"view_class" => "PostsView", 
 	"has_settings" => 1, 
 	"class" => "c24 uposts-object", 
-	"id_slug" => "uposts", 
-	"post_type" => "post", 
+	"id_slug" => "posts", 
+	"display_type" => "list", 
+	"list_type" => "generic", 
+	"offset" => 1, 
 	"taxonomy" => "", 
 	"term" => "", 
-	"limit" => 2, 
-	"content_type" => "excerpt", 
-	"featured_image" => 1, 
-	"pagination" => 1, 
-	"prev" => "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Previous", 
-	"next" => "Next&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", 
-	"post_data" => array("author", "date", "comments_count", "featured_image"), 
-	"postLayout" => array(array(
-			"objects" => array(array(
-					"classes" => "post_date post-part c2 ml0 mt1", 
-					"slug" => "date"
-					)), 
-			"classes" => "c2 clr"
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c22 ml0 mt1", 
-					"slug" => "title"
-					)), 
-			"classes" => "c22 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c22 ml2 mt1", 
-					"slug" => "categories"
-					)), 
-			"classes" => "c22 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c20 ml2 mt5", 
-					"slug" => "author"
-					)), 
-			"classes" => "c20 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c4 ml0 mt5", 
-					"slug" => "comments_count"
-					)), 
-			"classes" => "c4 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c24 ml2 mt8", 
-					"slug" => "featured_image"
-					)), 
-			"classes" => "c24 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c24 ml2 mt8", 
-					"slug" => "contents"
-					)), 
-			"classes" => "c24 "
-			), array(
-			"objects" => array(array(
-					"classes" => "post-part 24 c16 ml0 mt1", 
-					"slug" => "plain_text"
-					)), 
-			"classes" => "c16 "
-			)), 
-	"partOptions" => array(
-		"featured_image" => array(
-			"height" => 38
-			), 
-		"title" => array(
-			"theme_style" => "_default", 
-			"anchor" => ""
-			), 
-		"date" => array(
-			"format" => "j M", 
-			"height" => 10
-			), 
-		"plain_text" => array(
-			"content" => "<a href='#'></a>"
-			)
-		), 
-	"element_id" => "uposts-object-1408714915751-1703", 
-	"row" => 42, 
-	"theme_style" => "blog-page-feed", 
-	"order" => "", 
-	"direction" => "", 
-	"anchor" => ""
+	"content" => "excerpt", 
+	"limit" => 10, 
+	"pagination" => "numeric", 
+	"posts_list" => "", 
+	"post_parts" => array("date_posted", "title", "categories", "author", "comment_count", "featured_image", "content", "read_more"), 
+	"enabled_post_parts" => array("date_posted", "author", "comment_count", "featured_image", "title", "content", "read_more", "categories"), 
+	"default_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
+	"element_id" => "posts-object-1417752626112-1080", 
+	"anchor" => "", 
+	"resize_featured" => "1", 
+	"theme_style" => "blog-archive"
 	), 
 "wrapper_id" => "wrapper-1408714949691-1226", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 20
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 20
+		"col" => 7
 		), 
 	"custom-1410783042947" => array(
-		"col" => 20
+		"col" => 18
+		)
+	), 
+"new_line" => "true", 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));

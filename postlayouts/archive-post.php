@@ -7,16 +7,13 @@
 		"classes" => "c2 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml0 mt1", 
+				"classes" => "post-part 24 c15 ml0 mt0", 
 				"slug" => "title"
-				)), 
-		"classes" => "c16"
-		), array(
-		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml2 mt0", 
+				), array(
+				"classes" => "post-part 24 c15 ml0 mt1", 
 				"slug" => "categories"
 				)), 
-		"classes" => "c18  clr"
+		"classes" => "c15"
 		), array(
 		"objects" => array(array(
 				"classes" => "post-part 24 c11 ml2 mt0", 
@@ -31,22 +28,22 @@
 		"classes" => "c5"
 		), array(
 		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml2 mt0", 
+				"classes" => "post-part 24 c16 ml2 mt2", 
 				"slug" => "featured_image"
 				)), 
 		"classes" => "c18  clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "c16 post-part ml2 mt0", 
+				"classes" => "post-part 24 c16 ml2 mt0", 
+				"slug" => "plain_text"
+				)), 
+		"classes" => "c18  clr"
+		), array(
+		"objects" => array(array(
+				"classes" => "c16 post-part ml2 mt0 mt1.5", 
 				"slug" => "excerpt"
 				)), 
 		"classes" => "c18 clr"
-		), array(
-		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml0 mt0", 
-				"slug" => "plain_text"
-				)), 
-		"classes" => "c16  clr"
 		)), 
 "partOptions" => array(
 	"featured_image" => array(
@@ -62,10 +59,13 @@
 		), 
 	"date" => array(
 		"format" => "j M", 
-		"height" => "10"
+		"height" => "65", 
+		"attributes" => array(
+			"style" => "min-height: 65px"
+			)
 		), 
 	"plain_text" => array(
-		"content" => "<a href=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'></a>"
+		"content" => "<a href=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'></a>"
 		), 
 	"author" => array(
 		"anchor" => ""
