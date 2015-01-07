@@ -1,6 +1,6 @@
 /*
 Theme Name:Spirit
-Version: 2014-12-09
+Version: 2015-01-07
 Template: upfront
 Author: wpmudev
 Author URI: https://premium.wpmudev.org/
@@ -23,7 +23,7 @@ Author URI: https://premium.wpmudev.org/
 }
 
 html {
-	-webkit-transition: all 0.3s; 
+	-webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -33,16 +33,16 @@ h1, h2, h3, h4, h5, h6, p {
 
 a,
 .accordion-header {
-	-webkit-transition: background-color 0.3s; 
+	-webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
 
-.right-arrow a, 
-.right-arrow a:after, 
+.right-arrow a,
+.right-arrow a:after,
 input,
 #page .inline-gallery .ugallery_item a:hover img.ugallery-image {
-	-webkit-transition: all 0.3s; 
-  transition: all 0.3s;	
+	-webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 a {
@@ -65,7 +65,7 @@ a:hover {
 	line-height: 30px;
 }
 
-.upfront-edit-theme .accordion-content { 
+.upfront-edit-theme .accordion-content {
 	display: block;
 }
 
@@ -145,29 +145,29 @@ a:hover {
  position: relative;
  background-position: -355px -675px;
 }
- .youtube:before { 
+ .youtube:before {
  width: 35px;
- height: 35px;    
+ height: 35px;
  display: block;
- position: relative; 
+ position: relative;
  background-position: -63px -222px;
 }
  .youtube:hover:before,  .youtube.dark { background-position: -223px -222px;
 }
- .facebook:before { 
+ .facebook:before {
  width: 35px;
- height: 35px;    
+ height: 35px;
  display: block;
- position: relative; 
+ position: relative;
  background-position: -63px -383px;
 }
  .facebook:hover:before,  .facebook.dark { background-position: -223px -383px;
 }
- .twitter:before { 
+ .twitter:before {
  width: 35px;
- height: 35px;    
+ height: 35px;
  display: block;
- position: relative; 
+ position: relative;
  background-position: -63px -543px;
 }
  .twitter:hover:before,  .twitter.dark { background-position: -223px -543px;
@@ -230,16 +230,16 @@ a:hover {
 }
 
 .uf_font_icon {
- font-family: Meg;   
+ font-family: Meg;
 }
 
 @media (max-width: 1080px) {
-	.upfront-output-object h1 { font-size: 80px; }	
+	.upfront-output-object h1 { font-size: 80px; }
 }
 @media (max-width: 810px) {
-	.upfront-output-object h1 { font-size: 55px; }	
+	.upfront-output-object h1 { font-size: 55px; }
 }
 
 @media (max-width: 570px) {
-	.upfront-output-object h1 { font-size: 35px; }	
+	.upfront-output-object h1 { font-size: 35px; }
 }
