@@ -235,10 +235,10 @@ $region_4->add_element("Posts", array(
 "columns" => "13", 
 "margin_left" => "2", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1415778973694-1534", 
-"rows" => 18, 
+"rows" => 20, 
 "options" => array(
 	"type" => "PostsModel", 
 	"view_class" => "PostsView", 
@@ -295,7 +295,7 @@ $region_4->add_element("Posts", array(
 	"element_id" => "posts-object-1417752626112-1080", 
 	"anchor" => "", 
 	"theme_style" => "archive-search-results", 
-	"row" => 18
+	"row" => 20
 	), 
 "wrapper_id" => "wrapper-1415781319760-1983", 
 "new_line" => "true", 
@@ -333,7 +333,7 @@ $region_4->add_element("Usearch", array(
 "columns" => "6", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1415779956324-1711", 
 "rows" => 16, 
@@ -357,7 +357,7 @@ $region_4->add_element("Usearch", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1421730321326-1468", 
+"wrapper_id" => "wrapper-1421732644220-1957", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
@@ -369,7 +369,7 @@ $region_4->add_element("Usearch", array(
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
-		"col" => 11
+		"col" => 7
 		)
 	), 
 "breakpoint" => array(
@@ -437,7 +437,7 @@ $region_4->add_element("Usearch", array(
 
 $region_4->add_element("PlainTxt", array(
 "columns" => "6", 
-"margin_left" => "16", 
+"margin_left" => "1", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -460,22 +460,7 @@ $region_4->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "search-headers"
 	), 
-"wrapper_id" => "wrapper-1421730176364-1070", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"col" => 9
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"col" => 7
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"col" => 12
-		)
-	), 
+"wrapper_id" => "wrapper-1421732644220-1957", 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
@@ -489,7 +474,7 @@ $region_4->add_element("PlainTxt", array(
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
-		"left" => 6, 
+		"left" => 1, 
 		"col" => 6
 		)
 	)
@@ -499,7 +484,7 @@ $region_4->add_element("Uwidget", array(
 "columns" => "6", 
 "margin_left" => "16", 
 "margin_right" => "0", 
-"margin_top" => "2", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1415779914088-1513", 
 "rows" => 7, 

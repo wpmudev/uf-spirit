@@ -3,9 +3,8 @@
     text-transform: uppercase;
     text-align: center;
     color: #69a8a6;
-    width: 62px;
+    width: 52px;
     font-style: italic;
-    left:-50px;
     position: absolute;
 }
 #page .blog-archive.uposts-object li.uf-post .date_posted .month {
@@ -13,6 +12,9 @@
 }
 #page .blog-archive.uposts-object li.uf-post .title {
     margin-bottom:4px;
+}
+#page .blog-archive.uposts-object li.uf-post .title, #page .blog-archive.uposts-object li.uf-post .post_categories, #page .blog-archive.uposts-object li.uf-post .author, #page .blog-archive.uposts-object li.uf-post .comment_count, #page .blog-archive.uposts-object li.uf-post .content {
+    margin-left:70px;
 }
 #page .blog-archive.uposts-object li.uf-post .title h3 a {
     font: 600 26px/26px 'Open Sans', Arial;
@@ -31,7 +33,7 @@
     text-transform: uppercase;
     color: #999;
     float:left;
-    width:80%;
+    width:60%;
     padding:8px 0 4px 15px;
 }
 #page .blog-archive.uposts-object li.uf-post .author a {
@@ -41,14 +43,13 @@
     font: 200 12px 'Open Sans', Arial;
     text-transform: uppercase;
     color: #999;
-    width: 100%;
     text-align:right;
     padding:6px 15px 6px;
     border-top: 2px #000 solid;
     border-bottom: 1px #000 solid;
     margin-bottom: 30px;
 }
-#page .blog-archive.uposts-object li.uf-post .thumbnail {
+#page .blog-archive .uposts-object li.uf-post .thumbnail {
     max-height:200px;
     margin-bottom: 30px;
 }

@@ -199,13 +199,13 @@ $region_4 = upfront_create_region(
 			);
 
 $region_4->add_element("Posts", array(
-"columns" => "17", 
-"margin_left" => "4", 
+"columns" => "18", 
+"margin_left" => "2", 
 "margin_right" => "0", 
-"margin_top" => "6", 
+"margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1408714915754-1518", 
-"rows" => 48, 
+"rows" => 49, 
 "options" => array(
 	"type" => "PostsModel", 
 	"view_class" => "PostsView", 
@@ -262,7 +262,7 @@ $region_4->add_element("Posts", array(
 	"element_id" => "posts-object-1417752626112-1080", 
 	"anchor" => "", 
 	"theme_style" => "blog-archive", 
-	"row" => 48
+	"row" => 49
 	), 
 "wrapper_id" => "wrapper-1408714949691-1226", 
 "new_line" => "true", 
