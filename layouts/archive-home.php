@@ -1510,13 +1510,30 @@ $region_12->add_element("Button", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 23
+		"col" => 8
 		), 
 	"mobile" => array(
-		"col" => 23
+		"col" => 6
 		), 
 	"custom-1410783042947" => array(
-		"col" => 23
+		"col" => 11
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
+		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4
 		)
 	)
 ));
@@ -1791,13 +1808,30 @@ $region_5->add_element("Button", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 15
+		"col" => 8
 		), 
 	"mobile" => array(
-		"col" => 15
+		"col" => 6
 		), 
 	"custom-1410783042947" => array(
-		"col" => 15
+		"col" => 11
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
+		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4
 		)
 	)
 ));
@@ -2072,13 +2106,30 @@ $region_6->add_element("Button", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 23
+		"col" => 8
 		), 
 	"mobile" => array(
-		"col" => 23
+		"col" => 6
 		), 
 	"custom-1410783042947" => array(
-		"col" => 23
+		"col" => 11
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
+		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4
 		)
 	)
 ));
@@ -2353,13 +2404,30 @@ $region_7->add_element("Button", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 15
+		"col" => 8
 		), 
 	"mobile" => array(
-		"col" => 15
+		"col" => 6
 		), 
 	"custom-1410783042947" => array(
-		"col" => 15
+		"col" => 11
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
+		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4
 		)
 	)
 ));
@@ -3504,13 +3572,30 @@ $region_9->add_element("Code", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 23
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 23
+		"col" => 7
 		), 
 	"custom-1410783042947" => array(
-		"col" => 23
+		"col" => 18
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18
 		)
 	)
 ));
@@ -3949,13 +4034,30 @@ $region_10->add_element("Button", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 15
+		"col" => 9
 		), 
 	"mobile" => array(
-		"col" => 15
+		"col" => 7
 		), 
 	"custom-1410783042947" => array(
-		"col" => 15
+		"col" => 12
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 3, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 6, 
+		"col" => 6
 		)
 	)
 ));
