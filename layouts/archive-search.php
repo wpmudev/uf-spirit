@@ -232,13 +232,13 @@ SEARCH</h5>",
 ));
 
 $region_4->add_element("Posts", array(
-"columns" => "12", 
-"margin_left" => "3", 
+"columns" => "13", 
+"margin_left" => "2", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1415778973694-1534", 
-"rows" => 20, 
+"rows" => 18, 
 "options" => array(
 	"type" => "PostsModel", 
 	"view_class" => "PostsView", 
@@ -257,11 +257,45 @@ $region_4->add_element("Posts", array(
 	"post_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
 	"enabled_post_parts" => array("date_posted", "title", "categories"), 
 	"default_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
-	"element_id" => "posts-object-1417752626112-1080", 
+	"date_posted_format" => "d M", 
+	"categories_limit" => 3, 
+	"tags_limit" => 3, 
+	"comment_count_hide" => 0, 
+	"content_length" => 120, 
 	"resize_featured" => "", 
+	"gravatar_size" => 200, 
+	"post-part-date_posted" => "<div class=\"uposts-part date_posted\">
+	{{date}}<br /><span class=\"month\">{{time}}</span>
+</div>", 
+	"post-part-author" => "<div class=\"uposts-part author\">
+	Written By <a href=\"{{url}}\">{{name}}</a></div>", 
+	"post-part-gravatar" => "<div class=\"uposts-part gravatar\">
+	{{gravatar}}
+</div>", 
+	"post-part-comment_count" => "<div class=\"uposts-part comment_count\">
+	Comments / {{comment_count}}
+</div>", 
+	"post-part-featured_image" => "<div class=\"uposts-part thumbnail\" data-resize=\"{{resize}}\">
+	{{thumbnail}}
+</div>", 
+	"post-part-title" => "<div class=\"uposts-part title\">
+	<h3><a href=\"{{permalink}}\" title=\"{{title}}\">{{title}}</a></h3>
+</div>", 
+	"post-part-content" => "<div class=\"uposts-part content\">
+	{{content}}
+</div>", 
+	"post-part-read_more" => "<div class=\"uposts-part read_more\">
+	<a href=\"{{permalink}}\">Read more</a></div>", 
+	"post-part-tags" => "<div class=\"uposts-part post_tags\">
+	{{tags}}
+</div>", 
+	"post-part-categories" => "<div class=\"uposts-part post_categories\">
+	{{categories}}
+</div>", 
+	"element_id" => "posts-object-1417752626112-1080", 
 	"anchor" => "", 
 	"theme_style" => "archive-search-results", 
-	"row" => 20
+	"row" => 18
 	), 
 "wrapper_id" => "wrapper-1415781319760-1983", 
 "new_line" => "true", 
@@ -273,7 +307,7 @@ $region_4->add_element("Posts", array(
 		"col" => 7
 		), 
 	"custom-1410783042947" => array(
-		"col" => 15
+		"col" => 16
 		)
 	), 
 "breakpoint" => array(
@@ -289,8 +323,8 @@ $region_4->add_element("Posts", array(
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
-		"left" => 3, 
-		"col" => 12
+		"left" => 2, 
+		"col" => 14
 		)
 	)
 ));
@@ -299,7 +333,7 @@ $region_4->add_element("Usearch", array(
 "columns" => "6", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1415779956324-1711", 
 "rows" => 16, 
@@ -323,16 +357,19 @@ $region_4->add_element("Usearch", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1415781244416-1525", 
+"wrapper_id" => "wrapper-1421730321326-1468", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 9
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 7
 		), 
 	"custom-1410783042947" => array(
-		"col" => 7
+		"edited" => false, 
+		"col" => 11
 		)
 	), 
 "breakpoint" => array(
@@ -400,7 +437,7 @@ $region_4->add_element("Usearch", array(
 
 $region_4->add_element("PlainTxt", array(
 "columns" => "6", 
-"margin_left" => "1", 
+"margin_left" => "16", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -423,7 +460,22 @@ $region_4->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "search-headers"
 	), 
-"wrapper_id" => "wrapper-1415781244416-1525", 
+"wrapper_id" => "wrapper-1421730176364-1070", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 9
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"col" => 12
+		)
+	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
@@ -437,7 +489,7 @@ $region_4->add_element("PlainTxt", array(
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
-		"left" => 1, 
+		"left" => 6, 
 		"col" => 6
 		)
 	)
@@ -447,7 +499,7 @@ $region_4->add_element("Uwidget", array(
 "columns" => "6", 
 "margin_left" => "16", 
 "margin_right" => "0", 
-"margin_top" => "7", 
+"margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1415779914088-1513", 
 "rows" => 7, 
