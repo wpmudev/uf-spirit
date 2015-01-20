@@ -260,8 +260,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "17", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 6, 
-			"being-edited" => false
+			"menu-item-position" => 6
 			), array(
 			"menu-item-db-id" => 18, 
 			"menu-item-parent-id" => "0", 
