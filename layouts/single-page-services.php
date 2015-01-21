@@ -750,7 +750,24 @@ $region_4->add_element("Button", array(
 	"theme_style" => "button-style"
 	), 
 "wrapper_id" => "wrapper-1408525530814-1418", 
-"new_line" => "true"
+"new_line" => "true", 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 3, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 6, 
+		"col" => 6
+		)
+	)
 ));
 
 $region_4->add_element("PlainTxt", array(
@@ -1001,19 +1018,19 @@ $region_5->add_element("Ugallery", array(
 "columns" => "22", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "7", 
+"margin_top" => "2", 
 "margin_bottom" => "0", 
-"id" => "module-1408528105390-1071", 
-"rows" => 20, 
+"id" => "module-1421730873248-1107", 
+"rows" => 48, 
 "options" => array(
 	"type" => "UgalleryModel", 
 	"view_class" => "UgalleryView", 
-	"has_settings" => 0, 
+	"has_settings" => 1, 
 	"class" => "c24 upfront-gallery", 
 	"id_slug" => "ugallery", 
 	"status" => "ok", 
 	"images" => array(array(
-			"id" => "165", 
+			"id" => "20", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo1 (2).jpg", 
 			"sizes" => array(
 				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-services/photo1 (2)-150x150.jpg", 150, 150, true), 
@@ -1022,53 +1039,54 @@ $region_5->add_element("Ugallery", array(
 				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-services/photo1 (2).jpg", 180, 180, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo1 (2)-180x180-8463.jpg", 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo1 (2)-140x140-9050.jpg", 
 					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo1 (2).jpg", 
 					"full" => array(
 						"width" => 180, 
 						"height" => 180
 						), 
 					"crop" => array(
-						"width" => 180, 
-						"height" => 180
+						"width" => 140, 
+						"height" => 140
 						), 
 					"editdata" => array(
 						"rotate" => 0, 
 						"crop" => array(
-							"width" => "180", 
-							"height" => "180", 
+							"width" => "140", 
+							"height" => "140", 
 							"left" => 0, 
 							"top" => 0
 							), 
 						"resize" => array(
-							"width" => 180, 
-							"height" => 180
+							"width" => 140, 
+							"height" => 140
 							), 
-						"id" => 165
+						"id" => 20
 						)
 					)
 				), 
 			"size" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 155, 
+				"height" => 155
 				), 
 			"cropSize" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 140, 
+				"height" => 140
 				), 
 			"cropOffset" => array(
-				"width" => "180", 
-				"height" => "180", 
+				"width" => "140", 
+				"height" => "140", 
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo1 (2)-180x180-8463.jpg", 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo1 (2)-155x155-4090.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
-			"element_id" => "ugallery-object-1408528105380-1572", 
+			"element_id" => "ugallery-object-1421730873246-1959", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo1 (2).jpg", 
 			"rotation" => 0, 
 			"link" => "original", 
-			"url" => "", 
 			"title" => "Image caption", 
 			"caption" => "Image description", 
 			"alt" => "", 
@@ -1077,9 +1095,12 @@ $region_5->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"cropPosition" => array(
+				"top" => 0, 
+				"left" => 0
+				)
 			), array(
-			"id" => "166", 
+			"id" => "21", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo2 (1).jpg", 
 			"sizes" => array(
 				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-services/photo2 (1)-150x150.jpg", 150, 150, true), 
@@ -1088,53 +1109,54 @@ $region_5->add_element("Ugallery", array(
 				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-services/photo2 (1).jpg", 180, 180, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo2 (1)-180x180-2865.jpg", 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo2 (1)-140x140-8475.jpg", 
 					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo2 (1).jpg", 
 					"full" => array(
 						"width" => 180, 
 						"height" => 180
 						), 
 					"crop" => array(
-						"width" => 180, 
-						"height" => 180
+						"width" => 140, 
+						"height" => 140
 						), 
 					"editdata" => array(
 						"rotate" => 0, 
 						"crop" => array(
-							"width" => "180", 
-							"height" => "180", 
+							"width" => "140", 
+							"height" => "140", 
 							"left" => 0, 
 							"top" => 0
 							), 
 						"resize" => array(
-							"width" => 180, 
-							"height" => 180
+							"width" => 140, 
+							"height" => 140
 							), 
-						"id" => 166
+						"id" => 21
 						)
 					)
 				), 
 			"size" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 155, 
+				"height" => 155
 				), 
 			"cropSize" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 140, 
+				"height" => 140
 				), 
 			"cropOffset" => array(
-				"width" => "180", 
-				"height" => "180", 
+				"width" => "140", 
+				"height" => "140", 
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo2 (1)-180x180-2865.jpg", 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo2 (1)-155x155-9423.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
-			"element_id" => "ugallery-object-1408528105380-1572", 
+			"element_id" => "ugallery-object-1421730873246-1959", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo2 (1).jpg", 
 			"rotation" => 0, 
 			"link" => "original", 
-			"url" => "", 
 			"title" => "Image caption", 
 			"caption" => "Image description", 
 			"alt" => "", 
@@ -1143,9 +1165,12 @@ $region_5->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"cropPosition" => array(
+				"top" => 0, 
+				"left" => 0
+				)
 			), array(
-			"id" => "167", 
+			"id" => "22", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo3 (1).jpg", 
 			"sizes" => array(
 				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-services/photo3 (1)-150x150.jpg", 150, 150, true), 
@@ -1154,53 +1179,54 @@ $region_5->add_element("Ugallery", array(
 				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-services/photo3 (1).jpg", 180, 180, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo3 (1)-180x180-6804.jpg", 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo3 (1)-140x140-7245.jpg", 
 					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo3 (1).jpg", 
 					"full" => array(
 						"width" => 180, 
 						"height" => 180
 						), 
 					"crop" => array(
-						"width" => 180, 
-						"height" => 180
+						"width" => 140, 
+						"height" => 140
 						), 
 					"editdata" => array(
 						"rotate" => 0, 
 						"crop" => array(
-							"width" => "180", 
-							"height" => "180", 
+							"width" => "140", 
+							"height" => "140", 
 							"left" => 0, 
 							"top" => 0
 							), 
 						"resize" => array(
-							"width" => 180, 
-							"height" => 180
+							"width" => 140, 
+							"height" => 140
 							), 
-						"id" => 167
+						"id" => 22
 						)
 					)
 				), 
 			"size" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 155, 
+				"height" => 155
 				), 
 			"cropSize" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 140, 
+				"height" => 140
 				), 
 			"cropOffset" => array(
-				"width" => "180", 
-				"height" => "180", 
+				"width" => "140", 
+				"height" => "140", 
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo3 (1)-180x180-6804.jpg", 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo3 (1)-155x155-2649.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
-			"element_id" => "ugallery-object-1408528105380-1572", 
+			"element_id" => "ugallery-object-1421730873246-1959", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo3 (1).jpg", 
 			"rotation" => 0, 
 			"link" => "original", 
-			"url" => "", 
 			"title" => "Image caption", 
 			"caption" => "Image description", 
 			"alt" => "", 
@@ -1209,9 +1235,12 @@ $region_5->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"cropPosition" => array(
+				"top" => 0, 
+				"left" => 0
+				)
 			), array(
-			"id" => "168", 
+			"id" => "23", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo4 (1).jpg", 
 			"sizes" => array(
 				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-services/photo4 (1)-150x150.jpg", 150, 150, true), 
@@ -1220,53 +1249,54 @@ $region_5->add_element("Ugallery", array(
 				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-services/photo4 (1).jpg", 180, 180, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo4 (1)-180x180-8933.jpg", 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo4 (1)-140x140-7555.jpg", 
 					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo4 (1).jpg", 
 					"full" => array(
 						"width" => 180, 
 						"height" => 180
 						), 
 					"crop" => array(
-						"width" => 180, 
-						"height" => 180
+						"width" => 140, 
+						"height" => 140
 						), 
 					"editdata" => array(
 						"rotate" => 0, 
 						"crop" => array(
-							"width" => "180", 
-							"height" => "180", 
+							"width" => "140", 
+							"height" => "140", 
 							"left" => 0, 
 							"top" => 0
 							), 
 						"resize" => array(
-							"width" => 180, 
-							"height" => 180
+							"width" => 140, 
+							"height" => 140
 							), 
-						"id" => 168
+						"id" => 23
 						)
 					)
 				), 
 			"size" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 155, 
+				"height" => 155
 				), 
 			"cropSize" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 140, 
+				"height" => 140
 				), 
 			"cropOffset" => array(
-				"width" => "180", 
-				"height" => "180", 
+				"width" => "140", 
+				"height" => "140", 
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo4 (1)-180x180-8933.jpg", 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo4 (1)-155x155-6404.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
-			"element_id" => "ugallery-object-1408528105380-1572", 
+			"element_id" => "ugallery-object-1421730873246-1959", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo4 (1).jpg", 
 			"rotation" => 0, 
 			"link" => "original", 
-			"url" => "", 
 			"title" => "Image caption", 
 			"caption" => "Image description", 
 			"alt" => "", 
@@ -1275,9 +1305,12 @@ $region_5->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"cropPosition" => array(
+				"top" => 0, 
+				"left" => 0
+				)
 			), array(
-			"id" => "169", 
+			"id" => "24", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo5 (1).jpg", 
 			"sizes" => array(
 				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-services/photo5 (1)-150x150.jpg", 150, 150, true), 
@@ -1286,53 +1319,54 @@ $region_5->add_element("Ugallery", array(
 				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-services/photo5 (1).jpg", 180, 180, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo5 (1)-180x180-9158.jpg", 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo5 (1)-140x140-5173.jpg", 
 					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo5 (1).jpg", 
 					"full" => array(
 						"width" => 180, 
 						"height" => 180
 						), 
 					"crop" => array(
-						"width" => 180, 
-						"height" => 180
+						"width" => 140, 
+						"height" => 140
 						), 
 					"editdata" => array(
 						"rotate" => 0, 
 						"crop" => array(
-							"width" => "180", 
-							"height" => "180", 
+							"width" => "140", 
+							"height" => "140", 
 							"left" => 0, 
 							"top" => 0
 							), 
 						"resize" => array(
-							"width" => 180, 
-							"height" => 180
+							"width" => 140, 
+							"height" => 140
 							), 
-						"id" => 169
+						"id" => 24
 						)
 					)
 				), 
 			"size" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 155, 
+				"height" => 155
 				), 
 			"cropSize" => array(
-				"width" => 180, 
-				"height" => 180
+				"width" => 140, 
+				"height" => 140
 				), 
 			"cropOffset" => array(
-				"width" => "180", 
-				"height" => "180", 
+				"width" => "140", 
+				"height" => "140", 
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo5 (1)-180x180-9158.jpg", 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo5 (1)-155x155-5241.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
-			"element_id" => "ugallery-object-1408528105380-1572", 
+			"element_id" => "ugallery-object-1421730873246-1959", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/photo5 (1).jpg", 
 			"rotation" => 0, 
 			"link" => "original", 
-			"url" => "", 
 			"title" => "Image caption", 
 			"caption" => "Image description", 
 			"alt" => "", 
@@ -1341,7 +1375,10 @@ $region_5->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"cropPosition" => array(
+				"top" => 0, 
+				"left" => 0
+				)
 			)), 
 	"elementSize" => array(
 		"width" => 0, 
@@ -1349,84 +1386,51 @@ $region_5->add_element("Ugallery", array(
 		), 
 	"labelFilters" => array(), 
 	"thumbProportions" => "1", 
-	"thumbWidth" => "180", 
-	"thumbHeight" => 180, 
+	"thumbWidth" => "150", 
+	"thumbHeight" => 150, 
 	"captionType" => "none", 
 	"captionColor" => "#ffffff", 
 	"captionUseBackground" => 0, 
 	"captionBackground" => "#000000", 
 	"showCaptionOnHover" => array("true"), 
 	"linkTo" => "image", 
-	"even_padding" => array("false"), 
-	"thumbPadding" => 15, 
-	"captionPosition" => "below", 
-	"captionWhen" => "never", 
-	"no_padding" => array("false"), 
-	"element_id" => "ugallery-object-1408528105380-1572", 
-	"row" => 34, 
-	"theme_style" => "inline-gallery", 
-	"anchor" => "", 
-	"breakpoint" => array(
-		"custom-1408717918354" => array(
-			"row" => 26
-			), 
-		"custom-1408717978058" => array(
-			"row" => 65
-			)
-		)
+	"even_padding" => array(), 
+	"thumbPadding" => 50, 
+	"element_id" => "ugallery-object-1421730873246-1959", 
+	"row" => 48, 
+	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408528577921-1045", 
+"wrapper_id" => "wrapper-1421730923377-1301", 
+"new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 12
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 7
 		), 
 	"custom-1410783042947" => array(
+		"edited" => false, 
 		"col" => 18
 		)
 	), 
 "breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 22
-		), 
-	"custom-1408717918354" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 18
-		), 
-	"custom-1408717978058" => array(
-		"edited" => true, 
-		"left" => 2, 
-		"col" => 16
-		), 
-	"custom-1408718022181" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 14
-		), 
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 12
 		), 
-	"custom-1408718098456" => array(
+	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 10
+		"col" => 7
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 18
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
 		)
 	)
 ));
@@ -1478,7 +1482,7 @@ $region_6->add_element("PlainTxt", array(
 "columns" => "18", 
 "margin_left" => "3", 
 "margin_right" => "0", 
-"margin_top" => "20", 
+"margin_top" => "9", 
 "margin_bottom" => "0", 
 "id" => "module-1408529743280-1743", 
 "rows" => 6, 
@@ -2012,13 +2016,30 @@ $region_11->add_element("Button", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 15
+		"col" => 8
 		), 
 	"mobile" => array(
-		"col" => 15
+		"col" => 6
 		), 
 	"custom-1410783042947" => array(
-		"col" => 15
+		"col" => 11
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
+		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4
 		)
 	)
 ));
@@ -2280,13 +2301,30 @@ $region_7->add_element("Button", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 23
+		"col" => 8
 		), 
 	"mobile" => array(
-		"col" => 23
+		"col" => 6
 		), 
 	"custom-1410783042947" => array(
-		"col" => 23
+		"col" => 11
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
+		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4
 		)
 	)
 ));
@@ -2548,13 +2586,30 @@ $region_8->add_element("Button", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 15
+		"col" => 8
 		), 
 	"mobile" => array(
-		"col" => 15
+		"col" => 6
 		), 
 	"custom-1410783042947" => array(
-		"col" => 15
+		"col" => 11
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
+		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4
 		)
 	)
 ));

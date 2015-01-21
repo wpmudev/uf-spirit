@@ -3,9 +3,8 @@
     text-transform: uppercase;
     text-align: center;
     color: #69a8a6;
-    width: 62px;
+    width: 52px;
     font-style: italic;
-    left:-50px;
     position: absolute;
 }
 #page .archive-search-results.uposts-object li.uf-post .date_posted .month {
@@ -13,6 +12,9 @@
 }
 #page .archive-search-results.uposts-object li.uf-post .title {
     margin-bottom:4px;
+}
+#page .archive-search-results.uposts-object li.uf-post .title, #page .archive-search-results.uposts-object li.uf-post .post_categories {
+    margin-left:70px;
 }
 #page .archive-search-results.uposts-object li.uf-post .title h3 a {
     font: 600 18px/18px 'Open Sans', Arial;

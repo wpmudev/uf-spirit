@@ -200,12 +200,12 @@ $region_4 = upfront_create_region(
 
 $region_4->add_element("Posts", array(
 "columns" => "18", 
-"margin_left" => "3", 
+"margin_left" => "2", 
 "margin_right" => "0", 
-"margin_top" => "6", 
+"margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1408714915754-1518", 
-"rows" => 48, 
+"rows" => 49, 
 "options" => array(
 	"type" => "PostsModel", 
 	"view_class" => "PostsView", 
@@ -224,12 +224,48 @@ $region_4->add_element("Posts", array(
 	"post_parts" => array("date_posted", "title", "categories", "author", "comment_count", "featured_image", "content", "read_more"), 
 	"enabled_post_parts" => array("date_posted", "author", "comment_count", "featured_image", "title", "content", "read_more", "categories"), 
 	"default_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
+	"date_posted_format" => "d M", 
+	"categories_limit" => 3, 
+	"tags_limit" => 3, 
+	"comment_count_hide" => 0, 
+	"content_length" => 120, 
+	"resize_featured" => "1", 
+	"gravatar_size" => 200, 
+	"post-part-date_posted" => "<div class=\"uposts-part date_posted\">
+	{{date}}<br /><span class=\"month\">{{time}}</span>
+</div>", 
+	"post-part-author" => "<div class=\"uposts-part author\">
+	Written By <a href=\"{{url}}\">{{name}}</a></div>", 
+	"post-part-gravatar" => "<div class=\"uposts-part gravatar\">
+	{{gravatar}}
+</div>", 
+	"post-part-comment_count" => "<div class=\"uposts-part comment_count\">
+	Comments / {{comment_count}}
+</div>", 
+	"post-part-featured_image" => "<div class=\"uposts-part thumbnail\" data-resize=\"{{resize}}\">
+	{{thumbnail}}
+</div>", 
+	"post-part-title" => "<div class=\"uposts-part title\">
+	<h3><a href=\"{{permalink}}\" title=\"{{title}}\">{{title}}</a></h3>
+</div>", 
+	"post-part-content" => "<div class=\"uposts-part content\">
+	{{content}}
+</div>", 
+	"post-part-read_more" => "<div class=\"uposts-part read_more\">
+	<a href=\"{{permalink}}\">Read more</a></div>", 
+	"post-part-tags" => "<div class=\"uposts-part post_tags\">
+	{{tags}}
+</div>", 
+	"post-part-categories" => "<div class=\"uposts-part post_categories\">
+	{{categories}}
+</div>", 
 	"element_id" => "posts-object-1417752626112-1080", 
 	"anchor" => "", 
-	"resize_featured" => "1", 
-	"theme_style" => "blog-archive"
+	"theme_style" => "blog-archive", 
+	"row" => 49
 	), 
 "wrapper_id" => "wrapper-1408714949691-1226", 
+"new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12
@@ -241,7 +277,6 @@ $region_4->add_element("Posts", array(
 		"col" => 18
 		)
 	), 
-"new_line" => "true", 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 

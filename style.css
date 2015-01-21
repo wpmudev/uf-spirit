@@ -1,9 +1,12 @@
 /*
-Theme Name:Spirit
-Version: 2015-01-07
+Theme Name: Spirit
+Description: A professionally crafted, high-end portfolio theme with a fresh, natural design inspired by stunning photography and clean, bold typography.
+Version: 0.1
 Template: upfront
-Author: wpmudev
+Author: WPMU DEV
 Author URI: https://premium.wpmudev.org/
+Theme URI: https://premium.wpmudev.org/project/upfront-spirit/
+WDP ID: 938302
 */
 @import url(../upfront/style.css);
 
@@ -242,4 +245,10 @@ a:hover {
 
 @media (max-width: 570px) {
 	.upfront-output-object h1 { font-size: 35px; }
+}
+
+/* Temporary fix for lightbox shifting page to right when opened */
+html {
+	padding-right: 0 !important;
+	overflow: auto !important;
 }

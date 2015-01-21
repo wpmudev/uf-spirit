@@ -40,7 +40,7 @@
      border-color: #7dc1be; 
      background: #FFFFFF;
 }
-#page .contact-form input[type="submit"] {
+#page .contact-form button[type="submit"] {
     background:#69a8a6;
     color: #FFFFFF;
     border-radius: 4px;
@@ -54,7 +54,7 @@
     font: 24px 'Open Sans', Arial;
     width: auto;
 }
-#page .contact-form input[type="submit"]:hover {
+#page .contact-form button[type="submit"]:hover {
    background: #4f7e7d;
 }
 #page .contact-form .ucontact-msg {
@@ -87,4 +87,7 @@
 }
 #page .contact-form .upfront-field-container.ucontact-label-over input[type="submit"] {
     margin-top: 0.5em;
+}
+#page .contact-form .ucontact-label-over label {
+    padding: 12px;
 }
