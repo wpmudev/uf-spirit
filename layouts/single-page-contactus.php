@@ -150,74 +150,52 @@ $region_2->add_element("Ucontact", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1408536499546-1338", 
-"rows" => 47, 
+"id" => "module-1421844167386-1549", 
+"rows" => 70, 
 "options" => array(
 	"form_add_title" => array(), 
 	"form_title" => "Contact form", 
-	"form_name_label" => "Your name:", 
-	"form_email_label" => "Your email:", 
-	"form_email_to" => "catalinnita01@gmail.com", 
+	"form_name_label" => "Your Name", 
+	"form_email_label" => "Your Email", 
+	"form_email_to" => "gagan@localhost.localhost", 
 	"show_subject" => array(), 
-	"form_subject_label" => "Your subject:", 
+	"form_subject_label" => "Subject:", 
 	"form_default_subject" => "Sent from the website", 
-	"form_message_label" => "Your message:", 
-	"form_button_text" => "Send Message", 
-	"form_validate_when" => "field", 
+	"form_message_label" => "Message", 
+	"form_button_text" => "Send", 
+	"form_validate_when" => "submit", 
 	"form_label_position" => "over", 
 	"type" => "UcontactModel", 
 	"view_class" => "UcontactView", 
 	"class" => "c24 upfront-contact-form", 
 	"has_settings" => 1, 
 	"id_slug" => "ucontact", 
-	"element_id" => "ucontact-object-1408536499543-1797", 
-	"row" => 41, 
-	"theme_style" => "contact-form", 
-	"anchor" => ""
+	"element_id" => "ucontact-object-1421844167385-1091", 
+	"row" => 70, 
+	"anchor" => "", 
+	"theme_style" => "contact-form"
 	), 
-"wrapper_id" => "wrapper-1408536680933-1250", 
+"wrapper_id" => "wrapper-1421844178455-1591", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 12
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 7
 		), 
 	"custom-1410783042947" => array(
+		"edited" => false, 
 		"col" => 16
 		)
 	), 
 "breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => false, 
-		"left" => 4, 
-		"col" => 14
-		), 
-	"custom-1408717918354" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 14
-		), 
-	"custom-1408717978058" => array(
-		"edited" => false, 
-		"left" => 1, 
-		"col" => 14
-		), 
-	"custom-1408718022181" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 14
-		), 
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 12
-		), 
-	"custom-1408718098456" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 10
 		), 
 	"mobile" => array(
 		"edited" => false, 

@@ -2026,7 +2026,7 @@ $region_7->add_element("Uaccordion", array(
 	"accordion_count" => 3, 
 	"accordion_fixed_width" => "auto", 
 	"id_slug" => "uaccordion", 
-	"preset" => "default", 
+	"preset" => "accordionstyle", 
 	"style_type" => "custom", 
 	"theme_style" => "accordion", 
 	"header_border_color" => "rgb(255, 255, 255)", 
