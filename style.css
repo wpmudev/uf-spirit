@@ -15,8 +15,8 @@ WDP ID: 938302
 }
  .icon:before {
   content: '';
-  background: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.png);
-  background-image: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.svg), none;
+  background: url(images/sprite.png);
+  background-image: url(images/sprite.svg), none;
   /* If it supports multiple backgrounds supports svg */
   position: absolute;
   top: 0;
@@ -83,8 +83,8 @@ a:hover {
 }
  .icon:before,  .icon-search:before {
   content: '';
-  background: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.png);
-  background-image: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.svg), none;
+  background: url(images/sprite.png);
+  background-image: url(images/sprite.svg), none;
   /* If it supports multiple backgrounds supports svg */
   position: absolute;
   top: 0;
