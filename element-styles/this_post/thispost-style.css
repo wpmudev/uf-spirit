@@ -41,3 +41,6 @@
 #page .thispost-style div.upfront-postpart-title, #page .thispost-style div.upfront-postpart-categories {
     padding-left: 0;
 }
+#page .thispost-style .post_content p, #page .thispost-style .post_content ul, #page .thispost-style .post_content ol {
+    margin: 0 0 15px;
+}
