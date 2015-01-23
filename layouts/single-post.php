@@ -279,7 +279,10 @@ $region_2->add_element("ThisPost", array(
 	"element_id" => "default-post-object", 
 	"theme_style" => "thispost-style", 
 	"anchor" => ""
-	), 
+	),
+"sticky" => true,
+"disable_resize" => true,
+"disable_drag" => false,
 "wrapper_id" => "wrapper-1408977742068-1128", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
