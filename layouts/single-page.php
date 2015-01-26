@@ -14,7 +14,7 @@ $main = upfront_create_region(
 			array(
 "row" => 69, 
 "background_type" => "color", 
-"background_color" => "rgba(168,144,132,1)", 
+"background_color" => "rgba(168,144,132,0)", 
 "nav_region" => "", 
 "breakpoint" => array(
 	"custom-1410783042947" => array(
@@ -32,35 +32,46 @@ $main = upfront_create_region(
 )
 			);
 
-$main->add_element("ThisPage", array(
+$main->add_element("ThisPost", array(
 "columns" => "22", 
 "margin_left" => "1", 
 "margin_right" => "0", 
 "margin_top" => "15", 
 "margin_bottom" => "0", 
-"id" => "default-page-title", 
-"rows" => 32, 
+"id" => "default-page", 
+"rows" => 70, 
 "options" => array(
-	"type" => "ThisPageModel", 
-	"view_class" => "ThisPageView", 
-	"class" => "c24 upfront-this_page", 
-	"display" => "title", 
-	"has_settings" => 0, 
-	"id_slug" => "this_page", 
-	"disable_resize" => false, 
-	"disable_drag" => false, 
-	"element_id" => "default-page-title-object", 
-	"row" => 32, 
-	"breakpoint" => array(
-		"tablet" => array(
-			"row" => 20
-			), 
-		"mobile" => array(
-			"row" => 15
-			)
-		)
-	), 
-"wrapper_id" => "default-page-title-wrapper", 
+    "type" => "ThisPostModel", 
+    "view_class" => "ThisPostView", 
+    "class" => "c24 upfront-this_post", 
+    "has_settings" => 1, 
+    "id_slug" => "this_post", 
+    "row" => 68, 
+    "post_data" => array(), 
+    "disable_resize" => false, 
+    "disable_drag" => false, 
+    "post_type" => "page", 
+    "layout" => array(array(
+            "classes" => "c24 clr", 
+            "objects" => array(array(
+                    "slug" => "title", 
+                    "classes" => "post-part c24"
+                    ))
+            ), array(
+            "classes" => "c24 clr", 
+            "objects" => array(array(
+                    "slug" => "contents", 
+                    "classes" => " post-part c24"
+                    ))
+            )), 
+    "element_id" => "default-page-object", 
+    "anchor" => "", 
+    "theme_style" => "thispage-style", 
+    ), 
+"sticky" => false,
+"disable_resize" => true,
+"disable_drag" => false,
+"wrapper_id" => "default-page-wrapper", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -105,85 +116,6 @@ $main->add_element("ThisPage", array(
 
 $regions->add($main);
 
-$region_3 = upfront_create_region(
-			array(
-"name" => "region-3", 
-"title" => "Region 3", 
-"type" => "wide", 
-"scope" => "local", 
-"container" => "region-3", 
-"position" => 20, 
-"allow_sidebar" => true
-),
-			array(
-"row" => 60, 
-"breakpoint" => array(
-	"custom-1410783042947" => array(
-		"edited" => false
-		), 
-	"tablet" => array(
-		"edited" => false
-		), 
-	"mobile" => array(
-		"edited" => false
-		)
-	)
-)
-			);
-
-$region_3->add_element("ThisPage", array(
-"columns" => "22", 
-"margin_left" => "1", 
-"margin_right" => "0", 
-"margin_top" => "7", 
-"margin_bottom" => "0", 
-"id" => "default-page-content", 
-"rows" => 44, 
-"options" => array(
-	"type" => "ThisPageModel", 
-	"view_class" => "ThisPageView", 
-	"class" => "c24 upfront-this_page", 
-	"display" => "content", 
-	"has_settings" => 0, 
-	"id_slug" => "this_page", 
-	"disable_resize" => false, 
-	"disable_drag" => false, 
-	"element_id" => "default-page-content-object", 
-	"row" => 44
-	), 
-"wrapper_id" => "wrapper-1414659960729-1085", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 12
-		), 
-	"mobile" => array(
-		"col" => 7
-		), 
-	"custom-1410783042947" => array(
-		"col" => 18
-		)
-	), 
-"breakpoint" => array(
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 18
-		), 
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
-		)
-	)
-));
-
-$regions->add($region_3);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 

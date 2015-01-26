@@ -157,7 +157,7 @@ $region_2->add_element("Ucontact", array(
 	"form_title" => "Contact form", 
 	"form_name_label" => "Your Name", 
 	"form_email_label" => "Your Email", 
-	"form_email_to" => "gagan@localhost.localhost", 
+	"form_email_to" => get_option('admin_email'), 
 	"show_subject" => array(), 
 	"form_subject_label" => "Subject:", 
 	"form_default_subject" => "Sent from the website", 

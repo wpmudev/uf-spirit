@@ -1,7 +1,7 @@
 /*
 Theme Name: Spirit
 Description: A professionally crafted, high-end portfolio theme with a fresh, natural design inspired by stunning photography and clean, bold typography.
-Version: 0.1
+Version: 0.1.1
 Template: upfront
 Author: WPMU DEV
 Author URI: https://premium.wpmudev.org/
@@ -15,8 +15,8 @@ WDP ID: 938302
 }
  .icon:before {
   content: '';
-  background: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.png);
-  background-image: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.svg), none;
+  background: url(images/sprite.png);
+  background-image: url(images/sprite.svg), none;
   /* If it supports multiple backgrounds supports svg */
   position: absolute;
   top: 0;
@@ -32,6 +32,26 @@ html {
 
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0 auto;
+}
+
+blockquote {padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+
+ul,  ol {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 
 a,
@@ -83,8 +103,8 @@ a:hover {
 }
  .icon:before,  .icon-search:before {
   content: '';
-  background: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.png);
-  background-image: url(http://www.wpfw.net/Upfront/wp-content/themes/spirit/images/sprite.svg), none;
+  background: url(images/sprite.png);
+  background-image: url(images/sprite.svg), none;
   /* If it supports multiple backgrounds supports svg */
   position: absolute;
   top: 0;
