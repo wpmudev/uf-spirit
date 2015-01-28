@@ -13,7 +13,7 @@
 #page .blog-archive.uposts-object li.uf-post .title {
     margin-bottom:4px;
 }
-#page .blog-archive.uposts-object li.uf-post .title, #page .blog-archive.uposts-object li.uf-post .post_categories, #page .blog-archive.uposts-object li.uf-post .author, #page .blog-archive.uposts-object li.uf-post .comment_count, #page .blog-archive.uposts-object li.uf-post .content, #page .blog-archive.uposts-object li.uf-post .thumbnail {
+#page .blog-archive.uposts-object li.uf-post .title, #page .blog-archive.uposts-object li.uf-post .post_categories, #page .blog-archive.uposts-object li.uf-post .author, #page .blog-archive.uposts-object li.uf-post .comment_count, #page .blog-archive.uposts-object li.uf-post .content, #page .blog-archive .uposts-object li.uf-post .thumbnail {
     margin-left:70px;
 }
 #page .blog-archive.uposts-object li.uf-post .title h3 a {
@@ -49,7 +49,7 @@
     border-bottom: 1px #000 solid;
     margin-bottom: 30px;
 }
-#page .blog-archive.uposts-object li.uf-post .thumbnail {
+#page .blog-archive .uposts-object li.uf-post .thumbnail {
     max-height:200px;
     margin-bottom: 30px;
 }
@@ -57,4 +57,10 @@
     float: right;
     font-weight: 200;
     font-style: italic;
+}
+#page .blog-archive div.post_content blockquote {
+    margin-left: -44px;
+}
+#page .blog-archive div.post_content > *:first-child {
+  margin-top:0
 }

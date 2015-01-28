@@ -136,6 +136,7 @@ $region_15->add_element("Uimage", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408439682498-1955", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -237,6 +238,7 @@ $region_15->add_element("PlainTxt", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1408626622170-1221", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -333,6 +335,7 @@ $region_15->add_element("Code", array(
 	"row" => 11
 	), 
 "wrapper_id" => "wrapper-1408627222905-1682", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -487,6 +490,7 @@ $main->add_element("PlainTxt", array(
 	"row" => 2
 	), 
 "wrapper_id" => "wrapper-1408440541662-1463", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -609,6 +613,7 @@ $main->add_element("Uimage", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408440918694-1971", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -697,6 +702,7 @@ $main->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408440704324-1222", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -784,6 +790,7 @@ $main->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408441148046-1003", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -969,6 +976,7 @@ $region_4->add_element("PlainTxt", array(
 	"row" => 3
 	), 
 "wrapper_id" => "wrapper-1408442634872-1479", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1091,6 +1099,7 @@ $region_4->add_element("Uimage", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408442646888-1897", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1178,6 +1187,7 @@ $region_4->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408442660597-1917", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1327,6 +1337,7 @@ $region_12->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408455458788-1517", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1421,6 +1432,7 @@ $region_12->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408455466093-1167", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1507,6 +1519,7 @@ $region_12->add_element("Button", array(
 	"theme_style" => "small-button-style"
 	), 
 "wrapper_id" => "wrapper-1414742352573-1383", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1625,6 +1638,7 @@ $region_5->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408443818900-1429", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1719,6 +1733,7 @@ $region_5->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408443842377-1925", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1805,6 +1820,7 @@ $region_5->add_element("Button", array(
 	"theme_style" => "small-button-style"
 	), 
 "wrapper_id" => "wrapper-1414742327761-1696", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1923,6 +1939,7 @@ $region_6->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408443912379-1151", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2017,6 +2034,7 @@ $region_6->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408443951249-1806", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2103,6 +2121,7 @@ $region_6->add_element("Button", array(
 	"theme_style" => "small-button-style"
 	), 
 "wrapper_id" => "wrapper-1414741715898-1347", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2221,6 +2240,7 @@ $region_7->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408444393256-1825", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2315,6 +2335,7 @@ $region_7->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408444399086-1919", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2401,6 +2422,7 @@ $region_7->add_element("Button", array(
 	"theme_style" => "small-button-style"
 	), 
 "wrapper_id" => "wrapper-1414742265543-1752", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2507,6 +2529,7 @@ $region_8->add_element("PlainTxt", array(
 	"row" => 2
 	), 
 "wrapper_id" => "wrapper-1408445074273-1042", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12
@@ -2628,6 +2651,7 @@ $region_8->add_element("Uimage", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1409145408474-1078", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 8
@@ -2809,6 +2833,7 @@ $region_11->add_element("Uimage", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408454821816-1092", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2900,6 +2925,7 @@ $region_11->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1409146803749-1559", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 9
@@ -3031,6 +3057,7 @@ $region_11->add_element("Uimage", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408454829770-1114", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3122,6 +3149,7 @@ $region_11->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1409146821339-1451", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 9
@@ -3246,6 +3274,7 @@ $region_11->add_element("Uimage", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408454836978-1393", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3334,6 +3363,7 @@ $region_11->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1409146903808-1116", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 9
@@ -3414,6 +3444,7 @@ $region_11->add_element("PlainTxt", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1408454949110-1697", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3569,6 +3600,7 @@ $region_9->add_element("Code", array(
 	"row" => 14
 	), 
 "wrapper_id" => "wrapper-1414742754166-1680", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3626,6 +3658,7 @@ $region_9->add_element("PlainTxt", array(
 	"row" => 1
 	), 
 "wrapper_id" => "wrapper-1408446496888-1432", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3718,6 +3751,7 @@ $region_9->add_element("PlainTxt", array(
 	"theme_style" => "remove-top-space"
 	), 
 "wrapper_id" => "wrapper-1408446525502-1263", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3898,6 +3932,7 @@ $region_9->add_element("Code", array(
 	"row" => 5
 	), 
 "wrapper_id" => "wrapper-1408629844073-1942", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -4031,6 +4066,7 @@ $region_10->add_element("Button", array(
 	"theme_style" => "button-style"
 	), 
 "wrapper_id" => "wrapper-1414665328724-1008", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -4082,6 +4118,7 @@ $region_10->add_element("PlainTxt", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1408446764358-1048", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(

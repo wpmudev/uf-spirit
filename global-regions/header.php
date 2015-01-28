@@ -116,6 +116,7 @@ $header->add_element("Uimage", array(
 		)
 	), 
 "wrapper_id" => "image-wrapper", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -261,16 +262,6 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-object-id" => "17", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 6
-			), array(
-			"menu-item-db-id" => 18, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Contact us", 
-			"menu-item-url" => "" . get_site_url() . "/contactus/", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "18", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 7
 			)), 
 	"menu_style" => "vertical", 
 	"menu_alignment" => "left", 
@@ -354,6 +345,7 @@ $header->add_element("Unewnavigation", array(
 	"element_id" => "unewnavigation-object"
 	), 
 "wrapper_id" => "unewnavigation-wrapper", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 2
@@ -479,6 +471,7 @@ $header->add_element("Code", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1408627457712-1308", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 7

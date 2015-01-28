@@ -57,6 +57,7 @@ $region_5->add_element("PlainTxt", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1408525051645-1279", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12
@@ -140,6 +141,7 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408529977772-1644", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12
@@ -259,12 +261,17 @@ $region_4->add_element("Posts", array(
 	"post-part-categories" => "<div class=\"uposts-part post_categories\">
 	{{categories}}
 </div>", 
+	"post-part-meta" => "<div class=\"uposts-part meta\">
+	
+</div>
+", 
 	"element_id" => "posts-object-1417752626112-1080", 
 	"anchor" => "", 
 	"theme_style" => "blog-archive", 
 	"row" => 49
 	), 
 "wrapper_id" => "wrapper-1408714949691-1226", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(

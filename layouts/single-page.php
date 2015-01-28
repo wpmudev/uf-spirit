@@ -41,37 +41,37 @@ $main->add_element("ThisPost", array(
 "id" => "default-page", 
 "rows" => 70, 
 "options" => array(
-    "type" => "ThisPostModel", 
-    "view_class" => "ThisPostView", 
-    "class" => "c24 upfront-this_post", 
-    "has_settings" => 1, 
-    "id_slug" => "this_post", 
-    "row" => 68, 
-    "post_data" => array(), 
-    "disable_resize" => false, 
-    "disable_drag" => false, 
-    "post_type" => "page", 
-    "layout" => array(array(
-            "classes" => "c24 clr", 
-            "objects" => array(array(
-                    "slug" => "title", 
-                    "classes" => "post-part c24"
-                    ))
-            ), array(
-            "classes" => "c24 clr", 
-            "objects" => array(array(
-                    "slug" => "contents", 
-                    "classes" => " post-part c24"
-                    ))
-            )), 
-    "element_id" => "default-page-object", 
-    "anchor" => "", 
-    "theme_style" => "thispage-style", 
-    ), 
-"sticky" => false,
-"disable_resize" => true,
-"disable_drag" => false,
+	"type" => "ThisPostModel", 
+	"view_class" => "ThisPostView", 
+	"class" => "c24 upfront-this_post", 
+	"has_settings" => 1, 
+	"id_slug" => "this_post", 
+	"row" => 68, 
+	"post_data" => array(), 
+	"disable_resize" => false, 
+	"disable_drag" => false, 
+	"post_type" => "page", 
+	"layout" => array(array(
+			"classes" => "c24 clr", 
+			"objects" => array(array(
+					"slug" => "title", 
+					"classes" => "post-part c24"
+					))
+			), array(
+			"classes" => "c24 clr", 
+			"objects" => array(array(
+					"slug" => "contents", 
+					"classes" => " post-part c24"
+					))
+			)), 
+	"element_id" => "default-page-object", 
+	"anchor" => "", 
+	"theme_style" => "thispage-style"
+	), 
 "wrapper_id" => "default-page-wrapper", 
+"disable_resize" => true, 
+"disable_drag" => false, 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -115,7 +115,6 @@ $main->add_element("ThisPost", array(
 ));
 
 $regions->add($main);
-
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 

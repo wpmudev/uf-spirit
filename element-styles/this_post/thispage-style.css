@@ -47,3 +47,15 @@
 #page .thispage-style .post_content p, #page .thispage-style .post_content ul, #page .thispage-style .post_content ol {
     margin: 0 0 15px;
 }
+#page .thispage-style ul.post-categories {
+    margin: 0;
+}
+#page .thispage-style div.post_content blockquote {
+    margin-left: -44px;
+}
+#page .thispage-style div.post_content > ul, #page .thispage-style div.post_content > ol {
+    margin-left: 60px;
+}
+#page .thispage-style div.post_content > *:first-child {
+  margin-top:0
+}
