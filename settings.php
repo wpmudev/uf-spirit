@@ -164,6 +164,124 @@ return array(
  ul,  ol {
     margin-left: 60px;
 }
+ .upfront-comment ol {
+  list-style-type: none;
+  margin: 0;
+}
+ .upfront-comment ol ol {
+  margin-left: 40px;
+}
+ .upfront-comment article.comment {
+  background-color:#f2f2f2;
+  margin-bottom: 60px;
+  min-height: 110px;
+  position: relative;
+}
+ .upfront-comment article.comment p {
+  font-size: 14px;
+}
+ .upfront-comment article.comment div.comment-content {
+  margin-left:130px;
+  padding-top:32px;
+  padding-bottom: 10px;
+}
+ .upfront-comment article.comment header.comment-author {
+  float:left;
+}
+ .upfront-comment article.comment header.comment-author img {
+  border-radius: 50%;
+  border: 1px #69a8a6 solid;
+  padding: 2px;
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 70px;
+  height: 70px;
+}
+ .upfront-comment article.comment header.comment-author .fn {
+  position: absolute;
+  left: 130px;
+  top: 6px;
+  font-size:12px;
+}
+ .upfront-comment article.comment header.comment-author .comment-time {
+  position: absolute;
+  right: 15px;
+  top: 6px;
+  font-size:12px;
+}
+ .upfront-comment article.comment .reply {
+  position: absolute;
+  right: 0;
+}
+ .upfront-comment article.comment p.edit-link {
+  position: absolute;
+  right:15px;
+  bottom: -10px;
+}
+ .upfront-comment article.comment div.reply {
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+}
+ .upfront-comment .comment-awaiting-moderation {
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    font-style: italic;
+}
+ .upfront-comment .comment-respond {
+  border-top: 1px #ccc solid;
+}
+ .upfront-comment .form-allowed-tags {
+  font-size: 14px;
+}
+ .upfront-comment .comment-reply-title {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+ form.comment-form textarea,  form.comment-form input[type=\"text\"] {
+  border: 1px #d0d0d0 solid;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 4px 15px;
+}
+ form.comment-form input[type=\"text\"] {
+  height: 30px;
+}
+ form.comment-form input:focus,  form.comment-form textarea:focus {
+  border-color: #79c1c0;
+}
+ form.comment-form p.comment-form-author,  form.comment-form p.comment-form-email {
+  width: 46%;
+  float: left;
+}
+ form.comment-form p.comment-form-email {
+  float: right;
+}
+ form.comment-form p.comment-form-url {
+  clear: both;
+}
+ form.comment-form label {
+  display: block;
+  color:#333;
+}
+ form.comment-form input[type=\"submit\"] {
+    background:#69a8a6;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: 0px;
+    border-bottom:3px solid #4f7e7d;
+    padding: 4px 25px;
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none; 
+    float : right;
+    font: 24px \\\'Open Sans\\\', Arial;
+    width: auto;
+}
+ form.comment-form input[type=\"submit\"]:hover {
+   background: #4f7e7d;
+}
 ',
 	'layout_properties' => '[{\"name\":\"background_color\",\"value\":\"\"},{\"name\":\"grid\",\"value\":{\"column_widths\":{\"desktop\":\"45\"},\"column_paddings\":{\"desktop\":\"15\"},\"baselines\":{\"desktop\":\"5\"},\"type_paddings\":{\"desktop\":\"10\"}}},{\"name\":\"background_type\",\"value\":\"color\"},{\"name\":\"contained_region_width\",\"value\":1080}]',
 	'theme_colors' => '{\"colors\":[{\"color\":\"#86b8b7\",\"highlight\":\"#86b8b7\",\"shade\":\"#86b8b7\",\"selected\":\"\",\"luminance\":\"\",\"prev\":\"\"},{\"color\":\"#69a8a6\",\"highlight\":\"#69a8a6\",\"shade\":\"#69a8a6\",\"selected\":\"\",\"luminance\":\"\",\"prev\":\"\"},{\"color\":\"#a89084\",\"highlight\":\"#a89084\",\"shade\":\"#a89084\",\"selected\":\"\",\"luminance\":\"\",\"prev\":\"\"},{\"color\":\"#f4f2f5\",\"highlight\":\"#f4f2f5\",\"shade\":\"#f4f2f5\",\"selected\":\"\",\"luminance\":\"\",\"prev\":\"\"},{\"color\":\"#e2ded5\",\"highlight\":\"#e2ded5\",\"shade\":\"#e2ded5\",\"selected\":\"\",\"luminance\":\"\",\"prev\":\"\"}],\"range\":\"0\"}',
