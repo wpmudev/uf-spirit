@@ -44,3 +44,15 @@
 #page .thispost-style .post_content p, #page .thispost-style .post_content ul, #page .thispost-style .post_content ol {
     margin: 0 0 15px;
 }
+#page .thispost-style ul.post-categories {
+    margin: 0;
+}
+#page .thispost-style div.post_content blockquote {
+    margin-left: -44px;
+}
+#page .thispost-style div.post_content > ul, #page .thispost-style div.post_content > ol {
+    margin-left: 60px;
+}
+#page .thispost-style div.post_content > *:first-child {
+  margin-top:0
+}

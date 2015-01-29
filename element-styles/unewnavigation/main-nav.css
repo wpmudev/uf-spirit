@@ -2,11 +2,13 @@
  padding-top: 0px !important;   
  padding-bottom: 0px !important;
  color: #FFFFFF;
- font: 300 16px/16px Oswald, Arial;
  text-transform: uppercase;
 }
 #page .main-nav ul.menu li {
  display: inline-block;
+}
+#page .main-nav ul.menu li * {
+    font: 300 16px/16px Oswald, Arial;
 }
 #page .main-nav ul.menu li a {
     text-decoration: none;

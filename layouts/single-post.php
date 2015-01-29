@@ -53,6 +53,7 @@ $region_4->add_element("PlainTxt", array(
 	"row" => 33
 	), 
 "wrapper_id" => "wrapper-1416475121461-1671", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -137,6 +138,7 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1408529977772-1644", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12
@@ -279,11 +281,11 @@ $region_2->add_element("ThisPost", array(
 	"element_id" => "default-post-object", 
 	"theme_style" => "thispost-style", 
 	"anchor" => ""
-	),
-"sticky" => true,
-"disable_resize" => true,
-"disable_drag" => false,
+	), 
 "wrapper_id" => "wrapper-1408977742068-1128", 
+"disable_resize" => true, 
+"disable_drag" => false, 
+"sticky" => true, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12
@@ -333,6 +335,7 @@ $region_2->add_element("Ucomment", array(
 	"theme_style" => "blog-page-feed"
 	), 
 "wrapper_id" => "default-comment-wrapper", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12
