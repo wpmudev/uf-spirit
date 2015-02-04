@@ -263,7 +263,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-target" => "", 
 			"menu-item-position" => 6
 			)), 
-	"menu_style" => "vertical", 
+	"menu_style" => "horizontal", 
 	"menu_alignment" => "left", 
 	"allow_sub_nav" => array("no"), 
 	"allow_new_pages" => array(), 

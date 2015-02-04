@@ -4,9 +4,6 @@
  color: #FFFFFF;
  text-transform: uppercase;
 }
-#page .main-nav ul.menu li {
- display: inline-block;
-}
 #page .main-nav ul.menu li * {
     font: 300 16px/16px Oswald, Arial;
 }
@@ -85,7 +82,4 @@
 }
 #page .main-nav div[data-style="burger"][ data-burger_alignment="full"] ul.menu {
 	top: auto;
-}
-#page .main-nav div[data-style="burger"] ul.menu li {
-	display: block;
 }
