@@ -62,13 +62,13 @@ $region_15 = upfront_create_region(
 			);
 
 $region_15->add_element("Uimage", array(
-"columns" => "23", 
+"columns" => "9", 
 "margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408439677474-1148", 
-"rows" => 49, 
+"rows" => 51, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (2)-355x215-6171.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (2).png", 
@@ -97,8 +97,8 @@ $region_15->add_element("Uimage", array(
 		), 
 	"marginTop" => 0, 
 	"element_size" => array(
-		"width" => 1005, 
-		"height" => 215
+		"width" => 375, 
+		"height" => 225
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
@@ -117,7 +117,7 @@ $region_15->add_element("Uimage", array(
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "object-1408439677474-1823", 
-	"row" => 43, 
+	"row" => 51, 
 	"theme_style" => "_default", 
 	"anchor" => "", 
 	"breakpoint" => array(
@@ -302,13 +302,13 @@ $region_15->add_element("PlainTxt", array(
 ));
 
 $region_15->add_element("Code", array(
-"columns" => "22", 
-"margin_left" => "1", 
+"columns" => "4", 
+"margin_left" => "10", 
 "margin_right" => "0", 
-"margin_top" => "38", 
+"margin_top" => "36", 
 "margin_bottom" => "0", 
 "id" => "module-1408626869476-1698", 
-"rows" => 17, 
+"rows" => 20, 
 "options" => array(
 	"type" => "CodeModel", 
 	"view_class" => "CodeView", 
@@ -332,7 +332,7 @@ $region_15->add_element("Code", array(
 }
 ", 
 	"script" => "/* Your code here */", 
-	"row" => 11
+	"row" => 20
 	), 
 "wrapper_id" => "wrapper-1408627222905-1682", 
 "sticky" => false, 
@@ -342,7 +342,7 @@ $region_15->add_element("Code", array(
 		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 6
 		), 
 	"custom-1410783042947" => array(
 		"col" => 18
@@ -385,8 +385,8 @@ $region_15->add_element("Code", array(
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
+		"left" => 1, 
+		"col" => 5
 		), 
 	"custom-1410780542364" => array(
 		"edited" => true, 
