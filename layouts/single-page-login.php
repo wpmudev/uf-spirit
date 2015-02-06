@@ -85,6 +85,7 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "remove-space"
 	), 
 "wrapper_id" => "wrapper-1408525051645-1279", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -143,189 +144,63 @@ $region_3->add_element("PlainTxt", array(
 	)
 ));
 
-$region_3->add_element("Code", array(
+$region_3->add_element("Login", array(
 "columns" => "8", 
 "margin_left" => "8", 
-"margin_right" => "0", 
-"margin_top" => "3", 
-"margin_bottom" => "0", 
-"id" => "module-1408622871360-1289", 
-"rows" => 32, 
+"margin_top" => "0", 
+"id" => "module-1423228816519-1722", 
+"rows" => 48, 
 "options" => array(
-	"type" => "CodeModel", 
-	"view_class" => "CodeView", 
-	"class" => "c24 upfront-code_element-object", 
-	"has_settings" => 0, 
-	"id_slug" => "upfront-code_element", 
-	"fallbacks" => array(
-		"markup" => "<b>Enter your markup here...</b>", 
-		"style" => "/* Your styles here */", 
-		"script" => "/* Your code here */"
-		), 
-	"element_id" => "upfront-code_element-object-1408622871359-1811", 
-	"code_selection_type" => "Create", 
-	"markup" => "<form class=\"form-container\" id=\"LoginForm\" action=\"\" method=\"post\">
-<div class=\"login-fields\">
-<div class=\"login-fields-container\">
-<input type=\"text\" name=\"email\" placeholder=\"Name/Email\">
-<input type=\"password\" name=\"password\" placeholder=\"Password\">
-</div>
-<div class=\"links-bar\">
-    <p><a href=\"#PasswordForm\">Forgotten password</a> | <a href=\"#RegisterForm\">Sign Up</a></p>
-</div>
-<input type=\"submit\" value=\"Submit\">
-</div>
-</form>
-
-<form class=\"form-container hidden\" id=\"PasswordForm\" action=\"\" method=\"post\">
-<div class=\"login-fields\">
-<div class=\"login-fields-container\">
-<input type=\"text\" name=\"email\" placeholder=\"Email address\">
-</div>
-<div class=\"links-bar\">
-    <p><a href=\"#LoginForm\">Login</a> | <a href=\"#RegisterForm\">Sign Up</a></p>
-</div>
-<input type=\"submit\" value=\"Recover\">
-</div>
-</form>
-
-<form class=\"form-container hidden\" id=\"RegisterForm\" action=\"\" method=\"post\">
-<div class=\"login-fields\">
-<div class=\"login-fields-container\">
-<input type=\"text\" name=\"email\" placeholder=\"Email\">
-<input type=\"text\" name=\"your-name\" placeholder=\"Name\">
-<input type=\"password\" name=\"password\" placeholder=\"Password\">
-<input type=\"password\" name=\"password1\" placeholder=\"Verify Password\">
-</div>
-<div class=\"links-bar\">
-    <p><a href=\"#LoginForm\">Login</a></p>
-</div>
-<input type=\"submit\" value=\"Create\">
-</div>
-</form>", 
-	"style" => ".form-container.hidden {
- display: none;   
-}
-.login-fields input[type=\"text\"],
-.login-fields input[type=\"password\"] {
-  width: 100%;   
-  float: left;
-  padding: 10px;
-  box-sizing: border-box;
-  font: 16px Open Sans, Arial;
-  color: #707070;
-  background: rgba(250, 250, 250, 0.90);
-  border: 1px solid #d0d0d0;
-  outline: 0px ;
-}
-
-.login-fields input[type=\"text\"]:focus,
-.login-fields input[type=\"password\"]:focus {
-  outline: 0px;
-  border-color: #69a8a6;
-}
-
-.login-fields input[type=\"submit\"] {
-    background:#69a8a6;
-    color: #FFFFFF;
-    border-radius: 4px;
-    border: 0px;
-    border-bottom:3px solid #4f7e7d;
-    padding: 4px 25px;
-    font-size: 24px;
-    display: inline-block;
-    text-decoration: none; 
-    float : right;
-    font: 24px Open Sans, Arial;
-    width: 150px;
-}
-.login-fields input[type=\"submit\"]:hover {
-   background: #4f7e7d;
-}
-
-.login-fields .login-fields-container {
-  float: left; 
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-.links-bar {
-  background: rgba(250, 250, 250, 0.90);
-  width: 100%;
-  padding: 5px 0px;    
-  margin: 0px 0px 20px;
-  display: block;
-  clear: left;
-}
-
-.links-bar p {
-    font-size: 14px;
-    text-align: center;
-}", 
-	"script" => "jQuery(document).ready(function($){
-
- $(\".links-bar\").find(\"a\").click(function(){
-     $(\".form-container\").addClass(\"hidden\");
-     $(\"#\"+$(this).attr(\"href\").replace(\"#\",\"\")).removeClass(\"hidden\");
-     return false;
- })
-
-})", 
-	"row" => 26
+	"style" => "form", 
+	"behavior" => "click", 
+	"appearance" => "icon", 
+	"label_image" => "Login", 
+	"label_text" => "log in", 
+	"logout_link" => "log out", 
+	"trigger_text" => "Wassup", 
+	"logged_in_preview" => "", 
+	"type" => "LoginModel", 
+	"view_class" => "LoginView", 
+	"class" => "c24 upfront-login_element-object", 
+	"has_settings" => 1, 
+	"id_slug" => "upfront-login_element", 
+	"logout_style" => "link", 
+	"element_id" => "upfront-login_element-object-1423228816518-1287", 
+	"row" => 48, 
+	"anchor" => "", 
+	"theme_style" => "login-form"
 	), 
-"wrapper_id" => "wrapper-1408622963086-1817", 
+"wrapper_id" => "wrapper-1423228825288-1026", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 10
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 7
 		), 
 	"custom-1410783042947" => array(
+		"edited" => false, 
 		"col" => 13
 		)
 	), 
 "breakpoint" => array(
-	"custom-1408717728290" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 8
-		), 
-	"custom-1408717918354" => array(
-		"edited" => false, 
-		"left" => 5, 
-		"col" => 8
-		), 
-	"custom-1408717978058" => array(
-		"edited" => false, 
-		"left" => 4, 
-		"col" => 8
-		), 
-	"custom-1408718022181" => array(
-		"edited" => false, 
-		"left" => 3, 
-		"col" => 8
-		), 
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 2, 
-		"col" => 8
-		), 
-	"custom-1408718098456" => array(
-		"edited" => false, 
-		"left" => 1, 
-		"col" => 8
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 5, 
 		"col" => 8
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 5, 
+		"col" => 8
 		)
 	)
 ));
