@@ -1,4 +1,5 @@
-#page .login-form input[type="submit"] {
+#page .login-form input[type="submit"], #page .login-form a.logout_link {
+    text-align: center;
     background: #69a8a6;
     color: #FFFFFF;
     border-radius: 4px;

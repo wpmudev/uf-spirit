@@ -94,13 +94,16 @@ $footer->add_element("PlainTxt", array(
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 5
+		"col" => 5, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 17
+		"col" => 17, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -154,7 +157,8 @@ $footer->add_element("PlainTxt", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 2, 
-		"col" => 3
+		"col" => 3, 
+		"order" => 0
 		), 
 	"custom-1410780542364" => array(
 		"edited" => false, 
@@ -232,33 +236,16 @@ $footer->add_element("Unewnavigation", array(
 	"theme_style" => "footer-menu", 
 	"anchor" => "", 
 	"breakpoint" => array(
-		"custom-1408717918354" => array(
-			"row" => 5, 
-			"width" => 810
-			), 
 		"desktop" => array(
 			"burger_alignment" => "left", 
 			"burger_over" => "over", 
+			"menu_style" => "horizontal", 
+			"menu_alignment" => "center", 
 			"width" => 1080
-			), 
-		"custom-1408717978058" => array(
-			"row" => 4, 
-			"width" => 720, 
-			"burger_menu" => "", 
-			"burger_alignment" => "left", 
-			"burger_over" => "over"
-			), 
-		"custom-1408718022181" => array(
-			"row" => 7, 
-			"width" => 630
 			), 
 		"tablet" => array(
 			"row" => 1, 
 			"width" => 570
-			), 
-		"custom-1408718098456" => array(
-			"row" => 4, 
-			"width" => 450
 			), 
 		"custom-1410783042947" => array(
 			"row" => 4, 
@@ -270,13 +257,16 @@ $footer->add_element("Unewnavigation", array(
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 6, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 13
+		"col" => 13, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -385,13 +375,16 @@ $footer->add_element("PlainTxt", array(
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 10
+		"col" => 10, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 13
+		"col" => 13, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -447,7 +440,8 @@ $footer->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7, 
-		"hide" => 1
+		"hide" => 1, 
+		"order" => 0
 		), 
 	"custom-1410780542364" => array(
 		"edited" => false, 
@@ -496,13 +490,16 @@ $footer->add_element("Usearch", array(
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 6, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 11
+		"col" => 11, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -539,7 +536,8 @@ $footer->add_element("Usearch", array(
 		"edited" => false, 
 		"left" => 3, 
 		"col" => 6, 
-		"hide" => 1
+		"hide" => 1, 
+		"order" => 0
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -551,7 +549,8 @@ $footer->add_element("Usearch", array(
 		"edited" => false, 
 		"left" => 1, 
 		"col" => 5, 
-		"hide" => 1
+		"hide" => 1, 
+		"order" => 0
 		), 
 	"custom-1410780542364" => array(
 		"edited" => false, 

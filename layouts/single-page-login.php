@@ -89,13 +89,16 @@ $region_3->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -133,7 +136,8 @@ $region_3->add_element("PlainTxt", array(
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => true, 
@@ -147,7 +151,9 @@ $region_3->add_element("PlainTxt", array(
 $region_3->add_element("Login", array(
 "columns" => "8", 
 "margin_left" => "8", 
+"margin_right" => "0", 
 "margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1423228816519-1722", 
 "rows" => 48, 
 "options" => array(
@@ -158,7 +164,7 @@ $region_3->add_element("Login", array(
 	"label_text" => "log in", 
 	"logout_link" => "log out", 
 	"trigger_text" => "Wassup", 
-	"logged_in_preview" => "", 
+	"logged_in_preview" => array("yes"), 
 	"type" => "LoginModel", 
 	"view_class" => "LoginView", 
 	"class" => "c24 upfront-login_element-object", 
@@ -171,36 +177,43 @@ $region_3->add_element("Login", array(
 	"theme_style" => "login-form"
 	), 
 "wrapper_id" => "wrapper-1423228825288-1026", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 10
+		"col" => 10, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
-		"col" => 13
+		"col" => 13, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 2, 
-		"col" => 8
+		"col" => 8, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 5, 
-		"col" => 8
+		"col" => 8, 
+		"order" => 0
 		)
 	)
 ));

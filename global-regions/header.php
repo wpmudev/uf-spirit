@@ -99,7 +99,7 @@ $header->add_element("Uimage", array(
 	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
-	"has_settings" => 1, 
+	"has_settings" => 0, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"row" => -1, 
@@ -120,13 +120,17 @@ $header->add_element("Uimage", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 3
+		"col" => 3, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 3
+		"col" => 3, 
+		"order" => 0, 
+		"clear" => true
 		), 
 	"custom-1410783042947" => array(
-		"col" => 3
+		"col" => 3, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -170,7 +174,7 @@ $header->add_element("Uimage", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 3, 
-		"top" => 2
+		"top" => 3
 		), 
 	"custom-1410780542364" => array(
 		"edited" => true, 
@@ -278,68 +282,39 @@ $header->add_element("Unewnavigation", array(
 	"theme_style" => "main-nav", 
 	"anchor" => "", 
 	"breakpoint" => array(
-		"custom-1408717918354" => array(
-			"row" => 12, 
-			"width" => 810, 
-			"burger_menu" => "yes", 
-			"burger_alignment" => "left", 
-			"burger_over" => "over"
-			), 
-		"custom-1408717978058" => array(
-			"burger_menu" => "yes", 
-			"width" => 720, 
-			"row" => 9
-			), 
-		"custom-1408718022181" => array(
-			"burger_menu" => "yes", 
-			"width" => 630, 
-			"row" => 7
-			), 
-		"custom-1408718098456" => array(
-			"burger_menu" => "yes", 
-			"width" => 450, 
-			"row" => 6
-			), 
 		"tablet" => array(
 			"row" => 2, 
 			"width" => 570, 
 			"burger_menu" => "yes", 
 			"burger_alignment" => "whole", 
-			"burger_over" => "over"
-			), 
-		"custom-1408717728290" => array(
-			"burger_menu" => "yes", 
-			"width" => 990
+			"burger_over" => "over", 
+			"menu_style" => "horizontal", 
+			"menu_alignment" => "left"
 			), 
 		"desktop" => array(
 			"burger_alignment" => "left", 
 			"burger_over" => "over", 
+			"menu_style" => "horizontal", 
+			"menu_alignment" => "left", 
 			"width" => 1080
 			), 
 		"mobile" => array(
 			"burger_menu" => "yes", 
 			"width" => 315, 
 			"row" => 5, 
-			"burger_alignment" => "whole", 
-			"burger_over" => "over"
-			), 
-		"custom-1410530020105" => array(
-			"burger_menu" => "yes", 
-			"width" => 240
-			), 
-		"custom-1410780542364" => array(
-			"row" => 9, 
-			"width" => 810, 
-			"burger_menu" => "yes", 
-			"burger_alignment" => "whole", 
-			"burger_over" => "over"
+			"burger_alignment" => "top", 
+			"burger_over" => "over", 
+			"menu_style" => "horizontal", 
+			"menu_alignment" => "left"
 			), 
 		"custom-1410783042947" => array(
-			"row" => 6, 
+			"row" => 12, 
 			"width" => 810, 
-			"burger_menu" => "yes", 
+			"burger_menu" => "", 
 			"burger_alignment" => "whole", 
-			"burger_over" => "over"
+			"burger_over" => "over", 
+			"menu_style" => "horizontal", 
+			"menu_alignment" => "left"
 			)
 		), 
 	"element_id" => "unewnavigation-object"
@@ -348,13 +323,17 @@ $header->add_element("Unewnavigation", array(
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 2
+		"col" => 2, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 4
+		"col" => 4, 
+		"order" => 0, 
+		"clear" => false
 		), 
 	"custom-1410783042947" => array(
-		"col" => 2
+		"col" => 11, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -414,7 +393,7 @@ $header->add_element("Unewnavigation", array(
 	"custom-1410783042947" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"col" => 2, 
+		"col" => 11, 
 		"row" => 12, 
 		"top" => 0
 		)
@@ -443,9 +422,9 @@ $header->add_element("Code", array(
 	"element_id" => "upfront-code_element-object-1408627223294-1046", 
 	"code_selection_type" => "Create", 
 	"markup" => "<ul class=\"socials\">
-  <li><a class=\"icon youtube\" href=\"http://youtube.com\"></a></li>
-  <li><a class=\"icon facebook\" href=\"http://facebook.com\"></a></li>
-  <li><a class=\"icon twitter\" href=\"http://twitter.com\"></a></li>
+  <li><a class=\"social-icon youtube\" href=\"http://youtube.com\"></a></li>
+  <li><a class=\"social-icon facebook\" href=\"http://facebook.com\"></a></li>
+  <li><a class=\"social-icon twitter\" href=\"http://twitter.com\"></a></li>
 </ul>", 
 	"style" => ".socials {
     list-style: none;
@@ -461,7 +440,33 @@ $header->add_element("Code", array(
     height: 34px;
     margin: 0 5px;
 }
-", 
+
+.social-icon:before {
+    content: \"\";
+    background: url(" . get_stylesheet_directory_uri() . "/images/global-regions/header/sprite.png);
+    background-image: url(" . get_stylesheet_directory_uri() . "/images/sprite.svg), none;
+    width: 35px;
+    height: 35px;
+    display: block;
+    
+}
+
+.youtube:before {
+
+ background-position: -63px -222px;
+}
+ .youtube:hover:before,  .youtube.dark { background-position: -223px -222px;
+}
+ .facebook:before {
+ background-position: -63px -383px;
+}
+ .facebook:hover:before,  .facebook.dark { background-position: -223px -383px;
+}
+ .twitter:before {
+ background-position: -63px -543px;
+}
+ .twitter:hover:before,  .twitter.dark { background-position: -223px -543px;
+}", 
 	"script" => "/* Your code here */", 
 	"row" => 5, 
 	"breakpoint" => array(
@@ -474,13 +479,17 @@ $header->add_element("Code", array(
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 6, 
+		"order" => 0, 
+		"clear" => true
 		), 
 	"custom-1410783042947" => array(
-		"col" => 13
+		"col" => 4, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -525,7 +534,8 @@ $header->add_element("Code", array(
 		"edited" => false, 
 		"left" => 1, 
 		"col" => 5, 
-		"hide" => 1
+		"hide" => 1, 
+		"order" => 0
 		), 
 	"custom-1410780542364" => array(
 		"edited" => true, 
@@ -535,7 +545,7 @@ $header->add_element("Code", array(
 		), 
 	"custom-1410783042947" => array(
 		"edited" => true, 
-		"left" => 9, 
+		"left" => 0, 
 		"col" => 4, 
 		"top" => 0
 		)

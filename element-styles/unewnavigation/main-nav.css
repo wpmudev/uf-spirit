@@ -47,7 +47,7 @@
 }
 #page .main-nav .responsive_nav_toggler {
   border: 0px;
-  padding: 20px 10px;
+  margin: 20px 10px 0;
 }
 #page .main-nav .responsive_nav_toggler > div {
    width: 30px; 
@@ -56,7 +56,6 @@
    margin-bottom: 5px
 }
 #page .main-nav div[data-style="burger"] ul.menu {
-	margin-top: 60px !important;
 	background: #4f7e7d;
 }
 #page .main-nav div[data-style="burger"] ul.menu li ul.sub-menu, #page .main-nav div[data-style="burger"] ul.menu li:hover ul.sub-menu {
