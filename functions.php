@@ -10,8 +10,8 @@ class Spirit extends Upfront_ChildTheme {
 		add_filter('upfront_augment_theme_layout', array($this, 'augment_layout'));
 		$this->add_actions_filters();
 		$this->populate_pages();
-		update_option('date_format', "d");
-		update_option('time_format', "M");
+		//update_option('date_format', "d");
+		//update_option('time_format', "M");
 	}
 
 	public function get_prefix(){
