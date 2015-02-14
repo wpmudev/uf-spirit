@@ -248,14 +248,9 @@ $region_4->add_element("Posts", array(
 	"post-part-date_posted" => "<div class=\"uposts-part date_posted\">
 	{{date}}
 </div>", 
-	"post-part-author" => "<div class=\"uposts-part author\">
-	Written By <a href=\"{{url}}\">{{name}}</a></div>", 
 	"post-part-gravatar" => "<div class=\"uposts-part gravatar\">
 	{{gravatar}}
-</div>", 
-	"post-part-comment_count" => "<div class=\"uposts-part comment_count\">
-	Comments / {{comment_count}}
-</div>", 
+</div>",  
 	"post-part-featured_image" => "<div class=\"uposts-part thumbnail\" data-resize=\"{{resize}}\">
 	{{thumbnail}}
 </div>", 
