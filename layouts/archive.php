@@ -238,7 +238,7 @@ $region_4->add_element("Posts", array(
 	"post_parts" => array("date_posted", "title", "categories", "author", "comment_count", "featured_image", "content", "read_more"), 
 	"enabled_post_parts" => array("date_posted", "author", "comment_count", "featured_image", "title", "content", "read_more", "categories"), 
 	"default_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
-	"date_posted_format" => "M d", 
+	"date_posted_format" => "d M", 
 	"categories_limit" => 3, 
 	"tags_limit" => 3, 
 	"comment_count_hide" => 0, 
@@ -275,7 +275,12 @@ $region_4->add_element("Posts", array(
 	"element_id" => "posts-object-1417752626112-1080", 
 	"anchor" => "", 
 	"theme_style" => "blog-archive", 
-	"row" => 49
+	"row" => 49, 
+	"breakpoint" => array(
+		"mobile" => array(
+			"theme_style" => "blog-archive-mobile"
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1408714949691-1226", 
 "sticky" => false, 
