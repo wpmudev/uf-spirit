@@ -54,6 +54,7 @@ $header->add_element("Uimage", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "image", 
+"rows" => 6, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1)-105x42-8597.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1).png", 
@@ -114,9 +115,8 @@ $header->add_element("Uimage", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "image-wrapper", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -199,6 +199,7 @@ $header->add_element("Unewnavigation", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "unewnavigation", 
+"rows" => 6, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
@@ -206,63 +207,63 @@ $header->add_element("Unewnavigation", array(
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
-			"menu-item-db-id" => 12, 
+			"menu-item-db-id" => 95, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "ABOut", 
 			"menu-item-url" => "" . get_site_url() . "/about/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "12", 
+			"menu-item-object-id" => "95", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 1
 			), array(
-			"menu-item-db-id" => 13, 
+			"menu-item-db-id" => 96, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Login", 
 			"menu-item-url" => "" . get_site_url() . "/login/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "13", 
+			"menu-item-object-id" => "96", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 2
 			), array(
-			"menu-item-db-id" => 14, 
+			"menu-item-db-id" => 97, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Gallery", 
 			"menu-item-url" => "" . get_site_url() . "/gallery/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "14", 
+			"menu-item-object-id" => "97", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 3
 			), array(
-			"menu-item-db-id" => 15, 
+			"menu-item-db-id" => 98, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "services", 
 			"menu-item-url" => "" . get_site_url() . "/services/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "15", 
+			"menu-item-object-id" => "98", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 4
 			), array(
-			"menu-item-db-id" => 16, 
+			"menu-item-db-id" => 99, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "testimonials", 
 			"menu-item-url" => "" . get_site_url() . "/testimonials/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "16", 
+			"menu-item-object-id" => "99", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 5
 			), array(
-			"menu-item-db-id" => 17, 
+			"menu-item-db-id" => 100, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "blog", 
 			"menu-item-url" => "" . get_site_url() . "/blog/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "17", 
+			"menu-item-object-id" => "100", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 6
 			)), 
@@ -318,9 +319,8 @@ $header->add_element("Unewnavigation", array(
 		), 
 	"element_id" => "unewnavigation-object"
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "unewnavigation-wrapper", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 2, 
@@ -407,6 +407,7 @@ $header->add_element("Code", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408627223296-1753", 
+"rows" => 6, 
 "options" => array(
 	"type" => "CodeModel", 
 	"view_class" => "CodeView", 
@@ -443,7 +444,7 @@ $header->add_element("Code", array(
 .social-icon:before {
     content: \"\";
     background: url(" . get_stylesheet_directory_uri() . "/images/global-regions/header/sprite.png);
-    background-image: url(" . get_stylesheet_directory_uri() . "/images/sprite.svg), none;
+    background-image: url(" . get_site_url() . "/wp-content/themes/uf-spirit/images/sprite.svg), none;
     width: 35px;
     height: 35px;
     display: block;
@@ -474,9 +475,8 @@ $header->add_element("Code", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408627457712-1308", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 7, 
