@@ -9,6 +9,3 @@
 #page .accordion .upfront-accordion-wrap {
     border-bottom: none;
 }
-#page .accordion .accordion-panel-active .accordion-panel-title, #page .accordion .accordion-panel-title:hover {
-  background: #97d8d6;
-}
