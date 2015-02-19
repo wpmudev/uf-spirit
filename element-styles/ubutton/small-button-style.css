@@ -1,13 +1,5 @@
-#page .small-button-style a.upfront_cta {
- background-color: #69a8a6;   
- color: #FFFFFF;
- border-radius: 4px;
+#page .small-button-style a.upfront_cta { 
+ color:#fff;
  font: italic 16px/16px 'Open Sans', Arial;
- text-align: center;
- padding: 8px 25px;
  text-decoration: none;
- border-bottom: 0px;
-}
-#page .small-button-style a.upfront_cta:hover {
- background-color: #4f7e7d;
 }

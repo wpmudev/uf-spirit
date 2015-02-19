@@ -134,7 +134,7 @@ $region_15->add_element("Uimage", array(
 			)
 		)
 	), 
-"row" => 51, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408439682498-1955", 
 "new_line" => "true", 
@@ -239,7 +239,7 @@ $region_15->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"is_edited" => true
 	), 
-"row" => 45, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408626622170-1221", 
 "new_line" => "true", 
@@ -355,7 +355,7 @@ $region_15->add_element("Code", array(
 	"script" => "/* Your code here */", 
 	"row" => 20
 	), 
-"row" => 20, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408627222905-1682", 
 "new_line" => "true", 
@@ -514,7 +514,7 @@ $main->add_element("PlainTxt", array(
 	"anchor" => "About", 
 	"row" => 2
 	), 
-"row" => 8, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408440541662-1463", 
 "new_line" => "true", 
@@ -643,7 +643,7 @@ $main->add_element("Uimage", array(
 	"theme_style" => "waved-line", 
 	"anchor" => ""
 	), 
-"row" => 9, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408440918694-1971", 
 "new_line" => "true", 
@@ -738,7 +738,7 @@ $main->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
-"row" => 16, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408440704324-1222", 
 "new_line" => "true", 
@@ -832,7 +832,7 @@ $main->add_element("PlainTxt", array(
 	"theme_style" => "remove-top-space", 
 	"anchor" => ""
 	), 
-"row" => 37, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408441148046-1003", 
 "new_line" => "true", 
@@ -1024,7 +1024,7 @@ $region_4->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 3
 	), 
-"row" => 9, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408442634872-1479", 
 "new_line" => "true", 
@@ -1153,7 +1153,7 @@ $region_4->add_element("Uimage", array(
 	"theme_style" => "waved-line", 
 	"anchor" => ""
 	), 
-"row" => 8, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408442646888-1897", 
 "new_line" => "true", 
@@ -1247,7 +1247,7 @@ $region_4->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
-"row" => 16, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408442660597-1917", 
 "new_line" => "true", 
@@ -1403,7 +1403,7 @@ $region_12->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 9, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408455458788-1517", 
 "new_line" => "true", 
@@ -1502,7 +1502,7 @@ $region_12->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 28, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408455466093-1167", 
 "new_line" => "true", 
@@ -1575,38 +1575,39 @@ $region_12->add_element("PlainTxt", array(
 $region_12->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "19", 
-"margin_right" => "0", 
 "margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1414742339023-1095", 
+"id" => "module-1424332769457-1465", 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
 	"align" => "center", 
 	"type" => "ButtonModel", 
 	"view_class" => "ButtonView", 
-	"element_id" => "object-1414742339024-1983", 
+	"element_id" => "button-object-1424332769457-1864", 
 	"class" => "c24 upfront-button", 
 	"has_settings" => 1, 
 	"id_slug" => "button", 
 	"currentpreset" => "small-button", 
-	"row" => 4, 
-	"theme_style" => "small-button-style"
+	"row" => 12, 
+	"theme_style" => "small-button-style", 
+	"is_edited" => true
 	), 
-"row" => 4, 
-"sticky" => false, 
-"wrapper_id" => "wrapper-1414742352573-1383", 
+"row" => 12, 
+"wrapper_id" => "wrapper-1424332977930-1974", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 8, 
 		"order" => 0
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 6, 
 		"order" => 0
 		), 
 	"custom-1410783042947" => array(
+		"edited" => false, 
 		"col" => 11, 
 		"order" => 0
 		)
@@ -1718,7 +1719,7 @@ $region_5->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 11, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408443818900-1429", 
 "new_line" => "true", 
@@ -1817,7 +1818,7 @@ $region_5->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 28, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408443842377-1925", 
 "new_line" => "true", 
@@ -1890,38 +1891,38 @@ $region_5->add_element("PlainTxt", array(
 $region_5->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "11", 
-"margin_right" => "0", 
 "margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1414742319108-1080", 
+"id" => "module-1424332978067-1283", 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
 	"align" => "center", 
 	"type" => "ButtonModel", 
 	"view_class" => "ButtonView", 
-	"element_id" => "object-1414742319108-1718", 
+	"element_id" => "button-object-1424332978067-1506", 
 	"class" => "c24 upfront-button", 
 	"has_settings" => 1, 
 	"id_slug" => "button", 
 	"currentpreset" => "small-button", 
-	"row" => 4, 
+	"row" => 12, 
 	"theme_style" => "small-button-style"
 	), 
-"row" => 4, 
-"sticky" => false, 
-"wrapper_id" => "wrapper-1414742327761-1696", 
+"row" => 12, 
+"wrapper_id" => "wrapper-1424334726574-1331", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 8, 
 		"order" => 0
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 6, 
 		"order" => 0
 		), 
 	"custom-1410783042947" => array(
+		"edited" => false, 
 		"col" => 11, 
 		"order" => 0
 		)
@@ -2033,7 +2034,7 @@ $region_6->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 11, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408443912379-1151", 
 "new_line" => "true", 
@@ -2132,7 +2133,7 @@ $region_6->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 28, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408443951249-1806", 
 "new_line" => "true", 
@@ -2205,38 +2206,38 @@ $region_6->add_element("PlainTxt", array(
 $region_6->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "19", 
-"margin_right" => "0", 
 "margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1414741597516-1928", 
+"id" => "module-1424334726740-1517", 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
 	"align" => "center", 
 	"type" => "ButtonModel", 
 	"view_class" => "ButtonView", 
-	"element_id" => "button-object-1414741597515-1773", 
+	"element_id" => "button-object-1424334726739-1498", 
 	"class" => "c24 upfront-button", 
 	"has_settings" => 1, 
 	"id_slug" => "button", 
 	"currentpreset" => "small-button", 
-	"row" => 4, 
+	"row" => 12, 
 	"theme_style" => "small-button-style"
 	), 
-"row" => 4, 
-"sticky" => false, 
-"wrapper_id" => "wrapper-1414741715898-1347", 
+"row" => 12, 
+"wrapper_id" => "wrapper-1424334749909-1536", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 8, 
 		"order" => 0
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 6, 
 		"order" => 0
 		), 
 	"custom-1410783042947" => array(
+		"edited" => false, 
 		"col" => 11, 
 		"order" => 0
 		)
@@ -2348,7 +2349,7 @@ $region_7->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 10, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408444393256-1825", 
 "new_line" => "true", 
@@ -2448,7 +2449,7 @@ $region_7->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 28, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408444399086-1919", 
 "new_line" => "true", 
@@ -2521,38 +2522,38 @@ $region_7->add_element("PlainTxt", array(
 $region_7->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "11", 
-"margin_right" => "0", 
 "margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1414742258248-1117", 
+"id" => "module-1424334750056-1428", 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
 	"align" => "center", 
 	"type" => "ButtonModel", 
 	"view_class" => "ButtonView", 
-	"element_id" => "object-1414742258248-1492", 
+	"element_id" => "button-object-1424334750055-1396", 
 	"class" => "c24 upfront-button", 
 	"has_settings" => 1, 
 	"id_slug" => "button", 
 	"currentpreset" => "small-button", 
-	"row" => 4, 
+	"row" => 12, 
 	"theme_style" => "small-button-style"
 	), 
-"row" => 4, 
-"sticky" => false, 
-"wrapper_id" => "wrapper-1414742265543-1752", 
+"row" => 12, 
+"wrapper_id" => "wrapper-1424334772059-1950", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 8, 
 		"order" => 0
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 6, 
 		"order" => 0
 		), 
 	"custom-1410783042947" => array(
+		"edited" => false, 
 		"col" => 11, 
 		"order" => 0
 		)
@@ -2652,7 +2653,7 @@ $region_8->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 2
 	), 
-"row" => 8, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408445074273-1042", 
 "wrapper_breakpoint" => array(
@@ -2780,7 +2781,7 @@ $region_8->add_element("Uimage", array(
 	"theme_style" => "waved-line", 
 	"anchor" => ""
 	), 
-"row" => 7, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1409145408474-1078", 
 "wrapper_breakpoint" => array(
@@ -2968,7 +2969,7 @@ $region_11->add_element("Uimage", array(
 			)
 		)
 	), 
-"row" => 12, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408454821816-1092", 
 "new_line" => "true", 
@@ -3064,7 +3065,7 @@ $region_11->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 43, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1409146803749-1559", 
 "wrapper_breakpoint" => array(
@@ -3199,7 +3200,7 @@ $region_11->add_element("Uimage", array(
 			)
 		)
 	), 
-"row" => 12, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408454829770-1114", 
 "new_line" => "true", 
@@ -3295,7 +3296,7 @@ $region_11->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 43, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1409146821339-1451", 
 "wrapper_breakpoint" => array(
@@ -3423,7 +3424,7 @@ $region_11->add_element("Uimage", array(
 	"theme_style" => "circle", 
 	"anchor" => ""
 	), 
-"row" => 12, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408454836978-1393", 
 "new_line" => "true", 
@@ -3516,7 +3517,7 @@ $region_11->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 13, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1409146903808-1116", 
 "wrapper_breakpoint" => array(
@@ -3606,7 +3607,7 @@ $region_11->add_element("PlainTxt", array(
 	"bg_color" => "rgba(0, 0, 0, 0)", 
 	"anchor" => ""
 	), 
-"row" => 9, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408454949110-1697", 
 "new_line" => "true", 
@@ -3772,7 +3773,7 @@ $region_9->add_element("Code", array(
 	"script" => "/* Your code here */", 
 	"row" => 13
 	), 
-"row" => 13, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1414742754166-1680", 
 "new_line" => "true", 
@@ -3836,7 +3837,7 @@ $region_9->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 1
 	), 
-"row" => 7, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408446496888-1432", 
 "new_line" => "true", 
@@ -4123,7 +4124,7 @@ $region_9->add_element("Code", array(
 	"script" => "/* Your code here */", 
 	"row" => 5
 	), 
-"row" => 11, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408629844073-1942", 
 "new_line" => "true", 
@@ -4243,49 +4244,49 @@ $region_10 = upfront_create_region(
 			);
 
 $region_10->add_element("Button", array(
-"columns" => "6", 
-"margin_left" => "9", 
-"margin_right" => "0", 
-"margin_top" => "8", 
-"margin_bottom" => "0", 
-"id" => "module-1414662746939-1431", 
+"columns" => "8", 
+"margin_left" => "8", 
+"margin_top" => "11", 
+"id" => "module-1424334772225-1570", 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
 	"align" => "center", 
 	"type" => "ButtonModel", 
 	"view_class" => "ButtonView", 
-	"element_id" => "button-object-1414662746938-1077", 
+	"element_id" => "button-object-1424334772225-1858", 
 	"class" => "c24 upfront-button", 
 	"has_settings" => 1, 
 	"id_slug" => "button", 
-	"row" => 16, 
 	"currentpreset" => "medium-button", 
+	"row" => 17, 
 	"theme_style" => "button-style"
 	), 
-"row" => 16, 
-"sticky" => false, 
-"wrapper_id" => "wrapper-1414665328724-1008", 
+"row" => 17, 
+"wrapper_id" => "wrapper-1424334804334-1913", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9, 
+		"edited" => false, 
+		"col" => 10, 
 		"order" => 0
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 7, 
 		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 12, 
+		"edited" => false, 
+		"col" => 13, 
 		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"left" => 3, 
-		"col" => 6, 
+		"left" => 2, 
+		"col" => 8, 
 		"order" => 0
 		), 
 	"mobile" => array(
@@ -4296,8 +4297,8 @@ $region_10->add_element("Button", array(
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
-		"left" => 6, 
-		"col" => 6, 
+		"left" => 5, 
+		"col" => 8, 
 		"order" => 0
 		)
 	)
@@ -4307,7 +4308,7 @@ $region_10->add_element("PlainTxt", array(
 "columns" => "12", 
 "margin_left" => "6", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1408446673789-1381", 
 "options" => array(
@@ -4321,7 +4322,7 @@ $region_10->add_element("PlainTxt", array(
 	"row" => 9, 
 	"is_edited" => true
 	), 
-"row" => 15, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408446764358-1048", 
 "new_line" => "true", 
