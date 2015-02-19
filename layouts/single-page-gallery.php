@@ -49,7 +49,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "14", 
 "margin_bottom" => "0", 
 "id" => "module-1408528105336-1414", 
-"rows" => 9, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -67,17 +66,22 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-bottom-space"
 	), 
+"row" => 9, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408528213095-1209", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -131,7 +135,6 @@ $region_3->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408528311775-1023", 
-"rows" => 8, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/wave-line-92x4-2112.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/wave-line.png", 
@@ -176,7 +179,7 @@ $region_3->add_element("Uimage", array(
 	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
-	"has_settings" => 1, 
+	"has_settings" => 0, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "object-1408528311776-1623", 
@@ -184,17 +187,22 @@ $region_3->add_element("Uimage", array(
 	"anchor" => "", 
 	"theme_style" => "waved-line"
 	), 
+"row" => 8, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408528326968-1084", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 8
+		"col" => 8, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 6, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 11
+		"col" => 11, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -221,7 +229,8 @@ $region_3->add_element("Uimage", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 4, 
-		"col" => 4
+		"col" => 4, 
+		"order" => 0
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -231,12 +240,14 @@ $region_3->add_element("Uimage", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 1, 
-		"col" => 5
+		"col" => 5, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 7, 
-		"col" => 4
+		"col" => 4, 
+		"order" => 0
 		)
 	)
 ));
@@ -248,7 +259,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408525051697-1453", 
-"rows" => 24, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -266,17 +276,22 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
+"row" => 24, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408525441545-1325", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -303,7 +318,8 @@ $region_3->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -313,12 +329,14 @@ $region_3->add_element("PlainTxt", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
@@ -370,10 +388,9 @@ $region_4->add_element("Ugallery", array(
 "columns" => "22", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "9", 
+"margin_top" => "13", 
 "margin_bottom" => "0", 
 "id" => "module-1421677792998-1816", 
-"rows" => 65, 
 "options" => array(
 	"type" => "UgalleryModel", 
 	"view_class" => "UgalleryView", 
@@ -382,933 +399,61 @@ $region_4->add_element("Ugallery", array(
 	"id_slug" => "ugallery", 
 	"status" => "ok", 
 	"images" => array(array(
-			"id" => "34", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo2.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo2-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo2.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo2.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo2.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo2-140x140-6643.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo2.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 34, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo2-140x140-6643.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo2.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "35", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo1 (1).jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo1 (1)-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo1 (1).jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo1 (1).jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo1 (1).jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo1 (1)-140x140-3636.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo1 (1).jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 35, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo1 (1)-140x140-3636.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo1 (1).jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "36", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo3.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo3-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo3.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo3.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo3.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo3-140x140-2406.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo3.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 36, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo3-140x140-2406.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo3.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "37", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo4.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo4-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo4.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo4.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo4.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo4-140x140-6436.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo4.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 37, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo4-140x140-6436.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo4.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "38", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo5.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo5-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo5.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo5.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo5.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo5-140x140-3580.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo5.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 38, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo5-140x140-3580.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo5.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "39", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo6.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo6-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo6.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo6.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo6.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo6-140x140-1982.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo6.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 39, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo6-140x140-1982.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo6.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "40", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo7.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo7-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo7.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo7.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo7.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo7-140x140-8364.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo7.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 40, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo7-140x140-8364.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo7.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "41", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo8.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo8-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo8.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo8.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo8.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo8-140x140-4735.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo8.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 41, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo8-140x140-4735.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo8.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "42", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo9.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo9-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo9.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo9.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo9.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo9-140x140-1776.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo9.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 42, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo9-140x140-1776.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo9.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "43", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo10.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo10-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo10.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo10.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo10.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo10-140x140-6991.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo10.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 43, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo10-140x140-6991.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo10.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "44", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo11.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo11-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo11.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo11.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo11.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo11-140x140-3423.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo11.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 44, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo11-140x140-3423.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo11.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "45", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo12.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo12-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo12.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo12.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo12.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo12-140x140-7641.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo12.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 45, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo12-140x140-7641.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo12.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
-			"id" => "46", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo13.jpg", 
-			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo13-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo13.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo13.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo13.jpg", 180, 180, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo13-140x140-7242.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo13.jpg", 
-					"full" => array(
-						"width" => 180, 
-						"height" => 180
-						), 
-					"crop" => array(
-						"width" => 140, 
-						"height" => 140
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 140, 
-							"height" => 140
-							), 
-						"id" => 46, 
-						"element_id" => "ugallery-object-1421677792996-1060"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
-				), 
-			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
-				"top" => 0
-				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo13-140x140-7242.jpg", 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1421677792996-1060", 
-			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo13.jpg", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array(), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
 			"id" => "47", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo14.jpg", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery1.jpg", 
 			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo14-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo14.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo14.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo14.jpg", 180, 180, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery1-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery1-300x200.jpg", 300, 200, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery1-1024x682.jpg", 1024, 682, true), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery1.jpg", 1080, 720, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo14-140x140-3379.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo14.jpg", 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery1-150x150-1094.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery1.jpg", 
 					"full" => array(
-						"width" => 180, 
-						"height" => 180
+						"width" => 1080, 
+						"height" => 720
 						), 
 					"crop" => array(
-						"width" => 140, 
-						"height" => 140
+						"width" => 150, 
+						"height" => 150
 						), 
 					"editdata" => array(
 						"rotate" => 0, 
 						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 37, 
 							"top" => 0
 							), 
 						"resize" => array(
-							"width" => 140, 
-							"height" => 140
+							"width" => 225, 
+							"height" => 150
 							), 
-						"id" => 47, 
-						"element_id" => "ugallery-object-1421677792996-1060"
+						"id" => 47
 						)
 					)
 				), 
 			"size" => array(
-				"width" => 140, 
-				"height" => 140
+				"width" => 225, 
+				"height" => 150
 				), 
 			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
+				"width" => 150, 
+				"height" => 150
 				), 
 			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 37, 
 				"top" => 0
 				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo14-140x140-3379.jpg", 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery1-150x150-1094.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1421677792996-1060", 
 			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo14.jpg", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery1.jpg", 
 			"rotation" => 0, 
 			"link" => "original", 
 			"title" => "Image caption", 
@@ -1321,61 +466,918 @@ $region_4->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "48", 
-			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo15.jpg", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery2.jpg", 
 			"sizes" => array(
-				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo15-150x150.jpg", 150, 150, true), 
-				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo15.jpg", 180, 180, false), 
-				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo15.jpg", 180, 180, false), 
-				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo15.jpg", 180, 180, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery2-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery2-300x139.jpg", 300, 139, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery2-1024x476.jpg", 1024, 476, true), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery2.jpg", 1080, 503, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo15-140x140-9219.jpg", 
-					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo15.jpg", 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery2-150x150-3613.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery2.jpg", 
 					"full" => array(
-						"width" => 180, 
-						"height" => 180
+						"width" => 1080, 
+						"height" => 503
 						), 
 					"crop" => array(
-						"width" => 140, 
-						"height" => 140
+						"width" => 150, 
+						"height" => 150
 						), 
 					"editdata" => array(
 						"rotate" => 0, 
 						"crop" => array(
-							"width" => "140", 
-							"height" => "140", 
-							"left" => 0, 
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 86, 
 							"top" => 0
 							), 
 						"resize" => array(
-							"width" => 140, 
-							"height" => 140
+							"width" => 322, 
+							"height" => 150
 							), 
-						"id" => 48, 
-						"element_id" => "ugallery-object-1421677792996-1060"
+						"id" => 48
 						)
 					)
 				), 
 			"size" => array(
-				"width" => 140, 
-				"height" => 140
+				"width" => 322, 
+				"height" => 150
 				), 
 			"cropSize" => array(
-				"width" => 140, 
-				"height" => 140
+				"width" => 150, 
+				"height" => 150
 				), 
 			"cropOffset" => array(
-				"width" => "140", 
-				"height" => "140", 
-				"left" => 0, 
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 86, 
 				"top" => 0
 				), 
-			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo15-140x140-9219.jpg", 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery2-150x150-3613.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1421677792996-1060", 
 			"urlType" => "image", 
-			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/photo15.jpg", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery2.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "49", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery3.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery3-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery3-300x200.jpg", 300, 200, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery3-1024x682.jpg", 1024, 682, true), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery3.jpg", 1080, 720, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery3-150x150-4664.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery3.jpg", 
+					"full" => array(
+						"width" => 1080, 
+						"height" => 720
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 37, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 225, 
+							"height" => 150
+							), 
+						"id" => 49
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 225, 
+				"height" => 150
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 37, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery3-150x150-4664.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery3.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "50", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery4.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery4-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery4-300x200.jpg", 300, 200, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery4-1024x682.jpg", 1024, 682, true), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery4.jpg", 1080, 720, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery4-150x150-4525.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery4.jpg", 
+					"full" => array(
+						"width" => 1080, 
+						"height" => 720
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 37, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 225, 
+							"height" => 150
+							), 
+						"id" => 50
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 225, 
+				"height" => 150
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 37, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery4-150x150-4525.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery4.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "51", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery5.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery5-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery5-300x130.jpg", 300, 130, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery5-1024x445.jpg", 1024, 445, true), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery5.jpg", 1080, 470, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery5-150x150-8027.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery5.jpg", 
+					"full" => array(
+						"width" => 1080, 
+						"height" => 470
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 97, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 345, 
+							"height" => 150
+							), 
+						"id" => 51
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 345, 
+				"height" => 150
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 97, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery5-150x150-8027.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery5.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "52", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery6.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery6-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery6-300x200.jpg", 300, 200, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery6-1024x682.jpg", 1024, 682, true), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery6.jpg", 1080, 720, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery6-150x150-3754.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery6.jpg", 
+					"full" => array(
+						"width" => 1080, 
+						"height" => 720
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 37, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 225, 
+							"height" => 150
+							), 
+						"id" => 52
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 225, 
+				"height" => 150
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 37, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery6-150x150-3754.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery6.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "53", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery7.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery7-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery7-300x200.jpg", 300, 200, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery7-1024x682.jpg", 1024, 682, true), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery7.jpg", 1080, 720, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery7-150x150-8431.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery7.jpg", 
+					"full" => array(
+						"width" => 1080, 
+						"height" => 720
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 37, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 225, 
+							"height" => 150
+							), 
+						"id" => 53
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 225, 
+				"height" => 150
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 37, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery7-150x150-8431.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery7.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "54", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery8.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery8-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery8-210x300.jpg", 210, 300, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery8.jpg", 630, 900, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery8.jpg", 630, 900, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery8-150x150-8126.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery8.jpg", 
+					"full" => array(
+						"width" => 630, 
+						"height" => 900
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 0, 
+							"top" => 32
+							), 
+						"resize" => array(
+							"width" => 150, 
+							"height" => 214
+							), 
+						"id" => 54
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 150, 
+				"height" => 214
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 0, 
+				"top" => 32
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery8-150x150-8126.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery8.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "55", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery9.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery9-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery9-300x200.jpg", 300, 200, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery9-1024x682.jpg", 1024, 682, true), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery9.jpg", 1080, 720, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery9-150x150-8151.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery9.jpg", 
+					"full" => array(
+						"width" => 1080, 
+						"height" => 720
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 37, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 225, 
+							"height" => 150
+							), 
+						"id" => 55
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 225, 
+				"height" => 150
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 37, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery9-150x150-8151.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery9.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "56", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery10.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery10-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery10-200x300.jpg", 200, 300, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery10.jpg", 683, 1024, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery10.jpg", 683, 1024, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery10-150x150-7752.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery10.jpg", 
+					"full" => array(
+						"width" => 683, 
+						"height" => 1024
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 0, 
+							"top" => 37
+							), 
+						"resize" => array(
+							"width" => 150, 
+							"height" => 225
+							), 
+						"id" => 56
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 150, 
+				"height" => 225
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 0, 
+				"top" => 37
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery10-150x150-7752.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery10.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "57", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery11.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery11-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery11-225x300.jpg", 225, 300, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery11.jpg", 768, 1024, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery11.jpg", 768, 1024, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery11-150x150-9685.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery11.jpg", 
+					"full" => array(
+						"width" => 768, 
+						"height" => 1024
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 0, 
+							"top" => 25
+							), 
+						"resize" => array(
+							"width" => 150, 
+							"height" => 200
+							), 
+						"id" => 57
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 150, 
+				"height" => 200
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 0, 
+				"top" => 25
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery11-150x150-9685.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery11.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "58", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery12.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery12-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery12-300x200.jpg", 300, 200, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery12.jpg", 1024, 683, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery12.jpg", 1024, 683, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery12-150x150-5272.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery12.jpg", 
+					"full" => array(
+						"width" => 1024, 
+						"height" => 683
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 37, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 225, 
+							"height" => 150
+							), 
+						"id" => 58
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 225, 
+				"height" => 150
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 37, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery12-150x150-5272.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery12.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "59", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery13.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery13-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery13-300x300.jpg", 300, 300, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery13.jpg", 500, 500, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery13.jpg", 500, 500, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery13-150x150-9060.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery13.jpg", 
+					"full" => array(
+						"width" => 500, 
+						"height" => 500
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 0, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 150, 
+							"height" => 150
+							), 
+						"id" => 59
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 0, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery13-150x150-9060.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery13.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "60", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery14.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery14-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery14-300x300.jpg", 300, 300, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery14.jpg", 500, 500, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery14.jpg", 500, 500, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery14-150x150-5223.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery14.jpg", 
+					"full" => array(
+						"width" => 500, 
+						"height" => 500
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 0, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 150, 
+							"height" => 150
+							), 
+						"id" => 60
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 0, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery14-150x150-5223.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery14.jpg", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "61", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery15.jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery15-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery15-300x225.jpg", 300, 225, true), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery15.jpg", 1024, 768, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery15.jpg", 1024, 768, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery15-150x150-7582.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery15.jpg", 
+					"full" => array(
+						"width" => 1024, 
+						"height" => 768
+						), 
+					"crop" => array(
+						"width" => 150, 
+						"height" => 150
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "150", 
+							"height" => "150", 
+							"left" => 25, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 200, 
+							"height" => 150
+							), 
+						"id" => 61
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 200, 
+				"height" => 150
+				), 
+			"cropSize" => array(
+				"width" => 150, 
+				"height" => 150
+				), 
+			"cropOffset" => array(
+				"width" => "150", 
+				"height" => "150", 
+				"left" => 25, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery15-150x150-7582.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1421677792996-1060", 
+			"urlType" => "image", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/gallery15.jpg", 
 			"rotation" => 0, 
 			"link" => "original", 
 			"title" => "Image caption", 
@@ -1407,37 +1409,45 @@ $region_4->add_element("Ugallery", array(
 	"row" => 65, 
 	"anchor" => ""
 	), 
+"row" => 65, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1421678046937-1904", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
@@ -1492,7 +1502,6 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "10", 
 "margin_bottom" => "0", 
 "id" => "module-1408533892461-1013", 
-"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1515,17 +1524,22 @@ $region_5->add_element("PlainTxt", array(
 			)
 		)
 	), 
+"row" => 10, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408533969724-1331", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 16
+		"col" => 16, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -1552,7 +1566,8 @@ $region_5->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -1562,7 +1577,8 @@ $region_5->add_element("PlainTxt", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => true, 
@@ -1581,7 +1597,6 @@ $region_5->add_element("Code", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408708697143-1002", 
-"rows" => 30, 
 "options" => array(
 	"type" => "CodeModel", 
 	"view_class" => "CodeView", 
@@ -1618,17 +1633,22 @@ $region_5->add_element("Code", array(
 }", 
 	"script" => "/* Your code here */"
 	), 
+"row" => 30, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408709267794-1635", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -1655,7 +1675,8 @@ $region_5->add_element("Code", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -1665,12 +1686,14 @@ $region_5->add_element("Code", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
@@ -1682,7 +1705,6 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408534159652-1018", 
-"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1700,17 +1722,22 @@ $region_5->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-bottom-space"
 	), 
+"row" => 10, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408534167485-1350", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 8
+		"col" => 8, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 6, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 11
+		"col" => 11, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -1737,7 +1764,8 @@ $region_5->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 4, 
-		"col" => 4
+		"col" => 4, 
+		"order" => 0
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -1747,12 +1775,14 @@ $region_5->add_element("PlainTxt", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 1, 
-		"col" => 5
+		"col" => 5, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 7, 
-		"col" => 4
+		"col" => 4, 
+		"order" => 0
 		)
 	)
 ));
@@ -1764,7 +1794,6 @@ $region_5->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408534172550-1479", 
-"rows" => 8, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/wave-line-92x4-2112.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/wave-line.png", 
@@ -1809,7 +1838,7 @@ $region_5->add_element("Uimage", array(
 	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
-	"has_settings" => 1, 
+	"has_settings" => 0, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "object-1408534172550-1349", 
@@ -1817,17 +1846,22 @@ $region_5->add_element("Uimage", array(
 	"anchor" => "", 
 	"theme_style" => "waved-line"
 	), 
+"row" => 8, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408709176542-1170", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 8
+		"col" => 8, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 6, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 11
+		"col" => 11, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -1854,7 +1888,8 @@ $region_5->add_element("Uimage", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 4, 
-		"col" => 4
+		"col" => 4, 
+		"order" => 0
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -1864,12 +1899,14 @@ $region_5->add_element("Uimage", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 1, 
-		"col" => 5
+		"col" => 5, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 7, 
-		"col" => 4
+		"col" => 4, 
+		"order" => 0
 		)
 	)
 ));
@@ -1881,7 +1918,6 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408534186336-1075", 
-"rows" => 14, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1899,17 +1935,22 @@ $region_5->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
+"row" => 14, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408534232358-1258", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -1936,7 +1977,8 @@ $region_5->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -1946,12 +1988,14 @@ $region_5->add_element("PlainTxt", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
@@ -2007,7 +2051,6 @@ $region_7->add_element("Uaccordion", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1410423203222-1688", 
-"rows" => 45, 
 "options" => array(
 	"type" => "UaccordionModel", 
 	"view_class" => "UaccordionView", 
@@ -2036,17 +2079,22 @@ $region_7->add_element("Uaccordion", array(
 	"row" => 39, 
 	"anchor" => ""
 	), 
+"row" => 45, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1410423443065-1968", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(

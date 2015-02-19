@@ -66,7 +66,6 @@ $region_2->add_element("PlainTxt", array(
 "margin_top" => "24", 
 "margin_bottom" => "0", 
 "id" => "module-1408525024897-1934", 
-"rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -84,17 +83,22 @@ $region_2->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-space"
 	), 
+"row" => 16, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -151,13 +155,12 @@ $region_2->add_element("Ucontact", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1421844167386-1549", 
-"rows" => 70, 
 "options" => array(
 	"form_add_title" => array(), 
 	"form_title" => "Contact form", 
 	"form_name_label" => "Your Name", 
 	"form_email_label" => "Your Email", 
-	"form_email_to" => get_option('admin_email'), 
+	"form_email_to" => "", 
 	"show_subject" => array(), 
 	"form_subject_label" => "Subject:", 
 	"form_default_subject" => "Sent from the website", 
@@ -175,37 +178,45 @@ $region_2->add_element("Ucontact", array(
 	"anchor" => "", 
 	"theme_style" => "contact-form"
 	), 
+"row" => 70, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1421844178455-1591", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
-		"col" => 16
+		"col" => 16, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 2, 
-		"col" => 14
+		"col" => 14, 
+		"order" => 0
 		)
 	)
 ));
@@ -217,7 +228,6 @@ $region_2->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408536499439-1069", 
-"rows" => 11, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -229,17 +239,22 @@ $region_2->add_element("PlainTxt", array(
 	"row" => 5, 
 	"is_edited" => true
 	), 
+"row" => 11, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408537660269-1178", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 11
+		"col" => 11, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 14
+		"col" => 14, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -266,7 +281,8 @@ $region_2->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 1, 
-		"col" => 10
+		"col" => 10, 
+		"order" => 0
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -276,12 +292,14 @@ $region_2->add_element("PlainTxt", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 4, 
-		"col" => 10
+		"col" => 10, 
+		"order" => 0
 		)
 	)
 ));

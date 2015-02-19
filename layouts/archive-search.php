@@ -44,7 +44,6 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "12", 
 "margin_bottom" => "0", 
 "id" => "module-1408525024897-1934", 
-"rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -56,33 +55,41 @@ $region_5->add_element("PlainTxt", array(
 	"row" => 10, 
 	"is_edited" => true
 	), 
+"row" => 16, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 18
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
@@ -122,7 +129,6 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1415778973667-1628", 
-"rows" => 15, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -142,34 +148,42 @@ SEARCH RESULTS
 	"anchor" => "", 
 	"theme_style" => "search-headers"
 	), 
+"row" => 15, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1415779285309-1067", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 16
+		"col" => 16, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 2, 
-		"col" => 14
+		"col" => 14, 
+		"order" => 0
 		)
 	)
 ));
@@ -181,7 +195,6 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "7", 
 "margin_bottom" => "0", 
 "id" => "module-1415781113430-1720", 
-"rows" => 9, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -200,33 +213,41 @@ SEARCH</h5>",
 	"anchor" => "", 
 	"theme_style" => "search-headers"
 	), 
+"row" => 9, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1415781260199-1075", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 6, 
-		"col" => 6
+		"col" => 6, 
+		"order" => 0
 		)
 	)
 ));
@@ -238,7 +259,6 @@ $region_4->add_element("Posts", array(
 "margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1415778973694-1534", 
-"rows" => 20, 
 "options" => array(
 	"type" => "PostsModel", 
 	"view_class" => "PostsView", 
@@ -265,7 +285,7 @@ $region_4->add_element("Posts", array(
 	"resize_featured" => "", 
 	"gravatar_size" => 200, 
 	"post-part-date_posted" => "<div class=\"uposts-part date_posted\">
-	{{date}}<br /><span class=\"month\">{{time}}</span>
+	{{date}}
 </div>", 
 	"post-part-author" => "<div class=\"uposts-part author\">
 	Written By <a href=\"{{url}}\">{{name}}</a></div>", 
@@ -292,39 +312,51 @@ $region_4->add_element("Posts", array(
 	"post-part-categories" => "<div class=\"uposts-part post_categories\">
 	{{categories}}
 </div>", 
+	"post-part-meta" => "<div class=\"uposts-part meta\">
+	
+</div>
+", 
 	"element_id" => "posts-object-1417752626112-1080", 
 	"anchor" => "", 
 	"theme_style" => "archive-search-results", 
 	"row" => 20
 	), 
+"row" => 20, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1415781319760-1983", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"col" => 16
+		"col" => 16, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 2, 
-		"col" => 14
+		"col" => 14, 
+		"order" => 0
 		)
 	)
 ));
@@ -336,7 +368,6 @@ $region_4->add_element("Usearch", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1415779956324-1711", 
-"rows" => 16, 
 "options" => array(
 	"type" => "UsearchModel", 
 	"view_class" => "UsearchView", 
@@ -357,19 +388,21 @@ $region_4->add_element("Usearch", array(
 			)
 		)
 	), 
+"row" => 16, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1421732644220-1957", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"col" => 9
+		"col" => 9, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false, 
-		"col" => 7
+		"col" => 11, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -406,7 +439,8 @@ $region_4->add_element("Usearch", array(
 		"edited" => false, 
 		"left" => 3, 
 		"col" => 6, 
-		"hide" => 1
+		"hide" => 1, 
+		"order" => 0
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false, 
@@ -418,7 +452,8 @@ $region_4->add_element("Usearch", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7, 
-		"hide" => 1
+		"hide" => 1, 
+		"order" => 0
 		), 
 	"custom-1410780542364" => array(
 		"edited" => false, 
@@ -442,7 +477,6 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1415781161210-1356", 
-"rows" => 9, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -460,22 +494,27 @@ $region_4->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "search-headers"
 	), 
+"row" => 9, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1421732644220-1957", 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 1, 
-		"col" => 6
+		"col" => 6, 
+		"order" => 1
 		)
 	)
 ));
@@ -487,7 +526,6 @@ $region_4->add_element("Uwidget", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1415779914088-1513", 
-"rows" => 7, 
 "options" => array(
 	"id_slug" => "uwidget", 
 	"type" => "UwidgetModel", 
@@ -531,37 +569,45 @@ $region_4->add_element("Uwidget", array(
 	"theme_style" => "uwidget-categories-style", 
 	"row" => 7
 	), 
+"row" => 7, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1418045112283-1677", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 9
+		"col" => 9, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		), 
 	"custom-1410783042947" => array(
 		"edited" => false, 
 		"left" => 6, 
-		"col" => 6
+		"col" => 6, 
+		"order" => 0
 		)
 	)
 ));

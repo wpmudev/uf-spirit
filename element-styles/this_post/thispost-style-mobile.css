@@ -1,0 +1,70 @@
+#page .thispost-style-mobile time.post_date {
+    font: 300 30px/26px 'Open Sans', Arial;
+    text-transform: uppercase;
+    text-align: center;
+    color: #69a8a6;
+    font-style: italic;
+    display: block;
+}
+#page .thispost-style-mobile time.post_date > span {
+    display: inline-block;
+}
+#page .thispost-style-mobile time.post_date span.date_part_1 {
+    font-size: 24px;
+}
+#page .thispost-style-mobile h2.post_title a {
+    font: 600 26px/36px 'Open Sans', Arial;
+    
+    
+    text-transform: uppercase;
+    color: #548685 !important;
+}
+#page .thispost-style-mobile ul.post-categories {
+    list-style-type: none;
+}
+#page .thispost-style-mobile .post-categories a {
+    font: 300 18px 'Open Sans', Arial;
+    text-transform: uppercase;
+    color:#a89084;
+}
+#page .thispost-style-mobile div.upfront-postpart-author, #page .thispost-style-mobile div.upfront-postpart-comments_count {
+    font: 200 12px 'Open Sans', Arial;
+    text-transform: uppercase;
+    color: #999;
+    padding: 6px 15px;
+    border-top: 2px #000 solid;
+    border-bottom: 1px #000 solid;
+}
+#page .thispost-style-mobile div.upfront-postpart-comments_count {
+    text-align: right;
+}
+#page .thispost-style-mobile div.upfront-postpart-title, #page .thispost-style-mobile div.upfront-postpart-categories {
+    padding-left: 0;
+}
+#page .thispost-style-mobile .post_content p, #page .thispost-style-mobile .post_content ul, #page .thispost-style-mobile .post_content ol {
+    margin: 0 0 15px;
+}
+#page .thispost-style-mobile ul.post-categories {
+    margin: 0;
+}
+#page .thispost-style-mobile div.post_content blockquote {
+    margin-left: -44px;
+}
+#page .thispost-style-mobile div.post_content > ul, #page .thispost-style-mobile div.post_content > ol {
+    margin-left: 60px;
+}
+#page .thispost-style-mobile div.post_content > *:first-child {
+  margin-top:0
+}
+#page .thispost-style-mobile .upfront-postpart-wrapper.post_date_wrapper {
+  width: 27%;
+}
+#page .thispost-style-mobile .upfront-postpart-wrapper.post_title_category_wrapper {
+  width: 72%;
+}
+#page .thispost-style-mobile .upfront-postpart-wrapper.post_author_wrapper {
+  width: 55%;
+}
+#page .thispost-style-mobile .upfront-postpart-wrapper.post_comments_wrapper {
+  width: 45%;
+}

@@ -2,6 +2,12 @@ Change Log
 ============
 
 
+0.1.3 - 2015-02-19
+-------------------------------------------------------------------------------
+- Fix: about page template.
+- Fix: post layouts on mobile devices.
+- Fix: theme-specific date/time setup.
+
 0.1.2 - 2015-01-29
 -------------------------------------------------------------------------------
 - Fix: updated styles and typography.

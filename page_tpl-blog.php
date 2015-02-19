@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: About Page template
+ * Template Name: Blog Page template
  *
  * @package WordPress
  * @subpackage blog

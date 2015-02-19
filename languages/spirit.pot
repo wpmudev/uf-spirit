@@ -1,0 +1,72 @@
+# Copyright (C) 2015 WPMU DEV
+# This file is distributed under the same license as the Spirit package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit 0.1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2015-02-14 06:54:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: templates/posts-author.php:2
+msgid "Written By <a href=\"{{url}}\">{{name}}</a>"
+msgstr ""
+
+#: templates/posts-comment_count.php:2
+msgid "Comments"
+msgstr ""
+
+#: templates/posts-date_posted.php:2
+msgid "{{time}}"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Spirit"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://premium.wpmudev.org/project/upfront-spirit/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A professionally crafted, high-end portfolio theme with a fresh, natural "
+"design inspired by stunning photography and clean, bold typography."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPMU DEV"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://premium.wpmudev.org/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "About Page template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Contactus Page template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Gallery Page template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Login Page template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Services Page template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Testimonials Page template"
+msgstr ""
