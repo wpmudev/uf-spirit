@@ -6,20 +6,20 @@
   padding: 0px;
 }
 #page .footer-menu ul li a {
-    color: #65a1a0;
+    color: #69a8a6;
     font: 12px Oswald, Arial;   
     text-transform: uppercase;
     padding: 0px 4px 0px 0px;
 }
 #page .footer-menu ul li a:hover {
-    color: #414042;
+    color: #548685;
 }
 #page .footer-menu ul li a:before {
     content: '/';
     padding: 0px 4px 0px 0px;
 }
 #page .footer-menu ul li a:hover:before {
-   color: #65a1a0;
+   color: #69a8a6;
 }
 #page .footer-menu ul li:first-child a:before {
     content: '';

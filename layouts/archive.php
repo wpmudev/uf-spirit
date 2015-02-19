@@ -44,7 +44,6 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "12", 
 "margin_bottom" => "0", 
 "id" => "module-1408525024897-1934", 
-"rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -56,8 +55,9 @@ $region_5->add_element("PlainTxt", array(
 	"row" => 10, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1408525051645-1279", 
+"row" => 16, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525051645-1279", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -128,7 +128,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408529844144-1619", 
-"rows" => 7, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -146,8 +145,9 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "breadcrumbs", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408529977772-1644", 
+"row" => 7, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408529977772-1644", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -219,7 +219,6 @@ $region_4->add_element("Posts", array(
 "margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1408714915754-1518", 
-"rows" => 49, 
 "options" => array(
 	"type" => "PostsModel", 
 	"view_class" => "PostsView", 
@@ -248,9 +247,14 @@ $region_4->add_element("Posts", array(
 	"post-part-date_posted" => "<div class=\"uposts-part date_posted\">
 	{{date}}
 </div>", 
+	"post-part-author" => "<div class=\"uposts-part author\">
+	Written By <a href=\"{{url}}\">{{name}}</a></div>", 
 	"post-part-gravatar" => "<div class=\"uposts-part gravatar\">
 	{{gravatar}}
-</div>",  
+</div>", 
+	"post-part-comment_count" => "<div class=\"uposts-part comment_count\">
+	Comments / {{comment_count}}
+</div>", 
 	"post-part-featured_image" => "<div class=\"uposts-part thumbnail\" data-resize=\"{{resize}}\">
 	{{thumbnail}}
 </div>", 
@@ -282,8 +286,9 @@ $region_4->add_element("Posts", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408714949691-1226", 
+"row" => 49, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408714949691-1226", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(

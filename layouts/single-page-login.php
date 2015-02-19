@@ -66,7 +66,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "35", 
 "margin_bottom" => "0", 
 "id" => "module-1408525024897-1934", 
-"rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -84,8 +83,9 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-space"
 	), 
-"wrapper_id" => "wrapper-1408525051645-1279", 
+"row" => 16, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -155,7 +155,6 @@ $region_3->add_element("Login", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1423228816519-1722", 
-"rows" => 48, 
 "options" => array(
 	"style" => "form", 
 	"behavior" => "click", 
@@ -164,7 +163,7 @@ $region_3->add_element("Login", array(
 	"label_text" => "log in", 
 	"logout_link" => "log out", 
 	"trigger_text" => "Wassup", 
-	"logged_in_preview" => array("yes"), 
+	"logged_in_preview" => array(), 
 	"type" => "LoginModel", 
 	"view_class" => "LoginView", 
 	"class" => "c24 upfront-login_element-object", 
@@ -176,8 +175,9 @@ $region_3->add_element("Login", array(
 	"anchor" => "", 
 	"theme_style" => "login-form"
 	), 
-"wrapper_id" => "wrapper-1423228825288-1026", 
+"row" => 48, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1423228825288-1026", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(

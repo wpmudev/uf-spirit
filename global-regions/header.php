@@ -13,7 +13,7 @@ $header = upfront_create_region(
 "row" => 12, 
 "background_type" => "color", 
 "nav_region" => "top", 
-"background_color" => "rgba(105,168,166,0.85)", 
+"background_color" => "#ufc0", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => false
@@ -54,7 +54,6 @@ $header->add_element("Uimage", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "image", 
-"rows" => 5, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1)-105x42-8597.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1).png", 
@@ -115,8 +114,9 @@ $header->add_element("Uimage", array(
 			)
 		)
 	), 
-"wrapper_id" => "image-wrapper", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "image-wrapper", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -199,7 +199,6 @@ $header->add_element("Unewnavigation", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "unewnavigation", 
-"rows" => 11, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
@@ -319,8 +318,9 @@ $header->add_element("Unewnavigation", array(
 		), 
 	"element_id" => "unewnavigation-object"
 	), 
-"wrapper_id" => "unewnavigation-wrapper", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "unewnavigation-wrapper", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 2, 
@@ -407,7 +407,6 @@ $header->add_element("Code", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408627223296-1753", 
-"rows" => 11, 
 "options" => array(
 	"type" => "CodeModel", 
 	"view_class" => "CodeView", 
@@ -475,8 +474,9 @@ $header->add_element("Code", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408627457712-1308", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408627457712-1308", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 7, 

@@ -49,7 +49,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "14", 
 "margin_bottom" => "0", 
 "id" => "module-1408528105336-1414", 
-"rows" => 9, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -67,8 +66,9 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-bottom-space"
 	), 
-"wrapper_id" => "wrapper-1408528213095-1209", 
+"row" => 9, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408528213095-1209", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -135,7 +135,6 @@ $region_3->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408528311775-1023", 
-"rows" => 8, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/wave-line-92x4-2112.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/wave-line.png", 
@@ -188,8 +187,9 @@ $region_3->add_element("Uimage", array(
 	"anchor" => "", 
 	"theme_style" => "waved-line"
 	), 
-"wrapper_id" => "wrapper-1408528326968-1084", 
+"row" => 8, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408528326968-1084", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -259,7 +259,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408525051697-1453", 
-"rows" => 24, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -277,8 +276,9 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408525441545-1325", 
+"row" => 24, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525441545-1325", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -391,7 +391,6 @@ $region_4->add_element("Ugallery", array(
 "margin_top" => "13", 
 "margin_bottom" => "0", 
 "id" => "module-1421677792998-1816", 
-"rows" => 65, 
 "options" => array(
 	"type" => "UgalleryModel", 
 	"view_class" => "UgalleryView", 
@@ -1410,8 +1409,9 @@ $region_4->add_element("Ugallery", array(
 	"row" => 65, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1421678046937-1904", 
+"row" => 65, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1421678046937-1904", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1502,7 +1502,6 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "10", 
 "margin_bottom" => "0", 
 "id" => "module-1408533892461-1013", 
-"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1525,8 +1524,9 @@ $region_5->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408533969724-1331", 
+"row" => 10, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408533969724-1331", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1597,7 +1597,6 @@ $region_5->add_element("Code", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408708697143-1002", 
-"rows" => 30, 
 "options" => array(
 	"type" => "CodeModel", 
 	"view_class" => "CodeView", 
@@ -1634,8 +1633,9 @@ $region_5->add_element("Code", array(
 }", 
 	"script" => "/* Your code here */"
 	), 
-"wrapper_id" => "wrapper-1408709267794-1635", 
+"row" => 30, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408709267794-1635", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1705,7 +1705,6 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408534159652-1018", 
-"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1723,8 +1722,9 @@ $region_5->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-bottom-space"
 	), 
-"wrapper_id" => "wrapper-1408534167485-1350", 
+"row" => 10, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408534167485-1350", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1794,7 +1794,6 @@ $region_5->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408534172550-1479", 
-"rows" => 8, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/wave-line-92x4-2112.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-gallery/wave-line.png", 
@@ -1847,8 +1846,9 @@ $region_5->add_element("Uimage", array(
 	"anchor" => "", 
 	"theme_style" => "waved-line"
 	), 
-"wrapper_id" => "wrapper-1408709176542-1170", 
+"row" => 8, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408709176542-1170", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1918,7 +1918,6 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408534186336-1075", 
-"rows" => 14, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1936,8 +1935,9 @@ $region_5->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408534232358-1258", 
+"row" => 14, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408534232358-1258", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2051,7 +2051,6 @@ $region_7->add_element("Uaccordion", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1410423203222-1688", 
-"rows" => 45, 
 "options" => array(
 	"type" => "UaccordionModel", 
 	"view_class" => "UaccordionView", 
@@ -2080,8 +2079,9 @@ $region_7->add_element("Uaccordion", array(
 	"row" => 39, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1410423443065-1968", 
+"row" => 45, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1410423443065-1968", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(

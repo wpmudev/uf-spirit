@@ -45,7 +45,7 @@
     color: #FFFFFF;
     border-radius: 4px;
     border: 0px;
-    border-bottom:3px solid #4f7e7d;
+    border-bottom:3px solid #548685;
     padding: 4px 25px;
     font-size: 24px;
     display: inline-block;
@@ -55,7 +55,7 @@
     width: auto;
 }
 #page .contact-form button[type="submit"]:hover {
-   background: #4f7e7d;
+   background: #548685;
 }
 #page .contact-form .ucontact-msg {
 	padding: 10px;
