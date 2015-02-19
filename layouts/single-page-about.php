@@ -1388,100 +1388,6 @@ $region_7 = upfront_create_region(
 )
 			);
 
-$region_7->add_element("Uimage", array(
-"columns" => "3", 
-"margin_left" => "1", 
-"margin_top" => "0", 
-"id" => "module-1424360561818-1172", 
-"rows" => 6, 
-"options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo1-96x50-1009.jpg", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo1.jpg", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo1.jpg", 
-	"image_title" => "", 
-	"alternative_text" => "", 
-	"when_clicked" => false, 
-	"image_link" => "", 
-	"include_image_caption" => false, 
-	"image_caption" => "My awesome image caption", 
-	"caption_position" => false, 
-	"caption_alignment" => false, 
-	"caption_trigger" => "always_show", 
-	"image_status" => "ok", 
-	"size" => array(
-		"width" => 96, 
-		"height" => 50
-		), 
-	"fullSize" => array(
-		"width" => 96, 
-		"height" => 50
-		), 
-	"position" => array(
-		"top" => 0, 
-		"left" => 0
-		), 
-	"marginTop" => 0, 
-	"element_size" => array(
-		"width" => 105, 
-		"height" => 60
-		), 
-	"rotation" => 0, 
-	"color" => "#ffffff", 
-	"background" => "#000000", 
-	"captionBackground" => "0", 
-	"image_id" => "633", 
-	"align" => "left", 
-	"stretch" => false, 
-	"vstretch" => false, 
-	"quick_swap" => false, 
-	"gifImage" => 0, 
-	"placeholder_class" => "", 
-	"type" => "UimageModel", 
-	"view_class" => "UimageView", 
-	"has_settings" => 1, 
-	"class" => "upfront-image", 
-	"id_slug" => "image", 
-	"element_id" => "image-1424360561814-1969", 
-	"row" => 6
-	), 
-"wrapper_id" => "wrapper-1410365735039-1402", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 11, 
-		"order" => -1
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"order" => -1
-		), 
-	"custom-1410783042947" => array(
-		"col" => 11, 
-		"order" => 0
-		)
-	), 
-"new_line" => "true", 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 4, 
-		"col" => 4, 
-		"order" => 0
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 3, 
-		"order" => 0
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 4, 
-		"order" => 0
-		)
-	)
-));
-
 $region_7->add_element("PlainTxt", array(
 "columns" => "10", 
 "margin_left" => "1", 
@@ -1493,12 +1399,9 @@ $region_7->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"font-size: medium; text-align: justify;\">
-	Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.
-</p>
-<p class=\"\" style=\"font-size: medium; text-align: justify;\">
-	Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.
-</p>", 
+	"content" => "<div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-5\" style=\"width: 96px;\">
+	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 96px; height: 50px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/single-page-about/logo1.jpg\"></span>
+</div><p class=\"\" style=\"font-size: medium; text-align: justify;\"><br>Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.&nbsp;</p><p class=\"\" style=\"font-size: medium; text-align: justify;\">Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1408527009607-1358", 
 	"class" => "c24 upfront-plain_txt", 
@@ -1522,7 +1425,20 @@ $region_7->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1410365735039-1402", 
 "sticky" => false, 
-"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11, 
+		"order" => 0
+		), 
+	"mobile" => array(
+		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783042947" => array(
+		"col" => 8, 
+		"order" => 0
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -1578,99 +1494,6 @@ $region_7->add_element("PlainTxt", array(
 	)
 ));
 
-$region_7->add_element("Uimage", array(
-"columns" => "6", 
-"margin_left" => "2", 
-"margin_top" => "0", 
-"id" => "module-1424360550072-1239", 
-"rows" => 6, 
-"options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo2-208x51-6374.jpg", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo2.jpg", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo2.jpg", 
-	"image_title" => "", 
-	"alternative_text" => "", 
-	"when_clicked" => false, 
-	"image_link" => "", 
-	"include_image_caption" => false, 
-	"image_caption" => "My awesome image caption", 
-	"caption_position" => false, 
-	"caption_alignment" => false, 
-	"caption_trigger" => "always_show", 
-	"image_status" => "ok", 
-	"size" => array(
-		"width" => 208, 
-		"height" => 51
-		), 
-	"fullSize" => array(
-		"width" => 208, 
-		"height" => 51
-		), 
-	"position" => array(
-		"top" => 0, 
-		"left" => 0
-		), 
-	"marginTop" => 0, 
-	"element_size" => array(
-		"width" => 240, 
-		"height" => 60
-		), 
-	"rotation" => 0, 
-	"color" => "#ffffff", 
-	"background" => "#000000", 
-	"captionBackground" => "0", 
-	"image_id" => "632", 
-	"align" => "left", 
-	"stretch" => false, 
-	"vstretch" => false, 
-	"quick_swap" => false, 
-	"gifImage" => 0, 
-	"placeholder_class" => "", 
-	"type" => "UimageModel", 
-	"view_class" => "UimageView", 
-	"has_settings" => 1, 
-	"class" => "upfront-image", 
-	"id_slug" => "image", 
-	"element_id" => "image-1424360550069-1929", 
-	"row" => 6
-	), 
-"wrapper_id" => "wrapper-1410365750241-1268", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 11, 
-		"order" => -1
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"order" => 0
-		), 
-	"custom-1410783042947" => array(
-		"col" => 12, 
-		"order" => 0
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 3, 
-		"col" => 6, 
-		"order" => 0
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7, 
-		"order" => 0
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 6, 
-		"col" => 6, 
-		"order" => 0
-		)
-	)
-));
-
 $region_7->add_element("PlainTxt", array(
 "columns" => "10", 
 "margin_left" => "2", 
@@ -1682,12 +1505,9 @@ $region_7->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: justify;\">
-	Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor. <br>
-</p>
-<p class=\"\" style=\"text-align: justify;\">
-	Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.
-</p>", 
+	"content" => "<div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-8\" style=\"width: 208px;\">
+	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 208px; height: 51px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/single-page-about/logo2.jpg\"></span>
+</div><p class=\"\" style=\"text-align: justify;\"></p><p class=\"\" style=\"text-align: justify;\">Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.&nbsp;<br></p><p class=\"\" style=\"text-align: justify;\">Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1408526402549-1604", 
 	"class" => "c24 upfront-plain_txt", 
@@ -1717,6 +1537,20 @@ $region_7->add_element("PlainTxt", array(
 	), 
 "wrapper_id" => "wrapper-1410365750241-1268", 
 "sticky" => false, 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11, 
+		"order" => 0
+		), 
+	"mobile" => array(
+		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783042947" => array(
+		"col" => 10, 
+		"order" => 0
+		)
+	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 

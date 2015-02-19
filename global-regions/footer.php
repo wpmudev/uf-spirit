@@ -52,7 +52,6 @@ $footer->add_element("PlainTxt", array(
 "margin_top" => "7", 
 "margin_bottom" => "0", 
 "id" => "module-1408446765229-1617", 
-"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -90,8 +89,9 @@ $footer->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408447010252-1606", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408447010252-1606", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -182,7 +182,6 @@ $footer->add_element("Unewnavigation", array(
 "margin_top" => "7", 
 "margin_bottom" => "0", 
 "id" => "module-1408447780698-1711", 
-"rows" => 6, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
@@ -190,33 +189,33 @@ $footer->add_element("Unewnavigation", array(
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
-			"menu-item-db-id" => 101, 
+			"menu-item-db-id" => 18, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Archive", 
 			"menu-item-url" => "#", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "101", 
+			"menu-item-object-id" => "18", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 1
 			), array(
-			"menu-item-db-id" => 102, 
+			"menu-item-db-id" => 19, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Terms", 
 			"menu-item-url" => "#", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "102", 
+			"menu-item-object-id" => "19", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 2
 			), array(
-			"menu-item-db-id" => 103, 
+			"menu-item-db-id" => 20, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Privacy", 
 			"menu-item-url" => "#", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "103", 
+			"menu-item-object-id" => "20", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 3
 			)), 
@@ -253,8 +252,9 @@ $footer->add_element("Unewnavigation", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408448077097-1571", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408448077097-1571", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -345,7 +345,6 @@ $footer->add_element("PlainTxt", array(
 "margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "footer-text-default", 
-"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plaintxt", 
@@ -371,8 +370,9 @@ $footer->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408447070412-1217", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408447070412-1217", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 10, 
@@ -465,7 +465,6 @@ $footer->add_element("Usearch", array(
 "margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1408446264293-1066", 
-"rows" => 6, 
 "options" => array(
 	"type" => "UsearchModel", 
 	"view_class" => "UsearchView", 
@@ -486,8 +485,9 @@ $footer->add_element("Usearch", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408447115527-1969", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408447115527-1969", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 9, 

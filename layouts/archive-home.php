@@ -222,9 +222,11 @@ $region_15->add_element("PlainTxt", array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plaintxt", 
 	"has_settings" => 1, 
-	"content" => "<p style=\"text-align:center;\" class=\"\">Personal Trainer</p>
-<p style=\"text-align:center;\" class=\"\">Wellness Coach</p>
-<p style=\"text-align:center;\" class=\"\">High Performance Specialist</p>",
+	"content" => "<p style=\"text-align:center;\" class=\"\">Personal Trainer</p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-3\" style=\"width: 30px;\">
+	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 30px; height: 1px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/archive-home/line.png\"></span>
+</div><p style=\"text-align:center;\" class=\"\">Wellness Coach</p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-4\" style=\"width: 30px;\">
+	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 30px; height: 1px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/archive-home/line.png\"></span>
+</div><p style=\"text-align:center;\" class=\"\">High Performance Specialist</p>", 
 	"class" => "c24 upfront-plain_txt", 
 	"element_id" => "header-text-default-object", 
 	"type" => "PlainTxtModel", 
