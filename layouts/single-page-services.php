@@ -16,7 +16,7 @@ $region_10 = upfront_create_region(
 "background_type" => "image", 
 "nav_region" => "", 
 "background_color" => "#ffffff", 
-"background_style" => "fixed", 
+"background_style" => "full", 
 "background_position_y" => "0", 
 "background_position_x" => "50", 
 "background_image" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/Services-Bg.jpg", 
@@ -67,7 +67,6 @@ $region_10->add_element("PlainTxt", array(
 "margin_top" => "17", 
 "margin_bottom" => "0", 
 "id" => "module-1408525024897-1934", 
-"rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -85,8 +84,9 @@ $region_10->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-space"
 	), 
-"wrapper_id" => "wrapper-1408525051645-1279", 
+"row" => 16, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -203,7 +203,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408529844144-1619", 
-"rows" => 7, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -221,8 +220,9 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "breadcrumbs", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408529977772-1644", 
+"row" => 7, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408529977772-1644", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -292,7 +292,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1408528105336-1414", 
-"rows" => 7, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -310,8 +309,9 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-bottom-space"
 	), 
-"wrapper_id" => "wrapper-1408528213095-1209", 
+"row" => 7, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408528213095-1209", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -381,7 +381,6 @@ $region_3->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408528311775-1023", 
-"rows" => 8, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/wave-line (1)-92x4-6498.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/wave-line (1).png", 
@@ -434,8 +433,9 @@ $region_3->add_element("Uimage", array(
 	"anchor" => "", 
 	"theme_style" => "waved-line"
 	), 
-"wrapper_id" => "wrapper-1408528326968-1084", 
+"row" => 8, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408528326968-1084", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -505,7 +505,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1408525051697-1453", 
-"rows" => 24, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -523,8 +522,9 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408525441545-1325", 
+"row" => 24, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525441545-1325", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -637,7 +637,6 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1408525441617-1347", 
-"rows" => 14, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -681,8 +680,9 @@ $region_4->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408525530814-1418", 
+"row" => 14, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525530814-1418", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -770,7 +770,6 @@ $region_4->add_element("Button", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1414743692979-1953", 
-"rows" => 16, 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
@@ -785,8 +784,9 @@ $region_4->add_element("Button", array(
 	"row" => 16, 
 	"theme_style" => "button-style"
 	), 
-"wrapper_id" => "wrapper-1408525530814-1418", 
+"row" => 16, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525530814-1418", 
 "new_line" => "true", 
 "breakpoint" => array(
 	"tablet" => array(
@@ -817,7 +817,6 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408529567054-1125", 
-"rows" => 7, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -846,8 +845,9 @@ $region_4->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408525530814-1418", 
+"row" => 7, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525530814-1418", 
 "new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
@@ -913,7 +913,6 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1408525556951-1881", 
-"rows" => 99, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -942,8 +941,9 @@ $region_4->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408525591417-1195", 
+"row" => 99, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525591417-1195", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -1067,7 +1067,6 @@ $region_5->add_element("Ugallery", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1421730873248-1107", 
-"rows" => 48, 
 "options" => array(
 	"type" => "UgalleryModel", 
 	"view_class" => "UgalleryView", 
@@ -1431,8 +1430,9 @@ $region_5->add_element("Ugallery", array(
 	"row" => 48, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1421730923377-1301", 
+"row" => 48, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1421730923377-1301", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1523,7 +1523,6 @@ $region_6->add_element("PlainTxt", array(
 "margin_top" => "9", 
 "margin_bottom" => "0", 
 "id" => "module-1408529743280-1743", 
-"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1541,8 +1540,9 @@ $region_6->add_element("PlainTxt", array(
 	"theme_style" => "divider", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408529843963-1101", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408529843963-1101", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1612,7 +1612,6 @@ $region_6->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408526265806-1251", 
-"rows" => 9, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1630,8 +1629,9 @@ $region_6->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-bottom-space"
 	), 
-"wrapper_id" => "wrapper-1408526402494-1175", 
+"row" => 9, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408526402494-1175", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1701,7 +1701,6 @@ $region_6->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408526143443-1609", 
-"rows" => 8, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/wave-line (1)-92x4-3796.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-services/wave-line (1).png", 
@@ -1754,8 +1753,9 @@ $region_6->add_element("Uimage", array(
 	"anchor" => "", 
 	"theme_style" => "waved-line"
 	), 
-"wrapper_id" => "wrapper-1408526465194-1338", 
+"row" => 8, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408526465194-1338", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1878,7 +1878,6 @@ $region_11->add_element("PlainTxt", array(
 "margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1408443814379-1179", 
-"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1901,8 +1900,9 @@ $region_11->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408443818900-1429", 
+"row" => 10, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408443818900-1429", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1972,7 +1972,6 @@ $region_11->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408443837196-1997", 
-"rows" => 28, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1995,8 +1994,9 @@ $region_11->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408443842377-1925", 
+"row" => 28, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408443842377-1925", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2066,7 +2066,6 @@ $region_11->add_element("Button", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1414743736517-1689", 
-"rows" => 8, 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
@@ -2081,8 +2080,9 @@ $region_11->add_element("Button", array(
 	"row" => 8, 
 	"theme_style" => "small-button-style"
 	), 
-"wrapper_id" => "wrapper-1414743789743-1646", 
+"row" => 8, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1414743789743-1646", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2180,7 +2180,6 @@ $region_7->add_element("PlainTxt", array(
 "margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1408443904923-1360", 
-"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2203,8 +2202,9 @@ $region_7->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408443912379-1151", 
+"row" => 10, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408443912379-1151", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2274,7 +2274,6 @@ $region_7->add_element("PlainTxt", array(
 "margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1408443941489-1951", 
-"rows" => 28, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2297,8 +2296,9 @@ $region_7->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408443951249-1806", 
+"row" => 28, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408443951249-1806", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2368,7 +2368,6 @@ $region_7->add_element("Button", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1414743831392-1956", 
-"rows" => 8, 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
@@ -2383,8 +2382,9 @@ $region_7->add_element("Button", array(
 	"row" => 8, 
 	"theme_style" => "small-button-style"
 	), 
-"wrapper_id" => "wrapper-1414743840281-1395", 
+"row" => 8, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1414743840281-1395", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2482,7 +2482,6 @@ $region_8->add_element("PlainTxt", array(
 "margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1408444386527-1487", 
-"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2505,8 +2504,9 @@ $region_8->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408444393256-1825", 
+"row" => 10, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408444393256-1825", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2577,7 +2577,6 @@ $region_8->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408444395880-1241", 
-"rows" => 28, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2600,8 +2599,9 @@ $region_8->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408444399086-1919", 
+"row" => 28, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408444399086-1919", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2671,7 +2671,6 @@ $region_8->add_element("Button", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1414743868764-1536", 
-"rows" => 8, 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
@@ -2686,8 +2685,9 @@ $region_8->add_element("Button", array(
 	"row" => 8, 
 	"theme_style" => "small-button-style"
 	), 
-"wrapper_id" => "wrapper-1414743878273-1902", 
+"row" => 8, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1414743878273-1902", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(

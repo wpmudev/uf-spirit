@@ -568,3 +568,4 @@ $footer->add_element("Usearch", array(
 ));
 
 $regions->add($footer);
+
