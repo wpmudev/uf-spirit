@@ -120,77 +120,74 @@ $header->add_element("Uimage", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 8, 
+		"col" => 3, 
 		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 5, 
+		"col" => 3, 
 		"order" => 0, 
 		"clear" => true
 		), 
 	"custom-1410783042947" => array(
-		"col" => 11, 
+		"col" => 3, 
 		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 3, 
 		"top" => 0
 		), 
 	"custom-1408717918354" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 3, 
 		"top" => 0
 		), 
 	"custom-1408717978058" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 3, 
 		"top" => 0
 		), 
 	"custom-1408718022181" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 3, 
 		"top" => 0
 		), 
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 4, 
-		"col" => 4, 
-		"top" => 2, 
-		"order" => 0
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 3, 
+		"top" => 2
 		), 
 	"custom-1408718098456" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 3, 
 		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 2, 
+		"edited" => true, 
+		"left" => 0, 
 		"col" => 3, 
-		"top" => 3, 
-		"order" => 0
+		"top" => 3
 		), 
 	"custom-1410780542364" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 4, 
 		"top" => 0
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 7, 
-		"col" => 4, 
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 3, 
 		"top" => 2, 
-		"row" => 8, 
-		"order" => 0
+		"row" => 8
 		)
 	)
 ));
@@ -209,63 +206,63 @@ $header->add_element("Unewnavigation", array(
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
-			"menu-item-db-id" => 95, 
+			"menu-item-db-id" => 12, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "ABOut", 
 			"menu-item-url" => "" . get_site_url() . "/about/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "95", 
+			"menu-item-object-id" => "12", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 1
 			), array(
-			"menu-item-db-id" => 96, 
+			"menu-item-db-id" => 13, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Login", 
 			"menu-item-url" => "" . get_site_url() . "/login/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "96", 
+			"menu-item-object-id" => "13", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 2
 			), array(
-			"menu-item-db-id" => 97, 
+			"menu-item-db-id" => 14, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Gallery", 
 			"menu-item-url" => "" . get_site_url() . "/gallery/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "97", 
+			"menu-item-object-id" => "14", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 3
 			), array(
-			"menu-item-db-id" => 98, 
+			"menu-item-db-id" => 15, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "services", 
 			"menu-item-url" => "" . get_site_url() . "/services/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "98", 
+			"menu-item-object-id" => "15", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 4
 			), array(
-			"menu-item-db-id" => 99, 
+			"menu-item-db-id" => 16, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "testimonials", 
 			"menu-item-url" => "" . get_site_url() . "/testimonials/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "99", 
+			"menu-item-object-id" => "16", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 5
 			), array(
-			"menu-item-db-id" => 100, 
+			"menu-item-db-id" => 17, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "blog", 
 			"menu-item-url" => "" . get_site_url() . "/blog/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "100", 
+			"menu-item-object-id" => "17", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 6
 			)), 
@@ -326,82 +323,79 @@ $header->add_element("Unewnavigation", array(
 "wrapper_id" => "unewnavigation-wrapper", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12, 
+		"col" => 2, 
 		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7, 
+		"col" => 4, 
 		"order" => 0, 
 		"clear" => false
 		), 
 	"custom-1410783042947" => array(
-		"col" => 16, 
+		"col" => 11, 
 		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 14, 
 		"top" => 0
 		), 
 	"custom-1408717918354" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 4, 
 		"top" => 0, 
 		"row" => 18
 		), 
 	"custom-1408717978058" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 3, 
 		"row" => 15, 
 		"top" => 0
 		), 
 	"custom-1408718022181" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 3, 
 		"row" => 13
 		), 
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 12, 
+		"col" => 2, 
 		"row" => 8, 
-		"top" => 0, 
-		"order" => 0
+		"top" => 0
 		), 
 	"custom-1408718098456" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 2, 
 		"row" => 12
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7, 
+		"edited" => true, 
+		"left" => 2, 
+		"col" => 2, 
 		"row" => 11, 
-		"top" => 0, 
-		"order" => 0
+		"top" => 0
 		), 
 	"custom-1410780542364" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 2, 
 		"row" => 15, 
 		"top" => 0
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 14, 
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 11, 
 		"row" => 12, 
-		"top" => 0, 
-		"order" => 0
+		"top" => 0
 		)
 	)
 ));
@@ -485,7 +479,7 @@ $header->add_element("Code", array(
 "wrapper_id" => "wrapper-1408627457712-1308", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 8, 
+		"col" => 7, 
 		"order" => 0
 		), 
 	"mobile" => array(
@@ -494,45 +488,44 @@ $header->add_element("Code", array(
 		"clear" => true
 		), 
 	"custom-1410783042947" => array(
-		"col" => 11, 
+		"col" => 4, 
 		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 1, 
 		"col" => 4, 
 		"top" => 0
 		), 
 	"custom-1408717918354" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 6, 
 		"col" => 4, 
 		"top" => 0
 		), 
 	"custom-1408717978058" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 5, 
 		"col" => 4, 
 		"top" => 0
 		), 
 	"custom-1408718022181" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
 		"col" => 4, 
 		"top" => 0
 		), 
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 4, 
+		"edited" => true, 
+		"left" => 3, 
 		"col" => 4, 
 		"top" => 0, 
-		"row" => 13, 
-		"order" => 0
+		"row" => 13
 		), 
 	"custom-1408718098456" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 1, 
 		"col" => 4, 
 		"top" => 0
@@ -545,20 +538,18 @@ $header->add_element("Code", array(
 		"order" => 0
 		), 
 	"custom-1410780542364" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 8, 
 		"col" => 4, 
 		"top" => 0
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 7, 
+		"edited" => true, 
+		"left" => 0, 
 		"col" => 4, 
-		"top" => 0, 
-		"order" => 0
+		"top" => 0
 		)
 	)
 ));
 
 $regions->add($header);
-
