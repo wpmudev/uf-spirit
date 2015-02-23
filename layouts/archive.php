@@ -25,13 +25,33 @@ $region_5 = upfront_create_region(
 "background_position" => "50% 0%", 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 48, 
+		"background_position_y" => "0", 
+		"background_style" => "full", 
+		"background_repeat" => "no-repeat", 
+		"background_position" => "50% 0%", 
+		"background_position_x" => "50", 
+		"background_type" => "image"
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 36, 
+		"background_position_y" => "77", 
+		"background_style" => "full", 
+		"background_repeat" => "no-repeat", 
+		"background_position" => "50% 77%", 
+		"background_position_x" => "50", 
+		"background_type" => "image"
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false
+		"edited" => false, 
+		"background_position_y" => "0", 
+		"background_style" => "full", 
+		"background_repeat" => "no-repeat", 
+		"background_position" => "50% 0%", 
+		"background_position_x" => "50", 
+		"background_type" => "image"
 		)
 	)
 )
@@ -55,41 +75,47 @@ $region_5->add_element("PlainTxt", array(
 	"row" => 10, 
 	"is_edited" => true
 	), 
-"row" => 16, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
-		"order" => 0
+		"order" => 0, 
+		"clear" => true
 		), 
 	"mobile" => array(
 		"col" => 7, 
-		"order" => 0
+		"order" => 0, 
+		"clear" => true
 		), 
 	"custom-1410783042947" => array(
 		"col" => 18, 
-		"order" => 0
+		"order" => 0, 
+		"clear" => true
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 12, 
-		"order" => 0
+		"order" => 0, 
+		"top" => 14
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"order" => 0
+		"order" => 0, 
+		"top" => 11
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
 		"col" => 18, 
-		"order" => 0
+		"order" => 0, 
+		"top" => 18
 		)
 	)
 ));
@@ -145,7 +171,7 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "breadcrumbs", 
 	"anchor" => ""
 	), 
-"row" => 7, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408529977772-1644", 
 "wrapper_breakpoint" => array(
@@ -286,7 +312,7 @@ $region_4->add_element("Posts", array(
 			)
 		)
 	), 
-"row" => 49, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408714949691-1226", 
 "new_line" => "true", 

@@ -68,7 +68,6 @@ $region_8->add_element("PlainTxt", array(
 "margin_top" => "63", 
 "margin_bottom" => "0", 
 "id" => "module-1408525024897-1934", 
-"rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -86,8 +85,9 @@ $region_8->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-space"
 	), 
-"wrapper_id" => "wrapper-1408525051645-1279", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -204,7 +204,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408529844144-1619", 
-"rows" => 7, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -222,8 +221,9 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "breadcrumbs", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408529977772-1644", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408529977772-1644", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -293,7 +293,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1408525051697-1453", 
-"rows" => 24, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -311,8 +310,9 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408525441545-1325", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525441545-1325", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -427,7 +427,6 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1408525441617-1347", 
-"rows" => 14, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -465,8 +464,9 @@ $region_4->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408525530814-1418", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525530814-1418", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -548,7 +548,6 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1408525556951-1881", 
-"rows" => 133, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -586,8 +585,9 @@ $region_4->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408525591417-1195", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525591417-1195", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -667,7 +667,6 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1408525530872-1038", 
-"rows" => 17, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -708,8 +707,9 @@ $region_4->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408525556875-1692", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408525556875-1692", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -835,7 +835,6 @@ $region_5->add_element("Uimage", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1408526102009-1923", 
-"rows" => 27, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/About-Photo-690x371-8026.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/About-Photo.jpg", 
@@ -902,8 +901,9 @@ $region_5->add_element("Uimage", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408526143362-1205", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408526143362-1205", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -978,7 +978,6 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1408526101984-1321", 
-"rows" => 15, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1004,8 +1003,9 @@ $region_5->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408526265567-1343", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408526265567-1343", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 9, 
@@ -1129,7 +1129,6 @@ $region_6->add_element("PlainTxt", array(
 "margin_top" => "10", 
 "margin_bottom" => "0", 
 "id" => "module-1408526265806-1251", 
-"rows" => 9, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1147,8 +1146,9 @@ $region_6->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-bottom-space"
 	), 
-"wrapper_id" => "wrapper-1408526402494-1175", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408526402494-1175", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1218,7 +1218,6 @@ $region_6->add_element("Uimage", array(
 "margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1408526143443-1609", 
-"rows" => 8, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/wave-line-92x4-2112.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/wave-line.png", 
@@ -1271,8 +1270,9 @@ $region_6->add_element("Uimage", array(
 	"anchor" => "", 
 	"theme_style" => "waved-line"
 	), 
-"wrapper_id" => "wrapper-1408526465194-1338", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408526465194-1338", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1388,6 +1388,103 @@ $region_7 = upfront_create_region(
 )
 			);
 
+$region_7->add_element("Uimage", array(
+"columns" => "3", 
+"margin_left" => "1", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1424360561818-1172", 
+"options" => array(
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo1-96x50-8478.jpg", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo1.jpg", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo1.jpg", 
+	"image_title" => "", 
+	"alternative_text" => "", 
+	"when_clicked" => false, 
+	"image_link" => "", 
+	"include_image_caption" => false, 
+	"image_caption" => "My awesome image caption", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
+	"caption_trigger" => "always_show", 
+	"image_status" => "ok", 
+	"size" => array(
+		"width" => 96, 
+		"height" => 50
+		), 
+	"fullSize" => array(
+		"width" => 96, 
+		"height" => 50
+		), 
+	"position" => array(
+		"top" => 0, 
+		"left" => 0
+		), 
+	"marginTop" => 0, 
+	"element_size" => array(
+		"width" => 105, 
+		"height" => 60
+		), 
+	"rotation" => 0, 
+	"color" => "#ffffff", 
+	"background" => "#000000", 
+	"captionBackground" => "0", 
+	"image_id" => "633", 
+	"align" => "left", 
+	"stretch" => false, 
+	"vstretch" => false, 
+	"quick_swap" => false, 
+	"gifImage" => 0, 
+	"placeholder_class" => "", 
+	"type" => "UimageModel", 
+	"view_class" => "UimageView", 
+	"has_settings" => 1, 
+	"class" => "c24 upfront-image", 
+	"id_slug" => "image", 
+	"element_id" => "image-1424360561814-1969", 
+	"row" => 6
+	), 
+"row" => 6, 
+"sticky" => false, 
+"wrapper_id" => "wrapper-1410365735039-1402", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11, 
+		"order" => -1
+		), 
+	"mobile" => array(
+		"col" => 7, 
+		"order" => -1
+		), 
+	"custom-1410783042947" => array(
+		"col" => 11, 
+		"order" => 0
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
+		"col" => 4, 
+		"order" => 0
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 2, 
+		"col" => 3, 
+		"order" => 0
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4, 
+		"order" => 0
+		)
+	)
+));
+
 $region_7->add_element("PlainTxt", array(
 "columns" => "10", 
 "margin_left" => "1", 
@@ -1395,13 +1492,15 @@ $region_7->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408527009609-1170", 
-"rows" => 72, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-5\" style=\"width: 96px;\">
-	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 96px; height: 50px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/single-page-about/logo1.jpg\"></span>
-</div><p class=\"\" style=\"font-size: medium; text-align: justify;\"><br>Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.&nbsp;</p><p class=\"\" style=\"font-size: medium; text-align: justify;\">Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.</p>", 
+	"content" => "<p class=\"\" style=\"font-size: medium; text-align: justify;\">
+	Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.
+</p>
+<p class=\"\" style=\"font-size: medium; text-align: justify;\">
+	Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1408527009607-1358", 
 	"class" => "c24 upfront-plain_txt", 
@@ -1423,22 +1522,10 @@ $region_7->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1410365735039-1402", 
+"row" => 6, 
 "sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 11, 
-		"order" => 0
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"order" => 0
-		), 
-	"custom-1410783042947" => array(
-		"col" => 8, 
-		"order" => 0
-		)
-	), 
+"wrapper_id" => "wrapper-1410365735039-1402", 
+"new_line" => "true", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 
@@ -1494,6 +1581,102 @@ $region_7->add_element("PlainTxt", array(
 	)
 ));
 
+$region_7->add_element("Uimage", array(
+"columns" => "6", 
+"margin_left" => "2", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1424360550072-1239", 
+"options" => array(
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo2-208x51-2288.jpg", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo2.jpg", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-page-about/logo2.jpg", 
+	"image_title" => "", 
+	"alternative_text" => "", 
+	"when_clicked" => false, 
+	"image_link" => "", 
+	"include_image_caption" => false, 
+	"image_caption" => "My awesome image caption", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
+	"caption_trigger" => "always_show", 
+	"image_status" => "ok", 
+	"size" => array(
+		"width" => 208, 
+		"height" => 51
+		), 
+	"fullSize" => array(
+		"width" => 208, 
+		"height" => 51
+		), 
+	"position" => array(
+		"top" => 0, 
+		"left" => 0
+		), 
+	"marginTop" => 0, 
+	"element_size" => array(
+		"width" => 240, 
+		"height" => 60
+		), 
+	"rotation" => 0, 
+	"color" => "#ffffff", 
+	"background" => "#000000", 
+	"captionBackground" => "0", 
+	"image_id" => "632", 
+	"align" => "left", 
+	"stretch" => false, 
+	"vstretch" => false, 
+	"quick_swap" => false, 
+	"gifImage" => 0, 
+	"placeholder_class" => "", 
+	"type" => "UimageModel", 
+	"view_class" => "UimageView", 
+	"has_settings" => 1, 
+	"class" => "c24 upfront-image", 
+	"id_slug" => "image", 
+	"element_id" => "image-1424360550069-1929", 
+	"row" => 6
+	), 
+"row" => 6, 
+"sticky" => false, 
+"wrapper_id" => "wrapper-1410365750241-1268", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11, 
+		"order" => -1
+		), 
+	"mobile" => array(
+		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783042947" => array(
+		"col" => 12, 
+		"order" => 0
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 3, 
+		"col" => 6, 
+		"order" => 0
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783042947" => array(
+		"edited" => false, 
+		"left" => 6, 
+		"col" => 6, 
+		"order" => 0
+		)
+	)
+));
+
 $region_7->add_element("PlainTxt", array(
 "columns" => "10", 
 "margin_left" => "2", 
@@ -1501,13 +1684,15 @@ $region_7->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408526402550-1740", 
-"rows" => 15, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-8\" style=\"width: 208px;\">
-	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 208px; height: 51px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/single-page-about/logo2.jpg\"></span>
-</div><p class=\"\" style=\"text-align: justify;\"></p><p class=\"\" style=\"text-align: justify;\">Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.&nbsp;<br></p><p class=\"\" style=\"text-align: justify;\">Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.</p>", 
+	"content" => "<p class=\"\" style=\"text-align: justify;\">
+	Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor. <br>
+</p>
+<p class=\"\" style=\"text-align: justify;\">
+	Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1408526402549-1604", 
 	"class" => "c24 upfront-plain_txt", 
@@ -1535,22 +1720,9 @@ $region_7->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1410365750241-1268", 
+"row" => 6, 
 "sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 11, 
-		"order" => 0
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"order" => 0
-		), 
-	"custom-1410783042947" => array(
-		"col" => 10, 
-		"order" => 0
-		)
-	), 
+"wrapper_id" => "wrapper-1410365750241-1268", 
 "breakpoint" => array(
 	"custom-1408717728290" => array(
 		"edited" => true, 

@@ -66,7 +66,7 @@ $region_3->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-bottom-space"
 	), 
-"row" => 9, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408528213095-1209", 
 "new_line" => "true", 
@@ -187,7 +187,7 @@ $region_3->add_element("Uimage", array(
 	"anchor" => "", 
 	"theme_style" => "waved-line"
 	), 
-"row" => 8, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408528326968-1084", 
 "new_line" => "true", 
@@ -276,7 +276,7 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
-"row" => 24, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408525441545-1325", 
 "new_line" => "true", 
@@ -1409,7 +1409,7 @@ $region_4->add_element("Ugallery", array(
 	"row" => 65, 
 	"anchor" => ""
 	), 
-"row" => 65, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1421678046937-1904", 
 "new_line" => "true", 
@@ -1524,7 +1524,7 @@ $region_5->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 10, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408533969724-1331", 
 "new_line" => "true", 
@@ -1633,7 +1633,7 @@ $region_5->add_element("Code", array(
 }", 
 	"script" => "/* Your code here */"
 	), 
-"row" => 30, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408709267794-1635", 
 "new_line" => "true", 
@@ -1722,7 +1722,7 @@ $region_5->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-bottom-space"
 	), 
-"row" => 10, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408534167485-1350", 
 "new_line" => "true", 
@@ -1846,7 +1846,7 @@ $region_5->add_element("Uimage", array(
 	"anchor" => "", 
 	"theme_style" => "waved-line"
 	), 
-"row" => 8, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408709176542-1170", 
 "new_line" => "true", 
@@ -1935,7 +1935,7 @@ $region_5->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
-"row" => 14, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408534232358-1258", 
 "new_line" => "true", 
@@ -2079,7 +2079,7 @@ $region_7->add_element("Uaccordion", array(
 	"row" => 39, 
 	"anchor" => ""
 	), 
-"row" => 45, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1410423443065-1968", 
 "new_line" => "true", 

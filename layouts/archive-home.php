@@ -222,11 +222,9 @@ $region_15->add_element("PlainTxt", array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plaintxt", 
 	"has_settings" => 1, 
-	"content" => "<p style=\"text-align:center;\" class=\"\">Personal Trainer</p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-3\" style=\"width: 30px;\">
-	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 30px; height: 1px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/archive-home/line.png\"></span>
-</div><p style=\"text-align:center;\" class=\"\">Wellness Coach</p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-4\" style=\"width: 30px;\">
-	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 30px; height: 1px\"><img class=\"\" src=\"" . get_stylesheet_directory_uri() . "/images/archive-home/line.png\"></span>
-</div><p style=\"text-align:center;\" class=\"\">High Performance Specialist</p>", 
+	"content" => "<p style=\"text-align:center;\" class=\"\">Personal Trainer</p>
+<p style=\"text-align:center;\" class=\"\">Wellness Coach</p>
+<p style=\"text-align:center;\" class=\"\">High Performance Specialist</p>", 
 	"class" => "c24 upfront-plain_txt", 
 	"element_id" => "header-text-default-object", 
 	"type" => "PlainTxtModel", 
@@ -1575,7 +1573,9 @@ $region_12->add_element("PlainTxt", array(
 $region_12->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "19", 
+"margin_right" => "0", 
 "margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1424332769457-1465", 
 "options" => array(
 	"content" => "Click here", 
@@ -1588,11 +1588,12 @@ $region_12->add_element("Button", array(
 	"has_settings" => 1, 
 	"id_slug" => "button", 
 	"currentpreset" => "small-button", 
-	"row" => 12, 
+	"row" => 6, 
 	"theme_style" => "small-button-style", 
 	"is_edited" => true
 	), 
-"row" => 12, 
+"row" => 6, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1424332977930-1974", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
@@ -1891,7 +1892,9 @@ $region_5->add_element("PlainTxt", array(
 $region_5->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "11", 
+"margin_right" => "0", 
 "margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1424332978067-1283", 
 "options" => array(
 	"content" => "Click here", 
@@ -1904,10 +1907,11 @@ $region_5->add_element("Button", array(
 	"has_settings" => 1, 
 	"id_slug" => "button", 
 	"currentpreset" => "small-button", 
-	"row" => 12, 
+	"row" => 6, 
 	"theme_style" => "small-button-style"
 	), 
-"row" => 12, 
+"row" => 6, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1424334726574-1331", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
@@ -2206,7 +2210,9 @@ $region_6->add_element("PlainTxt", array(
 $region_6->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "19", 
+"margin_right" => "0", 
 "margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1424334726740-1517", 
 "options" => array(
 	"content" => "Click here", 
@@ -2219,10 +2225,11 @@ $region_6->add_element("Button", array(
 	"has_settings" => 1, 
 	"id_slug" => "button", 
 	"currentpreset" => "small-button", 
-	"row" => 12, 
+	"row" => 6, 
 	"theme_style" => "small-button-style"
 	), 
-"row" => 12, 
+"row" => 6, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1424334749909-1536", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
@@ -2522,7 +2529,9 @@ $region_7->add_element("PlainTxt", array(
 $region_7->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "11", 
+"margin_right" => "0", 
 "margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1424334750056-1428", 
 "options" => array(
 	"content" => "Click here", 
@@ -2535,10 +2544,11 @@ $region_7->add_element("Button", array(
 	"has_settings" => 1, 
 	"id_slug" => "button", 
 	"currentpreset" => "small-button", 
-	"row" => 12, 
+	"row" => 6, 
 	"theme_style" => "small-button-style"
 	), 
-"row" => 12, 
+"row" => 6, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1424334772059-1950", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
@@ -4029,7 +4039,7 @@ $region_9->add_element("Code", array(
 	"code_selection_type" => "Create", 
 	"markup" => "<form name=\"newsletter\" class=\"newsletter-form\" action=\"\" method=\"post\">
 <input type=\"text\" name=\"user-name\" placeholder=\"Your Name\">
-<input type=\"email\" name=\"user-email\" placeholder=\"Your Email\">    
+<input type=\"email\" name=\"user-email\" placeholder=\"Your Email\">
 <input type=\"submit\" value=\"Send\">
 </form>", 
 	"style" => "{
@@ -4072,52 +4082,6 @@ $region_9->add_element("Code", array(
 }
 .newsletter-form input[type=\"submit\"]:hover {
    background: #548685;
-}
-
-@media (max-width: 720px) {
-	.newsletter-form input[type=\"text\"],
-	.newsletter-form input[type=\"email\"] {
-  	width: 35%;   
-  }
-  .newsletter-form input[type=\"submit\"] {
-    width: 25%;
-  }
-}
-@media (max-width: 630px) {
-	.newsletter-form {
-		text-align: center;
-	}
-	.newsletter-form input[type=\"text\"],
-	.newsletter-form input[type=\"email\"] {
-  	width: 48%;
-  	margin: 0 1%;   
-  }
-  .newsletter-form input[type=\"submit\"] {
-    float: none;
-    clear: left;
-    margin-top: 15px;
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 570px) {
-	.newsletter-form {
-		text-align: center;
-	}
-	.newsletter-form input[type=\"text\"],
-	.newsletter-form input[type=\"email\"] {
-  	width: 90%;
-  	float: none;
-    clear: left;
-    margin: 10px 5% 0;
-    
-  }
-  .newsletter-form input[type=\"submit\"] {
-    float: none;
-    clear: left;
-    margin-top: 15px;
-    margin-bottom: 30px;
-    width: 50%;
-  }
 }
 
 ", 
@@ -4246,7 +4210,9 @@ $region_10 = upfront_create_region(
 $region_10->add_element("Button", array(
 "columns" => "8", 
 "margin_left" => "8", 
+"margin_right" => "0", 
 "margin_top" => "11", 
+"margin_bottom" => "0", 
 "id" => "module-1424334772225-1570", 
 "options" => array(
 	"content" => "Click here", 
@@ -4259,10 +4225,11 @@ $region_10->add_element("Button", array(
 	"has_settings" => 1, 
 	"id_slug" => "button", 
 	"currentpreset" => "medium-button", 
-	"row" => 17, 
+	"row" => 6, 
 	"theme_style" => "button-style"
 	), 
-"row" => 17, 
+"row" => 6, 
+"sticky" => false, 
 "wrapper_id" => "wrapper-1424334804334-1913", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(

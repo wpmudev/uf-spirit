@@ -1,5 +1,4 @@
 #page .small-button-style a.upfront_cta { 
- color:#fff;
- font: italic 16px/16px 'Open Sans', Arial;
  text-decoration: none;
+ font-style: italic !important;
 }
