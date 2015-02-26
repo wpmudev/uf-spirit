@@ -816,7 +816,9 @@ $main->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">Cupcake ipsum dolor sit amet I love cake halvah tiramisu. Pudding fruitcake lollipop gummi bears caramels. Oat cake topping marshmallow biscuit jelly biscuit carrot cake I love. Apple pie marshmallow croissant. Sesame snaps muffin tart icing ice cream donut. Soufflé topping wafer. Pudding dessert chocolate bar gingerbread danish jelly beans. Cotton candy dessert bear claw I love. Dessert powder muffin ice cream candy canes dessert soufflé carrot cakeCake cookie jelly-o chupa chups sesame snaps candy canes candy drops icing wafer Jelly jujubes lemon drops dragée soufflé cotton candy jujubes danish chocolate. <a href=\"" . get_site_url() . "/about/\" rel=\"entry\">Read More</a></p>", 
+	"content" => "<p class=\"\">
+	Cupcake ipsum dolor sit amet I love cake halvah tiramisu. Pudding fruitcake lollipop gummi bears caramels. Oat cake topping marshmallow biscuit jelly biscuit carrot cake I love. Apple pie marshmallow croissant. Sesame snaps muffin tart icing ice cream donut. Soufflé topping wafer. Pudding dessert chocolate bar gingerbread danish jelly beans. Cotton candy dessert bear claw I love. Dessert powder muffin ice cream candy canes dessert soufflé carrot cakeCake cookie jelly-o chupa chups sesame snaps candy canes candy drops icing wafer Jelly jujubes lemon drops dragée soufflé cotton candy jujubes danish chocolate. <a rel=\"entry\" href=\"" . get_site_url() . "/about/\">Read More</a>
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1408440704408-1480", 
 	"class" => "c24 upfront-plain_txt", 

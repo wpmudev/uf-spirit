@@ -196,11 +196,11 @@ return array(
 }
 @font-face {
     font-family: \"Meg\";
-	src:url(\"UPFRONT_THEME_BASE/fonts/Meg.eot?-ycuzpz\");
-	src:url(\"UPFRONT_THEME_BASE/fonts/Meg.eot?#iefix-ycuzpz\") format(\"embedded-opentype\"),
-		url(\"UPFRONT_THEME_BASE/fonts/Meg.woff?-ycuzpz\") format(\"woff\"),
-		url(\"UPFRONT_THEME_BASE/fonts/Meg.ttf?-ycuzpz\") format(\"truetype\"),
-		url(\"UPFRONT_THEME_BASE/fonts/Meg.svg?-ycuzpz#Meg\") format(\"svg\");
+    src:url(\"UPFRONT_THEME_BASE/fonts/Meg.eot\");
+	src:url(\"UPFRONT_THEME_BASE/fonts/Meg.eot\") format(\"embedded-opentype\"),
+		url(\"UPFRONT_THEME_BASE/fonts/Meg.woff\") format(\"woff\"),
+		url(\"UPFRONT_THEME_BASE/fonts/Meg.ttf\") format(\"truetype\"),
+		url(\"UPFRONT_THEME_BASE/fonts/Meg.svg\") format(\"svg\");
 	font-weight: normal;
 	font-style: normal;
 }
