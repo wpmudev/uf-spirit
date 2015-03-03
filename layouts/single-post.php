@@ -40,7 +40,6 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "11", 
 "margin_bottom" => "0", 
 "id" => "module-1416474833168-1788", 
-"rows" => 33, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -52,8 +51,9 @@ $region_4->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"row" => 33
 	), 
-"wrapper_id" => "wrapper-1416475121461-1671", 
+"row" => 33, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1416475121461-1671", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -125,7 +125,6 @@ $region_3->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408529844144-1619", 
-"rows" => 7, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -143,8 +142,9 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "breadcrumbs", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1408529977772-1644", 
+"row" => 7, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408529977772-1644", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -216,7 +216,6 @@ $region_2->add_element("ThisPost", array(
 "margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "default-post", 
-"rows" => 73, 
 "options" => array(
 	"type" => "ThisPostModel", 
 	"view_class" => "ThisPostView", 
@@ -299,10 +298,11 @@ $region_2->add_element("ThisPost", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408977742068-1128", 
+"row" => 73, 
+"sticky" => true, 
 "disable_resize" => true, 
 "disable_drag" => false, 
-"sticky" => true, 
+"wrapper_id" => "wrapper-1408977742068-1128", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -346,7 +346,6 @@ $region_2->add_element("Ucomment", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "default-comment", 
-"rows" => 10, 
 "options" => array(
 	"id_slug" => "ucomment", 
 	"type" => "UcommentModel", 
@@ -357,8 +356,9 @@ $region_2->add_element("Ucomment", array(
 	"element_id" => "default-comment-object", 
 	"theme_style" => "blog-page-feed"
 	), 
-"wrapper_id" => "default-comment-wrapper", 
+"row" => 10, 
 "sticky" => false, 
+"wrapper_id" => "default-comment-wrapper", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 

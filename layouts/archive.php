@@ -271,7 +271,7 @@ $region_4->add_element("Posts", array(
 	"resize_featured" => "1", 
 	"gravatar_size" => 200, 
 	"post-part-date_posted" => "<div class=\"uposts-part date_posted\">
-	{{date}}
+	{{date_1}}<br />{{date_2}}
 </div>", 
 	"post-part-author" => "<div class=\"uposts-part author\">
 	Written By <a href=\"{{url}}\">{{name}}</a></div>", 
