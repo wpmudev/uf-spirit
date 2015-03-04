@@ -2,6 +2,12 @@ Change Log
 ============
 
 
+0.1.5 - 2015-03-04
+-------------------------------------------------------------------------------
+- Fix: constact form styles.
+- Fix: removed css overriding colors for links and hover states.
+- Fix: removed the line-height overriding css.
+
 0.1.4 - 2015-02-23
 -------------------------------------------------------------------------------
 - Fix: responsive issues in some layouts.
