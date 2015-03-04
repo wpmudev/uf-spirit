@@ -1,5 +1,7 @@
-#page .button-style a.upfront_cta {
-   border-bottom: 3px solid #4f7e7d;
+#page .button-style a.upfront_cta, #page .button-style a.upfront_cta:hover {
+   border-left: none;
+   border-top: none;
+   border-right: none;
    padding: 8px 25px;
    font-style: normal !important;
    text-decoration: none;

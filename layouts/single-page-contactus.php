@@ -83,7 +83,7 @@ $region_2->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-space"
 	), 
-"row" => 16, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408525051645-1279", 
 "new_line" => "true", 
@@ -178,7 +178,7 @@ $region_2->add_element("Ucontact", array(
 	"anchor" => "", 
 	"theme_style" => "contact-form"
 	), 
-"row" => 70, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1421844178455-1591", 
 "new_line" => "true", 
@@ -239,7 +239,7 @@ $region_2->add_element("PlainTxt", array(
 	"row" => 5, 
 	"is_edited" => true
 	), 
-"row" => 11, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408537660269-1178", 
 "new_line" => "true", 
