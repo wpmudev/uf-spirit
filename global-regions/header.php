@@ -54,6 +54,7 @@ $header->add_element("Uimage", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "image", 
+"rows" => 6, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1)-105x42-8597.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1).png", 
@@ -114,9 +115,8 @@ $header->add_element("Uimage", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "image-wrapper", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -199,6 +199,7 @@ $header->add_element("Unewnavigation", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "unewnavigation", 
+"rows" => 6, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
@@ -230,7 +231,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Gallery", 
-			"menu-item-url" => "#ltb-fgg17", 
+			"menu-item-url" => "" . get_site_url() . "/gallery/", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "14", 
 			"menu-item-target" => "", 
@@ -239,8 +240,8 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-db-id" => 15, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
-			"menu-item-title" => "Services", 
-			"menu-item-url" => "" . get_site_url() . "/services/", 
+			"menu-item-title" => "services", 
+			"menu-item-url" => "#services", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "15", 
 			"menu-item-target" => "", 
@@ -249,7 +250,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-db-id" => 16, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
-			"menu-item-title" => "Testimonials", 
+			"menu-item-title" => "testimonials", 
 			"menu-item-url" => "" . get_site_url() . "/testimonials/", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "16", 
@@ -318,9 +319,8 @@ $header->add_element("Unewnavigation", array(
 		), 
 	"element_id" => "unewnavigation-object"
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "unewnavigation-wrapper", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 2, 
@@ -407,6 +407,7 @@ $header->add_element("Code", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408627223296-1753", 
+"rows" => 6, 
 "options" => array(
 	"type" => "CodeModel", 
 	"view_class" => "CodeView", 
@@ -474,9 +475,8 @@ $header->add_element("Code", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408627457712-1308", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 7, 
@@ -552,7 +552,5 @@ $header->add_element("Code", array(
 	)
 ));
 
-if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'lightbox.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'lightbox.php');
-if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'ltb-fgg17.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'ltb-fgg17.php');
 $regions->add($header);
 

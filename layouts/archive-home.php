@@ -68,6 +68,7 @@ $region_15->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408439677474-1148", 
+"rows" => 6, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (2)-355x215-6171.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (2).png", 
@@ -134,9 +135,8 @@ $region_15->add_element("Uimage", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408439682498-1955", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -218,6 +218,7 @@ $region_15->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "header-text-default", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plaintxt", 
@@ -237,9 +238,8 @@ $region_15->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"is_edited" => true
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408626622170-1221", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -315,6 +315,7 @@ $region_15->add_element("Code", array(
 "margin_top" => "24", 
 "margin_bottom" => "0", 
 "id" => "module-1408626869476-1698", 
+"rows" => 6, 
 "options" => array(
 	"type" => "CodeModel", 
 	"view_class" => "CodeView", 
@@ -353,9 +354,8 @@ $region_15->add_element("Code", array(
 	"script" => "/* Your code here */", 
 	"row" => 20
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408627222905-1682", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -495,6 +495,7 @@ $main->add_element("PlainTxt", array(
 "margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1408440367587-1350", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -512,9 +513,8 @@ $main->add_element("PlainTxt", array(
 	"anchor" => "About", 
 	"row" => 2
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408440541662-1463", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -589,6 +589,7 @@ $main->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408440367621-1532", 
+"rows" => 6, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line-92x4-5941.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line.png", 
@@ -641,9 +642,8 @@ $main->add_element("Uimage", array(
 	"theme_style" => "waved-line", 
 	"anchor" => ""
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408440918694-1971", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -719,6 +719,7 @@ $main->add_element("PlainTxt", array(
 "margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1408440541724-1973", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -736,9 +737,8 @@ $main->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408440704324-1222", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -813,6 +813,7 @@ $main->add_element("PlainTxt", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1408440704409-1966", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -832,9 +833,8 @@ $main->add_element("PlainTxt", array(
 	"theme_style" => "remove-top-space", 
 	"anchor" => ""
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408441148046-1003", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1004,9 +1004,10 @@ $region_4->add_element("PlainTxt", array(
 "columns" => "20", 
 "margin_left" => "2", 
 "margin_right" => "0", 
-"margin_top" => "16", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408442628370-1227", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1024,9 +1025,8 @@ $region_4->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 3
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408442634872-1479", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1101,6 +1101,7 @@ $region_4->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408442639295-1956", 
+"rows" => 6, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line-92x4-9876.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line.png", 
@@ -1153,9 +1154,8 @@ $region_4->add_element("Uimage", array(
 	"theme_style" => "waved-line", 
 	"anchor" => ""
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408442646888-1897", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1230,6 +1230,7 @@ $region_4->add_element("PlainTxt", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1408442656163-1606", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1247,9 +1248,8 @@ $region_4->add_element("PlainTxt", array(
 	"theme_style" => "sub-title", 
 	"anchor" => ""
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408442660597-1917", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1381,6 +1381,7 @@ $region_12->add_element("PlainTxt", array(
 "margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1408441791056-1512", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1403,9 +1404,8 @@ $region_12->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408455458788-1517", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1480,6 +1480,7 @@ $region_12->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408442665716-1406", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1502,9 +1503,8 @@ $region_12->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408455466093-1167", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1579,6 +1579,7 @@ $region_12->add_element("Button", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1424332769457-1465", 
+"rows" => 6, 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
@@ -1594,9 +1595,8 @@ $region_12->add_element("Button", array(
 	"theme_style" => "small-button-style", 
 	"is_edited" => true
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1424332977930-1974", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1700,6 +1700,7 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1408443814379-1179", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1722,9 +1723,8 @@ $region_5->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408443818900-1429", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1799,6 +1799,7 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408443837196-1997", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -1821,9 +1822,8 @@ $region_5->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408443842377-1925", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -1898,6 +1898,7 @@ $region_5->add_element("Button", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1424332978067-1283", 
+"rows" => 6, 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
@@ -1912,9 +1913,8 @@ $region_5->add_element("Button", array(
 	"row" => 6, 
 	"theme_style" => "small-button-style"
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1424334726574-1331", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2018,6 +2018,7 @@ $region_6->add_element("PlainTxt", array(
 "margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1408443904923-1360", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2040,9 +2041,8 @@ $region_6->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408443912379-1151", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2117,6 +2117,7 @@ $region_6->add_element("PlainTxt", array(
 "margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1408443941489-1951", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2139,9 +2140,8 @@ $region_6->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408443951249-1806", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2216,6 +2216,7 @@ $region_6->add_element("Button", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1424334726740-1517", 
+"rows" => 6, 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
@@ -2230,9 +2231,8 @@ $region_6->add_element("Button", array(
 	"row" => 6, 
 	"theme_style" => "small-button-style"
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1424334749909-1536", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2336,6 +2336,7 @@ $region_7->add_element("PlainTxt", array(
 "margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1408444386527-1487", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2358,9 +2359,8 @@ $region_7->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408444393256-1825", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2436,6 +2436,7 @@ $region_7->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408444395880-1241", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2458,9 +2459,8 @@ $region_7->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408444399086-1919", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2535,6 +2535,7 @@ $region_7->add_element("Button", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1424334750056-1428", 
+"rows" => 6, 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
@@ -2549,9 +2550,8 @@ $region_7->add_element("Button", array(
 	"row" => 6, 
 	"theme_style" => "small-button-style"
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1424334772059-1950", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -2648,6 +2648,7 @@ $region_8->add_element("PlainTxt", array(
 "margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1408445066283-1750", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2665,9 +2666,8 @@ $region_8->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 2
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408445074273-1042", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -2741,6 +2741,7 @@ $region_8->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408445106531-1600", 
+"rows" => 6, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line-92x4-2924.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/wave-line.png", 
@@ -2793,9 +2794,8 @@ $region_8->add_element("Uimage", array(
 	"theme_style" => "waved-line", 
 	"anchor" => ""
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1409145408474-1078", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 8, 
@@ -2921,6 +2921,7 @@ $region_11->add_element("Uimage", array(
 "margin_top" => "4", 
 "margin_bottom" => "0", 
 "id" => "module-1408445992395-1679", 
+"rows" => 6, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial1-140x140-6550.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial1.jpg", 
@@ -2981,9 +2982,8 @@ $region_11->add_element("Uimage", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408454821816-1092", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3058,6 +3058,7 @@ $region_11->add_element("PlainTxt", array(
 "margin_top" => "9", 
 "margin_bottom" => "0", 
 "id" => "module-1408443405809-1628", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -3077,9 +3078,8 @@ $region_11->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1409146803749-1559", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 9, 
@@ -3152,6 +3152,7 @@ $region_11->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408443405836-1728", 
+"rows" => 6, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial2-140x140-9571.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial2.jpg", 
@@ -3212,9 +3213,8 @@ $region_11->add_element("Uimage", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408454829770-1114", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3289,6 +3289,7 @@ $region_11->add_element("PlainTxt", array(
 "margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1408445412767-1104", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -3308,9 +3309,8 @@ $region_11->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1409146821339-1451", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 9, 
@@ -3384,6 +3384,7 @@ $region_11->add_element("Uimage", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408445976214-1402", 
+"rows" => 6, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial3-140x140-2594.jpg", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/testimonial3.jpg", 
@@ -3436,9 +3437,8 @@ $region_11->add_element("Uimage", array(
 	"theme_style" => "circle", 
 	"anchor" => ""
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408454836978-1393", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3513,6 +3513,7 @@ $region_11->add_element("PlainTxt", array(
 "margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1408445421683-1889", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -3529,9 +3530,8 @@ $region_11->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1409146903808-1116", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 9, 
@@ -3604,6 +3604,7 @@ $region_11->add_element("PlainTxt", array(
 "margin_top" => "11", 
 "margin_bottom" => "0", 
 "id" => "module-1408445663649-1130", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -3619,9 +3620,8 @@ $region_11->add_element("PlainTxt", array(
 	"bg_color" => "rgba(0, 0, 0, 0)", 
 	"anchor" => ""
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408454949110-1697", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3756,6 +3756,7 @@ $region_9->add_element("Code", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1414741597476-1792", 
+"rows" => 6, 
 "options" => array(
 	"type" => "CodeModel", 
 	"view_class" => "CodeView", 
@@ -3785,9 +3786,8 @@ $region_9->add_element("Code", array(
 	"script" => "/* Your code here */", 
 	"row" => 13
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1414742754166-1680", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3832,6 +3832,7 @@ $region_9->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408446486399-1979", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -3849,9 +3850,8 @@ $region_9->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 1
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408446496888-1432", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -3930,6 +3930,7 @@ $region_9->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408446264003-1758", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -3949,9 +3950,8 @@ $region_9->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"theme_style" => "remove-top-space"
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408446525502-1263", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -4026,6 +4026,7 @@ $region_9->add_element("Code", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408627328694-1199", 
+"rows" => 6, 
 "options" => array(
 	"type" => "CodeModel", 
 	"view_class" => "CodeView", 
@@ -4090,9 +4091,8 @@ $region_9->add_element("Code", array(
 	"script" => "/* Your code here */", 
 	"row" => 5
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408629844073-1942", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -4216,6 +4216,7 @@ $region_10->add_element("Button", array(
 "margin_top" => "11", 
 "margin_bottom" => "0", 
 "id" => "module-1424334772225-1570", 
+"rows" => 6, 
 "options" => array(
 	"content" => "Click here", 
 	"href" => "", 
@@ -4230,9 +4231,8 @@ $region_10->add_element("Button", array(
 	"row" => 6, 
 	"theme_style" => "button-style"
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1424334804334-1913", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -4280,6 +4280,7 @@ $region_10->add_element("PlainTxt", array(
 "margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1408446673789-1381", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -4291,9 +4292,8 @@ $region_10->add_element("PlainTxt", array(
 	"row" => 9, 
 	"is_edited" => true
 	), 
-"row" => 6, 
-"sticky" => false, 
 "wrapper_id" => "wrapper-1408446764358-1048", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
