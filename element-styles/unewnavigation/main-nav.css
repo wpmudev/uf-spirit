@@ -82,3 +82,6 @@
 #page .main-nav div[data-style="burger"][ data-burger_alignment="full"] ul.menu {
 	top: auto;
 }
+#page .main-nav ul.menu > li > i.delete_menu_item {
+    top:0;
+}

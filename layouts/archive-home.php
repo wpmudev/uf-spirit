@@ -345,7 +345,7 @@ $region_15->add_element("Code", array(
   position: relative;
   content: \"\";
   background: url(" . get_stylesheet_directory_uri() . "/images/archive-home/sprite.png);
-  background-image: url(" . get_stylesheet_directory_uri() . "/images/sprite.svg), none;
+  background-image: url(" . get_site_url() . "/wp-content/themes/uf-spirit/images/sprite.svg), none;
   background-position: -50px -50px;
 }
  .banner-anchor:hover:before, .banner-anchor.dark {
@@ -3777,7 +3777,7 @@ $region_9->add_element("Code", array(
  margin-top: -60px;
  content: \"\";
  background: url(" . get_stylesheet_directory_uri() . "/images/archive-home/sprite.png);
- background-image: url(" . get_stylesheet_directory_uri() . "/images/sprite.svg), none;
+ background-image: url(" . get_site_url() . "/wp-content/themes/uf-spirit/images/sprite.svg), none;
  width: 90px;
  height: 90px;
  display: block;
