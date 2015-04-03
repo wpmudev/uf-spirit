@@ -1620,7 +1620,7 @@ $region_5->add_element("Code", array(
  content: \" \";   
  width: 20px;
  height: 20px;
- background: url(/Upfront/wp-content/themes/Spirit/images/sprite.png) right -97px;
+ background: url(/Upfront/wp-content/themes/uf-spirit/images/sprite.png) right -97px;
  display: inline-block;
  margin: 0px 0px -4px 8px;
 }

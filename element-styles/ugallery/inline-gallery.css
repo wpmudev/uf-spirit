@@ -36,7 +36,7 @@
 }
 #page .inline-gallery .ugallery_item a:hover:after {
  content: " " ;   
- background: url("/Upfront/wp-content/themes/Spirit/images/plus.png") center center no-repeat;
+ background: url("/Upfront/wp-content/themes/uf-spirit/images/plus.png") center center no-repeat;
 }
 #page .inline-gallery .ugallery-thumb-title {
   box-sizing: border-box;

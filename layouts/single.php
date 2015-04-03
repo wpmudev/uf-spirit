@@ -405,7 +405,7 @@ $region_1->add_element("Code", array(
     display: inline-block;
 }
 .socials li a {
-    background: url(wp-content/themes/Spirit/images/sprite.png) left top;   
+    background: url(wp-content/themes/uf-spirit/images/sprite.png) left top;   
     display: block;
     width: 35px;
     height: 34px;
