@@ -28,7 +28,8 @@ $header = upfront_create_region(
 		"edited" => false
 		), 
 	"tablet" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false
@@ -41,7 +42,8 @@ $header = upfront_create_region(
 		"edited" => false
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		)
 	)
 )
@@ -54,7 +56,6 @@ $header->add_element("Uimage", array(
 "margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "image", 
-"rows" => 6, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1)-105x42-8597.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/logo-nav (1).png", 
@@ -99,7 +100,7 @@ $header->add_element("Uimage", array(
 	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
-	"has_settings" => 0, 
+	"has_settings" => 1, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"row" => -1, 
@@ -115,8 +116,9 @@ $header->add_element("Uimage", array(
 			)
 		)
 	), 
-"wrapper_id" => "image-wrapper", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "image-wrapper", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -199,7 +201,6 @@ $header->add_element("Unewnavigation", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "unewnavigation", 
-"rows" => 6, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
@@ -319,8 +320,9 @@ $header->add_element("Unewnavigation", array(
 		), 
 	"element_id" => "unewnavigation-object"
 	), 
-"wrapper_id" => "unewnavigation-wrapper", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "unewnavigation-wrapper", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 2, 
@@ -407,7 +409,6 @@ $header->add_element("Code", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1408627223296-1753", 
-"rows" => 6, 
 "options" => array(
 	"type" => "CodeModel", 
 	"view_class" => "CodeView", 
@@ -443,8 +444,8 @@ $header->add_element("Code", array(
 
 .social-icon:before {
     content: \"\";
-    background: url(" . get_stylesheet_directory_uri() . "/images/global-regions/header/sprite.png);
-    background-image: url(" . get_stylesheet_directory_uri() . "/images/sprite.svg), none;
+    background: url(" . get_site_url() . "/wp-content/themes/uf-spirit/images/global-regions/header/sprite.png);
+    background-image: url(" . get_site_url() . "/wp-content/themes/uf-spirit/images/sprite.svg), none;
     width: 35px;
     height: 35px;
     display: block;
@@ -475,8 +476,9 @@ $header->add_element("Code", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408627457712-1308", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408627457712-1308", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 7, 

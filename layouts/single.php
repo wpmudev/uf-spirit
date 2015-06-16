@@ -21,13 +21,16 @@ $region_4 = upfront_create_region(
 "background_position_x" => "50", 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		)
 	)
 )
@@ -51,7 +54,7 @@ $region_4->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"row" => 33
 	), 
-"row" => 33, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1416475121461-1671", 
 "new_line" => "true", 
@@ -106,13 +109,16 @@ $region_3 = upfront_create_region(
 			array(
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		)
 	)
 )
@@ -142,7 +148,7 @@ $region_3->add_element("PlainTxt", array(
 	"theme_style" => "breadcrumbs", 
 	"anchor" => ""
 	), 
-"row" => 7, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "wrapper-1408529977772-1644", 
 "wrapper_breakpoint" => array(
@@ -197,13 +203,16 @@ $region_2 = upfront_create_region(
 "row" => 60, 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		)
 	)
 )
@@ -296,9 +305,11 @@ $region_2->add_element("ThisPost", array(
 		"mobile" => array(
 			"theme_style" => "thispost-style-mobile"
 			)
-		)
+		), 
+	"hide_featured_image" => "", 
+	"full_featured_image" => ""
 	), 
-"row" => 73, 
+"row" => 6, 
 "sticky" => true, 
 "disable_resize" => true, 
 "disable_drag" => false, 
@@ -356,7 +367,7 @@ $region_2->add_element("Ucomment", array(
 	"element_id" => "default-comment-object", 
 	"theme_style" => "blog-page-feed"
 	), 
-"row" => 10, 
+"row" => 6, 
 "sticky" => false, 
 "wrapper_id" => "default-comment-wrapper", 
 "wrapper_breakpoint" => array(
