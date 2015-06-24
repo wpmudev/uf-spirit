@@ -209,6 +209,53 @@ html {
 	padding-right: 0 !important;
 	overflow: auto !important;
 }
+/* post image alignment */
+.post_content img {
+    max-width: 100%;
+    height: auto;
+}
+.alignnone,
+.aligncenter,
+.alignright,
+.alignleft{
+    max-width: 100%;
+}
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter, div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/* end post image alignment */
 ',
 	'layout_properties' => '[{"name":"background_color","value":""},{"name":"grid","value":{"column_widths":{"desktop":"45"},"column_paddings":{"desktop":"15"},"baselines":{"desktop":"5"},"type_paddings":{"desktop":"10"}}},{"name":"background_type","value":"color"},{"name":"contained_region_width","value":1080}]',
 	'theme_colors' => '{"colors":[{"color":"#69a8a6","highlight":"#69a8a6","shade":"#69a8a6","selected":"","luminance":"","prev":"#86b8b7"},{"color":"#548685","highlight":"#548685","shade":"#548685","selected":"","luminance":"","prev":"#69a8a6"},{"color":"#a89084","highlight":"#a89084","shade":"#a89084","selected":"","luminance":"","prev":""},{"color":"#e1e3de","highlight":"#e1e3de","shade":"#e1e3de","selected":"","luminance":"","prev":"#f4f2f5"},{"color":"#e2ded5","highlight":"#e2ded5","shade":"#e2ded5","selected":"","luminance":"","prev":""},{"color":"#00afec","prev":"#00afec","highlight":"#00afec","shade":"#00afec","selected":"","luminance":""}],"range":"0"}',
