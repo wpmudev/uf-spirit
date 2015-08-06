@@ -256,6 +256,13 @@ a img.aligncenter {
     margin-right: auto
 }
 /* end post image alignment */
+@media (max-width: 569px) {
+	.newsletter-form input {
+		width: 100% !important;
+		float: none;
+		margin-bottom: 15px;
+	} 
+}
 ',
 	'layout_properties' => '[{"name":"background_color","value":""},{"name":"grid","value":{"column_widths":{"desktop":"45"},"column_paddings":{"desktop":"15"},"baselines":{"desktop":"5"},"type_paddings":{"desktop":"10"}}},{"name":"background_type","value":"color"},{"name":"contained_region_width","value":1080}]',
 	'theme_colors' => '{"colors":[{"color":"#69a8a6","highlight":"#69a8a6","shade":"#69a8a6","selected":"","luminance":"","prev":"#86b8b7"},{"color":"#548685","highlight":"#548685","shade":"#548685","selected":"","luminance":"","prev":"#69a8a6"},{"color":"#a89084","highlight":"#a89084","shade":"#a89084","selected":"","luminance":"","prev":""},{"color":"#e1e3de","highlight":"#e1e3de","shade":"#e1e3de","selected":"","luminance":"","prev":"#f4f2f5"},{"color":"#e2ded5","highlight":"#e2ded5","shade":"#e2ded5","selected":"","luminance":"","prev":""},{"color":"#00afec","prev":"#00afec","highlight":"#00afec","shade":"#00afec","selected":"","luminance":""}],"range":"0"}',
