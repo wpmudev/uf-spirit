@@ -16,7 +16,7 @@
 	display: none;
 }
 #page .main-nav ul.menu li:hover a, #page .main-nav ul.menu li.current-menu-item a, #page .main-nav ul.menu li.current-menu-ancestor a {
-   background: #4f7e7d;
+   background: #ufc1;
 }
 #page .main-nav ul.menu li ul.sub-menu {
  /*display: none;*/
