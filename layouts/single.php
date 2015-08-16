@@ -36,63 +36,7 @@ $region_4 = upfront_create_region(
 )
 			);
 
-$region_4->add_element("PlainTxt", array(
-"columns" => "24", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "11", 
-"margin_bottom" => "0", 
-"id" => "module-1416474833168-1788", 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h1 class=\"\" style=\"text-align: center;\">BLOG</h1>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1416474833167-1271", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 33
-	), 
-"row" => 6, 
-"sticky" => false, 
-"wrapper_id" => "wrapper-1416475121461-1671", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 12, 
-		"order" => 0
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"order" => 0
-		), 
-	"custom-1410783042947" => array(
-		"col" => 18, 
-		"order" => 0
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12, 
-		"order" => 0
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7, 
-		"order" => 0
-		), 
-	"custom-1410783042947" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 18, 
-		"order" => 0
-		)
-	)
-));
+
 
 $regions->add($region_4);
 

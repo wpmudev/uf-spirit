@@ -243,6 +243,7 @@ $footer->add_element("Unewnavigation", array(
 			"burger_over" => "over", 
 			"menu_style" => "horizontal", 
 			"menu_alignment" => "center", 
+			"is_floating" => array(), 
 			"width" => 1080
 			), 
 		"tablet" => array(
