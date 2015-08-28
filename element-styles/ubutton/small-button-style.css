@@ -2,3 +2,6 @@
  text-decoration: none;
  font-style: italic !important;
 }
+#page .small-button-style a.upfront_cta .uf_font_icon {
+ font-style: normal !important;
+}

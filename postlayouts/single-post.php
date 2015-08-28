@@ -32,12 +32,6 @@
 				"slug" => "contents"
 				)), 
 		"classes" => "c18  clr post_contents_wrapper"
-		), array(
-		"objects" => array(array(
-				"classes" => "post-part 24 c16 ml2 mt3", 
-				"slug" => "plain_text"
-				)), 
-		"classes" => "c18  clr post_text_wrapper"
 		)), 
 "partOptions" => array(
 	"featured_image" => array(

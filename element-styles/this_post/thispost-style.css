@@ -12,7 +12,7 @@
 #page .thispost-style time.post_date span.date_part_1 {
     font-size: 24px;
 }
-#page .thispost-style h2.post_title a {
+#page .thispost-style h2.post_title > a {
     font: 600 26px/36px 'Open Sans', Arial;
     
     

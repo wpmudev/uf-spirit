@@ -2,6 +2,15 @@ Change Log
 ============
 
 
+0.1.7 - 2015-08-28
+-------------------------------------------------------------------------------
+- Fix: menu element item deletion positioning.
+- Fix: update used paths.
+- Fix: button text font style.
+- Fix: content editing issue.
+- Fix: post image alignment.
+- Fix: newsletter form width on responsive.
+
 0.1.6 - 2015-03-05
 -------------------------------------------------------------------------------
 - Added: default style for tabs element.

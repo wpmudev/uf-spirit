@@ -27,19 +27,22 @@ $footer = upfront_create_region(
 		"edited" => false
 		), 
 	"tablet" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"custom-1408718098456" => array(
 		"edited" => false
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"custom-1410780542364" => array(
 		"edited" => false
 		), 
 	"custom-1410783042947" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		)
 	)
 )
@@ -52,7 +55,6 @@ $footer->add_element("PlainTxt", array(
 "margin_top" => "7", 
 "margin_bottom" => "0", 
 "id" => "module-1408446765229-1617", 
-"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -90,8 +92,9 @@ $footer->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408447010252-1606", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408447010252-1606", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -182,7 +185,6 @@ $footer->add_element("Unewnavigation", array(
 "margin_top" => "7", 
 "margin_bottom" => "0", 
 "id" => "module-1408447780698-1711", 
-"rows" => 6, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
@@ -241,6 +243,7 @@ $footer->add_element("Unewnavigation", array(
 			"burger_over" => "over", 
 			"menu_style" => "horizontal", 
 			"menu_alignment" => "center", 
+			"is_floating" => array(), 
 			"width" => 1080
 			), 
 		"tablet" => array(
@@ -253,8 +256,9 @@ $footer->add_element("Unewnavigation", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408448077097-1571", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408448077097-1571", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -345,7 +349,6 @@ $footer->add_element("PlainTxt", array(
 "margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "footer-text-default", 
-"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plaintxt", 
@@ -371,8 +374,9 @@ $footer->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408447070412-1217", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408447070412-1217", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 10, 
@@ -465,7 +469,6 @@ $footer->add_element("Usearch", array(
 "margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1408446264293-1066", 
-"rows" => 6, 
 "options" => array(
 	"type" => "UsearchModel", 
 	"view_class" => "UsearchView", 
@@ -486,8 +489,9 @@ $footer->add_element("Usearch", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1408447115527-1969", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1408447115527-1969", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 9, 

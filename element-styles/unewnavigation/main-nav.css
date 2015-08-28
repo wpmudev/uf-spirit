@@ -4,6 +4,9 @@
  color: #FFFFFF;
  text-transform: uppercase;
 }
+#page .main-nav ul.menu {
+    background:#ufc0;
+}
 #page .main-nav ul.menu li * {
     font: 300 16px/16px Oswald, Arial;
 }
@@ -16,7 +19,7 @@
 	display: none;
 }
 #page .main-nav ul.menu li:hover a, #page .main-nav ul.menu li.current-menu-item a, #page .main-nav ul.menu li.current-menu-ancestor a {
-   background: #4f7e7d;
+   background: #ufc1;
 }
 #page .main-nav ul.menu li ul.sub-menu {
  /*display: none;*/
@@ -81,4 +84,10 @@
 }
 #page .main-nav div[data-style="burger"][ data-burger_alignment="full"] ul.menu {
 	top: auto;
+}
+#page .main-nav ul.menu > li > i.delete_menu_item {
+    top:0;
+}
+#page .main-nav i.burger_nav_close {
+    font-size:48px !important;
 }
