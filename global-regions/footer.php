@@ -56,6 +56,7 @@ $footer = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'row' => 14,
 )
 			);
 
@@ -63,7 +64,7 @@ $footer->add_element("PlainTxt", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '7',
+  'margin_top' => '3',
   'margin_bottom' => '0',
   'class' => 'module-1408446765229-1617',
   'id' => 'module-1408446765229-1617',
@@ -71,7 +72,7 @@ $footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">2014 MEG CAMPBEL</p>',
+    'content' => '<p class="" style="text-align: center;">2014-2015&nbsp;INCSUB</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408446765226-1396',
     'class' => 'c24 upfront-plain_txt',
@@ -115,6 +116,7 @@ $footer->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408447010252-1606',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -213,10 +215,10 @@ $footer->add_element("PlainTxt", array (
 ));
 
 $footer->add_element("Unewnavigation", array (
-  'columns' => '5',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '7',
+  'margin_top' => '2',
   'margin_bottom' => '0',
   'class' => 'module-1408447780698-1711',
   'id' => 'module-1408447780698-1711',
@@ -233,36 +235,36 @@ $footer->add_element("Unewnavigation", array (
       (array)(array(
          'menu-item-db-id' => 18,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
+         'menu-item-type' => 'post_type',
          'menu-item-title' => 'Archive',
-         'menu-item-url' => '#',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '18',
-         'menu-item-target' => '',
+         'menu-item-url' => '{{upfront:home_url}}/archive/',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '22',
+         'menu-item-target' => '_self',
          'menu-item-position' => 1,
       )),
       1 => 
       (array)(array(
          'menu-item-db-id' => 19,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
+         'menu-item-type' => 'post_type',
          'menu-item-title' => 'Terms',
-         'menu-item-url' => '#',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '19',
-         'menu-item-target' => '',
+         'menu-item-url' => '{{upfront:home_url}}/terms/',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '23',
+         'menu-item-target' => '_self',
          'menu-item-position' => 2,
       )),
       2 => 
       (array)(array(
          'menu-item-db-id' => 20,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
+         'menu-item-type' => 'post_type',
          'menu-item-title' => 'Privacy',
-         'menu-item-url' => '#',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '20',
-         'menu-item-target' => '',
+         'menu-item-url' => '{{upfront:home_url}}/privacy/',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '24',
+         'menu-item-target' => '_self',
          'menu-item-position' => 3,
       )),
     ),
@@ -279,7 +281,7 @@ $footer->add_element("Unewnavigation", array (
     'initialized' => false,
     'menu_id' => false,
     'menu_slug' => 'footer-menu',
-    'row' => 4,
+    'row' => 6,
     'burger_menu' => 
     array (
     ),
@@ -415,150 +417,11 @@ $footer->add_element("Unewnavigation", array (
   ),
 ));
 
-$footer->add_element("PlainTxt", array (
-  'columns' => '8',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '3',
-  'margin_bottom' => '0',
-  'class' => 'footer-text-default',
-  'id' => 'footer-text-default',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plaintxt',
-    'has_settings' => 1,
-    'content' => '<p style="text-align:center;" class=""><em>"Take care of your body. It is&nbsp;</em><em>the only place you have to live."</em></p>',
-    'class' => 'c24 upfront-plain_txt',
-    'element_id' => 'footer-text-default-object',
-    'type' => 'PlainTxtModel',
-    'row' => 11,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'theme_style' => 'footer-text',
-    'anchor' => '',
-    'breakpoint' => 
-    (array)(array(
-       'custom-1408717918354' => 
-      (array)(array(
-         'row' => -2,
-      )),
-       'custom-1408717978058' => 
-      (array)(array(
-         'row' => 12,
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408447070412-1217',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 10,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 13,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'top' => 5,
-      'order' => 2,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 18,
-      'top' => 0,
-      'order' => 2,
-      'row' => 4,
-      'hide' => 1,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 14,
-      'order' => 2,
-      'row' => 18,
-      'hide' => 1,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 8,
-      'order' => 2,
-      'top' => 4,
-      'hide' => 1,
-    ),
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 2,
-      'col' => 8,
-      'order' => 2,
-      'top' => 0,
-      'hide' => 1,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 8,
-      'order' => 2,
-      'top' => 1,
-      'hide' => 1,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'hide' => 1,
-      'order' => 0,
-    ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 8,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 5,
-      'col' => 8,
-      'hide' => 1,
-      'top' => 0,
-    ),
-  ),
-));
-
 $footer->add_element("Usearch", array (
   'columns' => '5',
-  'margin_left' => '1',
+  'margin_left' => '8',
   'margin_right' => '0',
-  'margin_top' => '6',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408446264293-1066',
   'id' => 'module-1408446264293-1066',
@@ -587,21 +450,24 @@ $footer->add_element("Usearch", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408447115527-1969',
+  'wrapper_id' => 'wrapper-1444047433867-1282',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
+      'edited' => false,
       'col' => 9,
       'order' => 0,
     ),
     'mobile' => 
     array (
+      'edited' => false,
       'col' => 6,
       'order' => 0,
     ),
     'custom-1410783042947' => 
     array (
+      'edited' => false,
       'col' => 11,
       'order' => 0,
     ),

@@ -1,0 +1,9 @@
+#page .uf-text-block-read-more {
+   padding-top: 0px !important;
+}
+#page .uf-text-block-read-more a {
+    color: #25b5ed;
+}
+#page .uf-text-block-read-more a:hover {
+    text-decoration: underline;
+}

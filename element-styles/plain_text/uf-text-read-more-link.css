@@ -1,0 +1,6 @@
+#page .uf-text-read-more-link a {
+    color: #25b5ed;
+}
+#page .uf-text-read-more-link a:hover {
+    text-decoration: underline;
+}

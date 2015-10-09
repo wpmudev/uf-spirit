@@ -18,7 +18,7 @@ $region_15 = upfront_create_region(
   'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/Homepage-Banner.jpg',
-  'background_image_ratio' => 0.56000000000000005,
+  'background_image_ratio' => 0.560000000000000053290705182007513940334320068359375,
   'breakpoint' => 
   (array)(array(
      'custom-1408717728290' => 
@@ -519,7 +519,7 @@ $main = upfront_create_region(
   'background_position_y' => '100',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/Homepage-About-Bg.jpg',
-  'background_image_ratio' => 0.46999999999999997,
+  'background_image_ratio' => 0.4699999999999999733546474089962430298328399658203125,
   'background_repeat' => 'no-repeat',
   'background_position' => '50% 100%',
   'breakpoint' => 
@@ -958,13 +958,13 @@ $main->add_element("PlainTxt", array (
     'element_id' => 'text-object-1408440704408-1480',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 31,
+    'row' => 26,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'remove-top-space',
+    'theme_style' => 'uf-text-block-read-more',
     'anchor' => '',
   ),
   'row' => 6,
@@ -1072,7 +1072,7 @@ $region_14 = upfront_create_region(
   'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/Homepage-About-Bg (1).jpg',
-  'background_image_ratio' => 0.46999999999999997,
+  'background_image_ratio' => 0.4699999999999999733546474089962430298328399658203125,
   'expand_lock' => false,
   'breakpoint' => 
   (array)(array(
@@ -4258,6 +4258,7 @@ $region_11->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
+    'theme_style' => 'uf-text-read-more-link',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4888,246 +4889,6 @@ $region_9->add_element("Code", array (
 ));
 
 $regions->add($region_9);
-
-$region_10 = upfront_create_region(
-			array (
-  'name' => 'region-10',
-  'title' => 'Region 10',
-  'type' => 'wide',
-  'scope' => 'local',
-  'container' => 'region-10',
-  'position' => 20,
-  'allow_sidebar' => true,
-),
-			array (
-  'row' => 56,
-  'background_type' => 'color',
-  'nav_region' => '',
-  'background_color' => 'rgba(250,250,250,1)',
-  'breakpoint' => 
-  (array)(array(
-     'custom-1408717728290' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717918354' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717978058' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408718022181' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'tablet' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'custom-1408718098456' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'mobile' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'custom-1410780542364' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1410783042947' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-  )),
-)
-			);
-
-$region_10->add_element("Button", array (
-  'columns' => '8',
-  'margin_left' => '8',
-  'margin_right' => '0',
-  'margin_top' => '11',
-  'margin_bottom' => '0',
-  'class' => 'module-1424334772225-1570',
-  'id' => 'module-1424334772225-1570',
-  'options' => 
-  array (
-    'content' => 'Click here',
-    'href' => '',
-    'align' => 'center',
-    'type' => 'ButtonModel',
-    'view_class' => 'ButtonView',
-    'element_id' => 'button-object-1424334772225-1858',
-    'class' => 'c24 upfront-button',
-    'has_settings' => 1,
-    'id_slug' => 'button',
-    'currentpreset' => 'medium-button',
-    'row' => 6,
-    'theme_style' => 'button-style',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1424334804334-1913',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 10,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'col' => 13,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 8,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 5,
-      'col' => 8,
-      'order' => 0,
-    ),
-  ),
-));
-
-$region_10->add_element("PlainTxt", array (
-  'columns' => '12',
-  'margin_left' => '6',
-  'margin_right' => '0',
-  'margin_top' => '5',
-  'margin_bottom' => '0',
-  'class' => 'module-1408446673789-1381',
-  'id' => 'module-1408446673789-1381',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;"><strong>Meg@gmail.com<br>+61 (0) 407 508 020</strong></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1408446673789-1353',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 9,
-    'is_edited' => true,
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408446764358-1048',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 15,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => false,
-      'left' => 5,
-      'col' => 12,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => false,
-      'left' => 3,
-      'col' => 12,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 12,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 12,
-    ),
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 10,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => false,
-      'left' => 3,
-      'col' => 12,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 3,
-      'col' => 12,
-      'order' => 0,
-    ),
-  ),
-));
-
-$regions->add($region_10);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 

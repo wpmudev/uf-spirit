@@ -1,6 +1,4 @@
 #page .contact-form .upfront-field-container {
-}
-#page .contact-form .upfront-field-container {
     float: left;
     width: 100%;
 }
@@ -56,20 +54,6 @@
 }
 #page .contact-form button[type="submit"]:hover {
    background: #548685;
-}
-#page .contact-form .ucontact-msg {
-	padding: 10px;
-	border-radius: 4px;
-	color: #FFF;
-	text-align: center;
-	margin-bottom: 10px;
-	font: 16px 'Open Sans', Arial;
-}
-#page .contact-form .ucontact-msg.error {
-	background: #c0392b;
-}
-#page .contact-form .ucontact-msg.success {
-	background: #27ae60;
 }
 #page .contact-form .upfront-contact-form-title {
  font: 30px/35px Open Sans, Arial;
