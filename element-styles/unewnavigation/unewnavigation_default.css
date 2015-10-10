@@ -1,0 +1,61 @@
+div[data-style='burger'] ul.menu {
+    background: #67a8a7;
+}
+div.responsive_nav_toggler {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    border: 0;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #333333;
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+    -ms-transition: opacity 0.25s ease-in;
+    -moz-transition: opacity 0.25s ease-in;
+    -webkit-transition: opacity 0.25s ease-in;
+}
+div.responsive_nav_toggler:hover {
+    opacity: 0.6;
+}
+div.responsive_nav_toggler > div {
+    width: 16px;
+    height: 2px;
+    margin-bottom: 2px;
+    background: #fff;
+}
+div.responsive_nav_toggler > div:last-child {
+    margin-bottom: 0;
+}
+i.burger_nav_close {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    padding-top: 1px;
+    background: #333333;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 300;
+    text-align: center;
+}
+div[data-style='burger'] ul.menu > li.menu-item > a {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    transition: color 0.25s ease-in;
+    -moz-transition: color 0.25s ease-in;
+    -webkit-transition: color 0.25s ease-in;
+}
+div[data-style='burger'] ul.menu > li.current-menu-item > a, div[data-style='burger'] ul.menu > li.menu-item:hover > a {
+    color: #333;
+}
