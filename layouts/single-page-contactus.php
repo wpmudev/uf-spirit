@@ -12,7 +12,7 @@ $region_2 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 154,
+  'row' => 140,
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => '#ffffff',
@@ -259,104 +259,6 @@ $region_2->add_element("Ucontact", array (
       'edited' => false,
       'left' => 2,
       'col' => 14,
-      'order' => 0,
-    ),
-  ),
-));
-
-$region_2->add_element("PlainTxt", array (
-  'columns' => '10',
-  'margin_left' => '7',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1408536499439-1069',
-  'id' => 'module-1408536499439-1069',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;"></p><span class="inline_color" style="color: rgb(255, 255, 255)"><p class="" style="text-align: center;">Call me</p><p class="" style="text-align: center;"><strong>+61 (0) 407 508 020</strong></p></span><p class="" style="text-align: center;"></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1408536499438-1365',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 5,
-    'is_edited' => true,
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408537660269-1178',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 11,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 14,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => false,
-      'left' => 6,
-      'col' => 10,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 10,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => false,
-      'left' => 3,
-      'col' => 10,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 10,
-    ),
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 10,
-      'order' => 0,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 10,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 10,
       'order' => 0,
     ),
   ),

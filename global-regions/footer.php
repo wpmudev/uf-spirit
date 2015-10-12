@@ -233,43 +233,25 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 18,
+         'menu-item-db-id' => 36,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'post_type',
-         'menu-item-title' => 'Archive',
-         'menu-item-url' => '{{upfront:home_url}}/archive/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '22',
-         'menu-item-target' => '_self',
-         'menu-item-position' => 1,
-      )),
-      1 => 
-      (array)(array(
-         'menu-item-db-id' => 19,
-         'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
-         'menu-item-title' => 'Terms',
-         'menu-item-url' => '{{upfront:home_url}}/terms/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '23',
-         'menu-item-target' => '_self',
-         'menu-item-position' => 2,
-      )),
-      2 => 
-      (array)(array(
-         'menu-item-db-id' => 20,
-         'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
-         'menu-item-title' => 'Privacy',
+         'menu-item-title' => 'Terms &#038; Privacy',
          'menu-item-url' => '{{upfront:home_url}}/privacy/',
          'menu-item-object' => 'page',
          'menu-item-object-id' => '24',
-         'menu-item-target' => '_self',
-         'menu-item-position' => 3,
+         'menu-item-target' => '',
+         'menu-item-position' => 1,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/privacy/',
+           'target' => '',
+        )),
       )),
     ),
     'menu_style' => 'horizontal',
-    'menu_alignment' => 'center',
+    'menu_alignment' => 'left',
     'allow_sub_nav' => 
     array (
       0 => 'no',
@@ -299,7 +281,7 @@ $footer->add_element("Unewnavigation", array (
          'burger_alignment' => 'left',
          'burger_over' => 'over',
          'menu_style' => 'horizontal',
-         'menu_alignment' => 'center',
+         'menu_alignment' => 'left',
          'is_floating' => 
         array (
         ),

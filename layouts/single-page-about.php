@@ -508,7 +508,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: justify;">Pie soufflé cookie cupcake tart. Jelly marzipan chupa chups. Cotton candy biscuit chocolate. Tiramisu bear claw carrot cake pastry brownie dessert oat cake. Cookie bonbon apple pie cupcake cookie unerdwear.com chupa chups. sweet pastry chocolate bar. Cheesecake cheesecake liquorice chocolate bar. Gingerbread topping.</p>',
+    'content' => '<p class="">Pie soufflé cookie cupcake tart. Jelly marzipan chupa chups. Cotton candy biscuit chocolate. Tiramisu bear claw carrot cake pastry brownie dessert oat cake. Cookie bonbon apple pie cupcake cookie unerdwear.com chupa chups. sweet pastry chocolate bar. Cheesecake cheesecake liquorice chocolate bar. Gingerbread topping.</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525441616-1152',
     'class' => 'c24 upfront-plain_txt',
@@ -792,7 +792,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: justify;"><strong>“Sweet topping cake brownie. Candy fruitcake powder soufflé cupcake. ingerbread lollipop sweet roll ice cream dessert candy caneMuffin tootsie roll dragée. Unerdwear.com marsh”</strong></p>',
+    'content' => '<p class=""><strong data-redactor-tag="strong">“Sweet topping cake brownie. Candy fruitcake powder soufflé cupcake. ingerbread lollipop sweet roll ice cream dessert candy caneMuffin tootsie roll dragée. Unerdwear.com marsh”</strong></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525530870-1579',
     'class' => 'c24 upfront-plain_txt',
@@ -997,8 +997,6 @@ $region_5->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-about/About-Photo.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -1042,6 +1040,14 @@ $region_5->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1408526101993-1058',
     'row' => 21,
     'theme_style' => '_default',
@@ -1449,8 +1455,6 @@ $region_6->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-about/wave-line.png',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -1494,6 +1498,14 @@ $region_6->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1408526143438-1263',
     'row' => 2,
     'anchor' => '',
@@ -1654,8 +1666,6 @@ $region_7->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-about/logo1.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -1699,6 +1709,14 @@ $region_7->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1424360561814-1969',
     'row' => 6,
   ),
@@ -1763,10 +1781,10 @@ $region_7->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="font-size: medium; text-align: justify;">
+    'content' => '<p class="" style="font-size: medium;">
 	Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor.
 </p>
-<p class="" style="font-size: medium; text-align: justify;">
+<p class="" style="font-size: medium;">
 	Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.
 </p>',
     'type' => 'PlainTxtModel',
@@ -1878,8 +1896,6 @@ $region_7->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-about/logo2.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -1923,6 +1939,14 @@ $region_7->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1424360550069-1929',
     'row' => 6,
   ),
@@ -1986,10 +2010,10 @@ $region_7->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: justify;">
+    'content' => '<p class="">
 	Cupcake ipsum dolor. Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon. Cupcake ipsum dolor. <br>
 </p>
-<p class="" style="text-align: justify;">
+<p class="">
 	Sit amet donut brownie I love. Caramels sesame snaps tiramisu I love jujubes oat cake chocolate cake I love. Jelly beans wafer jujubes unerdwear.com oat cake gummi bears. Chupa chups caramels marzipan bonbon. Candy ice cream snaps dragée macaroon.
 </p>',
     'type' => 'PlainTxtModel',

@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_ad53d0 = upfront_create_region(
+$region_df36c5 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -60,7 +60,7 @@ $region_ad53d0 = upfront_create_region(
 )
 			);
 
-$region_ad53d0->add_element("Uimage", array (
+$region_df36c5->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -75,8 +75,6 @@ $region_ad53d0->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/global-regions/header/logo-nav (1).png',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => 'external',
-    'image_link' => '{{upfront:home_url}}/',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -120,6 +118,14 @@ $region_ad53d0->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => 'external',
+    'image_link' => '{{upfront:home_url}}/',
+    'link' => 
+    (array)(array(
+       'type' => 'homepage',
+       'url' => '{{upfront:home_url}}',
+       'target' => false,
+    )),
     'row' => -1,
     'theme_style' => 'small-logo',
     'anchor' => '',
@@ -228,7 +234,7 @@ $region_ad53d0->add_element("Uimage", array (
   ),
 ));
 
-$region_ad53d0->add_element("Unewnavigation", array (
+$region_df36c5->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -247,30 +253,6 @@ $region_ad53d0->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 12,
-         'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
-         'menu-item-title' => 'About',
-         'menu-item-url' => '{{upfront:home_url}}/about/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '7',
-         'menu-item-target' => '_self',
-         'menu-item-position' => 1,
-      )),
-      1 => 
-      (array)(array(
-         'menu-item-db-id' => 14,
-         'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
-         'menu-item-title' => 'Gallery',
-         'menu-item-url' => '{{upfront:home_url}}/gallery/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '10',
-         'menu-item-target' => '_self',
-         'menu-item-position' => 2,
-      )),
-      2 => 
-      (array)(array(
          'menu-item-db-id' => 21,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'post_type',
@@ -279,9 +261,33 @@ $region_ad53d0->add_element("Unewnavigation", array (
          'menu-item-object' => 'page',
          'menu-item-object-id' => '11',
          'menu-item-target' => '_self',
-         'menu-item-position' => 3,
+         'menu-item-position' => 1,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/services/',
+           'target' => '_self',
+        )),
       )),
-      3 => 
+      1 => 
+      (array)(array(
+         'menu-item-db-id' => 12,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'post_type',
+         'menu-item-title' => 'About',
+         'menu-item-url' => '{{upfront:home_url}}/about/',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '7',
+         'menu-item-target' => '_self',
+         'menu-item-position' => 2,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/about/',
+           'target' => '_self',
+        )),
+      )),
+      2 => 
       (array)(array(
          'menu-item-db-id' => 15,
          'menu-item-parent-id' => '0',
@@ -291,19 +297,49 @@ $region_ad53d0->add_element("Unewnavigation", array (
          'menu-item-object' => 'page',
          'menu-item-object-id' => '5',
          'menu-item-target' => '_self',
+         'menu-item-position' => 3,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/testimonials/',
+           'target' => '_self',
+        )),
+      )),
+      3 => 
+      (array)(array(
+         'menu-item-db-id' => 14,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'post_type',
+         'menu-item-title' => 'Gallery',
+         'menu-item-url' => '{{upfront:home_url}}/gallery/',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '10',
+         'menu-item-target' => '_self',
          'menu-item-position' => 4,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/gallery/',
+           'target' => '_self',
+        )),
       )),
       4 => 
       (array)(array(
          'menu-item-db-id' => 13,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'post_type',
-         'menu-item-title' => 'Blog',
+         'menu-item-title' => 'NEWS',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
          'menu-item-object' => 'page',
          'menu-item-object-id' => '6',
          'menu-item-target' => '_self',
          'menu-item-position' => 5,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/blog/',
+           'target' => '_self',
+        )),
       )),
       5 => 
       (array)(array(
@@ -316,6 +352,12 @@ $region_ad53d0->add_element("Unewnavigation", array (
          'menu-item-object-id' => '8',
          'menu-item-target' => '_self',
          'menu-item-position' => 6,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/contactus/',
+           'target' => '_self',
+        )),
       )),
     ),
     'menu_style' => 'horizontal',
@@ -483,7 +525,7 @@ $region_ad53d0->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_ad53d0->add_element("Code", array (
+$region_df36c5->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -512,9 +554,10 @@ $region_ad53d0->add_element("Code", array (
   <li><a class="social-icon twitter" href="http://twitter.com"></a></li>
 </ul>',
     'style' => '.socials {
+    height: 34px;
     list-style: none;
     padding: 0px;
-    margin: -3px 0px;
+    margin: 0px;
 }
 .socials li {
     display: inline-block;
@@ -654,6 +697,6 @@ $region_ad53d0->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_ad53d0);
+$regions->add($region_df36c5);
 
 /* END_REGION_OUTPUT */

@@ -6,6 +6,7 @@
 }
 #page .main-nav ul.menu {
     background:#ufc0;
+    font-size: 0; /* Fix display-inline block space */
 }
 #page .main-nav ul.menu li * {
     font: 300 16px/16px Oswald, Arial;
@@ -13,7 +14,12 @@
 #page .main-nav ul.menu li a {
     text-decoration: none;
     color: #FFFFFF;
-    padding: 24px 12px;
+    padding: 25px 12px;
+    -moz-transition: background-color .4s;
+    -ms-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    -webkit-transition: background-color .4s;
+    transition: background-color .4s;
 }
 #page .main-nav ul.menu li a:after {
 	display: none;

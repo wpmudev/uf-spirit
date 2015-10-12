@@ -87,8 +87,6 @@ $region_15->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/logo (2).png',
     'image_title' => '',
     'alternative_text' => 'Meg Campbell',
-    'when_clicked' => 'entry',
-    'image_link' => '{{upfront:home_url}}/services/',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -132,6 +130,14 @@ $region_15->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => 'entry',
+    'image_link' => '{{upfront:home_url}}/services/',
+    'link' => 
+    (array)(array(
+       'type' => 'homepage',
+       'url' => '{{upfront:home_url}}',
+       'target' => false,
+    )),
     'element_id' => 'object-1408439677474-1823',
     'row' => 51,
     'theme_style' => '_default',
@@ -247,124 +253,11 @@ $region_15->add_element("Uimage", array (
   ),
 ));
 
-$region_15->add_element("PlainTxt", array (
-  'columns' => '9',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'header-text-default',
-  'id' => 'header-text-default',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plaintxt',
-    'has_settings' => 1,
-    'content' => '<p style="text-align:center;" class="">Personal Trainer</p>
-<p style="text-align:center;" class="">Wellness Coach</p>
-<p style="text-align:center;" class="">High Performance Specialist</p>',
-    'class' => 'c24 upfront-plain_txt',
-    'element_id' => 'header-text-default-object',
-    'type' => 'PlainTxtModel',
-    'row' => 39,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'theme_style' => 'banner-text',
-    'anchor' => '',
-    'is_edited' => true,
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408626622170-1221',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 11,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 14,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 6,
-      'col' => 10,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 10,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 10,
-      'top' => 0,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 10,
-    ),
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 10,
-      'order' => 0,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 10,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 10,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 10,
-      'order' => 0,
-    ),
-  ),
-));
-
 $region_15->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '10',
   'margin_right' => '0',
-  'margin_top' => '24',
+  'margin_top' => '83',
   'margin_bottom' => '0',
   'class' => 'module-1408626869476-1698',
   'id' => 'module-1408626869476-1698',
@@ -573,7 +466,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '20',
   'margin_left' => '2',
   'margin_right' => '0',
-  'margin_top' => '16',
+  'margin_top' => '13',
   'margin_bottom' => '0',
   'class' => 'module-1408440367587-1350',
   'id' => 'module-1408440367587-1350',
@@ -694,8 +587,6 @@ $main->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/wave-line.png',
     'image_title' => '',
     'alternative_text' => 'waved line',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -739,6 +630,14 @@ $main->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1408440367600-1543',
     'row' => 3,
     'theme_style' => 'waved-line',
@@ -1173,7 +1072,7 @@ $region_4->add_element("PlainTxt", array (
   'columns' => '20',
   'margin_left' => '2',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '13',
   'margin_bottom' => '0',
   'class' => 'module-1408442628370-1227',
   'id' => 'module-1408442628370-1227',
@@ -1294,8 +1193,6 @@ $region_4->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/wave-line.png',
     'image_title' => '',
     'alternative_text' => 'waved line',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -1339,6 +1236,14 @@ $region_4->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1408442639295-1051',
     'row' => 2,
     'theme_style' => 'waved-line',
@@ -1554,7 +1459,7 @@ $region_12 = upfront_create_region(
   'row' => 68,
   'background_type' => 'image',
   'nav_region' => '',
-  'background_color' => 'rgba(253,249,246,1)',
+  'background_color' => 'rgba(255,255,255,1)',
   'background_style' => 'fixed',
   'background_position_y' => '97',
   'background_position_x' => '50',
@@ -1605,6 +1510,11 @@ $region_12 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -1852,7 +1762,7 @@ $region_12->add_element("Button", array (
   'id' => 'module-1424332769457-1465',
   'options' => 
   array (
-    'content' => 'Click here',
+    'content' => 'FIND OUT MORE',
     'href' => '',
     'align' => 'center',
     'type' => 'ButtonModel',
@@ -1861,9 +1771,15 @@ $region_12->add_element("Button", array (
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
-    'currentpreset' => 'small-button',
+    'link' => 
+    (array)(array(
+       'type' => 'unlink',
+       'url' => '',
+       'target' => false,
+    )),
+    'currentpreset' => 'default',
     'row' => 6,
-    'theme_style' => 'small-button-style',
+    'theme_style' => 'uf-button-spirit',
     'is_edited' => true,
   ),
   'row' => 6,
@@ -1933,7 +1849,7 @@ $region_5 = upfront_create_region(
   'row' => 68,
   'background_type' => 'image',
   'nav_region' => '',
-  'background_color' => 'rgba(244,248,249,1)',
+  'background_color' => 'rgba(255,255,255,1)',
   'background_style' => 'fixed',
   'background_position_y' => '100',
   'background_position_x' => '50',
@@ -1983,6 +1899,11 @@ $region_5 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -2120,7 +2041,7 @@ $region_5->add_element("PlainTxt", array (
     'element_id' => 'object-1408443837197-1885',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 22,
+    'row' => 15,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -2230,7 +2151,7 @@ $region_5->add_element("Button", array (
   'id' => 'module-1424332978067-1283',
   'options' => 
   array (
-    'content' => 'Click here',
+    'content' => 'FIND OUT MORE',
     'href' => '',
     'align' => 'center',
     'type' => 'ButtonModel',
@@ -2239,9 +2160,16 @@ $region_5->add_element("Button", array (
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
-    'currentpreset' => 'small-button',
+    'link' => 
+    (array)(array(
+       'type' => 'unlink',
+       'url' => '',
+       'target' => false,
+    )),
+    'currentpreset' => 'default',
     'row' => 6,
-    'theme_style' => 'small-button-style',
+    'theme_style' => 'uf-button-spirit',
+    'is_edited' => true,
   ),
   'row' => 6,
   'sticky' => false,
@@ -2310,7 +2238,7 @@ $region_6 = upfront_create_region(
   'row' => 68,
   'background_type' => 'image',
   'nav_region' => '',
-  'background_color' => 'rgba(196,212,212,1)',
+  'background_color' => 'rgba(255,255,255,1)',
   'background_style' => 'fixed',
   'background_position_y' => '100',
   'background_position_x' => '50',
@@ -2360,6 +2288,11 @@ $region_6 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -2607,7 +2540,7 @@ $region_6->add_element("Button", array (
   'id' => 'module-1424334726740-1517',
   'options' => 
   array (
-    'content' => 'Click here',
+    'content' => 'FIND OUT MORE',
     'href' => '',
     'align' => 'center',
     'type' => 'ButtonModel',
@@ -2616,9 +2549,16 @@ $region_6->add_element("Button", array (
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
-    'currentpreset' => 'small-button',
+    'link' => 
+    (array)(array(
+       'type' => 'unlink',
+       'url' => '',
+       'target' => false,
+    )),
+    'currentpreset' => 'default',
     'row' => 6,
-    'theme_style' => 'small-button-style',
+    'theme_style' => 'uf-button-spirit',
+    'is_edited' => true,
   ),
   'row' => 6,
   'sticky' => false,
@@ -2687,7 +2627,7 @@ $region_7 = upfront_create_region(
   'row' => 68,
   'background_type' => 'image',
   'nav_region' => '',
-  'background_color' => 'rgba(246,246,246,1)',
+  'background_color' => 'rgba(255,255,255,1)',
   'background_style' => 'fixed',
   'background_position_y' => '100',
   'background_position_x' => '50',
@@ -2737,6 +2677,11 @@ $region_7 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -2985,7 +2930,7 @@ $region_7->add_element("Button", array (
   'id' => 'module-1424334750056-1428',
   'options' => 
   array (
-    'content' => 'Click here',
+    'content' => 'FIND OUT MORE',
     'href' => '',
     'align' => 'center',
     'type' => 'ButtonModel',
@@ -2994,9 +2939,16 @@ $region_7->add_element("Button", array (
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
-    'currentpreset' => 'small-button',
+    'link' => 
+    (array)(array(
+       'type' => 'unlink',
+       'url' => '',
+       'target' => false,
+    )),
+    'currentpreset' => 'default',
     'row' => 6,
-    'theme_style' => 'small-button-style',
+    'theme_style' => 'uf-button-spirit',
+    'is_edited' => true,
   ),
   'row' => 6,
   'sticky' => false,
@@ -3115,7 +3067,7 @@ $region_8->add_element("PlainTxt", array (
   'columns' => '20',
   'margin_left' => '2',
   'margin_right' => '0',
-  'margin_top' => '16',
+  'margin_top' => '13',
   'margin_bottom' => '0',
   'class' => 'module-1408445066283-1750',
   'id' => 'module-1408445066283-1750',
@@ -3235,8 +3187,6 @@ $region_8->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/wave-line.png',
     'image_title' => '',
     'alternative_text' => 'waved line',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -3280,6 +3230,14 @@ $region_8->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1408445106532-1553',
     'row' => 1,
     'theme_style' => 'waved-line',
@@ -3381,7 +3339,7 @@ $region_11 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 167,
+  'row' => 120,
   'background_type' => 'color',
   'nav_region' => '',
   'background_color' => 'rgba(250,250,250,1)',
@@ -3445,8 +3403,6 @@ $region_11->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/testimonial1.jpg',
     'image_title' => '',
     'alternative_text' => 'Fiona Beuchampt',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -3490,6 +3446,14 @@ $region_11->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1408445992396-1972',
     'row' => 6,
     'theme_style' => 'circle',
@@ -3718,8 +3682,6 @@ $region_11->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/testimonial2.jpg',
     'image_title' => '',
     'alternative_text' => 'Fiona Beuchampt',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -3763,6 +3725,14 @@ $region_11->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1408443405821-1824',
     'row' => 6,
     'theme_style' => 'circle',
@@ -3977,269 +3947,11 @@ $region_11->add_element("PlainTxt", array (
   ),
 ));
 
-$region_11->add_element("Uimage", array (
-  'columns' => '4',
-  'margin_left' => '1',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1408445976214-1402',
-  'id' => 'module-1408445976214-1402',
-  'options' => 
-  array (
-    'src' => '{{upfront:style_url}}/images/archive-home/testimonial3-140x140-2594.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/archive-home/testimonial3.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/testimonial3.jpg',
-    'image_title' => '',
-    'alternative_text' => 'Fiona Beuchampt',
-    'when_clicked' => false,
-    'image_link' => '',
-    'include_image_caption' => false,
-    'image_caption' => 'My awesome image caption',
-    'caption_position' => false,
-    'caption_alignment' => false,
-    'caption_trigger' => 'always_show',
-    'image_status' => 'ok',
-    'size' => 
-    (array)(array(
-       'width' => 140,
-       'height' => 140,
-    )),
-    'fullSize' => 
-    (array)(array(
-       'width' => 140,
-       'height' => 140,
-    )),
-    'position' => 
-    (array)(array(
-       'top' => 0,
-       'left' => -5,
-    )),
-    'marginTop' => 0,
-    'element_size' => 
-    (array)(array(
-       'width' => 150,
-       'height' => 150,
-    )),
-    'rotation' => 0,
-    'color' => '#ffffff',
-    'background' => '#000000',
-    'captionBackground' => '0',
-    'image_id' => '142',
-    'align' => 'center',
-    'stretch' => false,
-    'vstretch' => false,
-    'quick_swap' => false,
-    'gifImage' => 0,
-    'placeholder_class' => '',
-    'type' => 'UimageModel',
-    'view_class' => 'UimageView',
-    'has_settings' => 1,
-    'class' => 'c24 upfront-image',
-    'id_slug' => 'image',
-    'element_id' => 'object-1408445976214-1423',
-    'row' => 6,
-    'theme_style' => 'circle',
-    'anchor' => '',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408454836978-1393',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 3,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 4,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 4,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 4,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 4,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 4,
-    ),
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'hide' => 1,
-      'order' => 0,
-    ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 4,
-      'top' => 9,
-    ),
-  ),
-));
-
-$region_11->add_element("PlainTxt", array (
-  'columns' => '18',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '5',
-  'margin_bottom' => '0',
-  'class' => 'module-1408445421683-1889',
-  'id' => 'module-1408445421683-1889',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""><em>“Meg has trained and retrained herself to be an EXCEPTIONAL trainer for people like me. She can modify a session in seconds to enable me to train safely and thoroughly. She knows a myriad of ways to develop a particular part of the body...”</em></p><p class="" style="text-align: right;"><strong style="text-align: right;">Fiona Beauchampt<br></strong><em style="text-align: right;">Occupational Therapist at CPEC&nbsp;</em></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1408445421683-1666',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 7,
-    'is_edited' => true,
-    'breakpoint' => 
-    (array)(array(
-       'custom-1410783042947' => 
-      (array)(array(
-         'row' => 30,
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1409146903808-1116',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 9,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 14,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 16,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 10,
-    ),
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 9,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 18,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-      'row' => 36,
-    ),
-  ),
-));
-
 $region_11->add_element("PlainTxt", array (
   'columns' => '3',
   'margin_left' => '20',
   'margin_right' => '0',
-  'margin_top' => '11',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408445663649-1130',
   'id' => 'module-1408445663649-1130',

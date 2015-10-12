@@ -54,7 +54,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span style="color:rgb(0, 0, 0)" rel="color:rgb(0, 0, 0)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(0, 0, 0)">PRIVACY</span></span></h1>',
+    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span style="color:rgb(0, 0, 0)" rel="color:rgb(0, 0, 0)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(0, 0, 0)">TERMS & PRIVACY</span></span></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1444117623046-1108',
     'class' => 'c24 upfront-plain_txt',

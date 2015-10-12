@@ -456,8 +456,6 @@ $region_3->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-services/wave-line (1).png',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -501,6 +499,14 @@ $region_3->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1408528311776-1623',
     'row' => 2,
     'anchor' => '',
@@ -911,7 +917,7 @@ $region_4->add_element("Button", array (
   'id' => 'module-1414743692979-1953',
   'options' => 
   array (
-    'content' => 'Contact Us',
+    'content' => 'CONTACT US',
     'href' => '{{upfront:home_url}}/contactus/',
     'align' => 'center',
     'type' => 'ButtonModel',
@@ -920,9 +926,15 @@ $region_4->add_element("Button", array (
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
-    'currentpreset' => 'medium-button',
+    'link' => 
+    (array)(array(
+       'type' => 'entry',
+       'url' => '{{upfront:home_url}}/contactus/',
+       'target' => '_self',
+    )),
+    'currentpreset' => 'default',
     'row' => 6,
-    'theme_style' => 'button-style',
+    'theme_style' => 'uf-button-spirit',
     'is_edited' => true,
     'linkTarget' => '_self',
   ),
@@ -1265,6 +1277,15 @@ $region_5->add_element("Ugallery", array (
            'top' => 0,
         )),
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery2.jpg',
+           'target' => '',
+        )),
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery2.jpg',
+         'imageLinkTarget' => '',
       )),
       1 => 
       (array)(array(
@@ -1372,6 +1393,15 @@ $region_5->add_element("Ugallery", array (
            'top' => 0,
         )),
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery3.jpg',
+           'target' => '',
+        )),
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery3.jpg',
+         'imageLinkTarget' => '',
       )),
       2 => 
       (array)(array(
@@ -1479,6 +1509,15 @@ $region_5->add_element("Ugallery", array (
            'top' => 0,
         )),
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery7.jpg',
+           'target' => '',
+        )),
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery7.jpg',
+         'imageLinkTarget' => '',
       )),
       3 => 
       (array)(array(
@@ -1586,6 +1625,15 @@ $region_5->add_element("Ugallery", array (
            'top' => 0,
         )),
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery9.jpg',
+           'target' => '',
+        )),
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery9.jpg',
+         'imageLinkTarget' => '',
       )),
       4 => 
       (array)(array(
@@ -1693,6 +1741,15 @@ $region_5->add_element("Ugallery", array (
            'top' => 0,
         )),
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery11.jpg',
+           'target' => '',
+        )),
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery11.jpg',
+         'imageLinkTarget' => '',
       )),
     ),
     'elementSize' => 
@@ -1719,6 +1776,21 @@ $region_5->add_element("Ugallery", array (
     array (
     ),
     'thumbPadding' => 50,
+    'lightbox_show_close' => 
+    array (
+      0 => 'true',
+    ),
+    'lightbox_show_image_count' => 
+    array (
+      0 => 'true',
+    ),
+    'lightbox_click_out_close' => 
+    array (
+      0 => 'true',
+    ),
+    'lightbox_active_area_bg' => 'rgba(255,255,255,1)',
+    'lightbox_overlay_bg' => 'rgba(0,0,0,0.2)',
+    'styles' => '',
     'fitThumbCaptions' => false,
     'thumbCaptionsHeight' => 20,
     'element_id' => 'ugallery-object-1421730873246-1959',
@@ -2054,8 +2126,6 @@ $region_6->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-services/wave-line (1).png',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -2099,6 +2169,14 @@ $region_6->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1408526143438-1263',
     'row' => 2,
     'anchor' => '',
@@ -2244,6 +2322,11 @@ $region_11 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -2485,7 +2568,7 @@ $region_7 = upfront_create_region(
   'row' => 68,
   'background_type' => 'image',
   'nav_region' => '',
-  'background_color' => 'rgba(196,212,212,1)',
+  'background_color' => 'rgba(255,255,255,1)',
   'background_style' => 'fixed',
   'background_position_y' => '100',
   'background_position_x' => '50',
@@ -2531,6 +2614,11 @@ $region_7 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -2772,7 +2860,7 @@ $region_8 = upfront_create_region(
   'row' => 68,
   'background_type' => 'image',
   'nav_region' => '',
-  'background_color' => 'rgba(246,246,246,1)',
+  'background_color' => 'rgba(255,255,255,1)',
   'background_style' => 'fixed',
   'background_position_y' => '100',
   'background_position_x' => '50',
@@ -2818,6 +2906,11 @@ $region_8 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
