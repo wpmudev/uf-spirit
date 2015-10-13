@@ -5,7 +5,7 @@ $region_5 = upfront_create_region(
 			array (
   'name' => 'region-5',
   'title' => 'Region 5',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'region-5',
   'position' => 1,
@@ -41,6 +41,11 @@ $region_5 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 

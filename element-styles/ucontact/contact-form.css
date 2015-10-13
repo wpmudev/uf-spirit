@@ -39,21 +39,26 @@
      background: #FFFFFF;
 }
 #page .contact-form button[type="submit"] {
-    background:#69a8a6;
-    color: #FFFFFF;
+    background:#ufc0;
+    border-bottom: 3px solid #ufc1;
     border-radius: 4px;
-    border: 0px;
-    border-bottom:3px solid #548685;
-    padding: 4px 25px;
-    font-size: 24px;
-    display: inline-block;
-    text-decoration: none; 
-    float : right;
-    font: 24px 'Open Sans', Arial;
-    width: auto;
+    color: #ufc6;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1em;
+    min-width: 150px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-transition: background-color .4s;
+    -ms-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    -webkit-transition: background-color .4s;
+    transition: background-color .4s;
 }
 #page .contact-form button[type="submit"]:hover {
-   background: #548685;
+   background: #ufc1;
 }
 #page .contact-form .upfront-contact-form-title {
  font: 30px/35px Open Sans, Arial;

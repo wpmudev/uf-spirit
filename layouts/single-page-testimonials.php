@@ -5,7 +5,7 @@ $region_5 = upfront_create_region(
 			array (
   'name' => 'region-5',
   'title' => 'Region 5',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'region-5',
   'position' => 1,
@@ -79,6 +79,11 @@ $region_5 = upfront_create_region(
        'background_type' => 'image',
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -360,7 +365,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">Candy canes croissant halvah sesame snaps topping candy powder jelly. Sugar plum brownie lemon drops lollipop. Toffee carrot cake croissant fruitcake sesame snaps jujubes icing cookie. Ice cream powder cotton candy chupa chups ice cream.</p>',
+    'content' => '<p class="" style="text-align: center;">Vivamus sollicitudin lectus faucibus dolor viverra mollis. Nullam feugiat arcu et felis facilisis pretium. Donec viverra purus nec lobortis scelerisque.</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525051696-1392',
     'class' => 'c24 upfront-plain_txt',
@@ -531,8 +536,6 @@ $region_4->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial1.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -576,6 +579,14 @@ $region_4->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1408445992396-1972',
     'row' => 6,
     'theme_style' => 'circle',
@@ -831,8 +842,6 @@ $region_4->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial2.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -876,6 +885,14 @@ $region_4->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1408532655407-1772',
     'row' => 6,
     'theme_style' => 'circle',
@@ -1132,8 +1149,6 @@ $region_4->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial3.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -1177,6 +1192,14 @@ $region_4->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1408532743173-1204',
     'row' => 6,
     'theme_style' => 'circle',

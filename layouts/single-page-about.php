@@ -5,7 +5,7 @@ $region_8 = upfront_create_region(
 			array (
   'name' => 'region-8',
   'title' => 'Region 8',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'region-8',
   'position' => 1,
@@ -19,7 +19,7 @@ $region_8 = upfront_create_region(
   'background_style' => 'full',
   'background_position_y' => '0',
   'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/single-page-about/About-Bg (1).jpg',
+  'background_image' => '{{upfront:style_url}}/images/single-page-about/about.jpg',
   'background_image_ratio' => 0.560000000000000053290705182007513940334320068359375,
   'background_repeat' => 'no-repeat',
   'background_position' => '50% 0%',
@@ -67,6 +67,11 @@ $region_8 = upfront_create_region(
        'row' => 120,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -74,7 +79,7 @@ $region_8->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '63',
+  'margin_top' => '67',
   'margin_bottom' => '0',
   'class' => 'module-1408525024897-1934',
   'id' => 'module-1408525024897-1934',
@@ -82,7 +87,7 @@ $region_8->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 class="" style="text-align: center;">ABOUT MEG</h1>',
+    'content' => '<h1 class="" style="text-align: center;">ABOUT</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525024896-1770',
     'class' => 'c24 upfront-plain_txt',
@@ -349,7 +354,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">Candy canes croissant halvah sesame snaps topping candy powder jelly. Sugar plum brownie lemon drops lollipop. Toffee carrot cake croissant fruitcake sesame snaps jujubes icing cookie. Ice cream powder cotton candy chupa chups ice cream.</p>',
+    'content' => '<p class="" style="text-align: center;">Donec posuere, eros in venenatis malesuada, metus leo blandit nunc, ut efficitur libero leo eu massa. Vestibulum sed accumsan metus.</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525051696-1392',
     'class' => 'c24 upfront-plain_txt',
@@ -1348,7 +1353,7 @@ $region_6->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">MEG\'S QUALIFICATION</h2>',
+    'content' => '<h2 class="" style="text-align: center;">QUALIFICATION</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408526265803-1956',
     'class' => 'c24 upfront-plain_txt',

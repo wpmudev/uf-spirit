@@ -316,7 +316,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">Candy canes croissant halvah sesame snaps topping candy powder jelly. Sugar plum brownie lemon drops lollipop. Toffee carrot cake croissant fruitcake sesame snaps jujubes icing cookie. Ice cream powder cotton candy chupa chups ice cream.</p>',
+    'content' => '<p class="" style="text-align: center;">Proin nulla est, molestie quis dignissim eleifend, fermentum sit amet nunc. Nam imperdiet lacinia velit non dictum. Vestibulum fringilla lorem ipsum, id ultricies nibh rhoncus ornare.</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525051696-1392',
     'class' => 'c24 upfront-plain_txt',

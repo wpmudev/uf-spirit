@@ -5,7 +5,7 @@ $region_10 = upfront_create_region(
 			array (
   'name' => 'region-10',
   'title' => 'Region 10',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'region-10',
   'position' => 1,
@@ -19,8 +19,8 @@ $region_10 = upfront_create_region(
   'background_style' => 'full',
   'background_position_y' => '0',
   'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/single-page-services/Services-Bg.jpg',
-  'background_image_ratio' => 0.25,
+  'background_image' => '{{upfront:style_url}}/images/single-page-services/services.jpg',
+  'background_image_ratio' => 0.270000000000000017763568394002504646778106689453125,
   'background_repeat' => 'no-repeat',
   'background_position' => '50% 0%',
   'breakpoint' => 
@@ -67,6 +67,11 @@ $region_10 = upfront_create_region(
        'row' => 34,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -602,7 +607,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">Candy canes croissant halvah sesame snaps topping candy powder jelly. Sugar plum brownie lemon drops lollipop. Toffee carrot cake croissant fruitcake sesame snaps jujubes icing</p>',
+    'content' => '<p class="" style="text-align: center;">Vivamus sollicitudin lectus faucibus dolor viverra mollis. Nullam feugiat arcu et felis facilisis pretium.</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525051696-1392',
     'class' => 'c24 upfront-plain_txt',

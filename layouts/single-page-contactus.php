@@ -5,7 +5,7 @@ $region_2 = upfront_create_region(
 			array (
   'name' => 'region-2',
   'title' => 'Region 2',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'region-2',
   'position' => 1,
@@ -66,6 +66,11 @@ $region_2 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -177,7 +182,7 @@ $region_2->add_element("Ucontact", array (
   'columns' => '14',
   'margin_left' => '5',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '8',
   'margin_bottom' => '0',
   'class' => 'module-1421844167386-1549',
   'id' => 'module-1421844167386-1549',

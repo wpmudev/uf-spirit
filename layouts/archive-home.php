@@ -474,7 +474,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">ABOUT</h2>',
+    'content' => '<h2 class="" style="text-align: center;">WELLNESS REVOLUTION</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408440367585-1051',
     'class' => 'c24 upfront-plain_txt',
@@ -1015,7 +1015,7 @@ $region_4 = upfront_create_region(
   'row' => 64,
   'background_type' => 'color',
   'nav_region' => '',
-  'background_color' => 'rgba(250,250,250,1)',
+  'background_color' => 'rgba(255,255,255,1)',
   'background_style' => 'fixed',
   'background_position_y' => '100',
   'background_position_x' => '50',
@@ -1065,6 +1065,11 @@ $region_4 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -1752,87 +1757,6 @@ $region_12->add_element("PlainTxt", array (
   ),
 ));
 
-$region_12->add_element("Button", array (
-  'columns' => '4',
-  'margin_left' => '19',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1424332769457-1465',
-  'id' => 'module-1424332769457-1465',
-  'options' => 
-  array (
-    'content' => 'FIND OUT MORE',
-    'href' => '',
-    'align' => 'center',
-    'type' => 'ButtonModel',
-    'view_class' => 'ButtonView',
-    'element_id' => 'button-object-1424332769457-1864',
-    'class' => 'c24 upfront-button',
-    'has_settings' => 1,
-    'id_slug' => 'button',
-    'link' => 
-    (array)(array(
-       'type' => 'unlink',
-       'url' => '',
-       'target' => false,
-    )),
-    'currentpreset' => 'default',
-    'row' => 6,
-    'theme_style' => 'uf-button-spirit',
-    'is_edited' => true,
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1424332977930-1974',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 8,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'col' => 11,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 4,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-      'order' => 0,
-    ),
-  ),
-));
-
 $regions->add($region_12);
 
 $region_5 = upfront_create_region(
@@ -2141,87 +2065,6 @@ $region_5->add_element("PlainTxt", array (
   ),
 ));
 
-$region_5->add_element("Button", array (
-  'columns' => '4',
-  'margin_left' => '11',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1424332978067-1283',
-  'id' => 'module-1424332978067-1283',
-  'options' => 
-  array (
-    'content' => 'FIND OUT MORE',
-    'href' => '',
-    'align' => 'center',
-    'type' => 'ButtonModel',
-    'view_class' => 'ButtonView',
-    'element_id' => 'button-object-1424332978067-1506',
-    'class' => 'c24 upfront-button',
-    'has_settings' => 1,
-    'id_slug' => 'button',
-    'link' => 
-    (array)(array(
-       'type' => 'unlink',
-       'url' => '',
-       'target' => false,
-    )),
-    'currentpreset' => 'default',
-    'row' => 6,
-    'theme_style' => 'uf-button-spirit',
-    'is_edited' => true,
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1424334726574-1331',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 8,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'col' => 11,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 4,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-      'order' => 0,
-    ),
-  ),
-));
-
 $regions->add($region_5);
 
 $region_6 = upfront_create_region(
@@ -2526,87 +2369,6 @@ $region_6->add_element("PlainTxt", array (
       'col' => 11,
       'top' => 0,
       'row' => 28,
-    ),
-  ),
-));
-
-$region_6->add_element("Button", array (
-  'columns' => '4',
-  'margin_left' => '19',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1424334726740-1517',
-  'id' => 'module-1424334726740-1517',
-  'options' => 
-  array (
-    'content' => 'FIND OUT MORE',
-    'href' => '',
-    'align' => 'center',
-    'type' => 'ButtonModel',
-    'view_class' => 'ButtonView',
-    'element_id' => 'button-object-1424334726739-1498',
-    'class' => 'c24 upfront-button',
-    'has_settings' => 1,
-    'id_slug' => 'button',
-    'link' => 
-    (array)(array(
-       'type' => 'unlink',
-       'url' => '',
-       'target' => false,
-    )),
-    'currentpreset' => 'default',
-    'row' => 6,
-    'theme_style' => 'uf-button-spirit',
-    'is_edited' => true,
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1424334749909-1536',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 8,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'col' => 11,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 4,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-      'order' => 0,
     ),
   ),
 ));
@@ -2941,9 +2703,11 @@ $region_7->add_element("Button", array (
     'id_slug' => 'button',
     'link' => 
     (array)(array(
-       'type' => 'unlink',
-       'url' => '',
+       'type' => 'entry',
+       'url' => '{{upfront:home_url}}/services/',
        'target' => false,
+       'object' => 'page',
+       'object_id' => 11,
     )),
     'currentpreset' => 'default',
     'row' => 6,
@@ -4356,7 +4120,7 @@ $region_9->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'theme_style' => 'remove-top-space',
+    'theme_style' => '_default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4477,9 +4241,9 @@ $region_9->add_element("Code", array (
 .newsletter-form input[type="email"] {
   width: 37%;   
   float: left;
-  padding: 12px 10px;
+  padding: 10px;
   box-sizing: border-box;
-  font: 16px Open Sans, Arial;
+  font: 16px \'Open Sans\', Arial;
   color: #707070;
   background: #FFFFFF;
   outline: 0px;
@@ -4495,28 +4259,35 @@ $region_9->add_element("Code", array (
 
 
 .newsletter-form input[type="submit"] {
-    background:#69a8a6;
-    color: #FFFFFF;
+    background: #ufc0;
+    border-bottom: 3px solid #ufc1;
     border-radius: 4px;
-    border: 0px;
-    border-bottom:3px solid #548685;
-    padding: 5px 25px;
-    font-size: 24px;
+    color: #ufc6;
     display: inline-block;
-    text-decoration: none; 
-    float : right;
-    font: 24px Open Sans, Arial;
-    width: 20%;
+    font-family: \'Oswald\', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1em;
+    margin-top: 2px;
+    min-width: 150px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-transition: background-color .4s;
+    -ms-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    -webkit-transition: background-color .4s;
+    transition: background-color .4s;
 }
 .newsletter-form input[type="submit"]:hover {
-   background: #548685;
+   background: #ufc1;
 }
 
 ',
     'script' => '/* Your code here */',
-    'row' => 5,
+    'row' => 9,
   ),
-  'row' => 6,
+  'row' => 9,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408629844073-1942',
   'new_line' => true,
