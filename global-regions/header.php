@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_df36c5 = upfront_create_region(
+$region_3743bb = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -60,7 +60,7 @@ $region_df36c5 = upfront_create_region(
 )
 			);
 
-$region_df36c5->add_element("Uimage", array (
+$region_3743bb->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -122,8 +122,8 @@ $region_df36c5->add_element("Uimage", array (
     'image_link' => '{{upfront:home_url}}/',
     'link' => 
     (array)(array(
-       'type' => 'homepage',
-       'url' => '{{upfront:home_url}}',
+       'type' => 'external',
+       'url' => '{{upfront:home_url}}/',
        'target' => false,
     )),
     'row' => -1,
@@ -152,12 +152,15 @@ $region_df36c5->add_element("Uimage", array (
     array (
       'col' => 3,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 3,
       'order' => 0,
       'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -200,7 +203,7 @@ $region_df36c5->add_element("Uimage", array (
       'edited' => true,
       'left' => 0,
       'col' => 3,
-      'top' => 2,
+      'top' => 1,
     ),
     'custom-1408718098456' => 
     array (
@@ -214,7 +217,7 @@ $region_df36c5->add_element("Uimage", array (
       'edited' => true,
       'left' => 0,
       'col' => 3,
-      'top' => 3,
+      'top' => 2,
     ),
     'custom-1410780542364' => 
     array (
@@ -234,7 +237,7 @@ $region_df36c5->add_element("Uimage", array (
   ),
 ));
 
-$region_df36c5->add_element("Unewnavigation", array (
+$region_3743bb->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -253,110 +256,110 @@ $region_df36c5->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 21,
+         'menu-item-db-id' => 14,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
-         'menu-item-title' => 'SERVICES',
-         'menu-item-url' => '{{upfront:home_url}}/services/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '11',
-         'menu-item-target' => '_self',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'About',
+         'menu-item-url' => '{{upfront:home_url}}/about/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '14',
+         'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
-           'url' => '{{upfront:home_url}}/services/',
-           'target' => '_self',
+           'url' => '{{upfront:home_url}}/about/',
+           'target' => '',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 12,
+         'menu-item-db-id' => 15,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
-         'menu-item-title' => 'About',
-         'menu-item-url' => '{{upfront:home_url}}/about/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '7',
-         'menu-item-target' => '_self',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'Gallery',
+         'menu-item-url' => '{{upfront:home_url}}/gallery/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '15',
+         'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
         (array)(array(
            'type' => 'entry',
-           'url' => '{{upfront:home_url}}/about/',
-           'target' => '_self',
+           'url' => '{{upfront:home_url}}/gallery/',
+           'target' => '',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 15,
+         'menu-item-db-id' => 16,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
-         'menu-item-title' => 'Testimonials',
-         'menu-item-url' => '{{upfront:home_url}}/testimonials/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '5',
-         'menu-item-target' => '_self',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'SERVICES',
+         'menu-item-url' => '{{upfront:home_url}}/services/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '16',
+         'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
         (array)(array(
            'type' => 'entry',
-           'url' => '{{upfront:home_url}}/testimonials/',
-           'target' => '_self',
+           'url' => '{{upfront:home_url}}/services/',
+           'target' => '',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 14,
+         'menu-item-db-id' => 17,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
-         'menu-item-title' => 'Gallery',
-         'menu-item-url' => '{{upfront:home_url}}/gallery/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '10',
-         'menu-item-target' => '_self',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'Testimonials',
+         'menu-item-url' => '{{upfront:home_url}}/testimonials/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '17',
+         'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'entry',
-           'url' => '{{upfront:home_url}}/gallery/',
-           'target' => '_self',
+           'url' => '{{upfront:home_url}}/testimonials/',
+           'target' => '',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 13,
+         'menu-item-db-id' => 18,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
-         'menu-item-title' => 'NEWS',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'Blog',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '6',
-         'menu-item-target' => '_self',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '18',
+         'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/blog/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       5 => 
       (array)(array(
-         'menu-item-db-id' => 17,
+         'menu-item-db-id' => 19,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
+         'menu-item-type' => 'custom',
          'menu-item-title' => 'Contactus',
          'menu-item-url' => '{{upfront:home_url}}/contactus/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '8',
-         'menu-item-target' => '_self',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '19',
+         'menu-item-target' => '',
          'menu-item-position' => 6,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/contactus/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
     ),
@@ -387,13 +390,15 @@ $region_df36c5->add_element("Unewnavigation", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 2,
+         'row' => 9,
          'width' => 570,
          'burger_menu' => 'yes',
          'burger_alignment' => 'whole',
          'burger_over' => 'over',
          'menu_style' => 'horizontal',
-         'menu_alignment' => 'left',
+         'menu_alignment' => 'center',
+         'theme_style' => '_default',
+         'is_floating' => 'no',
       )),
        'desktop' => 
       (array)(array(
@@ -411,10 +416,12 @@ $region_df36c5->add_element("Unewnavigation", array (
          'burger_menu' => 'yes',
          'width' => 315,
          'row' => 5,
-         'burger_alignment' => 'top',
+         'burger_alignment' => 'whole',
          'burger_over' => 'over',
          'menu_style' => 'horizontal',
-         'menu_alignment' => 'left',
+         'menu_alignment' => 'center',
+         'is_floating' => 'no',
+         'theme_style' => '_default',
       )),
        'custom-1410783042947' => 
       (array)(array(
@@ -436,14 +443,17 @@ $region_df36c5->add_element("Unewnavigation", array (
   array (
     'tablet' => 
     array (
-      'col' => 2,
-      'order' => 0,
+      'col' => 4,
+      'order' => 2,
+      'clear' => false,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 4,
-      'order' => 0,
+      'order' => 1,
       'clear' => false,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -486,9 +496,9 @@ $region_df36c5->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
+      'left' => 2,
       'col' => 2,
-      'row' => 8,
+      'row' => 9,
       'top' => 0,
     ),
     'custom-1408718098456' => 
@@ -525,7 +535,7 @@ $region_df36c5->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_df36c5->add_element("Code", array (
+$region_3743bb->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -554,10 +564,9 @@ $region_df36c5->add_element("Code", array (
   <li><a class="social-icon twitter" href="http://twitter.com"></a></li>
 </ul>',
     'style' => '.socials {
-    height: 34px;
     list-style: none;
     padding: 0px;
-    margin: 0px;
+    margin: -3px 0px;
 }
 .socials li {
     display: inline-block;
@@ -612,14 +621,17 @@ $region_df36c5->add_element("Code", array (
   array (
     'tablet' => 
     array (
-      'col' => 7,
-      'order' => 0,
+      'col' => 5,
+      'order' => 1,
+      'clear' => false,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 6,
-      'order' => 0,
+      'order' => 2,
       'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -664,6 +676,7 @@ $region_df36c5->add_element("Code", array (
       'col' => 4,
       'top' => 0,
       'row' => 13,
+      'hide' => 1,
     ),
     'custom-1408718098456' => 
     array (
@@ -697,6 +710,6 @@ $region_df36c5->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_df36c5);
+$regions->add($region_3743bb);
 
 /* END_REGION_OUTPUT */
