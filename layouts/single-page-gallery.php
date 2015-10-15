@@ -421,7 +421,7 @@ $region_4 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 118,
+  'row' => 73,
   'breakpoint' => 
   (array)(array(
      'custom-1408717728290' => 
@@ -460,6 +460,13 @@ $region_4 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'background_type' => 'color',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'background_color' => '#ffffff',
 )
 			);
 
@@ -1959,68 +1966,6 @@ $region_4->add_element("Ugallery", array (
 ));
 
 $regions->add($region_4);
-
-$region_5 = upfront_create_region(
-			array (
-  'name' => 'region-5',
-  'title' => 'Region 5',
-  'type' => 'wide',
-  'scope' => 'local',
-  'container' => 'region-5',
-  'position' => 1,
-  'allow_sidebar' => true,
-),
-			array (
-  'row' => 16,
-  'breakpoint' => 
-  (array)(array(
-     'custom-1408717728290' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717918354' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717978058' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408718022181' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'tablet' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'custom-1408718098456' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'mobile' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'custom-1410783042947' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-  )),
-  'background_type' => 'color',
-  'use_padding' => 0,
-  'sub_regions' => 
-  array (
-    0 => false,
-  ),
-  'background_color' => '#ffffff',
-)
-			);
-
-$regions->add($region_5);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 

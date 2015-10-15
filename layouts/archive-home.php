@@ -404,7 +404,7 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 93,
+  'row' => 60,
   'background_type' => 'color',
   'background_color' => 'rgba(255,255,255,1)',
   'nav_region' => '',
@@ -459,6 +459,11 @@ $main = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -1012,7 +1017,7 @@ $region_4 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 64,
+  'row' => 22,
   'background_type' => 'color',
   'nav_region' => '',
   'background_color' => 'rgba(255,255,255,1)',
@@ -1465,7 +1470,7 @@ $region_12 = upfront_create_region(
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => 'rgba(255,255,255,1)',
-  'background_style' => 'fixed',
+  'background_style' => '',
   'background_position_y' => '97',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/Homepage-Services-Bg.jpg',
@@ -1774,7 +1779,7 @@ $region_5 = upfront_create_region(
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => 'rgba(255,255,255,1)',
-  'background_style' => 'fixed',
+  'background_style' => '',
   'background_position_y' => '100',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/Homepage-Services-Bg1.jpg',

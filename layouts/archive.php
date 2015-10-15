@@ -260,7 +260,7 @@ $region_4 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 60,
+  'row' => 23,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -279,6 +279,13 @@ $region_4 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'background_type' => 'color',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'background_color' => '#ffffff',
 )
 			);
 

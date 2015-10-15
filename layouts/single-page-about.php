@@ -12,7 +12,7 @@ $region_8 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 154,
+  'row' => 140,
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => '#ffffff',
@@ -79,7 +79,7 @@ $region_8->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '67',
+  'margin_top' => '57',
   'margin_bottom' => '0',
   'class' => 'module-1408525024897-1934',
   'id' => 'module-1408525024897-1934',
@@ -1607,7 +1607,7 @@ $region_7 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 120,
+  'row' => 28,
   'breakpoint' => 
   (array)(array(
      'custom-1408717728290' => 
@@ -1653,6 +1653,11 @@ $region_7 = upfront_create_region(
   'background_type' => 'color',
   'nav_region' => '',
   'background_color' => '#ffffff',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
