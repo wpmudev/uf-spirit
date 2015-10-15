@@ -4287,7 +4287,7 @@ $region_9->add_element("Code", array (
     'script' => '/* Your code here */',
     'row' => 9,
   ),
-  'row' => 9,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408629844073-1942',
   'new_line' => true,
