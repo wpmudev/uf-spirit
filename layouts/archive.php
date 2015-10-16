@@ -249,13 +249,13 @@ $region_3->add_element("PlainTxt", array (
 
 $regions->add($region_3);
 
-$region_4 = upfront_create_region(
+$archive_content = upfront_create_region(
 			array (
-  'name' => 'region-4',
-  'title' => 'Region 4',
+  'name' => 'archive-content',
+  'title' => 'Archive Content',
   'type' => 'wide',
   'scope' => 'local',
-  'container' => 'region-4',
+  'container' => 'archive-content',
   'position' => 1,
   'allow_sidebar' => true,
 ),
@@ -289,7 +289,7 @@ $region_4 = upfront_create_region(
 )
 			);
 
-$region_4->add_element("Posts", array (
+$archive_content->add_element("Posts", array (
   'columns' => '18',
   'margin_left' => '2',
   'margin_right' => '0',
@@ -310,7 +310,7 @@ $region_4->add_element("Posts", array (
     'taxonomy' => '',
     'term' => '',
     'content' => 'excerpt',
-    'limit' => 10,
+    'limit' => '4',
     'pagination' => 'numeric',
     'sticky' => '',
     'posts_list' => '',
@@ -318,23 +318,17 @@ $region_4->add_element("Posts", array (
     array (
       0 => 'date_posted',
       1 => 'title',
-      2 => 'categories',
-      3 => 'author',
-      4 => 'comment_count',
-      5 => 'featured_image',
-      6 => 'content',
-      7 => 'read_more',
+      2 => 'author',
+      3 => 'content',
+      4 => 'read_more',
     ),
     'enabled_post_parts' => 
     array (
       0 => 'date_posted',
       1 => 'author',
-      2 => 'comment_count',
-      3 => 'featured_image',
-      4 => 'title',
-      5 => 'content',
-      6 => 'read_more',
-      7 => 'categories',
+      2 => 'title',
+      3 => 'content',
+      4 => 'read_more',
     ),
     'default_parts' => 
     array (
@@ -357,7 +351,7 @@ $region_4->add_element("Posts", array (
     'resize_featured' => '1',
     'gravatar_size' => 200,
     'post-part-date_posted' => '<div class="uposts-part date_posted">
-	{{date_1}}<br />{{date_2}}
+	<span class="date date-day">{{date_1}}</span><span class="date date-month">{{date_2}}</span>
 </div>',
     'post-part-author' => '<div class="uposts-part author">
 	Written By <a href="{{url}}">{{name}}</a></div>',
@@ -390,17 +384,17 @@ $region_4->add_element("Posts", array (
 ',
     'element_id' => 'posts-object-1417752626112-1080',
     'anchor' => '',
-    'theme_style' => 'blog-archive',
-    'row' => 49,
+    'theme_style' => 'uf-uposts-archive',
+    'row' => 42,
     'breakpoint' => 
     (array)(array(
        'mobile' => 
       (array)(array(
-         'theme_style' => 'blog-archive-mobile',
+         'theme_style' => 'uf-uposts-archive',
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 42,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408714949691-1226',
   'new_line' => true,
@@ -448,7 +442,7 @@ $region_4->add_element("Posts", array (
   ),
 ));
 
-$regions->add($region_4);
+$regions->add($archive_content);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 

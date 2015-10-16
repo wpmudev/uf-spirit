@@ -1,0 +1,135 @@
+#page .uf-uposts-archive .uf-post {
+    margin-top: 30px;
+}
+#page .uf-uposts-archive .uf-post:first-child {
+    margin-top: 0;
+}
+#page .uf-uposts-archive .uf-post article {
+    overflow: hidden;
+}
+#page .uf-uposts-archive .date_posted {
+    float: right;
+    margin: 0;
+}
+#page .uf-uposts-archive .date_posted .date {
+    color: #ufc2;
+    display: block;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#page .uf-uposts-archive .date_posted .date-day {
+    font-size: 30px;
+}
+#page .uf-uposts-archive .date_posted .date-month {
+    font-size: 22px;
+}
+#page .uf-uposts-archive .title h3 {
+    margin: 0;
+    max-width: 95%;
+}
+#page .uf-uposts-archive .title h3, #page .uf-uposts-archive .title h3 a {
+    color: #ufc7;
+    font-size: 26px;
+    font-style: normal;
+    letter-spacing: -.2px;
+    line-height: 1em;
+    text-transform: uppercase;
+    -moz-transition: color .4s;
+    -ms-transition: color .4s;
+    -o-transition: color .4s;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+}
+#page .uf-uposts-archive .title h3 a:hover {
+    color: #ufc0;
+}
+#page .uf-uposts-archive .author, #page .uf-uposts-archive .author a {
+    color: #ufc2;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+#page .uf-uposts-archive .author a:hover {
+    text-decoration: underline;
+}
+#page .uf-uposts-archive .author {
+    margin-bottom: 30px;
+    position: relative;
+}
+#page .uf-uposts-archive .author:after {
+    background: #ufc3;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 15px 0 0;
+    width: 100%;
+}
+#page .uf-uposts-archive .content {
+    margin-bottom: 30px;
+}
+#page .uf-uposts-archive .content p {
+    font-size: 18px;
+    line-height: 30px;
+}
+#page .uf-uposts-archive .read_more {
+    margin: 0;
+}
+#page .uf-uposts-archive .read_more a {
+    color: #ufc0;
+    font-size: 16px;
+    line-height: 25px;
+    -moz-transition: color .4s;
+    -ms-transition: color .4s;
+    -o-transition: color .4s;
+    -webkit-transition: color .4s;
+}
+#page .uf-uposts-archive .read_more a:hover {
+    color: #ufc1;
+}
+#page .uf-uposts-archive .uf-pagination {
+    border-top: 1px solid #ufc3;
+    margin-top: 60px;
+    overflow: hidden;
+    padding-top: 20px;
+    text-align: center;
+}
+#page .uf-uposts-archive .uf-pagination .page-numbers {
+    color: #ufc7;
+    display: inline-block;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    height: 45px;
+    line-height: 45px;
+    -moz-transition: color .4s;
+    -ms-transition: color .4s;
+    -o-transition: color .4s;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+    width: 45px;
+}
+#page .uf-uposts-archive .uf-pagination .page-numbers.current {
+    border-radius: 50%;
+    border: 1px solid #ufc0;
+    color: #ufc0;
+}
+#page .uf-uposts-archive .uf-pagination .page-numbers.prev, #page .uf-uposts-archive .uf-pagination .page-numbers.next {
+    height: auto;
+    line-height: 25px;
+    margin: 10px 0 0;
+    width: auto;
+}
+#page .uf-uposts-archive .uf-pagination .page-numbers.prev:hover, #page .uf-uposts-archive .uf-pagination .page-numbers.next:hover {
+    color: #ufc0;
+}
+#page .uf-uposts-archive .uf-pagination .page-numbers.prev {
+    float: left;
+}
+#page .uf-uposts-archive .uf-pagination .page-numbers.next {
+    float: right;
+}
