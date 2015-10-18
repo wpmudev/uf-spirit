@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_67ac9d = upfront_create_region(
+$region_7498d3 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -60,7 +60,7 @@ $region_67ac9d = upfront_create_region(
 )
 			);
 
-$region_67ac9d->add_element("Uimage", array (
+$region_7498d3->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -237,7 +237,7 @@ $region_67ac9d->add_element("Uimage", array (
   ),
 ));
 
-$region_67ac9d->add_element("Unewnavigation", array (
+$region_7498d3->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -256,110 +256,110 @@ $region_67ac9d->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 21,
+         'menu-item-db-id' => 65,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
+         'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '{{upfront:home_url}}/services/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '11',
-         'menu-item-target' => '_self',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '65',
+         'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/services/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 12,
+         'menu-item-db-id' => 66,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
+         'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '{{upfront:home_url}}/about/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '7',
-         'menu-item-target' => '_self',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '66',
+         'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/about/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 15,
+         'menu-item-db-id' => 67,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
+         'menu-item-type' => 'custom',
          'menu-item-title' => 'Testimonials',
          'menu-item-url' => '{{upfront:home_url}}/testimonials/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '5',
-         'menu-item-target' => '_self',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '67',
+         'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/testimonials/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 14,
+         'menu-item-db-id' => 68,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
+         'menu-item-type' => 'custom',
          'menu-item-title' => 'Gallery',
          'menu-item-url' => '{{upfront:home_url}}/gallery/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '10',
-         'menu-item-target' => '_self',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '68',
+         'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/gallery/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 13,
+         'menu-item-db-id' => 69,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
+         'menu-item-type' => 'custom',
          'menu-item-title' => 'NEWS',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '6',
-         'menu-item-target' => '_self',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '69',
+         'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/blog/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       5 => 
       (array)(array(
-         'menu-item-db-id' => 17,
+         'menu-item-db-id' => 70,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'post_type',
+         'menu-item-type' => 'custom',
          'menu-item-title' => 'Contactus',
          'menu-item-url' => '{{upfront:home_url}}/contactus/',
-         'menu-item-object' => 'page',
-         'menu-item-object-id' => '8',
-         'menu-item-target' => '_self',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '70',
+         'menu-item-target' => '',
          'menu-item-position' => 6,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/contactus/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
     ),
@@ -535,7 +535,7 @@ $region_67ac9d->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_67ac9d->add_element("Code", array (
+$region_7498d3->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -559,9 +559,9 @@ $region_67ac9d->add_element("Code", array (
     'element_id' => 'upfront-code_element-object-1408627223294-1046',
     'code_selection_type' => 'Create',
     'markup' => '<ul class="socials">
-  <li><a class="social-icon youtube" href="http://youtube.com"></a></li>
-  <li><a class="social-icon facebook" href="http://facebook.com"></a></li>
-  <li><a class="social-icon twitter" href="http://twitter.com"></a></li>
+  <li><a class="social-icon youtube" href="http://youtube.com" target="_blank"></a></li>
+  <li><a class="social-icon facebook" href="http://facebook.com" target="_blank"></a></li>
+  <li><a class="social-icon twitter" href="http://twitter.com" target="_blank"></a></li>
 </ul>',
     'style' => '.socials {
     height: 34px;
@@ -711,6 +711,6 @@ $region_67ac9d->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_67ac9d);
+$regions->add($region_7498d3);
 
 /* END_REGION_OUTPUT */
