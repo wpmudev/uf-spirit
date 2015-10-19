@@ -1,13 +1,9 @@
 <?php
 return array(
 	'typography' => '{"h1":{"weight":"300","style":"normal","size":"120","line_height":"1.1","font_face":"Open Sans","font_family":"sans-serif","color":"rgba(255,255,255,1)","theme_color_class":"upfront_theme_color_6"},"h2":{"weight":"600","style":"normal","size":"26","line_height":"1.1","font_face":"Open Sans","font_family":"sans-serif","color":"rgba(0,0,0,1)","theme_color_class":"upfront_theme_color_7"},"h3":{"weight":"600","style":"normal","size":"22","line_height":"1.1","font_face":"Open Sans","font_family":"sans-serif","color":"rgba(0,0,0,1)","theme_color_class":"upfront_theme_color_7"},"h4":{"weight":"600","style":"normal","size":"20","line_height":"1.1","font_face":"Open Sans","font_family":"sans-serif","color":"rgba(0,0,0,1)","theme_color_class":"upfront_theme_color_7"},"h5":{"weight":"600","style":"normal","size":"18","line_height":"1.1","font_face":"Open Sans","font_family":"sans-serif"},"h6":{"weight":"400","style":"normal","size":"16","line_height":"1.1","font_face":"Open Sans","font_family":"sans-serif"},"p":{"weight":"400","style":"normal","size":"16","line_height":"1.7","font_face":"Open Sans","font_family":"sans-serif","color":"rgba(0,0,0,1)","theme_color_class":"upfront_theme_color_7"},"a":{"weight":"400","style":"italic","size":false,"line_height":false,"font_face":"Open Sans","font_family":"sans-serif","color":"rgba(0,206,141,1)"},"a:hover":{"weight":"400","style":"italic","size":false,"line_height":false,"font_face":"Open Sans","font_family":"sans-serif","color":"rgba(0,0,0,1)","theme_color_class":"upfront_theme_color_7"},"ul":{"weight":"400","style":"normal","size":"16","line_height":"1.6","font_face":"Open Sans","font_family":"sans-serif"},"ol":{"weight":"400","style":"normal","size":"16","line_height":"1.6","font_face":"Open Sans","font_family":"sans-serif"},"blockquote":{"weight":"300","style":"normal","size":"24","line_height":"1.6","font_face":"Oswald","font_family":"sans-serif"},"blockquote.upfront-quote-alternative":{"weight":"400","style":"italic","size":"20","line_height":"1.5","font_face":"Georgia","font_family":"serif","color":"rgba(103,103,103,1)"}}',
-	'layout_style' => ' h1,  h2,  h3,  h4,  h5,  h6 {
+	'layout_style' => 'h1,  h2,  h3,  h4,  h5,  h6 {
  margin-top: 0px;
  margin-bottom: 0px;
-}
- h1.post_title {
- text-align: center;
- text-transform: uppercase;
 }
  .icon {
   position: relative;
@@ -37,124 +33,6 @@ return array(
 }
  ul,  ol {
     margin-left: 60px;
-}
- .upfront-comment ol {
-  list-style-type: none;
-  margin: 0;
-}
- .upfront-comment ol ol {
-  margin-left: 40px;
-}
- .upfront-comment article.comment {
-  background-color:#f2f2f2;
-  margin-bottom: 60px;
-  min-height: 110px;
-  position: relative;
-}
- .upfront-comment article.comment p {
-  font-size: 14px;
-}
- .upfront-comment article.comment div.comment-content {
-  margin-left:130px;
-  padding-top:32px;
-  padding-bottom: 10px;
-}
- .upfront-comment article.comment header.comment-author {
-  float:left;
-}
- .upfront-comment article.comment header.comment-author img {
-  border-radius: 50%;
-  border: 1px #69a8a6 solid;
-  padding: 2px;
-  margin-left: 25px;
-  margin-top: 40px;
-  width: 70px;
-  height: 70px;
-}
- .upfront-comment article.comment header.comment-author .fn {
-  position: absolute;
-  left: 15px;
-  top: 6px;
-  font-size:12px;
-}
- .upfront-comment article.comment header.comment-author .comment-time {
-  position: absolute;
-  right: 15px;
-  top: 6px;
-  font-size:12px;
-}
- .upfront-comment article.comment .reply {
-  position: absolute;
-  right: 0;
-}
- .upfront-comment article.comment p.edit-link {
-  position: absolute;
-  right:15px;
-  bottom: -10px;
-}
- .upfront-comment article.comment div.reply {
-  position: absolute;
-  bottom: -40px;
-  right: 0;
-}
- .upfront-comment .comment-awaiting-moderation {
-    position: absolute;
-    left: 0;
-    bottom: -60px;
-    font-style: italic;
-}
- .upfront-comment .comment-respond {
-  border-top: 1px #ccc solid;
-}
- .upfront-comment .form-allowed-tags {
-  font-size: 14px;
-}
- .upfront-comment .comment-reply-title {
-  font-weight: 400;
-  text-transform: uppercase;
-}
- form.comment-form textarea,  form.comment-form input[type="text"] {
-  border: 1px #d0d0d0 solid;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 4px 15px;
-}
- form.comment-form input[type="text"] {
-  height: 30px;
-}
- form.comment-form input:focus,  form.comment-form textarea:focus {
-  border-color: #79c1c0;
-}
- form.comment-form p.comment-form-author,  form.comment-form p.comment-form-email {
-  width: 46%;
-  float: left;
-}
- form.comment-form p.comment-form-email {
-  float: right;
-}
- form.comment-form p.comment-form-url {
-  clear: both;
-}
- form.comment-form label {
-  display: block;
-  color:#333;
-}
- form.comment-form input[type="submit"] {
-    background:#69a8a6;
-    color: #FFFFFF;
-    border-radius: 4px;
-    border: 0px;
-    border-bottom:3px solid #4f7e7d;
-    padding: 4px 25px;
-    font-size: 24px;
-    display: inline-block;
-    text-decoration: none; 
-    float : right;
-    font: 24px "Open Sans", Arial;
-    width: auto;
-}
- form.comment-form input[type="submit"]:hover {
-   background: #4f7e7d;
 }
  html {
     -webkit-transition: all 0.3s;
@@ -263,7 +141,10 @@ a img.aligncenter {
 		margin-bottom: 15px;
 	} 
 }
-',
+/* hide featured image (region) when empty */
+.upfront-region-container-content-cover .upfront-region-container-bg.no-featured_image {
+    display: none;
+}',
 	'layout_properties' => '[{"name":"background_color","value":""},{"name":"grid","value":{"column_widths":{"desktop":"45"},"column_paddings":{"desktop":"15"},"baselines":{"desktop":"5"},"type_paddings":{"desktop":"10"}}},{"name":"background_type","value":"color"},{"name":"contained_region_width","value":"1366"},{"name":"use_padding","value":0}]',
 	'theme_colors' => '{"colors":[{"color":"#69a8a6","highlight":"#69a8a6","shade":"#69a8a6","selected":"","luminance":"","prev":"#86b8b7"},{"color":"#548685","highlight":"#548685","shade":"#548685","selected":"","luminance":"","prev":"#69a8a6"},{"color":"#a89084","highlight":"#a89084","shade":"#a89084","selected":"","luminance":"","prev":""},{"color":"#e1e3de","highlight":"#e1e3de","shade":"#e1e3de","selected":"","luminance":"","prev":"#f4f2f5"},{"color":"#e2ded5","highlight":"#e2ded5","shade":"#e2ded5","selected":"","luminance":"","prev":""},{"color":"#00afec","prev":"#00afec","highlight":"#00afec","shade":"#00afec","selected":"","luminance":""},{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","selected":"","luminance":""},{"color":"#000000","prev":"#000000","highlight":"#000000","shade":"#000000","selected":"","luminance":""}],"range":"0"}',
 	'theme_fonts' => '[{"id":"Open Sans300","font":{"family":"Open Sans","category":"sans-serif","variants":["300","300italic","regular","italic","600","600italic","700","700italic","800","800italic"]},"variant":"300","displayVariant":"300 normal"},{"id":"Open Sans300italic","font":{"family":"Open Sans","category":"sans-serif","variants":["300","300italic","regular","italic","600","600italic","700","700italic","800","800italic"]},"variant":"300italic","displayVariant":"300 italic"},{"id":"Open Sansregular","font":{"family":"Open Sans","category":"sans-serif","variants":["300","300italic","regular","italic","600","600italic","700","700italic","800","800italic"]},"variant":"regular","displayVariant":"regular"},{"id":"Open Sansitalic","font":{"family":"Open Sans","category":"sans-serif","variants":["300","300italic","regular","italic","600","600italic","700","700italic","800","800italic"]},"variant":"italic","displayVariant":"italic"},{"id":"Open Sans600","font":{"family":"Open Sans","category":"sans-serif","variants":["300","300italic","regular","italic","600","600italic","700","700italic","800","800italic"]},"variant":"600","displayVariant":"600 normal"},{"id":"Open Sans600italic","font":{"family":"Open Sans","category":"sans-serif","variants":["300","300italic","regular","italic","600","600italic","700","700italic","800","800italic"]},"variant":"600italic","displayVariant":"600 italic"},{"id":"Open Sans700","font":{"family":"Open Sans","category":"sans-serif","variants":["300","300italic","regular","italic","600","600italic","700","700italic","800","800italic"]},"variant":"700","displayVariant":"700 normal"},{"id":"Open Sans700italic","font":{"family":"Open Sans","category":"sans-serif","variants":["300","300italic","regular","italic","600","600italic","700","700italic","800","800italic"]},"variant":"700italic","displayVariant":"700 italic"},{"id":"Oswald300","font":{"family":"Oswald","category":"sans-serif","variants":["300","regular","700"]},"variant":"300","displayVariant":"300 normal"},{"id":"Oswaldregular","font":{"family":"Oswald","category":"sans-serif","variants":["300","regular","700"]},"variant":"regular","displayVariant":"regular"},{"id":"Oswald700","font":{"family":"Oswald","category":"sans-serif","variants":["300","regular","700"]},"variant":"700","displayVariant":"700 normal"}]',

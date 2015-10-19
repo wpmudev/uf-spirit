@@ -1,0 +1,59 @@
+.post_date {
+    color: #ufc2;
+    display: block;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.post_date .date_part_0, .post_date .date_part_1 {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+.post_date .date_part_0 {
+    font-size: 30px;
+}
+.post_date .date_part_1 {
+    font-size: 22px;
+}
+.upfront-postpart-title .post_title, .upfront-postpart-title .post_title a {
+    color: #ufc7;
+    font-size: 26px;
+    font-style: normal;
+    letter-spacing: -.2px;
+    line-height: 1em;
+    text-transform: uppercase;
+    -moz-transition: color .4s;
+    -ms-transition: color .4s;
+    -o-transition: color .4s;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+}
+.upfront-postpart-author a.post_author, .post_author, .post_author a {
+    color: #ufc2;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.upfront-postpart-author a.post_author:hover, .post_author a:hover {
+    color: #ufc2;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+}
+.upfront-postpart-author a.post_author, .post_author {
+    margin-bottom: 30px;
+    position: relative;
+}
+.upfront-postpart-author a.post_author:after, .post_author:after {
+    background: #ufc3;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 15px 0 0;
+    width: 100%;
+}
