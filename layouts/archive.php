@@ -316,19 +316,21 @@ $archive_content->add_element("Posts", array (
     'posts_list' => '',
     'post_parts' => 
     array (
-      0 => 'date_posted',
-      1 => 'title',
-      2 => 'author',
-      3 => 'content',
-      4 => 'read_more',
+      0 => 'featured_image',
+      1 => 'date_posted',
+      2 => 'title',
+      3 => 'author',
+      4 => 'content',
+      5 => 'read_more',
     ),
     'enabled_post_parts' => 
     array (
       0 => 'date_posted',
       1 => 'author',
-      2 => 'title',
-      3 => 'content',
-      4 => 'read_more',
+      2 => 'featured_image',
+      3 => 'title',
+      4 => 'content',
+      5 => 'read_more',
     ),
     'default_parts' => 
     array (
@@ -347,7 +349,7 @@ $archive_content->add_element("Posts", array (
     'categories_limit' => 3,
     'tags_limit' => 3,
     'comment_count_hide' => 0,
-    'content_length' => 120,
+    'content_length' => '25',
     'resize_featured' => '1',
     'gravatar_size' => 200,
     'post-part-date_posted' => '<div class="uposts-part date_posted">
@@ -362,7 +364,7 @@ $archive_content->add_element("Posts", array (
 	Comments / {{comment_count}}
 </div>',
     'post-part-featured_image' => '<div class="uposts-part thumbnail" data-resize="{{resize}}">
-	{{thumbnail}}
+	<a href="{{permalink}}">{{thumbnail}}</a>
 </div>',
     'post-part-title' => '<div class="uposts-part title">
 	<h3><a href="{{permalink}}" title="{{title}}">{{title}}</a></h3>
@@ -394,7 +396,7 @@ $archive_content->add_element("Posts", array (
       )),
     )),
   ),
-  'row' => 42,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408714949691-1226',
   'new_line' => true,

@@ -7,6 +7,33 @@
 #page .uf-uposts-archive .uf-post article {
     overflow: hidden;
 }
+#page .uf-uposts-archive .thumbnail {
+    max-height: 250px;
+    position: relative;
+}
+#page .uf-uposts-archive .thumbnail:after {
+    background-color: #ufc0;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 100%;
+    opacity: 0;
+    margin: auto;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -moz-transition: opacity .4s;
+    -ms-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s;
+    width: 100%;
+}
+#page .uf-uposts-archive .thumbnail:hover:after {
+    opacity: .8;
+}
 #page .uf-uposts-archive .date_posted {
     float: right;
     margin: 0;
@@ -93,7 +120,7 @@
 }
 #page .uf-uposts-archive .uf-pagination {
     border-top: 1px solid #ufc3;
-    margin-top: 60px;
+    margin: 60px 15px 0;
     overflow: hidden;
     padding-top: 20px;
     text-align: center;
