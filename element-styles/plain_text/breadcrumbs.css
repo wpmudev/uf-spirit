@@ -6,11 +6,6 @@
 #page .breadcrumbs p a {
     color: #434343;
     font: 13px 'Oswald', Arial;
-    -moz-transition: color .4s;
-    -ms-transition: color .4s;
-    -o-transition: color .4s;
-    -webkit-transition: color .4s;
-    transition: color .4s;
 }
 #page .breadcrumbs p a:hover {
     color: #a89084;

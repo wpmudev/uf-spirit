@@ -64,11 +64,6 @@
     letter-spacing: -.2px;
     line-height: 1em;
     text-transform: uppercase;
-    -moz-transition: color .4s;
-    -ms-transition: color .4s;
-    -o-transition: color .4s;
-    -webkit-transition: color .4s;
-    transition: color .4s;
 }
 #page .uf-uposts-archive .title h3 a:hover {
     color: #ufc0;
@@ -103,20 +98,16 @@
     font-size: 18px;
     line-height: 30px;
 }
+#page .uf-uposts-archive .content p:last-child {
+    margin-bottom: 0;
+}
 #page .uf-uposts-archive .read_more {
     margin: 0;
 }
 #page .uf-uposts-archive .read_more a {
-    color: #ufc0;
     font-size: 16px;
     line-height: 25px;
-    -moz-transition: color .4s;
-    -ms-transition: color .4s;
-    -o-transition: color .4s;
-    -webkit-transition: color .4s;
-}
-#page .uf-uposts-archive .read_more a:hover {
-    color: #ufc1;
+    font-style: italic;
 }
 #page .uf-uposts-archive .uf-pagination {
     border-top: 1px solid #ufc3;
@@ -133,11 +124,6 @@
     font-weight: 400;
     height: 45px;
     line-height: 45px;
-    -moz-transition: color .4s;
-    -ms-transition: color .4s;
-    -o-transition: color .4s;
-    -webkit-transition: color .4s;
-    transition: color .4s;
     width: 45px;
 }
 #page .uf-uposts-archive .uf-pagination .page-numbers.current {

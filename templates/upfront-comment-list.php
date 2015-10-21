@@ -17,12 +17,23 @@ switch ( $comment->comment_type ){
 <li <?php comment_class(); ?> id="<?php comment_ID(); ?>">
 	<article id="comment-<?php comment_ID(); ?>" class="comment">
         <div class="comment-wrapper">
-            <div class="comment-meta">
-                <?php echo get_avatar($comment, 60); ?>
-            </div>
-            <div class="comment-content">
-                <cite class="fn comment_author"><?php comment_author_link(); ?></cite>
-                <?php comment_text(); ?>
+            <header class="comment-avatar">
+                <?php echo get_avatar($comment, 75); ?>
+            </header>
+            <div class="comment-content-wrapper">
+                <div class="comment-meta">
+                    <div class="comment-author">
+                        <cite class="fn"><?php comment_author_link(); ?></cite>
+                    </div>
+                    <div class="comment-time">
+                        <a href="<?php comment_link(); ?>">
+                            <time datetime="<?php comment_time('c'); ?>"><?php printf('%1$s', get_comment_date()) ?></time>
+                        </a>
+                    </div>
+                </div>
+                <div class="comment-content">
+                    <?php comment_text(); ?>
+                </div>
                 <?php edit_comment_link( __( 'Edit' ), '<p class="edit-link">', '</p>' ); ?>
             </div>
         </div>

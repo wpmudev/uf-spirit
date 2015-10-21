@@ -195,8 +195,8 @@ $content = upfront_create_region(
 			);
 
 $content->add_element("ThisPost", array (
-  'columns' => '20',
-  'margin_left' => '2',
+  'columns' => '18',
+  'margin_left' => '3',
   'margin_right' => '0',
   'margin_top' => '5',
   'margin_bottom' => '0',
@@ -209,7 +209,7 @@ $content->add_element("ThisPost", array (
     'class' => 'c24 uposts-object',
     'has_settings' => 1,
     'id_slug' => 'upost',
-    'row' => 114,
+    'row' => 17,
     'post_data' => 
     array (
       0 => 'author',
@@ -343,11 +343,12 @@ $content->add_element("ThisPost", array (
     'hide_featured_image' => '',
     'full_featured_image' => '',
   ),
-  'row' => 114,
+  'row' => 6,
   'sticky' => true,
   'disable_resize' => true,
   'disable_drag' => false,
   'wrapper_id' => 'wrapper-1408977742068-1128',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -366,7 +367,6 @@ $content->add_element("ThisPost", array (
       'order' => 0,
     ),
   ),
-  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 
@@ -396,8 +396,10 @@ $content->add_element("ThisPost", array (
 $content->add_element("Ucomment", array (
   'columns' => '20',
   'margin_left' => '2',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-comment_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1445262122920-1064',
   'id' => 'module-1445262122920-1064',
   'options' => 
   array (
@@ -410,8 +412,20 @@ $content->add_element("Ucomment", array (
     'element_id' => 'ucomment-object-1445262122920-1990',
     'row' => 40,
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'uf-ucomments-responsive',
+      )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'uf-ucomments-responsive',
+      )),
+    )),
   ),
-  'row' => 40,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1445262132354-1148',
   'new_line' => true,
   'wrapper_breakpoint' => 

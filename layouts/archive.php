@@ -290,8 +290,8 @@ $archive_content = upfront_create_region(
 			);
 
 $archive_content->add_element("Posts", array (
-  'columns' => '18',
-  'margin_left' => '2',
+  'columns' => '16',
+  'margin_left' => '4',
   'margin_right' => '0',
   'margin_top' => '5',
   'margin_bottom' => '0',
@@ -310,7 +310,7 @@ $archive_content->add_element("Posts", array (
     'taxonomy' => '',
     'term' => '',
     'content' => 'excerpt',
-    'limit' => '4',
+    'limit' => '3',
     'pagination' => 'numeric',
     'sticky' => '',
     'posts_list' => '',
@@ -387,7 +387,7 @@ $archive_content->add_element("Posts", array (
     'element_id' => 'posts-object-1417752626112-1080',
     'anchor' => '',
     'theme_style' => 'uf-uposts-archive',
-    'row' => 42,
+    'row' => 296,
     'breakpoint' => 
     (array)(array(
        'mobile' => 
@@ -396,7 +396,7 @@ $archive_content->add_element("Posts", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 296,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408714949691-1226',
   'new_line' => true,
@@ -414,7 +414,7 @@ $archive_content->add_element("Posts", array (
     ),
     'custom-1410783042947' => 
     array (
-      'col' => 18,
+      'col' => 17,
       'order' => 0,
     ),
   ),
@@ -437,8 +437,8 @@ $archive_content->add_element("Posts", array (
     'custom-1410783042947' => 
     array (
       'edited' => false,
-      'left' => 0,
-      'col' => 18,
+      'left' => 1,
+      'col' => 16,
       'order' => 0,
     ),
   ),

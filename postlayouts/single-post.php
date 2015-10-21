@@ -7,16 +7,16 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part 24 c18 ml0 mt0 part-module-title',
+          'classes' => 'post-part 24 c16 ml0 mt0 part-module-title',
           'slug' => 'title',
         ),
         1 => 
         array (
-          'classes' => 'post-part 24 c18 ml0 mt3 part-module-author',
+          'classes' => 'post-part 24 c16 ml0 mt3 part-module-author',
           'slug' => 'author',
         ),
       ),
-      'classes' => 'c18 part-title clr',
+      'classes' => 'c16 clr',
     ),
     1 => 
     array (
@@ -36,11 +36,11 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part 24 c20 ml0 mt5 part-module-contents',
+          'classes' => 'post-part 24 c18 ml0 mt5 part-module-contents',
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c20  clr post_contents_wrapper part-contents',
+      'classes' => 'c18  clr post_contents_wrapper part-contents',
     ),
   ),
   'partOptions' => 
@@ -70,7 +70,7 @@
     ),
     'plain_text' => 
     array (
-      'content' => '<a href=\\\'#\\\'></a>',
+      'content' => '<a href=\'#\'></a>',
     ),
     'categories' => 
     array (
