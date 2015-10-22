@@ -1,8 +1,5 @@
-#page .uf-ucomments-responsive p.comment-form-author, #page .uf-ucomments-responsive p.comment-form-email {
+#page .uf-ucomments-responsive p.comment-form-author, #page .uf-ucomments-responsive p.comment-form-email, #page .uf-ucomments-responsive p.comment-form-url {
     float: none;
-    width: 100%;
-}
-#page .uf-ucomments-responsive p.comment-form-email {
     margin-left: 0;
     width: 100%;
 }
