@@ -1,16 +1,17 @@
 .upfront-comments {
-    list-style-type: none;
-    margin: 0 0 60px;
+    list-style: none;
+    margin: 0 0 60px 15px;
     padding: 0;
 }
+.upfront-comments ol.children {
+    margin-left: 45px;
+}
 .upfront-comment li.comment {
+    list-style-type: none;
     margin: 30px 0 0;
     overflow: hidden;
 }
-.upfront-comment li.comment:first-child {
-    margin-top: 0;
-}
-.upfront-comment li.comment .comment {
+.upfront-comment li.comment.depth-1:first-child {
     margin-top: 0;
 }
 .upfront-comment article {
@@ -37,13 +38,19 @@
 }
 .upfront-comment .comment-content-wrapper {
     float: left;
-    max-width: 665px;
+    max-width: 545px;
     width: 100%;
 }
-.upfront-comments .comment-author .fn,
-.upfront-comments .comment-author a {
+.upfront-comment .depth-2 .comment-content-wrapper {
+    max-width: 500px;
+}
+.upfront-comment .depth-3 .comment-content-wrapper {
+    max-width: 455px;
+}
+.upfront-comments .comment-author .fn, .upfront-comments .comment-author a {
     color: #ufc7;
     font-size: 18px;
+    font-style: normal;
     font-weight: 600;
     line-height: 25px;
 }
@@ -75,7 +82,7 @@
     font-weight: 600;
 }
 .comment-meta-actions {
-    margin-top: 15px;
+    margin-top: 5px;
     overflow: hidden;
 }
  p.comment-awaiting-moderation {
@@ -163,16 +170,16 @@ p.logged-in-as a:last-child {
     font-size: 14px;
     line-height: 30px;
 }
- p.comment-form-author,  p.comment-form-email {
+ p.comment-form-author,  p.comment-form-email,  p.comment-form-url {
     float: left;
-    width: 50%;
-}
- p.comment-form-email {
     margin-left: 2%;
-    width: 48%;
+    width: 32%;
 }
- .comment-form-url {
-    display: none;
+ p.comment-form-author {
+    margin-left: 0;
+}
+p.comment-form-comment {
+    clear: both;
 }
  p.comment-notes {
     color: #ufc7;

@@ -70,7 +70,11 @@ blockquote:before {
  .upfront-edit-theme .accordion-content {
 	display: block;
 }
-#page.upfront-layout-view .accordion-content { display: block !important; }
+ .alignleft { float: left;
+}
+ .alignright { float: right;
+}
+ #page.upfront-layout-view .accordion-content { display: block !important; }
 @font-face {
     font-family: "Meg";
     src:url("UPFRONT_THEME_BASE/fonts/Meg.eot");
@@ -89,7 +93,6 @@ html {
 	padding-right: 0 !important;
 	overflow: auto !important;
 }
-/* end post image alignment */
 @media (max-width: 569px) {
 	.newsletter-form input {
 		width: 100% !important;

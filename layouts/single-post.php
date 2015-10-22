@@ -394,8 +394,8 @@ $content->add_element("ThisPost", array (
 ));
 
 $content->add_element("Ucomment", array (
-  'columns' => '20',
-  'margin_left' => '2',
+  'columns' => '17',
+  'margin_left' => '3',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -410,7 +410,7 @@ $content->add_element("Ucomment", array (
     'has_settings' => 1,
     'prepend_form' => false,
     'element_id' => 'ucomment-object-1445262122920-1990',
-    'row' => 40,
+    'row' => 102,
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
@@ -424,7 +424,7 @@ $content->add_element("Ucomment", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 102,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1445262132354-1148',
   'new_line' => true,
