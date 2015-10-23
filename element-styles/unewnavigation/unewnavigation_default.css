@@ -15,6 +15,7 @@ div.responsive_nav_toggler {
     -ms-transition: opacity 0.25s ease-in;
     -moz-transition: opacity 0.25s ease-in;
     -webkit-transition: opacity 0.25s ease-in;
+    z-index: 0;
 }
 div.responsive_nav_toggler:hover {
     opacity: 0.6;
