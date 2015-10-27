@@ -479,7 +479,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">WELLNESS REVOLUTION</h2>',
+    'content' => '<h2 class="" style="text-align: center;"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>WELLNESS<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span> REVOLUTION</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408440367585-1051',
     'class' => 'c24 upfront-plain_txt',
@@ -489,7 +489,7 @@ $main->add_element("PlainTxt", array (
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'remove-bottom-space',
+    'theme_style' => '_default',
     'anchor' => 'About',
     'row' => 2,
   ),
@@ -647,6 +647,7 @@ $main->add_element("Uimage", array (
     'row' => 3,
     'theme_style' => 'waved-line',
     'anchor' => '',
+    'no_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -745,7 +746,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">Sweet roll candy sesame snaps. Candy canes donut candy canes do: 300nut. Jelly-o tootsie roll pie unerdwear.com cheesecake biscuit toffee I love. Sugar plum I love sesame snap</p>',
+    'content' => '<h3 class="" style="text-align: center;"><span class="inline_color" data-redactor-tag="span" data-redactor-class="inline_color" data-verified="redactor">You will learn how to bring your body and mind into balance, move for the pure joy of it, look good and feel connected to all life has to offer.</span> </h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408440541723-1680',
     'class' => 'c24 upfront-plain_txt',
@@ -756,7 +757,7 @@ $main->add_element("PlainTxt", array (
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'sub-title',
+    'theme_style' => '_default',
     'anchor' => '',
   ),
   'row' => 6,
@@ -847,7 +848,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '2',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408440704409-1966',
   'id' => 'module-1408440704409-1966',
@@ -855,8 +856,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">
-	Cupcake ipsum dolor sit amet I love cake halvah tiramisu. Pudding fruitcake lollipop gummi bears caramels. Oat cake topping marshmallow biscuit jelly biscuit carrot cake I love. Apple pie marshmallow croissant. Sesame snaps muffin tart icing ice cream donut. Soufflé topping wafer. Pudding dessert chocolate bar gingerbread danish jelly beans. Cotton candy dessert bear claw I love. Dessert powder muffin ice cream candy canes dessert soufflé carrot cakeCake cookie jelly-o chupa chups sesame snaps candy canes candy drops icing wafer Jelly jujubes lemon drops dragée soufflé cotton candy jujubes danish chocolate. <a rel="entry" href="{{upfront:home_url}}/about/">Read More</a>
+    'content' => '<p class="" style="text-align: center;">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. &nbsp;<a rel="entry" href="{{upfront:home_url}}/about/">Read More</a>
 </p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408440704408-1480',
@@ -868,7 +868,7 @@ $main->add_element("PlainTxt", array (
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'uf-text-block-read-more',
+    'theme_style' => '_default',
     'anchor' => '',
   ),
   'row' => 6,
@@ -1090,7 +1090,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">SERVICES</h2>',
+    'content' => '<h2 class="" style="text-align: center;"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>SERVICES<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408442628371-1209',
     'class' => 'c24 upfront-plain_txt',
@@ -1100,7 +1100,7 @@ $region_4->add_element("PlainTxt", array (
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'remove-bottom-space',
+    'theme_style' => '_default',
     'anchor' => '',
     'row' => 3,
   ),
@@ -1258,6 +1258,7 @@ $region_4->add_element("Uimage", array (
     'row' => 2,
     'theme_style' => 'waved-line',
     'anchor' => '',
+    'no_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1347,7 +1348,7 @@ $region_4->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '2',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408442656163-1606',
   'id' => 'module-1408442656163-1606',
@@ -1355,7 +1356,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">Cupcake ipsum dolor sit amet I love cake halvah tiramisu. Pudding fruitcake lollipop gummi bears caramels. Oat cake topping marshmallo</p>',
+    'content' => '<h3 class="" style="text-align: center;"><span rel="color: rgb(26, 26, 26); font-family: \'Open Sans\', Arial; font-size: 24px; font-style: italic; font-weight: 300; line-height: 30px; text-transform: none; background-color: rgb(250, 250, 250);" data-verified="redactor">Whether you prefer one to one training or the dynamic environment of&nbsp;group&nbsp;training in the outdoors, you’ll&nbsp;receive&nbsp;an&nbsp;individualised approach with high quality instruction and support.</span><br></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408442656163-1294',
     'class' => 'c24 upfront-plain_txt',
@@ -1364,9 +1365,9 @@ $region_4->add_element("PlainTxt", array (
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'theme_style' => 'sub-title',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'theme_style' => '_default',
     'anchor' => '',
   ),
   'row' => 6,
@@ -1529,8 +1530,8 @@ $region_12 = upfront_create_region(
 			);
 
 $region_12->add_element("PlainTxt", array (
-  'columns' => '14',
-  'margin_left' => '9',
+  'columns' => '11',
+  'margin_left' => '12',
   'margin_right' => '0',
   'margin_top' => '16',
   'margin_bottom' => '0',
@@ -1540,13 +1541,13 @@ $region_12->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class=""><span class="upfront_theme_colors upfront_theme_color_2">WELLNESS COACHING CONSULTATIONS</span></h3>',
+    'content' => '<h2 class=""><span class="upfront_theme_colors upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_colors upfront_theme_color_2">CONSULTATIONS</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408441791054-1023',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 3,
+    'row' => 12,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
@@ -1561,7 +1562,7 @@ $region_12->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 12,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408455458788-1517',
   'new_line' => true,
@@ -1646,10 +1647,10 @@ $region_12->add_element("PlainTxt", array (
 ));
 
 $region_12->add_element("PlainTxt", array (
-  'columns' => '14',
-  'margin_left' => '9',
+  'columns' => '11',
+  'margin_left' => '12',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '1',
   'margin_bottom' => '0',
   'class' => 'module-1408442665716-1406',
   'id' => 'module-1408442665716-1406',
@@ -1657,12 +1658,12 @@ $region_12->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">What’s your wellness vision? How can you achieve vibrant health and wellness if you haven’t dedicated yourself to defining your own vision of wellness? Wellness Coaching Consultations start with an initial vision; a single declaration of the life you want to have, how you want to feel, and how you want to get there. <br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
+    'content' => '<p class="">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip &nbsp;in hendrerit in vulputate velit esse.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408442665716-1580',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 20,
+    'row' => 22,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -1678,7 +1679,7 @@ $region_12->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 22,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408455466093-1167',
   'new_line' => true,
@@ -1848,7 +1849,7 @@ $region_5->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class=""><span class="upfront_theme_colors upfront_theme_color_2">HOLISTIC PERSONAL AND GROUP TRAINING</span></h3>',
+    'content' => '<h2 class=""><span class="upfront_theme_colors upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_colors upfront_theme_color_2">GROUP TRAINING</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408443814379-1593',
     'class' => 'c24 upfront-plain_txt',
@@ -1954,7 +1955,7 @@ $region_5->add_element("PlainTxt", array (
 ));
 
 $region_5->add_element("PlainTxt", array (
-  'columns' => '14',
+  'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -1965,12 +1966,12 @@ $region_5->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">Holistic Training that is<strong> Adaptive, Intuitive, Functional</strong>. High quality holistic training Thorough Health Assessment Individualised goal setting and personalised fitness plans.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
+    'content' => '<p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408443837197-1885',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 15,
+    'row' => 26,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -1986,7 +1987,7 @@ $region_5->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 26,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408443842377-1925',
   'new_line' => true,
@@ -2145,8 +2146,8 @@ $region_6 = upfront_create_region(
 			);
 
 $region_6->add_element("PlainTxt", array (
-  'columns' => '14',
-  'margin_left' => '9',
+  'columns' => '11',
+  'margin_left' => '12',
   'margin_right' => '0',
   'margin_top' => '16',
   'margin_bottom' => '0',
@@ -2156,13 +2157,13 @@ $region_6->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class=""><span class="upfront_theme_colors upfront_theme_color_2">WELLNESS RETREATS</span></h3>',
+    'content' => '<h2 class=""><span class="upfront_theme_colors upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_colors upfront_theme_color_2">WELLNESS RETREATS</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408443904923-1934',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 5,
+    'row' => 12,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => '',
@@ -2177,7 +2178,7 @@ $region_6->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 12,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408443912379-1151',
   'new_line' => true,
@@ -2262,10 +2263,10 @@ $region_6->add_element("PlainTxt", array (
 ));
 
 $region_6->add_element("PlainTxt", array (
-  'columns' => '14',
-  'margin_left' => '9',
+  'columns' => '11',
+  'margin_left' => '12',
   'margin_right' => '0',
-  'margin_top' => '1',
+  'margin_top' => '2',
   'margin_bottom' => '0',
   'class' => 'module-1408443941489-1951',
   'id' => 'module-1408443941489-1951',
@@ -2273,12 +2274,12 @@ $region_6->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">Have you ever considered the gift of a wellness retreat to kickstart a new phase of vibrant health?<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
+    'content' => '<p class="">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408443941490-1686',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 8,
+    'row' => 22,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -2294,7 +2295,7 @@ $region_6->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 22,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408443951249-1806',
   'new_line' => true,
@@ -2453,10 +2454,10 @@ $region_7 = upfront_create_region(
 			);
 
 $region_7->add_element("PlainTxt", array (
-  'columns' => '14',
+  'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '16',
+  'margin_top' => '9',
   'margin_bottom' => '0',
   'class' => 'module-1408444386527-1487',
   'id' => 'module-1408444386527-1487',
@@ -2464,13 +2465,13 @@ $region_7->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class=""><span class="upfront_theme_colors upfront_theme_color_2">WORKPLACE WELLNESS</span></h3>',
+    'content' => '<h2 class=""><span class="upfront_theme_colors upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_colors upfront_theme_color_2">WORKPLACE WELLNESS</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408444386528-1458',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 4,
+    'row' => 13,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => '',
@@ -2485,7 +2486,7 @@ $region_7->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 13,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408444393256-1825',
   'new_line' => true,
@@ -2493,7 +2494,7 @@ $region_7->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 12,
+      'col' => 11,
       'order' => 0,
     ),
     'mobile' => 
@@ -2536,8 +2537,8 @@ $region_7->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => false,
-      'left' => 0,
-      'col' => 12,
+      'left' => 1,
+      'col' => 10,
       'order' => 0,
     ),
     'custom-1408718098456' => 
@@ -2571,7 +2572,7 @@ $region_7->add_element("PlainTxt", array (
 ));
 
 $region_7->add_element("PlainTxt", array (
-  'columns' => '14',
+  'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -2582,12 +2583,12 @@ $region_7->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">Boosted morale. Increased Productivity. Happy, healthier employees. If you’re an employer, consider the huge benefits of a workplace wellness program.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
+    'content' => '<p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408444395880-1516',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 8,
+    'row' => 20,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -2603,7 +2604,7 @@ $region_7->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 20,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408444399086-1919',
   'new_line' => true,
@@ -2689,7 +2690,7 @@ $region_7->add_element("PlainTxt", array (
 
 $region_7->add_element("Button", array (
   'columns' => '4',
-  'margin_left' => '11',
+  'margin_left' => '1',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -2699,13 +2700,15 @@ $region_7->add_element("Button", array (
   array (
     'content' => 'FIND OUT MORE',
     'href' => '',
+    'linkTarget' => '',
     'align' => 'center',
     'type' => 'ButtonModel',
     'view_class' => 'ButtonView',
-    'element_id' => 'button-object-1424334750055-1396',
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
+    'preset' => 'default',
+    'element_id' => 'button-object-1424334750055-1396',
     'link' => 
     (array)(array(
        'type' => 'entry',
@@ -2718,6 +2721,7 @@ $region_7->add_element("Button", array (
     'row' => 6,
     'theme_style' => 'uf-button-spirit',
     'is_edited' => true,
+    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2854,7 +2858,7 @@ $region_8->add_element("PlainTxt", array (
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'remove-bottom-space',
+    'theme_style' => '_default',
     'anchor' => '',
     'row' => 2,
   ),
@@ -2879,6 +2883,7 @@ $region_8->add_element("PlainTxt", array (
       'order' => 0,
     ),
   ),
+  'new_line' => true,
   'breakpoint' => 
   array (
     'custom-1408717728290' => 
@@ -2942,8 +2947,8 @@ $region_8->add_element("PlainTxt", array (
 ));
 
 $region_8->add_element("Uimage", array (
-  'columns' => '4',
-  'margin_left' => '10',
+  'columns' => '6',
+  'margin_left' => '9',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -2980,8 +2985,8 @@ $region_8->add_element("Uimage", array (
     'marginTop' => 0.5,
     'element_size' => 
     (array)(array(
-       'width' => 150,
-       'height' => 5,
+       'width' => 260,
+       'height' => 15,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
@@ -3008,31 +3013,33 @@ $region_8->add_element("Uimage", array (
        'target' => false,
     )),
     'element_id' => 'object-1408445106532-1553',
-    'row' => 1,
+    'row' => 5,
     'theme_style' => 'waved-line',
     'anchor' => '',
+    'no_padding' => '',
   ),
-  'row' => 6,
+  'row' => 5,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1409145408474-1078',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 8,
+      'col' => 9,
       'order' => 0,
     ),
     'mobile' => 
     array (
-      'col' => 6,
+      'col' => 7,
       'order' => 0,
     ),
     'custom-1410783042947' => 
     array (
-      'col' => 11,
+      'col' => 12,
       'order' => 0,
     ),
   ),
+  'new_line' => true,
   'breakpoint' => 
   array (
     'custom-1408717728290' => 
@@ -3062,8 +3069,8 @@ $region_8->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => false,
-      'left' => 4,
-      'col' => 4,
+      'left' => 3,
+      'col' => 6,
       'order' => 0,
     ),
     'custom-1408718098456' => 
@@ -3075,8 +3082,8 @@ $region_8->add_element("Uimage", array (
     'mobile' => 
     array (
       'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'left' => 0,
+      'col' => 7,
       'order' => 0,
     ),
     'custom-1410780542364' => 
@@ -3088,8 +3095,8 @@ $region_8->add_element("Uimage", array (
     'custom-1410783042947' => 
     array (
       'edited' => false,
-      'left' => 7,
-      'col' => 4,
+      'left' => 6,
+      'col' => 6,
       'order' => 0,
     ),
   ),
@@ -3158,7 +3165,7 @@ $region_11 = upfront_create_region(
 			);
 
 $region_11->add_element("Uimage", array (
-  'columns' => '4',
+  'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
   'margin_top' => '4',
@@ -3196,8 +3203,8 @@ $region_11->add_element("Uimage", array (
     'marginTop' => 0,
     'element_size' => 
     (array)(array(
-       'width' => 150,
-       'height' => 150,
+       'width' => 105,
+       'height' => 105,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
@@ -3224,7 +3231,7 @@ $region_11->add_element("Uimage", array (
        'target' => false,
     )),
     'element_id' => 'object-1408445992396-1972',
-    'row' => 6,
+    'row' => 27,
     'theme_style' => 'circle',
     'anchor' => '',
     'breakpoint' => 
@@ -3238,8 +3245,9 @@ $region_11->add_element("Uimage", array (
          'row' => 23,
       )),
     )),
+    'no_padding' => '',
   ),
-  'row' => 6,
+  'row' => 27,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408454821816-1092',
   'new_line' => true,
@@ -3252,7 +3260,7 @@ $region_11->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'col' => 6,
+      'col' => 5,
       'order' => 0,
     ),
     'custom-1410783042947' => 
@@ -3302,8 +3310,8 @@ $region_11->add_element("Uimage", array (
     'mobile' => 
     array (
       'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'left' => 2,
+      'col' => 3,
       'hide' => 1,
       'order' => 0,
     ),
@@ -3325,9 +3333,9 @@ $region_11->add_element("Uimage", array (
 
 $region_11->add_element("PlainTxt", array (
   'columns' => '18',
-  'margin_left' => '0',
+  'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '9',
+  'margin_top' => '3',
   'margin_bottom' => '0',
   'class' => 'module-1408443405809-1628',
   'id' => 'module-1408443405809-1628',
@@ -3335,7 +3343,7 @@ $region_11->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class=""><em>“Meg has trained and retrained herself to be an EXCEPTIONAL trainer for people like me. She can modify a session in seconds to enable me to train safely and thoroughly. She knows a myriad of ways to develop a particular part of the body...”</em></p><p class="" style="text-align: right;"><strong style="text-align: right;">Fiona Beauchampt<br></strong><em style="text-align: right;">Occupational Therapist at CPEC&nbsp;</em></p>',
+    'content' => '<h3 class="">“<span rel="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; line-height: 17px; text-align: justify; text-transform: none; background-color: rgb(255, 255, 255);" data-verified="redactor" data-redactor-tag="span">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​...</span>”</h3><p class="" style="text-align: justify;" rel="text-align: justify;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><strong data-redactor-tag="strong" data-verified="redactor">Fiona Beauchampt</strong></span><em data-redactor-tag="em" data-verified="redactor"></em></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408443405805-1270',
     'class' => 'c24 upfront-plain_txt',
@@ -3353,6 +3361,11 @@ $region_11->add_element("PlainTxt", array (
          'row' => 63,
       )),
     )),
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3437,10 +3450,10 @@ $region_11->add_element("PlainTxt", array (
 ));
 
 $region_11->add_element("Uimage", array (
-  'columns' => '4',
+  'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '5',
   'margin_bottom' => '0',
   'class' => 'module-1408443405836-1728',
   'id' => 'module-1408443405836-1728',
@@ -3475,8 +3488,8 @@ $region_11->add_element("Uimage", array (
     'marginTop' => 0,
     'element_size' => 
     (array)(array(
-       'width' => 150,
-       'height' => 150,
+       'width' => 105,
+       'height' => 105,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
@@ -3503,7 +3516,7 @@ $region_11->add_element("Uimage", array (
        'target' => false,
     )),
     'element_id' => 'image-1408443405821-1824',
-    'row' => 6,
+    'row' => 27,
     'theme_style' => 'circle',
     'anchor' => '',
     'breakpoint' => 
@@ -3517,8 +3530,9 @@ $region_11->add_element("Uimage", array (
          'row' => 23,
       )),
     )),
+    'no_padding' => '',
   ),
-  'row' => 6,
+  'row' => 27,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408454829770-1114',
   'new_line' => true,
@@ -3531,7 +3545,7 @@ $region_11->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'col' => 6,
+      'col' => 5,
       'order' => 0,
     ),
     'custom-1410783042947' => 
@@ -3581,8 +3595,8 @@ $region_11->add_element("Uimage", array (
     'mobile' => 
     array (
       'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'left' => 2,
+      'col' => 3,
       'hide' => 1,
       'order' => 0,
     ),
@@ -3604,7 +3618,7 @@ $region_11->add_element("Uimage", array (
 
 $region_11->add_element("PlainTxt", array (
   'columns' => '18',
-  'margin_left' => '0',
+  'margin_left' => '1',
   'margin_right' => '0',
   'margin_top' => '6',
   'margin_bottom' => '0',
@@ -3614,7 +3628,7 @@ $region_11->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class=""><em>“Meg has trained and retrained herself to be an EXCEPTIONAL trainer for people like me. She can modify a session in seconds to enable me to train safely and thoroughly. She knows a myriad of ways to develop a particular part of the body...”</em></p><p class="" style="text-align: right;"><strong style="text-align: right;">Fiona Beauchampt<br></strong><em style="text-align: right;">Occupational Therapist at CPEC&nbsp;</em></p>',
+    'content' => '<h3 class=""><em data-redactor-tag="em"><span>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."</span></em></h3><font color="#a89084" face="Open Sans, sans-serif" class=""><span><b>Jodie Lamberg</b></span></font>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408445412768-1503',
     'class' => 'c24 upfront-plain_txt',
@@ -3632,6 +3646,11 @@ $region_11->add_element("PlainTxt", array (
          'row' => 68,
       )),
     )),
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3716,126 +3735,6 @@ $region_11->add_element("PlainTxt", array (
   ),
 ));
 
-$region_11->add_element("PlainTxt", array (
-  'columns' => '3',
-  'margin_left' => '20',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1408445663649-1130',
-  'id' => 'module-1408445663649-1130',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;"><a href="{{upfront:home_url}}/testimonials/" rel="entry">Read More</a></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1408445663648-1867',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'uf-text-read-more-link',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408454949110-1697',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 18,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 17,
-      'col' => 4,
-      'top' => 2,
-      'row' => 10,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 14,
-      'col' => 4,
-      'top' => 4,
-      'row' => 10,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 12,
-      'col' => 4,
-      'top' => 4,
-      'row' => 10,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 10,
-      'col' => 4,
-      'top' => 6,
-      'row' => 10,
-    ),
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 8,
-      'col' => 4,
-      'top' => 6,
-      'row' => 10,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 6,
-      'col' => 4,
-      'top' => 6,
-      'row' => 10,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 4,
-      'col' => 3,
-      'top' => 0,
-    ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 14,
-      'col' => 4,
-      'top' => 4,
-    ),
-  ),
-));
-
 $regions->add($region_11);
 
 $region_9 = upfront_create_region(
@@ -3849,7 +3748,7 @@ $region_9 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 52,
+  'row' => 55,
   'background_type' => 'color',
   'nav_region' => '',
   'background_color' => 'rgba(226,222,213,1)',
@@ -3899,8 +3798,8 @@ $region_9 = upfront_create_region(
 			);
 
 $region_9->add_element("Code", array (
-  'columns' => '5',
-  'margin_left' => '9',
+  'columns' => '4',
+  'margin_left' => '10',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -3937,7 +3836,7 @@ $region_9->add_element("Code", array (
     'script' => '/* Your code here */',
     'row' => 13,
   ),
-  'row' => 6,
+  'row' => 13,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1414742754166-1680',
   'new_line' => true,
@@ -3945,7 +3844,7 @@ $region_9->add_element("Code", array (
   array (
     'tablet' => 
     array (
-      'col' => 9,
+      'col' => 8,
       'order' => 0,
     ),
     'mobile' => 
@@ -3955,7 +3854,7 @@ $region_9->add_element("Code", array (
     ),
     'custom-1410783042947' => 
     array (
-      'col' => 12,
+      'col' => 11,
       'order' => 0,
     ),
   ),
@@ -3964,8 +3863,8 @@ $region_9->add_element("Code", array (
     'tablet' => 
     array (
       'edited' => false,
-      'left' => 3,
-      'col' => 6,
+      'left' => 4,
+      'col' => 4,
       'order' => 0,
     ),
     'mobile' => 
@@ -3978,8 +3877,8 @@ $region_9->add_element("Code", array (
     'custom-1410783042947' => 
     array (
       'edited' => false,
-      'left' => 6,
-      'col' => 6,
+      'left' => 7,
+      'col' => 4,
       'order' => 0,
     ),
   ),
@@ -4009,9 +3908,9 @@ $region_9->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => 'remove-space',
     'anchor' => '',
-    'row' => 1,
+    'row' => 9,
   ),
-  'row' => 6,
+  'row' => 9,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408446496888-1432',
   'new_line' => true,
@@ -4112,22 +4011,22 @@ $region_9->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'content' => '<p class="" style="text-align: center;">
-	A weekly serving of motivation, recipes &amp; <strong><span class="upfront_theme_colors upfront_theme_color_0" data-redactor-tag="span">FREE</span></strong> resources straight to your inbox!
+	A weekly serving of motivation, recipes &amp; <strong data-redactor-tag="strong"><span class="upfront_theme_colors upfront_theme_color_0" data-redactor-tag="span" data-verified="redactor" data-redactor-class="upfront_theme_colors upfront_theme_color_0">FREE</span></strong> resources straight to your inbox!
 </p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408446264001-1137',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 0,
+    'row' => 13,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'theme_style' => '_default',
+    'theme_style' => 'remove-space',
   ),
-  'row' => 6,
+  'row' => 13,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408446525502-1263',
   'new_line' => true,
@@ -4240,49 +4139,55 @@ $region_9->add_element("Code", array (
 <input type="submit" value="Send">
 </form>',
     'style' => '{
- margin-top: -15px;   
+ margin: -15px auto 0;
 }
 .newsletter-form input[type="text"],
 .newsletter-form input[type="email"] {
-  width: 37%;   
-  float: left;
-  padding: 10px;
-  box-sizing: border-box;
-  font: 16px \'Open Sans\', Arial;
-  color: #707070;
-  background: #FFFFFF;
-  outline: 0px;
-  border: 1px solid #d0d0d0;
-  margin-right: 2%;
+    width: 39%;   
+    float: left;
+    padding: 0 15px;
+    line-height: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    font: 15px \'Open Sans\', Arial;
+    font-weight: 300;
+    color: #707070;
+    background: #FFFFFF;
+    outline: 0px;
+    border: 1px solid #fff;
+    margin: 0 10px;
+    border-radius: 4px;
 }
 
 .newsletter-form input[type="text"]:focus,
 .newsletter-form input[type="email"]:focus {
  outline: 0px;
- border: 1px solid #69a8a6;
+ border: 1px solid #ufc0;
+ color:#333;
 }
 
 
 .newsletter-form input[type="submit"] {
     background: #ufc0;
-    border-bottom: 3px solid #ufc1;
+    border-bottom: 2px solid #ufc1;
     border-radius: 4px;
     color: #ufc6;
     display: inline-block;
     font-family: \'Oswald\', Arial, sans-serif;
     font-size: 16px;
     font-weight: 300;
-    line-height: 1em;
-    margin-top: 2px;
-    min-width: 150px;
-    padding: 10px;
+    line-height: 38px;
+    height: 38px;
+    min-width: 130px;
+    padding: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
     text-transform: uppercase;
-    -moz-transition: background-color .4s;
-    -ms-transition: background-color .4s;
-    -o-transition: background-color .4s;
+    -moz-transition: background-color .2s;
+    -ms-transition: background-color .2s;
+    -o-transition: background-color .2s;
     -webkit-transition: background-color .4s;
-    transition: background-color .4s;
+    transition: background-color .2s;
 }
 .newsletter-form input[type="submit"]:hover {
    background: #ufc1;

@@ -81,8 +81,8 @@ $footer->add_element("PlainTxt", array (
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => 'copyright',
     'anchor' => '',
     'breakpoint' => 
@@ -233,19 +233,19 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 71,
+         'menu-item-db-id' => 2351,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'TERMS &#038; PRIVACY',
-         'menu-item-url' => '{{upfront:home_url}}/privacy/',
+         'menu-item-title' => 'Terms &#038; Privacy',
+         'menu-item-url' => '{{upfront:home_url}}/terms/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '71',
+         'menu-item-object-id' => '2351',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
-           'url' => '{{upfront:home_url}}/privacy/',
+           'url' => '{{upfront:home_url}}/terms/',
            'target' => '',
         )),
       )),
