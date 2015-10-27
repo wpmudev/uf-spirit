@@ -34,8 +34,9 @@ $footer = upfront_create_region(
     )),
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 5,
     )),
      'custom-1408718098456' => 
     (array)(array(
@@ -43,8 +44,9 @@ $footer = upfront_create_region(
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 10,
     )),
      'custom-1410780542364' => 
     (array)(array(
@@ -60,165 +62,11 @@ $footer = upfront_create_region(
 )
 			);
 
-$footer->add_element("PlainTxt", array (
-  'columns' => '3',
-  'margin_left' => '1',
-  'margin_right' => '0',
-  'margin_top' => '3',
-  'margin_bottom' => '0',
-  'class' => 'module-1408446765229-1617',
-  'id' => 'module-1408446765229-1617',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">2014-2015&nbsp;INCSUB</p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1408446765226-1396',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 2,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'copyright',
-    'anchor' => '',
-    'breakpoint' => 
-    (array)(array(
-       'custom-1408717918354' => 
-      (array)(array(
-         'row' => 4,
-      )),
-       'custom-1408717978058' => 
-      (array)(array(
-         'row' => 2,
-      )),
-       'custom-1408718022181' => 
-      (array)(array(
-         'row' => 2,
-      )),
-       'tablet' => 
-      (array)(array(
-         'row' => 5,
-      )),
-       'custom-1408718098456' => 
-      (array)(array(
-         'row' => 5,
-      )),
-       'custom-1410783042947' => 
-      (array)(array(
-         'row' => 4,
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408447010252-1606',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 5,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 17,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'top' => 9,
-      'order' => 0,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 18,
-      'top' => 5,
-      'order' => 4,
-      'row' => 10,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 10,
-      'row' => 8,
-      'order' => 4,
-      'top' => 5,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-      'order' => 4,
-      'top' => 5,
-      'row' => 8,
-    ),
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 4,
-      'row' => 8,
-      'top' => 5,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 8,
-      'order' => 4,
-      'row' => 8,
-      'top' => 5,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 3,
-      'order' => 0,
-    ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 3,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 16,
-      'row' => 10,
-      'top' => 5,
-    ),
-  ),
-));
-
 $footer->add_element("Unewnavigation", array (
   'columns' => '6',
-  'margin_left' => '0',
+  'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '2',
+  'margin_top' => '1',
   'margin_bottom' => '0',
   'class' => 'module-1408447780698-1711',
   'id' => 'module-1408447780698-1711',
@@ -289,7 +137,7 @@ $footer->add_element("Unewnavigation", array (
       )),
        'tablet' => 
       (array)(array(
-         'row' => 1,
+         'row' => 8,
          'width' => 570,
       )),
        'custom-1410783042947' => 
@@ -297,27 +145,32 @@ $footer->add_element("Unewnavigation", array (
          'row' => 4,
          'width' => 810,
       )),
+       'mobile' => 
+      (array)(array(
+         'row' => 7,
+         'width' => 315,
+      )),
     )),
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408448077097-1571',
+  'wrapper_id' => 'wrapper-1445930180785-1518',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 12,
+      'edited' => true,
+      'col' => 4,
       'order' => 0,
+      'clear' => true,
     ),
     'mobile' => 
     array (
-      'col' => 6,
+      'edited' => true,
+      'col' => 3,
       'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 13,
-      'order' => 0,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -361,10 +214,10 @@ $footer->add_element("Unewnavigation", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 4,
       'order' => 1,
-      'top' => 1,
-      'row' => 7,
+      'top' => 0,
+      'row' => 8,
     ),
     'custom-1408718098456' => 
     array (
@@ -378,9 +231,10 @@ $footer->add_element("Unewnavigation", array (
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 1,
-      'col' => 5,
+      'left' => 0,
+      'col' => 3,
       'top' => 0,
+      'row' => 7,
     ),
     'custom-1410780542364' => 
     array (
@@ -399,58 +253,81 @@ $footer->add_element("Unewnavigation", array (
   ),
 ));
 
-$footer->add_element("Usearch", array (
-  'columns' => '5',
-  'margin_left' => '8',
+$footer->add_element("PlainTxt", array (
+  'columns' => '3',
+  'margin_left' => '13',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '2',
   'margin_bottom' => '0',
-  'class' => 'module-1408446264293-1066',
-  'id' => 'module-1408446264293-1066',
+  'class' => 'module-1408446765229-1617',
+  'id' => 'module-1408446765229-1617',
   'options' => 
   array (
-    'type' => 'UsearchModel',
-    'view_class' => 'UsearchView',
-    'class' => 'c24 upfront-search',
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<p class="" style="text-align: right;">2014-2015&nbsp;INCSUB</p>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1408446765226-1396',
+    'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'usearch',
-    'placeholder' => 'Wellness',
-    'label' => '__image__',
-    'is_rounded' => 0,
-    'color' => '',
-    'element_id' => 'usearch-object-1408446264283-1641',
-    'row' => 10,
-    'theme_style' => 'footer-search',
+    'row' => 2,
+    'is_edited' => true,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'theme_style' => 'copyright',
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
        'custom-1408717918354' => 
       (array)(array(
+         'row' => 4,
+      )),
+       'custom-1408717978058' => 
+      (array)(array(
+         'row' => 2,
+      )),
+       'custom-1408718022181' => 
+      (array)(array(
+         'row' => 2,
+      )),
+       'tablet' => 
+      (array)(array(
          'row' => 10,
+      )),
+       'custom-1408718098456' => 
+      (array)(array(
+         'row' => 5,
+      )),
+       'custom-1410783042947' => 
+      (array)(array(
+         'row' => 4,
       )),
     )),
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1444047433867-1282',
+  'wrapper_id' => 'wrapper-1408447010252-1606',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 9,
-      'order' => 0,
+      'col' => 8,
+      'order' => 1,
+      'clear' => false,
+      'edited' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
+      'col' => 4,
+      'order' => 1,
+      'clear' => false,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
-      'edited' => false,
-      'col' => 11,
+      'col' => 17,
       'order' => 0,
     ),
   ),
@@ -459,72 +336,77 @@ $footer->add_element("Usearch", array (
     'custom-1408717728290' => 
     array (
       'edited' => true,
-      'left' => 1,
-      'col' => 6,
-      'top' => 6,
-      'order' => 3,
+      'left' => 0,
+      'col' => 3,
+      'top' => 9,
+      'order' => 0,
     ),
     'custom-1408717918354' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 18,
-      'top' => 8,
-      'order' => 3,
-      'row' => 16,
-      'hide' => 1,
+      'top' => 5,
+      'order' => 4,
+      'row' => 10,
     ),
     'custom-1408717978058' => 
     array (
       'edited' => true,
-      'left' => 1,
-      'col' => 5,
-      'top' => 1,
-      'hide' => 1,
+      'left' => 3,
+      'col' => 10,
+      'row' => 8,
+      'order' => 4,
+      'top' => 5,
     ),
     'custom-1408718022181' => 
     array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 6,
-      'hide' => 1,
+      'edited' => true,
+      'left' => 0,
+      'col' => 14,
+      'order' => 4,
+      'top' => 5,
+      'row' => 8,
     ),
     'tablet' => 
     array (
-      'edited' => false,
-      'left' => 3,
-      'col' => 6,
-      'hide' => 1,
-      'order' => 0,
+      'edited' => true,
+      'left' => 4,
+      'col' => 4,
+      'order' => 4,
+      'row' => 10,
+      'top' => 1,
     ),
     'custom-1408718098456' => 
     array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 6,
-      'hide' => 1,
+      'edited' => true,
+      'left' => 1,
+      'col' => 8,
+      'order' => 4,
+      'row' => 8,
+      'top' => 5,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 1,
-      'col' => 5,
-      'hide' => 1,
+      'col' => 3,
       'order' => 0,
+      'top' => 1,
     ),
     'custom-1410780542364' => 
     array (
       'edited' => false,
-      'left' => 6,
-      'col' => 6,
+      'left' => 1,
+      'col' => 3,
     ),
     'custom-1410783042947' => 
     array (
       'edited' => true,
-      'left' => 6,
-      'col' => 5,
-      'hide' => 1,
-      'top' => 0,
+      'left' => 1,
+      'col' => 16,
+      'row' => 10,
+      'top' => 5,
     ),
   ),
 ));
