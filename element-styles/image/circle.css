@@ -1,7 +1,6 @@
 #page .circle .upfront-image-container {
  border: 3px solid #FFFFFF;   
  border-radius: 100%;
- box-shadow: 1px 1px 0px #ufc3, -1px -1px 0px #ufc3,  -1px 1px 0px #ufc3,  1px -1px 0px #ufc3;
 }
 #page .circle img {
  border-radius: 100%;

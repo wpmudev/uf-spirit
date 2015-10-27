@@ -54,9 +54,10 @@ $region_15 = upfront_create_region(
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
-       'hide' => 1,
+       'edited' => true,
+       'hide' => 0,
        'col' => 24,
+       'row' => 42,
     )),
      'custom-1410780542364' => 
     (array)(array(
@@ -69,6 +70,11 @@ $region_15 = upfront_create_region(
        'row' => 109,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -146,7 +152,7 @@ $region_15->add_element("Uimage", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 34,
+         'row' => 36,
       )),
        'mobile' => 
       (array)(array(
@@ -170,13 +176,17 @@ $region_15->add_element("Uimage", array (
   array (
     'tablet' => 
     array (
-      'col' => 10,
+      'col' => 7,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
-      'col' => 7,
+      'col' => 4,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -216,9 +226,9 @@ $region_15->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 2,
-      'col' => 8,
-      'row' => 40,
+      'left' => 0,
+      'col' => 7,
+      'row' => 36,
       'top' => 0,
     ),
     'custom-1408718098456' => 
@@ -231,8 +241,10 @@ $region_15->add_element("Uimage", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 4,
       'row' => 33,
+      'top' => 0,
+      'hide' => 0,
     ),
     'custom-1410780542364' => 
     array (
@@ -300,6 +312,13 @@ $region_15->add_element("Code", array (
 }',
     'script' => '/* Your code here */',
     'row' => 20,
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 17,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -310,12 +329,16 @@ $region_15->add_element("Code", array (
     'tablet' => 
     array (
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
-      'col' => 6,
-      'order' => 0,
+      'col' => 7,
+      'order' => 1,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -356,7 +379,7 @@ $region_15->add_element("Code", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'top' => 1,
+      'top' => 18,
     ),
     'custom-1408718098456' => 
     array (
@@ -367,10 +390,13 @@ $region_15->add_element("Code", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
       'order' => 0,
+      'top' => 7,
+      'row' => 17,
+      'hide' => 1,
     ),
     'custom-1410780542364' => 
     array (
@@ -404,7 +430,7 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 60,
+  'row' => 98,
   'background_type' => 'color',
   'background_color' => 'rgba(255,255,255,1)',
   'nav_region' => '',
@@ -437,7 +463,8 @@ $main = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 136,
+       'row' => 109,
+       'background_type' => 'color',
     )),
      'custom-1408718098456' => 
     (array)(array(
@@ -471,7 +498,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '20',
   'margin_left' => '2',
   'margin_right' => '0',
-  'margin_top' => '13',
+  'margin_top' => '16',
   'margin_bottom' => '0',
   'class' => 'module-1408440367587-1350',
   'id' => 'module-1408440367587-1350',
@@ -492,6 +519,13 @@ $main->add_element("PlainTxt", array (
     'theme_style' => '_default',
     'anchor' => 'About',
     'row' => 2,
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -508,6 +542,8 @@ $main->add_element("PlainTxt", array (
     array (
       'col' => 7,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -663,7 +699,9 @@ $main->add_element("Uimage", array (
     'mobile' => 
     array (
       'col' => 6,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -738,7 +776,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '1',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408440541724-1973',
   'id' => 'module-1408440541724-1973',
@@ -751,7 +789,7 @@ $main->add_element("PlainTxt", array (
     'element_id' => 'text-object-1408440541723-1680',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 10,
+    'row' => 23,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -759,8 +797,19 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => '_default',
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
+    )),
   ),
-  'row' => 6,
+  'row' => 23,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408440704324-1222',
   'new_line' => true,
@@ -774,7 +823,9 @@ $main->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -823,10 +874,11 @@ $main->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410780542364' => 
     array (
@@ -845,8 +897,8 @@ $main->add_element("PlainTxt", array (
 ));
 
 $main->add_element("PlainTxt", array (
-  'columns' => '22',
-  'margin_left' => '1',
+  'columns' => '20',
+  'margin_left' => '2',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -870,8 +922,19 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => '_default',
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
+    )),
   ),
-  'row' => 6,
+  'row' => 26,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408441148046-1003',
   'new_line' => true,
@@ -885,7 +948,9 @@ $main->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
+      'order' => 3,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -934,10 +999,11 @@ $main->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410780542364' => 
     array (
@@ -972,7 +1038,7 @@ $region_14 = upfront_create_region(
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => '#ffffff',
-  'background_style' => 'full',
+  'background_style' => 'fixed',
   'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/Homepage-About-Bg (1).jpg',
@@ -983,12 +1049,13 @@ $region_14 = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 85,
+       'row' => 68,
+       'hide' => 0,
     )),
      'mobile' => 
     (array)(array(
        'edited' => false,
-       'hide' => 1,
+       'hide' => 0,
        'col' => 24,
     )),
      'custom-1410780542364' => 
@@ -1001,6 +1068,13 @@ $region_14 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
+  'background_repeat' => 'no-repeat',
+  'background_position' => '50% 50%',
 )
 			);
 
@@ -1356,7 +1430,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: center;"><span rel="color: rgb(26, 26, 26); font-family: \'Open Sans\', Arial; font-size: 24px; font-style: italic; font-weight: 300; line-height: 30px; text-transform: none; background-color: rgb(250, 250, 250);" data-verified="redactor">Whether you prefer one to one training or the dynamic environment of&nbsp;group&nbsp;training in the outdoors, you’ll&nbsp;receive&nbsp;an&nbsp;individualised approach with high quality instruction and support.</span><br></h3>',
+    'content' => '<h3 class="" style="text-align: center;">Whether you prefer one to one training or the dynamic environment of group training in the outdoors, you’ll receive an individualised approach with high quality instruction and support.<br></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408442656163-1294',
     'class' => 'c24 upfront-plain_txt',
@@ -1369,6 +1443,13 @@ $region_4->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => '_default',
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1460,7 +1541,7 @@ $region_12 = upfront_create_region(
 			array (
   'name' => 'region-12',
   'title' => 'Region 12',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'region-12',
   'position' => 20,
@@ -1471,13 +1552,13 @@ $region_12 = upfront_create_region(
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => 'rgba(255,255,255,1)',
-  'background_style' => '',
-  'background_position_y' => '97',
+  'background_style' => 'fixed',
+  'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/Homepage-Services-Bg.jpg',
   'background_image_ratio' => 0.25,
   'background_repeat' => 'no-repeat',
-  'background_position' => '50% 97%',
+  'background_position' => '50% 50%',
   'breakpoint' => 
   (array)(array(
      'custom-1408717728290' => 
@@ -1501,6 +1582,12 @@ $region_12 = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'background_position_y' => '50',
+       'background_position_x' => '40',
+       'background_type' => 'image',
+       'background_repeat' => 'no-repeat',
+       'background_position' => '40% 50%',
+       'background_style' => 'fixed',
     )),
      'custom-1408718098456' => 
     (array)(array(
@@ -1560,9 +1647,14 @@ $region_12->add_element("PlainTxt", array (
       (array)(array(
          'row' => 7,
       )),
+       'tablet' => 
+      (array)(array(
+         'row' => 6,
+         'theme_style' => 'text-center',
+      )),
     )),
   ),
-  'row' => 12,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408455458788-1517',
   'new_line' => true,
@@ -1570,8 +1662,10 @@ $region_12->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 12,
+      'col' => 10,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -1613,8 +1707,10 @@ $region_12->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 3,
-      'col' => 9,
+      'left' => 2,
+      'col' => 8,
+      'row' => 6,
+      'top' => 12,
     ),
     'custom-1408718098456' => 
     array (
@@ -1658,7 +1754,7 @@ $region_12->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip &nbsp;in hendrerit in vulputate velit esse.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
+    'content' => '<p class="">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip &nbsp;in hendrerit in vulputate.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408442665716-1580',
     'class' => 'c24 upfront-plain_txt',
@@ -1677,9 +1773,14 @@ $region_12->add_element("PlainTxt", array (
       (array)(array(
          'row' => 36,
       )),
+       'tablet' => 
+      (array)(array(
+         'row' => 29,
+         'theme_style' => 'text-center',
+      )),
     )),
   ),
-  'row' => 22,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408455466093-1167',
   'new_line' => true,
@@ -1687,8 +1788,10 @@ $region_12->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 12,
-      'order' => 0,
+      'col' => 10,
+      'order' => 1,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -1730,8 +1833,10 @@ $region_12->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 3,
-      'col' => 9,
+      'left' => 2,
+      'col' => 8,
+      'row' => 29,
+      'top' => 1,
     ),
     'custom-1408718098456' => 
     array (
@@ -1780,7 +1885,7 @@ $region_5 = upfront_create_region(
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => 'rgba(255,255,255,1)',
-  'background_style' => '',
+  'background_style' => 'fixed',
   'background_position_y' => '100',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/Homepage-Services-Bg1.jpg',
@@ -1841,7 +1946,7 @@ $region_5->add_element("PlainTxt", array (
   'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '16',
+  'margin_top' => '20',
   'margin_bottom' => '0',
   'class' => 'module-1408443814379-1179',
   'id' => 'module-1408443814379-1179',
@@ -1868,6 +1973,11 @@ $region_5->add_element("PlainTxt", array (
       (array)(array(
          'row' => 5,
       )),
+       'tablet' => 
+      (array)(array(
+         'row' => 7,
+         'theme_style' => 'text-center',
+      )),
     )),
   ),
   'row' => 6,
@@ -1878,8 +1988,10 @@ $region_5->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 9,
+      'col' => 10,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -1921,8 +2033,10 @@ $region_5->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 9,
+      'left' => 2,
+      'col' => 8,
+      'top' => 14,
+      'row' => 7,
     ),
     'custom-1408718098456' => 
     array (
@@ -1966,7 +2080,7 @@ $region_5->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
+    'content' => '<p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408443837197-1885',
     'class' => 'c24 upfront-plain_txt',
@@ -1975,8 +2089,8 @@ $region_5->add_element("PlainTxt", array (
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => 'remove-top-space',
     'anchor' => '',
     'breakpoint' => 
@@ -1985,9 +2099,14 @@ $region_5->add_element("PlainTxt", array (
       (array)(array(
          'row' => 24,
       )),
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+         'row' => 36,
+      )),
     )),
   ),
-  'row' => 26,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408443842377-1925',
   'new_line' => true,
@@ -1995,8 +2114,10 @@ $region_5->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 9,
-      'order' => 0,
+      'col' => 10,
+      'order' => 1,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -2038,8 +2159,10 @@ $region_5->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 9,
+      'left' => 2,
+      'col' => 8,
+      'row' => 36,
+      'top' => 1,
     ),
     'custom-1408718098456' => 
     array (
@@ -2149,7 +2272,7 @@ $region_6->add_element("PlainTxt", array (
   'columns' => '11',
   'margin_left' => '12',
   'margin_right' => '0',
-  'margin_top' => '16',
+  'margin_top' => '18',
   'margin_bottom' => '0',
   'class' => 'module-1408443904923-1360',
   'id' => 'module-1408443904923-1360',
@@ -2166,8 +2289,8 @@ $region_6->add_element("PlainTxt", array (
     'row' => 12,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => '_default',
     'anchor' => '',
     'breakpoint' => 
@@ -2176,9 +2299,14 @@ $region_6->add_element("PlainTxt", array (
       (array)(array(
          'row' => 6,
       )),
+       'tablet' => 
+      (array)(array(
+         'row' => 9,
+         'theme_style' => 'text-center',
+      )),
     )),
   ),
-  'row' => 12,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408443912379-1151',
   'new_line' => true,
@@ -2186,8 +2314,10 @@ $region_6->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 12,
+      'col' => 10,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -2229,8 +2359,10 @@ $region_6->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 3,
-      'col' => 9,
+      'left' => 2,
+      'col' => 8,
+      'row' => 9,
+      'top' => 17,
     ),
     'custom-1408718098456' => 
     array (
@@ -2274,7 +2406,7 @@ $region_6->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
+    'content' => '<p class="">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408443941490-1686',
     'class' => 'c24 upfront-plain_txt',
@@ -2293,9 +2425,14 @@ $region_6->add_element("PlainTxt", array (
       (array)(array(
          'row' => 22,
       )),
+       'tablet' => 
+      (array)(array(
+         'row' => 31,
+         'theme_style' => 'text-center',
+      )),
     )),
   ),
-  'row' => 22,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408443951249-1806',
   'new_line' => true,
@@ -2303,8 +2440,10 @@ $region_6->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 12,
-      'order' => 0,
+      'col' => 10,
+      'order' => 1,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -2346,8 +2485,10 @@ $region_6->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 3,
-      'col' => 9,
+      'left' => 2,
+      'col' => 8,
+      'row' => 31,
+      'top' => 0,
     ),
     'custom-1408718098456' => 
     array (
@@ -2457,7 +2598,7 @@ $region_7->add_element("PlainTxt", array (
   'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '9',
+  'margin_top' => '12',
   'margin_bottom' => '0',
   'class' => 'module-1408444386527-1487',
   'id' => 'module-1408444386527-1487',
@@ -2474,8 +2615,8 @@ $region_7->add_element("PlainTxt", array (
     'row' => 13,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => '_default',
     'anchor' => '',
     'breakpoint' => 
@@ -2484,9 +2625,14 @@ $region_7->add_element("PlainTxt", array (
       (array)(array(
          'row' => 6,
       )),
+       'tablet' => 
+      (array)(array(
+         'row' => 7,
+         'theme_style' => 'text-center',
+      )),
     )),
   ),
-  'row' => 13,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408444393256-1825',
   'new_line' => true,
@@ -2494,8 +2640,10 @@ $region_7->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 11,
+      'col' => 10,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -2536,10 +2684,12 @@ $region_7->add_element("PlainTxt", array (
     ),
     'tablet' => 
     array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 10,
+      'edited' => true,
+      'left' => 2,
+      'col' => 8,
       'order' => 0,
+      'top' => 12,
+      'row' => 7,
     ),
     'custom-1408718098456' => 
     array (
@@ -2583,12 +2733,12 @@ $region_7->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
+    'content' => '<p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408444395880-1516',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 20,
+    'row' => 14,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -2602,9 +2752,14 @@ $region_7->add_element("PlainTxt", array (
       (array)(array(
          'row' => 21,
       )),
+       'tablet' => 
+      (array)(array(
+         'row' => 23,
+         'theme_style' => 'text-center',
+      )),
     )),
   ),
-  'row' => 20,
+  'row' => 14,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408444399086-1919',
   'new_line' => true,
@@ -2613,7 +2768,9 @@ $region_7->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'col' => 10,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -2655,8 +2812,10 @@ $region_7->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 10,
+      'left' => 2,
+      'col' => 8,
+      'row' => 23,
+      'top' => 0,
     ),
     'custom-1408718098456' => 
     array (
@@ -2692,7 +2851,7 @@ $region_7->add_element("Button", array (
   'columns' => '4',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '2',
   'margin_bottom' => '0',
   'class' => 'module-1424334750056-1428',
   'id' => 'module-1424334750056-1428',
@@ -2722,6 +2881,13 @@ $region_7->add_element("Button", array (
     'theme_style' => 'uf-button-spirit',
     'is_edited' => true,
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 14,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2731,9 +2897,10 @@ $region_7->add_element("Button", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 8,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -2752,10 +2919,12 @@ $region_7->add_element("Button", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 4,
       'col' => 4,
       'order' => 0,
+      'top' => 0,
+      'row' => 14,
     ),
     'mobile' => 
     array (
@@ -2865,6 +3034,7 @@ $region_8->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408445074273-1042',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2883,7 +3053,6 @@ $region_8->add_element("PlainTxt", array (
       'order' => 0,
     ),
   ),
-  'new_line' => true,
   'breakpoint' => 
   array (
     'custom-1408717728290' => 
@@ -3018,9 +3187,10 @@ $region_8->add_element("Uimage", array (
     'anchor' => '',
     'no_padding' => '',
   ),
-  'row' => 5,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1409145408474-1078',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -3039,7 +3209,6 @@ $region_8->add_element("Uimage", array (
       'order' => 0,
     ),
   ),
-  'new_line' => true,
   'breakpoint' => 
   array (
     'custom-1408717728290' => 
@@ -3247,7 +3416,7 @@ $region_11->add_element("Uimage", array (
     )),
     'no_padding' => '',
   ),
-  'row' => 27,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408454821816-1092',
   'new_line' => true,
@@ -3343,7 +3512,7 @@ $region_11->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="">“<span rel="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; line-height: 17px; text-align: justify; text-transform: none; background-color: rgb(255, 255, 255);" data-verified="redactor" data-redactor-tag="span">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​...</span>”</h3><p class="" style="text-align: justify;" rel="text-align: justify;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><strong data-redactor-tag="strong" data-verified="redactor">Fiona Beauchampt</strong></span><em data-redactor-tag="em" data-verified="redactor"></em></p>',
+    'content' => '<h3 class=""></h3><h3 class=""><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">“<span rel="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; line-height: 17px; text-align: justify; text-transform: none; background-color: rgb(255, 255, 255);" data-verified="redactor" data-redactor-tag="span">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​...</span>”</span></h3><p class="" style="text-align: justify;" rel="text-align: justify;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2">Fiona Beauchampt</span><em data-redactor-tag="em" data-verified="redactor"></em></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408443405805-1270',
     'class' => 'c24 upfront-plain_txt',
@@ -3532,7 +3701,7 @@ $region_11->add_element("Uimage", array (
     )),
     'no_padding' => '',
   ),
-  'row' => 27,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408454829770-1114',
   'new_line' => true,
@@ -3628,7 +3797,7 @@ $region_11->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class=""><em data-redactor-tag="em"><span>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."</span></em></h3><font color="#a89084" face="Open Sans, sans-serif" class=""><span><b>Jodie Lamberg</b></span></font>',
+    'content' => '<h3 class="">"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."</h3><p class=""><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">Jodie Lamberg​</span></span><span data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"></span><br></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408445412768-1503',
     'class' => 'c24 upfront-plain_txt',
@@ -3836,7 +4005,7 @@ $region_9->add_element("Code", array (
     'script' => '/* Your code here */',
     'row' => 13,
   ),
-  'row' => 13,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1414742754166-1680',
   'new_line' => true,
@@ -3910,7 +4079,7 @@ $region_9->add_element("PlainTxt", array (
     'anchor' => '',
     'row' => 9,
   ),
-  'row' => 9,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408446496888-1432',
   'new_line' => true,
@@ -4026,7 +4195,7 @@ $region_9->add_element("PlainTxt", array (
     'anchor' => '',
     'theme_style' => 'remove-space',
   ),
-  'row' => 13,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408446525502-1263',
   'new_line' => true,

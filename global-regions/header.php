@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_dfcd30 = upfront_create_region(
+$region_3d3907 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -60,7 +60,7 @@ $region_dfcd30 = upfront_create_region(
 )
 			);
 
-$region_dfcd30->add_element("Uimage", array (
+$region_3d3907->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -237,7 +237,7 @@ $region_dfcd30->add_element("Uimage", array (
   ),
 ));
 
-$region_dfcd30->add_element("Unewnavigation", array (
+$region_3d3907->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -535,7 +535,7 @@ $region_dfcd30->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_dfcd30->add_element("Code", array (
+$region_3d3907->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -677,7 +677,7 @@ $region_dfcd30->add_element("Code", array (
       'col' => 4,
       'top' => 0,
       'row' => 13,
-      'hide' => 0,
+      'hide' => 1,
     ),
     'custom-1408718098456' => 
     array (
@@ -711,6 +711,6 @@ $region_dfcd30->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_dfcd30);
+$regions->add($region_3d3907);
 
 /* END_REGION_OUTPUT */
