@@ -363,7 +363,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">WORK WITH ME</h2>',
+    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_7">WORK WITH ME</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408528105334-1955',
     'class' => 'c24 upfront-plain_txt',
@@ -470,7 +470,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: center;">Whether you prefer one to one training or the dynamic environment of group training in the outdoors, you’ll receive an individualised approach with high quality instruction and support.<br></h3>',
+    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_7">Whether you prefer one to one training or the dynamic environment of group training in the outdoors, you’ll receive an individualised approach with high quality instruction and support.</span><br></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525051696-1392',
     'class' => 'c24 upfront-plain_txt',
@@ -838,7 +838,7 @@ $region_4->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 66,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408525591417-1195',
   'wrapper_breakpoint' => 
@@ -1108,9 +1108,16 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery2.jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery2.jpg',
+         'imageLinkTarget' => '',
       )),
       1 => 
       (array)(array(
@@ -1332,9 +1339,16 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery7 (1).jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery7 (1).jpg',
+         'imageLinkTarget' => '',
       )),
       3 => 
       (array)(array(
@@ -1440,9 +1454,16 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery9.jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery9.jpg',
+         'imageLinkTarget' => '',
       )),
       4 => 
       (array)(array(
@@ -1742,7 +1763,7 @@ $region_6->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">MORE</h2>',
+    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_7">MORE</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408526265803-1956',
     'class' => 'c24 upfront-plain_txt',
@@ -1892,7 +1913,7 @@ $region_1->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '22',
   'margin_bottom' => '0',
-  'class' => 'module-1408443814379-1179',
+  'class' => 'module-1446011639533-1052',
   'id' => 'module-1446011639533-1052',
   'options' => 
   array (
@@ -1928,7 +1949,7 @@ $region_1->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 5,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1446011641717-1447',
   'new_line' => true,
@@ -2018,7 +2039,7 @@ $region_1->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1408443837196-1997',
+  'class' => 'module-1446011643762-1467',
   'id' => 'module-1446011643762-1467',
   'options' => 
   array (

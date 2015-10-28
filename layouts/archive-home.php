@@ -506,7 +506,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span class="upfront_theme_color_7">WELLNESS REVOLUTION</span></span></h2>',
+    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>WELLNESS REVOLUTION<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span></span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408440367585-1051',
     'class' => 'c24 upfront-plain_txt',
@@ -628,7 +628,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: center;"><span class="inline_color" data-redactor-tag="span" data-redactor-class="inline_color" data-verified="redactor">You will learn how to bring your body and mind into balance, move for the pure joy of it, look good and feel connected to all life has to offer.</span> </h3>',
+    'content' => '<h3 class="" style="text-align: center;"><span class="inline_color" data-redactor-tag="span" data-redactor-class="inline_color" data-verified="redactor"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>You will learn how to bring your body and mind into balance, move for the pure joy of it, look good and feel connected to all life has to offer.<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span> </h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408440541723-1680',
     'class' => 'c24 upfront-plain_txt',
@@ -1019,7 +1019,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>SERVICES<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></h2>',
+    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_7">SERVICES</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408442628371-1209',
     'class' => 'c24 upfront-plain_txt',
@@ -1144,7 +1144,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: center;">Whether you prefer one to one training or the dynamic environment of group training in the outdoors, you’ll receive an individualised approach with high quality instruction and support.<br></h3>',
+    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_7">Whether you prefer one to one training or the dynamic environment of group training in the outdoors, you’ll receive an individualised approach with high quality instruction and support.</span><br></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408442656163-1294',
     'class' => 'c24 upfront-plain_txt',
@@ -1339,7 +1339,7 @@ $region_8->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>TESTIMONIALS<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></h2>',
+    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_7">TESTIMONIALS</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408445066283-1558',
     'class' => 'c24 upfront-plain_txt',
@@ -1692,17 +1692,17 @@ $region_11->add_element("PlainTxt", array (
   'columns' => '18',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '3',
+  'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1445928726040-1111',
-  'id' => 'module-1445928726040-1111',
+  'class' => 'module-1408445412767-1104',
+  'id' => 'module-1446013821567-1669',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="">“<span rel="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; line-height: 17px; text-align: justify; text-transform: none; background-color: rgb(255, 255, 255);" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; line-height: 17px; text-align: justify; text-transform: none; background-color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​...</span>”<br></h3><p class=""><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2">Fiona Beauchampt</span></p>',
+    'content' => '<h3 class="" style="text-transform: none;"></h3><h3 class=""><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.​...”<br></span></h3><p class="" rel="font-weight: 300; font-family: \'Open Sans\', sans-serif; font-size: 30px; line-height: 1.5em; color: rgb(51, 51, 51);"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><span class="upfront_theme_color_2">Fiona Beauchampt</span></span></p>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'object-1445928726040-1162',
+    'element_id' => 'object-1446013821567-1046',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'row' => 37,
@@ -1715,12 +1715,12 @@ $region_11->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'row' => 64,
+         'row' => 52,
          'theme_style' => 'text-center',
       )),
        'tablet' => 
       (array)(array(
-         'row' => 44,
+         'row' => 38,
       )),
     )),
     'border_style' => 'none',
@@ -1780,7 +1780,7 @@ $region_11->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 9,
-      'row' => 44,
+      'row' => 38,
     ),
     'custom-1408718098456' => 
     array (
@@ -1793,7 +1793,7 @@ $region_11->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'row' => 64,
+      'row' => 52,
       'top' => 0,
     ),
     'custom-1410780542364' => 
@@ -1993,7 +1993,7 @@ $region_11->add_element("PlainTxt", array (
   'columns' => '18',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '6',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408445412767-1104',
   'id' => 'module-1408445412767-1104',
@@ -2001,7 +2001,7 @@ $region_11->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="">"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."</h3><p class=""><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">Jodie Lamberg​</span></span><span data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"></span><br></p>',
+    'content' => '<h3 class=""></h3><h3 class=""><span class="upfront_theme_color_7">"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."</span></h3><p class=""><span class="upfront_theme_color_7"></span></p><p class=""><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">Jodie Lamberg​</span></span><span data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"></span><br></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408445412768-1503',
     'class' => 'c24 upfront-plain_txt',

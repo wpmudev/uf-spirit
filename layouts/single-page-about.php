@@ -354,7 +354,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">Donec posuere, eros in venenatis malesuada, metus leo blandit nunc, ut efficitur libero leo eu massa. Vestibulum sed accumsan metus.</p>',
+    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_7">Donec posuere, eros in venenatis malesuada, metus leo blandit nunc, ut efficitur libero leo eu massa. Vestibulum sed accumsan metus.</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525051696-1392',
     'class' => 'c24 upfront-plain_txt',

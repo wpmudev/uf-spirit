@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_e92cf9 = upfront_create_region(
+$region_29eec8 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -61,7 +61,7 @@ $region_e92cf9 = upfront_create_region(
 )
 			);
 
-$region_e92cf9->add_element("Uimage", array (
+$region_29eec8->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -239,7 +239,7 @@ $region_e92cf9->add_element("Uimage", array (
   ),
 ));
 
-$region_e92cf9->add_element("Unewnavigation", array (
+$region_29eec8->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -363,7 +363,6 @@ $region_e92cf9->add_element("Unewnavigation", array (
            'url' => '{{upfront:home_url}}/contactus/',
            'target' => '',
         )),
-         'being-edited' => false,
       )),
     ),
     'menu_style' => 'horizontal',
@@ -528,7 +527,7 @@ $region_e92cf9->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_e92cf9->add_element("Code", array (
+$region_29eec8->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -704,6 +703,6 @@ $region_e92cf9->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_e92cf9);
+$regions->add($region_29eec8);
 
 /* END_REGION_OUTPUT */
