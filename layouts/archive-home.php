@@ -4103,6 +4103,11 @@ $region_9 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
@@ -4496,6 +4501,7 @@ $region_9->add_element("Code", array (
 .newsletter-form {
     padding:0px;
     margin:0px;
+    width:100%;
 }
 
 .newsletter-form input[type="email"] {
@@ -4511,6 +4517,7 @@ $region_9->add_element("Code", array (
     outline: 0px;
     border: 1px solid #fff;
     border-radius: 4px 0 0 4px;
+    display: inline-block;
     float:left;
 }
 
@@ -4525,7 +4532,6 @@ $region_9->add_element("Code", array (
     border-bottom: 2px solid #ufc1;
     border-radius: 0 4px 4px 0;
     color: #ufc6;
-    display: inline-block;
     font-family: \'Oswald\', Arial, sans-serif;
     font-size: 16px;
     font-weight: 300;
