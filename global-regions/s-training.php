@@ -53,7 +53,7 @@ $s_training = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
-       'hide' => 1,
+       'hide' => 0,
     )),
      'custom-1410780542364' => 
     (array)(array(
@@ -112,6 +112,7 @@ $s_training->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'theme_style' => 'text-center',
+         'row' => 7,
       )),
     )),
   ),
@@ -187,7 +188,8 @@ $s_training->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 12,
+      'top' => 17,
+      'row' => 7,
     ),
     'custom-1410780542364' => 
     array (
@@ -245,6 +247,7 @@ $s_training->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'theme_style' => 'text-center',
+         'row' => 28,
       )),
     )),
   ),
@@ -316,10 +319,12 @@ $s_training->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+      'row' => 28,
     ),
     'custom-1410780542364' => 
     array (

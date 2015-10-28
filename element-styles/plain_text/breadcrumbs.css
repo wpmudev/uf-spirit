@@ -1,12 +1,12 @@
 #page .breadcrumbs p {
-     margin-top: 15px;
-     font: 13px 'Oswald', Arial;
-     color: #a89084;
+     margin-top: 10px;
+     font: 14px 'Oswald', Arial;
+     color: #ufc2;
 }
 #page .breadcrumbs p a {
-    color: #434343;
-    font: 13px 'Oswald', Arial;
+    color: #ufc5;
+    font: 14px 'Oswald', Arial;
 }
 #page .breadcrumbs p a:hover {
-    color: #a89084;
+    color: #ufc2;
 }
