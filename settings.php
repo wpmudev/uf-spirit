@@ -12,6 +12,7 @@ h3 {
 h2 {
     letter-spacing: -0.5px;
     margin-bottom: 10px!important;
+    text-transform:uppercase;
 }
 
 h2:after {
