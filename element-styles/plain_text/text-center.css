@@ -3,3 +3,17 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+#page .text-center h6 {
+    border-left: none;
+    padding-top: 25px;
+}
+#page .text-center h6:before {
+    border-top: 1px solid #ufc4;
+    content: "";
+    position: absolute;
+    width: 50px;
+    margin-left:-25px;
+    height: 20px;
+    left: 50%;
+    bottom: 25px;
+}

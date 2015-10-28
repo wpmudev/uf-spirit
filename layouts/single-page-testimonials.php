@@ -91,7 +91,7 @@ $region_5->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '17',
+  'margin_top' => '19',
   'margin_bottom' => '0',
   'class' => 'module-1408525024897-1934',
   'id' => 'module-1408525024897-1934',
@@ -123,11 +123,15 @@ $region_5->add_element("PlainTxt", array (
     array (
       'col' => 12,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -169,7 +173,7 @@ $region_5->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'left' => 0,
-      'top' => 11,
+      'top' => 13,
       'col' => 12,
     ),
     'custom-1408718098456' => 
@@ -190,7 +194,7 @@ $region_5->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'top' => 12,
+      'top' => 13,
     ),
   ),
 ));
@@ -208,7 +212,7 @@ $region_3 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 41,
+  'row' => 21,
   'breakpoint' => 
   (array)(array(
      'custom-1408717728290' => 
@@ -238,8 +242,9 @@ $region_3 = upfront_create_region(
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 15,
     )),
      'custom-1410783042947' => 
     (array)(array(
@@ -353,114 +358,6 @@ $region_3->add_element("PlainTxt", array (
   ),
 ));
 
-$region_3->add_element("PlainTxt", array (
-  'columns' => '22',
-  'margin_left' => '1',
-  'margin_right' => '0',
-  'margin_top' => '8',
-  'margin_bottom' => '0',
-  'class' => 'module-1408525051697-1453',
-  'id' => 'module-1408525051697-1453',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">Vivamus sollicitudin lectus faucibus dolor viverra mollis. Nullam feugiat arcu et felis facilisis pretium. Donec viverra purus nec lobortis scelerisque.</p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1408525051696-1392',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 18,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'theme_style' => 'sub-title',
-    'anchor' => '',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408525441545-1325',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 18,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 22,
-      'top' => 4,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 18,
-      'top' => 4,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 16,
-      'top' => 3,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-      'top' => 3,
-    ),
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'top' => 4,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 10,
-      'top' => 4,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 18,
-      'order' => 0,
-    ),
-  ),
-));
-
 $regions->add($region_3);
 
 $region_4 = upfront_create_region(
@@ -500,7 +397,8 @@ $region_4 = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 451,
+       'row' => 295,
+       'background_type' => 'color',
     )),
      'custom-1408718098456' => 
     (array)(array(
@@ -510,7 +408,7 @@ $region_4 = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 562,
+       'row' => 457,
     )),
      'custom-1410783042947' => 
     (array)(array(
@@ -528,19 +426,75 @@ $region_4 = upfront_create_region(
 )
 			);
 
-$region_4->add_element("Uimage", array (
-  'columns' => '4',
+$region_4->add_group(array (
+  'columns' => '22',
+  'margin_top' => '9',
   'margin_left' => '1',
+  'class' => '',
+  'id' => 'module-group-1446074040094-1969',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1446074040095-1842',
+  'original_col' => 22,
+  'background_color' => '#ffffff',
+  'background_style' => 'full',
+  'background_position_y' => 50,
+  'background_position_x' => 50,
+  'use_padding' => 0,
+  'background_type' => 'color',
+  'anchor' => '',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 0,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 0,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+      'row' => 85,
+      'top' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'top' => 0,
+    ),
+  ),
+));
+
+$region_4->add_element("Uimage", array (
+  'columns' => '3',
+  'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '4',
+  'margin_top' => '2',
   'margin_bottom' => '0',
   'class' => 'module-1408445992395-1679',
   'id' => 'module-1408445992395-1679',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial1-140x140-7971.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial1.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial1.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial1-140x140-7971 (1)-105x105-4911.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial1-140x140-7971 (1).jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial1-140x140-7971 (1).jpg',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => false,
@@ -551,8 +505,8 @@ $region_4->add_element("Uimage", array (
     'image_status' => 'ok',
     'size' => 
     (array)(array(
-       'width' => 140,
-       'height' => 140,
+       'width' => 105,
+       'height' => 105,
     )),
     'fullSize' => 
     (array)(array(
@@ -561,30 +515,30 @@ $region_4->add_element("Uimage", array (
     )),
     'position' => 
     (array)(array(
-       'top' => 0,
-       'left' => -5,
+       'top' => -0.5,
+       'left' => -17,
     )),
     'marginTop' => 0,
     'element_size' => 
     (array)(array(
-       'width' => 150,
-       'height' => 150,
+       'width' => 105,
+       'height' => 105,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '140',
+    'image_id' => '3368',
     'align' => 'center',
-    'stretch' => false,
-    'vstretch' => false,
+    'stretch' => true,
+    'vstretch' => true,
     'quick_swap' => false,
     'gifImage' => 0,
     'placeholder_class' => '',
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
-    'class' => 'c24 upfront-image',
+    'class' => 'c24 upfront-image ',
     'id_slug' => 'image',
     'when_clicked' => false,
     'image_link' => '',
@@ -595,7 +549,7 @@ $region_4->add_element("Uimage", array (
        'target' => false,
     )),
     'element_id' => 'object-1408445992396-1972',
-    'row' => 6,
+    'row' => 27,
     'theme_style' => 'circle',
     'anchor' => '',
     'breakpoint' => 
@@ -609,26 +563,25 @@ $region_4->add_element("Uimage", array (
          'row' => 24,
       )),
     )),
+    'no_padding' => '',
   ),
-  'row' => 6,
+  'row' => 27,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408454821816-1092',
+  'wrapper_id' => 'wrapper-1446074040104-1511',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 3,
+      'edited' => true,
+      'col' => 8,
       'order' => 0,
+      'clear' => false,
     ),
     'mobile' => 
     array (
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 4,
+      'edited' => false,
+      'col' => 5,
       'order' => 0,
     ),
   ),
@@ -636,28 +589,28 @@ $region_4->add_element("Uimage", array (
   array (
     'custom-1408717728290' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 1,
       'col' => 4,
       'top' => 7,
     ),
     'custom-1408717918354' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 4,
     ),
     'custom-1408717978058' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 7,
     ),
     'custom-1408718022181' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 5,
@@ -665,14 +618,15 @@ $region_4->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'top' => 4,
+      'left' => 4,
+      'col' => 4,
+      'top' => 0,
       'row' => 30,
+      'order' => 0,
     ),
     'custom-1408718098456' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 3,
       'top' => 3,
@@ -681,26 +635,27 @@ $region_4->add_element("Uimage", array (
     'mobile' => 
     array (
       'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'hide' => 1,
+      'left' => 2,
+      'col' => 3,
+      'hide' => 0,
       'order' => 0,
     ),
     'custom-1410783042947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 4,
     ),
   ),
+  'group' => 'module-group-1446074040094-1969',
 ));
 
 $region_4->add_element("PlainTxt", array (
   'columns' => '18',
-  'margin_left' => '0',
+  'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '4',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408443405809-1628',
   'id' => 'module-1408443405809-1628',
@@ -708,7 +663,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">Megan Campbell is a gifted, beautiful and inspiring wellness/fitness expert. When I was initially looking for a personal trainer, the fact that Meg was warm, approachable and experienced in so many different areas influenced my decision. &nbsp;In fact, after the first time I met Meg I instantly felt comfortable and knew she would be someone to have a positive impact on my life. Since then, Meg and I have met twice a week for nine years. Her training sessions have challenged me and my body, and I have seen significant improvements over the time I have worked with her. &nbsp;Not only has helped me transform my body, but also my mind. &nbsp</p><p class=""></p><p class="">Meg is wonderfully knowledgeable, and her experience helps to shape you as a person. &nbsp;Her ability to guide you in your journey to achieving your goals is amazing. &nbsp;Meg is thoughtful, fun and well prepared and I always look forward to my sessions with her. &nbsp;With her extensive knowledge of body functionality, she knows just how hard to push you in a very encouraging, supportive and creative way. Meg is always mindful of correct technique when doing strength training; helping you to prevent injuries. &nbsp;She is the ultimate professional and a standout in her field. &nbsp; I would highly recommend Meg - You will love working with her.</p><p class="" style="text-align: right;"><strong style="text-align: right;">Fiona Beauchampt<br></strong><em style="text-align: right;">Occupational Therapist at CPEC&nbsp;</em></p>',
+    'content' => '<h3 class=""><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.​&nbsp;<span rel="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; line-height: 17px; text-align: justify; text-transform: none; background-color: rgb(255, 255, 255);" data-verified="redactor" data-redactor-tag="span">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span>”</span></h3><h6 class=""><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"></span>Fiona Beauchampt</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408443405805-1270',
     'class' => 'c24 upfront-plain_txt',
@@ -735,7 +690,8 @@ $region_4->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'row' => 131,
+         'row' => 51,
+         'theme_style' => 'text-center',
       )),
        'custom-1408718098456' => 
       (array)(array(
@@ -745,26 +701,33 @@ $region_4->add_element("PlainTxt", array (
       (array)(array(
          'row' => 126,
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
     )),
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408532674436-1745',
+  'wrapper_id' => 'wrapper-1446074040105-1394',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 9,
-      'order' => 0,
+      'edited' => true,
+      'col' => 12,
+      'order' => 1,
+      'clear' => false,
     ),
     'mobile' => 
     array (
+      'edited' => false,
       'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 14,
       'order' => 0,
     ),
   ),
@@ -772,7 +735,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'custom-1408717728290' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 16,
       'top' => 7,
@@ -780,14 +743,14 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1408717918354' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 14,
       'row' => 137,
     ),
     'custom-1408717978058' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 12,
       'row' => 150,
@@ -795,7 +758,7 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1408718022181' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 10,
       'top' => 5,
@@ -805,12 +768,13 @@ $region_4->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 9,
-      'row' => 137,
+      'col' => 12,
+      'row' => 51,
+      'order' => 0,
     ),
     'custom-1408718098456' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'top' => 3,
@@ -825,28 +789,77 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1410783042947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 14,
       'row' => 132,
       'top' => 4,
     ),
   ),
+  'group' => 'module-group-1446074040094-1969',
+));
+
+$region_4->add_group(array (
+  'columns' => '22',
+  'margin_top' => '13',
+  'margin_left' => '1',
+  'class' => '',
+  'id' => 'module-group-1446074037788-1371',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1446074037790-1528',
+  'original_col' => 22,
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 1,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 1,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+      'top' => 5,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'top' => 7,
+    ),
+  ),
 ));
 
 $region_4->add_element("Uimage", array (
-  'columns' => '4',
-  'margin_left' => '1',
+  'columns' => '3',
+  'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '14',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408532655407-1054',
   'id' => 'module-1408532655407-1054',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial2-140x140-5404.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial2.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial2.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial2 (1)-105x105-4345.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial2 (1).jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial2 (1).jpg',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => false,
@@ -857,8 +870,8 @@ $region_4->add_element("Uimage", array (
     'image_status' => 'ok',
     'size' => 
     (array)(array(
-       'width' => 140,
-       'height' => 140,
+       'width' => 105,
+       'height' => 105,
     )),
     'fullSize' => 
     (array)(array(
@@ -867,22 +880,22 @@ $region_4->add_element("Uimage", array (
     )),
     'position' => 
     (array)(array(
-       'top' => 0,
-       'left' => -5,
+       'top' => -3,
+       'left' => 0,
     )),
-    'marginTop' => 0,
+    'marginTop' => 3,
     'element_size' => 
     (array)(array(
-       'width' => 150,
-       'height' => 150,
+       'width' => 105,
+       'height' => 111,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '141',
+    'image_id' => '3369',
     'align' => 'center',
-    'stretch' => false,
+    'stretch' => true,
     'vstretch' => false,
     'quick_swap' => false,
     'gifImage' => 0,
@@ -901,40 +914,39 @@ $region_4->add_element("Uimage", array (
        'target' => false,
     )),
     'element_id' => 'object-1408532655407-1772',
-    'row' => 6,
+    'row' => 27,
     'theme_style' => 'circle',
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 19,
+         'row' => 15,
       )),
        'custom-1408718098456' => 
       (array)(array(
          'row' => 25,
       )),
     )),
+    'no_padding' => '',
   ),
-  'row' => 6,
+  'row' => 27,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408532699086-1371',
+  'wrapper_id' => 'wrapper-1446074037798-1155',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 3,
+      'edited' => true,
+      'col' => 8,
       'order' => 0,
+      'clear' => false,
     ),
     'mobile' => 
     array (
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 4,
+      'edited' => false,
+      'col' => 5,
       'order' => 0,
     ),
   ),
@@ -942,28 +954,28 @@ $region_4->add_element("Uimage", array (
   array (
     'custom-1408717728290' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 1,
       'col' => 4,
       'top' => 15,
     ),
     'custom-1408717918354' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 13,
     ),
     'custom-1408717978058' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 16,
     ),
     'custom-1408718022181' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 14,
@@ -971,14 +983,15 @@ $region_4->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'top' => 11,
-      'row' => 25,
+      'left' => 4,
+      'col' => 4,
+      'top' => 0,
+      'row' => 15,
+      'order' => 0,
     ),
     'custom-1408718098456' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 3,
       'top' => 16,
@@ -987,26 +1000,27 @@ $region_4->add_element("Uimage", array (
     'mobile' => 
     array (
       'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'hide' => 1,
+      'left' => 2,
+      'col' => 3,
+      'hide' => 0,
       'order' => 0,
     ),
     'custom-1410783042947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 14,
     ),
   ),
+  'group' => 'module-group-1446074037788-1371',
 ));
 
 $region_4->add_element("PlainTxt", array (
   'columns' => '18',
-  'margin_left' => '0',
+  'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '14',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408532683995-1530',
   'id' => 'module-1408532683995-1530',
@@ -1014,12 +1028,12 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">Megan Campbell is a gifted, beautiful and inspiring wellness/fitness expert. When I was initially looking for a personal trainer, the fact that Meg was warm, approachable and experienced in so many different areas influenced my decision. &nbsp;In fact, after the first time I met Meg I instantly felt comfortable and knew she would be someone to have a positive impact on my life. Since then, Meg and I have met twice a week for nine years. Her training sessions have challenged me and my body, and I have seen significant improvements over the time I have worked with her. &nbsp;Not only has helped me transform my body, but also my mind.&nbsp;</p><p class=""></p><p class="" style="text-align: right;"><strong style="text-align: right;">Fiona Beauchampt<br></strong><em style="text-align: right;">Occupational Therapist at CPEC&nbsp;</em></p>',
+    'content' => '<h3 class=""><span class="upfront_theme_color_7" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7" data-verified="redactor">“Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.&nbsp;</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet lobortis erat valupat.”</h3><h6 class="" rel="text-align: right;"><strong data-redactor-tag="strong"></strong>Jodie Lamberg<em data-redactor-tag="em"></em></h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408532683996-1604',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 25,
+    'row' => 55,
     'is_edited' => true,
     'breakpoint' => 
     (array)(array(
@@ -1041,7 +1055,8 @@ $region_4->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'row' => 72,
+         'row' => 50,
+         'theme_style' => 'text-center',
       )),
        'custom-1408718098456' => 
       (array)(array(
@@ -1051,26 +1066,33 @@ $region_4->add_element("PlainTxt", array (
       (array)(array(
          'row' => 59,
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
     )),
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
   ),
-  'row' => 6,
+  'row' => 55,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408532765246-1476',
+  'wrapper_id' => 'wrapper-1446074037800-1228',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 9,
-      'order' => 0,
+      'edited' => true,
+      'col' => 12,
+      'order' => 1,
+      'clear' => false,
     ),
     'mobile' => 
     array (
+      'edited' => false,
       'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 14,
       'order' => 0,
     ),
   ),
@@ -1078,7 +1100,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'custom-1408717728290' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 16,
       'top' => 15,
@@ -1086,7 +1108,7 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1408717918354' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 14,
       'top' => 13,
@@ -1094,7 +1116,7 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1408717978058' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 12,
       'top' => 16,
@@ -1102,7 +1124,7 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1408718022181' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 10,
       'row' => 71,
@@ -1111,13 +1133,14 @@ $region_4->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 9,
-      'top' => 11,
-      'row' => 78,
+      'col' => 12,
+      'top' => 0,
+      'row' => 50,
+      'order' => 0,
     ),
     'custom-1408718098456' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'row' => 87,
@@ -1132,26 +1155,75 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1410783042947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 14,
       'row' => 65,
       'top' => 14,
     ),
   ),
+  'group' => 'module-group-1446074037788-1371',
+));
+
+$region_4->add_group(array (
+  'columns' => '22',
+  'margin_top' => '16',
+  'margin_left' => '1',
+  'class' => '',
+  'id' => 'module-group-1446074035651-1012',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1446074035653-1040',
+  'original_col' => 22,
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 2,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+      'top' => 6,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'top' => 6,
+    ),
+  ),
 ));
 
 $region_4->add_element("Uimage", array (
-  'columns' => '4',
-  'margin_left' => '1',
+  'columns' => '3',
+  'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '15',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408532743173-1630',
   'id' => 'module-1408532743173-1630',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial3-140x140-1930.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial3-109x109-6410.jpg',
     'srcFull' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial3.jpg',
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-testimonials/testimonial3.jpg',
     'image_title' => '',
@@ -1164,8 +1236,8 @@ $region_4->add_element("Uimage", array (
     'image_status' => 'ok',
     'size' => 
     (array)(array(
-       'width' => 140,
-       'height' => 140,
+       'width' => 109,
+       'height' => 109,
     )),
     'fullSize' => 
     (array)(array(
@@ -1174,22 +1246,22 @@ $region_4->add_element("Uimage", array (
     )),
     'position' => 
     (array)(array(
-       'top' => 0,
-       'left' => -5,
+       'top' => -3,
+       'left' => 0,
     )),
-    'marginTop' => 0,
+    'marginTop' => 3,
     'element_size' => 
     (array)(array(
-       'width' => 150,
-       'height' => 150,
+       'width' => 109,
+       'height' => 115,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '142',
+    'image_id' => '3370',
     'align' => 'center',
-    'stretch' => false,
+    'stretch' => true,
     'vstretch' => false,
     'quick_swap' => false,
     'gifImage' => 0,
@@ -1208,7 +1280,7 @@ $region_4->add_element("Uimage", array (
        'target' => false,
     )),
     'element_id' => 'object-1408532743173-1204',
-    'row' => 6,
+    'row' => 29,
     'theme_style' => 'circle',
     'anchor' => '',
     'breakpoint' => 
@@ -1223,25 +1295,23 @@ $region_4->add_element("Uimage", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 29,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408532792463-1234',
+  'wrapper_id' => 'wrapper-1446074035662-1599',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 3,
+      'edited' => true,
+      'col' => 8,
       'order' => 0,
+      'clear' => true,
     ),
     'mobile' => 
     array (
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 4,
+      'edited' => false,
+      'col' => 5,
       'order' => 0,
     ),
   ),
@@ -1249,28 +1319,28 @@ $region_4->add_element("Uimage", array (
   array (
     'custom-1408717728290' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 1,
       'col' => 4,
       'top' => 18,
     ),
     'custom-1408717918354' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 14,
     ),
     'custom-1408717978058' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 14,
     ),
     'custom-1408718022181' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 15,
@@ -1278,14 +1348,15 @@ $region_4->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 3,
+      'left' => 4,
+      'col' => 4,
       'row' => 28,
-      'top' => 19,
+      'top' => 0,
+      'order' => 0,
     ),
     'custom-1408718098456' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 3,
       'top' => 13,
@@ -1294,26 +1365,27 @@ $region_4->add_element("Uimage", array (
     'mobile' => 
     array (
       'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'hide' => 1,
+      'left' => 2,
+      'col' => 3,
+      'hide' => 0,
       'order' => 0,
     ),
     'custom-1410783042947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 15,
     ),
   ),
+  'group' => 'module-group-1446074035651-1012',
 ));
 
 $region_4->add_element("PlainTxt", array (
   'columns' => '18',
-  'margin_left' => '0',
+  'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '15',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408532768913-1417',
   'id' => 'module-1408532768913-1417',
@@ -1321,7 +1393,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">Megan Campbell is a gifted, beautiful and inspiring wellness/fitness expert. When I was initially looking for a personal trainer, the fact that Meg was warm, approachable and experienced in so many different areas influenced my decision. &nbsp;In fact, after the first time I met Meg I instantly felt comfortable and knew she would be someone to have a positive impact on my life. Since then, Meg and I have met twice a week for nine years. Her training sessions have challenged me and my body, and I have seen significant improvements over the time I have worked with her. &nbsp;Not only has helped me transform my body, but also my mind.&nbsp;</p><p class=""></p><p class="" style="text-align: right;"><strong style="text-align: right;">Fiona Beauchampt<br></strong><em style="text-align: right;">Occupational Therapist at CPEC&nbsp;</em></p>',
+    'content' => '<h3 class=""><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">“E</span><span rel="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; line-height: 17px; text-align: justify; text-transform: none; background-color: rgb(255, 255, 255);" data-verified="redactor">st usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</span>”</h3><h6 class="">Ben Fallon</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408532768914-1485',
     'class' => 'c24 upfront-plain_txt',
@@ -1348,7 +1420,8 @@ $region_4->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'row' => 39,
+         'row' => 63,
+         'theme_style' => 'text-center',
       )),
        'custom-1408718098456' => 
       (array)(array(
@@ -1358,26 +1431,33 @@ $region_4->add_element("PlainTxt", array (
       (array)(array(
          'row' => 60,
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
     )),
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408532768910-1424',
+  'wrapper_id' => 'wrapper-1446074035664-1533',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 9,
-      'order' => 0,
+      'edited' => true,
+      'col' => 12,
+      'order' => 1,
+      'clear' => true,
     ),
     'mobile' => 
     array (
+      'edited' => false,
       'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 14,
       'order' => 0,
     ),
   ),
@@ -1385,7 +1465,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'custom-1408717728290' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 16,
       'top' => 18,
@@ -1393,7 +1473,7 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1408717918354' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 14,
       'top' => 14,
@@ -1401,7 +1481,7 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1408717978058' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 12,
       'top' => 14,
@@ -1409,7 +1489,7 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1408718022181' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 10,
       'row' => 24,
@@ -1418,13 +1498,14 @@ $region_4->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 9,
-      'top' => 19,
-      'row' => 45,
+      'col' => 12,
+      'top' => 0,
+      'row' => 63,
+      'order' => 0,
     ),
     'custom-1408718098456' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'row' => 91,
@@ -1439,13 +1520,14 @@ $region_4->add_element("PlainTxt", array (
     ),
     'custom-1410783042947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 14,
       'row' => 66,
       'top' => 15,
     ),
   ),
+  'group' => 'module-group-1446074035651-1012',
 ));
 
 $regions->add($region_4);
