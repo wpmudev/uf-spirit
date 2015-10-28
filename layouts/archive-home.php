@@ -2981,7 +2981,7 @@ $region_7->add_element("Button", array (
       )),
     )),
   ),
-  'row' => 4,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1424334772059-1950',
   'new_line' => true,
@@ -3135,6 +3135,7 @@ $region_8->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408445074273-1042',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -3154,7 +3155,6 @@ $region_8->add_element("PlainTxt", array (
       'order' => 0,
     ),
   ),
-  'new_line' => true,
   'breakpoint' => 
   array (
     'custom-1408717728290' => 
@@ -3293,6 +3293,7 @@ $region_8->add_element("Uimage", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1409145408474-1078',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -3312,7 +3313,6 @@ $region_8->add_element("Uimage", array (
       'order' => 0,
     ),
   ),
-  'new_line' => true,
   'breakpoint' => 
   array (
     'custom-1408717728290' => 
