@@ -33,7 +33,7 @@ h5 {
 }
 
 h6 {
-    border-left: 1px solid #ufc4;
+    border-left: 1px solid #ufc4!important;
     padding-left: 20px;
     padding-right: 20px;
 }

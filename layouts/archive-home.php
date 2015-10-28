@@ -1497,7 +1497,7 @@ $region_11 = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 192,
+       'row' => 206,
     )),
      'custom-1410780542364' => 
     (array)(array(
@@ -1512,11 +1512,57 @@ $region_11 = upfront_create_region(
 )
 			);
 
+$region_11->add_group(array (
+  'columns' => '22',
+  'margin_top' => '0',
+  'margin_left' => '1',
+  'class' => '',
+  'id' => 'module-group-1446076061585-1012',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1446076061586-1093',
+  'original_col' => 22,
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 0,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+      'top' => 10,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
 $region_11->add_element("Uimage", array (
   'columns' => '3',
-  'margin_left' => '1',
+  'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '4',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408445992395-1679',
   'id' => 'module-1408445992395-1679',
@@ -1586,7 +1632,7 @@ $region_11->add_element("Uimage", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 26,
+         'row' => 29,
       )),
        'custom-1408718098456' => 
       (array)(array(
@@ -1601,26 +1647,21 @@ $region_11->add_element("Uimage", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408454821816-1092',
+  'wrapper_id' => 'wrapper-1446076061599-1087',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
+      'edited' => true,
       'col' => 3,
       'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
     array (
+      'edited' => false,
       'col' => 5,
-      'order' => 0,
-      'clear' => true,
-      'edited' => true,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 4,
       'order' => 0,
     ),
   ),
@@ -1628,25 +1669,25 @@ $region_11->add_element("Uimage", array (
   array (
     'custom-1408717728290' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 1,
       'col' => 4,
     ),
     'custom-1408717918354' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
     ),
     'custom-1408717978058' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
     ),
     'custom-1408718022181' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
     ),
@@ -1655,16 +1696,19 @@ $region_11->add_element("Uimage", array (
       'edited' => true,
       'left' => 0,
       'col' => 3,
+      'order' => 0,
+      'top' => 0,
+      'row' => 29,
     ),
     'custom-1408718098456' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 3,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 2,
       'col' => 3,
       'hide' => 0,
@@ -1680,47 +1724,41 @@ $region_11->add_element("Uimage", array (
     ),
     'custom-1410783042947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 4,
     ),
   ),
+  'group' => 'module-group-1446076061585-1012',
 ));
 
 $region_11->add_element("PlainTxt", array (
   'columns' => '18',
   'margin_left' => '1',
-  'margin_right' => '0',
   'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1446013821567-1669',
-  'id' => 'module-1446013821567-1669',
+  'class' => '',
+  'id' => 'module-1446076010936-1364',
   'options' => 
   array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-transform: none;"></h3><h3 class=""><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.​...”<br></span></h3><p class="" rel="font-weight: 300; font-family: \'Open Sans\', sans-serif; font-size: 30px; line-height: 1.5em; color: rgb(51, 51, 51);"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><span class="upfront_theme_color_2">Fiona Beauchampt</span></span></p>',
+    'content' => '<h3 class="">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.​...”&nbsp;</h3><h6 class="">Fiona Beauchampt</h6>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'object-1446013821567-1046',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1446076010936-1728',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 37,
+    'id_slug' => 'plain_text',
+    'row' => 17,
     'is_edited' => true,
     'breakpoint' => 
     (array)(array(
-       'custom-1410783042947' => 
+       'tablet' => 
       (array)(array(
-         'row' => 29,
+         'row' => 45,
       )),
        'mobile' => 
       (array)(array(
-         'row' => 52,
          'theme_style' => 'text-center',
-      )),
-       'tablet' => 
-      (array)(array(
-         'row' => 38,
       )),
     )),
     'border_style' => 'none',
@@ -1729,95 +1767,97 @@ $region_11->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
   ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1445928733919-1921',
+  'row' => 17,
+  'wrapper_id' => 'wrapper-1446076061601-1580',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 9,
-      'order' => 0,
+      'order' => 1,
       'clear' => false,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'col' => 7,
-      'order' => 1,
-      'clear' => true,
+      'order' => 0,
     ),
   ),
   'breakpoint' => 
   array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 16,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 10,
-    ),
     'tablet' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 9,
-      'row' => 38,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
+      'order' => 0,
+      'top' => 0,
+      'row' => 45,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
-      'row' => 52,
-      'top' => 0,
+      'order' => 0,
     ),
-    'custom-1410780542364' => 
+  ),
+  'group' => 'module-group-1446076061585-1012',
+));
+
+$region_11->add_group(array (
+  'columns' => '22',
+  'margin_top' => '9',
+  'margin_left' => '1',
+  'class' => '',
+  'id' => 'module-group-1446076059628-1607',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1446076059629-1530',
+  'original_col' => 22,
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 1,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+      'top' => 4,
+    ),
+    'mobile' => 
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 18,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-      'row' => 35,
-      'top' => 7,
+      'col' => 7,
+      'order' => 0,
     ),
   ),
 ));
 
 $region_11->add_element("Uimage", array (
   'columns' => '3',
-  'margin_left' => '1',
+  'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '5',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1408443405836-1728',
   'id' => 'module-1408443405836-1728',
@@ -1887,7 +1927,7 @@ $region_11->add_element("Uimage", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 25,
+         'row' => 24,
       )),
        'custom-1408718098456' => 
       (array)(array(
@@ -1902,52 +1942,48 @@ $region_11->add_element("Uimage", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408454829770-1114',
+  'wrapper_id' => 'wrapper-1446076059643-1044',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
+      'edited' => true,
       'col' => 3,
       'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
     array (
-      'col' => 5,
-      'order' => 2,
-      'clear' => true,
       'edited' => true,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 4,
+      'col' => 5,
       'order' => 0,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
   array (
     'custom-1408717728290' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 1,
       'col' => 4,
     ),
     'custom-1408717918354' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
     ),
     'custom-1408717978058' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
     ),
     'custom-1408718022181' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
     ),
@@ -1956,16 +1992,19 @@ $region_11->add_element("Uimage", array (
       'edited' => true,
       'left' => 0,
       'col' => 3,
+      'order' => 0,
+      'top' => 0,
+      'row' => 24,
     ),
     'custom-1408718098456' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 3,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 2,
       'col' => 3,
       'hide' => 0,
@@ -1981,141 +2020,84 @@ $region_11->add_element("Uimage", array (
     ),
     'custom-1410783042947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'top' => 7,
     ),
   ),
+  'group' => 'module-group-1446076059628-1607',
 ));
 
 $region_11->add_element("PlainTxt", array (
   'columns' => '18',
   'margin_left' => '1',
-  'margin_right' => '0',
   'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1408445412767-1104',
-  'id' => 'module-1408445412767-1104',
+  'class' => '',
+  'id' => 'module-1446076032518-1114',
   'options' => 
   array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h3 class=""></h3><h3 class=""><span class="upfront_theme_color_7">"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."</span></h3><p class=""><span class="upfront_theme_color_7"></span></p><p class=""><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">Jodie Lamberg​</span></span><span data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"></span><br></p>',
+    'content' => '<h3 class="">"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."&nbsp;</h3><h6 class="">Jodie Lamberg​</h6>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'object-1408445412768-1503',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'object-1446076032518-1114',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 37,
+    'id_slug' => 'plain_text',
+    'row' => 17,
     'is_edited' => true,
-    'breakpoint' => 
-    (array)(array(
-       'custom-1410783042947' => 
-      (array)(array(
-         'row' => 29,
-      )),
-       'mobile' => 
-      (array)(array(
-         'row' => 52,
-         'theme_style' => 'text-center',
-      )),
-       'tablet' => 
-      (array)(array(
-         'row' => 38,
-      )),
-    )),
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
+    )),
   ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1409146821339-1451',
+  'row' => 17,
+  'wrapper_id' => 'wrapper-1446076059645-1373',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
+      'edited' => true,
       'col' => 9,
-      'order' => 0,
+      'order' => 1,
       'clear' => false,
     ),
     'mobile' => 
     array (
-      'col' => 7,
-      'order' => 3,
-      'clear' => true,
       'edited' => true,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 14,
-      'order' => 0,
+      'col' => 7,
+      'order' => 1,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
   array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 16,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 10,
-    ),
     'tablet' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 9,
-      'row' => 38,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
+      'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'row' => 52,
+      'order' => 0,
       'top' => 0,
     ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 18,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-      'row' => 35,
-      'top' => 7,
-    ),
   ),
+  'group' => 'module-group-1446076059628-1607',
 ));
 
 $regions->add($region_11);

@@ -53,7 +53,7 @@ $s_retreats = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
-       'hide' => 0,
+       'hide' => 1,
     )),
      'custom-1410780542364' => 
     (array)(array(
