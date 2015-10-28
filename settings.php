@@ -32,6 +32,12 @@ h5 {
     text-transform:uppercase;
 }
 
+h6 {
+    border-left: 1px solid #ufc4;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 a {
     -moz-transition: color .2s;
     -ms-transition: color .2s;
