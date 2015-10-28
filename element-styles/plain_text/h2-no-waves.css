@@ -1,0 +1,6 @@
+#page .h2-no-waves.upfront-plain_txt h2:after {
+    background:none;
+}
+#page .h2-no-waves h2 {
+    margin-bottom:-5px!important;
+}

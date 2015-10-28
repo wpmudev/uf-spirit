@@ -79,7 +79,7 @@ $region_10->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '17',
+  'margin_top' => '19',
   'margin_bottom' => '0',
   'class' => 'module-1408525024897-1934',
   'id' => 'module-1408525024897-1934',
@@ -354,7 +354,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">WELLNESS COACHING CONSULTATIONS</h2>',
+    'content' => '<h2 class="" style="text-align: center;">WORK WITH ME</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408528105334-1955',
     'class' => 'c24 upfront-plain_txt',
@@ -366,7 +366,7 @@ $region_3->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'theme_style' => 'remove-bottom-space',
+    'theme_style' => '_default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -446,155 +446,6 @@ $region_3->add_element("PlainTxt", array (
   ),
 ));
 
-$region_3->add_element("Uimage", array (
-  'columns' => '4',
-  'margin_left' => '10',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1408528311775-1023',
-  'id' => 'module-1408528311775-1023',
-  'options' => 
-  array (
-    'src' => '{{upfront:style_url}}/images/single-page-services/wave-line (1)-92x4-6498.png',
-    'srcFull' => '{{upfront:style_url}}/images/single-page-services/wave-line (1).png',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-page-services/wave-line (1).png',
-    'image_title' => '',
-    'alternative_text' => '',
-    'include_image_caption' => false,
-    'image_caption' => 'My awesome image caption',
-    'caption_position' => false,
-    'caption_alignment' => false,
-    'caption_trigger' => 'always_show',
-    'image_status' => 'ok',
-    'size' => 
-    (array)(array(
-       'width' => 92,
-       'height' => 4,
-    )),
-    'fullSize' => 
-    (array)(array(
-       'width' => 92,
-       'height' => 4,
-    )),
-    'position' => 
-    (array)(array(
-       'top' => -0.5,
-       'left' => -29,
-    )),
-    'marginTop' => 0.5,
-    'element_size' => 
-    (array)(array(
-       'width' => 150,
-       'height' => 5,
-    )),
-    'rotation' => 0,
-    'color' => '#ffffff',
-    'background' => '#000000',
-    'captionBackground' => '0',
-    'image_id' => '164',
-    'align' => 'center',
-    'stretch' => false,
-    'vstretch' => false,
-    'quick_swap' => false,
-    'gifImage' => 0,
-    'placeholder_class' => '',
-    'type' => 'UimageModel',
-    'view_class' => 'UimageView',
-    'has_settings' => 1,
-    'class' => 'c24 upfront-image',
-    'id_slug' => 'image',
-    'when_clicked' => false,
-    'image_link' => '',
-    'link' => 
-    (array)(array(
-       'type' => false,
-       'url' => '',
-       'target' => false,
-    )),
-    'element_id' => 'object-1408528311776-1623',
-    'row' => 2,
-    'anchor' => '',
-    'theme_style' => 'waved-line',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408528326968-1084',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 8,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 11,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => false,
-      'left' => 9,
-      'col' => 4,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => false,
-      'left' => 6,
-      'col' => 4,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => false,
-      'left' => 5,
-      'col' => 4,
-    ),
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 4,
-      'order' => 0,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => false,
-      'left' => 3,
-      'col' => 4,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-  ),
-));
-
 $region_3->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
@@ -607,7 +458,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">Vivamus sollicitudin lectus faucibus dolor viverra mollis. Nullam feugiat arcu et felis facilisis pretium.</p>',
+    'content' => '<h3 class="" style="text-align: center;"><span rel="color: rgb(26, 26, 26); font-family: \'Open Sans\', Arial; font-size: 24px; font-style: italic; font-weight: 300; line-height: 30px; text-transform: none; background-color: rgb(250, 250, 250);" data-verified="redactor">Whether you prefer one to one training or the dynamic environment of&nbsp;group&nbsp;training in the outdoors, you’ll&nbsp;receive&nbsp;an&nbsp;individualised approach with high quality instruction and support.</span><br></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525051696-1392',
     'class' => 'c24 upfront-plain_txt',
@@ -616,8 +467,8 @@ $region_3->add_element("PlainTxt", array (
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => 'sub-title',
     'anchor' => '',
   ),
@@ -755,7 +606,7 @@ $region_4 = upfront_create_region(
 			);
 
 $region_4->add_element("PlainTxt", array (
-  'columns' => '5',
+  'columns' => '7',
   'margin_left' => '1',
   'margin_right' => '0',
   'margin_top' => '3',
@@ -766,18 +617,18 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">Pie soufflé cookie cupcake tart. Jelly marzipan chupa chups. Cotton candy biscuit chocolate. Tiramisu bear claw carrot cake pastry brownie dessert oat cake. Cookie bonbon apple pie Cheesecake cheesecake</p>',
+    'content' => '<h3 class="" style="text-align: right;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525441616-1152',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 8,
+    'row' => 69,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'theme_style' => 'small-text',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'theme_style' => '_default',
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
@@ -815,7 +666,7 @@ $region_4->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 69,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408525530814-1418',
   'new_line' => true,
@@ -909,75 +760,13 @@ $region_4->add_element("PlainTxt", array (
       'top' => 3,
     ),
   ),
-  'close_wrapper' => false,
-));
-
-$region_4->add_element("Button", array (
-  'columns' => '5',
-  'margin_left' => '1',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1414743692979-1953',
-  'id' => 'module-1414743692979-1953',
-  'options' => 
-  array (
-    'content' => 'CONTACT US',
-    'href' => '{{upfront:home_url}}/contactus/',
-    'align' => 'center',
-    'type' => 'ButtonModel',
-    'view_class' => 'ButtonView',
-    'element_id' => 'button-object-1414743692979-1383',
-    'class' => 'c24 upfront-button',
-    'has_settings' => 1,
-    'id_slug' => 'button',
-    'link' => 
-    (array)(array(
-       'type' => 'entry',
-       'url' => '{{upfront:home_url}}/contactus/',
-       'target' => '_self',
-    )),
-    'currentpreset' => 'default',
-    'row' => 6,
-    'theme_style' => 'uf-button-spirit',
-    'is_edited' => true,
-    'linkTarget' => '_self',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408525530814-1418',
-  'new_line' => true,
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 3,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 6,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
 ));
 
 $region_4->add_element("PlainTxt", array (
-  'columns' => '16',
+  'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '3',
+  'margin_top' => '5',
   'margin_bottom' => '0',
   'class' => 'module-1408525556951-1881',
   'id' => 'module-1408525556951-1881',
@@ -985,12 +774,12 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="">ingerbread lollipop sweet roll ice cream dessert candy canes ice cream. Tiramisu carrot cake bonbon powder. Muffin tootsie roll dragée. Unerdwear.com marshmallow ice cream gingerbread candy. Tiramisu chupa chups fruitcake bonbon cupcake marshmallow ice cream. Sweet roll fruitcake sugar plum halvah tart tootsie roll. Bonbon liquorice icing marshmallow.</p><p class=""></p><p class=""><strong>Sweet topping cake brownie &nbsp;fruitcake powder?</strong>&nbsp;<br><br>soufflé cupcake. ingerbread lollipop sweet roll ice cream dessert candy canes ice cream. Tiramisu carrot cake bonbon powder. Muffin tootsie roll dragée. Unerdwear.com marshmallow ice cream gingerbread candy. Tiramisu chupa chups fruitcake bonbon cupcake marshmallow ice cream. Sweet roll fruitcake sugar plum halvah tart tootsie roll. Bonbon liquorice icing marshmallow cheesecake. Macaroon biscuit bear claw chocolate cake tiramisu lemon drops. Chocolate carrot &nbsp;macaroon chocolate bar cotton candy dragée. Sweet topping.</p>',
+    'content' => '<p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming.</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525556950-1003',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 82,
+    'row' => 80,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -1014,7 +803,7 @@ $region_4->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 82,
+  'row' => 80,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408525591417-1195',
   'wrapper_breakpoint' => 
@@ -1776,6 +1565,8 @@ $region_5->add_element("Ugallery", array (
     array (
       0 => 'true',
     ),
+    'fitThumbCaptions' => false,
+    'thumbCaptionsHeight' => 20,
     'linkTo' => 'image',
     'even_padding' => 
     array (
@@ -1796,13 +1587,11 @@ $region_5->add_element("Ugallery", array (
     'lightbox_active_area_bg' => 'rgba(255,255,255,1)',
     'lightbox_overlay_bg' => 'rgba(0,0,0,0.2)',
     'styles' => '',
-    'fitThumbCaptions' => false,
-    'thumbCaptionsHeight' => 20,
     'element_id' => 'ugallery-object-1421730873246-1959',
     'row' => 35,
     'anchor' => '',
   ),
-  'row' => 35,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1421730923377-1301',
   'new_line' => true,
@@ -1909,114 +1698,10 @@ $region_6 = upfront_create_region(
 			);
 
 $region_6->add_element("PlainTxt", array (
-  'columns' => '18',
-  'margin_left' => '3',
-  'margin_right' => '0',
-  'margin_top' => '9',
-  'margin_bottom' => '0',
-  'class' => 'module-1408529743280-1743',
-  'id' => 'module-1408529743280-1743',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1408529743279-1531',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 0,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'theme_style' => 'divider',
-    'anchor' => '',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408529843963-1101',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 18,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 18,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 18,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 16,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 14,
-    ),
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 10,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 18,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-));
-
-$region_6->add_element("PlainTxt", array (
   'columns' => '20',
   'margin_left' => '2',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '9',
   'margin_bottom' => '0',
   'class' => 'module-1408526265806-1251',
   'id' => 'module-1408526265806-1251',
@@ -2024,21 +1709,21 @@ $region_6->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">MORE SERVICES</h2>',
+    'content' => '<h2 class="" style="text-align: center;">MORE</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408526265803-1956',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 3,
+    'row' => 9,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'theme_style' => 'remove-bottom-space',
+    'theme_style' => '_default',
   ),
-  'row' => 6,
+  'row' => 9,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408526402494-1175',
   'new_line' => true,
@@ -2116,448 +1801,7 @@ $region_6->add_element("PlainTxt", array (
   ),
 ));
 
-$region_6->add_element("Uimage", array (
-  'columns' => '4',
-  'margin_left' => '10',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1408526143443-1609',
-  'id' => 'module-1408526143443-1609',
-  'options' => 
-  array (
-    'src' => '{{upfront:style_url}}/images/single-page-services/wave-line (1)-92x4-3796.png',
-    'srcFull' => '{{upfront:style_url}}/images/single-page-services/wave-line (1).png',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-page-services/wave-line (1).png',
-    'image_title' => '',
-    'alternative_text' => '',
-    'include_image_caption' => false,
-    'image_caption' => 'My awesome image caption',
-    'caption_position' => false,
-    'caption_alignment' => false,
-    'caption_trigger' => 'always_show',
-    'image_status' => 'ok',
-    'size' => 
-    (array)(array(
-       'width' => 92,
-       'height' => 4,
-    )),
-    'fullSize' => 
-    (array)(array(
-       'width' => 92,
-       'height' => 4,
-    )),
-    'position' => 
-    (array)(array(
-       'top' => -0.5,
-       'left' => -29,
-    )),
-    'marginTop' => 0.5,
-    'element_size' => 
-    (array)(array(
-       'width' => 150,
-       'height' => 5,
-    )),
-    'rotation' => 0,
-    'color' => '#ffffff',
-    'background' => '#000000',
-    'captionBackground' => '0',
-    'image_id' => '164',
-    'align' => 'center',
-    'stretch' => false,
-    'vstretch' => false,
-    'quick_swap' => false,
-    'gifImage' => 0,
-    'placeholder_class' => '',
-    'type' => 'UimageModel',
-    'view_class' => 'UimageView',
-    'has_settings' => 1,
-    'class' => 'c24 upfront-image',
-    'id_slug' => 'image',
-    'when_clicked' => false,
-    'image_link' => '',
-    'link' => 
-    (array)(array(
-       'type' => false,
-       'url' => '',
-       'target' => false,
-    )),
-    'element_id' => 'image-1408526143438-1263',
-    'row' => 2,
-    'anchor' => '',
-    'theme_style' => 'waved-line',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408526465194-1338',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 8,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 11,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => false,
-      'left' => 9,
-      'col' => 4,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => false,
-      'left' => 6,
-      'col' => 4,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => false,
-      'left' => 5,
-      'col' => 4,
-    ),
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 4,
-      'order' => 0,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => false,
-      'left' => 3,
-      'col' => 4,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-  ),
-));
-
 $regions->add($region_6);
-
-$region_11 = upfront_create_region(
-			array (
-  'name' => 'region-11',
-  'title' => 'Region 11',
-  'type' => 'wide',
-  'scope' => 'local',
-  'container' => 'region-11',
-  'position' => 1,
-  'allow_sidebar' => true,
-),
-			array (
-  'row' => 68,
-  'background_type' => 'image',
-  'nav_region' => '',
-  'background_color' => 'rgba(255,255,255,1)',
-  'background_style' => 'fixed',
-  'background_position_y' => '100',
-  'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/single-page-services/Homepage-Services-Bg1.jpg',
-  'background_image_ratio' => 0.25,
-  'background_repeat' => 'no-repeat',
-  'background_position' => '50% 100%',
-  'breakpoint' => 
-  (array)(array(
-     'custom-1408717728290' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717918354' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717978058' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408718022181' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'tablet' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'custom-1408718098456' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1410783042947' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'mobile' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-  )),
-  'use_padding' => 0,
-  'sub_regions' => 
-  array (
-    0 => '',
-  ),
-)
-			);
-
-$region_11->add_element("PlainTxt", array (
-  'columns' => '14',
-  'margin_left' => '1',
-  'margin_right' => '0',
-  'margin_top' => '16',
-  'margin_bottom' => '0',
-  'class' => 'module-1408443814379-1179',
-  'id' => 'module-1408443814379-1179',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h3 class=""><span class="upfront_theme_colors upfront_theme_color_2">HOLISTIC PERSONAL AND GROUP TRAINING</span></h3>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1408443814379-1593',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'is_edited' => true,
-    'row' => 4,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
-    'theme_style' => '_default',
-    'anchor' => '',
-    'breakpoint' => 
-    (array)(array(
-       'custom-1410783042947' => 
-      (array)(array(
-         'row' => 7,
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408443818900-1429',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 9,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 12,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 14,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 10,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 10,
-    ),
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 9,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 10,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 11,
-      'top' => 16,
-      'row' => 13,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-));
-
-$region_11->add_element("PlainTxt", array (
-  'columns' => '14',
-  'margin_left' => '1',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1408443837196-1997',
-  'id' => 'module-1408443837196-1997',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="">Holistic Training that is<strong> Adaptive, Intuitive, Functional</strong>. High quality holistic training Thorough Health Assessment Individualised goal setting and personalised fitness plans.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1408443837197-1885',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 13,
-    'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'remove-top-space',
-    'anchor' => '',
-    'breakpoint' => 
-    (array)(array(
-       'custom-1410783042947' => 
-      (array)(array(
-         'row' => 21,
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408443842377-1925',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 9,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 12,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 14,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 10,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 10,
-    ),
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 9,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 8,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 11,
-      'top' => 0,
-      'row' => 27,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-  ),
-));
-
-$regions->add($region_11);
 
 $region_7 = upfront_create_region(
 			array (
