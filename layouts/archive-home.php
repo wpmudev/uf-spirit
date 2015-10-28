@@ -2969,8 +2969,8 @@ $region_7->add_element("Button", array (
        'object_id' => 11,
     )),
     'currentpreset' => 'default',
-    'row' => 6,
-    'theme_style' => 'uf-button-spirit',
+    'row' => 4,
+    'theme_style' => '_default',
     'is_edited' => true,
     'anchor' => '',
     'breakpoint' => 
@@ -2981,7 +2981,7 @@ $region_7->add_element("Button", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 4,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1424334772059-1950',
   'new_line' => true,
@@ -3102,7 +3102,7 @@ $region_8->add_element("PlainTxt", array (
   'columns' => '20',
   'margin_left' => '2',
   'margin_right' => '0',
-  'margin_top' => '13',
+  'margin_top' => '20',
   'margin_bottom' => '0',
   'class' => 'module-1408445066283-1750',
   'id' => 'module-1408445066283-1750',
@@ -3154,6 +3154,7 @@ $region_8->add_element("PlainTxt", array (
       'order' => 0,
     ),
   ),
+  'new_line' => true,
   'breakpoint' => 
   array (
     'custom-1408717728290' => 
@@ -3311,6 +3312,7 @@ $region_8->add_element("Uimage", array (
       'order' => 0,
     ),
   ),
+  'new_line' => true,
   'breakpoint' => 
   array (
     'custom-1408717728290' => 
@@ -4548,7 +4550,7 @@ $region_9->add_element("Code", array (
     'script' => '/* Your code here */',
     'row' => 11,
   ),
-  'row' => 11,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408629844073-1942',
   'new_line' => true,
