@@ -2,7 +2,11 @@
 return array(
 	'typography' => '{"h1":{"weight":"300","style":"normal","size":"120","line_height":"1.1","font_face":"Open Sans","font_family":"sans-serif","color":"rgba(255,255,255,1)","theme_color_class":"upfront_theme_color_6"},"h2":{"weight":"700","style":"normal","size":"25","line_height":"1.3","font_face":"Open Sans","font_family":"sans-serif","color":"#ufc7"},"h3":{"weight":"300","style":"normal","size":"30","line_height":"1.5","font_face":"Open Sans","font_family":"sans-serif","color":"#ufc7"},"h4":{"weight":"600","style":"normal","size":"20","line_height":"1.1","font_face":"Open Sans","font_family":"sans-serif","color":"rgba(51,51,51,1)","theme_color_class":"upfront_theme_color_7"},"h5":{"weight":"600","style":"normal","size":"18","line_height":"1.1","font_face":"Open Sans","font_family":"sans-serif"},"h6":{"weight":"400","style":"normal","size":"16","line_height":"1.1","font_face":"Open Sans","font_family":"sans-serif"},"p":{"weight":"300","style":"normal","size":"16","line_height":"2","font_face":"Open Sans","font_family":"sans-serif","color":"#ufc5"},"a":{"weight":"300","style":"normal","size":false,"line_height":false,"font_face":"Open Sans","font_family":"sans-serif","color":"#ufc0"},"a:hover":{"weight":"300","style":"normal","size":false,"line_height":false,"font_face":"Open Sans","font_family":"sans-serif","color":"#ufc1"},"ul":{"weight":"400","style":"normal","size":"16","line_height":"1.6","font_face":"Open Sans","font_family":"sans-serif"},"ol":{"weight":"400","style":"normal","size":"16","line_height":"1.6","font_face":"Open Sans","font_family":"sans-serif"},"blockquote":{"weight":"300","style":"normal","size":"24","line_height":"1.458","font_face":"Oswald","font_family":"sans-serif","color":"#ufc7"},"blockquote.upfront-quote-alternative":{"weight":"300","style":"normal","size":"24","line_height":"1.458","font_face":"Oswald","font_family":"sans-serif","color":"#ufc7"}}',
 	'layout_style' => 'h1,  h3,  h4,  h5,  h6 {
- letter-spacing: -1px;
+ letter-spacing: -0.5px;
+}
+
+h3 {
+ letter-spacing: -0.5px;
 }
 
 h2 {
@@ -99,11 +103,6 @@ html {
 	overflow: auto !important;
 }
 @media (max-width: 569px) {
-	.newsletter-form input {
-		width: 100% !important;
-		float: none;
-		margin-bottom: 15px;
-	} 
 }
 /* hide featured image (region) when empty */
 .upfront-region-container-content-cover .upfront-region-container-bg.no-featured_image {
