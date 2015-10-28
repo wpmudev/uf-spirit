@@ -423,16 +423,6 @@ $region_3d3907->add_element("Unewnavigation", array (
          'is_floating' => 'no',
          'theme_style' => '_default',
       )),
-       'custom-1410783042947' => 
-      (array)(array(
-         'row' => 12,
-         'width' => 810,
-         'burger_menu' => '',
-         'burger_alignment' => 'whole',
-         'burger_over' => 'over',
-         'menu_style' => 'horizontal',
-         'menu_alignment' => 'left',
-      )),
     )),
     'element_id' => 'unewnavigation-object',
   ),

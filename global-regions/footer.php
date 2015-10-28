@@ -140,11 +140,6 @@ $footer->add_element("Unewnavigation", array (
          'row' => 8,
          'width' => 570,
       )),
-       'custom-1410783042947' => 
-      (array)(array(
-         'row' => 4,
-         'width' => 810,
-      )),
        'mobile' => 
       (array)(array(
          'row' => 7,
