@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_07cbb7 = upfront_create_region(
+$region_e92cf9 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -61,7 +61,7 @@ $region_07cbb7 = upfront_create_region(
 )
 			);
 
-$region_07cbb7->add_element("Uimage", array (
+$region_e92cf9->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -239,7 +239,7 @@ $region_07cbb7->add_element("Uimage", array (
   ),
 ));
 
-$region_07cbb7->add_element("Unewnavigation", array (
+$region_e92cf9->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -351,7 +351,7 @@ $region_07cbb7->add_element("Unewnavigation", array (
          'menu-item-db-id' => 3342,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Contactus',
+         'menu-item-title' => 'Contact us',
          'menu-item-url' => '{{upfront:home_url}}/contactus/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '3342',
@@ -363,6 +363,7 @@ $region_07cbb7->add_element("Unewnavigation", array (
            'url' => '{{upfront:home_url}}/contactus/',
            'target' => '',
         )),
+         'being-edited' => false,
       )),
     ),
     'menu_style' => 'horizontal',
@@ -527,7 +528,7 @@ $region_07cbb7->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_07cbb7->add_element("Code", array (
+$region_e92cf9->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -703,6 +704,6 @@ $region_07cbb7->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_07cbb7);
+$regions->add($region_e92cf9);
 
 /* END_REGION_OUTPUT */
