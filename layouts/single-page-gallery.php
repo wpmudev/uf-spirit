@@ -71,7 +71,7 @@ $region_3->add_element("PlainTxt", array (
     'element_id' => 'text-object-1408528105334-1955',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 3,
+    'row' => 14,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -80,7 +80,7 @@ $region_3->add_element("PlainTxt", array (
     'anchor' => '',
     'theme_style' => 'remove-bottom-space',
   ),
-  'row' => 6,
+  'row' => 14,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408528213095-1209',
   'new_line' => true,
@@ -155,160 +155,11 @@ $region_3->add_element("PlainTxt", array (
   ),
 ));
 
-$region_3->add_element("Uimage", array (
-  'columns' => '4',
-  'margin_left' => '10',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1408528311775-1023',
-  'id' => 'module-1408528311775-1023',
-  'options' => 
-  array (
-    'src' => '{{upfront:style_url}}/images/single-page-gallery/wave-line-92x4-2112.png',
-    'srcFull' => '{{upfront:style_url}}/images/single-page-gallery/wave-line.png',
-    'srcOriginal' => '{{upfront:style_url}}/images/single-page-gallery/wave-line.png',
-    'image_title' => '',
-    'alternative_text' => '',
-    'include_image_caption' => false,
-    'image_caption' => 'My awesome image caption',
-    'caption_position' => false,
-    'caption_alignment' => false,
-    'caption_trigger' => 'always_show',
-    'image_status' => 'ok',
-    'size' => 
-    (array)(array(
-       'width' => 92,
-       'height' => 4,
-    )),
-    'fullSize' => 
-    (array)(array(
-       'width' => 92,
-       'height' => 4,
-    )),
-    'position' => 
-    (array)(array(
-       'top' => 0,
-       'left' => -29,
-    )),
-    'marginTop' => 0,
-    'element_size' => 
-    (array)(array(
-       'width' => 150,
-       'height' => 10,
-    )),
-    'rotation' => 0,
-    'color' => '#ffffff',
-    'background' => '#000000',
-    'captionBackground' => '0',
-    'image_id' => '53',
-    'align' => 'center',
-    'stretch' => false,
-    'vstretch' => false,
-    'quick_swap' => false,
-    'gifImage' => 0,
-    'placeholder_class' => '',
-    'type' => 'UimageModel',
-    'view_class' => 'UimageView',
-    'has_settings' => 1,
-    'class' => 'c24 upfront-image',
-    'id_slug' => 'image',
-    'when_clicked' => false,
-    'image_link' => '',
-    'link' => 
-    (array)(array(
-       'type' => false,
-       'url' => '',
-       'target' => false,
-    )),
-    'element_id' => 'object-1408528311776-1623',
-    'row' => 2,
-    'anchor' => '',
-    'theme_style' => 'waved-line',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1408528326968-1084',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 8,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 11,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => false,
-      'left' => 9,
-      'col' => 4,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => false,
-      'left' => 6,
-      'col' => 4,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => false,
-      'left' => 5,
-      'col' => 4,
-    ),
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 4,
-      'col' => 4,
-      'order' => 0,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => false,
-      'left' => 3,
-      'col' => 4,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'left' => 7,
-      'col' => 4,
-      'order' => 0,
-    ),
-  ),
-));
-
 $region_3->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '3',
   'margin_bottom' => '0',
   'class' => 'module-1408525051697-1453',
   'id' => 'module-1408525051697-1453',
@@ -1888,6 +1739,8 @@ $region_4->add_element("Ugallery", array (
     array (
       0 => 'true',
     ),
+    'fitThumbCaptions' => false,
+    'thumbCaptionsHeight' => 20,
     'linkTo' => 'image',
     'even_padding' => 
     array (
@@ -1908,8 +1761,6 @@ $region_4->add_element("Ugallery", array (
     'lightbox_active_area_bg' => 'rgba(255,255,255,1)',
     'lightbox_overlay_bg' => 'rgba(0,0,0,0.2)',
     'styles' => '',
-    'fitThumbCaptions' => false,
-    'thumbCaptionsHeight' => 20,
     'element_id' => 'ugallery-object-1421677792996-1060',
     'row' => 65,
     'anchor' => '',

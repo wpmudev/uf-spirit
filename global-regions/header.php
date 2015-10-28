@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_29eec8 = upfront_create_region(
+$region_66ff2d = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -61,7 +61,7 @@ $region_29eec8 = upfront_create_region(
 )
 			);
 
-$region_29eec8->add_element("Uimage", array (
+$region_66ff2d->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -239,7 +239,7 @@ $region_29eec8->add_element("Uimage", array (
   ),
 ));
 
-$region_29eec8->add_element("Unewnavigation", array (
+$region_66ff2d->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -258,110 +258,110 @@ $region_29eec8->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 3337,
+         'menu-item-db-id' => 21,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
+         'menu-item-type' => 'post_type',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '{{upfront:home_url}}/services/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3337',
-         'menu-item-target' => '',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '11',
+         'menu-item-target' => '_self',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/services/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 3338,
+         'menu-item-db-id' => 12,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
+         'menu-item-type' => 'post_type',
          'menu-item-title' => 'About',
          'menu-item-url' => '{{upfront:home_url}}/about/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3338',
-         'menu-item-target' => '',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '7',
+         'menu-item-target' => '_self',
          'menu-item-position' => 2,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/about/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 3339,
+         'menu-item-db-id' => 15,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
+         'menu-item-type' => 'post_type',
          'menu-item-title' => 'Testimonials',
          'menu-item-url' => '{{upfront:home_url}}/testimonials/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3339',
-         'menu-item-target' => '',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '5',
+         'menu-item-target' => '_self',
          'menu-item-position' => 3,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/testimonials/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 3340,
+         'menu-item-db-id' => 14,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
+         'menu-item-type' => 'post_type',
          'menu-item-title' => 'Gallery',
          'menu-item-url' => '{{upfront:home_url}}/gallery/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3340',
-         'menu-item-target' => '',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '10',
+         'menu-item-target' => '_self',
          'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/gallery/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 3341,
+         'menu-item-db-id' => 13,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
+         'menu-item-type' => 'post_type',
          'menu-item-title' => 'NEWS',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3341',
-         'menu-item-target' => '',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '6',
+         'menu-item-target' => '_self',
          'menu-item-position' => 5,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/blog/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       5 => 
       (array)(array(
-         'menu-item-db-id' => 3342,
+         'menu-item-db-id' => 17,
          'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
+         'menu-item-type' => 'post_type',
          'menu-item-title' => 'Contact us',
          'menu-item-url' => '{{upfront:home_url}}/contactus/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3342',
-         'menu-item-target' => '',
+         'menu-item-object' => 'page',
+         'menu-item-object-id' => '8',
+         'menu-item-target' => '_self',
          'menu-item-position' => 6,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/contactus/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
     ),
@@ -527,7 +527,7 @@ $region_29eec8->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_29eec8->add_element("Code", array (
+$region_66ff2d->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -703,6 +703,6 @@ $region_29eec8->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_29eec8);
+$regions->add($region_66ff2d);
 
 /* END_REGION_OUTPUT */

@@ -1694,7 +1694,7 @@ $region_11->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1408445412767-1104',
+  'class' => 'module-1446013821567-1669',
   'id' => 'module-1446013821567-1669',
   'options' => 
   array (

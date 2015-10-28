@@ -81,19 +81,19 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 2351,
+         'menu-item-db-id' => 37,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Terms &#038; Privacy',
-         'menu-item-url' => '{{upfront:home_url}}/terms/',
+         'menu-item-title' => 'TERMS &#038; PRIVACY',
+         'menu-item-url' => '{{upfront:home_url}}/privacy/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2351',
+         'menu-item-object-id' => '37',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
-           'url' => '{{upfront:home_url}}/terms/',
+           'url' => '{{upfront:home_url}}/privacy/',
            'target' => '',
         )),
       )),
