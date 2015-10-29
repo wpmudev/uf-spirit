@@ -390,7 +390,7 @@ $archive_content->add_element("Posts", array (
     'element_id' => 'posts-object-1417752626112-1080',
     'anchor' => '',
     'theme_style' => 'uf-uposts-archive',
-    'row' => 296,
+    'row' => 57,
     'breakpoint' => 
     (array)(array(
        'mobile' => 
@@ -399,10 +399,9 @@ $archive_content->add_element("Posts", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 57,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408714949691-1226',
-  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -414,6 +413,8 @@ $archive_content->add_element("Posts", array (
     array (
       'col' => 7,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -432,10 +433,11 @@ $archive_content->add_element("Posts", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410783042947' => 
     array (

@@ -47,19 +47,20 @@
     text-transform: uppercase;
 }
 #page .uf-uposts-archive .date_posted .date-day {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 300;
     letter-spacing:0px;
+    margin-top:3px;
 }
 #page .uf-uposts-archive .date_posted .date-month {
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 300;
     margin-top:-5px;
     letter-spacing:1px;
 }
 #page .uf-uposts-archive .title h3 {
     margin: 0;
-    max-width: 95%;
+    max-width: 85%;
 }
 #page .uf-uposts-archive .title h3, #page .uf-uposts-archive .title h3 a {
     color: #ufc7;
@@ -80,7 +81,8 @@
     font-size: 15px;
     line-height: 25px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 300;
+    letter-spacing: 0.5px;
 }
 #page .uf-uposts-archive .author a {
     color: #ufc2;
@@ -105,7 +107,7 @@
 }
 #page .uf-uposts-archive .content p {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 25px;
 }
 #page .uf-uposts-archive .content p:last-child {
     margin-bottom: 0;
@@ -116,8 +118,10 @@
 #page .uf-uposts-archive .read_more a {
     font-size: 14px;
     line-height: 25px;
-    font-weight:500;
     color:#ufc0;
+}
+#page .uf-uposts-archive .read_more a:hover {
+    color:#ufc1;
 }
 #page .uf-uposts-archive .uf-pagination {
     margin: 60px 15px 0;
