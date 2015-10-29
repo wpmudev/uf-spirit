@@ -972,7 +972,8 @@ $region_5 = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
-       'hide' => 1,
+       'hide' => 0,
+       'background_type' => 'color',
     )),
      'custom-1408718098456' => 
     (array)(array(
@@ -989,6 +990,13 @@ $region_5 = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'background_type' => 'color',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'background_color' => '#ffffff',
 )
 			);
 
@@ -1012,47 +1020,47 @@ $region_5->add_element("Ugallery", array (
     array (
       0 => 
       (array)(array(
-         'id' => '3354',
-         'srcFull' => '{{upfront:style_url}}/images/single-page-services/gallery2-180x180-1991.jpg',
+         'id' => '228737',
+         'srcFull' => '{{upfront:style_url}}/images/single-page-services/gallery6 (1)-180x180-7535.jpg',
          'sizes' => 
         (array)(array(
            'thumbnail' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery2-150x150.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery6 (1)-150x150.jpg',
             1 => 150,
             2 => 150,
             3 => true,
           ),
            'medium' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery2-300x140.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery6 (1)-300x200.jpg',
             1 => 300,
-            2 => 140,
+            2 => 200,
             3 => true,
           ),
            'large' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery2-1024x477.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery6 (1)-1024x683.jpg',
             1 => 1024,
-            2 => 477,
+            2 => 683,
             3 => true,
           ),
            'full' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery2.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery6 (1).jpg',
             1 => 1080,
-            2 => 503,
+            2 => 720,
             3 => false,
           ),
            'custom' => 
           (array)(array(
              'error' => false,
-             'url' => '{{upfront:style_url}}/images/single-page-services/gallery2-180x180-6815.jpg',
-             'urlOriginal' => '{{upfront:style_url}}/images/single-page-services/gallery2.jpg',
+             'url' => '{{upfront:style_url}}/images/single-page-services/gallery6 (1)-180x180-3868.jpg',
+             'urlOriginal' => '{{upfront:style_url}}/images/single-page-services/gallery6 (1).jpg',
              'full' => 
             (array)(array(
                'width' => 1080,
-               'height' => 503,
+               'height' => 720,
             )),
              'crop' => 
             (array)(array(
@@ -1066,22 +1074,22 @@ $region_5->add_element("Ugallery", array (
               (array)(array(
                  'width' => '180',
                  'height' => '180',
-                 'left' => 103,
+                 'left' => 45,
                  'top' => 0,
               )),
                'resize' => 
               (array)(array(
-                 'width' => 386,
+                 'width' => 270,
                  'height' => 180,
               )),
-               'id' => 3354,
+               'id' => 228737,
             )),
           )),
         )),
          'size' => 
         (array)(array(
-           'width' => 386,
-           'height' => 180,
+           'width' => 492,
+           'height' => 328,
         )),
          'cropSize' => 
         (array)(array(
@@ -1090,15 +1098,15 @@ $region_5->add_element("Ugallery", array (
         )),
          'cropOffset' => 
         (array)(array(
-           'top' => 0,
-           'left' => 103,
+           'top' => 80,
+           'left' => 65,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-services/gallery2-180x180-1991.jpg',
+         'src' => '{{upfront:style_url}}/images/single-page-services/gallery6 (1)-180x180-7535.jpg',
          'loading' => false,
          'status' => 'ok',
          'element_id' => 'ugallery-object-1421730873246-1959',
          'urlType' => 'image',
-         'url' => '{{upfront:style_url}}/images/single-page-services/gallery2.jpg',
+         'url' => '{{upfront:style_url}}/images/single-page-services/gallery6 (1).jpg',
          'rotation' => 0,
          'link' => 'original',
          'title' => 'Image caption',
@@ -1112,109 +1120,99 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => 
-        (array)(array(
-           'type' => 'image',
-           'url' => '{{upfront:style_url}}/images/single-page-services/gallery2.jpg',
-           'target' => '',
-        )),
+         'imageLink' => false,
          'linkTarget' => '',
-         'imageLinkType' => 'image',
-         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery2.jpg',
-         'imageLinkTarget' => '',
+         'imageLinkType' => false,
       )),
       1 => 
       (array)(array(
-         'id' => '49',
-         'srcFull' => '{{upfront:style_url}}/images/single-page-services/gallery3.jpg',
+         'id' => '228736',
+         'srcFull' => '{{upfront:style_url}}/images/single-page-services/gallery5 (2)-180x180-2993.jpg',
          'sizes' => 
         (array)(array(
            'thumbnail' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery3-150x150.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery5 (2)-150x150.jpg',
             1 => 150,
             2 => 150,
             3 => true,
           ),
            'medium' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery3-300x200.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery5 (2)-300x131.jpg',
             1 => 300,
-            2 => 200,
+            2 => 131,
             3 => true,
           ),
            'large' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery3-1024x682.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery5 (2)-1024x446.jpg',
             1 => 1024,
-            2 => 682,
+            2 => 446,
             3 => true,
           ),
            'full' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery3.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery5 (2).jpg',
             1 => 1080,
-            2 => 720,
+            2 => 470,
             3 => false,
           ),
            'custom' => 
           (array)(array(
              'error' => false,
-             'url' => '{{upfront:style_url}}/images/single-page-services/gallery3-150x150-8886.jpg',
-             'urlOriginal' => '{{upfront:style_url}}/images/single-page-services/gallery3.jpg',
+             'url' => '{{upfront:style_url}}/images/single-page-services/gallery5 (2)-180x180-7789.jpg',
+             'urlOriginal' => '{{upfront:style_url}}/images/single-page-services/gallery5 (2).jpg',
              'full' => 
             (array)(array(
                'width' => 1080,
-               'height' => 720,
+               'height' => 470,
             )),
              'crop' => 
             (array)(array(
-               'width' => 150,
-               'height' => 150,
+               'width' => 180,
+               'height' => 180,
             )),
              'editdata' => 
             (array)(array(
                'rotate' => 0,
                'crop' => 
               (array)(array(
-                 'width' => '150',
-                 'height' => '150',
-                 'left' => 37,
+                 'width' => '180',
+                 'height' => '180',
+                 'left' => 117,
                  'top' => 0,
               )),
                'resize' => 
               (array)(array(
-                 'width' => 225,
-                 'height' => 150,
+                 'width' => 414,
+                 'height' => 180,
               )),
-               'id' => 49,
-               'element_id' => 'ugallery-object-1421730873246-1959',
+               'id' => 228736,
             )),
           )),
         )),
          'size' => 
         (array)(array(
-           'width' => 225,
-           'height' => 150,
+           'width' => 414,
+           'height' => 180,
         )),
          'cropSize' => 
         (array)(array(
-           'width' => 150,
-           'height' => 150,
+           'width' => 180,
+           'height' => 180,
         )),
          'cropOffset' => 
         (array)(array(
-           'width' => '150',
-           'height' => '150',
-           'left' => 37,
            'top' => 0,
+           'left' => 147,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-services/gallery3-150x150-8886.jpg',
+         'src' => '{{upfront:style_url}}/images/single-page-services/gallery5 (2)-180x180-2993.jpg',
          'loading' => false,
          'status' => 'ok',
          'element_id' => 'ugallery-object-1421730873246-1959',
          'urlType' => 'image',
-         'url' => '{{upfront:style_url}}/images/single-page-services/gallery3.jpg',
+         'url' => '{{upfront:style_url}}/images/single-page-services/gallery5 (2).jpg',
          'rotation' => 0,
          'link' => 'original',
          'title' => 'Image caption',
@@ -1228,47 +1226,40 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
+         'imageLink' => false,
          'linkTarget' => '',
-         'imageLink' => 
-        (array)(array(
-           'type' => 'image',
-           'url' => '{{upfront:style_url}}/images/single-page-services/gallery3.jpg',
-           'target' => '',
-        )),
-         'imageLinkType' => 'image',
-         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery3.jpg',
-         'imageLinkTarget' => '',
+         'imageLinkType' => false,
       )),
       2 => 
       (array)(array(
-         'id' => '3356',
-         'srcFull' => '{{upfront:style_url}}/images/single-page-services/gallery7 (1).jpg',
+         'id' => '228738',
+         'srcFull' => '{{upfront:style_url}}/images/single-page-services/gallery7 (3)-180x180-9830.jpg',
          'sizes' => 
         (array)(array(
            'thumbnail' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery7 (1)-150x150.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery7 (3)-150x150.jpg',
             1 => 150,
             2 => 150,
             3 => true,
           ),
            'medium' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery7 (1)-300x200.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery7 (3)-300x200.jpg',
             1 => 300,
             2 => 200,
             3 => true,
           ),
            'large' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery7 (1)-1024x683.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery7 (3)-1024x683.jpg',
             1 => 1024,
             2 => 683,
             3 => true,
           ),
            'full' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery7 (1).jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery7 (3).jpg',
             1 => 1080,
             2 => 720,
             3 => false,
@@ -1276,8 +1267,8 @@ $region_5->add_element("Ugallery", array (
            'custom' => 
           (array)(array(
              'error' => false,
-             'url' => '{{upfront:style_url}}/images/single-page-services/gallery7 (1)-180x180-8239.jpg',
-             'urlOriginal' => '{{upfront:style_url}}/images/single-page-services/gallery7 (1).jpg',
+             'url' => '{{upfront:style_url}}/images/single-page-services/gallery7 (3)-180x180-1141.jpg',
+             'urlOriginal' => '{{upfront:style_url}}/images/single-page-services/gallery7 (3).jpg',
              'full' => 
             (array)(array(
                'width' => 1080,
@@ -1303,14 +1294,14 @@ $region_5->add_element("Ugallery", array (
                  'width' => 270,
                  'height' => 180,
               )),
-               'id' => 3356,
+               'id' => 228738,
             )),
           )),
         )),
          'size' => 
         (array)(array(
-           'width' => 270,
-           'height' => 180,
+           'width' => 496,
+           'height' => 331,
         )),
          'cropSize' => 
         (array)(array(
@@ -1319,17 +1310,15 @@ $region_5->add_element("Ugallery", array (
         )),
          'cropOffset' => 
         (array)(array(
-           'width' => '180',
-           'height' => '180',
-           'left' => 45,
-           'top' => 0,
+           'top' => 75,
+           'left' => 196,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-services/gallery7 (1)-180x180-8239.jpg',
+         'src' => '{{upfront:style_url}}/images/single-page-services/gallery7 (3)-180x180-9830.jpg',
          'loading' => false,
          'status' => 'ok',
          'element_id' => 'ugallery-object-1421730873246-1959',
          'urlType' => 'image',
-         'url' => '{{upfront:style_url}}/images/single-page-services/gallery7 (1).jpg',
+         'url' => '{{upfront:style_url}}/images/single-page-services/gallery7 (3).jpg',
          'rotation' => 0,
          'link' => 'original',
          'title' => 'Image caption',
@@ -1343,224 +1332,99 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => 
-        (array)(array(
-           'type' => 'image',
-           'url' => '{{upfront:style_url}}/images/single-page-services/gallery7 (1).jpg',
-           'target' => '',
-        )),
+         'imageLink' => false,
          'linkTarget' => '',
-         'imageLinkType' => 'image',
-         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery7 (1).jpg',
-         'imageLinkTarget' => '',
+         'imageLinkType' => false,
       )),
       3 => 
       (array)(array(
-         'id' => '3357',
-         'srcFull' => '{{upfront:style_url}}/images/single-page-services/gallery9.jpg',
+         'id' => '228739',
+         'srcFull' => '{{upfront:style_url}}/images/single-page-services/gallery8 (1)-180x180-2531.jpg',
          'sizes' => 
         (array)(array(
            'thumbnail' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery9-150x150.jpg',
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery8 (1)-150x150.jpg',
             1 => 150,
             2 => 150,
             3 => true,
           ),
            'medium' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery9-300x200.jpg',
-            1 => 300,
-            2 => 200,
-            3 => true,
-          ),
-           'large' => 
-          array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery9-1024x683.jpg',
-            1 => 1024,
-            2 => 683,
-            3 => true,
-          ),
-           'full' => 
-          array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery9.jpg',
-            1 => 1080,
-            2 => 720,
-            3 => false,
-          ),
-           'custom' => 
-          (array)(array(
-             'error' => false,
-             'url' => '{{upfront:style_url}}/images/single-page-services/gallery9-180x180-4814.jpg',
-             'urlOriginal' => '{{upfront:style_url}}/images/single-page-services/gallery9.jpg',
-             'full' => 
-            (array)(array(
-               'width' => 1080,
-               'height' => 720,
-            )),
-             'crop' => 
-            (array)(array(
-               'width' => 180,
-               'height' => 180,
-            )),
-             'editdata' => 
-            (array)(array(
-               'rotate' => 0,
-               'crop' => 
-              (array)(array(
-                 'width' => '180',
-                 'height' => '180',
-                 'left' => 45,
-                 'top' => 0,
-              )),
-               'resize' => 
-              (array)(array(
-                 'width' => 270,
-                 'height' => 180,
-              )),
-               'id' => 3357,
-            )),
-          )),
-        )),
-         'size' => 
-        (array)(array(
-           'width' => 270,
-           'height' => 180,
-        )),
-         'cropSize' => 
-        (array)(array(
-           'width' => 180,
-           'height' => 180,
-        )),
-         'cropOffset' => 
-        (array)(array(
-           'width' => '180',
-           'height' => '180',
-           'left' => 45,
-           'top' => 0,
-        )),
-         'src' => '{{upfront:style_url}}/images/single-page-services/gallery9-180x180-4814.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1421730873246-1959',
-         'urlType' => 'image',
-         'url' => '{{upfront:style_url}}/images/single-page-services/gallery9.jpg',
-         'rotation' => 0,
-         'link' => 'original',
-         'title' => 'Image caption',
-         'caption' => 'Image description',
-         'alt' => '',
-         'tags' => 
-        array (
-        ),
-         'margin' => 
-        (array)(array(
-           'left' => 0,
-           'top' => 0,
-        )),
-         'imageLink' => 
-        (array)(array(
-           'type' => 'image',
-           'url' => '{{upfront:style_url}}/images/single-page-services/gallery9.jpg',
-           'target' => '',
-        )),
-         'linkTarget' => '',
-         'imageLinkType' => 'image',
-         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery9.jpg',
-         'imageLinkTarget' => '',
-      )),
-      4 => 
-      (array)(array(
-         'id' => '57',
-         'srcFull' => '{{upfront:style_url}}/images/single-page-services/gallery11.jpg',
-         'sizes' => 
-        (array)(array(
-           'thumbnail' => 
-          array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery11-150x150.jpg',
-            1 => 150,
-            2 => 150,
-            3 => true,
-          ),
-           'medium' => 
-          array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery11-225x300.jpg',
-            1 => 225,
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery8 (1)-210x300.jpg',
+            1 => 210,
             2 => 300,
             3 => true,
           ),
            'large' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery11.jpg',
-            1 => 768,
-            2 => 1024,
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery8 (1).jpg',
+            1 => 630,
+            2 => 900,
             3 => false,
           ),
            'full' => 
           array (
-            0 => '{{upfront:style_url}}/images/single-page-services/gallery11.jpg',
-            1 => 768,
-            2 => 1024,
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery8 (1).jpg',
+            1 => 630,
+            2 => 900,
             3 => false,
           ),
            'custom' => 
           (array)(array(
              'error' => false,
-             'url' => '{{upfront:style_url}}/images/single-page-services/gallery11-150x150-4707.jpg',
-             'urlOriginal' => '{{upfront:style_url}}/images/single-page-services/gallery11.jpg',
+             'url' => '{{upfront:style_url}}/images/single-page-services/gallery8 (1)-180x180-5024.jpg',
+             'urlOriginal' => '{{upfront:style_url}}/images/single-page-services/gallery8 (1).jpg',
              'full' => 
             (array)(array(
-               'width' => 768,
-               'height' => 1024,
+               'width' => 630,
+               'height' => 900,
             )),
              'crop' => 
             (array)(array(
-               'width' => 150,
-               'height' => 150,
+               'width' => 180,
+               'height' => 180,
             )),
              'editdata' => 
             (array)(array(
                'rotate' => 0,
                'crop' => 
               (array)(array(
-                 'width' => '150',
-                 'height' => '150',
+                 'width' => '180',
+                 'height' => '180',
                  'left' => 0,
-                 'top' => 25,
+                 'top' => 38,
               )),
                'resize' => 
               (array)(array(
-                 'width' => 150,
-                 'height' => 200,
+                 'width' => 180,
+                 'height' => 257,
               )),
-               'id' => 57,
-               'element_id' => 'ugallery-object-1421730873246-1959',
+               'id' => 228739,
             )),
           )),
         )),
          'size' => 
         (array)(array(
-           'width' => 150,
-           'height' => 200,
+           'width' => 328,
+           'height' => 469,
         )),
          'cropSize' => 
         (array)(array(
-           'width' => 150,
-           'height' => 150,
+           'width' => 180,
+           'height' => 180,
         )),
          'cropOffset' => 
         (array)(array(
-           'width' => '150',
-           'height' => '150',
-           'left' => 0,
-           'top' => 25,
+           'top' => 172,
+           'left' => 148,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-services/gallery11-150x150-4707.jpg',
+         'src' => '{{upfront:style_url}}/images/single-page-services/gallery8 (1)-180x180-2531.jpg',
          'loading' => false,
          'status' => 'ok',
          'element_id' => 'ugallery-object-1421730873246-1959',
          'urlType' => 'image',
-         'url' => '{{upfront:style_url}}/images/single-page-services/gallery11.jpg',
+         'url' => '{{upfront:style_url}}/images/single-page-services/gallery8 (1).jpg',
          'rotation' => 0,
          'link' => 'original',
          'title' => 'Image caption',
@@ -1574,16 +1438,115 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
+         'imageLink' => false,
          'linkTarget' => '',
-         'imageLink' => 
+         'imageLinkType' => false,
+      )),
+      4 => 
+      (array)(array(
+         'id' => '228740',
+         'srcFull' => '{{upfront:style_url}}/images/single-page-services/gallery9 (2)-180x180-2310.jpg',
+         'sizes' => 
         (array)(array(
-           'type' => 'image',
-           'url' => '{{upfront:style_url}}/images/single-page-services/gallery11.jpg',
-           'target' => '',
+           'thumbnail' => 
+          array (
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery9 (2)-150x150.jpg',
+            1 => 150,
+            2 => 150,
+            3 => true,
+          ),
+           'medium' => 
+          array (
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery9 (2)-300x200.jpg',
+            1 => 300,
+            2 => 200,
+            3 => true,
+          ),
+           'large' => 
+          array (
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery9 (2)-1024x683.jpg',
+            1 => 1024,
+            2 => 683,
+            3 => true,
+          ),
+           'full' => 
+          array (
+            0 => '{{upfront:style_url}}/images/single-page-services/gallery9 (2).jpg',
+            1 => 1080,
+            2 => 720,
+            3 => false,
+          ),
+           'custom' => 
+          (array)(array(
+             'error' => false,
+             'url' => '{{upfront:style_url}}/images/single-page-services/gallery9 (2)-180x180-5992.jpg',
+             'urlOriginal' => '{{upfront:style_url}}/images/single-page-services/gallery9 (2).jpg',
+             'full' => 
+            (array)(array(
+               'width' => 1080,
+               'height' => 720,
+            )),
+             'crop' => 
+            (array)(array(
+               'width' => 180,
+               'height' => 180,
+            )),
+             'editdata' => 
+            (array)(array(
+               'rotate' => 0,
+               'crop' => 
+              (array)(array(
+                 'width' => '180',
+                 'height' => '180',
+                 'left' => 45,
+                 'top' => 0,
+              )),
+               'resize' => 
+              (array)(array(
+                 'width' => 270,
+                 'height' => 180,
+              )),
+               'id' => 228740,
+            )),
+          )),
         )),
-         'imageLinkType' => 'image',
-         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery11.jpg',
-         'imageLinkTarget' => '',
+         'size' => 
+        (array)(array(
+           'width' => 454,
+           'height' => 303,
+        )),
+         'cropSize' => 
+        (array)(array(
+           'width' => 180,
+           'height' => 180,
+        )),
+         'cropOffset' => 
+        (array)(array(
+           'top' => 40,
+           'left' => 212,
+        )),
+         'src' => '{{upfront:style_url}}/images/single-page-services/gallery9 (2)-180x180-2310.jpg',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1421730873246-1959',
+         'urlType' => 'image',
+         'url' => '{{upfront:style_url}}/images/single-page-services/gallery9 (2).jpg',
+         'rotation' => 0,
+         'link' => 'original',
+         'title' => 'Image caption',
+         'caption' => 'Image description',
+         'alt' => '',
+         'tags' => 
+        array (
+        ),
+         'margin' => 
+        (array)(array(
+           'left' => 0,
+           'top' => 0,
+        )),
+         'imageLink' => false,
+         'linkTarget' => '',
+         'imageLinkType' => false,
       )),
     ),
     'elementSize' => 
@@ -1636,8 +1599,8 @@ $region_5->add_element("Ugallery", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'inline-gallery',
-         'row' => 52,
+         'theme_style' => '_default',
+         'row' => 51,
       )),
        'mobile' => 
       (array)(array(
@@ -1653,7 +1616,7 @@ $region_5->add_element("Ugallery", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
       'order' => 0,
       'clear' => false,
@@ -1679,8 +1642,9 @@ $region_5->add_element("Ugallery", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 52,
+      'row' => 51,
       'hide' => 0,
+      'top' => 1,
     ),
     'mobile' => 
     array (
@@ -1733,8 +1697,9 @@ $region_6 = upfront_create_region(
     )),
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 23,
     )),
      'custom-1408718098456' => 
     (array)(array(
@@ -1791,6 +1756,8 @@ $region_6->add_element("PlainTxt", array (
     array (
       'col' => 12,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -1833,10 +1800,11 @@ $region_6->add_element("PlainTxt", array (
     ),
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 1,
     ),
     'custom-1408718098456' => 
     array (

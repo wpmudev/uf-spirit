@@ -81,7 +81,7 @@ $region_3->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 85,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1446078441284-1274',
   'new_line' => true,
@@ -135,8 +135,10 @@ $region_3->add_element("PlainTxt", array (
 $region_3->add_element("Button", array (
   'columns' => '5',
   'margin_left' => '10',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'button-style',
+  'margin_bottom' => '0',
+  'class' => 'module-1446078318042-1974',
   'id' => 'module-1446078318042-1974',
   'options' => 
   array (
@@ -167,10 +169,8 @@ $region_3->add_element("Button", array (
       )),
     )),
   ),
-  'content' => 'Click here',
-  'href' => '',
-  'align' => 'center',
-  'row' => 14,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446078476948-1500',
   'new_line' => true,
   'wrapper_breakpoint' => 

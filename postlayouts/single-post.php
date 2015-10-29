@@ -16,7 +16,7 @@
           'slug' => 'author',
         ),
       ),
-      'classes' => 'c16 clr',
+      'classes' => 'c16 clr part-title part-author',
     ),
     1 => 
     array (
@@ -28,7 +28,7 @@
           'slug' => 'date',
         ),
       ),
-      'classes' => 'c2',
+      'classes' => 'c2 part-date',
     ),
     2 => 
     array (
@@ -70,7 +70,7 @@
     ),
     'plain_text' => 
     array (
-      'content' => '<a href=\'#\'></a>',
+      'content' => '<a href=\\\'#\\\'></a>',
     ),
     'categories' => 
     array (
