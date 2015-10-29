@@ -32,7 +32,7 @@ div.responsive_nav_toggler > div:last-child {
  i.burger_nav_close {
     width: 30px;
     height: 30px;
-    margin: 20px;
+    margin: 20px 0 20px 20px;
     padding-top: 1px;
     background: #ufc7;
     box-sizing: border-box;
@@ -62,20 +62,17 @@ div[data-style='burger'] ul.menu > li.current-menu-item > a, div[data-style='bur
     color: #ufc7;
 }
 div.upfront-navigation div.upfront-navigation[data-style="burger"][data-burger_alignment="right"] ul.menu {
-    min-width: 35%;
+    min-width: 30%;
     max-width: 50%;
+    padding: 0 20px;
     width: auto;
 }
 div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li {
-    margin-right: 20px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
-div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li:first-child {
-    margin-top: 0;
-}
+div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li:last-child,
 div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li.wrap_burger_nav_close {
-    margin-top: 0;
-    margin-right: 0;
+    margin-bottom: 0;
 }
 div[data-style='burger'][data-burger_alignment="right"] ul.menu > li.menu-item > a {
     padding: 0;
