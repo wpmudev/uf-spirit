@@ -6,13 +6,13 @@
   padding: 0px;
 }
 #page .footer-menu ul li a {
-    color: #69a8a6;
+    color: #ufc2;
     font: 12px Oswald, Arial;   
     text-transform: uppercase;
     padding: 0px 4px 0px 0px;
 }
 #page .footer-menu ul li a:hover {
-    color: #548685;
+    color: #ufc5;
 }
 #page .footer-menu ul li a:before {
     content: '/';
