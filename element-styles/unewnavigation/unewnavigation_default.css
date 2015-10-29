@@ -9,7 +9,7 @@ div.responsive_nav_toggler {
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    background: #333333;
+    background: #ufc7;
     opacity: 1;
     transition: opacity 0.25s ease-in;
     -ms-transition: opacity 0.25s ease-in;
@@ -24,7 +24,7 @@ div.responsive_nav_toggler > div {
     width: 16px;
     height: 2px;
     margin-bottom: 2px;
-    background: #fff;
+    background: #ufc6;
 }
 div.responsive_nav_toggler > div:last-child {
     margin-bottom: 0;
@@ -34,7 +34,7 @@ div.responsive_nav_toggler > div:last-child {
     height: 30px;
     margin: 20px;
     padding-top: 1px;
-    background: #333333;
+    background: #ufc7;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -44,7 +44,7 @@ div.responsive_nav_toggler > div:last-child {
     text-align: center;
 }
 div[data-style='burger'] ul.menu > li.menu-item > a {
-    color: #ffffff;
+    color: #ufc6;
     display: inline-block;
     font-size: 17px;
     line-height: 20px;
@@ -58,10 +58,10 @@ div[data-style='burger'] ul.menu > li.menu-item > a {
     -moz-transition: color 0.25s ease-in;
     -webkit-transition: color 0.25s ease-in;
 }
-div[data-style='burger'] ul.menu > li.current-menu-item > a, div[data-style='burger'] ul.menu > li.menu-item:hover > a {
-    color: #333;
+div[data-style='burger'] ul.menu > li.current-menu-item > a, div[data-style='burger'] ul.menu > li.menu-item > a:hover {
+    color: #ufc7;
 }
-div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu {
+div.upfront-navigation div.upfront-navigation[data-style="burger"][data-burger_alignment="right"] ul.menu {
     min-width: 35%;
     max-width: 50%;
     width: auto;
