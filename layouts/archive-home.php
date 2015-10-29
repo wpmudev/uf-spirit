@@ -1514,8 +1514,10 @@ $region_11 = upfront_create_region(
 
 $region_11->add_group(array (
   'columns' => '22',
-  'margin_top' => '0',
   'margin_left' => '1',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1446076061585-1012',
   'type' => 'ModuleGroup',
@@ -1736,18 +1738,20 @@ $region_11->add_element("Uimage", array (
 $region_11->add_element("PlainTxt", array (
   'columns' => '18',
   'margin_left' => '1',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1446076010936-1364',
   'id' => 'module-1446076010936-1364',
   'options' => 
   array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
     'content' => '<h3 class="">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.​...”&nbsp;</h3><h6 class="">Fiona Beauchampt</h6>',
     'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
     'element_id' => 'text-object-1446076010936-1728',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'row' => 17,
     'is_edited' => true,
     'breakpoint' => 
@@ -1767,7 +1771,8 @@ $region_11->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
   ),
-  'row' => 17,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446076061601-1580',
   'wrapper_breakpoint' => 
   array (
@@ -1809,8 +1814,10 @@ $region_11->add_element("PlainTxt", array (
 
 $region_11->add_group(array (
   'columns' => '22',
-  'margin_top' => '9',
   'margin_left' => '1',
+  'margin_right' => '0',
+  'margin_top' => '9',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1446076059628-1607',
   'type' => 'ModuleGroup',
@@ -2032,18 +2039,20 @@ $region_11->add_element("Uimage", array (
 $region_11->add_element("PlainTxt", array (
   'columns' => '18',
   'margin_left' => '1',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1446076032518-1114',
   'id' => 'module-1446076032518-1114',
   'options' => 
   array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
     'content' => '<h3 class="">"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."&nbsp;</h3><h6 class="">Jodie Lamberg​</h6>',
     'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
     'element_id' => 'object-1446076032518-1114',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'row' => 17,
     'is_edited' => true,
     'border_style' => 'none',
@@ -2059,7 +2068,8 @@ $region_11->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 17,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446076059645-1373',
   'wrapper_breakpoint' => 
   array (
