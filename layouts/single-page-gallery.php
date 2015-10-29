@@ -12,7 +12,7 @@ $region_3 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 69,
+  'row' => 67,
   'breakpoint' => 
   (array)(array(
      'custom-1408717728290' => 
