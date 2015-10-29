@@ -93,13 +93,13 @@ $footer->add_element("Unewnavigation", array (
          'menu-item-url' => '{{upfront:home_url}}/terms/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '2351',
-         'menu-item-target' => '',
+         'menu-item-target' => '_self',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/terms/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
     ),
