@@ -29,7 +29,7 @@ div.responsive_nav_toggler > div {
 div.responsive_nav_toggler > div:last-child {
     margin-bottom: 0;
 }
-i.burger_nav_close {
+ i.burger_nav_close {
     width: 30px;
     height: 30px;
     margin: 20px;
@@ -45,6 +45,7 @@ i.burger_nav_close {
 }
 div[data-style='burger'] ul.menu > li.menu-item > a {
     color: #ffffff;
+    display: inline-block;
     font-size: 17px;
     line-height: 20px;
     font-family: "Oswald";
@@ -59,4 +60,23 @@ div[data-style='burger'] ul.menu > li.menu-item > a {
 }
 div[data-style='burger'] ul.menu > li.current-menu-item > a, div[data-style='burger'] ul.menu > li.menu-item:hover > a {
     color: #333;
+}
+div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu {
+    min-width: 35%;
+    max-width: 50%;
+    width: auto;
+}
+div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li:first-child {
+    margin-top: 0;
+}
+div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li.wrap_burger_nav_close {
+    margin-top: 0;
+    margin-right: 0;
+}
+div[data-style='burger'][data-burger_alignment="right"] ul.menu > li.menu-item > a {
+    padding: 0;
 }
