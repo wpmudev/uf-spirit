@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_96d6b6 = upfront_create_region(
+$region_7096da = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -61,7 +61,7 @@ $region_96d6b6 = upfront_create_region(
 )
 			);
 
-$region_96d6b6->add_element("Uimage", array (
+$region_7096da->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -239,7 +239,7 @@ $region_96d6b6->add_element("Uimage", array (
   ),
 ));
 
-$region_96d6b6->add_element("Unewnavigation", array (
+$region_7096da->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -345,7 +345,6 @@ $region_96d6b6->add_element("Unewnavigation", array (
            'url' => '{{upfront:home_url}}/blog/',
            'target' => '',
         )),
-         'being-edited' => false,
       )),
       5 => 
       (array)(array(
@@ -528,7 +527,7 @@ $region_96d6b6->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_96d6b6->add_element("Code", array (
+$region_7096da->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -704,6 +703,6 @@ $region_96d6b6->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_96d6b6);
+$regions->add($region_7096da);
 
 /* END_REGION_OUTPUT */
