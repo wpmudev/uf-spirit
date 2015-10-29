@@ -28,7 +28,7 @@ $region_5 = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 48,
+       'row' => 38,
        'background_position_y' => '0',
        'background_style' => 'full',
        'background_repeat' => 'no-repeat',
@@ -39,7 +39,7 @@ $region_5 = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 36,
+       'row' => 25,
        'background_position_y' => '77',
        'background_style' => 'full',
        'background_repeat' => 'no-repeat',
@@ -71,7 +71,7 @@ $region_5->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '12',
+  'margin_top' => '16',
   'margin_bottom' => '0',
   'class' => 'module-1408525024897-1934',
   'id' => 'module-1408525024897-1934',
@@ -97,12 +97,14 @@ $region_5->add_element("PlainTxt", array (
       'col' => 12,
       'order' => 0,
       'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
       'order' => 0,
       'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -111,6 +113,7 @@ $region_5->add_element("PlainTxt", array (
       'clear' => true,
     ),
   ),
+  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 
@@ -119,7 +122,7 @@ $region_5->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'top' => 14,
+      'top' => 9,
     ),
     'mobile' => 
     array (
@@ -127,7 +130,7 @@ $region_5->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 11,
+      'top' => 6,
     ),
     'custom-1410783042947' => 
     array (
@@ -396,7 +399,7 @@ $archive_content->add_element("Posts", array (
       )),
     )),
   ),
-  'row' => 296,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408714949691-1226',
   'new_line' => true,
