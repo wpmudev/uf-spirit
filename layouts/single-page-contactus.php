@@ -5,18 +5,18 @@ $region_2 = upfront_create_region(
 			array (
   'name' => 'region-2',
   'title' => 'Region 2',
-  'type' => 'clip',
+  'type' => 'wide',
   'scope' => 'local',
   'container' => 'region-2',
   'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 140,
+  'row' => 178,
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => '#ffffff',
-  'background_style' => 'fixed',
+  'background_style' => 'full',
   'background_position_y' => '0',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/single-page-contactus/Contact-Bg.jpg',
@@ -78,7 +78,7 @@ $region_2->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '24',
+  'margin_top' => '22',
   'margin_bottom' => '0',
   'class' => 'module-1408525024897-1934',
   'id' => 'module-1408525024897-1934',
@@ -86,7 +86,7 @@ $region_2->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 class="" style="text-align: center;">CONTACT</h1>',
+    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span class="upfront_theme_color_3"><span class="upfront_theme_color_6">CONTACT</span></span></span></span></span></span></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525024896-1770',
     'class' => 'c24 upfront-plain_txt',
@@ -110,11 +110,15 @@ $region_2->add_element("PlainTxt", array (
     array (
       'col' => 12,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -153,7 +157,7 @@ $region_2->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'top' => 18,
+      'top' => 19,
     ),
     'custom-1408718098456' => 
     array (
@@ -166,7 +170,7 @@ $region_2->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'top' => 22,
+      'top' => 19,
     ),
     'custom-1410783042947' => 
     array (
@@ -178,11 +182,86 @@ $region_2->add_element("PlainTxt", array (
   ),
 ));
 
+$region_2->add_element("PlainTxt", array (
+  'columns' => '20',
+  'margin_left' => '2',
+  'margin_top' => '4',
+  'class' => '',
+  'id' => 'module-1446076268314-1693',
+  'options' => 
+  array (
+    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_2">"Take care of your body. It is the only place you have to live."</span></span></span></h3>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1446076268314-1907',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'is_edited' => true,
+    'row' => 19,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
+    )),
+  ),
+  'row' => 19,
+  'wrapper_id' => 'wrapper-1446077953722-1502',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 1,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 1,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+      'top' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'top' => 0,
+    ),
+  ),
+));
+
 $region_2->add_element("Ucontact", array (
-  'columns' => '14',
-  'margin_left' => '5',
+  'columns' => '16',
+  'margin_left' => '4',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1421844167386-1549',
   'id' => 'module-1421844167386-1549',
@@ -214,11 +293,11 @@ $region_2->add_element("Ucontact", array (
     'has_settings' => 1,
     'id_slug' => 'ucontact',
     'element_id' => 'ucontact-object-1421844167385-1091',
-    'row' => 59,
+    'row' => 90,
     'anchor' => '',
     'theme_style' => 'contact-form',
   ),
-  'row' => 59,
+  'row' => 90,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1421844178455-1591',
   'new_line' => true,
@@ -226,15 +305,17 @@ $region_2->add_element("Ucontact", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783042947' => 
     array (

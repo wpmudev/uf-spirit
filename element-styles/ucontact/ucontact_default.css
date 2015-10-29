@@ -15,15 +15,15 @@
     display: block;
 }
 .upfront-contact-form .ucontact-msg, .upfront-contact-form .ucontact-msg.info p {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font: 15px 'Open Sans', Arial;
+    font-weight: 300;
     font-style: normal;
     line-height: 1.6em;
 }
 .upfront-contact-form .ucontact-msg {
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 15px;
+    border-radius:4px;
 }
 .upfront-contact-form .ucontact-msg.error {
     background: #f2dede;
