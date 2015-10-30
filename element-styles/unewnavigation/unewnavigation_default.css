@@ -68,7 +68,7 @@ div.upfront-navigation div.upfront-navigation[data-style="burger"][data-burger_a
     width: auto;
 }
 div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li:last-child,
 div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li.wrap_burger_nav_close {
