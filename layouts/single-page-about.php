@@ -1059,18 +1059,20 @@ $region_4->add_element("Uimage", array (
 $region_4->add_element("PlainTxt", array (
   'columns' => '9',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1446069954124-1570',
   'id' => 'module-1446069954124-1570',
   'options' => 
   array (
-    'content' => '<h6 class=""><span rel="color: rgb(26, 26, 26); font-family: \'Open Sans\', sans-serif; font-size: 16px; font-weight: normal; line-height: 30px; text-transform: none; background-color: rgb(250, 250, 250);" data-verified="redactor" data-redactor-tag="span">Developing a healthy, nurturing relationship with yourself and others&nbsp;<span rel="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: small; font-weight: normal; text-transform: none; background-color: rgb(255, 255, 255);" data-verified="redactor">–</span>&nbsp;Port Melbourne</span><br></h6>',
-    'type' => 'PlainTxtModel',
     'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h6 class=""><span>Develop a healthy, nurturing relationship with yourself and others - Meg, Port Melbourne.</span><span></span></h6>',
+    'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1446069954123-1884',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'is_edited' => true,
     'row' => 14,
     'border_style' => 'none',
@@ -1086,7 +1088,8 @@ $region_4->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 14,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446070748191-1224',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -1311,8 +1314,10 @@ $region_6->add_element("PlainTxt", array (
 
 $region_6->add_group(array (
   'columns' => '20',
-  'margin_top' => '7',
   'margin_left' => '2',
+  'margin_right' => '0',
+  'margin_top' => '7',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1446070680988-1849',
   'type' => 'ModuleGroup',
@@ -1359,8 +1364,10 @@ $region_6->add_group(array (
 $region_6->add_element("Uimage", array (
   'columns' => '5',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-image_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1446069954125-1983',
   'id' => 'module-1446069954125-1983',
   'options' => 
   array (
@@ -1410,7 +1417,7 @@ $region_6->add_element("Uimage", array (
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
-    'class' => 'upfront-image',
+    'class' => 'c24 upfront-image',
     'id_slug' => 'image',
     'when_clicked' => false,
     'image_link' => '',
@@ -1430,7 +1437,8 @@ $region_6->add_element("Uimage", array (
       )),
     )),
   ),
-  'row' => 10,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446070681000-1411',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -1474,8 +1482,10 @@ $region_6->add_element("Uimage", array (
 $region_6->add_element("Uimage", array (
   'columns' => '5',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-image_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1446070172861-1561',
   'id' => 'module-1446070172861-1561',
   'options' => 
   array (
@@ -1525,7 +1535,7 @@ $region_6->add_element("Uimage", array (
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
-    'class' => 'upfront-image',
+    'class' => 'c24 upfront-image',
     'id_slug' => 'image',
     'when_clicked' => false,
     'image_link' => '',
@@ -1547,7 +1557,8 @@ $region_6->add_element("Uimage", array (
       )),
     )),
   ),
-  'row' => 10,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446070681002-1852',
   'wrapper_breakpoint' => 
   array (
@@ -1590,8 +1601,10 @@ $region_6->add_element("Uimage", array (
 $region_6->add_element("Uimage", array (
   'columns' => '5',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-image_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1446070189681-1379',
   'id' => 'module-1446070189681-1379',
   'options' => 
   array (
@@ -1641,7 +1654,7 @@ $region_6->add_element("Uimage", array (
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
-    'class' => 'upfront-image',
+    'class' => 'c24 upfront-image',
     'id_slug' => 'image',
     'when_clicked' => false,
     'image_link' => '',
@@ -1661,7 +1674,8 @@ $region_6->add_element("Uimage", array (
       )),
     )),
   ),
-  'row' => 10,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446070681002-1776',
   'wrapper_breakpoint' => 
   array (
@@ -1704,8 +1718,10 @@ $region_6->add_element("Uimage", array (
 $region_6->add_element("Uimage", array (
   'columns' => '5',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-image_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1446070193921-1264',
   'id' => 'module-1446070193921-1264',
   'options' => 
   array (
@@ -1755,7 +1771,7 @@ $region_6->add_element("Uimage", array (
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
-    'class' => 'upfront-image',
+    'class' => 'c24 upfront-image',
     'id_slug' => 'image',
     'when_clicked' => false,
     'image_link' => '',
@@ -1775,7 +1791,8 @@ $region_6->add_element("Uimage", array (
       )),
     )),
   ),
-  'row' => 10,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446070681003-1144',
   'wrapper_breakpoint' => 
   array (
@@ -1817,8 +1834,10 @@ $region_6->add_element("Uimage", array (
 
 $region_6->add_group(array (
   'columns' => '20',
-  'margin_top' => '0',
   'margin_left' => '2',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1446070682832-1315',
   'type' => 'ModuleGroup',
@@ -1864,8 +1883,10 @@ $region_6->add_group(array (
 $region_6->add_element("Uimage", array (
   'columns' => '5',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-image_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1446070320883-1444',
   'id' => 'module-1446070320883-1444',
   'options' => 
   array (
@@ -1915,7 +1936,7 @@ $region_6->add_element("Uimage", array (
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
-    'class' => 'upfront-image',
+    'class' => 'c24 upfront-image',
     'id_slug' => 'image',
     'when_clicked' => false,
     'image_link' => '',
@@ -1928,7 +1949,8 @@ $region_6->add_element("Uimage", array (
     'element_id' => 'object-1446070320883-1621',
     'row' => 10,
   ),
-  'row' => 10,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446070682844-1112',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -1969,8 +1991,10 @@ $region_6->add_element("Uimage", array (
 $region_6->add_element("Uimage", array (
   'columns' => '5',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-image_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1446070324675-1899',
   'id' => 'module-1446070324675-1899',
   'options' => 
   array (
@@ -2020,7 +2044,7 @@ $region_6->add_element("Uimage", array (
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
-    'class' => 'upfront-image',
+    'class' => 'c24 upfront-image',
     'id_slug' => 'image',
     'when_clicked' => false,
     'image_link' => '',
@@ -2033,7 +2057,8 @@ $region_6->add_element("Uimage", array (
     'element_id' => 'object-1446070324675-1191',
     'row' => 10,
   ),
-  'row' => 10,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446070682845-1030',
   'wrapper_breakpoint' => 
   array (
@@ -2073,8 +2098,10 @@ $region_6->add_element("Uimage", array (
 $region_6->add_element("Uimage", array (
   'columns' => '5',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-image_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1446070328263-1037',
   'id' => 'module-1446070328263-1037',
   'options' => 
   array (
@@ -2124,7 +2151,7 @@ $region_6->add_element("Uimage", array (
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
-    'class' => 'upfront-image',
+    'class' => 'c24 upfront-image',
     'id_slug' => 'image',
     'when_clicked' => false,
     'image_link' => '',
@@ -2137,7 +2164,8 @@ $region_6->add_element("Uimage", array (
     'element_id' => 'object-1446070328263-1785',
     'row' => 10,
   ),
-  'row' => 10,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446070682845-1463',
   'wrapper_breakpoint' => 
   array (
@@ -2177,8 +2205,10 @@ $region_6->add_element("Uimage", array (
 $region_6->add_element("Uimage", array (
   'columns' => '5',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-image_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1446070331718-1865',
   'id' => 'module-1446070331718-1865',
   'options' => 
   array (
@@ -2228,7 +2258,7 @@ $region_6->add_element("Uimage", array (
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
-    'class' => 'upfront-image',
+    'class' => 'c24 upfront-image',
     'id_slug' => 'image',
     'when_clicked' => false,
     'image_link' => '',
@@ -2241,7 +2271,8 @@ $region_6->add_element("Uimage", array (
     'element_id' => 'object-1446070331718-1419',
     'row' => 10,
   ),
-  'row' => 10,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1446070682846-1258',
   'wrapper_breakpoint' => 
   array (

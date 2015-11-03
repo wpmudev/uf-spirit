@@ -255,7 +255,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: center;"><span rel="color: rgb(51, 51, 51); font-family: \'Open Sans\'; font-size: 20px; font-weight: normal; line-height: 20px; text-align: center; text-transform: none; background-color: rgb(226, 222, 213);" data-verified="redactor">Discover a powerful new approach to looking and feeling great without deprivation!</span><br></h3>',
+    'content' => '<h3 class="" style="text-align: center;"><span>Discover a powerful new approach to looking and feeling great without depriving yourself of the foods you love.</span><span></span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525051696-1392',
     'class' => 'c24 upfront-plain_txt',
@@ -445,8 +445,8 @@ $region_4->add_element("Ugallery", array (
         )),
          'size' => 
         (array)(array(
-           'width' => 455.888888888888914152630604803562164306640625,
-           'height' => 304.3333333333333712289459072053432464599609375,
+           'width' => 455.8888888889999861930846236646175384521484375,
+           'height' => 304.33333333299998457732726819813251495361328125,
         )),
          'cropSize' => 
         (array)(array(
@@ -477,14 +477,21 @@ $region_4->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-gallery/gallery1.jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
          'cropPosition' => 
         (array)(array(
            'top' => 84,
            'left' => 31,
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-gallery/gallery1.jpg',
+         'imageLinkTarget' => '',
       )),
       1 => 
       (array)(array(
@@ -556,8 +563,8 @@ $region_4->add_element("Ugallery", array (
         )),
          'size' => 
         (array)(array(
-           'width' => 701.5555555555556566105224192142486572265625,
-           'height' => 326.3333333333333712289459072053432464599609375,
+           'width' => 701.55555555599994477233849465847015380859375,
+           'height' => 326.33333333299998457732726819813251495361328125,
         )),
          'cropSize' => 
         (array)(array(
@@ -588,14 +595,21 @@ $region_4->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-gallery/gallery2 (1).jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
          'cropPosition' => 
         (array)(array(
            'top' => 7,
            'left' => 229,
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-gallery/gallery2 (1).jpg',
+         'imageLinkTarget' => '',
       )),
       2 => 
       (array)(array(
@@ -667,8 +681,8 @@ $region_4->add_element("Ugallery", array (
         )),
          'size' => 
         (array)(array(
-           'width' => 459.55555555555559976710355840623378753662109375,
-           'height' => 306.77777777777782830526120960712432861328125,
+           'width' => 459.55555555600000161575735546648502349853515625,
+           'height' => 306.777777777999972386169247329235076904296875,
         )),
          'cropSize' => 
         (array)(array(
@@ -699,14 +713,21 @@ $region_4->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-gallery/gallery4.jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
          'cropPosition' => 
         (array)(array(
            'top' => 82,
            'left' => 76,
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-gallery/gallery4.jpg',
+         'imageLinkTarget' => '',
       )),
       3 => 
       (array)(array(
@@ -778,8 +799,8 @@ $region_4->add_element("Ugallery", array (
         )),
          'size' => 
         (array)(array(
-           'width' => 506.00000000000005684341886080801486968994140625,
-           'height' => 220.000000000000028421709430404007434844970703125,
+           'width' => 506,
+           'height' => 220,
         )),
          'cropSize' => 
         (array)(array(
@@ -810,14 +831,21 @@ $region_4->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-gallery/gallery5 (1).jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
          'cropPosition' => 
         (array)(array(
            'top' => 0,
            'left' => 203,
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-gallery/gallery5 (1).jpg',
+         'imageLinkTarget' => '',
       )),
       4 => 
       (array)(array(
@@ -889,8 +917,8 @@ $region_4->add_element("Ugallery", array (
         )),
          'size' => 
         (array)(array(
-           'width' => 407.00000000000005684341886080801486968994140625,
-           'height' => 271.3333333333333712289459072053432464599609375,
+           'width' => 407,
+           'height' => 271.33333333299998457732726819813251495361328125,
         )),
          'cropSize' => 
         (array)(array(
@@ -921,14 +949,21 @@ $region_4->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-gallery/gallery6.jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
          'cropPosition' => 
         (array)(array(
            'top' => 51,
            'left' => 21,
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-gallery/gallery6.jpg',
+         'imageLinkTarget' => '',
       )),
       5 => 
       (array)(array(
@@ -1032,14 +1067,21 @@ $region_4->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-gallery/gallery7 (2).jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
          'cropPosition' => 
         (array)(array(
            'top' => 73,
            'left' => 167,
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-gallery/gallery7 (2).jpg',
+         'imageLinkTarget' => '',
       )),
       6 => 
       (array)(array(
@@ -1111,8 +1153,8 @@ $region_4->add_element("Ugallery", array (
         )),
          'size' => 
         (array)(array(
-           'width' => 336.11111111111114269078825600445270538330078125,
-           'height' => 480.3333333333333712289459072053432464599609375,
+           'width' => 336.1111111110000138069153763353824615478515625,
+           'height' => 480.33333333299998457732726819813251495361328125,
         )),
          'cropSize' => 
         (array)(array(
@@ -1143,14 +1185,21 @@ $region_4->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-gallery/gallery8.jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
          'cropPosition' => 
         (array)(array(
            'top' => 144,
            'left' => 116,
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-gallery/gallery8.jpg',
+         'imageLinkTarget' => '',
       )),
       7 => 
       (array)(array(
@@ -1222,8 +1271,8 @@ $region_4->add_element("Ugallery", array (
         )),
          'size' => 
         (array)(array(
-           'width' => 386.22222222222222853815765120089054107666015625,
-           'height' => 257.888888888888914152630604803562164306640625,
+           'width' => 386.222222222000027613830752670764923095703125,
+           'height' => 257.8888888889999861930846236646175384521484375,
         )),
          'cropSize' => 
         (array)(array(
@@ -1254,14 +1303,21 @@ $region_4->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-gallery/gallery9 (1).jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
          'cropPosition' => 
         (array)(array(
            'top' => 32,
            'left' => 154,
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-gallery/gallery9 (1).jpg',
+         'imageLinkTarget' => '',
       )),
       8 => 
       (array)(array(
@@ -1333,8 +1389,8 @@ $region_4->add_element("Ugallery", array (
         )),
          'size' => 
         (array)(array(
-           'width' => 376.4444444444444570763153024017810821533203125,
-           'height' => 376.4444444444444570763153024017810821533203125,
+           'width' => 376.44444444399999838424264453351497650146484375,
+           'height' => 376.44444444399999838424264453351497650146484375,
         )),
          'cropSize' => 
         (array)(array(
@@ -1365,14 +1421,21 @@ $region_4->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-gallery/gallery13.jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
          'cropPosition' => 
         (array)(array(
            'top' => 108,
            'left' => 86,
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-gallery/gallery13.jpg',
+         'imageLinkTarget' => '',
       )),
     ),
     'elementSize' => 

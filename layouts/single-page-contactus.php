@@ -194,7 +194,7 @@ $region_2->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_2">"Take care of your body. It is the only place you have to live."</span></span></span></h3>',
+    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><span class="upfront_theme_color_6" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_6"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2">"Take care of your body – it\'s the only one you have.<span class="redactor-invisible-space">​</span>"</span></span></span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1446076268314-1907',
     'class' => 'c24 upfront-plain_txt',

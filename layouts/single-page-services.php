@@ -474,7 +474,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_7">Whether you prefer one to one training or the dynamic environment of group training in the outdoors, you’ll receive an individualised approach with high quality instruction and support.</span><br></h3>',
+    'content' => '<h3 class="" style="text-align: center;"><span>Whether you prefer one-on-one training or the dynamic environment of outdoor group fitness, you\'ll receive an individualized approach with high quality instructions and support.</span><br></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408525051696-1392',
     'class' => 'c24 upfront-plain_txt',
@@ -1120,9 +1120,16 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery6 (1).jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery6 (1).jpg',
+         'imageLinkTarget' => '',
       )),
       1 => 
       (array)(array(
@@ -1226,9 +1233,16 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery5 (2).jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery5 (2).jpg',
+         'imageLinkTarget' => '',
       )),
       2 => 
       (array)(array(
@@ -1332,9 +1346,16 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery7 (3).jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery7 (3).jpg',
+         'imageLinkTarget' => '',
       )),
       3 => 
       (array)(array(
@@ -1438,9 +1459,16 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery8 (1).jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery8 (1).jpg',
+         'imageLinkTarget' => '',
       )),
       4 => 
       (array)(array(
@@ -1544,9 +1572,16 @@ $region_5->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'imageLink' => false,
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-services/gallery9 (2).jpg',
+           'target' => '',
+        )),
          'linkTarget' => '',
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-services/gallery9 (2).jpg',
+         'imageLinkTarget' => '',
       )),
     ),
     'elementSize' => 

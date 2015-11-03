@@ -506,7 +506,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>WELLNESS REVOLUTION<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span></span></h2>',
+    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">​Join the Wellness Revolution</span></span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408440367585-1051',
     'class' => 'c24 upfront-plain_txt',
@@ -628,7 +628,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: center;"><span class="inline_color" data-redactor-tag="span" data-redactor-class="inline_color" data-verified="redactor"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>You will learn how to bring your body and mind into balance, move for the pure joy of it, look good and feel connected to all life has to offer.<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span> </h3>',
+    'content' => '<h3 class="" style="text-align: center;"><span>Learn how to bring you mind and body into balance, move for the pure joy of it, look good and feel connected to all that life has to offer.</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408440541723-1680',
     'class' => 'c24 upfront-plain_txt',
@@ -1145,7 +1145,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_7">Whether you prefer one to one training or the dynamic environment of group training in the outdoors, you’ll receive an individualised approach with high quality instruction and support.</span><br></h3>',
+    'content' => '<h3 class="" style="text-align: center;"><span>Whether you prefer one-on-one training or the dynamic environment of outdoor group fitness, you\'ll receive an individualized approach with high quality instructions and support.</span><br></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408442656163-1294',
     'class' => 'c24 upfront-plain_txt',
@@ -1748,7 +1748,7 @@ $region_11->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.​...”&nbsp;</h3><h6 class="">Fiona Beauchampt</h6>',
+    'content' => '<h3 class="">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.​...”&nbsp;</h3><h6 class="">Fiona Beauchamp</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1446076010936-1728',
     'class' => 'c24 upfront-plain_txt',
@@ -2290,7 +2290,7 @@ $region_9->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5 class="" style="text-align: center;"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">JOIN THE WELLNESS REVOLUTION!</span></h5>',
+    'content' => '<h5 class="" style="text-align: center;"><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">JOIN THE WELLNESS REVOLUTION</span></h5>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1408446486400-1653',
     'class' => 'c24 upfront-plain_txt',
@@ -2417,9 +2417,7 @@ $region_9->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;">
-	A weekly serving of motivation, recipes &amp; <strong data-redactor-tag="strong"><span class="upfront_theme_colors upfront_theme_color_0" data-redactor-tag="span" data-verified="redactor" data-redactor-class="upfront_theme_colors upfront_theme_color_0">FREE</span></strong> resources straight to your inbox!
-</p>',
+    'content' => '<p class="" style="text-align: center;">Receive a weekly serving of motivation, recipes and&nbsp;<strong data-redactor-tag="strong"><span class="upfront_theme_colors upfront_theme_color_0" data-redactor-tag="span" data-verified="redactor" data-redactor-class="upfront_theme_colors upfront_theme_color_0">FREE</span></strong> resources directly to your inbox.</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408446264001-1137',
     'class' => 'c24 upfront-plain_txt',

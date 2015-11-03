@@ -8,7 +8,7 @@ $region_1 = upfront_create_region(
   'type' => 'wide',
   'scope' => 'local',
   'container' => 'region-1',
-  'position' => 10,
+  'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
@@ -391,8 +391,10 @@ $region_4 = upfront_create_region(
 
 $region_4->add_group(array (
   'columns' => '22',
-  'margin_top' => '9',
   'margin_left' => '1',
+  'margin_right' => '0',
+  'margin_top' => '9',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1446074040094-1969',
   'type' => 'ModuleGroup',
@@ -528,7 +530,7 @@ $region_4->add_element("Uimage", array (
     )),
     'no_padding' => '',
   ),
-  'row' => 27,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1446074040104-1511',
   'new_line' => true,
@@ -626,7 +628,7 @@ $region_4->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class=""><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.​&nbsp;<span rel="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; line-height: 17px; text-align: justify; text-transform: none; background-color: rgb(255, 255, 255);" data-verified="redactor" data-redactor-tag="span">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span>”</span></h3><h6 class=""><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"></span>Fiona Beauchampt</h6>',
+    'content' => '<h3 class=""><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.​&nbsp;<span rel="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; line-height: 17px; text-align: justify; text-transform: none; background-color: rgb(255, 255, 255);" data-verified="redactor" data-redactor-tag="span">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</span>”</span></h3><h6 class=""><span class="upfront_theme_color_7" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_7"></span>Fiona Beauchamp</h6>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408443405805-1270',
     'class' => 'c24 upfront-plain_txt',
@@ -765,8 +767,10 @@ $region_4->add_element("PlainTxt", array (
 
 $region_4->add_group(array (
   'columns' => '22',
-  'margin_top' => '13',
   'margin_left' => '1',
+  'margin_right' => '0',
+  'margin_top' => '13',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1446074037788-1371',
   'type' => 'ModuleGroup',
@@ -894,7 +898,7 @@ $region_4->add_element("Uimage", array (
     )),
     'no_padding' => '',
   ),
-  'row' => 27,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1446074037798-1155',
   'new_line' => true,
@@ -1041,7 +1045,7 @@ $region_4->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
   ),
-  'row' => 55,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1446074037800-1228',
   'wrapper_breakpoint' => 
@@ -1131,8 +1135,10 @@ $region_4->add_element("PlainTxt", array (
 
 $region_4->add_group(array (
   'columns' => '22',
-  'margin_top' => '16',
   'margin_left' => '1',
+  'margin_right' => '0',
+  'margin_top' => '16',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1446074035651-1012',
   'type' => 'ModuleGroup',
@@ -1259,7 +1265,7 @@ $region_4->add_element("Uimage", array (
       )),
     )),
   ),
-  'row' => 29,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1446074035662-1599',
   'new_line' => true,
