@@ -978,6 +978,7 @@ $region_4 = upfront_create_region(
        'edited' => true,
        'col' => 24,
        'row' => 80,
+       'background_type' => 'color',
     )),
      'custom-1408718098456' => 
     (array)(array(
@@ -985,9 +986,10 @@ $region_4 = upfront_create_region(
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
        'background_type' => 'color',
+       'row' => 97,
     )),
      'custom-1410780542364' => 
     (array)(array(
@@ -1498,7 +1500,7 @@ $region_11 = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 206,
+       'row' => 219,
     )),
      'custom-1410780542364' => 
     (array)(array(
