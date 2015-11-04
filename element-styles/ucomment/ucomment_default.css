@@ -143,13 +143,12 @@ p.logged-in-as {
     font-size: 15px;
     line-height: 25px;
 }
-p.logged-in-as a:last-child {
-}
 #commentform {
     margin-top: 0;
 }
 .comment-form input[type="text"], .comment-form textarea {
     border: 1px solid #d0d0d0;
+    border-radius: 4px;
     box-sizing: border-box;
     color: #707070;
     font-family: "Open Sans", Arial, sans-serif;
@@ -161,20 +160,19 @@ p.logged-in-as a:last-child {
     -o-transition: border-color .2s;
     -webkit-transition: border-color .2s;
     transition: border-color .2s;
-    width: 100%;
-    border-radius: 4px;
+    width: 100%;   
 }
 .comment-form input[type="text"]:focus, .comment-form textarea:focus {
     border-color: #ufc0;
- color:#333;
+    color: #ufc8;
 }
 .comment-form label {
     color: #ufc7;
     font-size: 22px;
     display: block;
     line-height: 30px;
-    letter-spacing: -0.5px!important;
-    margin-bottom: 20px
+    letter-spacing: -0.5px;
+    margin-bottom: 10px
 }
  p.comment-form-author,  p.comment-form-email,  p.comment-form-url {
     float: left;
@@ -191,7 +189,7 @@ p.comment-form-comment {
     color: #ufc7;
     font-size: 12px;
     line-height: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 p.form-submit {
     text-align: right;
