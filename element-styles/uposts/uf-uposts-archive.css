@@ -12,7 +12,7 @@
     position: relative;
 }
 #page .uf-uposts-archive .thumbnail:after {
-    background-color: #ufc0;
+    background-color: white;
     bottom: 0;
     content: "";
     display: block;
@@ -32,7 +32,7 @@
     width: 100%;
 }
 #page .uf-uposts-archive .thumbnail:hover:after {
-    opacity: .8;
+    opacity: .2;
 }
 #page .uf-uposts-archive .date_posted {
     float: right;

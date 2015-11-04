@@ -12,15 +12,15 @@ $region_5 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 69,
+  'row' => 68,
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => '#ffffff',
   'background_style' => 'fixed',
   'background_position_y' => '0',
   'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/archive/Blog-Bg.jpg',
-  'background_image_ratio' => 0.25,
+  'background_image' => '{{upfront:style_url}}/images/archive/WORKPLACE-WELLNESS.jpg',
+  'background_image_ratio' => 0.2300000000000000099920072216264088638126850128173828125,
   'background_repeat' => 'no-repeat',
   'background_position' => '50% 0%',
   'breakpoint' => 
@@ -90,6 +90,7 @@ $region_5->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408525051645-1279',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -113,7 +114,6 @@ $region_5->add_element("PlainTxt", array (
       'clear' => true,
     ),
   ),
-  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 
@@ -293,8 +293,8 @@ $archive_content = upfront_create_region(
 			);
 
 $archive_content->add_element("Posts", array (
-  'columns' => '16',
-  'margin_left' => '4',
+  'columns' => '18',
+  'margin_left' => '3',
   'margin_right' => '0',
   'margin_top' => '5',
   'margin_bottom' => '0',
@@ -390,7 +390,7 @@ $archive_content->add_element("Posts", array (
     'element_id' => 'posts-object-1417752626112-1080',
     'anchor' => '',
     'theme_style' => 'uf-uposts-archive',
-    'row' => 57,
+    'row' => 219,
     'breakpoint' => 
     (array)(array(
        'mobile' => 
@@ -399,7 +399,7 @@ $archive_content->add_element("Posts", array (
       )),
     )),
   ),
-  'row' => 57,
+  'row' => 219,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1408714949691-1226',
   'wrapper_breakpoint' => 
@@ -422,6 +422,7 @@ $archive_content->add_element("Posts", array (
       'order' => 0,
     ),
   ),
+  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 

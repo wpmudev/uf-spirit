@@ -118,10 +118,8 @@ $region_5->add_element("PlainTxt", array (
 
 $regions->add($region_5);
 
-$regions->add($region_5);
-
 $region_3 = upfront_create_region(
-      array (
+			array (
   'name' => 'region-3',
   'title' => 'Region 3',
   'type' => 'wide',
@@ -130,7 +128,7 @@ $region_3 = upfront_create_region(
   'position' => 1,
   'allow_sidebar' => true,
 ),
-      array (
+			array (
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -150,7 +148,7 @@ $region_3 = upfront_create_region(
     )),
   )),
 )
-      );
+			);
 
 $region_3->add_element("PlainTxt", array (
   'columns' => '22',
@@ -270,8 +268,10 @@ $archive_content = upfront_create_region(
 $archive_content->add_element("Posts", array (
   'columns' => '20',
   'margin_left' => '2',
+  'margin_right' => '0',
   'margin_top' => '5',
-  'class' => 'upfront-posts_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1445253283045-1765',
   'id' => 'module-1445253283045-1765',
   'options' => 
   array (
@@ -366,7 +366,8 @@ $archive_content->add_element("Posts", array (
     'anchor' => '',
     'theme_style' => 'uf-uposts-archive',
   ),
-  'row' => 36,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1445253336013-1505',
   'new_line' => true,
   'wrapper_breakpoint' => 
