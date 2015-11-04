@@ -1,52 +1,6 @@
 <?php
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
-$content_cover = upfront_create_region(
-			array (
-  'name' => 'content-cover',
-  'title' => 'Content Cover',
-  'type' => 'wide',
-  'scope' => 'local',
-  'container' => 'content-cover',
-  'position' => 1,
-  'allow_sidebar' => true,
-),
-			array (
-  'row' => 57,
-  'background_type' => 'featured',
-  'nav_region' => '',
-  'background_color' => '#fafafa',
-  'background_style' => 'full',
-  'background_position_y' => '50',
-  'background_position_x' => '50',
-  'breakpoint' => 
-  (array)(array(
-     'tablet' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'mobile' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'custom-1410783042947' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-  )),
-  'use_padding' => 0,
-  'sub_regions' => 
-  array (
-    0 => '',
-  ),
-)
-			);
-
-$regions->add($content_cover);
-
 $region_3 = upfront_create_region(
 			array (
   'name' => 'region-3',
@@ -195,10 +149,10 @@ $content = upfront_create_region(
 			);
 
 $content->add_element("ThisPost", array (
-  'columns' => '18',
-  'margin_left' => '3',
+  'columns' => '20',
+  'margin_left' => '2',
   'margin_right' => '0',
-  'margin_top' => '5',
+  'margin_top' => '21',
   'margin_bottom' => '0',
   'class' => 'default-post',
   'id' => 'default-post',
@@ -209,7 +163,7 @@ $content->add_element("ThisPost", array (
     'class' => 'c24 uposts-object',
     'has_settings' => 1,
     'id_slug' => 'upost',
-    'row' => 17,
+    'row' => 21,
     'post_data' => 
     array (
       0 => 'author',
@@ -337,7 +291,11 @@ $content->add_element("ThisPost", array (
     (array)(array(
        'mobile' => 
       (array)(array(
-         'theme_style' => '_default',
+         'theme_style' => 'post-responsive',
+      )),
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'post-responsive',
       )),
     )),
     'hide_featured_image' => '',
@@ -355,11 +313,15 @@ $content->add_element("ThisPost", array (
     array (
       'col' => 12,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -371,17 +333,19 @@ $content->add_element("ThisPost", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 5,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 7,
     ),
     'custom-1410783042947' => 
     array (
@@ -393,8 +357,45 @@ $content->add_element("ThisPost", array (
   ),
 ));
 
-$content->add_element("Ucomment", array (
-  'columns' => '17',
+$regions->add($content);
+
+$region_1 = upfront_create_region(
+			array (
+  'name' => 'region-1',
+  'title' => 'Region 1',
+  'type' => 'wide',
+  'scope' => 'local',
+  'container' => 'region-1',
+  'position' => 1,
+  'allow_sidebar' => true,
+),
+			array (
+  'row' => 15,
+  'breakpoint' => 
+  (array)(array(
+     'tablet' => 
+    (array)(array(
+       'edited' => false,
+       'col' => 24,
+    )),
+     'mobile' => 
+    (array)(array(
+       'edited' => false,
+       'col' => 24,
+    )),
+  )),
+  'background_type' => 'color',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'background_color' => '#ffffff',
+)
+			);
+
+$region_1->add_element("Ucomment", array (
+  'columns' => '18',
   'margin_left' => '3',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -410,7 +411,7 @@ $content->add_element("Ucomment", array (
     'has_settings' => 1,
     'prepend_form' => false,
     'element_id' => 'ucomment-object-1445262122920-1990',
-    'row' => 102,
+    'row' => 193,
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
@@ -424,9 +425,9 @@ $content->add_element("Ucomment", array (
       )),
     )),
   ),
-  'row' => 102,
+  'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1445262132354-1148',
+  'wrapper_id' => 'wrapper-1446607358580-1091',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -440,12 +441,6 @@ $content->add_element("Ucomment", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => false,
-      'col' => 18,
       'order' => 0,
     ),
   ),
@@ -475,7 +470,7 @@ $content->add_element("Ucomment", array (
   ),
 ));
 
-$regions->add($content);
+$regions->add($region_1);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 

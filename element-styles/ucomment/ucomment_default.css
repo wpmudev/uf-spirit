@@ -1,6 +1,6 @@
 .upfront-comments {
     list-style: none;
-    margin: 0 0 60px 15px;
+    margin: 0 0 60px 0;
     padding: 0;
 }
 .upfront-comments ol.children {
@@ -8,7 +8,7 @@
 }
 .upfront-comment li.comment {
     list-style-type: none;
-    margin: 30px 0 0;
+    margin: 10px 0 0;
     overflow: hidden;
 }
 .upfront-comment li.comment.depth-1:first-child {
@@ -20,7 +20,8 @@
 .upfront-comment .comment-wrapper {
     background-color: #f2f2f2;
     overflow: hidden;
-    padding: 10px 35px;
+    padding: 30px;
+    border-radius: 4px;
 }
 .upfront-comment .comment-avatar {
     float: left;
@@ -38,14 +39,13 @@
 }
 .upfront-comment .comment-content-wrapper {
     float: left;
-    max-width: 545px;
     width: 100%;
 }
 .upfront-comment .depth-2 .comment-content-wrapper {
-    max-width: 500px;
+    width: 100%;
 }
 .upfront-comment .depth-3 .comment-content-wrapper {
-    max-width: 455px;
+    width: 100%;
 }
 .upfront-comments .comment-author .fn, .upfront-comments .comment-author a {
     color: #ufc7;
@@ -55,12 +55,15 @@
     line-height: 25px;
 }
 .upfront-comments .comment-author a:hover {
-    color: #ufc0;
+    color: #ufc5;
     font-weight: 600;
+}
+.upfront-comments .comment-time {
+    margin-top:-10px;
 }
 .upfront-comments .comment-time a {
     color: #ufc2;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
     line-height: 25px;
 }
@@ -74,12 +77,12 @@
     margin-bottom: 0;
 }
 .upfront-comment .comment-edit-link {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 400;
     line-height: 25px;
 }
 .upfront-comment .comment-edit-link:hover {
-    font-weight: 600;
+    font-weight: 400;
 }
 .comment-meta-actions {
     margin-top: 5px;
@@ -101,24 +104,24 @@
 .comment-reply {
     text-align: right;
     width: 100%;
+    font-size: 13px;
 }
 .comment-reply a {
-    font-size: 16px;
     line-height: 25px;
-    font-style: italic;
+    font-weight: 400;
 }
 .comment-reply a:hover {
-    font-style: italic;
+    font-weight: 400;
 }
 #respond {
-    border-top: 1px solid #d0d0d0;
+    border-top: 1px solid #ufc4;
     padding-top: 30px;
 }
 h3.comment-reply-title {
     font-size: 22px;
     line-height: 30px;
     margin: 0;
-    text-transform: uppercase;
+    margin-bottom:5px;
 }
 h3.comment-reply-title a {
     color: #ufc0;
@@ -141,34 +144,37 @@ p.logged-in-as {
     line-height: 25px;
 }
 p.logged-in-as a:last-child {
-    font-style: italic;
 }
 #commentform {
-    margin-top: 25px;
+    margin-top: 0;
 }
 .comment-form input[type="text"], .comment-form textarea {
     border: 1px solid #d0d0d0;
     box-sizing: border-box;
-    color: #757575;
+    color: #707070;
     font-family: "Open Sans", Arial, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 30px;
-    padding: 5px 15px;
-    -moz-transition: border-color .4s;
-    -ms-transition: border-color .4s;
-    -o-transition: border-color .4s;
-    -webkit-transition: border-color .4s;
-    transition: border-color .4s;
+    padding: 10px 15px;
+    -moz-transition: border-color .2s;
+    -ms-transition: border-color .2s;
+    -o-transition: border-color .2s;
+    -webkit-transition: border-color .2s;
+    transition: border-color .2s;
     width: 100%;
+    border-radius: 4px;
 }
 .comment-form input[type="text"]:focus, .comment-form textarea:focus {
     border-color: #ufc0;
+ color:#333;
 }
 .comment-form label {
-    color: #757575;
+    color: #ufc7;
+    font-size: 22px;
     display: block;
-    font-size: 14px;
     line-height: 30px;
+    letter-spacing: -0.5px!important;
+    margin-bottom: 20px
 }
  p.comment-form-author,  p.comment-form-email,  p.comment-form-url {
     float: left;
@@ -203,12 +209,16 @@ input.submit {
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
-    -moz-transition: background-color .4s;
-    -ms-transition: background-color .4s;
-    -o-transition: background-color .4s;
-    -webkit-transition: background-color .4s;
-    transition: background-color .4s;
+    -moz-transition: background-color .2s;
+    -ms-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
 }
 input.submit:hover {
     background-color: #ufc1;
+}
+
+.upfront #ucomment-object-1445262122920-1990 {
+    min-height: 200px!important;
 }

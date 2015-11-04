@@ -3,3 +3,6 @@
     margin-left: 0;
     width: 100%;
 }
+#page .uf-ucomments-responsive input.submit {
+    width: 100%;
+}

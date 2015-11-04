@@ -1,0 +1,19 @@
+#page .post-responsive .post_content ul, #page .post-responsive .post_content ol, #page .post-responsive .post_content ul li, #page .post-responsive .post_content ol li, #page .post-responsive .post_content h1, #page .post-responsive .post_content h5, #page .post-responsive .post_content h4, #page .post-responsive .post_content h2, #page .post-responsive .post_content h3, #page .post-responsive .post_content h6, #page .post-responsive .post_content p, #page .post-responsive .post_content address, #page .post-responsive .post_content table, #page .post-responsive .post_content pre, #page .post-responsive .post_content cite, #page .post-responsive .post_content q, #page .post-responsive .post_content iframe, #page .post-responsive .post_content embed {
+    margin-left:0px!important;
+    margin-right:0px!important;
+}
+#page .post-responsive .post_contents_wrapper.part-contents:before {
+    margin: 10px 15px 0;
+}
+#page .post-responsive .post_date {
+    margin-top:5px;
+}
+
+#page .post-responsive .post_author, #page .post-responsive .upfront-postpart-title .post_title {
+    margin-left:0px;
+}
+
+.post_content blockquote {
+    padding: 0 0;
+    margin: 20px 30px 60px!important;
+}

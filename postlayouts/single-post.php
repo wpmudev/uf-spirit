@@ -7,16 +7,16 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part 24 c16 ml0 mt0 part-module-title',
+          'classes' => 'post-part 24 c15 ml0 mt0 part-module-title',
           'slug' => 'title',
         ),
         1 => 
         array (
-          'classes' => 'post-part 24 c16 ml0 mt3 part-module-author',
+          'classes' => 'post-part 24 c13 ml0 mt2 part-module-author',
           'slug' => 'author',
         ),
       ),
-      'classes' => 'c16 clr part-title part-author',
+      'classes' => 'c15 clr part-title part-author',
     ),
     1 => 
     array (
@@ -24,11 +24,11 @@
       array (
         0 => 
         array (
-          'classes' => 'post_date post-part c2 ml0 mt0 part-module-date',
+          'classes' => 'post_date post-part c2 ml3 mt0 part-module-date',
           'slug' => 'date',
         ),
       ),
-      'classes' => 'c2 part-date',
+      'classes' => 'c5 part-date',
     ),
     2 => 
     array (
@@ -36,11 +36,11 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part 24 c18 ml0 mt5 part-module-contents',
+          'classes' => 'post-part 24 c20 ml0 mt9 part-module-contents',
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c18  clr post_contents_wrapper part-contents',
+      'classes' => 'c20  clr post_contents_wrapper part-contents',
     ),
   ),
   'partOptions' => 
@@ -70,7 +70,7 @@
     ),
     'plain_text' => 
     array (
-      'content' => '<a href=\\\'#\\\'></a>',
+      'content' => '<a href=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'></a>',
     ),
     'categories' => 
     array (
@@ -81,5 +81,10 @@
       'anchor' => '',
     ),
     'colSize' => '45',
+    'contents' => 
+    array (
+      'padding_left' => '',
+      'padding_right' => '',
+    ),
   ),
 );
