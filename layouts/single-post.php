@@ -291,11 +291,11 @@ $content->add_element("ThisPost", array (
     (array)(array(
        'mobile' => 
       (array)(array(
-         'theme_style' => 'post-responsive',
+         'theme_style' => 'uf-upost-responsive',
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'post-responsive',
+         'theme_style' => 'uf-upost-responsive',
       )),
     )),
     'hide_featured_image' => '',
