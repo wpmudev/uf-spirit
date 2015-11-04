@@ -62,8 +62,7 @@ div[data-style='burger'] ul.menu > li.current-menu-item > a, div[data-style='bur
     color: #ufc7;
 }
 div.upfront-navigation div.upfront-navigation[data-style="burger"][data-burger_alignment="right"] ul.menu {
-    min-width: 30%;
-    max-width: 50%;
+    min-width: 200px;
     padding: 0 20px;
     width: auto;
 }
