@@ -77,7 +77,7 @@ $s_wellness->add_element("PlainTxt", array (
   'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '15',
+  'margin_top' => '12',
   'margin_bottom' => '0',
   'class' => 'module-1408444386527-1487',
   'id' => 'module-1408444386527-1487',
@@ -173,7 +173,7 @@ $s_wellness->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 8,
       'order' => 0,
-      'top' => 14,
+      'top' => 10,
       'row' => 4,
     ),
     'custom-1408718098456' => 

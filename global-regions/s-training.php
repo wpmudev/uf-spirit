@@ -77,7 +77,7 @@ $s_training->add_element("PlainTxt", array (
   'columns' => '14',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '23',
+  'margin_top' => '18',
   'margin_bottom' => '0',
   'class' => 'module-1408443814379-1179',
   'id' => 'module-1408443814379-1179',
@@ -173,7 +173,7 @@ $s_training->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'top' => 21,
+      'top' => 18,
       'row' => 4,
     ),
     'custom-1408718098456' => 

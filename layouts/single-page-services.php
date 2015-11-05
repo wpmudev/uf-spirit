@@ -1882,7 +1882,7 @@ $region_1 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 68,
+  'row' => 57,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -1918,7 +1918,7 @@ $region_1->add_element("PlainTxt", array (
   'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '22',
+  'margin_top' => '13',
   'margin_bottom' => '0',
   'class' => 'module-1446011639533-1052',
   'id' => 'module-1446011639533-1052',
@@ -1964,15 +1964,17 @@ $region_1->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 0,
+      'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 0,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -2006,7 +2008,7 @@ $region_1->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'top' => 21,
+      'top' => 13,
       'row' => 4,
     ),
     'custom-1408718098456' => 
@@ -2021,7 +2023,7 @@ $region_1->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 12,
+      'top' => 10,
     ),
     'custom-1410780542364' => 
     array (
@@ -2044,7 +2046,7 @@ $region_1->add_element("PlainTxt", array (
   'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '1',
   'margin_bottom' => '0',
   'class' => 'module-1446011643762-1467',
   'id' => 'module-1446011643762-1467',
@@ -2090,15 +2092,17 @@ $region_1->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 

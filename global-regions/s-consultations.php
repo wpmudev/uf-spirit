@@ -84,7 +84,7 @@ $s_consultations->add_element("PlainTxt", array (
   'columns' => '11',
   'margin_left' => '12',
   'margin_right' => '0',
-  'margin_top' => '20',
+  'margin_top' => '17',
   'margin_bottom' => '0',
   'class' => 'module-1408441791056-1512',
   'id' => 'module-1408441791056-1512',
@@ -180,7 +180,7 @@ $s_consultations->add_element("PlainTxt", array (
       'left' => 4,
       'col' => 8,
       'row' => 5,
-      'top' => 18,
+      'top' => 17,
     ),
     'custom-1408718098456' => 
     array (

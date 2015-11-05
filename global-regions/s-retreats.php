@@ -77,7 +77,7 @@ $s_retreats->add_element("PlainTxt", array (
   'columns' => '11',
   'margin_left' => '12',
   'margin_right' => '0',
-  'margin_top' => '22',
+  'margin_top' => '16',
   'margin_bottom' => '0',
   'class' => 'module-1408443904923-1360',
   'id' => 'module-1408443904923-1360',
