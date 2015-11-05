@@ -24,9 +24,6 @@
     position: absolute;
     right: 0;
     top: 0;
-    -moz-transition: opacity .2s;
-    -ms-transition: opacity .2s;
-    -o-transition: opacity .2s;
     -webkit-transition: opacity .2s;
     transition: opacity .2s;
     width: 100%;

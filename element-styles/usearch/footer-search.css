@@ -8,9 +8,6 @@
    border: 1px solid #ufc3;
    width: 100%;
    letter-spacing: 0px;
-    -moz-transition: background-color .2s;
-    -ms-transition: background-color .2s;
-    -o-transition: background-color .2s;
     -webkit-transition: background-color .4s;
     transition: background-color .2s;
 }

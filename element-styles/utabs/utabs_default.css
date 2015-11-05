@@ -8,7 +8,8 @@
     margin:0;
     border:3px solid transparent;
     margin-right:0px;
-    transition:0;
+    -webkit-transition:0;
+            transition:0;
 }
 .upfront-tabs-container .tabs-tab-active {
     border-bottom:0;

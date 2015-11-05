@@ -15,9 +15,6 @@
     text-decoration: none;
     color: #FFFFFF;
     padding: 25px 12px;
-    -moz-transition: background-color .4s;
-    -ms-transition: background-color .4s;
-    -o-transition: background-color .4s;
     -webkit-transition: background-color .4s;
     transition: background-color .4s;
 }
