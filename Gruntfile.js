@@ -1,9 +1,9 @@
-/*global module, require */
 module.exports = function(grunt) {
+
 	require('load-grunt-tasks')(grunt);
-	grunt.loadNpmTasks( 'grunt-wp-i18n' );
 
 	grunt.initConfig({
+
 		makepot: {
 			target: {
 				options: {
@@ -11,8 +11,22 @@ module.exports = function(grunt) {
 					type: 'wp-theme'
 				}
 			}
-		}
+		},
+		postcss: {
+            options: {
+                map: false,
+                processors: [
+                    require('autoprefixer')({
+                        browsers: ['last 2 versions', 'ie 7', 'ios 6', 'android 4']
+                    })
+                ]
+            },
+            dist: {
+                src: 'element-styles/**/*.css'
+            }
+        }
+
 	});
 
-	grunt.registerTask('default', ['makepot']);
+	grunt.registerTask('default', ['makepot','postcss']);
 };
