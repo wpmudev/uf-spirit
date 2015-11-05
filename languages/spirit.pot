@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Spirit package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Spirit 0.1.2\n"
+"Project-Id-Version: Spirit 0.1.7\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-02-14 06:54:18+00:00\n"
+"POT-Creation-Date: 2015-11-05 15:38:39+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,6 +23,18 @@ msgstr ""
 
 #: templates/posts-date_posted.php:2
 msgid "{{time}}"
+msgstr ""
+
+#: templates/upfront-comment-list.php:37
+msgid "Edit"
+msgstr ""
+
+#: templates/upfront-comment-list.php:42
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/upfront-comment-list.php:45
+msgid "Reply"
 msgstr ""
 
 #. Theme Name of the plugin/theme
@@ -52,6 +64,10 @@ msgid "About Page template"
 msgstr ""
 
 #. Template Name of the plugin/theme
+msgid "Blog Page template"
+msgstr ""
+
+#. Template Name of the plugin/theme
 msgid "Contactus Page template"
 msgstr ""
 
@@ -60,7 +76,7 @@ msgid "Gallery Page template"
 msgstr ""
 
 #. Template Name of the plugin/theme
-msgid "Login Page template"
+msgid "Privacy Page template"
 msgstr ""
 
 #. Template Name of the plugin/theme
