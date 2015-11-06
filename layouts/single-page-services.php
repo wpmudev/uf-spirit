@@ -1871,13 +1871,13 @@ if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regio
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 's-retreats.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 's-retreats.php');
 
-$region_1 = upfront_create_region(
+$service_3 = upfront_create_region(
 			array (
-  'name' => 'region-1',
-  'title' => 'Region 1',
+  'name' => 'service-3',
+  'title' => 'service 3',
   'type' => 'wide',
   'scope' => 'local',
-  'container' => 'region-1',
+  'container' => 'service-3',
   'position' => 1,
   'allow_sidebar' => true,
 ),
@@ -1914,7 +1914,7 @@ $region_1 = upfront_create_region(
 )
 			);
 
-$region_1->add_element("PlainTxt", array (
+$service_3->add_element("PlainTxt", array (
   'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -2042,7 +2042,7 @@ $region_1->add_element("PlainTxt", array (
   ),
 ));
 
-$region_1->add_element("PlainTxt", array (
+$service_3->add_element("PlainTxt", array (
   'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -2169,7 +2169,7 @@ $region_1->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($region_1);
+$regions->add($service_3);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 
