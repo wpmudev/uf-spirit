@@ -154,10 +154,15 @@ p.logged-in-as {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 15px;
     line-height: 30px;
-    padding: 10px 15px;
     -webkit-transition: border-color .2s;
     transition: border-color .2s;
     width: 100%;   
+}
+.comment-form input[type="text"] {
+    padding: 5px 15px;
+}
+.comment-form textarea {
+    padding: 10px 15px;
 }
 .comment-form input[type="text"]:focus, .comment-form textarea:focus {
     border-color: #ufc0;
@@ -165,11 +170,16 @@ p.logged-in-as {
 }
 .comment-form label {
     color: #ufc7;
-    font-size: 22px;
+    font-size: 15px;
+    font-weight: 400;
     display: block;
     line-height: 30px;
     letter-spacing: -0.5px;
-    margin-bottom: 10px
+    margin-bottom: 5px
+}
+
+.comment-form-comment label {
+    display: none;
 }
  p.comment-form-author,  p.comment-form-email,  p.comment-form-url {
     float: left;
