@@ -1374,7 +1374,8 @@ $region_8->add_element("PlainTxt", array (
     array (
       'col' => 12,
       'order' => 0,
-      'clear' => false,
+      'clear' => true,
+      'edited' => true,
     ),
     'mobile' => 
     array (
@@ -1422,6 +1423,7 @@ $region_8->add_element("PlainTxt", array (
       'col' => 12,
       'order' => 0,
       'row' => 8,
+      'top' => 17,
     ),
     'custom-1408718098456' => 
     array (
@@ -1551,7 +1553,7 @@ $region_11->add_group(array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'top' => 10,
+      'top' => 1,
     ),
     'mobile' => 
     array (
