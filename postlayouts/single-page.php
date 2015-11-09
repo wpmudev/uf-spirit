@@ -7,11 +7,11 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part c24 ml0 mt0 part-module-title',
+          'classes' => 'post-part c18 ml1 mt0 part-module-title',
           'slug' => 'title',
         ),
       ),
-      'classes' => 'c24 clr part-title',
+      'classes' => 'c19 clr part-title',
     ),
     1 => 
     array (
@@ -19,21 +19,21 @@
       array (
         0 => 
         array (
-          'classes' => ' post-part c24 ml0 mt15 part-module-contents',
+          'classes' => ' post-part c20 ml0 mt9 part-module-contents',
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c24 clr part-contents',
+      'classes' => 'c20 clr part-contents',
     ),
   ),
   'partOptions' => 
   array (
     'featured_image' => 
     array (
-      'height' => '320',
+      'height' => '115',
       'attributes' => 
       array (
-        'style' => 'max-height: 320px',
+        'style' => 'max-height: 115px',
       ),
     ),
     'date' => 
@@ -56,6 +56,10 @@
       'anchor' => '',
     ),
     'comments_count' => 
+    array (
+      'anchor' => '',
+    ),
+    'title' => 
     array (
       'anchor' => '',
     ),

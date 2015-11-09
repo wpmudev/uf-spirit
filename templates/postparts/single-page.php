@@ -1,64 +1,59 @@
-<?php
+<?php $templates = array(); ob_start();
 
-$templates = array();
-ob_start();
-
-//*** AUTHOR
+//***** author
 ?><a class="post_author" href="%author_url%">%author%</a><?php
-$templates['author'] = ob_get_contents();
+$templates["author"] = ob_get_contents();
 ob_clean();
 
-
-//** AUTHOR_GRAVATAR
+//***** author_gravatar
 ?><span class="author_gravatar">%avatar_{size}%</span><?php
-$templates['author_gravatar'] = ob_get_contents();
+$templates["author_gravatar"] = ob_get_contents();
 ob_clean();
 
-
-//*** CATEGORIES
+//***** categories
 ?><div class="post_categories">%categories%</div><?php
-$templates['categories'] = ob_get_contents();
+$templates["categories"] = ob_get_contents();
 ob_clean();
 
-//*** COMMENTS COUNT
+//***** comments_count
 ?><div class="post_comments">%comments_count%</div><?php
-$templates['comments_count'] = ob_get_contents();
+$templates["comments_count"] = ob_get_contents();
 ob_clean();
 
-//*** CONTENTS
+//***** contents
 ?><div class="post_content">%contents%</div><?php
-$templates['contents'] = ob_get_contents();
+$templates["contents"] = ob_get_contents();
 ob_clean();
 
-//*** DATE
+//***** date
 ?><time class="post_date" datetime="%date_iso%">%date%</time><?php
-$templates['date'] = ob_get_contents();
+$templates["date"] = ob_get_contents();
 ob_clean();
 
+//***** update
 ?><time class="post_update" datetime="%date_iso%">%update%</time><?php
-$templates['update'] = ob_get_contents();
+$templates["update"] = ob_get_contents();
 ob_clean();
 
-//*** EXCERPT
+//***** excerpt
 ?><div class="post_excerpt">%excerpt%</div><?php
-$templates['excerpt'] = ob_get_contents();
+$templates["excerpt"] = ob_get_contents();
 ob_clean();
 
-//*** FEATURED IMAGE
+//***** featured_image
 ?><div class="post_thumbnail">%image%</div><?php
-$templates['featured_image'] = ob_get_contents();
+$templates["featured_image"] = ob_get_contents();
 ob_clean();
 
-//*** TAGS
+//***** tags
 ?><div class="post_tags">%tags%</div><?php
-$templates['tags'] = ob_get_contents();
+$templates["tags"] = ob_get_contents();
 ob_clean();
 
-//*** TITLE
+//***** title
 ?><h1 class="post_title">%title%</h1><?php
-$templates['title'] = ob_get_contents();
+$templates["title"] = ob_get_contents();
 ob_clean();
-
 
 ob_end_clean();
 return $templates;
