@@ -1,7 +1,11 @@
 #page .small-logo {
- padding-top: 1px !important;   
- padding-bottom: 0px !important;
+ padding-top: 0px!important;   
+ padding-bottom: 0px!important;
 }
 #page .small-logo .upfront-image-container img {
     vertical-align: middle;
+ padding-top: 0px;   
+ padding-bottom: 0px;
+ display:block;
+ margin:0px;
 }

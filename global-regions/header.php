@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_7096da = upfront_create_region(
+$region_efa8fe = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -61,19 +61,19 @@ $region_7096da = upfront_create_region(
 )
 			);
 
-$region_7096da->add_element("Uimage", array (
+$region_efa8fe->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '2',
+  'margin_top' => '3',
   'margin_bottom' => '0',
   'class' => 'image',
   'id' => 'image',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/global-regions/header/logo-nav (1)-105x42-8597.png',
-    'srcFull' => '{{upfront:style_url}}/images/global-regions/header/logo-nav (1).png',
-    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/header/logo-nav (1).png',
+    'src' => '{{upfront:style_url}}/images/global-regions/header/logo-nav-75x35-6969.png',
+    'srcFull' => '{{upfront:style_url}}/images/global-regions/header/logo-nav.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/header/logo-nav.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => false,
@@ -84,13 +84,13 @@ $region_7096da->add_element("Uimage", array (
     'image_status' => 'ok',
     'size' => 
     (array)(array(
-       'width' => 105,
-       'height' => 42,
+       'width' => 75,
+       'height' => 35,
     )),
     'fullSize' => 
     (array)(array(
-       'width' => 105,
-       'height' => 42,
+       'width' => 75,
+       'height' => 35,
     )),
     'position' => 
     (array)(array(
@@ -101,16 +101,16 @@ $region_7096da->add_element("Uimage", array (
     'element_size' => 
     (array)(array(
        'width' => 105,
-       'height' => 45,
+       'height' => 35,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '133',
+    'image_id' => '229042',
     'align' => 'left',
-    'stretch' => true,
-    'vstretch' => false,
+    'stretch' => false,
+    'vstretch' => true,
     'quick_swap' => false,
     'gifImage' => 0,
     'placeholder_class' => '',
@@ -127,7 +127,7 @@ $region_7096da->add_element("Uimage", array (
        'url' => '{{upfront:home_url}}/',
        'target' => false,
     )),
-    'row' => -1,
+    'row' => 5,
     'theme_style' => 'small-logo',
     'anchor' => '',
     'element_id' => 'image-object',
@@ -144,7 +144,7 @@ $region_7096da->add_element("Uimage", array (
     )),
     'no_padding' => '',
   ),
-  'row' => 6,
+  'row' => 5,
   'sticky' => false,
   'wrapper_id' => 'image-wrapper',
   'new_line' => true,
@@ -205,7 +205,7 @@ $region_7096da->add_element("Uimage", array (
       'edited' => true,
       'left' => 0,
       'col' => 3,
-      'top' => 1,
+      'top' => 3,
     ),
     'custom-1408718098456' => 
     array (
@@ -219,7 +219,7 @@ $region_7096da->add_element("Uimage", array (
       'edited' => true,
       'left' => 0,
       'col' => 3,
-      'top' => 2,
+      'top' => 3,
     ),
     'custom-1410780542364' => 
     array (
@@ -239,9 +239,9 @@ $region_7096da->add_element("Uimage", array (
   ),
 ));
 
-$region_7096da->add_element("Unewnavigation", array (
+$region_efa8fe->add_element("Unewnavigation", array (
   'columns' => '14',
-  'margin_left' => '1',
+  'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -377,7 +377,7 @@ $region_7096da->add_element("Unewnavigation", array (
     'initialized' => false,
     'menu_id' => false,
     'menu_slug' => 'main-menu',
-    'row' => 5,
+    'row' => 12,
     'burger_menu' => 
     array (
     ),
@@ -428,14 +428,14 @@ $region_7096da->add_element("Unewnavigation", array (
     )),
     'element_id' => 'unewnavigation-object',
   ),
-  'row' => 6,
+  'row' => 12,
   'sticky' => false,
   'wrapper_id' => 'unewnavigation-wrapper',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 4,
+      'col' => 5,
       'order' => 3,
       'clear' => false,
       'edited' => true,
@@ -488,7 +488,7 @@ $region_7096da->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 2,
+      'left' => 3,
       'col' => 2,
       'row' => 9,
       'top' => 0,
@@ -527,7 +527,7 @@ $region_7096da->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_7096da->add_element("Code", array (
+$region_efa8fe->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -598,38 +598,33 @@ $region_7096da->add_element("Code", array (
  .twitter:hover:before,  .twitter.dark { background-position: -223px -543px;
 }',
     'script' => '/* Your code here */',
-    'row' => 5,
+    'row' => 12,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 12,
+         'row' => 6,
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 12,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408627457712-1308',
+  'wrapper_id' => 'wrapper-1447196542834-1085',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 5,
+      'edited' => true,
+      'col' => 4,
       'order' => 2,
       'clear' => false,
-      'edited' => true,
     ),
     'mobile' => 
     array (
-      'col' => 6,
+      'edited' => true,
+      'col' => 5,
       'order' => 2,
       'clear' => true,
-      'edited' => true,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 4,
-      'order' => 0,
     ),
   ),
   'breakpoint' => 
@@ -666,9 +661,9 @@ $region_7096da->add_element("Code", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 5,
+      'col' => 4,
       'top' => 0,
-      'row' => 12,
+      'row' => 6,
       'hide' => 1,
     ),
     'custom-1408718098456' => 
@@ -680,11 +675,12 @@ $region_7096da->add_element("Code", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'edited' => true,
+      'left' => 3,
+      'col' => 4,
       'hide' => 1,
       'order' => 0,
+      'top' => 26,
     ),
     'custom-1410780542364' => 
     array (
@@ -703,6 +699,6 @@ $region_7096da->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_7096da);
+$regions->add($region_efa8fe);
 
 /* END_REGION_OUTPUT */
