@@ -19,3 +19,8 @@
     margin: 0;
     width: 100%;
 }
+#page .uf-upost-responsive .uinsert-image-wrapper img {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
