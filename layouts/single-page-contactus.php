@@ -77,8 +77,78 @@ $region_2 = upfront_create_region(
 $region_2->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1447118075159-1969',
+  'options' => 
+  array (
+    'content' => '<p class=""><a rel="entry" href="{{upfront:home_url}}/">HOME</a> / CONTACT US</p>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1447118075159-1275',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'row' => 14,
+    'is_edited' => true,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'theme_style' => 'breadcrumbs',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'breadcrumb-responsive',
+      )),
+    )),
+  ),
+  'row' => 14,
+  'wrapper_id' => 'wrapper-1447118116977-1697',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 0,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 0,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
+$region_2->add_element("PlainTxt", array (
+  'columns' => '22',
+  'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '22',
+  'margin_top' => '7',
   'margin_bottom' => '0',
   'class' => 'module-1408525024897-1934',
   'id' => 'module-1408525024897-1934',
@@ -109,14 +179,14 @@ $region_2->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
       'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
       'edited' => true,
     ),
@@ -157,7 +227,7 @@ $region_2->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'top' => 19,
+      'top' => 13,
     ),
     'custom-1408718098456' => 
     array (
@@ -170,7 +240,7 @@ $region_2->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'top' => 19,
+      'top' => 10,
     ),
     'custom-1410783042947' => 
     array (
@@ -228,14 +298,14 @@ $region_2->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
   ),
@@ -310,14 +380,14 @@ $region_2->add_element("Ucontact", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'custom-1410783042947' => 
