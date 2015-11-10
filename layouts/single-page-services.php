@@ -263,8 +263,8 @@ $region_3->add_element("PlainTxt", array (
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => 'breadcrumbs',
     'anchor' => '',
     'breakpoint' => 
@@ -272,6 +272,11 @@ $region_3->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'theme_style' => 'breadcrumbs',
+      )),
+       'mobile' => 
+      (array)(array(
+         'row' => 11,
+         'theme_style' => 'breadcrumb-responsive',
       )),
     )),
   ),
@@ -292,6 +297,8 @@ $region_3->add_element("PlainTxt", array (
     array (
       'col' => 7,
       'order' => 0,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -347,10 +354,12 @@ $region_3->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 11,
+      'top' => 0,
     ),
   ),
 ));
@@ -397,7 +406,9 @@ $region_3->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -454,10 +465,11 @@ $region_3->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 3,
     ),
   ),
 ));
@@ -511,7 +523,9 @@ $region_3->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
+      'edited' => true,
     ),
     'custom-1410783042947' => 
     array (
@@ -1871,13 +1885,13 @@ if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regio
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 's-retreats.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 's-retreats.php');
 
-$region_1 = upfront_create_region(
+$service_3 = upfront_create_region(
 			array (
-  'name' => 'region-1',
-  'title' => 'Region 1',
+  'name' => 'service-3',
+  'title' => 'service 3',
   'type' => 'wide',
   'scope' => 'local',
-  'container' => 'region-1',
+  'container' => 'service-3',
   'position' => 1,
   'allow_sidebar' => true,
 ),
@@ -1914,7 +1928,7 @@ $region_1 = upfront_create_region(
 )
 			);
 
-$region_1->add_element("PlainTxt", array (
+$service_3->add_element("PlainTxt", array (
   'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -2042,7 +2056,7 @@ $region_1->add_element("PlainTxt", array (
   ),
 ));
 
-$region_1->add_element("PlainTxt", array (
+$service_3->add_element("PlainTxt", array (
   'columns' => '10',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -2169,7 +2183,7 @@ $region_1->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($region_1);
+$regions->add($service_3);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 

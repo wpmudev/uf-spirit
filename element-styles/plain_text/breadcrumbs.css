@@ -10,3 +10,6 @@
 #page .breadcrumbs p a:hover {
     color: #ufc2;
 }
+#page .breadcrumbs.upfront-plain_txt {
+    margin-top:10px;
+}

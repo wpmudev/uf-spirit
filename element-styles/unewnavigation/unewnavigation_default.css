@@ -15,7 +15,6 @@ div.responsive_nav_toggler {
     -ms-transition: opacity 0.25s ease-in;
     -moz-transition: opacity 0.25s ease-in;
     -webkit-transition: opacity 0.25s ease-in;
-    z-index: 0;
 }
 div.responsive_nav_toggler:hover {
     opacity: 0.6;
@@ -69,8 +68,7 @@ div.upfront-navigation div.upfront-navigation[data-style="burger"][data-burger_a
 div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li {
     margin-bottom: 5px;
 }
-div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li:last-child,
-div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li.wrap_burger_nav_close {
+div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li:last-child, div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li.wrap_burger_nav_close {
     margin-bottom: 0;
 }
 div[data-style='burger'][data-burger_alignment="right"] ul.menu > li.menu-item > a {

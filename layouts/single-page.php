@@ -43,10 +43,10 @@ $main = upfront_create_region(
 			);
 
 $main->add_element("ThisPost", array (
-  'columns' => '22',
-  'margin_left' => '1',
+  'columns' => '20',
+  'margin_left' => '2',
   'margin_right' => '0',
-  'margin_top' => '15',
+  'margin_top' => '33',
   'margin_bottom' => '0',
   'class' => 'default-page',
   'id' => 'default-page',
@@ -57,7 +57,7 @@ $main->add_element("ThisPost", array (
     'class' => 'c24 upfront-this_post',
     'has_settings' => 1,
     'id_slug' => 'this_post',
-    'row' => 68,
+    'row' => 28,
     'post_data' => 
     array (
     ),
@@ -93,7 +93,9 @@ $main->add_element("ThisPost", array (
     ),
     'element_id' => 'default-page-object',
     'anchor' => '',
-    'theme_style' => 'thispage-style',
+    'theme_style' => '_default',
+    'hide_featured_image' => '',
+    'full_featured_image' => '',
   ),
   'row' => 6,
   'sticky' => false,

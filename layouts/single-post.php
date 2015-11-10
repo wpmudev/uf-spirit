@@ -45,7 +45,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class=""><a href="{{upfront:home_url}}/" rel="entry">HOME</a>  &nbsp;/ &nbsp; BLOG</p>',
+    'content' => '<p class=""><a rel="entry" href="{{upfront:home_url}}/">HOME</a>  &nbsp;/ &nbsp;<a href="{{upfront:home_url}}/blog/" target="_self" data-upfront-link-type="entry"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>BLOG<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></a>&nbsp; &nbsp;/ &nbsp;&nbsp;POST</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1408529844142-1195',
     'class' => 'c24 upfront-plain_txt',
@@ -54,10 +54,18 @@ $region_3->add_element("PlainTxt", array (
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => 'breadcrumbs',
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 8,
+         'theme_style' => 'breadcrumb-responsive',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -91,10 +99,11 @@ $region_3->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 8,
     ),
     'custom-1410783042947' => 
     array (

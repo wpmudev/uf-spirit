@@ -45,8 +45,78 @@ $main = upfront_create_region(
 $main->add_element("PlainTxt", array (
   'columns' => '22',
   'margin_left' => '1',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1447118283870-1075',
+  'options' => 
+  array (
+    'content' => '<p class=""><a rel="entry" href="{{upfront:home_url}}/">HOME</a> / TERMS &amp; PRIVACY</p>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1447118283870-1795',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'row' => 12,
+    'is_edited' => true,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'theme_style' => 'breadcrumbs',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 12,
+         'theme_style' => 'breadcrumb-responsive',
+      )),
+    )),
+  ),
+  'row' => 12,
+  'wrapper_id' => 'wrapper-1447118291450-1637',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'row' => 12,
+    ),
+  ),
+));
+
+$main->add_element("PlainTxt", array (
+  'columns' => '22',
+  'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '15',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1444117623046-1200',
   'id' => 'module-1444117623046-1200',
@@ -349,7 +419,7 @@ $main->add_element("PlainTxt", array (
       'edited' => true,
       'col' => 7,
       'order' => 3,
-      'clear' => true,
+      'clear' => false,
     ),
   ),
   'breakpoint' => 
