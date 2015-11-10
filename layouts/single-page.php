@@ -96,6 +96,17 @@ $main->add_element("ThisPost", array (
     'theme_style' => '_default',
     'hide_featured_image' => '',
     'full_featured_image' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'uf-upage-responsive',
+      )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'uf-upage-responsive',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
