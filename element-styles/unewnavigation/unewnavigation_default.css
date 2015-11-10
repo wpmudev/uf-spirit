@@ -42,6 +42,9 @@ div.responsive_nav_toggler > div:last-child {
     font-weight: 300;
     text-align: center;
 }
+div.upfront-navigation div.burger_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 div[data-style='burger'] ul.menu > li.menu-item > a {
     color: #ufc6;
     display: inline-block;
