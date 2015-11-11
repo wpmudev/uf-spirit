@@ -70,7 +70,7 @@
     ),
     'plain_text' => 
     array (
-      'content' => '<a href=\\\\\\\'#\\\\\\\'></a>',
+      'content' => '<a href=\'#\'></a>',
     ),
     'categories' => 
     array (
@@ -83,8 +83,8 @@
     'colSize' => '45',
     'contents' => 
     array (
-      'padding_left' => '',
-      'padding_right' => '',
+      'padding_left' => '1',
+      'padding_right' => '1',
     ),
   ),
 );

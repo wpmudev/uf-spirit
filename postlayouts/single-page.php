@@ -47,8 +47,8 @@
     ),
     'contents' => 
     array (
-      'padding_left' => '0',
-      'padding_right' => '0',
+      'padding_left' => '1',
+      'padding_right' => '1',
     ),
     'colSize' => '45',
     'author' => 
