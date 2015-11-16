@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_efa8fe = upfront_create_region(
+$region_049e32 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -61,7 +61,7 @@ $region_efa8fe = upfront_create_region(
 )
 			);
 
-$region_efa8fe->add_element("Uimage", array (
+$region_049e32->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -114,6 +114,8 @@ $region_efa8fe->add_element("Uimage", array (
     'quick_swap' => false,
     'gifImage' => 0,
     'placeholder_class' => '',
+    'preset' => 'default',
+    'display_caption' => 'showCaption',
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
@@ -144,7 +146,7 @@ $region_efa8fe->add_element("Uimage", array (
     )),
     'no_padding' => '',
   ),
-  'row' => 5,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'image-wrapper',
   'new_line' => true,
@@ -239,7 +241,7 @@ $region_efa8fe->add_element("Uimage", array (
   ),
 ));
 
-$region_efa8fe->add_element("Unewnavigation", array (
+$region_049e32->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -365,8 +367,7 @@ $region_efa8fe->add_element("Unewnavigation", array (
         )),
       )),
     ),
-    'menu_style' => 'horizontal',
-    'menu_alignment' => 'center',
+    'preset' => 'default',
     'allow_sub_nav' => 
     array (
       0 => 'no',
@@ -374,6 +375,8 @@ $region_efa8fe->add_element("Unewnavigation", array (
     'allow_new_pages' => 
     array (
     ),
+    'menu_style' => 'horizontal',
+    'menu_alignment' => 'center',
     'initialized' => false,
     'menu_id' => false,
     'menu_slug' => 'main-menu',
@@ -428,7 +431,7 @@ $region_efa8fe->add_element("Unewnavigation", array (
     )),
     'element_id' => 'unewnavigation-object',
   ),
-  'row' => 12,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'unewnavigation-wrapper',
   'wrapper_breakpoint' => 
@@ -527,7 +530,7 @@ $region_efa8fe->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_efa8fe->add_element("Code", array (
+$region_049e32->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -607,7 +610,7 @@ $region_efa8fe->add_element("Code", array (
       )),
     )),
   ),
-  'row' => 12,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1447196542834-1085',
   'wrapper_breakpoint' => 
@@ -622,7 +625,7 @@ $region_efa8fe->add_element("Code", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 5,
+      'col' => 7,
       'order' => 2,
       'clear' => true,
     ),
@@ -699,6 +702,6 @@ $region_efa8fe->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_efa8fe);
+$regions->add($region_049e32);
 
 /* END_REGION_OUTPUT */
