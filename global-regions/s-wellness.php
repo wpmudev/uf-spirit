@@ -368,7 +368,7 @@ $s_wellness->add_element("Button", array (
        'object' => 'page',
        'object_id' => 11,
     )),
-    'currentpreset' => false,
+    'currentpreset' => 'default',
     'row' => 4,
     'theme_style' => '_default',
     'is_edited' => true,

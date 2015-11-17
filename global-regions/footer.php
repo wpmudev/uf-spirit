@@ -103,7 +103,8 @@ $footer->add_element("Unewnavigation", array (
         )),
       )),
     ),
-    'preset' => 'default',
+    'menu_style' => 'horizontal',
+    'menu_alignment' => 'left',
     'allow_sub_nav' => 
     array (
       0 => 'no',
@@ -111,8 +112,6 @@ $footer->add_element("Unewnavigation", array (
     'allow_new_pages' => 
     array (
     ),
-    'menu_style' => 'horizontal',
-    'menu_alignment' => 'left',
     'element_id' => 'unewnavigation-object-1408447780692-1228',
     'initialized' => false,
     'menu_id' => false,
