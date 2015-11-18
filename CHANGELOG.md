@@ -2,6 +2,20 @@ Change Log
 ============
 
 
+0.2 - 2015-11-18
+-------------------------------------------------------------------------------
+- Fix: better alignment on footer elements.
+- Fix: breadcrumb style issue.
+- Fix: date (visual) on search archive.
+- Fix: contact form responsive styles.
+- Fix: update responsive navigation.
+- Fix: social links vertical alignment.
+- Fix: open social media links in new tab.
+- Fix: improvements and cleanup on respond form.
+- Add: thumbnail to archive (posts list).
+- Add: styles to cover unique content.
+- Add: image variations and default styles.
+
 0.1.7 - 2015-08-28
 -------------------------------------------------------------------------------
 - Fix: menu element item deletion positioning.
