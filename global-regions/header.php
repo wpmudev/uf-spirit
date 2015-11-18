@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_efa8fe = upfront_create_region(
+$region_f84d5f = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -61,7 +61,7 @@ $region_efa8fe = upfront_create_region(
 )
 			);
 
-$region_efa8fe->add_element("Uimage", array (
+$region_f84d5f->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -144,7 +144,7 @@ $region_efa8fe->add_element("Uimage", array (
     )),
     'no_padding' => '',
   ),
-  'row' => 5,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'image-wrapper',
   'new_line' => true,
@@ -239,7 +239,7 @@ $region_efa8fe->add_element("Uimage", array (
   ),
 ));
 
-$region_efa8fe->add_element("Unewnavigation", array (
+$region_f84d5f->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -428,7 +428,7 @@ $region_efa8fe->add_element("Unewnavigation", array (
     )),
     'element_id' => 'unewnavigation-object',
   ),
-  'row' => 12,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'unewnavigation-wrapper',
   'wrapper_breakpoint' => 
@@ -527,7 +527,7 @@ $region_efa8fe->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_efa8fe->add_element("Code", array (
+$region_f84d5f->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -607,7 +607,7 @@ $region_efa8fe->add_element("Code", array (
       )),
     )),
   ),
-  'row' => 12,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1447196542834-1085',
   'wrapper_breakpoint' => 
@@ -622,7 +622,7 @@ $region_efa8fe->add_element("Code", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 5,
+      'col' => 7,
       'order' => 2,
       'clear' => true,
     ),
@@ -699,6 +699,6 @@ $region_efa8fe->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_efa8fe);
+$regions->add($region_f84d5f);
 
 /* END_REGION_OUTPUT */
