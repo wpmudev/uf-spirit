@@ -1,5 +1,0 @@
-.agignore
-.jshintrc
-node_modules
-languages/*.po
-languages/*.mo
