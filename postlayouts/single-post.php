@@ -36,6 +36,18 @@
       array (
         0 => 
         array (
+          'classes' => 'c20 post-part ml0 mt9',
+          'slug' => 'featured_image',
+        ),
+      ),
+      'classes' => 'c20 clr',
+    ),
+    3 => 
+    array (
+      'objects' => 
+      array (
+        0 => 
+        array (
           'classes' => 'post-part c20 ml0 mt9 part-module-contents',
           'slug' => 'contents',
         ),
@@ -47,11 +59,11 @@
   array (
     'featured_image' => 
     array (
-      'height' => '115',
+      'height' => '515',
       'anchor' => '',
       'attributes' => 
       array (
-        'style' => 'max-height: 115px',
+        'style' => 'max-height: 515px',
       ),
     ),
     'title' => 

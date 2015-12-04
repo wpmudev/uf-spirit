@@ -46,7 +46,18 @@
 .upfront-postpart-author a.post_author, .post_author {
     position: relative;
 }
-.upfront-postpart-wrapper.part-contents:before {
+.upfront-postpart-wrapper.part-featured_image:before {
+    background: #ufc4;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 5px 60px 0;
+    width: 100%;
+}
+.upfront-postpart-wrapper.part-featured_image.no-featured_image {
+    display: none;
+}
+.upfront-postpart-wrapper.part-featured_image.no-featured_image + .upfront-postpart-wrapper.part-contents:before {
     background: #ufc4;
     content: "";
     display: block;
