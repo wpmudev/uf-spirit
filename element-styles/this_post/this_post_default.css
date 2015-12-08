@@ -75,10 +75,18 @@
     margin-bottom: 45px;
 }
 .post_content ul, .post_content ol {
-    padding: 0 0 25px 5px;
+    margin: 0 0 40px 20px;
+    padding: 0;
 }
 .post_content ul li, .post_content ol li {
-    margin: 0 45px 10px 0;
+    margin: 0 0 10px 0;
+}
+.post_content ul ul,
+.post_content ul ol,
+.post_content ol ol,
+.post_content ol ul {
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 .post_content > *:last-child {
     margin-bottom: 0;
