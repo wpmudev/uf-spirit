@@ -8,10 +8,11 @@
     background:#ufc0;
     font-size: 0; /* Fix display-inline block space */
 }
-#page .main-nav ul.menu li * {
+#page .main-nav ul.menu li {
     font: 300 16px/16px Oswald, Arial;
 }
 #page .main-nav ul.menu li a {
+	font: 300 16px/16px Oswald, Arial;
     text-decoration: none;
     color: #FFFFFF;
     padding: 25px 12px;
