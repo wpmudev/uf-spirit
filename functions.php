@@ -71,7 +71,7 @@ Spirit::serve();
 if (!is_admin()) {
     function upfront_version_check_script () {
         if (function_exists('upfront_exporter_is_running') && upfront_exporter_is_running()) return false; // Not in exporter
-        if (version_compare(wp_get_theme('upfront')->Version, '1.0', 'ge')) return false;
+        if (version_compare(wp_get_theme('upfront')->Version, '1.0-alpha-1', 'ge')) return false;
 ?>
 <style type="text/css">
 .upfront-version_compatibility-nag {
@@ -142,7 +142,8 @@ if (!is_admin()) {
                     '</div>' +
                 '',
                 type: 'inline'
-            }
+            },
+            mainClass: 'uf-upgrade-notice'
         });
         return false;
     }
