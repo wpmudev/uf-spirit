@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_49bf4f = upfront_create_region(
+$region_f0a6ba = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -42,7 +42,7 @@ $region_49bf4f = upfront_create_region(
 )
 			);
 
-$region_49bf4f->add_element("Uimage", array (
+$region_f0a6ba->add_element("Uimage", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_top' => '0',
@@ -50,7 +50,7 @@ $region_49bf4f->add_element("Uimage", array (
   'id' => 'module-1452574610984-1587',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/global-regions/header/logo-nav-75x35-8323.png',
+    'src' => '{{upfront:style_url}}/images/global-regions/header/logo-nav-75x35-7207.png',
     'srcFull' => '{{upfront:style_url}}/images/global-regions/header/logo-nav.png',
     'srcOriginal' => '{{upfront:style_url}}/images/global-regions/header/logo-nav.png',
     'image_title' => '',
@@ -70,8 +70,6 @@ $region_49bf4f->add_element("Uimage", array (
     (array)(array(
        'width' => 75,
        'height' => 35,
-       'top' => 885,
-       'left' => 445,
     )),
     'position' => 
     (array)(array(
@@ -82,7 +80,7 @@ $region_49bf4f->add_element("Uimage", array (
     'element_size' => 
     (array)(array(
        'width' => 150,
-       'height' => 40,
+       'height' => 35,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
@@ -112,15 +110,15 @@ $region_49bf4f->add_element("Uimage", array (
     )),
     'element_id' => 'image-1452574610977-1691',
     'top_padding_num' => '15',
-    'bottom_padding_num' => '10',
-    'row' => 13,
+    'bottom_padding_num' => '0',
+    'row' => 5,
     'lock_padding' => '',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '10',
+    'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '15',
   ),
-  'row' => 13,
+  'row' => 5,
   'wrapper_id' => 'wrapper-1452574614121-1081',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -159,7 +157,7 @@ $region_49bf4f->add_element("Uimage", array (
   ),
 ));
 
-$region_49bf4f->add_element("Unewnavigation", array (
+$region_f0a6ba->add_element("Unewnavigation", array (
   'columns' => '14',
   'margin_left' => '0',
   'margin_top' => '0',
@@ -349,7 +347,7 @@ $region_49bf4f->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_49bf4f->add_element("Code", array (
+$region_f0a6ba->add_element("Code", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_top' => '0',
@@ -459,6 +457,6 @@ $region_49bf4f->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_49bf4f);
+$regions->add($region_f0a6ba);
 
 /* END_REGION_OUTPUT */

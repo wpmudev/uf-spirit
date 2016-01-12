@@ -302,7 +302,7 @@ $main_area = upfront_create_region(
   'type' => 'wide',
   'scope' => 'local',
   'container' => 'main-area',
-  'position' => 10,
+  'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
@@ -327,8 +327,8 @@ $main_area = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'varied',
-  'top_bg_padding_slider' => 0,
-  'top_bg_padding_num' => 0,
+  'top_bg_padding_slider' => '40',
+  'top_bg_padding_num' => '40',
   'bottom_bg_padding_slider' => 0,
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
@@ -336,6 +336,64 @@ $main_area = upfront_create_region(
   'background_color' => '',
 )
 			);
+
+$main_area->add_element("PlainTxt", array (
+  'columns' => '24',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1452576215823-1280',
+  'options' => 
+  array (
+    'content' => '<h2 class="" style="text-align: center;">JOIN THE WELLNESS REVOLUTION</h2>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1452576215821-1235',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'is_edited' => true,
+  ),
+  'row' => 15,
+  'wrapper_id' => 'wrapper-1452576261287-1617',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 0,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
 
 $regions->add($main_area);
 
