@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_b5caad = upfront_create_region(
+$region_f16d7e = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -42,7 +42,7 @@ $region_b5caad = upfront_create_region(
 )
 			);
 
-$region_b5caad->add_element("Uimage", array (
+$region_f16d7e->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -163,7 +163,7 @@ $region_b5caad->add_element("Uimage", array (
   ),
 ));
 
-$region_b5caad->add_element("Unewnavigation", array (
+$region_f16d7e->add_element("Unewnavigation", array (
   'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -182,13 +182,13 @@ $region_b5caad->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 21,
+         'menu-item-db-id' => 28,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '21',
+         'menu-item-object-id' => '28',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -200,13 +200,13 @@ $region_b5caad->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 22,
+         'menu-item-db-id' => 29,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ABOUT',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '22',
+         'menu-item-object-id' => '29',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -218,13 +218,13 @@ $region_b5caad->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 23,
+         'menu-item-db-id' => 30,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TESTIMONIALS',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '23',
+         'menu-item-object-id' => '30',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -236,13 +236,13 @@ $region_b5caad->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 24,
+         'menu-item-db-id' => 31,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'GALLERY',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '24',
+         'menu-item-object-id' => '31',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -254,13 +254,13 @@ $region_b5caad->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 25,
+         'menu-item-db-id' => 32,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '25',
+         'menu-item-object-id' => '32',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -272,13 +272,13 @@ $region_b5caad->add_element("Unewnavigation", array (
       )),
       5 => 
       (array)(array(
-         'menu-item-db-id' => 26,
+         'menu-item-db-id' => 33,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT US',
          'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '26',
+         'menu-item-object-id' => '33',
          'menu-item-target' => '',
          'menu-item-position' => 6,
          'link' => 
@@ -359,7 +359,7 @@ $region_b5caad->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_b5caad->add_element("Code", array (
+$region_f16d7e->add_element("Code", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -476,6 +476,6 @@ $region_b5caad->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_b5caad);
+$regions->add($region_f16d7e);
 
 /* END_REGION_OUTPUT */
