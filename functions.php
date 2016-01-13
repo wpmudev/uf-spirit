@@ -16,7 +16,7 @@ class Spirit extends Upfront_ChildTheme {
 	}
 
 	public function get_prefix(){
-		return 'uf-spirit';
+		return 'Spirit';
 	}
 
 	public static function serve(){
