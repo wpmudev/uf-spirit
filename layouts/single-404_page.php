@@ -23,7 +23,8 @@ $main->add_element("PlainTxt", array(
 	"id" => "default-nav-text-module",
 	"rows" => 12,
 	"options" => array(
-		"view_class" => "PlainTxtView",
+		'view_class' => 'PlainTxtView',
+    'usingNewAppearance' => true,
 		"id_slug" => "plaintxt",
 		"content" => "<p>Uh oh, somehting went wrong!</p>",
 		"element_id" => "default-nav-text-object",

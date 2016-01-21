@@ -17,10 +17,11 @@ $content->add_element("Posts", array (
   "margin_top" => "6",
   "class" => "upfront-posts_module",
   "id" => "module-1442668077434-1795",
-  "options" => 
+  "options" =>
   array (
     "type" => "PostsModel",
-    "view_class" => "PostsView",
+    'view_class' => 'PostsView',
+    'usingNewAppearance' => true,
     "has_settings" => 1,
     "class" => "c24 uposts-object",
     "id_slug" => "posts",
@@ -34,7 +35,7 @@ $content->add_element("Posts", array (
     "pagination" => "",
     "sticky" => "",
     "posts_list" => "",
-    "post_parts" => 
+    "post_parts" =>
       array (
         0 => "date_posted",
         1 => "author",
@@ -47,7 +48,7 @@ $content->add_element("Posts", array (
         8 => "tags",
         9 => "categories",
       ),
-    "enabled_post_parts" => 
+    "enabled_post_parts" =>
       array (
         0 => "date_posted",
         1 => "author",
@@ -60,7 +61,7 @@ $content->add_element("Posts", array (
         8 => "tags",
         9 => "categories",
       ),
-    "default_parts" => 
+    "default_parts" =>
       array (
         0 => "date_posted",
         1 => "author",
@@ -85,7 +86,7 @@ $content->add_element("Posts", array (
   "row" => 42,
   "wrapper_id" => "wrapper-1442668095508-1224",
   "new_line" => true,
-  
+
 ));
 
 $regions->add($content);
