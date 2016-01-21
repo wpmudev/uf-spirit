@@ -42,7 +42,7 @@ $s_retreats = upfront_create_region(
   'background_style' => 'full',
   'background_position_y' => '50',
   'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/global-regions/s-retreats/Homepage-Services-Bg2.jpg',
+  'background_image' => '{{upfront:style_url}}/images/global-regions/s-retreats/bg-retreats.jpg',
   'background_image_ratio' => 0.25,
   'background_repeat' => 'repeat',
 )

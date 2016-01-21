@@ -42,7 +42,7 @@ $s_wellness = upfront_create_region(
   'background_style' => 'full',
   'background_position_y' => '50',
   'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/global-regions/s-wellness/Homepage-Services-Bg3.jpg',
+  'background_image' => '{{upfront:style_url}}/images/global-regions/s-wellness/bg-wellness.jpg',
   'background_image_ratio' => 0.25,
   'background_repeat' => 'repeat',
 )
@@ -97,7 +97,7 @@ $s_wellness->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5 style="text-align: left;">GROUP TRAINING</h5>',
+    'content' => '<h5 style="text-align: left;">WORKPLACE WELLNESS</h5>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1452647620441-1747',
     'class' => 'c24 upfront-plain_txt',

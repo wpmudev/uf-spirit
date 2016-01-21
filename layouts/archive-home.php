@@ -44,7 +44,7 @@ $home_header = upfront_create_region(
   'background_style' => 'full',
   'background_position_y' => '50',
   'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/Homepage-Banner.jpg',
+  'background_image' => '{{upfront:style_url}}/images/archive-home/bg-home-banner.jpg',
   'background_image_ratio' => 0.560000000000000053290705182007513940334320068359375,
 )
 			);
@@ -59,9 +59,9 @@ $home_header->add_element("Uimage", array (
   'id' => 'module-1452572518182-1660',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/archive-home/logo-330x225-1296.png',
-    'srcFull' => '{{upfront:style_url}}/images/archive-home/logo.png',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/logo.png',
+    'src' => '{{upfront:style_url}}/images/archive-home/logo-main-330x209-8737.png',
+    'srcFull' => '{{upfront:style_url}}/images/archive-home/logo-main.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/logo-main.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => true,
@@ -72,8 +72,8 @@ $home_header->add_element("Uimage", array (
     'image_status' => 'ok',
     'size' => 
     (array)(array(
-       'width' => 355,
-       'height' => 225,
+       'width' => 330,
+       'height' => 209,
     )),
     'fullSize' => 
     (array)(array(
@@ -82,23 +82,23 @@ $home_header->add_element("Uimage", array (
     )),
     'position' => 
     (array)(array(
-       'top' => 0,
+       'top' => -8,
        'left' => 0,
     )),
-    'marginTop' => 0,
+    'marginTop' => 8,
     'element_size' => 
     (array)(array(
        'width' => 330,
-       'height' => 225,
+       'height' => 217,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '5',
+    'image_id' => '63',
     'align' => 'center',
     'stretch' => true,
-    'vstretch' => true,
+    'vstretch' => false,
     'quick_swap' => false,
     'gifImage' => 0,
     'placeholder_class' => '',
@@ -826,7 +826,7 @@ $region_14 = upfront_create_region(
   'background_style' => 'full',
   'background_position_y' => '50',
   'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/archive-home/Homepage-About-Bg.jpg',
+  'background_image' => '{{upfront:style_url}}/images/archive-home/bg-home-about.jpg',
   'background_image_ratio' => 0.4699999999999999733546474089962430298328399658203125,
   'background_repeat' => 'no-repeat',
   'background_position' => '50% 50%',
@@ -1372,9 +1372,9 @@ $region_11_a->add_element("Uimage", array (
   'id' => 'module-1452648555420-1969',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/archive-home/testimonial1-140x140-7971-105x105-3261.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/archive-home/testimonial1-140x140-7971.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/testimonial1-140x140-7971.jpg',
+    'src' => '{{upfront:style_url}}/images/archive-home/spirit-testimonial-one-105x105-2139.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/archive-home/spirit-testimonial-one.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/spirit-testimonial-one.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => true,
@@ -1408,7 +1408,7 @@ $region_11_a->add_element("Uimage", array (
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '39',
+    'image_id' => '61',
     'align' => 'center',
     'stretch' => true,
     'vstretch' => true,
@@ -1853,9 +1853,9 @@ $region_11_b->add_element("Uimage", array (
   'id' => 'module-1453356812327-1244',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/archive-home/testimonial2-105x105-6989.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/archive-home/testimonial2.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/testimonial2.jpg',
+    'src' => '{{upfront:style_url}}/images/archive-home/spirit-testimonial-two-105x105-2465.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/archive-home/spirit-testimonial-two.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/spirit-testimonial-two.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => true,
@@ -1889,7 +1889,7 @@ $region_11_b->add_element("Uimage", array (
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '57',
+    'image_id' => '62',
     'align' => 'center',
     'stretch' => true,
     'vstretch' => true,
@@ -2022,7 +2022,11 @@ $region_11_b->add_group(array (
   'wrapper_id' => 'wrapper-1453357211621-1307',
   'original_col' => 24,
   'top_padding_num' => 0,
-  'bottom_padding_num' => 0,
+  'bottom_padding_num' => '120',
+  'use_padding' => 'yes',
+  'lock_padding' => '',
+  'bottom_padding_use' => 'yes',
+  'bottom_padding_slider' => '120',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
