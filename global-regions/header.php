@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_3e70cb = upfront_create_region(
+$region_5b193f = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_3e70cb = upfront_create_region(
 )
 			);
 
-$region_3e70cb->add_element("Uimage", array (
+$region_5b193f->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -167,7 +167,7 @@ $region_3e70cb->add_element("Uimage", array (
   ),
 ));
 
-$region_3e70cb->add_element("Unewnavigation", array (
+$region_5b193f->add_element("Unewnavigation", array (
   'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -208,16 +208,18 @@ $region_3e70cb->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ABOUT',
-         'menu-item-url' => '#',
+         'menu-item-url' => '{{upfront:home_url}}/about/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '49',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
         (array)(array(
-           'type' => 'unlink',
-           'url' => '#',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/about/',
            'target' => '',
+           'object' => 'page',
+           'object_id' => 71,
         )),
       )),
       2 => 
@@ -373,7 +375,7 @@ $region_3e70cb->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_3e70cb->add_element("Code", array (
+$region_5b193f->add_element("Code", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -493,6 +495,6 @@ $region_3e70cb->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_3e70cb);
+$regions->add($region_5b193f);
 
 /* END_REGION_OUTPUT */
