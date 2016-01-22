@@ -409,8 +409,8 @@ $archive_content->add_element("Posts", array (
     'taxonomy' => '',
     'term' => '',
     'content' => 'excerpt',
-    'limit' => 5,
-    'pagination' => '',
+    'limit' => '4',
+    'pagination' => 'numeric',
     'sticky' => '',
     'posts_list' => '',
     'post_parts' => 
