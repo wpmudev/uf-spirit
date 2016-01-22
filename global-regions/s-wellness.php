@@ -281,22 +281,28 @@ $s_wellness->add_element("PlainTxt", array (
 
 $s_wellness->add_element("Uspacer", array (
   'columns' => '4',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453442980895-1285 upfront-module-spacer',
   'id' => 'module-1453442980895-1285',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453442980895-1492',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453442980895-1492',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453442980895-1062',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453442980895-1062',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -304,6 +310,10 @@ $s_wellness->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 1,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
       'col' => 5,
     ),
     'current_property' => 
@@ -468,8 +478,8 @@ $s_wellness->add_element("PlainTxt", array (
     'breakpoint' => 
     (array)(array(
        'tablet' => 
-      (array)(array(
-      )),
+      array (
+      ),
        'current_property' => 'lock_padding',
     )),
   ),
@@ -527,22 +537,28 @@ $s_wellness->add_element("PlainTxt", array (
 
 $s_wellness->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453442973602-1375 upfront-module-spacer',
   'id' => 'module-1453442973602-1375',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453442973601-1733',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453442973601-1733',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453442973601-1065',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453442973601-1065',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -550,6 +566,11 @@ $s_wellness->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 2,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
+      'col' => 5,
     ),
     'current_property' => 
     array (
@@ -870,22 +891,28 @@ $s_wellness->add_element("Button", array (
 
 $s_wellness->add_element("Uspacer", array (
   'columns' => '8',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453442989373-1941 upfront-module-spacer',
   'id' => 'module-1453442989373-1941',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453442989373-1607',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453442989373-1607',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453442989373-1141',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453442989373-1141',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -893,6 +920,11 @@ $s_wellness->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 3,
+      'col' => 8,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
     'current_property' => 
     array (

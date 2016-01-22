@@ -210,22 +210,28 @@ $s_training->add_element("PlainTxt", array (
 
 $s_training->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453437083047-1586 upfront-module-spacer',
   'id' => 'module-1453437083047-1586',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453437083046-1260',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453437083046-1260',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453437083047-1274',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453437083047-1274',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -233,6 +239,10 @@ $s_training->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 0,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
       'col' => 5,
     ),
     'current_property' => 
@@ -455,22 +465,28 @@ $s_training->add_element("PlainTxt", array (
 
 $s_training->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453437086367-1274 upfront-module-spacer',
   'id' => 'module-1453437086367-1274',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453437086366-1895',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453437086366-1895',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453437086367-1582',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453437086367-1582',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -478,6 +494,10 @@ $s_training->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 1,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
       'col' => 5,
     ),
     'current_property' => 

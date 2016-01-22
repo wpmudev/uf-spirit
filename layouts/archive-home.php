@@ -185,22 +185,28 @@ $home_header->add_element("Uimage", array (
 
 $home_header->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453442501883-1278 upfront-module-spacer',
   'id' => 'module-1453442501883-1278',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453442501882-1101',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453442501882-1101',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453442501883-1992',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453442501883-1992',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -208,6 +214,11 @@ $home_header->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 0,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
+      'col' => 5,
     ),
     'current_property' => 
     array (
@@ -345,7 +356,7 @@ $home_header->add_element("Button", array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -1824,8 +1835,8 @@ $region_11_a->add_element("PlainTxt", array (
     'breakpoint' => 
     (array)(array(
        'mobile' => 
-      (array)(array(
-      )),
+      array (
+      ),
        'current_property' => 'use_padding',
     )),
     'breakpoint_presets' => 
@@ -1919,8 +1930,8 @@ $region_11_a->add_element("PlainTxt", array (
     'breakpoint' => 
     (array)(array(
        'mobile' => 
-      (array)(array(
-      )),
+      array (
+      ),
        'current_property' => 'lock_padding',
     )),
     'breakpoint_presets' => 
@@ -2380,8 +2391,8 @@ $region_11_b->add_element("PlainTxt", array (
     'breakpoint' => 
     (array)(array(
        'mobile' => 
-      (array)(array(
-      )),
+      array (
+      ),
        'current_property' => 'use_padding',
     )),
     'breakpoint_presets' => 
@@ -2475,8 +2486,8 @@ $region_11_b->add_element("PlainTxt", array (
     'breakpoint' => 
     (array)(array(
        'mobile' => 
-      (array)(array(
-      )),
+      array (
+      ),
        'current_property' => 'lock_padding',
     )),
     'breakpoint_presets' => 

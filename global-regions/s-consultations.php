@@ -91,22 +91,28 @@ $s_consultations->add_element("Uspacer", array (
 
 $s_consultations->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453442643563-1159 upfront-module-spacer',
   'id' => 'module-1453442643563-1159',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453442643562-1536',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453442643562-1536',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453442643563-1681',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453442643563-1681',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -115,6 +121,10 @@ $s_consultations->add_element("Uspacer", array (
       'edited' => true,
       'clear' => true,
       'order' => 0,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
       'col' => 5,
     ),
     'current_property' => 
@@ -338,22 +348,28 @@ $s_consultations->add_element("Uspacer", array (
 
 $s_consultations->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453442646628-1047 upfront-module-spacer',
   'id' => 'module-1453442646628-1047',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453442646627-1684',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453442646627-1684',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453442646628-1546',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453442646628-1546',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -362,6 +378,10 @@ $s_consultations->add_element("Uspacer", array (
       'edited' => true,
       'clear' => true,
       'order' => 1,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
       'col' => 5,
     ),
     'current_property' => 

@@ -91,22 +91,28 @@ $s_retreats->add_element("Uspacer", array (
 
 $s_retreats->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453437381990-1220 upfront-module-spacer',
   'id' => 'module-1453437381990-1220',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453437381989-1736',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453437381989-1736',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453437381990-1646',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453437381990-1646',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -115,6 +121,10 @@ $s_retreats->add_element("Uspacer", array (
       'edited' => true,
       'clear' => true,
       'order' => 0,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
       'col' => 5,
     ),
     'current_property' => 
@@ -335,22 +345,28 @@ $s_retreats->add_element("Uspacer", array (
 
 $s_retreats->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453437384220-1485 upfront-module-spacer',
   'id' => 'module-1453437384220-1485',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453437384219-1328',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453437384219-1328',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453437384220-1975',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453437384220-1975',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -359,6 +375,10 @@ $s_retreats->add_element("Uspacer", array (
       'edited' => true,
       'clear' => true,
       'order' => 1,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
       'col' => 5,
     ),
     'current_property' => 
