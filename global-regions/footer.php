@@ -7,7 +7,7 @@ $footer = upfront_create_region(
   'type' => 'wide',
   'scope' => 'global',
   'container' => 'footer',
-  'position' => 10,
+  'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
@@ -46,8 +46,10 @@ $footer = upfront_create_region(
 $footer->add_element("Unewnavigation", array (
   'columns' => '12',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-newnavigation_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1453356812349-1925',
   'id' => 'module-1453356812349-1925',
   'options' => 
   array (
@@ -60,13 +62,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 58,
+         'menu-item-db-id' => 1740,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS &#038; PRIVACY',
          'menu-item-url' => '{{upfront:home_url}}/privacy/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '58',
+         'menu-item-object-id' => '1740',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -116,6 +118,10 @@ $footer->add_element("Unewnavigation", array (
     )),
   ),
   'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1453358060831-1340',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -167,18 +173,20 @@ $footer->add_element("Unewnavigation", array (
 $footer->add_element("PlainTxt", array (
   'columns' => '12',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1453357589878-1163',
   'id' => 'module-1453357589878-1163',
   'options' => 
   array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
     'content' => '<p style="text-align: right;">2014-2015 INCSUB</p>',
     'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
     'element_id' => 'text-object-1453357589875-1821',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'usingNewAppearance' => true,
@@ -207,7 +215,11 @@ $footer->add_element("PlainTxt", array (
        'current_property' => 'use_padding',
     )),
   ),
-  'row' => 5,
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1453358267890-1061',
   'wrapper_breakpoint' => 
   array (
