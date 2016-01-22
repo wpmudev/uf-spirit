@@ -64,15 +64,15 @@ $footer->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS &#038; PRIVACY',
-         'menu-item-url' => '#',
+         'menu-item-url' => '{{upfront:home_url}}/privacy/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '58',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
-           'type' => 'unlink',
-           'url' => '#',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/privacy/',
            'target' => '',
         )),
       )),
@@ -107,6 +107,13 @@ $footer->add_element("Unewnavigation", array (
       )),
     )),
     'row' => 6,
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 6,
   'wrapper_id' => 'wrapper-1453358060831-1340',
@@ -115,36 +122,44 @@ $footer->add_element("Unewnavigation", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
+      'edited' => true,
+      'col' => 6,
       'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
+      'edited' => true,
+      'col' => 3,
       'order' => 0,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'top' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 3,
       'order' => 0,
       'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -184,6 +199,13 @@ $footer->add_element("PlainTxt", array (
       )),
     )),
     'row' => 5,
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 5,
   'wrapper_id' => 'wrapper-1453358267890-1061',
@@ -191,36 +213,44 @@ $footer->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
+      'edited' => true,
+      'col' => 6,
       'order' => 1,
-      'clear' => true,
+      'clear' => false,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
+      'edited' => true,
+      'col' => 4,
       'order' => 1,
-      'clear' => true,
+      'clear' => false,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'top' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 4,
       'order' => 0,
       'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));

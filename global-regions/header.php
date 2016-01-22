@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_86bd01 = upfront_create_region(
+$region_78edbe = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_86bd01 = upfront_create_region(
 )
 			);
 
-$region_86bd01->add_element("Uimage", array (
+$region_78edbe->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -83,7 +83,7 @@ $region_86bd01->add_element("Uimage", array (
     'element_size' => 
     (array)(array(
        'width' => 105,
-       'height' => 35,
+       'height' => 20,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
@@ -133,15 +133,15 @@ $region_86bd01->add_element("Uimage", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
+      'edited' => true,
+      'col' => 4,
       'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
+      'edited' => true,
+      'col' => 3,
       'order' => 0,
       'clear' => true,
     ),
@@ -150,24 +150,24 @@ $region_86bd01->add_element("Uimage", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 4,
       'order' => 0,
       'top' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 3,
       'order' => 0,
       'top' => 0,
     ),
   ),
 ));
 
-$region_86bd01->add_element("Unewnavigation", array (
+$region_78edbe->add_element("Unewnavigation", array (
   'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -254,8 +254,6 @@ $region_86bd01->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/gallery/',
            'target' => '',
-           'object' => 'page',
-           'object_id' => 1719,
         )),
       )),
       4 => 
@@ -330,6 +328,14 @@ $region_86bd01->add_element("Unewnavigation", array (
          'preset' => 'default',
       )),
     )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 12,
+      )),
+       'current_property' => 'lock_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -341,41 +347,42 @@ $region_86bd01->add_element("Unewnavigation", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 1,
-      'clear' => true,
+      'edited' => true,
+      'col' => 4,
+      'order' => 2,
+      'clear' => false,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 1,
-      'clear' => true,
+      'edited' => true,
+      'col' => 2,
+      'order' => 2,
+      'clear' => false,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 4,
       'order' => 0,
       'top' => 0,
+      'row' => 12,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 2,
       'order' => 0,
       'top' => 0,
     ),
   ),
 ));
 
-$region_86bd01->add_element("Code", array (
+$region_78edbe->add_element("Code", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -450,6 +457,7 @@ $region_86bd01->add_element("Code", array (
     'script' => '/* Your code here */',
     'row' => 8,
     'padding_slider' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -461,40 +469,42 @@ $region_86bd01->add_element("Code", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 2,
-      'clear' => true,
+      'edited' => true,
+      'col' => 4,
+      'order' => 1,
+      'clear' => false,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 2,
-      'clear' => true,
+      'edited' => true,
+      'col' => 2,
+      'order' => 1,
+      'clear' => false,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 4,
       'order' => 0,
       'top' => 0,
+      'hide' => 1,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 2,
       'order' => 0,
       'top' => 0,
+      'hide' => 1,
     ),
   ),
 ));
 
-$regions->add($region_86bd01);
+$regions->add($region_78edbe);
 
 /* END_REGION_OUTPUT */
