@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_d77a46 = upfront_create_region(
+$region_86bd01 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_d77a46 = upfront_create_region(
 )
 			);
 
-$region_d77a46->add_element("Uimage", array (
+$region_86bd01->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -167,7 +167,7 @@ $region_d77a46->add_element("Uimage", array (
   ),
 ));
 
-$region_d77a46->add_element("Unewnavigation", array (
+$region_86bd01->add_element("Unewnavigation", array (
   'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -244,16 +244,18 @@ $region_d77a46->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'GALLERY',
-         'menu-item-url' => '#',
+         'menu-item-url' => '{{upfront:home_url}}/gallery/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '51',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
         (array)(array(
-           'type' => 'unlink',
-           'url' => '#',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/gallery/',
            'target' => '',
+           'object' => 'page',
+           'object_id' => 1719,
         )),
       )),
       4 => 
@@ -290,8 +292,6 @@ $region_d77a46->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/contactus/',
            'target' => '',
-           'object' => 'page',
-           'object_id' => 1717,
         )),
       )),
     ),
@@ -375,7 +375,7 @@ $region_d77a46->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_d77a46->add_element("Code", array (
+$region_86bd01->add_element("Code", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -495,6 +495,6 @@ $region_d77a46->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_d77a46);
+$regions->add($region_86bd01);
 
 /* END_REGION_OUTPUT */
