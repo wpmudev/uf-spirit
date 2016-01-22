@@ -122,7 +122,6 @@ $s_training->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_slider' => '50',
          'top_padding_num' => '50',
@@ -150,6 +149,10 @@ $s_training->add_element("PlainTxt", array (
          'preset' => 'align-center',
       )),
        'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+       'tablet' => 
       (array)(array(
          'preset' => 'default',
       )),
@@ -360,11 +363,10 @@ $s_training->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '50',
          'bottom_padding_num' => '50',
-         'row' => 13,
+         'row' => 12,
       )),
        'current_property' => 'use_padding',
        'mobile' => 
@@ -390,6 +392,10 @@ $s_training->add_element("PlainTxt", array (
          'preset' => 'align-center',
       )),
        'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+       'tablet' => 
       (array)(array(
          'preset' => 'default',
       )),
@@ -430,7 +436,7 @@ $s_training->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 13,
+      'row' => 12,
     ),
     'mobile' => 
     array (

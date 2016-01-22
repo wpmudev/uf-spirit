@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_d387bd = upfront_create_region(
+$region_ba9e29 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_d387bd = upfront_create_region(
 )
 			);
 
-$region_d387bd->add_element("Uimage", array (
+$region_ba9e29->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -163,7 +163,7 @@ $region_d387bd->add_element("Uimage", array (
   ),
 ));
 
-$region_d387bd->add_element("Unewnavigation", array (
+$region_ba9e29->add_element("Unewnavigation", array (
   'columns' => '17',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -232,8 +232,6 @@ $region_d387bd->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/testimonials/',
            'target' => '',
-           'object' => 'page',
-           'object_id' => 1753,
         )),
       )),
       3 => 
@@ -393,7 +391,7 @@ $region_d387bd->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_d387bd->add_element("Code", array (
+$region_ba9e29->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -516,6 +514,6 @@ $region_d387bd->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_d387bd);
+$regions->add($region_ba9e29);
 
 /* END_REGION_OUTPUT */
