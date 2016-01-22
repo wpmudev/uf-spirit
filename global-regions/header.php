@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_4da278 = upfront_create_region(
+$region_4933ba = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,19 +43,19 @@ $region_4da278 = upfront_create_region(
 )
 			);
 
-$region_4da278->add_element("Uimage", array (
+$region_4933ba->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1452574610984-1587',
-  'id' => 'module-1452574610984-1587',
+  'class' => 'module-1453435671712-1880',
+  'id' => 'module-1453435671712-1880',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/global-regions/header/logo-nav (1)-75x35-3009.png',
-    'srcFull' => '{{upfront:style_url}}/images/global-regions/header/logo-nav (1).png',
-    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/header/logo-nav (1).png',
+    'src' => '{{upfront:style_url}}/images/global-regions/header/logo-nav-75x35-3150.png',
+    'srcFull' => '{{upfront:style_url}}/images/global-regions/header/logo-nav.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/header/logo-nav.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => false,
@@ -83,13 +83,13 @@ $region_4da278->add_element("Uimage", array (
     'element_size' => 
     (array)(array(
        'width' => 105,
-       'height' => 20,
+       'height' => 35,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '55',
+    'image_id' => '1743',
     'align' => 'left',
     'stretch' => false,
     'vstretch' => true,
@@ -107,41 +107,37 @@ $region_4da278->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => 'homepage',
-       'url' => '{{upfront:home_url}}',
+       'type' => false,
+       'url' => '',
        'target' => false,
     )),
-    'element_id' => 'image-1452574610977-1691',
-    'top_padding_num' => '15',
-    'bottom_padding_num' => '0',
-    'row' => 5,
-    'lock_padding' => '',
-    'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '15',
+    'element_id' => 'image-1453435671708-1574',
     'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'usingNewAppearance' => true,
+    'row' => 5,
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1452574614121-1081',
+  'wrapper_id' => 'wrapper-1453435708433-1472',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 4,
+      'edited' => false,
+      'col' => 12,
       'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => true,
-      'col' => 3,
+      'edited' => false,
+      'col' => 7,
       'order' => 0,
       'clear' => true,
     ),
@@ -150,25 +146,23 @@ $region_4da278->add_element("Uimage", array (
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
-      'col' => 4,
+      'col' => 12,
       'order' => 0,
-      'top' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
-      'col' => 3,
+      'col' => 7,
       'order' => 0,
-      'top' => 0,
     ),
   ),
 ));
 
-$region_4da278->add_element("Unewnavigation", array (
-  'columns' => '16',
+$region_4933ba->add_element("Unewnavigation", array (
+  'columns' => '17',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -200,8 +194,6 @@ $region_4da278->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/services/',
            'target' => '',
-           'object' => 'page',
-           'object_id' => 1732,
         )),
       )),
       1 => 
@@ -350,16 +342,16 @@ $region_4da278->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 4,
+      'col' => 8,
       'order' => 2,
-      'clear' => false,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 2,
+      'col' => 5,
       'order' => 2,
-      'clear' => false,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -368,7 +360,7 @@ $region_4da278->add_element("Unewnavigation", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 4,
+      'col' => 8,
       'order' => 0,
       'top' => 0,
       'row' => 12,
@@ -377,15 +369,15 @@ $region_4da278->add_element("Unewnavigation", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 2,
+      'col' => 5,
       'order' => 0,
       'top' => 0,
     ),
   ),
 ));
 
-$region_4da278->add_element("Code", array (
-  'columns' => '5',
+$region_4933ba->add_element("Code", array (
+  'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -507,6 +499,6 @@ $region_4da278->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_4da278);
+$regions->add($region_4933ba);
 
 /* END_REGION_OUTPUT */

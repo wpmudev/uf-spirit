@@ -1868,7 +1868,7 @@ $workplace_wellness = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 68,
+  'row' => 66,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -2115,7 +2115,7 @@ $workplace_wellness->add_element("PlainTxt", array (
     'use_padding' => 'yes',
     'row' => 11,
   ),
-  'row' => 11,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
