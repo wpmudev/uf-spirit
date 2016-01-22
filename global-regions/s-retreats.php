@@ -16,13 +16,16 @@ $s_retreats = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 56,
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 56,
+       'hide' => 1,
     )),
   )),
   'background_type' => 'image',
@@ -64,6 +67,7 @@ $s_retreats->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1452647242885-1839',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -81,6 +85,55 @@ $s_retreats->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 7,
+    ),
+  ),
+));
+
+$s_retreats->add_element("Uspacer", array (
+  'columns' => '5',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1453437381990-1220',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1453437381989-1736',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'preset' => 'default',
+  ),
+  'wrapper_id' => 'wrapper-1453437381990-1646',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 1,
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'clear' => true,
+      'order' => 0,
+      'col' => 5,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'hide' => 0,
+      'left' => 0,
+      'col' => 5,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -114,6 +167,43 @@ $s_retreats->add_element("PlainTxt", array (
     'bottom_padding_slider' => '5',
     'row' => 8,
     'padding_slider' => '15',
+    'preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '50',
+         'top_padding_num' => '50',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '30',
+         'top_padding_num' => '30',
+      )),
+    )),
+    'use_padding' => 'yes',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
+    'usingNewAppearance' => true,
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -125,10 +215,10 @@ $s_retreats->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
+      'edited' => true,
+      'col' => 7,
       'order' => 0,
-      'clear' => true,
+      'clear' => false,
     ),
     'mobile' => 
     array (
@@ -136,15 +226,19 @@ $s_retreats->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 7,
       'order' => 0,
     ),
     'mobile' => 
@@ -153,6 +247,10 @@ $s_retreats->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -173,6 +271,7 @@ $s_retreats->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1452647244891-1091',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -209,6 +308,7 @@ $s_retreats->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1452647236044-1845',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -226,6 +326,55 @@ $s_retreats->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 7,
+    ),
+  ),
+));
+
+$s_retreats->add_element("Uspacer", array (
+  'columns' => '5',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1453437384220-1485',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1453437384219-1328',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'preset' => 'default',
+  ),
+  'wrapper_id' => 'wrapper-1453437384220-1975',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 1,
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'clear' => true,
+      'order' => 1,
+      'col' => 5,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'hide' => 0,
+      'left' => 0,
+      'col' => 5,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -258,6 +407,45 @@ $s_retreats->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '80',
     'padding_slider' => '15',
+    'preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '50',
+         'bottom_padding_num' => '50',
+         'row' => 15,
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '30',
+         'bottom_padding_num' => '30',
+         'row' => 14,
+      )),
+    )),
+    'use_padding' => 'yes',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
+    'usingNewAppearance' => true,
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -269,10 +457,10 @@ $s_retreats->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
+      'edited' => true,
+      'col' => 7,
       'order' => 1,
-      'clear' => true,
+      'clear' => false,
     ),
     'mobile' => 
     array (
@@ -280,23 +468,33 @@ $s_retreats->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 15,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'row' => 14,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -317,6 +515,7 @@ $s_retreats->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1452647230310-1151',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

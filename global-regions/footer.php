@@ -62,13 +62,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 1740,
+         'menu-item-db-id' => 1751,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS &#038; PRIVACY',
          'menu-item-url' => '{{upfront:home_url}}/privacy/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1740',
+         'menu-item-object-id' => '1751',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
