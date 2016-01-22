@@ -45,6 +45,7 @@ $s_consultations = upfront_create_region(
   'background_image' => '{{upfront:style_url}}/images/global-regions/s-consultations/bg-consultations.jpg',
   'background_image_ratio' => 0.25,
   'background_repeat' => 'repeat',
+  'expand_lock' => true,
 )
 			);
 

@@ -110,8 +110,8 @@ $footer->add_element("Unewnavigation", array (
     'breakpoint' => 
     (array)(array(
        'mobile' => 
-      (array)(array(
-      )),
+      array (
+      ),
        'current_property' => 'use_padding',
     )),
   ),
@@ -202,8 +202,8 @@ $footer->add_element("PlainTxt", array (
     'breakpoint' => 
     (array)(array(
        'mobile' => 
-      (array)(array(
-      )),
+      array (
+      ),
        'current_property' => 'use_padding',
     )),
   ),
