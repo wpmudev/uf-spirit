@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_22eeeb = upfront_create_region(
+$region_d387bd = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_22eeeb = upfront_create_region(
 )
 			);
 
-$region_22eeeb->add_element("Uimage", array (
+$region_d387bd->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -163,7 +163,7 @@ $region_22eeeb->add_element("Uimage", array (
   ),
 ));
 
-$region_22eeeb->add_element("Unewnavigation", array (
+$region_d387bd->add_element("Unewnavigation", array (
   'columns' => '17',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -222,16 +222,18 @@ $region_22eeeb->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TESTIMONIALS',
-         'menu-item-url' => '#',
+         'menu-item-url' => '{{upfront:home_url}}/testimonials/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '1747',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
         (array)(array(
-           'type' => 'unlink',
-           'url' => '#',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/testimonials/',
            'target' => '',
+           'object' => 'page',
+           'object_id' => 1753,
         )),
       )),
       3 => 
@@ -258,7 +260,7 @@ $region_22eeeb->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
-         'menu-item-url' => '#',
+         'menu-item-url' => '',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '1749',
          'menu-item-target' => '',
@@ -266,7 +268,7 @@ $region_22eeeb->add_element("Unewnavigation", array (
          'link' => 
         (array)(array(
            'type' => 'unlink',
-           'url' => '#',
+           'url' => '',
            'target' => '',
         )),
       )),
@@ -391,7 +393,7 @@ $region_22eeeb->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_22eeeb->add_element("Code", array (
+$region_d387bd->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -514,6 +516,6 @@ $region_22eeeb->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_22eeeb);
+$regions->add($region_d387bd);
 
 /* END_REGION_OUTPUT */
