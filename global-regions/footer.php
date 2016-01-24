@@ -12,14 +12,14 @@ $footer = upfront_create_region(
 ),
 			array (
   'row' => 8,
-  'breakpoint' => 
+  'breakpoint' =>
   (array)(array(
-     'tablet' => 
+     'tablet' =>
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
-     'mobile' => 
+     'mobile' =>
     (array)(array(
        'edited' => false,
        'col' => 24,
@@ -27,7 +27,7 @@ $footer = upfront_create_region(
   )),
   'background_type' => 'color',
   'use_padding' => 0,
-  'sub_regions' => 
+  'sub_regions' =>
   array (
     0 => false,
   ),
@@ -51,16 +51,16 @@ $footer->add_element("Unewnavigation", array (
   'margin_bottom' => '0',
   'class' => 'module-1453356812349-1925',
   'id' => 'module-1453356812349-1925',
-  'options' => 
+  'options' =>
   array (
     'type' => 'UnewnavigationModel',
     'view_class' => 'UnewnavigationView',
     'class' => 'c24 upfront-navigation',
     'has_settings' => 1,
     'id_slug' => 'unewnavigation',
-    'menu_items' => 
+    'menu_items' =>
     array (
-      0 => 
+      0 =>
       (array)(array(
          'menu-item-db-id' => 1751,
          'menu-item-parent-id' => '0',
@@ -71,7 +71,7 @@ $footer->add_element("Unewnavigation", array (
          'menu-item-object-id' => '1751',
          'menu-item-target' => '',
          'menu-item-position' => 1,
-         'link' => 
+         'link' =>
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/privacy/',
@@ -80,11 +80,11 @@ $footer->add_element("Unewnavigation", array (
       )),
     ),
     'preset' => 'footer-menu',
-    'allow_sub_nav' => 
+    'allow_sub_nav' =>
     array (
       0 => 'no',
     ),
-    'allow_new_pages' => 
+    'allow_new_pages' =>
     array (
       0 => 'no',
     ),
@@ -101,17 +101,17 @@ $footer->add_element("Unewnavigation", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'breakpoint_presets' => 
+    'breakpoint_presets' =>
     (array)(array(
-       'desktop' => 
+       'desktop' =>
       (array)(array(
          'preset' => 'footer-menu',
       )),
     )),
     'row' => 6,
-    'breakpoint' => 
+    'breakpoint' =>
     (array)(array(
-       'mobile' => 
+       'mobile' =>
       array (
       ),
        'current_property' => 'use_padding',
@@ -124,30 +124,30 @@ $footer->add_element("Unewnavigation", array (
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1453358060831-1340',
   'new_line' => true,
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'col' => 6,
       'order' => 0,
       'clear' => true,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'col' => 3,
       'order' => 0,
       'clear' => true,
     ),
-    'current_property' => 
+    'current_property' =>
     array (
       0 => 'col',
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -155,7 +155,7 @@ $footer->add_element("Unewnavigation", array (
       'order' => 0,
       'top' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -163,7 +163,7 @@ $footer->add_element("Unewnavigation", array (
       'order' => 0,
       'top' => 0,
     ),
-    'current_property' => 
+    'current_property' =>
     array (
       0 => 'col',
     ),
@@ -178,11 +178,11 @@ $footer->add_element("PlainTxt", array (
   'margin_bottom' => '0',
   'class' => 'module-1453357589878-1163',
   'id' => 'module-1453357589878-1163',
-  'options' => 
+  'options' =>
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p style="text-align: right;">2014-2015 INCSUB</p>',
+    'content' => '<p style="text-align: right;">2014-2016 INCSUB</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1453357589875-1821',
     'class' => 'c24 upfront-plain_txt',
@@ -199,17 +199,17 @@ $footer->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'anchor' => '',
     'preset' => 'copyright',
-    'breakpoint_presets' => 
+    'breakpoint_presets' =>
     (array)(array(
-       'desktop' => 
+       'desktop' =>
       (array)(array(
          'preset' => 'copyright',
       )),
     )),
     'row' => 5,
-    'breakpoint' => 
+    'breakpoint' =>
     (array)(array(
-       'mobile' => 
+       'mobile' =>
       array (
       ),
        'current_property' => 'use_padding',
@@ -221,30 +221,30 @@ $footer->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1453358267890-1061',
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'col' => 6,
       'order' => 1,
       'clear' => false,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'col' => 4,
       'order' => 1,
       'clear' => false,
     ),
-    'current_property' => 
+    'current_property' =>
     array (
       0 => 'col',
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -252,7 +252,7 @@ $footer->add_element("PlainTxt", array (
       'order' => 0,
       'top' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -260,7 +260,7 @@ $footer->add_element("PlainTxt", array (
       'order' => 0,
       'top' => 0,
     ),
-    'current_property' => 
+    'current_property' =>
     array (
       0 => 'col',
     ),
