@@ -16,16 +16,24 @@ $s_wellness = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'background_position_y' => '50',
+       'background_style' => 'fixed',
+       'background_repeat' => 'no-repeat',
+       'background_position' => '40% 50%',
+       'background_position_x' => '40',
+       'background_type' => 'image',
+       'row' => 68,
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
        'row' => 65,
-       'hide' => 1,
+       'hide' => 0,
     )),
+     'current_property' => 'background_position',
   )),
   'background_type' => 'image',
   'use_padding' => 0,
@@ -34,21 +42,22 @@ $s_wellness = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'varied',
-  'top_bg_padding_slider' => '30',
-  'top_bg_padding_num' => '30',
-  'bottom_bg_padding_slider' => '30',
-  'bottom_bg_padding_num' => '30',
+  'top_bg_padding_slider' => '0',
+  'top_bg_padding_num' => '0',
+  'bottom_bg_padding_slider' => '0',
+  'bottom_bg_padding_num' => '0',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ffffff',
-  'background_style' => 'full',
+  'background_style' => 'fixed',
   'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/global-regions/s-wellness/bg-wellness.jpg',
   'background_image_ratio' => 0.25,
-  'background_repeat' => 'repeat',
+  'background_repeat' => 'no-repeat',
   'version' => '1.0.0',
-  'expand_lock' => true,
+  'expand_lock' => false,
+  'background_position' => '50% 50%',
 )
 			);
 
@@ -172,15 +181,15 @@ $s_wellness->add_element("PlainTxt", array (
     'element_id' => 'object-1452647620441-1747',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'top_padding_num' => '60',
-    'bottom_padding_num' => '5',
+    'top_padding_num' => '80',
+    'bottom_padding_num' => '15',
     'is_edited' => true,
     'lock_padding' => '',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '60',
+    'top_padding_slider' => '80',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '5',
-    'row' => 12,
+    'bottom_padding_slider' => '15',
+    'row' => 15,
     'padding_slider' => '15',
     'use_padding' => 'yes',
     'preset' => 'default',
@@ -190,18 +199,27 @@ $s_wellness->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '50',
-         'top_padding_num' => '50',
-         'row' => 8,
+         'top_padding_slider' => '60',
+         'top_padding_num' => '60',
+         'row' => 10,
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '15',
+         'bottom_padding_num' => '15',
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'bottom_padding_num',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '0',
-         'top_padding_num' => '0',
-         'row' => 5,
+         'top_padding_slider' => '40',
+         'top_padding_num' => '40',
+         'row' => 10,
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '15',
+         'bottom_padding_num' => '15',
+
       )),
     )),
     'padding_number' => '15',
@@ -225,7 +243,7 @@ $s_wellness->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 15,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -261,7 +279,7 @@ $s_wellness->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
-      'row' => 8,
+      'row' => 10,
     ),
     'mobile' => 
     array (
@@ -270,7 +288,7 @@ $s_wellness->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
-      'row' => 5,
+      'row' => 10,
     ),
     'current_property' => 
     array (
@@ -459,17 +477,17 @@ $s_wellness->add_element("PlainTxt", array (
     'element_id' => 'object-1452647629581-1993',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'top_padding_num' => '5',
-    'bottom_padding_num' => '15',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '0',
     'is_edited' => true,
     'lock_padding' => '',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '5',
+    'top_padding_slider' => '15',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '15',
+    'bottom_padding_slider' => '0',
     'padding_slider' => '15',
     'preset' => 'default',
-    'use_padding' => false,
+    'use_padding' => 'yes',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
@@ -481,6 +499,20 @@ $s_wellness->add_element("PlainTxt", array (
       array (
       ),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+      )),
+    )),
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
     )),
   ),
   'row' => 6,
@@ -783,7 +815,11 @@ $s_wellness->add_element("Uspacer", array (
       'clear' => true,
       'order' => 4,
       'edited' => true,
-      'col' => 6,
+      'col' => 5,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'breakpoint' => 
@@ -792,8 +828,12 @@ $s_wellness->add_element("Uspacer", array (
     array (
       'hide' => 0,
       'left' => 0,
-      'col' => 6,
+      'col' => 5,
       'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -821,12 +861,14 @@ $s_wellness->add_element("Button", array (
     'element_id' => 'button-object-1452647095692-1844',
     'link' => 
     (array)(array(
-       'type' => 'unlink',
-       'url' => '',
+       'type' => 'entry',
+       'url' => '{{upfront:home_url}}/services/',
        'target' => '',
+       'object' => 'page',
+       'object_id' => 8,
     )),
-    'top_padding_num' => '15',
-    'bottom_padding_num' => '40',
+    'top_padding_num' => '30',
+    'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
@@ -835,7 +877,16 @@ $s_wellness->add_element("Button", array (
     'right_padding_num' => '15',
     'anchor' => '',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '40',
+    'bottom_padding_slider' => '0',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '30',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+      )),
+       'current_property' => 'lock_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -855,7 +906,7 @@ $s_wellness->add_element("Button", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 6,
+      'col' => 7,
       'order' => 3,
       'clear' => true,
     ),
@@ -878,7 +929,7 @@ $s_wellness->add_element("Button", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 6,
+      'col' => 7,
       'order' => 0,
       'top' => 0,
     ),
