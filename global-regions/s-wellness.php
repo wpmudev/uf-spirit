@@ -219,7 +219,6 @@ $s_wellness->add_element("PlainTxt", array (
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '15',
          'bottom_padding_num' => '15',
-
       )),
     )),
     'padding_number' => '15',
@@ -243,7 +242,7 @@ $s_wellness->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 15,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -500,8 +499,8 @@ $s_wellness->add_element("PlainTxt", array (
       ),
        'current_property' => 'lock_padding',
        'mobile' => 
-      (array)(array(
-      )),
+      array (
+      ),
     )),
     'breakpoint_presets' => 
     (array)(array(
@@ -883,8 +882,8 @@ $s_wellness->add_element("Button", array (
     'breakpoint' => 
     (array)(array(
        'mobile' => 
-      (array)(array(
-      )),
+      array (
+      ),
        'current_property' => 'lock_padding',
     )),
   ),

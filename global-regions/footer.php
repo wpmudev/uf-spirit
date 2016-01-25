@@ -11,7 +11,7 @@ $footer = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 8,
+  'row' => 6,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -62,13 +62,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 39,
+         'menu-item-db-id' => 60,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS &#038; PRIVACY',
          'menu-item-url' => '{{upfront:home_url}}/privacy/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '39',
+         'menu-item-object-id' => '60',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -90,7 +90,7 @@ $footer->add_element("Unewnavigation", array (
     ),
     'element_id' => 'unewnavigation-object-1453356812347-1310',
     'top_padding_num' => '20',
-    'bottom_padding_num' => '0',
+    'bottom_padding_num' => '20',
     'usingNewAppearance' => true,
     'menu_slug' => 'footer-menu',
     'menu_id' => false,
@@ -108,7 +108,7 @@ $footer->add_element("Unewnavigation", array (
          'preset' => 'footer-menu',
       )),
     )),
-    'row' => 14,
+    'row' => 8,
     'breakpoint' => 
     (array)(array(
        'mobile' => 
@@ -123,9 +123,9 @@ $footer->add_element("Unewnavigation", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '20',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
+    'bottom_padding_slider' => '20',
   ),
-  'row' => 6,
+  'row' => 8,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -195,8 +195,8 @@ $footer->add_element("PlainTxt", array (
     'element_id' => 'text-object-1453357589875-1821',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'top_padding_num' => '25',
-    'bottom_padding_num' => '0',
+    'top_padding_num' => '20',
+    'bottom_padding_num' => '20',
     'usingNewAppearance' => true,
     'is_edited' => true,
     'use_padding' => 'yes',
@@ -214,7 +214,7 @@ $footer->add_element("PlainTxt", array (
          'preset' => 'copyright',
       )),
     )),
-    'row' => 14,
+    'row' => 9,
     'breakpoint' => 
     (array)(array(
        'mobile' => 
@@ -223,11 +223,11 @@ $footer->add_element("PlainTxt", array (
        'current_property' => 'top_padding_num',
     )),
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '25',
+    'top_padding_slider' => '20',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
+    'bottom_padding_slider' => '20',
   ),
-  'row' => 6,
+  'row' => 9,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
