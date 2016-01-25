@@ -62,13 +62,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 229414,
+         'menu-item-db-id' => 229435,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS &#038; PRIVACY',
          'menu-item-url' => '{{upfront:home_url}}/privacy/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '229414',
+         'menu-item-object-id' => '229435',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -115,13 +115,17 @@ $footer->add_element("Unewnavigation", array (
       array (
       ),
        'current_property' => 'use_padding',
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
     'top_padding_use' => 'yes',
     'top_padding_slider' => '20',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
   ),
-  'row' => 14,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -223,7 +227,7 @@ $footer->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
   ),
-  'row' => 14,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
