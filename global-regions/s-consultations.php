@@ -431,7 +431,7 @@ $s_consultations->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '80',
     'padding_slider' => '15',
-    'preset' => 'align-center',
+    'preset' => 'default',
     'breakpoint' => 
     (array)(array(
        'tablet' => 

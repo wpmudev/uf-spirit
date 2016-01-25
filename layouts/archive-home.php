@@ -1,6 +1,4 @@
 <?php
-$layout_version = '1.0.0';
-
 $home_header = upfront_create_region(
 			array (
   'name' => 'home-header',
