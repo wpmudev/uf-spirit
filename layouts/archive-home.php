@@ -1743,7 +1743,7 @@ $region_11_a = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 46,
+  'row' => 23,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -2189,8 +2189,8 @@ $region_11_a->add_group(array (
       'use_padding' => 'yes',
       'lock_padding' => '',
       'bottom_padding_use' => 'yes',
-      'bottom_padding_slider' => '30',
-      'bottom_padding_num' => '30',
+      'bottom_padding_slider' => '0',
+      'bottom_padding_num' => '0',
     ),
     'mobile' => 
     array (
@@ -2500,8 +2500,8 @@ $region_11_b = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'varied',
-  'top_bg_padding_slider' => 0,
-  'top_bg_padding_num' => 0,
+  'top_bg_padding_slider' => '15',
+  'top_bg_padding_num' => '15',
   'bottom_bg_padding_slider' => '60',
   'bottom_bg_padding_num' => '60',
   'bg_padding_slider' => 0,
