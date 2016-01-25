@@ -488,22 +488,28 @@ $main_area->add_element("Uspacer", array (
 
 $main_area->add_element("Uspacer", array (
   'columns' => '11',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-16863 upfront-module-spacer',
   'id' => 'module-1453689972-16863',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-69511',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-69511',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-32360',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-32360',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -512,6 +518,10 @@ $main_area->add_element("Uspacer", array (
       'order' => 0,
       'edited' => true,
       'col' => 11,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
   ),
   'breakpoint' => 
@@ -528,24 +538,34 @@ $main_area->add_element("Uspacer", array (
 
 $main_area->add_element("Uspacer", array (
   'columns' => '6',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-98089 upfront-module-spacer',
   'id' => 'module-1453689972-98089',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-78581',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-78581',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-73090',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-73090',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 6,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -717,24 +737,34 @@ $main_area->add_element("Uspacer", array (
 
 $main_area->add_element("Uspacer", array (
   'columns' => '6',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-18558 upfront-module-spacer',
   'id' => 'module-1453689972-18558',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-44432',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-44432',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-35011',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-35011',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 6,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -1166,22 +1196,28 @@ $main_area->add_element("Uspacer", array (
 
 $main_area->add_element("Uspacer", array (
   'columns' => '7',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-66637 upfront-module-spacer',
   'id' => 'module-1453689972-66637',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-66421',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-66421',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-87090',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-87090',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1189,6 +1225,10 @@ $main_area->add_element("Uspacer", array (
       'clear' => false,
       'order' => 8,
       'edited' => true,
+      'col' => 7,
+    ),
+    'mobile' => 
+    array (
       'col' => 7,
     ),
   ),
@@ -1206,24 +1246,34 @@ $main_area->add_element("Uspacer", array (
 
 $main_area->add_element("Uspacer", array (
   'columns' => '3',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-4507 upfront-module-spacer',
   'id' => 'module-1453689972-4507',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-45821',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-45821',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-30992',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-30992',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 3,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -1397,22 +1447,28 @@ $region_4->add_element("Uspacer", array (
 
 $region_4->add_element("Uspacer", array (
   'columns' => '11',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-41915 upfront-module-spacer',
   'id' => 'module-1453689972-41915',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-94216',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-94216',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-24196',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-24196',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1421,6 +1477,10 @@ $region_4->add_element("Uspacer", array (
       'order' => 0,
       'edited' => true,
       'col' => 11,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
   ),
   'breakpoint' => 
@@ -1437,24 +1497,34 @@ $region_4->add_element("Uspacer", array (
 
 $region_4->add_element("Uspacer", array (
   'columns' => '6',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-46076 upfront-module-spacer',
   'id' => 'module-1453689972-46076',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-87016',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-87016',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-67831',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-67831',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 6,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -1803,22 +1873,28 @@ $region_4->add_element("Uspacer", array (
 
 $region_4->add_element("Uspacer", array (
   'columns' => '9',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-6478 upfront-module-spacer',
   'id' => 'module-1453689972-6478',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-83086',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-83086',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-98301',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-98301',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1827,6 +1903,10 @@ $region_4->add_element("Uspacer", array (
       'order' => 5,
       'edited' => true,
       'col' => 9,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
   ),
   'breakpoint' => 
@@ -1843,24 +1923,34 @@ $region_4->add_element("Uspacer", array (
 
 $region_4->add_element("Uspacer", array (
   'columns' => '4',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-94210 upfront-module-spacer',
   'id' => 'module-1453689972-94210',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-6084',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-6084',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-96237',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-96237',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 4,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -2108,42 +2198,65 @@ $region_11_a->add_element("Uspacer", array (
 
 $region_11_a->add_element("Uspacer", array (
   'columns' => '23',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-23796 upfront-module-spacer',
   'id' => 'module-1453689972-23796',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-12505',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-12505',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-48498',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-48498',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 12,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
 ));
 
 $region_11_a->add_element("Uspacer", array (
   'columns' => '11',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-26743 upfront-module-spacer',
   'id' => 'module-1453689972-26743',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-85387',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-85387',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-97768',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-97768',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2152,6 +2265,10 @@ $region_11_a->add_element("Uspacer", array (
       'order' => 0,
       'edited' => true,
       'col' => 11,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
   ),
   'breakpoint' => 
@@ -2168,24 +2285,34 @@ $region_11_a->add_element("Uspacer", array (
 
 $region_11_a->add_element("Uspacer", array (
   'columns' => '6',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-12611 upfront-module-spacer',
   'id' => 'module-1453689972-12611',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-76718',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-76718',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-59064',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-59064',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 6,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -2339,23 +2466,40 @@ $region_11_a->add_element("Uspacer", array (
 
 $region_11_a->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453690077037-1273 upfront-module-spacer',
   'id' => 'module-1453690077037-1273',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453690077037-1118',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453690077037-1118',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453690077037-1422',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453690077037-1422',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
 ));
 
 $region_11_a->add_element("Uimage", array (
@@ -2515,22 +2659,39 @@ $region_11_a->add_element("Uimage", array (
 
 $region_11_a->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453690147412-1224 upfront-module-spacer',
   'id' => 'module-1453690147412-1224',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453690147412-1807',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453690147412-1807',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453690147412-1397',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453690147412-1397',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
 ));
 
 $region_11_a->add_group(array (
@@ -2819,42 +2980,65 @@ $region_11_a->add_element("PlainTxt", array (
 
 $region_11_a->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453690081100-1365 upfront-module-spacer',
   'id' => 'module-1453690081100-1365',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453690081099-1475',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453690081099-1475',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453690081100-1037',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453690081100-1037',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
 ));
 
 $region_11_a->add_element("Uspacer", array (
   'columns' => '11',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-33485 upfront-module-spacer',
   'id' => 'module-1453689972-33485',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-55215',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-55215',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-36817',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-36817',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2863,6 +3047,10 @@ $region_11_a->add_element("Uspacer", array (
       'order' => 3,
       'edited' => true,
       'col' => 11,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
   ),
   'breakpoint' => 
@@ -2879,24 +3067,34 @@ $region_11_a->add_element("Uspacer", array (
 
 $region_11_a->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-72188 upfront-module-spacer',
   'id' => 'module-1453689972-72188',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-91088',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-91088',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-8205',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-8205',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 5,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -3024,42 +3222,65 @@ $region_11_b->add_element("Uspacer", array (
 
 $region_11_b->add_element("Uspacer", array (
   'columns' => '23',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-92100 upfront-module-spacer',
   'id' => 'module-1453689972-92100',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-80622',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-80622',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-8947',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-8947',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 12,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
 ));
 
 $region_11_b->add_element("Uspacer", array (
   'columns' => '11',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-45821 upfront-module-spacer',
   'id' => 'module-1453689972-45821',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-73421',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-73421',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-41207',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-41207',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -3068,6 +3289,10 @@ $region_11_b->add_element("Uspacer", array (
       'order' => 0,
       'edited' => true,
       'col' => 11,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
   ),
   'breakpoint' => 
@@ -3084,24 +3309,34 @@ $region_11_b->add_element("Uspacer", array (
 
 $region_11_b->add_element("Uspacer", array (
   'columns' => '6',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-95541 upfront-module-spacer',
   'id' => 'module-1453689972-95541',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-39560',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-39560',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-10692',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-10692',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 6,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -3190,23 +3425,40 @@ $region_11_b->add_element("Uspacer", array (
 
 $region_11_b->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453690106200-1507 upfront-module-spacer',
   'id' => 'module-1453690106200-1507',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453690106199-1148',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453690106199-1148',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453690106200-1048',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453690106200-1048',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
 ));
 
 $region_11_b->add_element("Uimage", array (
@@ -3359,22 +3611,39 @@ $region_11_b->add_element("Uimage", array (
 
 $region_11_b->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453690149294-1392 upfront-module-spacer',
   'id' => 'module-1453690149294-1392',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453690149294-1391',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453690149294-1391',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453690149294-1366',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453690149294-1366',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
 ));
 
 $region_11_b->add_group(array (
@@ -3669,22 +3938,39 @@ $region_11_b->add_element("PlainTxt", array (
 
 $region_11_b->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453690119512-1573 upfront-module-spacer',
   'id' => 'module-1453690119512-1573',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453690119512-1596',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453690119512-1596',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453690119512-1106',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453690119512-1106',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
 ));
 
 $region_11_b->add_element("Uspacer", array (
@@ -3754,24 +4040,34 @@ $region_11_b->add_element("Uspacer", array (
 
 $region_11_b->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-80929 upfront-module-spacer',
   'id' => 'module-1453689972-80929',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-37328',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-37328',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-73561',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-73561',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 5,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -3999,22 +4295,28 @@ $region_9->add_element("Uspacer", array (
 
 $region_9->add_element("Uspacer", array (
   'columns' => '9',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-48404 upfront-module-spacer',
   'id' => 'module-1453689972-48404',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-54594',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-54594',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-99304',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-99304',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -4023,6 +4325,10 @@ $region_9->add_element("Uspacer", array (
       'order' => 1,
       'edited' => true,
       'col' => 9,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
   ),
   'breakpoint' => 
@@ -4039,24 +4345,34 @@ $region_9->add_element("Uspacer", array (
 
 $region_9->add_element("Uspacer", array (
   'columns' => '4',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-51049 upfront-module-spacer',
   'id' => 'module-1453689972-51049',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-64630',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-64630',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-66735',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-66735',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 4,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -4205,22 +4521,28 @@ $region_9->add_element("Uspacer", array (
 
 $region_9->add_element("Uspacer", array (
   'columns' => '9',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-3619 upfront-module-spacer',
   'id' => 'module-1453689972-3619',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-90412',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-90412',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-50450',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-50450',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -4229,6 +4551,10 @@ $region_9->add_element("Uspacer", array (
       'order' => 3,
       'edited' => true,
       'col' => 9,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
     ),
   ),
   'breakpoint' => 
@@ -4299,24 +4625,34 @@ $region_9->add_element("Uspacer", array (
 
 $region_9->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-75972 upfront-module-spacer',
   'id' => 'module-1453689972-75972',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-92544',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-92544',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-58835',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-58835',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -4465,24 +4801,34 @@ $region_9->add_element("Uspacer", array (
 
 $region_9->add_element("Uspacer", array (
   'columns' => '4',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-49394 upfront-module-spacer',
   'id' => 'module-1453689972-49394',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-33751',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-33751',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-92151',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-92151',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 4,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -4559,22 +4905,28 @@ $region_9->add_element("Uspacer", array (
 
 $region_9->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-79338 upfront-module-spacer',
   'id' => 'module-1453689972-79338',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-49476',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-49476',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-82936',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-82936',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -4582,6 +4934,10 @@ $region_9->add_element("Uspacer", array (
       'clear' => false,
       'order' => 7,
       'edited' => true,
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
       'col' => 1,
     ),
   ),
@@ -4599,24 +4955,34 @@ $region_9->add_element("Uspacer", array (
 
 $region_9->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-18181 upfront-module-spacer',
   'id' => 'module-1453689972-18181',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-96755',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-96755',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-37973',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-37973',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
     'mobile' => 
     array (
       'clear' => false,
@@ -4825,22 +5191,28 @@ $region_9->add_element("Uspacer", array (
 
 $region_9->add_element("Uspacer", array (
   'columns' => '7',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-70427 upfront-module-spacer',
   'id' => 'module-1453689972-70427',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-56682',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-56682',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-94547',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-94547',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -4848,6 +5220,10 @@ $region_9->add_element("Uspacer", array (
       'clear' => false,
       'order' => 9,
       'edited' => true,
+      'col' => 7,
+    ),
+    'mobile' => 
+    array (
       'col' => 7,
     ),
   ),
@@ -4865,24 +5241,34 @@ $region_9->add_element("Uspacer", array (
 
 $region_9->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453689972-56742 upfront-module-spacer',
   'id' => 'module-1453689972-56742',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1453689972-7447',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453689972-7447',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453689972-18661',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453689972-18661',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
     'mobile' => 
     array (
       'clear' => false,
