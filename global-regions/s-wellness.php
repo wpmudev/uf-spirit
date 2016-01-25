@@ -114,56 +114,6 @@ $s_wellness->add_element("Uspacer", array (
   ),
 ));
 
-$s_wellness->add_element("Uspacer", array (
-  'columns' => '11',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1453434905-11746 upfront-module-spacer',
-  'id' => 'module-1453434905-11746',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1453434905-84340',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 1,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1453434905-76763',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => true,
-      'order' => 0,
-      'edited' => true,
-      'col' => 11,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'hide' => 0,
-      'left' => 0,
-      'col' => 11,
-      'edited' => true,
-    ),
-  ),
-));
-
 $s_wellness->add_element("PlainTxt", array (
   'columns' => '10',
   'margin_left' => '0',
@@ -182,14 +132,14 @@ $s_wellness->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'top_padding_num' => '80',
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '10',
     'is_edited' => true,
     'lock_padding' => '',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '80',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '15',
-    'row' => 15,
+    'bottom_padding_slider' => '10',
+    'row' => 20,
     'padding_slider' => '15',
     'use_padding' => 'yes',
     'preset' => 'default',
@@ -199,8 +149,8 @@ $s_wellness->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '60',
-         'top_padding_num' => '60',
+         'top_padding_slider' => '70',
+         'top_padding_num' => '70',
          'row' => 10,
          'lock_padding' => '',
          'bottom_padding_use' => 'yes',
@@ -217,8 +167,8 @@ $s_wellness->add_element("PlainTxt", array (
          'row' => 10,
          'lock_padding' => '',
          'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '15',
-         'bottom_padding_num' => '15',
+         'bottom_padding_slider' => '10',
+         'bottom_padding_num' => '10',
       )),
     )),
     'padding_number' => '15',
@@ -261,7 +211,7 @@ $s_wellness->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 1,
+      'order' => 0,
       'clear' => true,
     ),
     'current_property' => 
@@ -476,12 +426,12 @@ $s_wellness->add_element("PlainTxt", array (
     'element_id' => 'object-1452647629581-1993',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'top_padding_num' => '15',
+    'top_padding_num' => '0',
     'bottom_padding_num' => '0',
     'is_edited' => true,
     'lock_padding' => '',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '15',
+    'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'padding_slider' => '15',
@@ -497,7 +447,7 @@ $s_wellness->add_element("PlainTxt", array (
        'tablet' => 
       array (
       ),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
        'mobile' => 
       array (
       ),
@@ -512,7 +462,12 @@ $s_wellness->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'default',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
     )),
+    'row' => 8,
   ),
   'row' => 6,
   'sticky' => false,
@@ -533,8 +488,8 @@ $s_wellness->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 2,
-      'clear' => false,
+      'order' => 1,
+      'clear' => true,
     ),
     'current_property' => 
     array (
@@ -550,6 +505,7 @@ $s_wellness->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 17,
     ),
     'mobile' => 
     array (
@@ -729,114 +685,6 @@ $s_wellness->add_element("Uspacer", array (
   ),
 ));
 
-$s_wellness->add_element("Uspacer", array (
-  'columns' => '11',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1453434905-59909 upfront-module-spacer',
-  'id' => 'module-1453434905-59909',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1453434905-25801',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 1,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1453434905-74125',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => true,
-      'order' => 4,
-      'edited' => true,
-      'col' => 11,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'hide' => 0,
-      'left' => 0,
-      'col' => 11,
-      'edited' => true,
-    ),
-  ),
-));
-
-$s_wellness->add_element("Uspacer", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1453434905-51238 upfront-module-spacer',
-  'id' => 'module-1453434905-51238',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1453434905-77923',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 1,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1453434905-62653',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 6,
-    ),
-    'mobile' => 
-    array (
-      'clear' => true,
-      'order' => 4,
-      'edited' => true,
-      'col' => 5,
-    ),
-    'current_property' => 
-    array (
-      0 => 'col',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'mobile' => 
-    array (
-      'hide' => 0,
-      'left' => 0,
-      'col' => 5,
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'col',
-    ),
-  ),
-));
-
 $s_wellness->add_element("Button", array (
   'columns' => '4',
   'margin_left' => '0',
@@ -906,7 +754,7 @@ $s_wellness->add_element("Button", array (
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 3,
+      'order' => 2,
       'clear' => true,
     ),
     'current_property' => 

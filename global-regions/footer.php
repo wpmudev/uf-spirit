@@ -11,7 +11,7 @@ $footer = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 6,
+  'row' => 8,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -62,13 +62,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 60,
+         'menu-item-db-id' => 93,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS &#038; PRIVACY',
          'menu-item-url' => '{{upfront:home_url}}/privacy/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '60',
+         'menu-item-object-id' => '93',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -125,7 +125,7 @@ $footer->add_element("Unewnavigation", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '20',
   ),
-  'row' => 8,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -206,12 +206,12 @@ $footer->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'preset' => 'copyright',
+    'preset' => 'copy',
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'copyright',
+         'preset' => 'copy',
       )),
     )),
     'row' => 9,
@@ -227,7 +227,7 @@ $footer->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '20',
   ),
-  'row' => 9,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
