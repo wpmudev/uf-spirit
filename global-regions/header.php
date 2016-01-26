@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_5f1ed6 = upfront_create_region(
+$region_2f0296 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_5f1ed6 = upfront_create_region(
 )
 			);
 
-$region_5f1ed6->add_element("Uimage", array (
+$region_2f0296->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -169,7 +169,7 @@ $region_5f1ed6->add_element("Uimage", array (
   ),
 ));
 
-$region_5f1ed6->add_element("Unewnavigation", array (
+$region_2f0296->add_element("Unewnavigation", array (
   'columns' => '17',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -188,13 +188,13 @@ $region_5f1ed6->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 110,
+         'menu-item-db-id' => 147,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '{{upfront:home_url}}/services/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '110',
+         'menu-item-object-id' => '147',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -206,13 +206,13 @@ $region_5f1ed6->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 111,
+         'menu-item-db-id' => 148,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ABOUT',
          'menu-item-url' => '{{upfront:home_url}}/about/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '111',
+         'menu-item-object-id' => '148',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -224,13 +224,13 @@ $region_5f1ed6->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 112,
+         'menu-item-db-id' => 149,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TESTIMONIALS',
          'menu-item-url' => '{{upfront:home_url}}/testimonials/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '112',
+         'menu-item-object-id' => '149',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -242,13 +242,13 @@ $region_5f1ed6->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 113,
+         'menu-item-db-id' => 150,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'GALLERY',
          'menu-item-url' => '{{upfront:home_url}}/gallery/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '113',
+         'menu-item-object-id' => '150',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -260,13 +260,13 @@ $region_5f1ed6->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 114,
+         'menu-item-db-id' => 151,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '114',
+         'menu-item-object-id' => '151',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -278,13 +278,13 @@ $region_5f1ed6->add_element("Unewnavigation", array (
       )),
       5 => 
       (array)(array(
-         'menu-item-db-id' => 115,
+         'menu-item-db-id' => 152,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT US',
          'menu-item-url' => '{{upfront:home_url}}/contactus/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '115',
+         'menu-item-object-id' => '152',
          'menu-item-target' => '',
          'menu-item-position' => 6,
          'link' => 
@@ -397,7 +397,7 @@ $region_5f1ed6->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_5f1ed6->add_element("Code", array (
+$region_2f0296->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -520,6 +520,6 @@ $region_5f1ed6->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_5f1ed6);
+$regions->add($region_2f0296);
 
 /* END_REGION_OUTPUT */

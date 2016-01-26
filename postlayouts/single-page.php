@@ -7,11 +7,11 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part c24 part-module-title ml0 mt0',
+          'classes' => 'post-part c19 ml1 mt0 part-module-title',
           'slug' => 'title',
         ),
       ),
-      'classes' => 'c24 clr',
+      'classes' => 'c20 clr part-title',
     ),
     1 => 
     array (
@@ -19,28 +19,32 @@
       array (
         0 => 
         array (
-          'classes' => ' post-part c24 part-module-contents',
+          'classes' => ' post-part c20 ml0 mt9 part-module-contents',
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c24 clr part-contents',
+      'classes' => 'c20 clr part-contents',
     ),
   ),
   'partOptions' => 
   array (
     'featured_image' => 
     array (
-      'height' => '150',
+      'height' => '115',
       'padding_slider' => '15',
       'top_padding_num' => '15',
       'bottom_padding_num' => '15',
+      'attributes' => 
+      array (
+        'style' => 'max-height: 115px',
+      ),
     ),
     'date' => 
     array (
-      'height' => '40',
+      'height' => '20',
       'attributes' => 
       array (
-        'style' => 'min-height: 40px',
+        'style' => 'min-height: 20px',
       ),
       'padding_slider' => '15',
       'top_padding_num' => '15',
@@ -65,6 +69,12 @@
       'padding_slider' => '15',
       'top_padding_num' => '15',
       'bottom_padding_num' => '15',
+      'padding_left' => '1',
+      'padding_right' => '1',
+      'padding_number' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'anchor' => '',
     ),
     'colSize' => '45',
   ),
