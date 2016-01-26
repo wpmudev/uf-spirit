@@ -7,14 +7,14 @@ $gallery_title = upfront_create_region(
 			array (
   'name' => 'gallery-title',
   'title' => 'Gallery Title',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'gallery-title',
   'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 61,
+  'row' => 68,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -48,6 +48,8 @@ $gallery_title = upfront_create_region(
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/single-page-gallery/bg-page-gallery.jpg',
   'background_image_ratio' => 0.25,
+  'background_repeat' => 'no-repeat',
+  'background_position' => '50% 50%',
 )
 			);
 
@@ -108,7 +110,7 @@ $gallery_title->add_element("PlainTxt", array (
     'has_settings' => 1,
     'padding_slider' => '15',
     'top_padding_num' => '100',
-    'bottom_padding_num' => '100',
+    'bottom_padding_num' => '0',
     'usingNewAppearance' => true,
     'is_edited' => true,
     'use_padding' => 'yes',
@@ -116,8 +118,8 @@ $gallery_title->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '100',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '100',
-    'row' => 46,
+    'bottom_padding_slider' => '0',
+    'row' => 44,
     'preset' => 'default',
     'breakpoint' => 
     (array)(array(
@@ -126,17 +128,29 @@ $gallery_title->add_element("PlainTxt", array (
          'use_padding' => 'yes',
          'lock_padding' => '',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '60',
-         'top_padding_num' => '60',
+         'top_padding_slider' => '50',
+         'top_padding_num' => '50',
          'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '60',
-         'bottom_padding_num' => '60',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
          'row' => 14,
       )),
        'current_property' => 'bottom_padding_num',
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
+         'row' => 31,
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '150',
+         'top_padding_num' => '150',
+      )),
     )),
   ),
-  'row' => 6,
+  'row' => 44,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -163,10 +177,11 @@ $gallery_title->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'row' => 31,
     ),
     'mobile' => 
     array (
@@ -229,20 +244,28 @@ $gallery_content = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 222,
+  'row' => 46,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 148,
+       'row' => 24,
+       'background_type' => 'color',
+       'bottom_bg_padding_slider' => '60',
+       'bottom_bg_padding_num' => '60',
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 88,
+       'background_type' => 'color',
+       'bottom_bg_padding_slider' => '60',
+       'bottom_bg_padding_num' => '60',
     )),
+     'current_property' => 'bottom_bg_padding_num',
   )),
   'background_type' => 'color',
   'use_padding' => 0,
@@ -253,8 +276,8 @@ $gallery_content = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '90',
+  'bottom_bg_padding_num' => '90',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ffffff',
@@ -492,8 +515,8 @@ $gallery_content->add_element("PlainTxt", array (
     'breakpoint' => 
     (array)(array(
        'tablet' => 
-      (array)(array(
-      )),
+      array (
+      ),
        'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(

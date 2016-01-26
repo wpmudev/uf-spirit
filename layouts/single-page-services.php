@@ -7,27 +7,27 @@ $services_title = upfront_create_region(
 			array (
   'name' => 'services-title',
   'title' => 'Services Title',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'services-title',
   'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 61,
+  'row' => 68,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 26,
+       'row' => 40,
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 13,
+       'row' => 25,
     )),
   )),
   'background_type' => 'image',
@@ -109,7 +109,7 @@ $services_title->add_element("PlainTxt", array (
     'has_settings' => 1,
     'padding_slider' => '15',
     'top_padding_num' => '100',
-    'bottom_padding_num' => '100',
+    'bottom_padding_num' => '0',
     'usingNewAppearance' => true,
     'is_edited' => true,
     'use_padding' => 'yes',
@@ -117,7 +117,7 @@ $services_title->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '100',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '100',
+    'bottom_padding_slider' => '0',
     'row' => 46,
     'preset' => 'default',
     'breakpoint' => 
@@ -127,25 +127,25 @@ $services_title->add_element("PlainTxt", array (
          'use_padding' => 'yes',
          'lock_padding' => '',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '50',
-         'top_padding_num' => '50',
+         'top_padding_slider' => '70',
+         'top_padding_num' => '70',
          'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '50',
-         'bottom_padding_num' => '50',
-         'row' => 17,
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
+         'row' => 21,
       )),
-       'current_property' => 'bottom_padding_num',
+       'current_property' => 'top_padding_num',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
          'lock_padding' => '',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '50',
-         'top_padding_num' => '50',
+         'top_padding_slider' => '45',
+         'top_padding_num' => '45',
          'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '50',
-         'bottom_padding_num' => '50',
-         'row' => 13,
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
+         'row' => 12,
       )),
     )),
   ),
@@ -180,7 +180,7 @@ $services_title->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 17,
+      'row' => 21,
     ),
     'mobile' => 
     array (
@@ -188,7 +188,7 @@ $services_title->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 13,
+      'row' => 12,
     ),
   ),
 ));
@@ -490,10 +490,34 @@ $services_content->add_element("PlainTxt", array (
     'has_settings' => 1,
     'padding_slider' => '15',
     'top_padding_num' => '15',
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '25',
     'usingNewAppearance' => true,
     'is_edited' => true,
     'preset' => 'default',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '25',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '30',
+         'top_padding_num' => '30',
+      )),
+       'current_property' => 'top_padding_num',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '30',
+         'top_padding_num' => '30',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1029,6 +1053,10 @@ $services_content->add_element("PlainTxt", array (
     )),
     'breakpoint_presets' => 
     (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
        'tablet' => 
       (array)(array(
          'preset' => 'align-center',
@@ -1839,8 +1867,8 @@ $services_content->add_element("Ugallery", array (
     'styles' => '',
     'element_id' => 'ugallery-object-1453430326931-1944',
     'padding_slider' => '15',
-    'top_padding_num' => '30',
-    'bottom_padding_num' => '15',
+    'top_padding_num' => '60',
+    'bottom_padding_num' => '0',
     'usingNewAppearance' => true,
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -1850,8 +1878,10 @@ $services_content->add_element("Ugallery", array (
     'anchor' => '',
     'preset' => 'default',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '30',
-    'row' => 48,
+    'top_padding_slider' => '60',
+    'row' => 47,
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1950,18 +1980,40 @@ $services_content->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'padding_slider' => '15',
-    'top_padding_num' => '15',
-    'bottom_padding_num' => '15',
+    'top_padding_num' => '45',
+    'bottom_padding_num' => '45',
     'usingNewAppearance' => true,
     'is_edited' => true,
-    'row' => 8,
+    'row' => 14,
     'use_padding' => 'yes',
     'lock_padding' => '',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '15',
+    'bottom_padding_slider' => '45',
     'preset' => 'default',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '45',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '75',
+         'bottom_padding_num' => '75',
+      )),
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '75',
+         'bottom_padding_num' => '75',
+      )),
+       'current_property' => 'bottom_padding_num',
+    )),
   ),
-  'row' => 6,
+  'row' => 14,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -2014,14 +2066,14 @@ $workplace_wellness = upfront_create_region(
 			array (
   'name' => 'workplace-wellness',
   'title' => 'Workplace Wellness',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'workplace-wellness',
   'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 66,
+  'row' => 57,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -2044,19 +2096,20 @@ $workplace_wellness = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'varied',
-  'top_bg_padding_slider' => '30',
-  'top_bg_padding_num' => '30',
-  'bottom_bg_padding_slider' => '30',
-  'bottom_bg_padding_num' => '30',
+  'top_bg_padding_slider' => '0',
+  'top_bg_padding_num' => '0',
+  'bottom_bg_padding_slider' => '0',
+  'bottom_bg_padding_num' => '0',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ffffff',
-  'background_style' => 'full',
+  'background_style' => 'fixed',
   'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/single-page-services/bg-wellness.jpg',
   'background_image_ratio' => 0.25,
-  'background_repeat' => 'repeat',
+  'background_repeat' => 'no-repeat',
+  'background_position' => '50% 50%',
 )
 			);
 
@@ -2116,25 +2169,34 @@ $workplace_wellness->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'top_padding_num' => '80',
-    'bottom_padding_num' => '5',
+    'bottom_padding_num' => '10',
     'is_edited' => true,
     'lock_padding' => '',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '80',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '5',
+    'bottom_padding_slider' => '10',
     'row' => 12,
     'padding_slider' => '15',
     'use_padding' => 'yes',
     'preset' => 'default',
     'breakpoint' => 
     (array)(array(
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '60',
+         'top_padding_num' => '60',
+         'lock_padding' => '',
+      )),
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '50',
-         'top_padding_num' => '50',
+         'top_padding_slider' => '80',
+         'top_padding_num' => '80',
+         'lock_padding' => '',
       )),
        'current_property' => 'lock_padding',
     )),
@@ -2143,6 +2205,17 @@ $workplace_wellness->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'anchor' => '',
     'usingNewAppearance' => true,
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2196,22 +2269,28 @@ $workplace_wellness->add_element("PlainTxt", array (
 
 $workplace_wellness->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453437458958-1504 upfront-module-spacer',
   'id' => 'module-1453437458958-1504',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453437458957-1186',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453437458957-1186',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453437458958-1243',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453437458958-1243',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2219,6 +2298,10 @@ $workplace_wellness->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 0,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
       'col' => 5,
     ),
     'current_property' => 
@@ -2334,14 +2417,14 @@ $workplace_wellness->add_element("PlainTxt", array (
     'element_id' => 'object-1452647629581-1993',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'top_padding_num' => '5',
-    'bottom_padding_num' => '80',
+    'top_padding_num' => '0',
+    'bottom_padding_num' => '0',
     'is_edited' => true,
     'lock_padding' => '',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '5',
+    'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '80',
+    'bottom_padding_slider' => '0',
     'padding_slider' => '15',
     'use_padding' => 'yes',
     'row' => 11,
@@ -2353,11 +2436,11 @@ $workplace_wellness->add_element("PlainTxt", array (
          'use_padding' => 'yes',
          'lock_padding' => '',
          'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '50',
-         'bottom_padding_num' => '50',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
          'row' => 10,
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'bottom_padding_num',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -2438,22 +2521,28 @@ $workplace_wellness->add_element("PlainTxt", array (
 
 $workplace_wellness->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453437405892-1086 upfront-module-spacer',
   'id' => 'module-1453437405892-1086',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453437405891-1952',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453437405891-1952',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453437405892-1673',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453437405892-1673',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2461,6 +2550,10 @@ $workplace_wellness->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 1,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
       'col' => 5,
     ),
     'current_property' => 

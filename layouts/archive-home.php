@@ -734,7 +734,7 @@ $main_area->add_element("PlainTxt", array (
     'padding_slider' => '15',
     'preset' => 'default',
     'use_padding' => false,
-    'lock_padding' => 0,
+    'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
@@ -2238,7 +2238,7 @@ $region_11_a->add_element("PlainTxt", array (
     'padding_slider' => '15',
     'preset' => 'default',
     'use_padding' => false,
-    'lock_padding' => 0,
+    'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
@@ -2281,7 +2281,7 @@ $region_11_a->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
+      'col' => 9,
       'order' => 0,
       'clear' => true,
     ),
@@ -2299,7 +2299,7 @@ $region_11_a->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 9,
       'order' => 0,
       'top' => 0,
     ),
@@ -2385,7 +2385,7 @@ $region_11_a->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
+      'col' => 9,
       'order' => 1,
       'clear' => true,
     ),
@@ -2403,7 +2403,7 @@ $region_11_a->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 9,
       'order' => 0,
       'top' => 0,
     ),
@@ -3004,7 +3004,7 @@ $region_11_b->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 9,
       'order' => 0,
       'clear' => false,
     ),
@@ -3022,7 +3022,7 @@ $region_11_b->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 12,
+      'col' => 9,
       'order' => 0,
       'top' => 0,
     ),
@@ -3790,9 +3790,9 @@ $region_9->add_element("Code", array (
     font: 15px \'Open Sans\', Arial;
     font-weight: 300;
     color: #707070;
-    background: #FFFFFF;
+    background: #ufc6;
     outline: 0px;
-    border: 1px solid #fff;
+    border: 1px solid #ufc6;
     border-radius: 4px 0 0 4px;
     display: inline-block;
     float:left;
@@ -3801,7 +3801,7 @@ $region_9->add_element("Code", array (
 .newsletter-form input[type="email"]:focus {
  outline: 0px;
  border: 1px solid #ufc0;
- color:#333;
+ color:#ufc7;
 }
 
 .newsletter-form input[type="submit"] {

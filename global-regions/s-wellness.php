@@ -734,6 +734,14 @@ $s_wellness->add_element("Button", array (
       ),
        'current_property' => 'lock_padding',
     )),
+    'usingNewAppearance' => true,
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,

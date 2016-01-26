@@ -338,22 +338,28 @@ $s_consultations->add_element("Uspacer", array (
 
 $s_consultations->add_element("Uspacer", array (
   'columns' => '5',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453737722414-1158 upfront-module-spacer',
   'id' => 'module-1453737722414-1158',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453737722413-1982',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453737722413-1982',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453737722414-1277',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453737722414-1277',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -362,6 +368,10 @@ $s_consultations->add_element("Uspacer", array (
       'edited' => true,
       'clear' => true,
       'order' => 2,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
       'col' => 5,
     ),
     'current_property' => 

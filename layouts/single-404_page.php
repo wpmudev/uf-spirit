@@ -93,22 +93,28 @@ $main->add_element("Uspacer", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453444379458-1239 upfront-module-spacer',
   'id' => 'module-1453444379458-1239',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453444379457-1928',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453444379457-1928',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453444379458-1944',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453444379458-1944',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -117,6 +123,11 @@ $main->add_element("Uspacer", array (
       'edited' => true,
       'clear' => true,
       'order' => 0,
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
     ),
     'current_property' => 
     array (
@@ -245,22 +256,28 @@ $main->add_element("PlainTxt", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453444382165-1316 upfront-module-spacer',
   'id' => 'module-1453444382165-1316',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453444382165-1426',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453444382165-1426',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453444382165-1877',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453444382165-1877',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -268,6 +285,11 @@ $main->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 0,
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
     ),
     'current_property' => 
     array (
@@ -367,22 +389,28 @@ $main->add_element("Uspacer", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '3',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453444386157-1122 upfront-module-spacer',
   'id' => 'module-1453444386157-1122',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453444386156-1704',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453444386156-1704',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453444386157-1477',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453444386157-1477',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -391,6 +419,10 @@ $main->add_element("Uspacer", array (
       'edited' => true,
       'clear' => true,
       'order' => 1,
+      'col' => 4,
+    ),
+    'mobile' => 
+    array (
       'col' => 4,
     ),
     'current_property' => 
@@ -416,30 +448,41 @@ $main->add_element("Uspacer", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453444615704-1809 upfront-module-spacer',
   'id' => 'module-1453444615704-1809',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453444615703-1213',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453444615703-1213',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453444615704-1236',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453444615704-1236',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
     'mobile' => 
     array (
       'edited' => true,
       'clear' => true,
       'order' => 1,
+      'col' => 1,
     ),
     'current_property' => 
     array (
@@ -566,29 +609,40 @@ $main->add_element("Button", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '1',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453444617728-1087 upfront-module-spacer',
   'id' => 'module-1453444617728-1087',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453444617728-1247',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453444617728-1247',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453444617728-1797',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453444617728-1797',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
     'mobile' => 
     array (
       'edited' => true,
       'clear' => false,
       'order' => 1,
+      'col' => 1,
     ),
     'current_property' => 
     array (
@@ -613,22 +667,28 @@ $main->add_element("Uspacer", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '4',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453444390606-1263 upfront-module-spacer',
   'id' => 'module-1453444390606-1263',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453444390606-1053',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453444390606-1053',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453444390606-1588',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453444390606-1588',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -636,6 +696,11 @@ $main->add_element("Uspacer", array (
       'edited' => true,
       'clear' => false,
       'order' => 1,
+      'col' => 4,
+    ),
+    'mobile' => 
+    array (
+      'col' => 4,
     ),
     'current_property' => 
     array (
