@@ -1,13 +1,11 @@
 <?php
-$layout_version = '1.0.0';
-
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $main = upfront_create_region(
 			array (
   'name' => 'main',
   'title' => 'Main Area',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'main',
   'position' => 10,
