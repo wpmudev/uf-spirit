@@ -557,9 +557,7 @@ $services_content->add_element("Posts", array (
     'post-part-comment_count' => '<div class="uposts-part comment_count">
 	{{comment_count||No comments}}
 </div>',
-    'post-part-featured_image' => '<div class="uposts-part thumbnail" data-resize="{{resize}}">
-	{{thumbnail}}
-</div>',
+    'post-part-featured_image' => '<div class="uposts-part thumbnail" data-resize="{{resize}}"><a href="{{permalink}}">{{thumbnail}}</a></div>',
     'post-part-title' => '<div class="uposts-part title">
 	<h3><a href="{{permalink}}" title="{{title}}">{{title}}</a></h3>
 </div>',
