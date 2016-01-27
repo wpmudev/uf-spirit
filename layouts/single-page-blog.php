@@ -506,7 +506,7 @@ $services_content->add_element("Posts", array (
     'term' => '',
     'content' => 'excerpt',
     'limit' => 5,
-    'pagination' => '',
+    'pagination' => 'numeric',
     'sticky' => '',
     'posts_list' => '',
     'post_parts' => 
