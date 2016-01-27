@@ -1,9 +1,9 @@
  .upfront-button a.upfront_cta {
-    border-bottom: 2px solid #ufc1!important;
+    border-bottom: 2px solid #ufc1;
     font-style: normal;
     font-weight: 300;
     line-height: 35px;
     height: 35px;
-    padding: 0 10px!important;;
+    padding: 0 10px;
     text-transform:uppercase;
 }

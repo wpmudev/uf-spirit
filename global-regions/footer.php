@@ -11,70 +11,46 @@ $footer = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'background_type' => 'color',
-  'nav_region' => '',
-  'background_color' => 'rgba(250,250,250,1)',
+  'row' => 8,
   'breakpoint' => 
   (array)(array(
-     'custom-1408717728290' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717918354' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717978058' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408718022181' => 
-    (array)(array(
-       'edited' => false,
-    )),
      'tablet' => 
     (array)(array(
-       'edited' => true,
-       'col' => 24,
-       'row' => 5,
-    )),
-     'custom-1408718098456' => 
-    (array)(array(
        'edited' => false,
+       'col' => 24,
     )),
      'mobile' => 
-    (array)(array(
-       'edited' => true,
-       'col' => 24,
-       'row' => 10,
-    )),
-     'custom-1410780542364' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1410783042947' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
   )),
-  'row' => 14,
+  'background_type' => 'color',
   'use_padding' => 0,
   'sub_regions' => 
   array (
-    0 => '',
+    0 => false,
   ),
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
+  'background_color' => 'rgba(250,250,250,1)',
+  'version' => '1.0.0',
 )
 			);
 
 $footer->add_element("Unewnavigation", array (
-  'columns' => '6',
-  'margin_left' => '1',
+  'columns' => '12',
+  'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '1',
+  'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1408447780698-1711',
-  'id' => 'module-1408447780698-1711',
+  'class' => 'module-1453356812349-1925',
+  'id' => 'module-1453356812349-1925',
   'options' => 
   array (
     'type' => 'UnewnavigationModel',
@@ -86,84 +62,82 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 2351,
+         'menu-item-db-id' => 169,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Terms & Privacy',
+         'menu-item-title' => 'TERMS &amp; PRIVACY',
          'menu-item-url' => '{{upfront:home_url}}/privacy/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2351',
-         'menu-item-target' => '_self',
+         'menu-item-object-id' => '169',
+         'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/privacy/',
-           'target' => '_self',
-           'object' => 'page',
-           'object_id' => 2278,
+           'target' => '',
         )),
       )),
     ),
-    'menu_style' => 'horizontal',
-    'menu_alignment' => 'left',
+    'preset' => 'footer-menu',
     'allow_sub_nav' => 
     array (
       0 => 'no',
     ),
     'allow_new_pages' => 
     array (
+      0 => 'no',
     ),
-    'element_id' => 'unewnavigation-object-1408447780692-1228',
-    'initialized' => false,
-    'menu_id' => false,
+    'element_id' => 'unewnavigation-object-1453356812347-1310',
+    'top_padding_num' => '20',
+    'bottom_padding_num' => '20',
+    'usingNewAppearance' => true,
     'menu_slug' => 'footer-menu',
-    'row' => 6,
-    'burger_menu' => 
-    array (
-    ),
-    'burger_alignment' => 'left',
-    'burger_over' => 'over',
-    'is_floating' => 
-    array (
-    ),
-    'theme_style' => 'footer-menu',
+    'menu_id' => false,
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
     'anchor' => '',
-    'breakpoint' => 
+    'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'burger_alignment' => 'left',
-         'burger_over' => 'over',
-         'menu_style' => 'horizontal',
-         'menu_alignment' => 'left',
-         'is_floating' => 
-        array (
-        ),
-         'width' => 1080,
-      )),
-       'tablet' => 
-      (array)(array(
-         'row' => 8,
-         'width' => 570,
-      )),
-       'mobile' => 
-      (array)(array(
-         'row' => 7,
-         'width' => 315,
+         'preset' => 'footer-menu',
       )),
     )),
+    'row' => 8,
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      array (
+      ),
+       'current_property' => 'use_padding',
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '20',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '20',
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1445930180785-1518',
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1453358060831-1340',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 4,
+      'col' => 6,
       'order' => 0,
       'clear' => true,
     ),
@@ -173,242 +147,134 @@ $footer->add_element("Unewnavigation", array (
       'col' => 3,
       'order' => 0,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'breakpoint' => 
   array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 5,
-      'top' => 9,
-      'order' => 1,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 16,
-      'top' => 0,
-      'order' => 1,
-      'row' => 11,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 14,
-      'top' => 0,
-      'order' => 1,
-      'row' => 10,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-      'order' => 1,
-      'top' => 0,
-      'row' => 13,
-    ),
     'tablet' => 
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 4,
-      'order' => 1,
+      'col' => 6,
+      'order' => 0,
       'top' => 0,
-      'row' => 8,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 8,
-      'order' => 1,
-      'top' => 0,
-      'row' => 10,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 3,
+      'order' => 0,
       'top' => 0,
-      'row' => 7,
     ),
-    'custom-1410780542364' => 
+    'current_property' => 
     array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 5,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 5,
-      'col' => 8,
-      'top' => 0,
-      'row' => 10,
+      0 => 'col',
     ),
   ),
 ));
 
 $footer->add_element("PlainTxt", array (
-  'columns' => '3',
-  'margin_left' => '13',
+  'columns' => '12',
+  'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '2',
+  'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1408446765229-1617',
-  'id' => 'module-1408446765229-1617',
+  'class' => 'module-1453357589878-1163',
+  'id' => 'module-1453357589878-1163',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;">2014-2015&nbsp;INCSUB</p>',
+    'content' => '<p style="text-align: right;">2014-2016 INCSUB</p>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1408446765226-1396',
+    'element_id' => 'text-object-1453357589875-1821',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 2,
+    'top_padding_num' => '20',
+    'bottom_padding_num' => '20',
+    'usingNewAppearance' => true,
     'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'copyright',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
     'anchor' => '',
-    'breakpoint' => 
+    'preset' => 'copy',
+    'breakpoint_presets' => 
     (array)(array(
-       'custom-1408717918354' => 
+       'desktop' => 
       (array)(array(
-         'row' => 4,
-      )),
-       'custom-1408717978058' => 
-      (array)(array(
-         'row' => 2,
-      )),
-       'custom-1408718022181' => 
-      (array)(array(
-         'row' => 2,
-      )),
-       'tablet' => 
-      (array)(array(
-         'row' => 10,
-      )),
-       'custom-1408718098456' => 
-      (array)(array(
-         'row' => 5,
-      )),
-       'custom-1410783042947' => 
-      (array)(array(
-         'row' => 4,
+         'preset' => 'copy',
       )),
     )),
+    'row' => 9,
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      array (
+      ),
+       'current_property' => 'top_padding_num',
+    )),
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '20',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '20',
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408447010252-1606',
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1453358267890-1061',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 8,
+      'edited' => true,
+      'col' => 6,
       'order' => 1,
       'clear' => false,
-      'edited' => true,
     ),
     'mobile' => 
     array (
+      'edited' => true,
       'col' => 4,
       'order' => 1,
       'clear' => false,
-      'edited' => true,
     ),
-    'custom-1410783042947' => 
+    'current_property' => 
     array (
-      'col' => 17,
-      'order' => 0,
+      0 => 'col',
     ),
   ),
   'breakpoint' => 
   array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'top' => 9,
-      'order' => 0,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 18,
-      'top' => 5,
-      'order' => 4,
-      'row' => 10,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 10,
-      'row' => 8,
-      'order' => 4,
-      'top' => 5,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-      'order' => 4,
-      'top' => 5,
-      'row' => 8,
-    ),
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 4,
-      'col' => 4,
-      'order' => 4,
-      'row' => 10,
-      'top' => 1,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 8,
-      'order' => 4,
-      'row' => 8,
-      'top' => 5,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 1,
-      'col' => 3,
+      'left' => 0,
+      'col' => 4,
       'order' => 0,
-      'top' => 1,
+      'top' => 0,
     ),
-    'custom-1410780542364' => 
+    'current_property' => 
     array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 3,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 16,
-      'row' => 10,
-      'top' => 5,
+      0 => 'col',
     ),
   ),
 ));

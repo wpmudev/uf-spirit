@@ -4,6 +4,7 @@
 #page .uf-upost-responsive .post-part.part-module-date {
 	width: 100%;
 }
+#page .uf-upost-responsive .upfront-postpart-wrapper.part-featured_image:before,
 #page .uf-upost-responsive .upfront-postpart-wrapper.part-contents:before {
     margin: 10px 15px 0;
 }

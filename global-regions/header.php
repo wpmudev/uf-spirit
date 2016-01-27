@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_f84d5f = upfront_create_region(
+$region_bd4c9c = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -11,73 +11,55 @@ $region_f84d5f = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 12,
-  'background_type' => 'color',
-  'nav_region' => 'top',
-  'background_color' => '#ufc0',
+  'row' => 5,
   'breakpoint' => 
   (array)(array(
-     'custom-1408717728290' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717918354' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717978058' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408718022181' => 
-    (array)(array(
-       'edited' => false,
-    )),
      'tablet' => 
     (array)(array(
-       'edited' => true,
-       'col' => 24,
-       'row' => 12,
-    )),
-     'custom-1408718098456' => 
-    (array)(array(
        'edited' => false,
+       'col' => 24,
     )),
      'mobile' => 
-    (array)(array(
-       'edited' => true,
-       'row' => 8,
-    )),
-     'custom-1410780542364' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1410783042947' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
   )),
+  'background_type' => 'color',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
+  'background_color' => '#ufc0',
+  'version' => '1.0.0',
 )
 			);
 
-$region_f84d5f->add_element("Uimage", array (
+$region_bd4c9c->add_element("Uimage", array (
   'columns' => '3',
-  'margin_left' => '1',
+  'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '3',
+  'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'image',
-  'id' => 'image',
+  'class' => 'module-1453435671712-1880',
+  'id' => 'module-1453435671712-1880',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/global-regions/header/logo-nav-75x35-6969.png',
+    'src' => '{{upfront:style_url}}/images/global-regions/header/logo-nav-75x35-3150.png',
     'srcFull' => '{{upfront:style_url}}/images/global-regions/header/logo-nav.png',
     'srcOriginal' => '{{upfront:style_url}}/images/global-regions/header/logo-nav.png',
     'image_title' => '',
     'alternative_text' => '',
     'include_image_caption' => false,
-    'image_caption' => 'My awesome image caption',
+    'image_caption' => '<p>My awesome image caption</p>',
     'caption_position' => false,
     'caption_alignment' => false,
     'caption_trigger' => 'always_show',
@@ -107,146 +89,94 @@ $region_f84d5f->add_element("Uimage", array (
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '229042',
+    'image_id' => 25,
     'align' => 'left',
     'stretch' => false,
     'vstretch' => true,
     'quick_swap' => false,
     'gifImage' => 0,
     'placeholder_class' => '',
+    'preset' => 'default',
+    'display_caption' => 'showCaption',
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
-    'when_clicked' => 'external',
-    'image_link' => '{{upfront:home_url}}/',
+    'when_clicked' => false,
+    'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => 'external',
-       'url' => '{{upfront:home_url}}/',
+       'type' => 'homepage',
+       'url' => '{{upfront:home_url}}',
        'target' => false,
     )),
+    'element_id' => 'image-1453435671708-1574',
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'usingNewAppearance' => true,
     'row' => 5,
-    'theme_style' => 'small-logo',
+    'use_padding' => false,
+    'lock_padding' => 0,
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
     'anchor' => '',
-    'element_id' => 'image-object',
-    'breakpoint' => 
-    (array)(array(
-       'custom-1408718098456' => 
-      (array)(array(
-         'row' => 10,
-      )),
-       'custom-1410783042947' => 
-      (array)(array(
-         'row' => 2,
-      )),
-    )),
-    'no_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'image-wrapper',
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1453435708433-1472',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 3,
+      'edited' => true,
+      'col' => 4,
       'order' => 0,
       'clear' => true,
-      'edited' => true,
     ),
     'mobile' => 
     array (
-      'col' => 3,
+      'edited' => true,
+      'col' => 4,
       'order' => 0,
       'clear' => true,
-      'edited' => true,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 3,
-      'order' => 0,
     ),
   ),
   'breakpoint' => 
   array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'top' => 0,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'top' => 0,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'top' => 0,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'top' => 0,
-    ),
     'tablet' => 
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 3,
-      'top' => 3,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
+      'col' => 4,
+      'order' => 0,
       'top' => 0,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 3,
-      'top' => 3,
-    ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => true,
-      'left' => 0,
       'col' => 4,
+      'order' => 0,
       'top' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'top' => 2,
-      'row' => 8,
     ),
   ),
 ));
 
-$region_f84d5f->add_element("Unewnavigation", array (
-  'columns' => '14',
+$region_bd4c9c->add_element("Unewnavigation", array (
+  'columns' => '17',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'unewnavigation',
-  'id' => 'unewnavigation',
+  'class' => 'module-1452574180065-1300',
+  'id' => 'module-1452574180065-1300',
   'options' => 
   array (
     'type' => 'UnewnavigationModel',
@@ -258,13 +188,13 @@ $region_f84d5f->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 3337,
+         'menu-item-db-id' => 163,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '{{upfront:home_url}}/services/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3337',
+         'menu-item-object-id' => '163',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -276,13 +206,13 @@ $region_f84d5f->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 3338,
+         'menu-item-db-id' => 164,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'About',
+         'menu-item-title' => 'ABOUT',
          'menu-item-url' => '{{upfront:home_url}}/about/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3338',
+         'menu-item-object-id' => '164',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -294,13 +224,13 @@ $region_f84d5f->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 3339,
+         'menu-item-db-id' => 165,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Testimonials',
+         'menu-item-title' => 'TESTIMONIALS',
          'menu-item-url' => '{{upfront:home_url}}/testimonials/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3339',
+         'menu-item-object-id' => '165',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -312,13 +242,13 @@ $region_f84d5f->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 3340,
+         'menu-item-db-id' => 166,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Gallery',
+         'menu-item-title' => 'GALLERY',
          'menu-item-url' => '{{upfront:home_url}}/gallery/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3340',
+         'menu-item-object-id' => '166',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -330,13 +260,13 @@ $region_f84d5f->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 3341,
+         'menu-item-db-id' => 167,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3341',
+         'menu-item-object-id' => '167',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -348,13 +278,13 @@ $region_f84d5f->add_element("Unewnavigation", array (
       )),
       5 => 
       (array)(array(
-         'menu-item-db-id' => 3342,
+         'menu-item-db-id' => 168,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Contact us',
+         'menu-item-title' => 'CONTACT US',
          'menu-item-url' => '{{upfront:home_url}}/contactus/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '3342',
+         'menu-item-object-id' => '168',
          'menu-item-target' => '',
          'menu-item-position' => 6,
          'link' => 
@@ -365,176 +295,116 @@ $region_f84d5f->add_element("Unewnavigation", array (
         )),
       )),
     ),
-    'menu_style' => 'horizontal',
-    'menu_alignment' => 'center',
+    'preset' => 'default',
     'allow_sub_nav' => 
     array (
       0 => 'no',
     ),
     'allow_new_pages' => 
     array (
+      0 => 'no',
     ),
-    'initialized' => false,
-    'menu_id' => false,
+    'element_id' => 'unewnavigation-object-1452574180059-1299',
+    'top_padding_num' => '0',
+    'bottom_padding_num' => '0',
     'menu_slug' => 'main-menu',
-    'row' => 12,
-    'burger_menu' => 
-    array (
-    ),
-    'burger_alignment' => 'left',
-    'burger_over' => 'over',
-    'is_floating' => 
-    array (
-    ),
-    'theme_style' => 'main-nav',
+    'menu_id' => false,
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
     'anchor' => '',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+    'row' => 9,
+    'usingNewAppearance' => true,
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+    )),
     'breakpoint' => 
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 9,
-         'width' => 570,
-         'burger_menu' => 'yes',
-         'burger_alignment' => 'right',
-         'burger_over' => 'over',
-         'menu_style' => 'horizontal',
-         'menu_alignment' => 'right',
-         'theme_style' => '_default',
-         'is_floating' => 'no',
+         'row' => 12,
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '15',
+         'top_padding_num' => '15',
       )),
-       'desktop' => 
-      (array)(array(
-         'burger_alignment' => 'left',
-         'burger_over' => 'over',
-         'menu_style' => 'horizontal',
-         'menu_alignment' => 'center',
-         'is_floating' => 
-        array (
-        ),
-         'width' => 1080,
-      )),
+       'current_property' => 'top_padding_num',
        'mobile' => 
       (array)(array(
-         'burger_menu' => 'yes',
-         'width' => 315,
-         'row' => 5,
-         'burger_alignment' => 'right',
-         'burger_over' => 'over',
-         'menu_style' => 'horizontal',
-         'menu_alignment' => 'right',
-         'is_floating' => 'no',
-         'theme_style' => '_default',
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '15',
+         'top_padding_num' => '15',
       )),
     )),
-    'element_id' => 'unewnavigation-object',
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'unewnavigation-wrapper',
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1452574228749-1830',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 5,
-      'order' => 3,
-      'clear' => false,
       'edited' => true,
+      'col' => 4,
+      'order' => 2,
+      'clear' => false,
     ),
     'mobile' => 
     array (
-      'col' => 4,
+      'edited' => true,
+      'col' => 3,
       'order' => 1,
       'clear' => false,
-      'edited' => true,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'col' => 11,
-      'order' => 0,
     ),
   ),
   'breakpoint' => 
   array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 14,
-      'top' => 0,
-    ),
-    'custom-1408717918354' => 
+    'tablet' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 4,
+      'order' => 0,
       'top' => 0,
-      'row' => 18,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'row' => 15,
-      'top' => 0,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 3,
-      'row' => 13,
-    ),
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 2,
-      'row' => 9,
-      'top' => 0,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 2,
       'row' => 12,
     ),
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 2,
-      'col' => 2,
-      'row' => 11,
-      'top' => 0,
-    ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => true,
       'left' => 0,
-      'col' => 2,
-      'row' => 15,
-      'top' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 11,
-      'row' => 12,
+      'col' => 3,
+      'order' => 0,
       'top' => 0,
     ),
   ),
 ));
 
-$region_f84d5f->add_element("Code", array (
+$region_bd4c9c->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1408627223296-1753',
-  'id' => 'module-1408627223296-1753',
+  'class' => 'module-1452574180089-1476',
+  'id' => 'module-1452574180089-1476',
   'options' => 
   array (
     'type' => 'CodeModel',
@@ -548,18 +418,22 @@ $region_f84d5f->add_element("Code", array (
        'style' => '/* Your styles here */',
        'script' => '/* Your code here */',
     )),
-    'element_id' => 'upfront-code_element-object-1408627223294-1046',
+    'element_id' => 'upfront-code_element-object-1452574180088-1304',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
     'code_selection_type' => 'Create',
     'markup' => '<ul class="socials">
   <li><a class="social-icon youtube" href="http://youtube.com" target="_blank"></a></li>
   <li><a class="social-icon facebook" href="http://facebook.com" target="_blank"></a></li>
   <li><a class="social-icon twitter" href="http://twitter.com" target="_blank"></a></li>
 </ul>',
-    'style' => '.socials {
+    'style' => '/* Your styles here */
+.socials {
     height: 34px;
     list-style: none;
     padding: 0px;
     margin: 0;
+    text-align: right;
 }
 .socials li {
     display: inline-block;
@@ -573,16 +447,14 @@ $region_f84d5f->add_element("Code", array (
 
 .social-icon:before {
     content: "";
-    background: url({{upfront:style_url}}/images/global-regions/header/sprite.png);
-    background-image: url({{upfront:style_url}}/images/sprite.svg), none;
+    background: url("{{upfront:style_url}}/ui/sprite.png");
+    background-image: url("{{upfront:style_url}}/ui/sprite.svg"), none;
     width: 35px;
     height: 35px;
     display: block;
-    
 }
 
 .youtube:before {
-
  background-position: -63px -222px;
 }
  .youtube:hover:before,  .youtube.dark { background-position: -223px -222px;
@@ -598,25 +470,23 @@ $region_f84d5f->add_element("Code", array (
  .twitter:hover:before,  .twitter.dark { background-position: -223px -543px;
 }',
     'script' => '/* Your code here */',
-    'row' => 12,
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 6,
-      )),
-    )),
+    'row' => 8,
+    'padding_slider' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1447196542834-1085',
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1452574716523-1923',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
       'col' => 4,
-      'order' => 2,
+      'order' => 1,
       'clear' => false,
     ),
     'mobile' => 
@@ -629,76 +499,27 @@ $region_f84d5f->add_element("Code", array (
   ),
   'breakpoint' => 
   array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 4,
-      'top' => 0,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 6,
-      'col' => 4,
-      'top' => 0,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 5,
-      'col' => 4,
-      'top' => 0,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 4,
-      'top' => 0,
-    ),
     'tablet' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 4,
+      'order' => 0,
       'top' => 0,
-      'row' => 6,
       'hide' => 1,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 1,
-      'col' => 4,
-      'top' => 0,
     ),
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 3,
-      'col' => 4,
-      'hide' => 1,
-      'order' => 0,
-      'top' => 26,
-    ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => true,
-      'left' => 8,
-      'col' => 4,
-      'top' => 0,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
       'left' => 0,
-      'col' => 4,
+      'col' => 7,
+      'order' => 0,
       'top' => 0,
+      'hide' => 1,
     ),
   ),
 ));
 
-$regions->add($region_f84d5f);
+$regions->add($region_bd4c9c);
 
 /* END_REGION_OUTPUT */

@@ -12,328 +12,460 @@ $s_retreats = upfront_create_region(
 ),
 			array (
   'row' => 68,
-  'background_type' => 'image',
-  'nav_region' => '',
-  'background_color' => 'rgba(255,255,255,1)',
-  'background_style' => 'fixed',
-  'background_position_y' => '100',
-  'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/global-regions/s-retreats/Homepage-Services-Bg2.jpg',
-  'background_image_ratio' => 0.25,
-  'background_repeat' => 'no-repeat',
-  'background_position' => '50% 100%',
   'breakpoint' => 
   (array)(array(
-     'custom-1408717728290' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717918354' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408717978058' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1408718022181' => 
-    (array)(array(
-       'edited' => false,
-    )),
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
-    )),
-     'custom-1408718098456' => 
-    (array)(array(
-       'edited' => false,
+       'row' => 68,
+       'background_position_y' => '50',
+       'background_style' => 'fixed',
+       'background_repeat' => 'no-repeat',
+       'background_position' => '40% 50%',
+       'background_position_x' => '40',
+       'background_type' => 'image',
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 56,
        'hide' => 1,
     )),
-     'custom-1410780542364' => 
-    (array)(array(
-       'edited' => false,
-    )),
-     'custom-1410783042947' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
+     'current_property' => 'background_position',
   )),
+  'background_type' => 'image',
   'use_padding' => 0,
   'sub_regions' => 
   array (
-    0 => '',
+    0 => false,
   ),
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => '0',
+  'top_bg_padding_num' => '0',
+  'bottom_bg_padding_slider' => '0',
+  'bottom_bg_padding_num' => '0',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
+  'background_color' => '#ffffff',
+  'background_style' => 'fixed',
+  'background_position_y' => '50',
+  'background_position_x' => '50',
+  'background_image' => '{{upfront:style_url}}/images/global-regions/s-retreats/bg-retreats.jpg',
+  'background_image_ratio' => 0.25,
+  'background_repeat' => 'no-repeat',
+  'version' => '1.0.0',
+  'background_position' => '50% 50%',
 )
 			);
 
-$s_retreats->add_element("PlainTxt", array (
-  'columns' => '11',
-  'margin_left' => '12',
+$s_retreats->add_element("Uspacer", array (
+  'columns' => '5',
+  'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '16',
+  'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1408443904923-1360',
-  'id' => 'module-1408443904923-1360',
+  'class' => 'module-1453737688817-1972 upfront-module-spacer',
+  'id' => 'module-1453737688817-1972',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453737688817-1507',
+    'preset' => 'default',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453737688817-1783',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'clear' => true,
+      'order' => 0,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
+      'col' => 5,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'hide' => 0,
+      'left' => 0,
+      'col' => 5,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
+  ),
+));
+
+$s_retreats->add_element("PlainTxt", array (
+  'columns' => '24',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1452647215418-1428',
+  'id' => 'module-1452647215418-1428',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h5 class="" style="text-align: right;"><span class="upfront_theme_colors upfront_theme_color_2" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_colors upfront_theme_color_2">WELLNESS RETREATS</span></h5>',
+    'content' => '<div class="plain-text-container">
+<h5 style="text-align: right;">WELLNESS RETREATS</h5>
+</div>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'object-1408443904923-1934',
+    'element_id' => 'object-1452647215418-1560',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
+    'top_padding_num' => '100',
+    'bottom_padding_num' => '10',
     'is_edited' => true,
-    'row' => 7,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => '_default',
-    'anchor' => '',
+    'lock_padding' => '',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '100',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '10',
+    'row' => 25,
+    'padding_slider' => '15',
+    'preset' => 'default',
     'breakpoint' => 
     (array)(array(
-       'custom-1410783042947' => 
+       'tablet' => 
       (array)(array(
-         'row' => 6,
+         'use_padding' => 'yes',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '100',
+         'top_padding_num' => '100',
+         'lock_padding' => '',
+      )),
+       'current_property' => 'top_padding_num',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '30',
+         'top_padding_num' => '30',
+      )),
+    )),
+    'use_padding' => 'yes',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
+    'usingNewAppearance' => true,
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
-         'row' => 6,
-         'theme_style' => '_default',
-      )),
-       'mobile' => 
-      (array)(array(
-         'theme_style' => 'text-center',
+         'preset' => 'default',
       )),
     )),
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408443912379-1151',
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1453736486526-1293',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 0,
+      'clear' => false,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+      'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'top' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
+  ),
+));
+
+$s_retreats->add_element("Uspacer", array (
+  'columns' => '13',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453736507152-1080 upfront-module-spacer',
+  'id' => 'module-1453736507152-1080',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453736507151-1257',
+    'preset' => 'default',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453736507152-1520',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'col' => 12,
-      'order' => 0,
-      'clear' => true,
-      'edited' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
-      'clear' => true,
-      'edited' => true,
     ),
-    'custom-1410783042947' => 
+  ),
+));
+
+$s_retreats->add_element("Uspacer", array (
+  'columns' => '5',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453737691169-1156 upfront-module-spacer',
+  'id' => 'module-1453737691169-1156',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453737691168-1851',
+    'preset' => 'default',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453737691169-1854',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
     array (
-      'col' => 17,
-      'order' => 0,
+      'edited' => true,
+      'clear' => true,
+      'order' => 1,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
+      'col' => 5,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
   array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 9,
-      'col' => 14,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 6,
-      'col' => 12,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 6,
-      'col' => 9,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 4,
-      'col' => 10,
-    ),
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 5,
-      'col' => 7,
-      'row' => 6,
-      'top' => 18,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 2,
-      'col' => 8,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
+      'hide' => 0,
       'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'top' => 13,
+      'col' => 5,
     ),
-    'custom-1410780542364' => 
+    'current_property' => 
     array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 14,
-    ),
-    'custom-1410783042947' => 
-    array (
-      'edited' => true,
-      'left' => 6,
-      'col' => 11,
-      'top' => 16,
-      'row' => 12,
+      0 => 'col',
     ),
   ),
 ));
 
 $s_retreats->add_element("PlainTxt", array (
   'columns' => '11',
-  'margin_left' => '12',
+  'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1408443941489-1951',
-  'id' => 'module-1408443941489-1951',
+  'class' => 'module-1452647220463-1261',
+  'id' => 'module-1452647220463-1261',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.<br><a href="{{upfront:home_url}}/about/" rel="entry"></a></p>',
+    'content' => '<div class="plain-text-container">
+<p style="text-align: right;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisi ut aliquip.</p>
+</div>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'object-1408443941490-1686',
+    'element_id' => 'object-1452647220463-1638',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 22,
+    'top_padding_num' => '0',
+    'bottom_padding_num' => '0',
     'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => '_default',
-    'anchor' => '',
+    'lock_padding' => '',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+    'padding_slider' => '15',
+    'preset' => 'default',
     'breakpoint' => 
     (array)(array(
-       'custom-1410783042947' => 
+       'tablet' => 
       (array)(array(
-         'row' => 22,
+         'use_padding' => 'yes',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
+         'row' => 18,
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '0',
+         'top_padding_num' => '0',
+      )),
+       'current_property' => 'top_padding_num',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '30',
+         'bottom_padding_num' => '30',
+         'row' => 14,
+      )),
+    )),
+    'use_padding' => 'yes',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
+    'usingNewAppearance' => true,
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
-         'row' => 32,
-         'theme_style' => '_default',
-      )),
-       'mobile' => 
-      (array)(array(
-         'theme_style' => 'text-center',
+         'preset' => 'default',
       )),
     )),
+    'row' => 11,
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1408443951249-1806',
-  'new_line' => true,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1453736496395-1921',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 12,
-      'order' => 1,
-      'clear' => true,
       'edited' => true,
+      'col' => 7,
+      'order' => 1,
+      'clear' => false,
     ),
     'mobile' => 
     array (
+      'edited' => false,
       'col' => 7,
       'order' => 1,
       'clear' => true,
-      'edited' => true,
     ),
-    'custom-1410783042947' => 
+    'current_property' => 
     array (
-      'col' => 17,
-      'order' => 0,
+      0 => 'col',
     ),
   ),
   'breakpoint' => 
   array (
-    'custom-1408717728290' => 
-    array (
-      'edited' => true,
-      'left' => 9,
-      'col' => 14,
-    ),
-    'custom-1408717918354' => 
-    array (
-      'edited' => true,
-      'left' => 6,
-      'col' => 12,
-    ),
-    'custom-1408717978058' => 
-    array (
-      'edited' => true,
-      'left' => 6,
-      'col' => 9,
-    ),
-    'custom-1408718022181' => 
-    array (
-      'edited' => true,
-      'left' => 4,
-      'col' => 10,
-    ),
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 5,
-      'col' => 7,
-      'row' => 32,
-      'top' => 0,
-    ),
-    'custom-1408718098456' => 
-    array (
-      'edited' => true,
-      'left' => 2,
-      'col' => 8,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 18,
+      'top' => 0,
     ),
-    'custom-1410780542364' => 
-    array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 14,
-    ),
-    'custom-1410783042947' => 
+    'mobile' => 
     array (
       'edited' => true,
-      'left' => 6,
-      'col' => 11,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'row' => 14,
       'top' => 0,
-      'row' => 28,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));

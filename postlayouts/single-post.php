@@ -36,6 +36,18 @@
       array (
         0 => 
         array (
+          'classes' => 'c20 post-part ml0 mt9 part-module-featured_image',
+          'slug' => 'featured_image',
+        ),
+      ),
+      'classes' => 'c20 clr part-featured_image',
+    ),
+    3 => 
+    array (
+      'objects' => 
+      array (
+        0 => 
+        array (
           'classes' => 'post-part c20 ml0 mt9 part-module-contents',
           'slug' => 'contents',
         ),
@@ -53,11 +65,17 @@
       array (
         'style' => 'max-height: 115px',
       ),
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'title' => 
     array (
       'theme_style' => '_default',
       'anchor' => '',
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'date' => 
     array (
@@ -67,6 +85,9 @@
       array (
         'style' => 'min-height: 60px',
       ),
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'plain_text' => 
     array (
@@ -79,12 +100,18 @@
     'author' => 
     array (
       'anchor' => '',
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'colSize' => '45',
     'contents' => 
     array (
       'padding_left' => '1',
       'padding_right' => '1',
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
   ),
 );

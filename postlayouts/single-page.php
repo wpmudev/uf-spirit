@@ -7,11 +7,11 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part c18 ml1 mt0 part-module-title',
+          'classes' => 'post-part c19 ml1 mt0 part-module-title',
           'slug' => 'title',
         ),
       ),
-      'classes' => 'c19 clr part-title',
+      'classes' => 'c20 clr part-title',
     ),
     1 => 
     array (
@@ -31,6 +31,9 @@
     'featured_image' => 
     array (
       'height' => '115',
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
       'attributes' => 
       array (
         'style' => 'max-height: 115px',
@@ -43,25 +46,36 @@
       array (
         'style' => 'min-height: 20px',
       ),
-      'format' => 'F j, Y',
-    ),
-    'contents' => 
-    array (
-      'padding_left' => '1',
-      'padding_right' => '1',
-    ),
-    'colSize' => '45',
-    'author' => 
-    array (
-      'anchor' => '',
-    ),
-    'comments_count' => 
-    array (
-      'anchor' => '',
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'title' => 
     array (
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '60',
+      'use_padding' => 'yes',
+      'lock_padding' => '',
+      'padding_number' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'anchor' => '',
+      'bottom_padding_use' => 'yes',
+      'bottom_padding_slider' => '60',
+    ),
+    'contents' => 
+    array (
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'padding_left' => '1',
+      'padding_right' => '1',
+      'padding_number' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
       'anchor' => '',
     ),
+    'colSize' => '45',
   ),
 );
