@@ -1,6 +1,4 @@
 <?php
-$layout_version = '1.0.0';
-
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $region_2 = upfront_create_region(
@@ -337,17 +335,17 @@ $region_2->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'padding_slider' => '15',
-    'top_padding_num' => '60',
-    'bottom_padding_num' => '30',
+    'top_padding_num' => '40',
+    'bottom_padding_num' => '0',
     'usingNewAppearance' => true,
     'is_edited' => true,
     'use_padding' => 'yes',
     'lock_padding' => '',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '60',
+    'top_padding_slider' => '40',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '30',
-    'row' => 28,
+    'bottom_padding_slider' => '0',
+    'row' => 31,
     'preset' => 'default',
     'breakpoint' => 
     (array)(array(
@@ -371,7 +369,7 @@ $region_2->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 31,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -517,40 +515,103 @@ $region_2->add_element("Uspacer", array (
   ),
 ));
 
-$region_2->add_element("Uspacer", array (
-  'columns' => '2',
+$region_2->add_element("PlainTxt", array (
+  'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1453428506019-1124 upfront-module-spacer',
-  'id' => 'module-1453428506019-1124',
+  'class' => 'module-1453428375413-1759',
+  'id' => 'module-1453428375413-1759',
   'options' => 
   array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1453428506018-1293',
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h3 style="text-align: center;"><span class="upfront_theme_color_2">"Take care of your body – it\'s the only one you have."</span></h3>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'text-object-1453428375413-1686',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'padding_slider' => '15',
+    'top_padding_num' => '0',
+    'bottom_padding_num' => '30',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
     'preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '15',
+         'bottom_padding_num' => '15',
+         'row' => 16,
+      )),
+       'current_property' => 'bottom_padding_num',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '15',
+         'bottom_padding_num' => '15',
+         'row' => 18,
+      )),
+    )),
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '30',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
-  'default_hide' => 1,
+  'default_hide' => 0,
   'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1453428506019-1587',
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1453854444422-1471',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 2,
+      'edited' => false,
+      'col' => 10,
+      'order' => 4,
+      'clear' => true,
     ),
     'mobile' => 
     array (
-      'col' => 2,
+      'edited' => false,
+      'col' => 7,
+      'order' => 2,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 10,
+      'order' => 0,
+      'row' => 16,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'row' => 18,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -614,108 +675,6 @@ $region_2->add_element("Uspacer", array (
   ),
 ));
 
-$region_2->add_element("PlainTxt", array (
-  'columns' => '20',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1453428375413-1759',
-  'id' => 'module-1453428375413-1759',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h3 style="text-align: center;"><span class="upfront_theme_color_2">"Take care of your body – it\'s the only one you have."</span></h3>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1453428375413-1686',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'padding_slider' => '15',
-    'top_padding_num' => '15',
-    'bottom_padding_num' => '30',
-    'usingNewAppearance' => true,
-    'is_edited' => true,
-    'preset' => 'default',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'use_padding' => 'yes',
-         'lock_padding' => '',
-         'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '15',
-         'bottom_padding_num' => '15',
-         'row' => 16,
-      )),
-       'current_property' => 'bottom_padding_num',
-       'mobile' => 
-      (array)(array(
-         'use_padding' => 'yes',
-         'lock_padding' => '',
-         'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '15',
-         'bottom_padding_num' => '15',
-         'row' => 18,
-      )),
-    )),
-    'use_padding' => 'yes',
-    'lock_padding' => '',
-    'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '30',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 0,
-  'hide' => 0,
-  'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1453428464627-1133',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 10,
-      'order' => 2,
-      'clear' => false,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'col',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 10,
-      'order' => 0,
-      'row' => 16,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'row' => 18,
-    ),
-    'current_property' => 
-    array (
-      0 => 'col',
-    ),
-  ),
-));
-
 $region_2->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
@@ -770,43 +729,6 @@ $region_2->add_element("Uspacer", array (
     'current_property' => 
     array (
       0 => 'col',
-    ),
-  ),
-));
-
-$region_2->add_element("Uspacer", array (
-  'columns' => '2',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1453428508347-1030 upfront-module-spacer',
-  'id' => 'module-1453428508347-1030',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1453428508346-1477',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1453428508347-1282',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 2,
-    ),
-    'mobile' => 
-    array (
-      'col' => 2,
     ),
   ),
 ));
