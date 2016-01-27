@@ -166,8 +166,8 @@ $main->add_element("ThisPost", array (
     'breakpoint' => 
     (array)(array(
        'tablet' => 
-      (array)(array(
-      )),
+      array (
+      ),
        'current_property' => 'lock_padding',
     )),
   ),

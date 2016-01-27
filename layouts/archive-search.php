@@ -84,7 +84,7 @@ $region_5->add_element("PlainTxt", array (
     'bottom_padding_slider' => '0',
     'preset' => 'default',
   ),
-  'row' => 43,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,

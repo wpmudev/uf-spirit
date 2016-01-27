@@ -2013,7 +2013,7 @@ $services_content->add_element("PlainTxt", array (
        'current_property' => 'bottom_padding_num',
     )),
   ),
-  'row' => 14,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,

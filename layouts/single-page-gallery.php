@@ -150,7 +150,7 @@ $gallery_title->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 44,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
