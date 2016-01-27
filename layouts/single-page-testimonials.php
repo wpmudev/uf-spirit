@@ -1,13 +1,11 @@
 <?php
-$layout_version = '1.0.0';
-
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $testimonials_title = upfront_create_region(
 			array (
   'name' => 'testimonials-title',
   'title' => 'Testimonials Title',
-  'type' => 'wide',
+  'type' => 'clip',
   'scope' => 'local',
   'container' => 'testimonials-title',
   'position' => 1,
@@ -149,7 +147,7 @@ $testimonials_title->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 43,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -518,30 +516,41 @@ $testimonial_1->add_element("Uspacer", array (
 
 $testimonial_1->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453801150363-1858 upfront-module-spacer',
   'id' => 'module-1453801150363-1858',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453801150362-1024',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453801150362-1024',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453801150363-1835',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453801150363-1835',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
     'mobile' => 
     array (
       'edited' => true,
       'clear' => true,
       'order' => 0,
+      'col' => 2,
     ),
     'current_property' => 
     array (
@@ -720,29 +729,40 @@ $testimonial_1->add_element("Uimage", array (
 
 $testimonial_1->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453801152590-1079 upfront-module-spacer',
   'id' => 'module-1453801152590-1079',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453801152590-1646',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453801152590-1646',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453801152590-1700',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453801152590-1700',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
     'mobile' => 
     array (
       'edited' => true,
       'clear' => false,
       'order' => 0,
+      'col' => 2,
     ),
     'current_property' => 
     array (
@@ -1201,30 +1221,41 @@ $testimonial_2->add_element("Uspacer", array (
 
 $testimonial_2->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453801156327-1043 upfront-module-spacer',
   'id' => 'module-1453801156327-1043',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453801156327-1461',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453801156327-1461',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453801156327-1840',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453801156327-1840',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
     'mobile' => 
     array (
       'edited' => true,
       'clear' => true,
       'order' => 0,
+      'col' => 2,
     ),
     'current_property' => 
     array (
@@ -1396,29 +1427,40 @@ $testimonial_2->add_element("Uimage", array (
 
 $testimonial_2->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453801157991-1612 upfront-module-spacer',
   'id' => 'module-1453801157991-1612',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453801157990-1272',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453801157990-1272',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453801157991-1461',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453801157991-1461',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
     'mobile' => 
     array (
       'edited' => true,
       'clear' => false,
       'order' => 0,
+      'col' => 2,
     ),
     'current_property' => 
     array (
@@ -1516,7 +1558,7 @@ $testimonial_2->add_group(array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 3,
       'clear' => true,
     ),
     'current_property' => 
@@ -1866,30 +1908,41 @@ $testimonial_3->add_element("Uspacer", array (
 
 $testimonial_3->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453801161677-1568 upfront-module-spacer',
   'id' => 'module-1453801161677-1568',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453801161677-1821',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453801161677-1821',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453801161677-1758',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453801161677-1758',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
     'mobile' => 
     array (
       'edited' => true,
       'clear' => true,
       'order' => 0,
+      'col' => 2,
     ),
     'current_property' => 
     array (
@@ -2061,29 +2114,40 @@ $testimonial_3->add_element("Uimage", array (
 
 $testimonial_3->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1453801163176-1535 upfront-module-spacer',
   'id' => 'module-1453801163176-1535',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1453801163175-1486',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1453801163175-1486',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1453801163176-1197',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1453801163176-1197',
   'wrapper_breakpoint' => 
   array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
     'mobile' => 
     array (
       'edited' => true,
       'clear' => false,
       'order' => 0,
+      'col' => 2,
     ),
     'current_property' => 
     array (
@@ -2169,7 +2233,7 @@ $testimonial_3->add_group(array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 3,
       'clear' => true,
     ),
     'current_property' => 
