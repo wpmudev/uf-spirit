@@ -137,7 +137,7 @@ $region_2->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'padding_slider' => '15',
-    'top_padding_num' => '30',
+    'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'usingNewAppearance' => true,
     'is_edited' => true,
@@ -156,10 +156,10 @@ $region_2->add_element("PlainTxt", array (
       )),
     )),
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '30',
-    'row' => 10,
+    'top_padding_slider' => '15',
+    'row' => 9,
   ),
-  'row' => 6,
+  'row' => 9,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -400,6 +400,7 @@ $region_2->add_element("PlainTxt", array (
       0 => 'col',
     ),
   ),
+  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 

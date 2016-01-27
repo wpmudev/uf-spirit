@@ -132,7 +132,7 @@ $main->add_element("ThisPost", array (
     ),
     'element_id' => 'default-page-object',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '80',
+    'top_padding_num' => '190',
     'padding_slider' => '15',
     'bottom_padding_num' => '0',
     'hide_featured_image' => 1,
@@ -160,15 +160,28 @@ $main->add_element("ThisPost", array (
          'preset' => 'page-mobile',
       )),
     )),
-    'top_padding_slider' => '80',
+    'top_padding_slider' => '190',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
-      array (
-      ),
-       'current_property' => 'lock_padding',
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '80',
+         'top_padding_num' => '80',
+      )),
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '80',
+         'top_padding_num' => '80',
+      )),
+      'current_property' => 'use_padding',
     )),
   ),
   'row' => 6,

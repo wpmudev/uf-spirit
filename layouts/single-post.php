@@ -64,13 +64,13 @@ $main->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'padding_slider' => '15',
-    'top_padding_num' => '30',
+    'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'usingNewAppearance' => true,
     'use_padding' => 'yes',
     'lock_padding' => '',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '30',
+    'top_padding_slider' => '15',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
@@ -84,6 +84,27 @@ $main->add_element("PlainTxt", array (
       )),
     )),
     'is_edited' => true,
+    'row' => 11,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'left_padding_num' => '15',
+         'top_padding_num' => '15',
+         'right_padding_num' => '15',
+         'bottom_padding_num' => '15',
+         'top_padding_use' => '',
+         'bottom_padding_use' => '',
+         'left_padding_use' => 'yes',
+         'right_padding_use' => 'yes',
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -91,6 +112,7 @@ $main->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1453832296144-1046',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -226,12 +248,12 @@ $main->add_element("ThisPost", array (
     ),
     'element_id' => 'default-post-object',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '80',
+    'top_padding_num' => '120',
     'padding_slider' => '15',
     'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'lock_padding' => '',
-    'top_padding_slider' => '80',
+    'top_padding_slider' => '120',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'hide_featured_image' => false,
@@ -263,6 +285,28 @@ $main->add_element("ThisPost", array (
       array (
       ),
        'current_property' => 'lock_padding',
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '40',
+         'top_padding_num' => '40',
+         'row' => 200,
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
+      )),
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '40',
+         'top_padding_num' => '40',
+         'row' => 200,
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
+      )),
     )),
   ),
   'row' => 6,
@@ -296,6 +340,8 @@ $main->add_element("ThisPost", array (
       'left' => 0,
       'top' => 0,
       'order' => 0,
+      'edited' => true,
+      'row' => 294,
     ),
     'mobile' => 
     array (
@@ -303,6 +349,8 @@ $main->add_element("ThisPost", array (
       'left' => 0,
       'top' => 0,
       'order' => 0,
+      'edited' => true,
+      'row' => 402,
     ),
   ),
 ));
@@ -418,7 +466,7 @@ $main->add_element("Ucomment", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'default',
+         'preset' => 'mobile',
       )),
     )),
     'top_padding_use' => 'yes',
@@ -431,7 +479,11 @@ $main->add_element("Ucomment", array (
        'tablet' => 
       array (
       ),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -463,6 +515,8 @@ $main->add_element("Ucomment", array (
       'left' => 0,
       'top' => 0,
       'order' => 0,
+      'edited' => true,
+      'row' => 236,
     ),
     'mobile' => 
     array (
