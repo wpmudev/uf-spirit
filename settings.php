@@ -144,6 +144,11 @@ return array(
     margin-top: 0;
 }
 
+.upfront-object textarea,
+.upfront-output-object textarea {
+    resize: vertical;
+}
+
 /* hide featured image (region) when empty */
 .upfront-region-container-content-cover .upfront-region-container-bg.no-featured_image {
     display: none;
