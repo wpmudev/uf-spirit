@@ -14,14 +14,14 @@ $region_2 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 180,
+  'row' => 9,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 45,
+       'row' => 11,
        'background_position_y' => '50',
        'background_style' => 'full',
        'background_position_x' => '50',
@@ -33,7 +33,7 @@ $region_2 = upfront_create_region(
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 53,
+       'row' => 27,
        'background_position_y' => '50',
        'background_style' => 'full',
        'background_position_x' => '50',
@@ -41,7 +41,7 @@ $region_2 = upfront_create_region(
        'bottom_bg_padding_slider' => '90',
        'bottom_bg_padding_num' => '90',
     )),
-     'current_property' => 'bottom_bg_padding_num',
+     'current_property' => 'background_type',
   )),
   'background_type' => 'image',
   'use_padding' => 0,
@@ -52,8 +52,8 @@ $region_2 = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => '0',
-  'bottom_bg_padding_num' => '0',
+  'bottom_bg_padding_slider' => '250',
+  'bottom_bg_padding_num' => '250',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '',
@@ -63,6 +63,8 @@ $region_2 = upfront_create_region(
   'background_image' => '{{upfront:style_url}}/images/single-page-contactus/bg-page-contact.jpg',
   'background_image_ratio' => 0.560000000000000053290705182007513940334320068359375,
   'version' => '1.0.0',
+  'background_repeat' => 'repeat',
+  'background_position' => '50% 50%',
 )
 			);
 
