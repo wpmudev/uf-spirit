@@ -62,3 +62,5 @@ class Spirit extends Upfront_ChildTheme {
 }
 
 Spirit::serve();
+
+if (file_exists(dirname(__FILE__) . '/compat/compat.php')) require_once(dirname(__FILE__) . '/compat/compat.php');
