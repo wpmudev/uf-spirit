@@ -14,14 +14,14 @@ $region_2 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 180,
+  'row' => 9,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 45,
+       'row' => 11,
        'background_position_y' => '50',
        'background_style' => 'full',
        'background_position_x' => '50',
@@ -33,7 +33,7 @@ $region_2 = upfront_create_region(
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 53,
+       'row' => 27,
        'background_position_y' => '50',
        'background_style' => 'full',
        'background_position_x' => '50',
@@ -41,7 +41,7 @@ $region_2 = upfront_create_region(
        'bottom_bg_padding_slider' => '90',
        'bottom_bg_padding_num' => '90',
     )),
-     'current_property' => 'bottom_bg_padding_num',
+     'current_property' => 'background_type',
   )),
   'background_type' => 'image',
   'use_padding' => 0,
@@ -52,8 +52,8 @@ $region_2 = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '250',
+  'bottom_bg_padding_num' => '250',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '',
@@ -63,6 +63,8 @@ $region_2 = upfront_create_region(
   'background_image' => '{{upfront:style_url}}/images/single-page-contactus/bg-page-contact.jpg',
   'background_image_ratio' => 0.560000000000000053290705182007513940334320068359375,
   'version' => '1.0.0',
+  'background_repeat' => 'repeat',
+  'background_position' => '50% 50%',
 )
 			);
 
@@ -158,8 +160,15 @@ $region_2->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '15',
     'row' => 9,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 7,
+      )),
+    )),
   ),
-  'row' => 9,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -169,7 +178,7 @@ $region_2->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
       'order' => 0,
       'clear' => true,
@@ -186,11 +195,12 @@ $region_2->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
       'top' => 0,
+      'row' => 7,
     ),
     'mobile' => 
     array (
@@ -255,72 +265,6 @@ $region_2->add_element("Uspacer", array (
   ),
 ));
 
-$region_2->add_element("Uspacer", array (
-  'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1453446693966-1989 upfront-module-spacer',
-  'id' => 'module-1453446693966-1989',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1453446693965-1316',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 1,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1453446693966-1664',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'clear' => true,
-      'order' => 1,
-      'col' => 1,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-    ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'hide' => 0,
-      'left' => 0,
-      'col' => 1,
-      'top' => 0,
-    ),
-    'current_property' => 
-    array (
-      0 => 'col',
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-      'left' => 0,
-      'top' => 0,
-    ),
-  ),
-));
-
 $region_2->add_element("PlainTxt", array (
   'columns' => '23',
   'margin_left' => '0',
@@ -360,6 +304,7 @@ $region_2->add_element("PlainTxt", array (
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '15',
          'bottom_padding_num' => '15',
+         'row' => 16,
       )),
        'current_property' => 'bottom_padding_num',
        'mobile' => 
@@ -369,7 +314,7 @@ $region_2->add_element("PlainTxt", array (
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '15',
          'bottom_padding_num' => '15',
-         'row' => 17,
+         'row' => 10,
       )),
     )),
   ),
@@ -379,14 +324,15 @@ $region_2->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1453425458522-1811',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 11,
+      'col' => 12,
       'order' => 1,
-      'clear' => false,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -400,16 +346,16 @@ $region_2->add_element("PlainTxt", array (
       0 => 'col',
     ),
   ),
-  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 11,
+      'col' => 12,
       'order' => 0,
       'top' => 0,
+      'row' => 16,
     ),
     'mobile' => 
     array (
@@ -417,7 +363,7 @@ $region_2->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 17,
+      'row' => 10,
       'top' => 0,
     ),
     'current_property' => 
@@ -511,7 +457,7 @@ $region_2->add_element("PlainTxt", array (
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '15',
          'bottom_padding_num' => '15',
-         'row' => 16,
+         'row' => 6,
       )),
        'current_property' => 'bottom_padding_num',
        'mobile' => 
@@ -521,7 +467,7 @@ $region_2->add_element("PlainTxt", array (
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '15',
          'bottom_padding_num' => '15',
-         'row' => 18,
+         'row' => 10,
       )),
     )),
     'use_padding' => 'yes',
@@ -542,9 +488,9 @@ $region_2->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
-      'order' => 3,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -563,7 +509,7 @@ $region_2->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 16,
+      'row' => 6,
       'top' => 0,
     ),
     'mobile' => 
@@ -572,7 +518,7 @@ $region_2->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 18,
+      'row' => 10,
       'top' => 0,
     ),
     'current_property' => 
@@ -696,9 +642,9 @@ $region_2->add_element("Ucontact", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
-      'order' => 4,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 

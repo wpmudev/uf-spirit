@@ -61,7 +61,7 @@ $s_training = upfront_create_region(
 			);
 
 $s_training->add_element("PlainTxt", array (
-  'columns' => '14',
+  'columns' => '11',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -245,7 +245,7 @@ $s_training->add_element("Uspacer", array (
 ));
 
 $s_training->add_element("Uspacer", array (
-  'columns' => '10',
+  'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',

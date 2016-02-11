@@ -14,20 +14,34 @@ $gallery_title = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 68,
+  'row' => 67,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'background_position_y' => '50',
+       'background_style' => 'full',
+       'background_position_x' => '50',
+       'background_type' => 'image',
+       'top_bg_padding_num' => '45',
+       'top_bg_padding_slider' => '45',
+       'row' => 38,
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
        'row' => 25,
+       'background_position_y' => '50',
+       'background_style' => 'full',
+       'background_position_x' => '50',
+       'background_type' => 'image',
+       'top_bg_padding_num' => '25',
+       'top_bg_padding_slider' => '25',
     )),
+     'current_property' => 'top_bg_padding_slider',
   )),
   'background_type' => 'image',
   'use_padding' => 0,
@@ -36,8 +50,8 @@ $gallery_title = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'varied',
-  'top_bg_padding_slider' => 0,
-  'top_bg_padding_num' => 0,
+  'top_bg_padding_slider' => '80',
+  'top_bg_padding_num' => '80',
   'bottom_bg_padding_slider' => 0,
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
@@ -50,6 +64,7 @@ $gallery_title = upfront_create_region(
   'background_image_ratio' => 0.25,
   'background_repeat' => 'no-repeat',
   'background_position' => '50% 50%',
+  'version' => '1.0.0',
 )
 			);
 
@@ -109,17 +124,17 @@ $gallery_title->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'padding_slider' => '15',
-    'top_padding_num' => '100',
-    'bottom_padding_num' => '0',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
     'usingNewAppearance' => true,
     'is_edited' => true,
     'use_padding' => 'yes',
     'lock_padding' => '',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '100',
+    'top_padding_slider' => '15',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
-    'row' => 44,
+    'bottom_padding_slider' => '15',
+    'row' => 16,
     'preset' => 'default',
     'breakpoint' => 
     (array)(array(
@@ -128,12 +143,12 @@ $gallery_title->add_element("PlainTxt", array (
          'use_padding' => 'yes',
          'lock_padding' => '',
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '50',
-         'top_padding_num' => '50',
+         'top_padding_slider' => '15',
+         'top_padding_num' => '15',
          'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '0',
-         'bottom_padding_num' => '0',
-         'row' => 14,
+         'bottom_padding_slider' => '15',
+         'bottom_padding_num' => '15',
+         'row' => 7,
       )),
        'current_property' => 'bottom_padding_num',
        'tablet' => 
@@ -141,12 +156,12 @@ $gallery_title->add_element("PlainTxt", array (
          'use_padding' => 'yes',
          'lock_padding' => '',
          'bottom_padding_use' => 'yes',
-         'bottom_padding_slider' => '0',
-         'bottom_padding_num' => '0',
-         'row' => 31,
+         'bottom_padding_slider' => '15',
+         'bottom_padding_num' => '15',
+         'row' => 8,
          'top_padding_use' => 'yes',
-         'top_padding_slider' => '150',
-         'top_padding_num' => '150',
+         'top_padding_slider' => '15',
+         'top_padding_num' => '15',
       )),
     )),
   ),
@@ -181,7 +196,7 @@ $gallery_title->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 31,
+      'row' => 8,
     ),
     'mobile' => 
     array (
@@ -189,7 +204,7 @@ $gallery_title->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 14,
+      'row' => 7,
     ),
   ),
 ));
@@ -281,6 +296,7 @@ $gallery_content = upfront_create_region(
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ffffff',
+  'version' => '1.0.0',
 )
 			);
 
@@ -362,7 +378,7 @@ $gallery_content->add_element("PlainTxt", array (
     'top_padding_slider' => '15',
     'row' => 11,
   ),
-  'row' => 11,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -374,14 +390,14 @@ $gallery_content->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 0,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
   ),
@@ -547,14 +563,14 @@ $gallery_content->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 1,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
   ),
@@ -667,6 +683,7 @@ $gallery_content->add_element("Ugallery", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-gallery',
     'id_slug' => 'ugallery',
+    'preset' => 'default',
     'status' => 'ok',
     'images' => 
     array (
@@ -1871,7 +1888,6 @@ $gallery_content->add_element("Ugallery", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
-    'preset' => 'default',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '30',
     'row' => 138,
@@ -1902,7 +1918,7 @@ $gallery_content->add_element("Ugallery", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
   ),
