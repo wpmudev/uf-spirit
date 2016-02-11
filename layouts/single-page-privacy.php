@@ -487,6 +487,10 @@ $privacy_content->add_element("PlainTxt", array (
     )),
     'breakpoint_presets' => 
     (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
        'tablet' => 
       (array)(array(
          'preset' => 'align-center',
@@ -652,6 +656,10 @@ $privacy_content->add_element("PlainTxt", array (
     )),
     'breakpoint_presets' => 
     (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
        'tablet' => 
       (array)(array(
          'preset' => 'align-center',
@@ -742,6 +750,10 @@ $privacy_content->add_element("PlainTxt", array (
     )),
     'breakpoint_presets' => 
     (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
        'tablet' => 
       (array)(array(
          'preset' => 'align-center',
