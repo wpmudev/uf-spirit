@@ -14,7 +14,7 @@ $region_5 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 68,
+  'row' => 67,
   'background_type' => 'image',
   'background_color' => '#ufc6',
   'version' => '1.0.0',
@@ -22,14 +22,33 @@ $region_5 = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'background_position_y' => '0',
+       'background_style' => 'fixed',
+       'background_repeat' => 'no-repeat',
+       'background_position' => '50% 0%',
+       'background_position_x' => '50',
+       'background_type' => 'image',
+       'top_bg_padding_num' => '45',
+       'top_bg_padding_slider' => '45',
+       'row' => 38,
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'background_position_y' => '0',
+       'background_style' => 'fixed',
+       'background_repeat' => 'no-repeat',
+       'background_position' => '50% 0%',
+       'background_position_x' => '50',
+       'background_type' => 'image',
+       'top_bg_padding_num' => '25',
+       'top_bg_padding_slider' => '25',
+       'row' => 25,
     )),
+     'current_property' => 'top_bg_padding_slider',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -37,8 +56,8 @@ $region_5 = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'varied',
-  'top_bg_padding_slider' => '0',
-  'top_bg_padding_num' => '0',
+  'top_bg_padding_slider' => '80',
+  'top_bg_padding_num' => '80',
   'bottom_bg_padding_slider' => 0,
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
@@ -72,17 +91,24 @@ $region_5->add_element("PlainTxt", array (
     'class' => 'c24',
     'type' => 'PlainTxtModel',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '100',
+    'top_padding_num' => '15',
     'padding_slider' => '15',
-    'bottom_padding_num' => '0',
+    'bottom_padding_num' => '15',
     'is_edited' => true,
-    'row' => 43,
+    'row' => 20,
     'use_padding' => 'yes',
     'lock_padding' => '',
-    'top_padding_slider' => '100',
+    'top_padding_slider' => '15',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
+    'bottom_padding_slider' => '15',
     'preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 5,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -96,13 +122,13 @@ $region_5->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
   ),
@@ -121,6 +147,8 @@ $region_5->add_element("PlainTxt", array (
       'left' => 0,
       'top' => 0,
       'order' => 0,
+      'edited' => true,
+      'row' => 5,
     ),
   ),
 ));
@@ -166,6 +194,7 @@ $region_3 = upfront_create_region(
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ufc6',
+  'version' => '1.0.0',
 )
 			);
 
@@ -247,7 +276,7 @@ $region_3->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '15',
   ),
-  'row' => 13,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -259,14 +288,14 @@ $region_3->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
   ),
@@ -367,6 +396,7 @@ $archive_content = upfront_create_region(
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ffffff',
+  'version' => '1.0.0',
 )
 			);
 
@@ -538,14 +568,14 @@ $archive_content->add_element("Posts", array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
   ),
