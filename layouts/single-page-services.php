@@ -163,7 +163,7 @@ $services_title->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 19,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -2212,9 +2212,9 @@ $workplace_wellness->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 2,
+      'order' => 0,
       'clear' => true,
     ),
     'current_property' => 
@@ -2233,10 +2233,11 @@ $workplace_wellness->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'current_property' => 
     array (
@@ -2424,7 +2425,7 @@ $workplace_wellness->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 1,
       'clear' => true,
