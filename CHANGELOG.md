@@ -2,6 +2,19 @@ Change Log
 ============
 
 
+1.0.2 - 2016-02-11
+-------------------------------------------------------------------------------
+- Visual improvements
+
+- Fix: textarea resize and transition.
+- Fix: heading size/alignment on responsive contacts page.
+- Fix: menu alignment on responsive layouts.
+- Fix: hero image height.
+
+1.0.1 - 2016-02-04
+-------------------------------------------------------------------------------
+- Add: compatibility popup
+
 1.0 - 2016-01-27
 -------------------------------------------------------------------------------
 - New: compatibility with Upfront 1.0
