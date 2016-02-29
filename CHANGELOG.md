@@ -2,6 +2,16 @@ Change Log
 ============
 
 
+1.0.3 - 2016-02-29
+-------------------------------------------------------------------------------
+- Visual improvements
+
+- Fix: content alignment on mobile.
+- Fix: order of "wellness" on mobile layout.
+- Fix: featured image height.
+- Fix: image post variations spacing & size.
+- Fix: post content lists margin.
+
 1.0.2 - 2016-02-11
 -------------------------------------------------------------------------------
 - Visual improvements
