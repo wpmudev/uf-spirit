@@ -678,6 +678,10 @@ $region_3->add_element("PlainTxt", array (
     )),
     'breakpoint_presets' => 
     (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
        'tablet' => 
       (array)(array(
          'preset' => 'align-center',
@@ -904,6 +908,10 @@ $region_4->add_element("PlainTxt", array (
     )),
     'breakpoint_presets' => 
     (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
        'tablet' => 
       (array)(array(
          'preset' => 'align-center',
@@ -1000,6 +1008,10 @@ $region_4->add_element("PlainTxt", array (
     )),
     'breakpoint_presets' => 
     (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'align-center',
+      )),
        'tablet' => 
       (array)(array(
          'preset' => 'align-center',

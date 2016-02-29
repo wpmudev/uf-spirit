@@ -59,11 +59,11 @@
   array (
     'featured_image' => 
     array (
-      'height' => '115',
+      'height' => '290',
       'anchor' => '',
       'attributes' => 
       array (
-        'style' => 'max-height: 115px',
+        'style' => 'max-height: 290px',
       ),
       'padding_slider' => '15',
       'top_padding_num' => '15',
