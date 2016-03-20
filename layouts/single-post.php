@@ -248,14 +248,15 @@ $post_title->add_group(array (
   'background_style' => 'full',
   'background_position_y' => 50,
   'background_position_x' => 50,
-  'use_padding' => 'yes',
+  'use_padding' => '',
   'background_type' => 'color',
   'anchor' => '',
   'top_padding_use' => false,
   'top_padding_slider' => '15',
   'bottom_padding_use' => false,
   'bottom_padding_slider' => '15',
-  'row' => 9,
+  'row' => 15,
+  'background_default' => 'color',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -332,7 +333,7 @@ $post_title->add_element("PostData", array (
 </div>',
     'element_id' => 'post-data-object-1457583396120-1772',
     'top_padding_num' => '15',
-    'bottom_padding_num' => '5',
+    'bottom_padding_num' => '0',
     'usingNewAppearance' => true,
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -349,7 +350,7 @@ $post_title->add_element("PostData", array (
       )),
     )),
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '5',
+    'bottom_padding_slider' => '0',
     'preset_style' => '#page .default.upost-data-object-post_data .upostdata-part.date_posted {
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -621,6 +622,8 @@ $post_title->add_element("PostData", array (
     'static-author_bio-font-size' => '14',
     'static-author_bio-line-height' => '1.2',
     'static-author_bio-font-color' => '#ufc7',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -747,7 +750,7 @@ $post_title->add_element("PostData", array (
 </div>',
     'element_id' => 'post-data-object-1457583415707-1875',
     'top_padding_num' => '15',
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '10',
     'usingNewAppearance' => true,
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -764,7 +767,7 @@ $post_title->add_element("PostData", array (
       )),
     )),
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '15',
+    'bottom_padding_slider' => '10',
     'preset_style' => '#page .default.upost-data-object-post_data .upostdata-part.date_posted {
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -1003,6 +1006,8 @@ $post_title->add_element("PostData", array (
     array (
       0 => 'title',
     ),
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1252,8 +1257,8 @@ $post_content->add_element("PostData", array (
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',
-    'left_padding_num' => '0',
-    'right_padding_num' => '0',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
     'anchor' => '',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '30',
@@ -1543,7 +1548,7 @@ $post_content->add_element("PostData", array (
       0 => 'title',
     ),
   ),
-  'row' => 93,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
