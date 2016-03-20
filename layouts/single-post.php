@@ -158,12 +158,22 @@ $post_title = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'background_type' => 'color',
+       'top_bg_padding_slider' => '80',
+       'top_bg_padding_num' => '80',
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'background_type' => 'color',
+       'top_bg_padding_slider' => '45',
+       'top_bg_padding_num' => '45',
+       'bottom_bg_padding_slider' => '25',
+       'bottom_bg_padding_num' => '25',
+       'row' => 31,
     )),
+     'current_property' => 'top_bg_padding_num',
   )),
   'background_type' => 'color',
   'use_padding' => 0,
@@ -198,6 +208,7 @@ $post_title->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457708228375-1666',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -248,9 +259,9 @@ $post_title->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
-      'order' => 1,
+      'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
@@ -265,17 +276,20 @@ $post_title->add_group(array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 0,
+      'row' => 9,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 13,
     ),
   ),
 ));
@@ -365,6 +379,17 @@ $post_title->add_element("PostData", array (
     array (
       0 => 'title',
     ),
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 6,
+      )),
+       'tablet' => 
+      (array)(array(
+         'row' => 4,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -377,34 +402,46 @@ $post_title->add_element("PostData", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 1,
+      'edited' => true,
+      'col' => 10,
+      'order' => 0,
       'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 1,
+      'edited' => true,
+      'col' => 6,
+      'order' => 0,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 10,
       'order' => 0,
+      'top' => 0,
+      'row' => 4,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 6,
       'order' => 0,
+      'top' => 0,
+      'row' => 6,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'close_wrapper' => false,
@@ -430,33 +467,36 @@ $post_title->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'col' => 12,
+          'col' => 10,
           'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
         array (
-          'col' => 7,
+          'col' => 6,
           'order' => 1,
           'clear' => true,
         ),
       ),
       'use_padding' => 'yes',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 12,
+          'col' => 10,
           'order' => 0,
+          'row' => 4,
         ),
         'mobile' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 7,
+          'col' => 6,
           'order' => 0,
+          'row' => 6,
         ),
       ),
     ),
@@ -592,17 +632,23 @@ $post_title->add_element("PostData", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 10,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 6,
       'order' => 0,
+      'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'group' => 'module-group-1457707870756-1334',
@@ -627,33 +673,36 @@ $post_title->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'col' => 12,
+          'col' => 10,
           'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
         array (
-          'col' => 7,
+          'col' => 6,
           'order' => 1,
           'clear' => true,
         ),
       ),
       'use_padding' => 'yes',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 12,
+          'col' => 10,
           'order' => 0,
+          'row' => 6,
         ),
         'mobile' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 7,
+          'col' => 6,
           'order' => 0,
+          'row' => 6,
         ),
       ),
     ),
@@ -745,6 +794,17 @@ $post_title->add_element("PostData", array (
     array (
       0 => 'title',
     ),
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 6,
+      )),
+       'tablet' => 
+      (array)(array(
+         'row' => 6,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -756,34 +816,46 @@ $post_title->add_element("PostData", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 2,
-      'clear' => true,
+      'edited' => true,
+      'col' => 2,
+      'order' => 1,
+      'clear' => false,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 2,
-      'clear' => true,
+      'edited' => true,
+      'col' => 1,
+      'order' => 1,
+      'clear' => false,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 2,
       'order' => 0,
+      'top' => 0,
+      'row' => 6,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 1,
       'order' => 0,
+      'top' => 0,
+      'row' => 6,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'close_wrapper' => false,
@@ -809,33 +881,36 @@ $post_title->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'col' => 12,
+          'col' => 2,
           'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
         array (
-          'col' => 7,
+          'col' => 1,
           'order' => 1,
           'clear' => true,
         ),
       ),
       'use_padding' => 'yes',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 12,
+          'col' => 2,
           'order' => 0,
+          'row' => 6,
         ),
         'mobile' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 7,
+          'col' => 1,
           'order' => 0,
+          'row' => 6,
         ),
       ),
     ),
@@ -938,17 +1013,23 @@ $post_title->add_element("PostData", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 2,
       'order' => 1,
+      'top' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 7,
+      'col' => 1,
       'order' => 1,
+      'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'group' => 'module-group-1457707870756-1334',
@@ -973,33 +1054,36 @@ $post_title->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'col' => 12,
+          'col' => 2,
           'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
         array (
-          'col' => 7,
+          'col' => 1,
           'order' => 1,
           'clear' => true,
         ),
       ),
       'use_padding' => 'yes',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 12,
+          'col' => 2,
           'order' => 0,
+          'row' => 6,
         ),
         'mobile' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 7,
+          'col' => 1,
           'order' => 0,
+          'row' => 6,
         ),
       ),
     ),
@@ -1022,6 +1106,7 @@ $post_title->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457708231347-1940',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1070,7 +1155,9 @@ $post_content = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'background_type' => 'color',
     )),
+     'current_property' => 'background_type',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -1103,6 +1190,7 @@ $post_content->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457708925817-1940',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1110,7 +1198,6 @@ $post_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1457708925815-1025',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -1179,6 +1266,17 @@ $post_content->add_element("PostData", array (
 }
 ',
     'resize_featured' => '1',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 50,
+      )),
+       'mobile' => 
+      (array)(array(
+         'row' => 24,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1186,7 +1284,6 @@ $post_content->add_element("PostData", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1457708823315-1712',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1208,17 +1305,19 @@ $post_content->add_element("PostData", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'row' => 50,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 24,
     ),
   ),
   'objects' => 
@@ -1255,6 +1354,7 @@ $post_content->add_element("PostData", array (
         ),
       ),
       'use_padding' => 'yes',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1263,6 +1363,7 @@ $post_content->add_element("PostData", array (
           'left' => 0,
           'col' => 12,
           'order' => 0,
+          'row' => 50,
         ),
         'mobile' => 
         array (
@@ -1270,6 +1371,7 @@ $post_content->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+          'row' => 24,
         ),
       ),
     ),
@@ -1292,6 +1394,7 @@ $post_content->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457708936800-1665',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1299,7 +1402,6 @@ $post_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1457708936799-1096',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1329,6 +1431,7 @@ $post_content->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457708814140-1388',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1336,7 +1439,6 @@ $post_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1457708814139-1584',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -1443,7 +1545,6 @@ $post_content->add_element("PostData", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1457586698750-1826',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1511,6 +1612,7 @@ $post_content->add_element("PostData", array (
         ),
       ),
       'use_padding' => 'yes',
+      'preset' => 'default',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -1549,6 +1651,7 @@ $post_content->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457708817056-1801',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1556,7 +1659,6 @@ $post_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1457708817055-1190',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1572,40 +1674,60 @@ $post_content->add_element("Uspacer", array (
 
 $post_content->add_element("Uspacer", array (
   'columns' => '3',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1458430907222-1364 upfront-module-spacer',
   'id' => 'module-1458430907222-1364',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1458430907221-1193',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1458430907221-1193',
+    'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1458430907220-1637',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1458430907220-1637',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 3,
+    ),
+    'mobile' => 
+    array (
+      'col' => 3,
+    ),
+  ),
 ));
 
 $post_content->add_element("PostData", array (
   'columns' => '18',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '0',
-  'class' => 'upfront-post_data_module',
+  'margin_bottom' => '0',
+  'class' => 'module-1458430613171-1235',
   'id' => 'module-1458430613171-1235',
   'options' => 
   array (
-    'data_type' => 'comments',
-    'row' => 40,
     'type' => 'PostDataModel',
     'view_class' => 'PostDataView',
     'has_settings' => 1,
     'class' => 'c24 upost-data-object upost-data-object-comments',
     'id_slug' => 'post-data',
+    'data_type' => 'comments',
+    'preset' => 'simple-comments',
+    'row' => 40,
     'type_parts' => 
     array (
       0 => 'comment_count',
@@ -1639,7 +1761,6 @@ $post_content->add_element("PostData", array (
     'post-part-comment_form' => '<div class="upostdata-part comment_form">
 	{{comment_form}}
 </div>',
-    'preset' => 'simple-comments',
     'element_id' => 'post-data-object-1458430613168-1645',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -1658,10 +1779,268 @@ $post_content->add_element("PostData", array (
          'preset' => 'simple-comments',
       )),
     )),
+    'static-comment_count-use-typography' => 'yes',
+    'static-comment_count-font-family' => 'Oswald',
+    'static-comment_count-weight' => '400',
+    'static-comment_count-fontstyle' => 'regular',
+    'static-comment_count-style' => 'normal',
+    'static-comment_count-font-size' => '16',
+    'static-comment_count-line-height' => '2',
+    'static-comment_count-font-color' => '#ufc5',
+    'static-comments-use-typography' => 'yes',
+    'static-comments-font-family' => 'Open Sans',
+    'static-comments-weight' => '300',
+    'static-comments-fontstyle' => '300 normal',
+    'static-comments-style' => 'normal',
+    'static-comments-font-size' => '16',
+    'static-comments-line-height' => '2',
+    'static-comments-font-color' => '#ufc5',
+    'static-comments_pagination-use-typography' => '',
+    'static-comments_pagination-font-family' => 'Open Sans',
+    'static-comments_pagination-weight' => '300',
+    'static-comments_pagination-fontstyle' => '300 normal',
+    'static-comments_pagination-style' => 'normal',
+    'static-comments_pagination-font-size' => '16',
+    'static-comments_pagination-line-height' => '2',
+    'static-comments_pagination-font-color' => '#ufc0',
+    'static-comment_form-use-typography' => '',
+    'static-comment_form-font-family' => 'Open Sans',
+    'static-comment_form-weight' => '300',
+    'static-comment_form-fontstyle' => '300 normal',
+    'static-comment_form-style' => 'normal',
+    'static-comment_form-font-size' => '16',
+    'static-comment_form-line-height' => '2',
+    'static-comment_form-font-color' => '#ufc5',
+    'preset_style' => '#page .default.upost-data-object-comments  .upfront-comments {
+    list-style: none;
+    margin: 0 0 60px 0;
+    padding: 0;
+}
+#page .default.upost-data-object-comments  .upfront-comments ol.children {
+    margin-left: 45px;
+}
+#page .default.upost-data-object-comments li.comment {
+    list-style-type: none;
+    margin: 10px 0 0;
+    overflow: hidden;
+}
+#page .default.upost-data-object-comments li.comment.depth-1:first-child {
+    margin-top: 0;
+}
+#page .default.upost-data-object-comments article {
+    overflow: hidden;
+}
+#page .default.upost-data-object-comments .comment-wrapper {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 4px;
+}
+#page .default.upost-data-object-comments .comment-avatar {
+    float: left;
+    max-height: 75px;
+    margin-right: 30px;
+}
+#page .default.upost-data-object-comments .comment-avatar img {
+    background: /*#ufc6*/#ffffff;
+    box-sizing: border-box;
+    padding: 2px;
+    border: 1px solid /*#ufc0*/#69a8a6;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+#page .default.upost-data-object-comments .comment-content-wrapper {
+    float: left;
+    width: 100%;
+}
+#page .default.upost-data-object-comments .depth-2 .comment-content-wrapper {
+    width: 100%;
+}
+#page .default.upost-data-object-comments  .depth-3 .comment-content-wrapper {
+    width: 100%;
+}
+#page .default.upost-data-object-comments  .upfront-comments .comment-author .fn, #page .default.upost-data-object-comments  .upfront-comments .comment-author a {
+    color: /*#ufc7*/#333333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+#page .default.upost-data-object-comments  .upfront-comments .comment-author a:hover {
+    color: /*#ufc5*/#666666;
+    font-weight: 600;
+}
+#page .default.upost-data-object-comments  .upfront-comments .comment-time {
+    margin-top:-10px;
+}
+#page .default.upost-data-object-comments  .upfront-comments .comment-time a {
+    color: /*#ufc2*/#a89084;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 25px;
+}
+#page .default.upost-data-object-comments  .upfront-comments .comment-time a:hover {
+    text-decoration: underline;
+}
+#page .default.upost-data-object-comments .comment-content p:last-child {
+    margin: 0;
+}
+#page .default.upost-data-object-comments  .edit-link {
+    margin-bottom: 0;
+}
+#page .default.upost-data-object-comments  .comment-edit-link {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+}
+#page .default.upost-data-object-comments  .comment-edit-link:hover {
+    font-weight: 400;
+}
+#page .default.upost-data-object-comments .comment-meta-actions {
+    margin-top: 5px;
+    overflow: hidden;
+}
+#page .default.upost-data-object-comments  p.comment-awaiting-moderation {
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 25px;
+    margin-bottom: 0;
+    max-width: 75%;
+    width: 100%;
+}
+#page .default.upost-data-object-comments  p.comment-awaiting-moderation + .comment-reply {
+    float: left;
+    max-width: 25%;
+}
+#page .default.upost-data-object-comments .comment-reply {
+    text-align: right;
+    width: 100%;
+    font-size: 13px;
+}
+#page .default.upost-data-object-comments .comment-reply a {
+    line-height: 25px;
+    font-weight: 400;
+}
+#page .default.upost-data-object-comments .comment-reply a:hover {
+    font-weight: 400;
+}
+#page .default.upost-data-object-comments #respond {
+    border-top: 1px solid /*#ufc4*/#e2ded5;
+    padding-top: 30px;
+}
+#page .default.upost-data-object-comments h3.comment-reply-title {
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0;
+    margin-bottom:5px;
+}
+#page .default.upost-data-object-comments h3.comment-reply-title a {
+    color: /*#ufc0*/#69a8a6;
+    text-transform: none;
+}
+#page .default.upost-data-object-comments h3.comment-reply-title small {
+    display: block;
+}
+#page .default.upost-data-object-comments #cancel-comment-reply-link {
+    color: /*#ufc2*/#a89084;
+    font-size: 16px;
+    line-height: 25px;
+}
+#page .default.upost-data-object-comments #cancel-comment-reply-link:hover {
+    color: /*#ufc0*/#69a8a6;
+}
+#page .default.upost-data-object-comments p.logged-in-as {
+    color: /*#ufc7*/#333333;
+    font-size: 15px;
+    line-height: 25px;
+}
+#page .default.upost-data-object-comments #commentform {
+    margin-top: 0;
+}
+#page .default.upost-data-object-comments .comment-form input[type="text"], #page .default.upost-data-object-comments .comment-form textarea {
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #707070;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    -webkit-transition: border-color .2s;
+    transition: border-color .2s;
+    width: 100%;
+}
+#page .default.upost-data-object-comments .comment-form input[type="text"] {
+    padding: 5px 15px;
+}
+#page .default.upost-data-object-comments .comment-form textarea {
+    padding: 10px 15px;
+}
+#page .default.upost-data-object-comments .comment-form input[type="text"]:focus, #page .default.upost-data-object-comments .comment-form textarea:focus {
+    border-color: /*#ufc0*/#69a8a6;
+    color: #ufc8;
+}
+#page .default.upost-data-object-comments .comment-form label {
+    color: /*#ufc7*/#333333;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    margin-bottom: 5px
+}
+#page .default.upost-data-object-comments .comment-form-comment label {
+    display: none;
+}
+#page .default.upost-data-object-comments  p.comment-form-author, #page .default.upost-data-object-comments  p.comment-form-email, #page .default.upost-data-object-comments  p.comment-form-url {
+    float: left;
+    margin-left: 2%;
+    width: 32%;
+}
+#page .default.upost-data-object-comments  p.comment-form-author {
+    margin-left: 0;
+}
+#page .default.upost-data-object-comments p.comment-form-comment {
+    clear: both;
+}
+#page .default.upost-data-object-comments  p.comment-notes {
+    color: /*#ufc7*/#333333;
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+#page .default.upost-data-object-comments p.form-submit {
+    margin: 0;
+    text-align: right;
+}
+#page .default.upost-data-object-comments input.submit {
+    background: /*#ufc0*/#69a8a6;
+    border-bottom: 3px solid /*#ufc1*/#548685;
+    border-radius: 4px;
+    color: /*#ufc6*/#ffffff;
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1em;
+    min-width: 150px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+}
+#page .default.upost-data-object-comments input.submit:hover {
+    background-color: /*#ufc1*/#548685;
+}
+',
   ),
-  'row' => 40,
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1458430661268-1479',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1701,6 +2080,10 @@ $post_content->add_element("PostData", array (
     0 => 
     array (
       'columns' => '18',
+      'margin_left' => '0',
+      'margin_right' => '0',
+      'margin_top' => '0',
+      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part part-comments',
       'view_class' => 'PostDataPartView',
       'part_type' => 'comments',
@@ -1714,19 +2097,18 @@ $post_content->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'edited' => false,
           'col' => 12,
           'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
         array (
-          'edited' => false,
           'col' => 7,
           'order' => 1,
           'clear' => true,
         ),
       ),
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1748,53 +2130,10 @@ $post_content->add_element("PostData", array (
     1 => 
     array (
       'columns' => '18',
-      'class' => 'upfront-post-data-part part-comments_pagination',
-      'view_class' => 'PostDataPartView',
-      'part_type' => 'comments_pagination',
-      'wrapper_id' => 'wrapper-1458430613165-1715',
-      'type' => 'PostDataPartModel',
-      'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1458430613166-1801',
-      'padding_slider' => '15',
-      'use_padding' => 'yes',
-      'wrapper_breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'edited' => false,
-          'col' => 12,
-          'order' => 2,
-          'clear' => true,
-        ),
-        'mobile' => 
-        array (
-          'edited' => false,
-          'col' => 7,
-          'order' => 2,
-          'clear' => true,
-        ),
-      ),
-      'breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'edited' => false,
-          'left' => 0,
-          'col' => 12,
-          'order' => 0,
-        ),
-        'mobile' => 
-        array (
-          'edited' => false,
-          'left' => 0,
-          'col' => 7,
-          'order' => 0,
-        ),
-      ),
-    ),
-    2 => 
-    array (
-      'columns' => '18',
+      'margin_left' => '0',
+      'margin_right' => '0',
+      'margin_top' => '0',
+      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part part-comment_form',
       'view_class' => 'PostDataPartView',
       'part_type' => 'comment_form',
@@ -1808,19 +2147,18 @@ $post_content->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'edited' => false,
           'col' => 12,
-          'order' => 3,
+          'order' => 2,
           'clear' => true,
         ),
         'mobile' => 
         array (
-          'edited' => false,
           'col' => 7,
-          'order' => 3,
+          'order' => 2,
           'clear' => true,
         ),
       ),
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1844,22 +2182,39 @@ $post_content->add_element("PostData", array (
 
 $post_content->add_element("Uspacer", array (
   'columns' => '3',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1458430924959-1351 upfront-module-spacer',
   'id' => 'module-1458430924959-1351',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1458430924959-1473',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1458430924959-1473',
+    'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1458430924958-1136',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1458430924958-1136',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 3,
+    ),
+    'mobile' => 
+    array (
+      'col' => 3,
+    ),
+  ),
 ));
 
 $regions->add($post_content);
