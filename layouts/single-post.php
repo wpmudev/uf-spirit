@@ -208,6 +208,7 @@ $post_title->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1458623080460-1486',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1119,6 +1120,7 @@ $post_title->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1458623084631-1650',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1242,7 +1244,7 @@ $post_content->add_element("PostData", array (
     'id_slug' => 'post-data',
     'data_type' => 'featured_image',
     'preset' => 'default',
-    'row' => 83,
+    'row' => 66,
     'type_parts' => 
     array (
       0 => 'featured_image',
@@ -1284,8 +1286,15 @@ $post_content->add_element("PostData", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 47,
+      )),
+    )),
   ),
-  'row' => 83,
+  'row' => 66,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1320,10 +1329,11 @@ $post_content->add_element("PostData", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 47,
     ),
   ),
   'objects' => 
@@ -1342,7 +1352,7 @@ $post_content->add_element("PostData", array (
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
       'element_id' => 'post-data-part-object-1458595452529-1411',
-      'row' => 83,
+      'row' => 66,
       'padding_slider' => '15',
       'use_padding' => 'yes',
       'wrapper_breakpoint' => 
@@ -1360,6 +1370,7 @@ $post_content->add_element("PostData", array (
           'clear' => true,
         ),
       ),
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1375,6 +1386,7 @@ $post_content->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+          'row' => 47,
         ),
       ),
     ),
@@ -1431,6 +1443,7 @@ $post_content->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1458625676429-1664',
   'default_hide' => 1,
@@ -1449,7 +1462,7 @@ $post_content->add_element("PostData", array (
   'options' => 
   array (
     'data_type' => 'post_data',
-    'row' => 40,
+    'row' => 100,
     'type' => 'PostDataModel',
     'view_class' => 'PostDataView',
     'has_settings' => 1,
@@ -1521,8 +1534,15 @@ $post_content->add_element("PostData", array (
     )),
     'top_padding_use' => 'yes',
     'top_padding_slider' => '15',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 187,
+      )),
+    )),
   ),
-  'row' => 40,
+  'row' => 100,
   'wrapper_id' => 'wrapper-1458625660140-1402',
   'edited' => true,
   'wrapper_breakpoint' => 
@@ -1553,10 +1573,11 @@ $post_content->add_element("PostData", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 187,
     ),
   ),
   'objects' => 
@@ -1573,7 +1594,8 @@ $post_content->add_element("PostData", array (
       'element_id' => 'post-data-part-object-1458625653470-1576',
       'padding_slider' => '15',
       'use_padding' => 'yes',
-      'row' => 86,
+      'row' => 100,
+      'preset' => 'default',
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
@@ -1606,6 +1628,7 @@ $post_content->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+          'row' => 187,
         ),
       ),
     ),
@@ -1624,6 +1647,7 @@ $post_content->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1458625680312-1430',
   'default_hide' => 1,
