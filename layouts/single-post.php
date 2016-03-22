@@ -184,8 +184,8 @@ $post_title = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => '120',
   'top_bg_padding_num' => '120',
-  'bottom_bg_padding_slider' => '0',
-  'bottom_bg_padding_num' => '0',
+  'bottom_bg_padding_slider' => '10',
+  'bottom_bg_padding_num' => '10',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ffffff',
@@ -198,8 +198,8 @@ $post_title->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1457708228376-1924 upfront-module-spacer',
-  'id' => 'module-1457708228376-1924',
+  'class' => 'module-1458623080461-1435 upfront-module-spacer',
+  'id' => 'module-1458623080461-1435',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -207,15 +207,14 @@ $post_title->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1457708228375-1666',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1458623080460-1486',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1457708228373-1431',
+  'wrapper_id' => 'wrapper-1458623080459-1321',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -298,7 +297,7 @@ $post_title->add_group(array (
 ));
 
 $post_title->add_element("PostData", array (
-  'columns' => '17',
+  'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -455,7 +454,7 @@ $post_title->add_element("PostData", array (
   array (
     0 => 
     array (
-      'columns' => '17',
+      'columns' => '16',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -509,7 +508,7 @@ $post_title->add_element("PostData", array (
 ));
 
 $post_title->add_element("PostData", array (
-  'columns' => '17',
+  'columns' => '16',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -664,7 +663,7 @@ $post_title->add_element("PostData", array (
   array (
     0 => 
     array (
-      'columns' => '17',
+      'columns' => '16',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -719,7 +718,7 @@ $post_title->add_element("PostData", array (
 ));
 
 $post_title->add_element("PostData", array (
-  'columns' => '3',
+  'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -874,7 +873,7 @@ $post_title->add_element("PostData", array (
   array (
     0 => 
     array (
-      'columns' => '3',
+      'columns' => '4',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -928,7 +927,7 @@ $post_title->add_element("PostData", array (
 ));
 
 $post_title->add_element("PostData", array (
-  'columns' => '3',
+  'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -944,7 +943,7 @@ $post_title->add_element("PostData", array (
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
     'preset' => 'the-month',
-    'row' => 4,
+    'row' => 5,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -1016,7 +1015,7 @@ $post_title->add_element("PostData", array (
     'bottom_padding_slider' => '0',
     'theme_preset' => 'true',
   ),
-  'row' => 6,
+  'row' => 5,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1050,7 +1049,7 @@ $post_title->add_element("PostData", array (
   array (
     0 => 
     array (
-      'columns' => '3',
+      'columns' => '4',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
@@ -1080,6 +1079,7 @@ $post_title->add_element("PostData", array (
       ),
       'use_padding' => 'yes',
       'preset' => 'default',
+      'row' => 5,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1109,8 +1109,8 @@ $post_title->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1457708231347-1930 upfront-module-spacer',
-  'id' => 'module-1457708231347-1930',
+  'class' => 'module-1458623084632-1630 upfront-module-spacer',
+  'id' => 'module-1458623084632-1630',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -1118,15 +1118,14 @@ $post_title->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1457708231347-1940',
-    'preset' => 'default',
+    'element_id' => 'spacer-object-1458623084631-1650',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1457708231346-1160',
+  'wrapper_id' => 'wrapper-1458623084631-1671',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1193,8 +1192,8 @@ $post_content->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1458596545119-1206 upfront-module-spacer',
-  'id' => 'module-1458596545119-1206',
+  'class' => 'module-1457708814141-1183 upfront-module-spacer',
+  'id' => 'module-1457708814141-1183',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -1202,24 +1201,26 @@ $post_content->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1458596545119-1245',
+    'element_id' => 'spacer-object-1457708814140-1388',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1458596545117-1962',
+  'wrapper_id' => 'wrapper-1457708814139-1584',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 2,
+      'col' => 3,
     ),
     'mobile' => 
     array (
-      'col' => 2,
+      'col' => 3,
     ),
   ),
 ));
@@ -1241,7 +1242,7 @@ $post_content->add_element("PostData", array (
     'id_slug' => 'post-data',
     'data_type' => 'featured_image',
     'preset' => 'default',
-    'row' => 67,
+    'row' => 83,
     'type_parts' => 
     array (
       0 => 'featured_image',
@@ -1269,13 +1270,13 @@ $post_content->add_element("PostData", array (
     'static-featured_image-border-type' => 'solid',
     'static-featured_image-border-color' => '#ufc4',
     'element_id' => 'post-data-object-1458595452531-1458',
-    'top_padding_num' => '5',
+    'top_padding_num' => '0',
     'bottom_padding_num' => '30',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'lock_padding' => '',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '5',
+    'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '30',
     'padding_slider' => '15',
@@ -1284,12 +1285,13 @@ $post_content->add_element("PostData", array (
     'right_padding_num' => '15',
     'anchor' => '',
   ),
-  'row' => 6,
+  'row' => 83,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1458596536376-1981',
+  'wrapper_id' => 'wrapper-1457586698750-1826',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1340,7 +1342,7 @@ $post_content->add_element("PostData", array (
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
       'element_id' => 'post-data-part-object-1458595452529-1411',
-      'row' => 67,
+      'row' => 83,
       'padding_slider' => '15',
       'use_padding' => 'yes',
       'wrapper_breakpoint' => 
@@ -1385,8 +1387,8 @@ $post_content->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1458596547892-1373 upfront-module-spacer',
-  'id' => 'module-1458596547892-1373',
+  'class' => 'module-1457708817057-1710 upfront-module-spacer',
+  'id' => 'module-1457708817057-1710',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -1394,43 +1396,7 @@ $post_content->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1458596547892-1091',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1458596547891-1994',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 2,
-    ),
-    'mobile' => 
-    array (
-      'col' => 2,
-    ),
-  ),
-));
-
-$post_content->add_element("Uspacer", array (
-  'columns' => '3',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1457708814141-1183 upfront-module-spacer',
-  'id' => 'module-1457708814141-1183',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24 upfront-object-spacer',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1457708814140-1388',
+    'element_id' => 'spacer-object-1457708817056-1801',
     'preset' => 'default',
   ),
   'row' => 6,
@@ -1438,8 +1404,8 @@ $post_content->add_element("Uspacer", array (
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1457708814139-1584',
-  'new_line' => true,
+  'wrapper_id' => 'wrapper-1457708817055-1190',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1453,31 +1419,49 @@ $post_content->add_element("Uspacer", array (
   ),
 ));
 
+$post_content->add_element("Uspacer", array (
+  'columns' => '3',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1458625676431-1336',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1458625676430-1028',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1458625676429-1664',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
 $post_content->add_element("PostData", array (
   'columns' => '18',
   'margin_left' => '0',
-  'margin_right' => '0',
   'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1457586378756-1426',
-  'id' => 'module-1457586378756-1426',
+  'class' => 'upfront-post_data_module',
+  'id' => 'module-1458625653475-1755',
   'options' => 
   array (
+    'data_type' => 'post_data',
+    'row' => 40,
     'type' => 'PostDataModel',
     'view_class' => 'PostDataView',
     'has_settings' => 1,
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
-    'data_type' => 'post_data',
-    'preset' => 'the-content',
-    'row' => 92,
     'type_parts' => 
     array (
       0 => 'date_posted',
       1 => 'title',
       2 => 'content',
     ),
-    'date_posted_format' => 'F j, Y g:i a',
+    'date_posted_format' => 'F j, Y',
     'content' => 'content',
     'post-part-date_posted' => '<div class="upostdata-part date_posted">
 	Posted on <span class="date">{{date}}</span></div>',
@@ -1488,26 +1472,7 @@ $post_content->add_element("PostData", array (
     'post-part-content' => '<div class="upostdata-part content">
 	{{content}}
 </div>',
-    'element_id' => 'post-data-object-1457586378755-1456',
-    'top_padding_num' => '0',
-    'bottom_padding_num' => '15',
-    'usingNewAppearance' => true,
-    'use_padding' => 'yes',
-    'lock_padding' => '',
-    'padding_slider' => '15',
-    'padding_number' => '15',
-    'left_padding_num' => '15',
-    'right_padding_num' => '15',
-    'anchor' => '',
-    'breakpoint_presets' => 
-    (array)(array(
-       'desktop' => 
-      (array)(array(
-         'preset' => 'the-content',
-      )),
-    )),
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
+    'preset' => 'the-content',
     'preset_style' => '#page .default.upost-data-object-post_data .upostdata-part.date_posted {
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -1534,18 +1499,32 @@ $post_content->add_element("PostData", array (
     'static-title-font-size' => '25',
     'static-title-line-height' => '1.3',
     'static-title-font-color' => '#ufc7',
-    'hidden_parts' => 
-    array (
-      0 => 'title',
-    ),
     'theme_preset' => 'true',
+    'element_id' => 'post-data-object-1458625653472-1720',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'the-content',
+      )),
+    )),
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '15',
   ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 0,
-  'hide' => 0,
-  'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1457586698750-1826',
+  'row' => 40,
+  'wrapper_id' => 'wrapper-1458625660140-1402',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1585,37 +1564,33 @@ $post_content->add_element("PostData", array (
     0 => 
     array (
       'columns' => '18',
-      'margin_left' => '0',
-      'margin_right' => '0',
-      'margin_top' => '0',
-      'margin_bottom' => '0',
-      'class' => 'upfront-post-data-part',
+      'class' => 'upfront-post-data-part part-content',
       'view_class' => 'PostDataPartView',
       'part_type' => 'content',
-      'wrapper_id' => 'wrapper-1457586792356-1722',
+      'wrapper_id' => 'wrapper-1458625653469-1728',
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1457586792358-1761',
+      'element_id' => 'post-data-part-object-1458625653470-1576',
       'padding_slider' => '15',
+      'use_padding' => 'yes',
+      'row' => 86,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
+          'edited' => false,
           'col' => 12,
           'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
         array (
+          'edited' => false,
           'col' => 7,
           'order' => 1,
           'clear' => true,
         ),
       ),
-      'use_padding' => 'yes',
-      'preset' => 'default',
-      'row' => 92,
-      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1639,39 +1614,22 @@ $post_content->add_element("PostData", array (
 
 $post_content->add_element("Uspacer", array (
   'columns' => '3',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1457708817057-1710 upfront-module-spacer',
-  'id' => 'module-1457708817057-1710',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1458625680313-1273',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1458625680313-1019',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1457708817056-1801',
-    'preset' => 'default',
   ),
-  'row' => 6,
-  'sticky' => false,
+  'wrapper_id' => 'wrapper-1458625680312-1430',
   'default_hide' => 1,
-  'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1457708817055-1190',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 3,
-    ),
-    'mobile' => 
-    array (
-      'col' => 3,
-    ),
-  ),
+  'hide' => 0,
+  'edited' => true,
 ));
 
 $post_content->add_element("Uspacer", array (
@@ -1698,6 +1656,7 @@ $post_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1458430907220-1637',
+  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -2069,6 +2028,7 @@ $post_content->add_element("PostData", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1458430661268-1479',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2247,6 +2207,7 @@ $post_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1458430924958-1136',
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
