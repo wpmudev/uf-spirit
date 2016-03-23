@@ -1837,7 +1837,7 @@ $post_content->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-comments',
     'id_slug' => 'post-data',
     'data_type' => 'comments',
-    'preset' => 'comments-with-form-only',
+    'preset' => 'default',
     'row' => 40,
     'type_parts' => 
     array (
@@ -1887,7 +1887,7 @@ $post_content->add_element("PostData", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'comments-with-form-only',
+         'preset' => 'default',
       )),
        'tablet' => 
       (array)(array(
@@ -2329,6 +2329,102 @@ $post_content->add_element("PostData", array (
         'current_property' => 
         array (
           0 => 'use_padding',
+        ),
+      ),
+    ),
+    2 => 
+    array (
+      'columns' => '24',
+      'class' => 'upfront-post-data-part',
+      'view_class' => 'PostDataPartView',
+      'part_type' => 'comment_count',
+      'wrapper_id' => 'wrapper-1458709369771-1048',
+      'type' => 'PostDataPartModel',
+      'id_slug' => 'post-data-part',
+      'element_id' => 'post-data-part-object-1458709369773-1508',
+      'padding_slider' => '15',
+      'use_padding' => 'yes',
+      'new_line' => true,
+      'wrapper_breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'edited' => false,
+          'col' => 12,
+          'order' => 3,
+          'clear' => true,
+        ),
+        'mobile' => 
+        array (
+          'edited' => false,
+          'col' => 7,
+          'order' => 3,
+          'clear' => true,
+        ),
+      ),
+      'breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'edited' => false,
+          'left' => 0,
+          'col' => 12,
+          'order' => 0,
+        ),
+        'mobile' => 
+        array (
+          'edited' => false,
+          'left' => 0,
+          'col' => 7,
+          'order' => 0,
+        ),
+      ),
+    ),
+    3 => 
+    array (
+      'columns' => '24',
+      'class' => 'upfront-post-data-part',
+      'view_class' => 'PostDataPartView',
+      'part_type' => 'comments_pagination',
+      'wrapper_id' => 'wrapper-1458709380667-1723',
+      'type' => 'PostDataPartModel',
+      'id_slug' => 'post-data-part',
+      'element_id' => 'post-data-part-object-1458709380668-1192',
+      'padding_slider' => '15',
+      'use_padding' => 'yes',
+      'new_line' => true,
+      'wrapper_breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'edited' => false,
+          'col' => 12,
+          'order' => 4,
+          'clear' => true,
+        ),
+        'mobile' => 
+        array (
+          'edited' => false,
+          'col' => 7,
+          'order' => 4,
+          'clear' => true,
+        ),
+      ),
+      'breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'edited' => false,
+          'left' => 0,
+          'col' => 12,
+          'order' => 0,
+        ),
+        'mobile' => 
+        array (
+          'edited' => false,
+          'left' => 0,
+          'col' => 7,
+          'order' => 0,
         ),
       ),
     ),
