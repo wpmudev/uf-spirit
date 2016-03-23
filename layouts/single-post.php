@@ -390,12 +390,14 @@ $post_title->add_element("PostData", array (
        'mobile' => 
       (array)(array(
          'row' => 6,
+         'use_padding' => 'yes',
       )),
        'tablet' => 
       (array)(array(
          'row' => 4,
+         'use_padding' => 'yes',
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
     )),
     'theme_style' => '',
     'theme_preset' => 'true',
@@ -640,7 +642,7 @@ $post_title->add_element("PostData", array (
       )),
     )),
   ),
-  'row' => 4,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -825,13 +827,14 @@ $post_title->add_element("PostData", array (
        'tablet' => 
       (array)(array(
          'row' => 4,
+         'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
     )),
     'theme_preset' => 'true',
     'top_padding_use' => 'yes',
   ),
-  'row' => 5,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1044,9 +1047,13 @@ $post_title->add_element("PostData", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
-  'row' => 4,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1326,13 +1333,27 @@ $post_content->add_element("PostData", array (
        'mobile' => 
       (array)(array(
          'row' => 29,
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '20',
+         'bottom_padding_num' => '20',
       )),
        'tablet' => 
       (array)(array(
          'row' => 42,
          'use_padding' => 'yes',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '20',
+         'bottom_padding_num' => '34',
+         'top_padding_num' => '0',
+         'left_padding_num' => '15',
+         'right_padding_num' => '15',
+         'top_padding_use' => 'yes',
+         'left_padding_use' => 'yes',
+         'right_padding_use' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
     )),
   ),
   'row' => 6,
@@ -1531,7 +1552,7 @@ $post_content->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => 'the-content',
+    'preset' => 'content-only',
     'row' => 100,
     'type_parts' => 
     array (
@@ -1578,7 +1599,7 @@ $post_content->add_element("PostData", array (
     'static-title-font-color' => '#ufc7',
     'theme_preset' => 'true',
     'element_id' => 'post-data-object-1458625653472-1720',
-    'top_padding_num' => '15',
+    'top_padding_num' => '0',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -1593,21 +1614,28 @@ $post_content->add_element("PostData", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'the-content',
+         'preset' => 'content-only',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'content-only-for-tablet',
       )),
     )),
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '15',
+    'top_padding_slider' => '0',
     'breakpoint' => 
     (array)(array(
        'mobile' => 
       (array)(array(
-         'row' => 172,
+         'row' => 189,
+         'use_padding' => 'yes',
       )),
        'tablet' => 
       (array)(array(
-         'row' => 105,
+         'row' => 119,
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
   ),
   'row' => 6,
@@ -1641,7 +1669,7 @@ $post_content->add_element("PostData", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 105,
+      'row' => 119,
     ),
     'mobile' => 
     array (
@@ -1649,29 +1677,29 @@ $post_content->add_element("PostData", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 172,
+      'row' => 189,
     ),
   ),
   'objects' => 
   array (
     0 => 
     array (
-      'columns' => '18',
+      'columns' => '24',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
       'margin_bottom' => '0',
-      'class' => 'upfront-post-data-part part-content',
+      'class' => 'upfront-post-data-part',
       'view_class' => 'PostDataPartView',
       'part_type' => 'content',
-      'wrapper_id' => 'wrapper-1458625653469-1728',
+      'wrapper_id' => 'wrapper-1458702087007-1772',
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1458625653470-1576',
+      'element_id' => 'post-data-part-object-1458702087009-1767',
       'padding_slider' => '15',
       'use_padding' => 'yes',
-      'row' => 100,
       'preset' => 'default',
+      'row' => 100,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
@@ -1687,6 +1715,7 @@ $post_content->add_element("PostData", array (
           'clear' => true,
         ),
       ),
+      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1695,7 +1724,8 @@ $post_content->add_element("PostData", array (
           'left' => 0,
           'col' => 12,
           'order' => 0,
-          'row' => 105,
+          'use_padding' => 'yes',
+          'row' => 119,
         ),
         'mobile' => 
         array (
@@ -1703,7 +1733,13 @@ $post_content->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
-          'row' => 172,
+          'use_padding' => 'yes',
+          'hide' => 0,
+          'row' => 189,
+        ),
+        'current_property' => 
+        array (
+          0 => 'use_padding',
         ),
       ),
     ),
@@ -1801,7 +1837,7 @@ $post_content->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-comments',
     'id_slug' => 'post-data',
     'data_type' => 'comments',
-    'preset' => 'simple-comments',
+    'preset' => 'comments-with-form-only',
     'row' => 40,
     'type_parts' => 
     array (
@@ -1837,7 +1873,7 @@ $post_content->add_element("PostData", array (
 	{{comment_form}}
 </div>',
     'element_id' => 'post-data-object-1458430613168-1645',
-    'top_padding_num' => '15',
+    'top_padding_num' => '30',
     'bottom_padding_num' => '15',
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
@@ -1851,11 +1887,11 @@ $post_content->add_element("PostData", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'simple-comments',
+         'preset' => 'comments-with-form-only',
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'comments-mobile',
+         'preset' => 'comments-with-form-only',
       )),
        'mobile' => 
       (array)(array(
@@ -2135,6 +2171,8 @@ $post_content->add_element("PostData", array (
     array (
       0 => 'comments_pagination',
     ),
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '30',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2219,6 +2257,7 @@ $post_content->add_element("PostData", array (
           'col' => 12,
           'order' => 0,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'mobile' => 
         array (
