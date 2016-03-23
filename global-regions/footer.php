@@ -62,69 +62,15 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 228742,
-         'menu-item-parent-id' => 0,
+         'menu-item-db-id' => 1733,
+         'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS &amp; PRIVACY',
          'menu-item-url' => '{{upfront:home_url}}/privacy/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '228742',
-         'menu-item-target' => '',
-         'menu-item-position' => 0,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/privacy/',
-           'target' => '',
-        )),
-      )),
-      1 => 
-      (array)(array(
-         'menu-item-db-id' => 228743,
-         'menu-item-parent-id' => 0,
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'TERMS &amp; PRIVACY',
-         'menu-item-url' => '{{upfront:home_url}}/privacy/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '228743',
+         'menu-item-object-id' => '1733',
          'menu-item-target' => '',
          'menu-item-position' => 1,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/privacy/',
-           'target' => '',
-        )),
-      )),
-      2 => 
-      (array)(array(
-         'menu-item-db-id' => 228744,
-         'menu-item-parent-id' => 0,
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'TERMS &amp; PRIVACY',
-         'menu-item-url' => '{{upfront:home_url}}/privacy/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '228744',
-         'menu-item-target' => '',
-         'menu-item-position' => 2,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/privacy/',
-           'target' => '',
-        )),
-      )),
-      3 => 
-      (array)(array(
-         'menu-item-db-id' => 228745,
-         'menu-item-parent-id' => 0,
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'TERMS &amp; PRIVACY',
-         'menu-item-url' => '{{upfront:home_url}}/privacy/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '228745',
-         'menu-item-target' => '',
-         'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'entry',
