@@ -62,19 +62,37 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 30,
+         'menu-item-db-id' => 52,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'TERMS &amp; PRIVACY',
-         'menu-item-url' => '{{upfront:home_url}}/privacy/',
+         'menu-item-title' => 'ADVERTISE',
+         'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '30',
+         'menu-item-object-id' => '52',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
-           'url' => '{{upfront:home_url}}/privacy/',
+           'url' => '{{upfront:home_url}}/advertise/',
+           'target' => '',
+        )),
+      )),
+      1 => 
+      (array)(array(
+         'menu-item-db-id' => 53,
+         'menu-item-parent-id' => '0',
+         'menu-item-type' => 'custom',
+         'menu-item-title' => 'TERMS OF USE',
+         'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '53',
+         'menu-item-target' => '',
+         'menu-item-position' => 2,
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/terms-of-use/',
            'target' => '',
         )),
       )),
@@ -124,6 +142,15 @@ $footer->add_element("Unewnavigation", array (
     'top_padding_slider' => '20',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '20',
+    'current_preset' => 'footer-menu',
+    'breakpoint_menu_id' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'menu_id' => 7,
+         'menu_slug' => 'footer-menu',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
