@@ -476,7 +476,7 @@ $archive_content->add_element("Posts", array (
     'pagination' => 'numeric',
     'sticky' => '',
     'posts_list' => '',
-    'thumbnail_size' => 'uf_post_featured_image',
+    'thumbnail_size' => 'large',
     'custom_thumbnail_width' => 200,
     'custom_thumbnail_height' => 200,
     'post_parts' => 

@@ -109,6 +109,8 @@ $region_5->add_element("PlainTxt", array (
          'row' => 5,
       )),
     )),
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -479,7 +481,7 @@ $archive_content->add_element("Posts", array (
     'pagination' => 'numeric',
     'sticky' => '',
     'posts_list' => '',
-    'thumbnail_size' => 'uf_post_featured_image',
+    'thumbnail_size' => 'large',
     'custom_thumbnail_width' => 200,
     'custom_thumbnail_height' => 200,
     'post_parts' => 
