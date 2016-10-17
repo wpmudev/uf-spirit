@@ -217,7 +217,8 @@ return array(
     left: 0;
     border-bottom: 1px solid #e2ded5;
 }
-.upfront-output-object .woocommerce ul.products li.product .onsale {
+.upfront-output-object .woocommerce ul.products li.product .onsale,
+.upfront-output-object .woocommerce span.onsale {
     min-height: auto;
     display: block;
     top: 10px;
@@ -271,6 +272,17 @@ return array(
 .upfront-output-object .woocommerce ul.products li.product:hover .button {
     background: #ufc1;
 }
+@media (max-width: 569px) {
+    .upfront-output-object .woocommerce .woocommerce-result-count {
+        float: none;
+        display: block;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .upfront-output-object .woocommerce .woocommerce-result-count:after {
+        display: none;
+    }
+}
 /* WooCommerce - Select */
 .upfront-output-object .woocommerce .woocommerce-ordering {
     margin-bottom: 0;
@@ -299,6 +311,20 @@ return array(
     transition: 0.2s ease;
     -moz-transition: 0.2s ease;
     -webkit-transition: 0.2s ease;
+}
+@media (max-width: 569px) {
+    .upfront-output-object .woocommerce .woocommerce-ordering {
+        float: none;
+        display: block;
+    }
+    .upfront-output-object .woocommerce .woocommerce-ordering:after {
+        content: " ";
+        width: 100%;
+        height: 15px;
+        display: block;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #e2ded5;
+    }
 }
 /* WooCommerce - Pagination */
 .upfront-output-object .woocommerce nav.woocommerce-pagination ul.page-numbers {
@@ -371,6 +397,44 @@ div#page .upfront-output-object .woocommerce nav.woocommerce-pagination ul.page-
 .upfront-output-object .woocommerce nav.woocommerce-pagination ul.page-numbers li a.page-numbers.next:after {
     content: "Next »";
     left: -15px;
+}
+/* WooCommerce - Single Product Page */
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs {
+    padding: 0;
+}
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs:before,
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li:before,
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li:after {
+    display: none;
+}
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li,
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+}
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li {
+    margin: 0;
+    padding: 0;
+    border: 3px solid transparent;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    background: transparent;
+}
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li:hover,
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    border: 3px solid #97d8d6;
+}
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    padding: 4px 20px;
+    background: #7a8080;
+    font-weight: 300;
+}
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li:hover a,
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+    background: #97d8d6;
 }',
 	'layout_properties' => '[{"name":"version","value":"1.0.0"},{"name":"background_color","value":"rgba(255,255,255,1)"},{"name":"grid","value":{"column_widths":{"desktop":"45"},"column_paddings":{"desktop":"15"},"baselines":{"desktop":"5"},"type_paddings":{"desktop":"10"}}},{"name":"background_type","value":"color"},{"name":"use_padding","value":0},{"name":"contained_region_width","value":"1366"},{"name":"bg_padding_type","value":"varied"},{"name":"top_bg_padding_slider","value":0},{"name":"top_bg_padding_num","value":0},{"name":"bottom_bg_padding_slider","value":0},{"name":"bottom_bg_padding_num","value":0},{"name":"bg_padding_slider","value":0},{"name":"bg_padding_num","value":0}]',
 	'theme_colors' => '{"colors":[{"color":"#69a8a6","prev":"#69a8a6","highlight":"#69a8a6","shade":"#69a8a6","selected":"","luminance":"","alpha":"1"},{"color":"#548685","prev":"#548685","highlight":"#548685","shade":"#548685","selected":"","luminance":"","alpha":"1"},{"color":"#a89084","prev":"#a89084","highlight":"#a89084","shade":"#a89084","selected":"","luminance":"","alpha":"1"},{"color":"#e1e3de","prev":"#e1e3de","highlight":"#e1e3de","shade":"#e1e3de","selected":"","luminance":"","alpha":"1"},{"color":"#e2ded5","prev":"#e2ded5","highlight":"#e2ded5","shade":"#e2ded5","selected":"","luminance":"","alpha":"1"},{"color":"#666666","prev":"#666666","highlight":"#666666","shade":"#666666","selected":"","luminance":"","alpha":"1"},{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","selected":"","luminance":"","alpha":"1"},{"color":"#333333","prev":"#333333","highlight":"#333333","shade":"#333333","selected":"","luminance":"","alpha":"1"}],"range":"0"}',
