@@ -246,7 +246,11 @@ return array(
 .upfront-output-object .woocommerce ul.products li.product .price ins {
     margin-left: 5px;
 }
-.upfront-output-object .woocommerce ul.products li.product .button {
+.upfront-output-object .woocommerce ul.products li.product .button,
+.upfront-output-object .woocommerce div.product form.cart .button,
+.upfront-output-object .woocommerce-error .button,
+.upfront-output-object .woocommerce-info .button,
+.upfront-output-object .woocommerce-message .button {
     display: block;
     padding: 0;
     border-bottom: 2px solid #ufc1;
@@ -269,8 +273,21 @@ return array(
 .upfront-output-object .woocommerce ul.products li.product .button:hover,
 .upfront-output-object .woocommerce ul.products li.product .button:focus,
 .upfront-output-object .woocommerce ul.products li.product .button:active,
-.upfront-output-object .woocommerce ul.products li.product:hover .button {
+.upfront-output-object .woocommerce ul.products li.product:hover .button,
+.upfront-output-object .woocommerce div.product form.cart .button:hover,
+.upfront-output-object .woocommerce div.product form.cart .button:focus,
+.upfront-output-object .woocommerce div.product form.cart .button:active,
+.upfront-output-object .woocommerce-error .button:hover,
+.upfront-output-object .woocommerce-info .button:hover,
+.upfront-output-object .woocommerce-error .button:focus,
+.upfront-output-object .woocommerce-info .button:focus,
+.upfront-output-object .woocommerce-error .button:active,
+.upfront-output-object .woocommerce-info .button:active,
+.upfront-output-object .woocommerce-message .button:hover,
+.upfront-output-object .woocommerce-message .button:focus,
+.upfront-output-object .woocommerce-message .button:active {
     background: #ufc1;
+    color: #ufc6;
 }
 @media (max-width: 569px) {
     .upfront-output-object .woocommerce .woocommerce-result-count {
@@ -287,7 +304,8 @@ return array(
 .upfront-output-object .woocommerce .woocommerce-ordering {
     margin-bottom: 0;
 }
-.upfront-output-object .woocommerce .woocommerce-ordering select {
+.upfront-output-object .woocommerce .woocommerce-ordering select,
+.upfront-output-object .woocommerce div.product form.cart .variations select {
     position: relative;
     z-index: 99;
     padding: 10px 45px 10px 15px;
@@ -399,6 +417,74 @@ div#page .upfront-output-object .woocommerce nav.woocommerce-pagination ul.page-
     left: -15px;
 }
 /* WooCommerce - Single Product Page */
+.upfront-output-object .woocommerce div.product .product_title {
+    color: #ufc7;
+    font-size: 25px;
+    line-height: 1.3em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+}
+.upfront-output-object .woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #ufc2;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: "Oswald", "Open Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.upfront-output-object .woocommerce .woocommerce-product-rating .star-rating {
+    color: #ufc0;
+}
+.upfront-output-object .woocommerce div.product form.cart .variations label {
+    color: #ufc5;
+    font-family: "Oswald", "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.upfront-output-object .woocommerce div.product form.cart div.quantity {
+    margin-right: 10px;
+}
+.upfront-output-object .woocommerce .quantity .qty {
+    padding: 10px;
+    border: 1px solid #ufc6;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #ufc3;
+    background-color: rgba(250, 250, 250, 0.9);
+    color: #ufc2;
+    font-size: 15px;
+    line-height: 1.2;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+.upfront-output-object .woocommerce div.product form.cart .button {
+    padding: 0 20px;
+}
+.upfront-output-object .woocommerce .product_meta > span {
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #f2f2f2;
+    color: #ufc7;
+    font-size: 14px;
+    line-height: 2.2;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.upfront-output-object .woocommerce .product_meta > span:last-child {
+    margin-bottom: 0;
+}
+.upfront-output-object .woocommerce .product_meta span a {
+    color: #ufc0;
+    font-weight: 300;
+}
 .upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs {
     padding: 0;
 }
@@ -422,7 +508,6 @@ div#page .upfront-output-object .woocommerce nav.woocommerce-pagination ul.page-
     -webkit-border-radius: 0;
     background: transparent;
 }
-.upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li:hover,
 .upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
     border: 3px solid #97d8d6;
 }
@@ -435,6 +520,51 @@ div#page .upfront-output-object .woocommerce nav.woocommerce-pagination ul.page-
 .upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
 .upfront-output-object .woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
     background: #97d8d6;
+}
+@media (max-width: 768px){
+    .upfront-output-object .woocommerce div.product form.cart .variations select {
+        width: 230px;
+        min-width: auto;
+        max-width: 100%;
+    }
+}
+/* WooCommerce - Messages */
+.upfront-output-object .woocommerce-error,
+.upfront-output-object .woocommerce-info,
+.upfront-output-object .woocommerce-message {
+    border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    background-color: #f2f2f2;
+    color: #ufc5;
+    font-size: 15px;
+    line-height: 2.6;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+.upfront-output-object .woocommerce-message {
+    border-top-color: #ufc0;
+}
+.upfront-output-object .woocommerce-error .button,
+.upfront-output-object .woocommerce-info .button,
+.upfront-output-object .woocommerce-message .button {
+    padding: 0 15px;
+}
+@media (max-width: 569px) {
+    .upfront-output-object .woocommerce-error,
+    .upfront-output-object .woocommerce-info,
+    .upfront-output-object .woocommerce-message {
+        position: relative;
+        padding-bottom: 70px !important;
+    }
+    .upfront-output-object .woocommerce-error .button,
+    .upfront-output-object .woocommerce-info .button,
+    .upfront-output-object .woocommerce-message .button {
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+        left: 15px;
+    }
 }',
 	'layout_properties' => '[{"name":"version","value":"1.0.0"},{"name":"background_color","value":"rgba(255,255,255,1)"},{"name":"grid","value":{"column_widths":{"desktop":"45"},"column_paddings":{"desktop":"15"},"baselines":{"desktop":"5"},"type_paddings":{"desktop":"10"}}},{"name":"background_type","value":"color"},{"name":"use_padding","value":0},{"name":"contained_region_width","value":"1366"},{"name":"bg_padding_type","value":"varied"},{"name":"top_bg_padding_slider","value":0},{"name":"top_bg_padding_num","value":0},{"name":"bottom_bg_padding_slider","value":0},{"name":"bottom_bg_padding_num","value":0},{"name":"bg_padding_slider","value":0},{"name":"bg_padding_num","value":0}]',
 	'theme_colors' => '{"colors":[{"color":"#69a8a6","prev":"#69a8a6","highlight":"#69a8a6","shade":"#69a8a6","selected":"","luminance":"","alpha":"1"},{"color":"#548685","prev":"#548685","highlight":"#548685","shade":"#548685","selected":"","luminance":"","alpha":"1"},{"color":"#a89084","prev":"#a89084","highlight":"#a89084","shade":"#a89084","selected":"","luminance":"","alpha":"1"},{"color":"#e1e3de","prev":"#e1e3de","highlight":"#e1e3de","shade":"#e1e3de","selected":"","luminance":"","alpha":"1"},{"color":"#e2ded5","prev":"#e2ded5","highlight":"#e2ded5","shade":"#e2ded5","selected":"","luminance":"","alpha":"1"},{"color":"#666666","prev":"#666666","highlight":"#666666","shade":"#666666","selected":"","luminance":"","alpha":"1"},{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","selected":"","luminance":"","alpha":"1"},{"color":"#333333","prev":"#333333","highlight":"#333333","shade":"#333333","selected":"","luminance":"","alpha":"1"}],"range":"0"}',
