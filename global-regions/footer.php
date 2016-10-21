@@ -62,13 +62,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 118,
+         'menu-item-db-id' => 207,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '118',
+         'menu-item-object-id' => '207',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -80,13 +80,13 @@ $footer->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 119,
+         'menu-item-db-id' => 208,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '119',
+         'menu-item-object-id' => '208',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -132,7 +132,7 @@ $footer->add_element("Unewnavigation", array (
        'mobile' => 
       array (
       ),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -147,7 +147,7 @@ $footer->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 17,
+         'menu_id' => 24,
          'menu_slug' => 'footer-menu',
       )),
     )),
@@ -247,12 +247,17 @@ $footer->add_element("PlainTxt", array (
        'mobile' => 
       array (
       ),
-       'current_property' => 'top_padding_num',
+       'current_property' => 'use_padding',
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
     'top_padding_use' => 'yes',
     'top_padding_slider' => '20',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '20',
+    'current_preset' => 'copy',
   ),
   'row' => 6,
   'sticky' => false,
