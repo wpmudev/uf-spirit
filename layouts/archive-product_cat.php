@@ -84,7 +84,7 @@ $region_5->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 style="text-align: center;">BLOG</h1>',
+    'content' => '<h1 style="text-align: center;">SHOP</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1453424007894-1329',
     'class' => 'c24 upfront-plain_txt',
@@ -106,6 +106,19 @@ $region_5->add_element("PlainTxt", array (
     'anchor' => '',
     'preset' => 'default',
     'row' => 14,
+    'current_preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -220,6 +233,7 @@ $region_3->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1453424059004-1273',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -253,7 +267,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p><a href="{{upfront:home_url}}" target="_self" data-upfront-link-type="homepage">HOME</a> &nbsp;/ &nbsp;BLOG</p>',
+    'content' => '<p><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}">HOME</a> &nbsp;/ &nbsp;SHOP</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1453423534558-1839',
     'class' => 'c24 upfront-plain_txt',
@@ -280,6 +294,19 @@ $region_3->add_element("PlainTxt", array (
     'row' => 12,
     'top_padding_use' => 'yes',
     'top_padding_slider' => '15',
+    'current_preset' => 'breadcrumbs',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -348,6 +375,7 @@ $region_3->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1453424061271-1309',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -430,6 +458,7 @@ $archive_content->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1453424064056-1123',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -518,7 +547,7 @@ $archive_content->add_element("Posts", array (
     'content_length' => '25',
     'resize_featured' => '1',
     'gravatar_size' => 200,
-    'preset' => 'default',
+    'preset' => 'archive-shop',
     'post-part-date_posted' => '<div class="uposts-part date_posted"><span class="date date-day">{{date_1}}</span><span class="date date-month">{{date_2}}</span></div>',
     'post-part-author' => '<div class="uposts-part author">
 	Written By <a href="{{url}}">{{name}}</a></div>',
@@ -565,15 +594,35 @@ $archive_content->add_element("Posts", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'default',
+         'preset' => 'archive-shop',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-shop-for-tablets',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-shop-for-mobiles',
       )),
     )),
     'row' => 227,
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'top_padding_slider' => '30',
-    'current_preset' => 'default',
+    'current_preset' => 'archive-shop',
     'theme_style' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -640,6 +689,7 @@ $archive_content->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1453424066451-1627',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

@@ -106,6 +106,19 @@ $region_5->add_element("PlainTxt", array (
     'anchor' => '',
     'preset' => 'default',
     'row' => 14,
+    'current_preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -220,6 +233,7 @@ $region_3->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1453424059004-1273',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -280,6 +294,19 @@ $region_3->add_element("PlainTxt", array (
     'row' => 12,
     'top_padding_use' => 'yes',
     'top_padding_slider' => '15',
+    'current_preset' => 'breadcrumbs',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -348,6 +375,7 @@ $region_3->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1453424061271-1309',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -430,6 +458,7 @@ $archive_content->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1453424064056-1123',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -567,12 +596,33 @@ $archive_content->add_element("Posts", array (
       (array)(array(
          'preset' => 'archive',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-for-tablets',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-for-mobiles',
+      )),
     )),
     'row' => 227,
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'top_padding_slider' => '30',
     'current_preset' => 'archive',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+    )),
+    'theme_style' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -639,6 +689,7 @@ $archive_content->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1453424066451-1627',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
