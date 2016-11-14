@@ -27,8 +27,10 @@ $products_header = upfront_create_region(
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'top_bg_padding_num' => '25',
+       'row' => 25,
     )),
      'current_property' => 'top_bg_padding_num',
   )),
