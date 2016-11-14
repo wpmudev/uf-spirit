@@ -27,8 +27,10 @@ $cart_header = upfront_create_region(
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'top_bg_padding_num' => '25',
+       'row' => 25,
     )),
      'current_property' => 'top_bg_padding_num',
   )),
@@ -87,6 +89,10 @@ $cart_header->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 15,
@@ -234,6 +240,10 @@ $main->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 15,
@@ -375,6 +385,10 @@ $main->add_element("PostData", array (
       (array)(array(
          'preset' => 'mp-cart-for-tablet',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'mp-cart-for-mobile',
+      )),
     )),
     'preset_style' => '#page .default.upost-data-object-post_data .upostdata-part.date_posted {
     letter-spacing: 0.5px;
@@ -412,6 +426,10 @@ $main->add_element("PostData", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 44,
@@ -516,6 +534,8 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
       ),
     ),
