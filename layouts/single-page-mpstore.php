@@ -88,6 +88,10 @@ $store_header->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 15,
@@ -213,6 +217,10 @@ $main->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 7,
@@ -271,7 +279,7 @@ $main->add_element("PostData", array (
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
     'preset' => 'mp-store',
-    'row' => 40,
+    'row' => 88,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -338,6 +346,10 @@ $main->add_element("PostData", array (
       (array)(array(
          'preset' => 'mp-store-for-tablet',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'mp-store-for-mobile',
+      )),
     )),
     'breakpoint' => 
     (array)(array(
@@ -346,9 +358,13 @@ $main->add_element("PostData", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
-  'row' => 6,
+  'row' => 88,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -447,6 +463,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
@@ -506,6 +523,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
@@ -565,6 +583,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
