@@ -157,8 +157,29 @@ $main = upfront_create_region(
 )
 			);
 
+$main->add_element("Uspacer", array (
+  'columns' => '1',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1479086678108-1678',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1479086678108-1299',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1479086678108-1411',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
+  'new_line' => true,
+));
+
 $main->add_element("PlainTxt", array (
-  'columns' => '24',
+  'columns' => '22',
   'margin_left' => '0',
   'margin_top' => '0',
   'class' => '',
@@ -195,7 +216,7 @@ $main->add_element("PlainTxt", array (
   ),
   'row' => 15,
   'wrapper_id' => 'wrapper-1479086477224-1195',
-  'new_line' => true,
+  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -230,6 +251,26 @@ $main->add_element("PlainTxt", array (
       'col' => 7,
     ),
   ),
+));
+
+$main->add_element("Uspacer", array (
+  'columns' => '1',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1479086679978-1681',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1479086679978-1590',
+    'class' => 'c24 upfront-object-spacer',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1479086679977-1338',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'edited' => true,
 ));
 
 $main->add_element("Uspacer", array (
