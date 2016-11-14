@@ -20,14 +20,20 @@ $product_header = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'bg_padding_num' => '45',
+       'top_bg_padding_num' => '45',
+       'bottom_bg_padding_num' => '0',
+       'bg_padding_type' => 'varied',
+       'row' => 38,
     )),
      'mobile' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
+     'current_property' => 'bottom_bg_padding_num',
   )),
   'sub_regions' => 
   array (
@@ -76,6 +82,15 @@ $product_header->add_element("PlainTxt", array (
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
+    'current_preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
+    )),
   ),
   'row' => 15,
   'wrapper_id' => 'wrapper-1479092031511-1505',
@@ -169,6 +184,8 @@ $main->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1479092105944-1045',
   'default_hide' => 1,
@@ -212,6 +229,14 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'breadcrumbs',
       )),
+    )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
     )),
   ),
   'row' => 15,
@@ -265,6 +290,8 @@ $main->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1479092109584-1539',
   'default_hide' => 1,
@@ -285,6 +312,8 @@ $main->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1479092107199-1977',
   'default_hide' => 1,
@@ -366,9 +395,21 @@ $main->add_element("PostData", array (
       (array)(array(
          'preset' => 'mp-product',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'mp-product-for-tablet',
+      )),
     )),
     'top_padding_use' => 'yes',
     'top_padding_slider' => '15',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
+    )),
   ),
   'row' => 104,
   'sticky' => false,
@@ -453,15 +494,18 @@ $main->add_element("PostData", array (
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
       'lock_padding' => '',
+      'current_preset' => 'default',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'use_padding' => 'yes',
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'lock_padding',
         ),
         'mobile' => 
         array (
@@ -508,16 +552,19 @@ $main->add_element("PostData", array (
       'left_padding_num' => 15,
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
-      'lock_padding' => 0,
+      'lock_padding' => '',
+      'current_preset' => 'default',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'use_padding' => 'yes',
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'use_padding',
         ),
         'mobile' => 
         array (
@@ -564,16 +611,19 @@ $main->add_element("PostData", array (
       'left_padding_num' => 15,
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
-      'lock_padding' => 0,
+      'lock_padding' => '',
+      'current_preset' => 'default',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'use_padding' => 'yes',
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'use_padding',
         ),
         'mobile' => 
         array (
@@ -596,6 +646,8 @@ $main->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1479092111844-1771',
   'default_hide' => 1,
