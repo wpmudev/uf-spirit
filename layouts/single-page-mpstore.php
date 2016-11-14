@@ -20,14 +20,17 @@ $store_header = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'top_bg_padding_num' => '45',
+       'row' => 38,
     )),
      'mobile' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
+     'current_property' => 'top_bg_padding_num',
   )),
   'sub_regions' => 
   array (
@@ -86,6 +89,7 @@ $store_header->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
+         'row' => 9,
       )),
        'current_property' => 'lock_padding',
        'mobile' => 
@@ -121,6 +125,8 @@ $store_header->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'col' => 12,
+      'edited' => true,
+      'row' => 9,
     ),
     'current_property' => 
     array (
@@ -518,7 +524,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'lock_padding',
         ),
         'mobile' => 
         array (
