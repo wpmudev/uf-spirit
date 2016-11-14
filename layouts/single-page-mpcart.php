@@ -20,14 +20,17 @@ $cart_header = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'top_bg_padding_num' => '45',
+       'row' => 38,
     )),
      'mobile' => 
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
+     'current_property' => 'top_bg_padding_num',
   )),
   'sub_regions' => 
   array (
@@ -76,6 +79,15 @@ $cart_header->add_element("PlainTxt", array (
     'use_padding' => 'yes',
     'usingNewAppearance' => true,
     'is_edited' => true,
+    'current_preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
+    )),
   ),
   'row' => 15,
   'wrapper_id' => 'wrapper-1479094490119-1067',
@@ -169,6 +181,8 @@ $main->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1479094537803-1794',
   'default_hide' => 1,
@@ -212,6 +226,14 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'breadcrumbs',
       )),
+    )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
     )),
   ),
   'row' => 15,
@@ -265,6 +287,8 @@ $main->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1479094539434-1169',
   'default_hide' => 1,
@@ -285,6 +309,8 @@ $main->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1479094567825-1314',
   'default_hide' => 1,
@@ -345,6 +371,10 @@ $main->add_element("PostData", array (
       (array)(array(
          'preset' => 'mp-cart',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'mp-cart-for-tablet',
+      )),
     )),
     'preset_style' => '#page .default.upost-data-object-post_data .upostdata-part.date_posted {
     letter-spacing: 0.5px;
@@ -375,6 +405,14 @@ $main->add_element("PostData", array (
     'theme_preset' => 'true',
     'calculated_left_indent' => 0,
     'calculated_right_indent' => 0,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
+    )),
   ),
   'row' => 44,
   'sticky' => false,
@@ -460,16 +498,20 @@ $main->add_element("PostData", array (
       'bottom_padding_num' => 15,
       'lock_padding' => '',
       'row' => 44,
+      'current_preset' => 'default',
+      'preset' => 'default',
       'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'lock_padding',
         ),
         'mobile' => 
         array (
@@ -492,6 +534,8 @@ $main->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'current_preset' => 'default',
+    'preset' => 'default',
   ),
   'wrapper_id' => 'wrapper-1479094569422-1292',
   'default_hide' => 1,
