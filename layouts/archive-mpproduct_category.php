@@ -89,7 +89,7 @@ $region_5->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 class="" style="text-align: center;">STORE</h1>',
+    'content' => '<h1 class="" style="text-align: center;">PRODUCTS</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1453424007894-1329',
     'class' => 'c24 upfront-plain_txt',
@@ -125,7 +125,7 @@ $region_5->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 17,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -272,7 +272,7 @@ $region_3->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}">HOME</a> &nbsp;/ &nbsp;STORE</p>',
+    'content' => '<p><a target="_self" data-upfront-link-type="homepage" href="{{upfront:home_url}}">HOME</a> &nbsp;/&nbsp;<a href="{{upfront:home_url}}/store/" target="_self" data-upfront-link-type="entry">STORE</a> / PRODUCTS</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1453423534558-1839',
     'class' => 'c24 upfront-plain_txt',
@@ -471,17 +471,16 @@ $archive_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1453424064057-1437',
-  'edited' => true,
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 3,
+      'col' => 1,
     ),
     'mobile' => 
     array (
-      'col' => 3,
+      'col' => 1,
     ),
   ),
 ));
@@ -630,13 +629,12 @@ $archive_content->add_element("Posts", array (
     )),
     'theme_style' => '',
   ),
-  'row' => 161,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1442668095508-1224',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -704,16 +702,15 @@ $archive_content->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1453424066451-1154',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'col' => 3,
+      'col' => 1,
     ),
     'mobile' => 
     array (
-      'col' => 3,
+      'col' => 1,
     ),
   ),
 ));
