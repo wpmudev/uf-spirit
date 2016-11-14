@@ -61,14 +61,19 @@ $region_5 = upfront_create_region(
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
   'background_color' => '#ffffff',
-  'background_style' => 'fixed',
+  'background_style' => 'full',
   'background_position_y' => '0',
   'background_position_x' => '50',
-  'background_image' => '{{upfront:style_url}}/images/archive-mpproduct_category/bg-archive.jpg',
-  'background_image_ratio' => 0.2300000000000000099920072216264088638126850128173828125,
+  'background_image' => '{{upfront:style_url}}/images/archive-mpproduct_category/img-gallery-five.jpg',
+  'background_image_ratio' => 0.67000000000000003996802888650563545525074005126953125,
   'background_repeat' => 'no-repeat',
   'background_position' => '50% 0%',
   'version' => '1.0.0',
+  'background_default' => 'hide',
+  'origin_position_y' => '50',
+  'origin_position_x' => '50',
+  'background_size_percent' => '100',
+  'background_size' => '100%',
 )
 			);
 
@@ -603,7 +608,7 @@ $archive_content->add_element("Posts", array (
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'archive-for-mobiles',
+         'preset' => 'mp-archive-for-mobile',
       )),
     )),
     'row' => 161,
