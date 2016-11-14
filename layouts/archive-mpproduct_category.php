@@ -113,7 +113,7 @@ $region_5->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -301,7 +301,7 @@ $region_3->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -599,7 +599,7 @@ $archive_content->add_element("Posts", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'archive-for-tablets',
+         'preset' => 'mp-archive-for-tablet',
       )),
        'mobile' => 
       (array)(array(
@@ -617,7 +617,7 @@ $archive_content->add_element("Posts", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
