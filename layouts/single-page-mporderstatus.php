@@ -258,7 +258,7 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
     )),
   ),
   'row' => 6,
@@ -471,8 +471,9 @@ $main->add_element("PostData", array (
       (array)(array(
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
     )),
+    'theme_style' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -564,10 +565,11 @@ $main->add_element("PostData", array (
         array (
           'col' => 12,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'lock_padding',
         ),
         'mobile' => 
         array (
@@ -623,10 +625,11 @@ $main->add_element("PostData", array (
         array (
           'col' => 12,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'use_padding',
         ),
         'mobile' => 
         array (
@@ -682,10 +685,11 @@ $main->add_element("PostData", array (
         array (
           'col' => 12,
           'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'use_padding',
         ),
         'mobile' => 
         array (
