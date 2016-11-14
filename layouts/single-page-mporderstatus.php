@@ -15,7 +15,7 @@ $order_status_header = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 78,
+  'row' => 74,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -27,8 +27,10 @@ $order_status_header = upfront_create_region(
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'top_bg_padding_num' => '25',
+       'row' => 25,
     )),
      'current_property' => 'top_bg_padding_num',
   )),
@@ -89,6 +91,10 @@ $order_status_header->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
     'row' => 20,
   ),
@@ -259,6 +265,10 @@ $main->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 6,
@@ -464,6 +474,10 @@ $main->add_element("PostData", array (
       (array)(array(
          'preset' => 'mp-order-status-for-tablet',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'mp-order-status-for-mobile',
+      )),
     )),
     'breakpoint' => 
     (array)(array(
@@ -472,6 +486,10 @@ $main->add_element("PostData", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
     'theme_style' => '',
   ),
@@ -574,6 +592,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
@@ -634,6 +653,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
@@ -694,6 +714,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
