@@ -336,7 +336,7 @@ $main->add_element("PostData", array (
     'usingNewAppearance' => true,
     'left_padding_num' => 15,
     'right_padding_num' => 15,
-    'lock_padding' => 0,
+    'lock_padding' => '',
     'anchor' => '',
     'current_preset' => 'mp-cart',
     'breakpoint_presets' => 
