@@ -310,7 +310,7 @@ $main->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => '',
+    'preset' => 'mp-checkout',
     'row' => 40,
     'type_parts' => 
     array (
@@ -338,12 +338,12 @@ $main->add_element("PostData", array (
     'right_padding_num' => 15,
     'lock_padding' => 0,
     'anchor' => '',
-    'current_preset' => '',
+    'current_preset' => 'mp-checkout',
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => '',
+         'preset' => 'mp-checkout',
       )),
     )),
     'preset_style' => '#page .default.upost-data-object-post_data .upostdata-part.date_posted {
@@ -438,7 +438,7 @@ $main->add_element("PostData", array (
       'left_padding_num' => 15,
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
-      'lock_padding' => 0,
+      'lock_padding' => '',
       'use_padding' => 'yes',
       'wrapper_breakpoint' => 
       array (
