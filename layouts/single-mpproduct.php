@@ -30,10 +30,12 @@ $product_header = upfront_create_region(
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'top_bg_padding_num' => '25',
+       'row' => 25,
     )),
-     'current_property' => 'bottom_bg_padding_num',
+     'current_property' => 'top_bg_padding_num',
   )),
   'sub_regions' => 
   array (
@@ -41,9 +43,9 @@ $product_header = upfront_create_region(
   ),
   'background_type' => 'image',
   'background_color' => '#ffffff',
-  'bg_padding_type' => 'equal',
+  'bg_padding_type' => 'varied',
   'top_bg_padding_num' => '80',
-  'bottom_bg_padding_num' => '80',
+  'bottom_bg_padding_num' => '0',
   'bg_padding_num' => '80',
   'background_style' => 'full',
   'background_default' => 'hide',
@@ -90,6 +92,10 @@ $product_header->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 15,
@@ -237,6 +243,10 @@ $main->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 15,
@@ -399,6 +409,10 @@ $main->add_element("PostData", array (
       (array)(array(
          'preset' => 'mp-product-for-tablet',
       )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'mp-product-for-mobile',
+      )),
     )),
     'top_padding_use' => 'yes',
     'top_padding_slider' => '15',
@@ -409,6 +423,10 @@ $main->add_element("PostData", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
   ),
   'row' => 104,
@@ -510,6 +528,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
@@ -569,6 +588,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
@@ -628,6 +648,7 @@ $main->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
+          'use_padding' => 'yes',
         ),
       ),
     ),
