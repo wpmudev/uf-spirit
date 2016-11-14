@@ -15,7 +15,7 @@ $products_header = upfront_create_region(
 ),
 			array (
   'version' => '1.0.0',
-  'row' => 78,
+  'row' => 67,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
