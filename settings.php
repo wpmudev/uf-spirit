@@ -331,6 +331,48 @@ return array(
 }
 #cboxLoadedContent .mp_button:hover {
     background: #ufc1;
+}
+/* MarketPress - Floating Cart */
+.mp_mini_cart_ribbon {
+    background: #ufc5;
+    color: #ufc6;
+    font: 300 14px/1.2em "Open Sans", sans-serif;
+}
+.mp_mini_cart_content {
+    background: #ufc3;
+}
+.mp_mini_cart_items-empty {
+    color: #ufc5;
+    font: 300 14px/1.6em "Open Sans", sans-serif;
+}
+.mp_mini_cart_item-link {
+    padding: 10px 15px;
+}
+h3.mp_mini_cart_item-title, h3.mp_mini_cart_item-title a {
+    color: #ufc5;
+    font: 400 13px/1.1em "Open Sans", sans-serif;
+}
+a.mp_button-mini-cart {
+    display: block;
+    margin: 0 15px;
+    border: 0;
+    border-bottom: 2px solid #ufc1;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #ufc0;
+    color: #ufc6;
+    font: 300 14px/1.4 "Oswald", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+}
+a.mp_button-mini-cart:hover {
+    border-color: #ufc1;
+    background: #ufc1;
+    color: #ufc6;
 }',
 	'layout_properties' => '[{"name":"version","value":"1.0.0"},{"name":"background_color","value":"rgba(255,255,255,1)"},{"name":"grid","value":{"column_widths":{"desktop":"45"},"column_paddings":{"desktop":"15"},"baselines":{"desktop":"5"},"type_paddings":{"desktop":"10"}}},{"name":"background_type","value":"color"},{"name":"use_padding","value":0},{"name":"contained_region_width","value":"1366"},{"name":"bg_padding_type","value":"varied"},{"name":"top_bg_padding_slider","value":0},{"name":"top_bg_padding_num","value":0},{"name":"bottom_bg_padding_slider","value":0},{"name":"bottom_bg_padding_num","value":0},{"name":"bg_padding_slider","value":0},{"name":"bg_padding_num","value":0}]',
 	'theme_colors' => '{"colors":[{"color":"#69a8a6","prev":"#69a8a6","highlight":"#69a8a6","shade":"#69a8a6","selected":"","luminance":"","alpha":"1"},{"color":"#548685","prev":"#548685","highlight":"#548685","shade":"#548685","selected":"","luminance":"","alpha":"1"},{"color":"#a89084","prev":"#a89084","highlight":"#a89084","shade":"#a89084","selected":"","luminance":"","alpha":"1"},{"color":"#e1e3de","prev":"#e1e3de","highlight":"#e1e3de","shade":"#e1e3de","selected":"","luminance":"","alpha":"1"},{"color":"#e2ded5","prev":"#e2ded5","highlight":"#e2ded5","shade":"#e2ded5","selected":"","luminance":"","alpha":"1"},{"color":"#666666","prev":"#666666","highlight":"#666666","shade":"#666666","selected":"","luminance":"","alpha":"1"},{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","selected":"","luminance":"","alpha":"1"},{"color":"#333333","prev":"#333333","highlight":"#333333","shade":"#333333","selected":"","luminance":"","alpha":"1"}],"range":"0"}',
