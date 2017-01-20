@@ -2,7 +2,7 @@ div[data-style='burger'] ul.menu {
     background: #67a8a7;
 }
 
-div.responsive_nav_toggler, .upfront-navigation i.burger_nav_close {
+.responsive_nav_toggler, .upfront-navigation i.burger_nav_close {
     background: #ufc7;
     color: #ufc6;
     transition: background-color 0.2s ease-in-out;
@@ -11,13 +11,13 @@ div.responsive_nav_toggler, .upfront-navigation i.burger_nav_close {
     -webkit-transition: background-color 0.2s ease-in-out;
 }
 
-div.responsive_nav_toggler:hover, .upfront-navigation i.burger_nav_close:hover {
+.responsive_nav_toggler:hover, .upfront-navigation i.burger_nav_close:hover {
     background: #ufc6;
     color: #ufc7;
 }
 
 
-div.responsive_nav_toggler {
+.responsive_nav_toggler {
     width: 34px;
     height: 34px;
     padding-top: 12px;
@@ -28,17 +28,17 @@ div.responsive_nav_toggler {
     -webkit-border-radius: 50%;
     z-index: 0;
 }
-div.responsive_nav_toggler > div {
+.responsive_nav_toggler > div {
     width: 16px;
     height: 2px;
     margin-bottom: 2px;
     background: #ufc6;
 }
-div.responsive_nav_toggler:hover > div {
+.responsive_nav_toggler:hover > div {
     background: #ufc7;
 }
 
-div.responsive_nav_toggler > div:last-child {
+.responsive_nav_toggler > div:last-child {
     margin-bottom: 0;
 }
  i.burger_nav_close {
