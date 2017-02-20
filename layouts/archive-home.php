@@ -751,9 +751,7 @@ $main_area->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<div class="plain-text-container">
-<h3 style="text-align: center;">Learn how to bring your&nbsp;mind and body into balance, move for the pure joy of it, look good and feel connected to all that life has to offer.</h3>
-</div>',
+    'content' => '<h3 style="text-align: center;">Learn how to bring your&nbsp;mind and body into balance, move for the pure joy of it, look good and feel connected to all that life has to offer.</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1452635359690-1384',
     'class' => 'c24 upfront-plain_txt',
@@ -1008,6 +1006,7 @@ $main_area->add_element("PlainTxt", array (
     )),
     'right_padding_use' => 'yes',
     'left_padding_use' => 'yes',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

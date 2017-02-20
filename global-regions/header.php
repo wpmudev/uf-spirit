@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_ce400b = upfront_create_region(
+$region_87c96e = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -44,7 +44,7 @@ $region_ce400b = upfront_create_region(
 )
 			);
 
-$region_ce400b->add_element("Uimage", array (
+$region_87c96e->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -190,7 +190,7 @@ $region_ce400b->add_element("Uimage", array (
   ),
 ));
 
-$region_ce400b->add_element("Unewnavigation", array (
+$region_87c96e->add_element("Unewnavigation", array (
   'columns' => '17',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -437,7 +437,7 @@ $region_ce400b->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_ce400b->add_element("Code", array (
+$region_87c96e->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -497,17 +497,17 @@ $region_ce400b->add_element("Code", array (
 .youtube:before {
  background-position: -63px -222px;
 }
- .youtube:hover:before,  .youtube.dark { background-position: -223px -222px;
+ .youtube:hover:before, .youtube:focus:before,  .youtube.dark { background-position: -223px -222px;
 }
  .facebook:before {
  background-position: -63px -383px;
 }
- .facebook:hover:before,  .facebook.dark { background-position: -223px -383px;
+ .facebook:hover:before, .facebook:focus:before,  .facebook.dark { background-position: -223px -383px;
 }
  .twitter:before {
  background-position: -63px -543px;
 }
- .twitter:hover:before,  .twitter.dark { background-position: -223px -543px;
+ .twitter:hover:before,  .twitter:focus:before, .twitter.dark { background-position: -223px -543px;
 }',
     'script' => '/* Your code here */',
     'row' => 5,
@@ -581,6 +581,6 @@ $region_ce400b->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_ce400b);
+$regions->add($region_87c96e);
 
 /* END_REGION_OUTPUT */
