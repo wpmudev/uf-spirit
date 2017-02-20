@@ -40,6 +40,7 @@ $footer = upfront_create_region(
   'bg_padding_num' => 0,
   'background_color' => 'rgba(250,250,250,1)',
   'version' => '1.0.0',
+  'region_role' => 'contentinfo',
 )
 			);
 
@@ -62,39 +63,29 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 391,
+         'menu-item-db-id' => 75,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ADVERTISE',
          'menu-item-url' => '{{upfront:home_url}}/advertise/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '391',
+         'menu-item-object-id' => '75',
          'menu-item-target' => '',
          'menu-item-position' => 1,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/advertise/',
-           'target' => '',
-        )),
+         'menu-item-classes' => '',
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 392,
+         'menu-item-db-id' => 76,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'TERMS OF USE',
          'menu-item-url' => '{{upfront:home_url}}/terms-of-use/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '392',
+         'menu-item-object-id' => '76',
          'menu-item-target' => '',
          'menu-item-position' => 2,
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/terms-of-use/',
-           'target' => '',
-        )),
+         'menu-item-classes' => '',
       )),
     ),
     'preset' => 'footer-menu',
@@ -147,12 +138,12 @@ $footer->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 30,
+         'menu_id' => 7,
          'menu_slug' => 'footer-menu',
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 8,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
