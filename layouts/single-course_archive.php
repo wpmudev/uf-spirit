@@ -118,7 +118,7 @@ $main->add_element("PostData", array (
       )),
     )),
   ),
-  'row' => 223,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -168,62 +168,6 @@ $main->add_element("PostData", array (
       'margin_right' => '0',
       'margin_top' => '0',
       'margin_bottom' => '0',
-      'class' => 'upfront-post-data-part part-title',
-      'view_class' => 'PostDataPartView',
-      'part_type' => 'title',
-      'wrapper_id' => 'wrapper-1467787537270-1335',
-      'type' => 'PostDataPartModel',
-      'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1467787537270-1762',
-      'padding_slider' => 15,
-      'use_padding' => 'yes',
-      'wrapper_breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'col' => 12,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'mobile' => 
-        array (
-          'col' => 7,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
-        ),
-      ),
-      'top_padding_num' => '15',
-      'left_padding_num' => '15',
-      'right_padding_num' => '15',
-      'bottom_padding_num' => '15',
-      'lock_padding' => 0,
-      'breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'col' => 12,
-        ),
-        'current_property' => 
-        array (
-          0 => 'col',
-        ),
-        'mobile' => 
-        array (
-          'col' => 7,
-        ),
-      ),
-    ),
-    1 => 
-    array (
-      'columns' => '24',
-      'margin_left' => '0',
-      'margin_right' => '0',
-      'margin_top' => '0',
-      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part part-content',
       'view_class' => 'PostDataPartView',
       'part_type' => 'content',
@@ -239,13 +183,13 @@ $main->add_element("PostData", array (
         array (
           'col' => 12,
           'clear' => true,
-          'order' => 2,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
           'clear' => true,
-          'order' => 2,
+          'order' => 1,
         ),
         'current_property' => 
         array (
@@ -273,16 +217,69 @@ $main->add_element("PostData", array (
         ),
       ),
     ),
-    2 => 
+    1 => 
     array (
       'columns' => '24',
       'class' => 'upfront-post-data-part part-date_posted',
       'view_class' => 'PostDataPartView',
       'part_type' => 'date_posted',
-      'wrapper_id' => 'wrapper-1490418168736-1122',
+      'wrapper_id' => 'wrapper-1490420842789-1705',
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1490418168736-1377',
+      'element_id' => 'post-data-part-object-1490420842790-1516',
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
+      'use_padding' => 'yes',
+      'new_line' => true,
+      'wrapper_breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'clear' => true,
+          'col' => 12,
+          'order' => 2,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
+        ),
+        'mobile' => 
+        array (
+          'clear' => true,
+          'col' => 7,
+          'order' => 2,
+        ),
+      ),
+      'breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'col' => 12,
+        ),
+        'current_property' => 
+        array (
+          0 => 'col',
+        ),
+        'mobile' => 
+        array (
+          'col' => 7,
+        ),
+      ),
+    ),
+    2 => 
+    array (
+      'columns' => '24',
+      'class' => 'upfront-post-data-part part-title',
+      'view_class' => 'PostDataPartView',
+      'part_type' => 'title',
+      'wrapper_id' => 'wrapper-1490420842875-1141',
+      'type' => 'PostDataPartModel',
+      'id_slug' => 'post-data-part',
+      'element_id' => 'post-data-part-object-1490420842875-1194',
       'padding_slider' => '15',
       'top_padding_num' => '15',
       'left_padding_num' => '15',
