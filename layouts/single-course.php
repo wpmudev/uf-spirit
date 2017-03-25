@@ -36,10 +36,10 @@ $main = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'equal',
-  'top_bg_padding_num' => 0,
-  'bottom_bg_padding_num' => 0,
-  'bg_padding_num' => 0,
-  'region_role' => false,
+  'top_bg_padding_num' => '40',
+  'bottom_bg_padding_num' => '40',
+  'bg_padding_num' => '40',
+  'region_role' => 'main',
 )
 			);
 
@@ -59,7 +59,7 @@ $main->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => 'default',
+    'preset' => 'cp-desktop',
     'row' => 40,
     'type_parts' => 
     array (
@@ -104,9 +104,18 @@ $main->add_element("PostData", array (
     'calculated_right_indent' => 0,
     'left_padding_num' => 15,
     'right_padding_num' => 15,
-    'lock_padding' => 0,
+    'lock_padding' => '',
     'predefined_date_format' => '0',
     'theme_preset' => 'true',
+    'anchor' => '',
+    'current_preset' => 'cp-desktop',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'cp-desktop',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -182,7 +191,7 @@ $main->add_element("PostData", array (
       'left_padding_num' => '15',
       'right_padding_num' => '15',
       'bottom_padding_num' => '15',
-      'lock_padding' => 0,
+      'lock_padding' => '',
     ),
     1 => 
     array (
@@ -215,7 +224,7 @@ $main->add_element("PostData", array (
       'left_padding_num' => 15,
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
-      'lock_padding' => 0,
+      'lock_padding' => '',
     ),
   ),
 ));

@@ -36,10 +36,10 @@ $main = upfront_create_region(
     0 => false,
   ),
   'bg_padding_type' => 'equal',
-  'top_bg_padding_num' => 0,
-  'bottom_bg_padding_num' => 0,
-  'bg_padding_num' => 0,
-  'region_role' => false,
+  'top_bg_padding_num' => '40',
+  'bottom_bg_padding_num' => '40',
+  'bg_padding_num' => '40',
+  'region_role' => 'main',
 )
 			);
 
@@ -59,8 +59,8 @@ $main->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => 'default',
-    'row' => 40,
+    'preset' => 'cp-desktop',
+    'row' => 223,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -104,11 +104,21 @@ $main->add_element("PostData", array (
     'calculated_right_indent' => 0,
     'left_padding_num' => 15,
     'right_padding_num' => 15,
-    'lock_padding' => 0,
+    'lock_padding' => '',
     'predefined_date_format' => '0',
     'theme_preset' => 'true',
+    'anchor' => '',
+    'current_preset' => 'cp-desktop',
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'cp-desktop',
+      )),
+    )),
   ),
-  'row' => 6,
+  'row' => 223,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -172,10 +182,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'top_padding_num' => '15',
@@ -183,6 +201,21 @@ $main->add_element("PostData", array (
       'right_padding_num' => '15',
       'bottom_padding_num' => '15',
       'lock_padding' => 0,
+      'breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'col' => 12,
+        ),
+        'current_property' => 
+        array (
+          0 => 'col',
+        ),
+        'mobile' => 
+        array (
+          'col' => 7,
+        ),
+      ),
     ),
     1 => 
     array (
@@ -205,17 +238,93 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 2,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 2,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
       'left_padding_num' => 15,
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
+      'lock_padding' => '',
+      'breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'col' => 12,
+        ),
+        'current_property' => 
+        array (
+          0 => 'col',
+        ),
+        'mobile' => 
+        array (
+          'col' => 7,
+        ),
+      ),
+    ),
+    2 => 
+    array (
+      'columns' => '24',
+      'class' => 'upfront-post-data-part part-date_posted',
+      'view_class' => 'PostDataPartView',
+      'part_type' => 'date_posted',
+      'wrapper_id' => 'wrapper-1490418168736-1122',
+      'type' => 'PostDataPartModel',
+      'id_slug' => 'post-data-part',
+      'element_id' => 'post-data-part-object-1490418168736-1377',
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
       'lock_padding' => 0,
+      'use_padding' => 'yes',
+      'new_line' => true,
+      'wrapper_breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'clear' => true,
+          'col' => 12,
+          'order' => 3,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
+        ),
+        'mobile' => 
+        array (
+          'clear' => true,
+          'col' => 7,
+          'order' => 3,
+        ),
+      ),
+      'breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'col' => 12,
+        ),
+        'current_property' => 
+        array (
+          0 => 'col',
+        ),
+        'mobile' => 
+        array (
+          'col' => 7,
+        ),
+      ),
     ),
   ),
 ));
