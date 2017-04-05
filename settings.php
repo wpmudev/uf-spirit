@@ -373,6 +373,126 @@ a.mp_button-mini-cart:hover {
     border-color: #ufc1;
     background: #ufc1;
     color: #ufc6;
+}
+/* CoursePress - Modals */
+.cp-mask {
+    background: rgba(0,0,0,0.2);
+}
+.cp-mask .bbm-wrapper {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container,
+.cp-mask .cp-alert-container {
+    border: 2px solid #ufc0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: #ufc6;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__topbar {
+    margin-bottom: 15px;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__topbar .bbm-modal__title {
+    margin: 0;
+    color: #ufc2;
+    font: 300 24px/1.3em "Open Sans", Arial, sans-serif;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section p,
+.cp-mask .cp-alert-container p {
+    margin: 0 0 15px;
+    color: #ufc7;
+    font: 300 16px/32px "Open Sans", Arial, sans-serif
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section p:last-child,
+.cp-mask .cp-alert-container p:last-child {
+    margin: 0;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section a {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ufc0;
+    color: #ufc0;
+    font: 500 14px/32px "Open Sans", Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section a:hover {
+    border-bottom: 2px solid #ufc1;
+    color: #ufc1;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section .login-form label {
+    margin: 0 0 0.5em;
+    color: #8EA3AA;
+    font: 300 16px/1.4 "Open Sans", Arial, sans-serif;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section .login-form label span {
+    display: block;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section .login-form label a {
+    padding-bottom: 0;
+    border-bottom: 0;
+    text-transform: none;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section .login-form input {
+    width: 100%;
+    padding: 8px 15px;
+    border: 1px solid #edf3f2;
+    background: #edf3f2;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: rgba(101, 128, 140, 0.7);
+    font: 400 16px/1.4 "Open Sans", Arial, sans-serif;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section .login-form input:hover, .cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__section .login-form input:focus {
+    border: 1px solid #b5cdc9
+}
+.cp-mask .cp-alert-container button,
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar input[type="submit"],
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar .cancel-link {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: 0;
+    border-bottom: 2px solid #ufc1;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #ufc0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: #ufc6;
+    font: 300 16px/16px "Oswald", Arial, sans-serif;
+    text-transform: uppercase;
+    transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+}
+.cp-mask .cp-alert-container button:hover,
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar input[type="submit"]:hover {
+    background: #ufc1;
+}
+.cp-mask .cp-alert-container button.button-cancel,
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar .cancel-link {
+    border-bottom-color: #ufc5;
+    background: #ufc2;
+}
+.cp-mask .cp-alert-container button.button-cancel:hover,
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar .cancel-link:hover {
+    background: #ufc5;
+}
+.cp-mask .cp-alert-container button:first-child,
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar input[type="submit"]:first-child,
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar .cancel-link:first-child {
+    margin-left: 0;
+}
+.cp-mask .bbm-wrapper .bbm-modal .enrollment-modal-container .bbm-modal__bottombar {
+    padding: 0;
 }',
 	'layout_properties' => '[{"name":"version","value":"1.0.0"},{"name":"background_color","value":"rgba(255,255,255,1)"},{"name":"grid","value":{"column_widths":{"desktop":"45"},"column_paddings":{"desktop":"15"},"baselines":{"desktop":"5"},"type_paddings":{"desktop":"10"}}},{"name":"background_type","value":"color"},{"name":"use_padding","value":0},{"name":"contained_region_width","value":"1366"},{"name":"bg_padding_type","value":"varied"},{"name":"top_bg_padding_slider","value":0},{"name":"top_bg_padding_num","value":0},{"name":"bottom_bg_padding_slider","value":0},{"name":"bottom_bg_padding_num","value":0},{"name":"bg_padding_slider","value":0},{"name":"bg_padding_num","value":0}]',
 	'theme_colors' => '{"colors":[{"color":"#69a8a6","prev":"#69a8a6","highlight":"#69a8a6","shade":"#69a8a6","selected":"","luminance":"","alpha":"1"},{"color":"#548685","prev":"#548685","highlight":"#548685","shade":"#548685","selected":"","luminance":"","alpha":"1"},{"color":"#a89084","prev":"#a89084","highlight":"#a89084","shade":"#a89084","selected":"","luminance":"","alpha":"1"},{"color":"#e1e3de","prev":"#e1e3de","highlight":"#e1e3de","shade":"#e1e3de","selected":"","luminance":"","alpha":"1"},{"color":"#e2ded5","prev":"#e2ded5","highlight":"#e2ded5","shade":"#e2ded5","selected":"","luminance":"","alpha":"1"},{"color":"#666666","prev":"#666666","highlight":"#666666","shade":"#666666","selected":"","luminance":"","alpha":"1"},{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","selected":"","luminance":"","alpha":"1"},{"color":"#333333","prev":"#333333","highlight":"#333333","shade":"#333333","selected":"","luminance":"","alpha":"1"}],"range":"0"}',
