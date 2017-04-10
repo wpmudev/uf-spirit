@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_ad58aa = upfront_create_region(
+$region_0bb070 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -44,7 +44,7 @@ $region_ad58aa = upfront_create_region(
 )
 			);
 
-$region_ad58aa->add_element("Uimage", array (
+$region_0bb070->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -112,7 +112,7 @@ $region_ad58aa->add_element("Uimage", array (
        'type' => 'homepage',
        'url' => '{{upfront:home_url}}',
        'target' => false,
-       'display_url' => 'http://spirit.uf-coursepr...',
+       'display_url' => '{{upfront:home_url}}',
     )),
     'element_id' => 'image-1453435671708-1574',
     'padding_slider' => '15',
@@ -190,7 +190,7 @@ $region_ad58aa->add_element("Uimage", array (
   ),
 ));
 
-$region_ad58aa->add_element("Unewnavigation", array (
+$region_0bb070->add_element("Unewnavigation", array (
   'columns' => '17',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -209,122 +209,145 @@ $region_ad58aa->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 64,
+         'menu-item-db-id' => 204,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'SERVICES',
-         'menu-item-url' => '{{upfront:home_url}}/services/',
+         'menu-item-title' => 'Our Story',
+         'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '64',
+         'menu-item-object-id' => '204',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/services/',
+           'type' => 'unlink',
+           'url' => '#',
            'target' => '',
-           'display_url' => 'http://spirit.uf-coursepr...',
+           'display_url' => '#',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 65,
+         'menu-item-db-id' => 205,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'ABOUT',
-         'menu-item-url' => '{{upfront:home_url}}/about/',
+         'menu-item-title' => 'Menu',
+         'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '65',
+         'menu-item-object-id' => '205',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/about/',
+           'type' => 'unlink',
+           'url' => '#',
            'target' => '',
-           'display_url' => 'http://spirit.uf-coursepr...',
+           'display_url' => '#',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 66,
+         'menu-item-db-id' => 206,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'TESTIMONIALS',
-         'menu-item-url' => '{{upfront:home_url}}/testimonials/',
+         'menu-item-title' => 'Gallery',
+         'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '66',
+         'menu-item-object-id' => '206',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/testimonials/',
+           'type' => 'unlink',
+           'url' => '#',
            'target' => '',
-           'display_url' => 'http://spirit.uf-coursepr...',
+           'display_url' => '#',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 67,
+         'menu-item-db-id' => 207,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'GALLERY',
-         'menu-item-url' => '{{upfront:home_url}}/gallery/',
+         'menu-item-title' => 'Blog',
+         'menu-item-url' => '{{upfront:home_url}}/blog/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '67',
+         'menu-item-object-id' => '207',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'menu-item-classes' => '',
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/gallery/',
-           'target' => '',
-           'display_url' => 'http://spirit.uf-coursepr...',
-        )),
-      )),
-      4 => 
-      (array)(array(
-         'menu-item-db-id' => 68,
-         'menu-item-parent-id' => '0',
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'BLOG',
-         'menu-item-url' => '{{upfront:home_url}}/blog/',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '68',
-         'menu-item-target' => '',
-         'menu-item-position' => 5,
-         'menu-item-classes' => '',
+         'sub' => 
+        array (
+          0 => 
+          (array)(array(
+             'menu-item-db-id' => 208,
+             'menu-item-parent-id' => '207',
+             'menu-item-type' => 'custom',
+             'menu-item-title' => 'Blog',
+             'menu-item-url' => '{{upfront:home_url}}/blog/',
+             'menu-item-object' => 'custom',
+             'menu-item-object-id' => '208',
+             'menu-item-target' => '',
+             'menu-item-position' => 5,
+             'menu-item-classes' => '',
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/blog/',
+               'target' => '',
+               'display_url' => '{{upfront:home_url}}/blog/',
+            )),
+          )),
+          1 => 
+          (array)(array(
+             'menu-item-db-id' => 209,
+             'menu-item-parent-id' => '207',
+             'menu-item-type' => 'custom',
+             'menu-item-title' => 'Blog',
+             'menu-item-url' => '{{upfront:home_url}}/blog-2/',
+             'menu-item-object' => 'custom',
+             'menu-item-object-id' => '209',
+             'menu-item-target' => '',
+             'menu-item-position' => 6,
+             'menu-item-classes' => '',
+             'link' => 
+            (array)(array(
+               'type' => 'entry',
+               'url' => '{{upfront:home_url}}/blog-2/',
+               'target' => '',
+               'display_url' => '{{upfront:home_url}}/blog-2/',
+            )),
+          )),
+        ),
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/blog/',
            'target' => '',
-           'display_url' => 'http://spirit.uf-coursepr...',
+           'display_url' => '{{upfront:home_url}}/blog/',
         )),
       )),
-      5 => 
+      4 => 
       (array)(array(
-         'menu-item-db-id' => 69,
+         'menu-item-db-id' => 210,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'CONTACT US',
-         'menu-item-url' => '{{upfront:home_url}}/contactus/',
+         'menu-item-title' => 'Find Us',
+         'menu-item-url' => '#',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '69',
+         'menu-item-object-id' => '210',
          'menu-item-target' => '',
-         'menu-item-position' => 6,
+         'menu-item-position' => 7,
          'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/contactus/',
+           'type' => 'unlink',
+           'url' => '#',
            'target' => '',
-           'display_url' => 'http://spirit.uf-coursepr...',
+           'display_url' => '#',
         )),
       )),
     ),
@@ -387,7 +410,7 @@ $region_ad58aa->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 2,
+         'menu_id' => 9,
          'menu_slug' => 'main-menu',
       )),
     )),
@@ -437,7 +460,7 @@ $region_ad58aa->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_ad58aa->add_element("Code", array (
+$region_0bb070->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -581,6 +604,6 @@ $region_ad58aa->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_ad58aa);
+$regions->add($region_0bb070);
 
 /* END_REGION_OUTPUT */

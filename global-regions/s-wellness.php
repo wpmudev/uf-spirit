@@ -562,7 +562,7 @@ $s_wellness->add_element("Button", array (
        'target' => '',
        'object' => 'page',
        'object_id' => 8,
-       'display_url' => '{{upfront:home_url}}...',
+       'display_url' => '{{upfront:home_url}}/services...',
     )),
     'top_padding_num' => '30',
     'bottom_padding_num' => '0',

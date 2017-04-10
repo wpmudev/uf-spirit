@@ -141,8 +141,8 @@ $home_header->add_element("Uimage", array (
     'right_padding_num' => '15',
     'anchor' => '',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -318,7 +318,7 @@ $home_header->add_element("Button", array (
        'type' => 'anchor',
        'url' => '{{upfront:home_url}}/#about',
        'target' => '_self',
-       'display_url' => '{{upfront:home_url}}...',
+       'display_url' => '{{upfront:home_url}}/#about',
     )),
     'top_padding_num' => '475',
     'bottom_padding_num' => '15',
@@ -1345,8 +1345,8 @@ $region_4->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1762,8 +1762,8 @@ $region_8->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3564,8 +3564,8 @@ $region_9->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3757,8 +3757,8 @@ $region_9->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
     'anchor' => '',
     'current_preset' => 'default',
   ),
