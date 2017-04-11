@@ -384,8 +384,8 @@ $s_consultations->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,

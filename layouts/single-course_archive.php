@@ -117,6 +117,14 @@ $main->add_element("PostData", array (
          'preset' => 'cp-desktop',
       )),
     )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -168,6 +176,67 @@ $main->add_element("PostData", array (
       'margin_right' => '0',
       'margin_top' => '0',
       'margin_bottom' => '0',
+      'class' => 'upfront-post-data-part part-title',
+      'view_class' => 'PostDataPartView',
+      'part_type' => 'title',
+      'wrapper_id' => 'wrapper-1491415503886-1600',
+      'type' => 'PostDataPartModel',
+      'id_slug' => 'post-data-part',
+      'element_id' => 'post-data-part-object-1490420842875-1194',
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => '',
+      'use_padding' => 'yes',
+      'wrapper_breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'col' => 12,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'mobile' => 
+        array (
+          'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
+        ),
+      ),
+      'current_preset' => 'default',
+      'preset' => 'default',
+      'new_line' => true,
+      'breakpoint' => 
+      array (
+        'tablet' => 
+        array (
+          'col' => 12,
+          'use_padding' => 'yes',
+          'hide' => 0,
+        ),
+        'current_property' => 
+        array (
+          0 => 'use_padding',
+        ),
+        'mobile' => 
+        array (
+          'col' => 7,
+        ),
+      ),
+    ),
+    1 => 
+    array (
+      'columns' => '24',
+      'margin_left' => '0',
+      'margin_right' => '0',
+      'margin_top' => '0',
+      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part part-content',
       'view_class' => 'PostDataPartView',
       'part_type' => 'content',
@@ -183,13 +252,13 @@ $main->add_element("PostData", array (
         array (
           'col' => 12,
           'clear' => true,
-          'order' => 1,
+          'order' => 2,
         ),
         'mobile' => 
         array (
           'col' => 7,
           'clear' => true,
-          'order' => 1,
+          'order' => 2,
         ),
         'current_property' => 
         array (
@@ -201,15 +270,20 @@ $main->add_element("PostData", array (
       'right_padding_num' => 15,
       'bottom_padding_num' => 15,
       'lock_padding' => '',
+      'current_preset' => 'default',
+      'preset' => 'default',
+      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'lock_padding',
         ),
         'mobile' => 
         array (
@@ -217,9 +291,13 @@ $main->add_element("PostData", array (
         ),
       ),
     ),
-    1 => 
+    2 => 
     array (
       'columns' => '24',
+      'margin_left' => '0',
+      'margin_right' => '0',
+      'margin_top' => '0',
+      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part part-date_posted',
       'view_class' => 'PostDataPartView',
       'part_type' => 'date_posted',
@@ -232,90 +310,41 @@ $main->add_element("PostData", array (
       'left_padding_num' => '15',
       'right_padding_num' => '15',
       'bottom_padding_num' => '15',
-      'lock_padding' => 0,
+      'lock_padding' => '',
       'use_padding' => 'yes',
-      'new_line' => true,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
-          'clear' => true,
           'col' => 12,
-          'order' => 2,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
-        ),
-        'mobile' => 
-        array (
           'clear' => true,
-          'col' => 7,
-          'order' => 2,
-        ),
-      ),
-      'breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'col' => 12,
-        ),
-        'current_property' => 
-        array (
-          0 => 'col',
+          'order' => 3,
         ),
         'mobile' => 
         array (
           'col' => 7,
-        ),
-      ),
-    ),
-    2 => 
-    array (
-      'columns' => '24',
-      'class' => 'upfront-post-data-part part-title',
-      'view_class' => 'PostDataPartView',
-      'part_type' => 'title',
-      'wrapper_id' => 'wrapper-1490420842875-1141',
-      'type' => 'PostDataPartModel',
-      'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1490420842875-1194',
-      'padding_slider' => '15',
-      'top_padding_num' => '15',
-      'left_padding_num' => '15',
-      'right_padding_num' => '15',
-      'bottom_padding_num' => '15',
-      'lock_padding' => 0,
-      'use_padding' => 'yes',
-      'new_line' => true,
-      'wrapper_breakpoint' => 
-      array (
-        'tablet' => 
-        array (
           'clear' => true,
-          'col' => 12,
           'order' => 3,
         ),
         'current_property' => 
         array (
           0 => 'order',
         ),
-        'mobile' => 
-        array (
-          'clear' => true,
-          'col' => 7,
-          'order' => 3,
-        ),
       ),
+      'current_preset' => 'default',
+      'preset' => 'default',
+      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'use_padding',
         ),
         'mobile' => 
         array (
