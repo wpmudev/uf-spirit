@@ -72,6 +72,7 @@ $s_consultations = upfront_create_region(
   'featured_fallback_background_color' => '#ffffff',
   'background_size' => 'auto',
   'region_role' => 'complementary',
+  'featured_image_url' => '{{upfront:style_url}}/images/global-regions/s-consultations/bg-consultations.jpg',
 )
 			);
 
@@ -252,6 +253,29 @@ $s_consultations->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1452644794286-1873" style="min-height: 140px; padding: 100px 15px 10px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<div class="plain-text-container">
+<h5 style="text-align: right;">CONSULTATIONS</h5>
+</div>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -386,6 +410,27 @@ $s_consultations->add_element("PlainTxt", array (
     'breakpoint_presets' => 
     array (
     ),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1453691737903-1690" style="min-height: 50px; padding: 0px 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<p class="" style="text-align: right;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,

@@ -47,7 +47,7 @@ $home_header = upfront_create_region(
   'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/bg-home-banner.jpg',
-  'background_image_ratio' => 0.560000000000000053290705182007513940334320068359375,
+  'background_image_ratio' => 0.56,
   'origin_position_y' => '50',
   'origin_position_x' => '50',
   'use_background_size_percent' => '',
@@ -55,6 +55,7 @@ $home_header = upfront_create_region(
   'background_default' => 'hide',
   'featured_fallback_background_color' => '#ffffff',
   'region_role' => 'complementary',
+  'featured_image_url' => '{{upfront:style_url}}/images/archive-home/bg-home-banner.jpg',
 )
 			);
 
@@ -143,6 +144,40 @@ $home_header->add_element("Uimage", array (
     'breakpoint_presets' => 
     array (
     ),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-image default" id="image-1452572518178-1011" style="min-height: 85px; padding: 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-image">
+		<div class="default">
+	
+	<div class="upfront-image-wrapper uimage uimage-over_image uimage-status-ok uimage-caption-over_image-bottom uimage-stretch " style="text-align: center;">
+	
+		<div class="upfront-image-caption-container" style="margin-top:8px">
+			
+			
+			<div class="upfront-image-container" style="width: 330px; overflow: hidden; position: relative; height: 209px;">
+				<img src="{{upfront:style_url}}/images/archive-home/logo-main.png" alt="" title="" style="width: 330px; height: 209px; position: absolute; top: 0px; left: 0px; margin-top: 0px; max-height: none; max-width: none;">
+			</div>
+			
+	
+		
+		
+		
+
+		
+	</div>
+</div>
+</div>
+
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-ui upfront-entity-size-hint uimage-resize-hint"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -355,6 +390,18 @@ $home_header->add_element("Button", array (
          'use_padding' => 'yes',
       )),
     )),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-button arrow-down" id="button-object-1452572518273-1648" style="padding: 475px 15px 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-ubutton">
+		<a href="{{upfront:home_url}}/#about" target="_self" style="text-align: center;" class="button-style upfront_cta button-preset-arrow-down ueditable-inactive uf-click-to-edit-text" title="Double click to edit the text">Click here</a>
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -577,6 +624,27 @@ $main_area->add_element("PlainTxt", array (
     )),
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '25',
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1452576215821-1235" style="padding: 30px 15px 25px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<h2 class="" style="text-align: center;">JOIN THE WELLNESS REVOLUTION</h2>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -786,6 +854,27 @@ $main_area->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1452635359690-1384" style="padding: 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<h3 style="text-align: center;">Learn how to bring your&nbsp;mind and body into balance, move for the pure joy of it, look good and feel connected to all that life has to offer.</h3>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1007,6 +1096,27 @@ $main_area->add_element("PlainTxt", array (
     'right_padding_use' => 'yes',
     'left_padding_use' => 'yes',
     'current_preset' => 'default',
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1452644182032-1546" style="padding: 15px 60px 0px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<p style="text-align: center;">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. <a target="_self" data-upfront-link-type="entry" href="{{upfront:home_url}}/about/">Read More</a></p>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1174,7 +1284,7 @@ $region_14 = upfront_create_region(
   'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/bg-home-about.jpg',
-  'background_image_ratio' => 0.4699999999999999733546474089962430298328399658203125,
+  'background_image_ratio' => 0.47,
   'background_repeat' => 'no-repeat',
   'background_position' => '50% 50%',
   'version' => '1.0.0',
@@ -1186,6 +1296,7 @@ $region_14 = upfront_create_region(
   'featured_fallback_background_color' => '#ffffff',
   'background_size' => 'auto',
   'region_role' => 'main',
+  'featured_image_url' => '{{upfront:style_url}}/images/archive-home/bg-home-about.jpg',
 )
 			);
 
@@ -1347,6 +1458,29 @@ $region_4->add_element("PlainTxt", array (
     'breakpoint_presets' => 
     array (
     ),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1452644436941-1953" style="padding: 30px 15px 25px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<div class="plain-text-container">
+<h2 style="text-align: center;">SERVICES</h2>
+</div>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1559,6 +1693,27 @@ $region_4->add_element("PlainTxt", array (
     )),
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1452644756938-1786" style="padding: 15px 15px 0px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<h3 class="" style="text-align: center;">Whether you prefer one-on-one training or the dynamic environment of outdoor group fitness, you\'ll receive an individualized approach with high quality instructions and support.</h3>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1764,6 +1919,27 @@ $region_8->add_element("PlainTxt", array (
     'breakpoint_presets' => 
     array (
     ),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1452647095628-1044" style="padding: 15px 15px 25px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<h2 style="text-align: center;">TESTIMONIALS</h2>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2073,6 +2249,40 @@ $region_11_a->add_element("Uimage", array (
       )),
        'current_property' => 'top_padding_num',
     )),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-image circle-image" id="image-1452648555414-1787" style="min-height: 135px; padding: 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-image">
+		<div class="circle-image">
+	
+	<div class="upfront-image-wrapper uimage uimage-over_image uimage-status-ok uimage-caption-over_image-bottom uimage-stretch " style="text-align: center;">
+	
+		<div class="upfront-image-caption-container" style="margin-top:0px">
+			
+			
+			<div class="upfront-image-container" style="width: 105px; overflow: hidden; position: relative; height: 105px;">
+				<img src="{{upfront:style_url}}/images/archive-home/spirit-testimonial-one.jpg" alt="" title="" style="width: 105px; height: 105px; position: absolute; top: 0px; left: 0px; margin-top: 0px; max-height: none; max-width: none;">
+			</div>
+			
+	
+		
+		
+		
+
+		
+	</div>
+</div>
+</div>
+
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-ui upfront-entity-size-hint uimage-resize-hint"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2365,6 +2575,27 @@ $region_11_a->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1452648356714-1505" style="min-height: 110px; padding: 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<p class="" style="text-align: left;"><span style="font-weight: 300; font-family: \'Open Sans\', sans-serif; color: rgb(51, 51, 51); font-size: 22px; line-height: 1.7em; text-align: right; background-color: rgba(0, 0, 0, 0);" rel="font-weight: 300; font-family: \'Open Sans\', sans-serif; color: rgb(51, 51, 51); font-size: 22px; line-height: 1.7em; text-align: right; background-color: rgba(0, 0, 0, 0);" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-weight: 300; font-family: \'Open Sans\', sans-serif; color: rgb(51, 51, 51); font-size: 22px; line-height: 1.7em; text-align: right; background-color: rgba(0, 0, 0, 0);">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat..."</span></p>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2477,6 +2708,27 @@ $region_11_a->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1452648594345-1991" style="min-height: 25px; padding: 0px 15px 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<h6>Fiona Beauchamp</h6>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2819,6 +3071,40 @@ $region_11_b->add_element("Uimage", array (
       )),
        'current_property' => 'use_padding',
     )),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-image circle-image" id="image-1453356812319-1357" style="min-height: 135px; padding: 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-image">
+		<div class="circle-image">
+	
+	<div class="upfront-image-wrapper uimage uimage-over_image uimage-status-ok uimage-caption-over_image-bottom uimage-stretch " style="text-align: center;">
+	
+		<div class="upfront-image-caption-container" style="margin-top:0px">
+			
+			
+			<div class="upfront-image-container" style="width: 105px; overflow: hidden; position: relative; height: 105px;">
+				<img src="{{upfront:style_url}}/images/archive-home/spirit-testimonial-two.jpg" alt="" title="" style="width: 105px; height: 105px; position: absolute; top: 0px; left: 0px; margin-top: 0px; max-height: none; max-width: none;">
+			</div>
+			
+	
+		
+		
+		
+
+		
+	</div>
+</div>
+</div>
+
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-ui upfront-entity-size-hint uimage-resize-hint"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3111,6 +3397,27 @@ $region_11_b->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1453357038608-1945" style="min-height: 115px; padding: 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<p class=""><span style="font-weight: 300; font-family: \'Open Sans\', sans-serif; color: rgb(51, 51, 51); font-size: 22px; line-height: 1.7em; text-align: right; background-color: rgba(0, 0, 0, 0);">"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."</span></p>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3223,6 +3530,27 @@ $region_11_b->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1453357076344-1653" style="min-height: 20px; padding: 0px 15px 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<h6>Jodie Lamberg</h6>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3566,6 +3894,27 @@ $region_9->add_element("PlainTxt", array (
     'breakpoint_presets' => 
     array (
     ),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1453357115573-1392" style="min-height: 55px; padding: 15px 15px 10px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<h5 style="text-align: center;"><span class="upfront_theme_color_7">JOIN THE WELLNESS REVOLUTION</span></h5>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3761,6 +4110,27 @@ $region_9->add_element("PlainTxt", array (
     ),
     'anchor' => '',
     'current_preset' => 'default',
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="text-object-1453357537363-1570" style="min-height: 30px; padding: 0px 15px 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<p style="text-align: center;">Receive a weekly serving of motivation, recipes and <strong data-redactor-tag="strong" data-verified="redactor"><span class="upfront_theme_color_0">FREE</span></strong> resources directly to your inbox.</p>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,

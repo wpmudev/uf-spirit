@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_0bb070 = upfront_create_region(
+$region_ea1bf0 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -44,7 +44,7 @@ $region_0bb070 = upfront_create_region(
 )
 			);
 
-$region_0bb070->add_element("Uimage", array (
+$region_ea1bf0->add_element("Uimage", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -144,6 +144,40 @@ $region_0bb070->add_element("Uimage", array (
     'breakpoint_presets' => 
     array (
     ),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-image default" id="image-1453435671708-1574" style="min-height: 60px; padding: 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-image">
+		<div class="default">
+	
+	<div class="upfront-image-wrapper uimage uimage-over_image uimage-status-ok uimage-caption-over_image-bottom " style="text-align: left;">
+	
+		<div class="upfront-image-caption-container" style="margin-top:0px">
+			
+			
+			<div class="upfront-image-container" style="width: 75px; overflow: hidden; position: relative; height: 30px;">
+				<img src="{{upfront:style_url}}/images/global-regions/header/logo-nav.png" alt="" title="" style="width: 75px; height: 35px; position: absolute; top: 0px; left: 0px; margin-top: 0px; max-height: none; max-width: none;">
+			</div>
+			
+	
+		
+		
+		
+
+		
+	</div>
+</div>
+</div>
+
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-ui upfront-entity-size-hint uimage-resize-hint"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -190,7 +224,7 @@ $region_0bb070->add_element("Uimage", array (
   ),
 ));
 
-$region_0bb070->add_element("Unewnavigation", array (
+$region_ea1bf0->add_element("Unewnavigation", array (
   'columns' => '17',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -224,7 +258,6 @@ $region_0bb070->add_element("Unewnavigation", array (
            'type' => 'unlink',
            'url' => '#',
            'target' => '',
-           'display_url' => '#',
         )),
       )),
       1 => 
@@ -244,7 +277,6 @@ $region_0bb070->add_element("Unewnavigation", array (
            'type' => 'unlink',
            'url' => '#',
            'target' => '',
-           'display_url' => '#',
         )),
       )),
       2 => 
@@ -264,7 +296,6 @@ $region_0bb070->add_element("Unewnavigation", array (
            'type' => 'unlink',
            'url' => '#',
            'target' => '',
-           'display_url' => '#',
         )),
       )),
       3 => 
@@ -298,7 +329,6 @@ $region_0bb070->add_element("Unewnavigation", array (
                'type' => 'entry',
                'url' => '{{upfront:home_url}}/blog/',
                'target' => '',
-               'display_url' => '{{upfront:home_url}}/blog/',
             )),
           )),
           1 => 
@@ -318,7 +348,6 @@ $region_0bb070->add_element("Unewnavigation", array (
                'type' => 'entry',
                'url' => '{{upfront:home_url}}/blog-2/',
                'target' => '',
-               'display_url' => '{{upfront:home_url}}/blog-2/',
             )),
           )),
         ),
@@ -327,7 +356,6 @@ $region_0bb070->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/blog/',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/blog/',
         )),
       )),
       4 => 
@@ -347,7 +375,6 @@ $region_0bb070->add_element("Unewnavigation", array (
            'type' => 'unlink',
            'url' => '#',
            'target' => '',
-           'display_url' => '#',
         )),
       )),
     ),
@@ -410,7 +437,7 @@ $region_0bb070->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 9,
+         'menu_id' => 4,
          'menu_slug' => 'main-menu',
       )),
     )),
@@ -460,7 +487,7 @@ $region_0bb070->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_0bb070->add_element("Code", array (
+$region_ea1bf0->add_element("Code", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -604,6 +631,6 @@ $region_0bb070->add_element("Code", array (
   ),
 ));
 
-$regions->add($region_0bb070);
+$regions->add($region_ea1bf0);
 
 /* END_REGION_OUTPUT */

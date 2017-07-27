@@ -63,13 +63,13 @@ $footer->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 203,
+         'menu-item-db-id' => 211,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Terms &amp; Privacy',
          'menu-item-url' => '{{upfront:home_url}}/terms/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '203',
+         'menu-item-object-id' => '211',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'menu-item-classes' => '',
@@ -78,7 +78,6 @@ $footer->add_element("Unewnavigation", array (
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/terms/',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/terms/',
         )),
       )),
     ),
@@ -132,7 +131,7 @@ $footer->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 8,
+         'menu_id' => 5,
          'menu_slug' => 'footer-menu',
       )),
     )),
@@ -243,6 +242,27 @@ $footer->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '20',
     'current_preset' => 'copy',
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt copy" id="text-object-1453357589875-1821" style="min-height: 45px; padding: 20px 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text copy" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<p style="text-align: right;">2014-2016 INCSUB</p>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,

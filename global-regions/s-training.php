@@ -65,6 +65,7 @@ $s_training = upfront_create_region(
   'featured_fallback_background_color' => '#ffffff',
   'background_size' => 'auto',
   'region_role' => 'complementary',
+  'featured_image_url' => '{{upfront:style_url}}/images/global-regions/s-training/bg-training.jpg',
 )
 			);
 
@@ -140,6 +141,27 @@ $s_training->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="object-1452646804127-1787" style="min-height: 130px; padding: 100px 15px 10px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<h5 style="text-align: left;">GROUP TRAINING</h5>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
@@ -360,6 +382,27 @@ $s_training->add_element("PlainTxt", array (
       )),
     )),
     'row' => 11,
+    'cached_html' => '<div class="upfront-editable_entity upfront-object c24 upfront-plain_txt default" id="object-1452646810980-1519" style="min-height: 55px; padding: 0px 15px;">
+	<b class="upfront-entity_meta upfront-ui">
+		<!--  <a href="#" class="upfront-icon-button upfront-icon-button-setting upfront-entity-settings_trigger"></a>  -->
+        
+		<!--<a href="#" class="upfront-icon-button upfront-icon-button-delete upfront-entity-delete_trigger"></a>-->
+	</b>
+	
+	<div class="upfront-object-content upfront-output-plain_text ueditable-inactive uf-click-to-edit-text default" title="Double click to edit the text">
+		
+<div class="plain-text-container">
+
+
+<p style="text-align: left;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+
+
+</div>
+
+
+	</div>
+<b class="upfront-resize-handle-element"></b><b class="upfront-resize-handle-element upfront-resize-handle-element-right"></b></div>
+<div class="upfront-entity-size-hint upfront-ui"></div>',
   ),
   'row' => 6,
   'sticky' => false,
