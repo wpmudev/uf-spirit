@@ -1,5 +1,7 @@
 # Spirit
 
+**INACTIVE NOTICE: This theme is unsupported by WPMUDEV, we've published it here for those technical types who might want to fork and maintain it for their needs.**
+
 Share the secrets to healthy living and a better quality of life with Spirit – WordPress Wellness Theme, a high-end profile theme that balances inspiring images, clean typography and custom Upfront design. Connect new users to your yoga class, clean eating recipes or life coaching service.
  
 > Whether you’re providing personal training or promoting a new organic cookbook, Spirit WordPress Wellness Theme offers a professional design with an honest, personal touch.
